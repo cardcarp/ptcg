@@ -1,0 +1,48 @@
+name: Trevenant
+
+origin: twilight-masquerade-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Giga Drain
+    text: Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Forest Dump
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

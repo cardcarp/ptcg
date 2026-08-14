@@ -1,0 +1,41 @@
+name: Komala
+
+origin: sun-moon-black-star-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 775
+
+rule:
+  - type: ability
+    name: Comatose
+    text: As long as this Pokémon is your Active Pokémon, whenever you attach an Energy from your hand to it, it is now Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hypno Roll
+    text: This attack can be used if this Pokémon is Asleep. If it is not Asleep, this attack does nothing.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

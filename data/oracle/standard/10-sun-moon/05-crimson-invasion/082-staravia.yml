@@ -1,0 +1,50 @@
+name: Staravia
+
+origin: crimson-invasion-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Starly
+
+dex: 397
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,60 @@
+name: Aggron VMAX
+
+origin: brilliant-stars-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Metal
+
+hp: 330
+
+preevolution:
+  - Aggron V
+
+dex: 306
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Cracking Stomp
+    text: Discard the top card of your opponent's deck.
+    damage: 150
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Max Take Down
+    text: This Pokémon also does 30 damage to itself.
+    damage: 270
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

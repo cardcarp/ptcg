@@ -1,0 +1,46 @@
+name: Pupitar
+
+origin: prismatic-evolutions-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sand Spray
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

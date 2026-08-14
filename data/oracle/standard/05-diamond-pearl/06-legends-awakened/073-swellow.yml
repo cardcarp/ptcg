@@ -1,0 +1,48 @@
+name: Swellow
+
+origin: legends-awakened-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Taillow
+
+dex: 277
+
+rule:
+  - type: ability
+    name: Big Wing
+    text: If Swellow has no Energy attached to it, Swellow's Retreat Cost is 0.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mach Descent
+    text: If Swellow was on your Bench this turn, this attack's base damage is 60 instead of 30.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

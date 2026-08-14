@@ -1,0 +1,49 @@
+name: Hariyama
+
+origin: ruby-sapphire-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Makuhita
+
+dex: 297
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Shove
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Slap Down
+    text: Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

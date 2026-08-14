@@ -1,0 +1,46 @@
+name: Flareon
+
+origin: sun-moon-black-star-186
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Spin
+    text: Discard 2 Fire Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

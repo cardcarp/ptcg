@@ -1,0 +1,50 @@
+name: Ursaring
+
+origin: darkness-ablaze-139
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Teddiursa
+
+dex: 217
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer Arm
+    text: Discard the top card of your opponent's deck.
+    damage: 70
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

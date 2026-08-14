@@ -1,0 +1,41 @@
+name: Manaphy
+
+origin: ultra-prism-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 490
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Deep Currents
+    text: Shuffle 5 Water Energy cards from your discard pile into your deck.
+  - type: attack
+    cost:
+      - Water
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

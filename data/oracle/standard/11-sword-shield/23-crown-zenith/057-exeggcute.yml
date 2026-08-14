@@ -1,0 +1,43 @@
+name: Exeggcute
+
+origin: crown-zenith-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 102
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psy Bolt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

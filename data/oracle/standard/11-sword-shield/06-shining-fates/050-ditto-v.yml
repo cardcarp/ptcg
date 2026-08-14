@@ -1,0 +1,43 @@
+name: Ditto V
+
+origin: shining-fates-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 170
+
+dex: 132
+
+rule:
+  - type: ability
+    name: V Transformation
+    text: Once during your turn, you may choose a Basic Pokémon V from your discard pile and switch it with this Pokémon. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Stick On
+    text: Attach a basic Energy card from your discard pile to this Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,63 @@
+name: Bewear-GX
+
+origin: sun-moon-black-star-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Colorless
+
+hp: 210
+
+preevolution:
+  - Stufful
+
+dex: 760
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bear Hug
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 80
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Impact
+    text: Flip 2 coins. This attack does 100 damage for each heads.
+    damage: 100
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Big Throw-GX
+    text: Discard your opponent's Active Pokémon and all cards attached to it. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

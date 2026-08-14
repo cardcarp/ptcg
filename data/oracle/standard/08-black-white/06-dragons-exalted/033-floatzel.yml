@@ -1,0 +1,44 @@
+name: Floatzel
+
+origin: dragons-exalted-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Buizel
+
+dex: 419
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Wave Splash
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Waterfall
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

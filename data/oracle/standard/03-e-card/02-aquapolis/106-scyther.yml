@@ -1,0 +1,47 @@
+name: Scyther
+
+origin: aquapolis-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 123
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Mew
+
+origin: pokemon-rumble-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 151
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cut
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Will-o'-the-wisp
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

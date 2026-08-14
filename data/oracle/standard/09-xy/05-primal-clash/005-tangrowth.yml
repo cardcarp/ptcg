@@ -1,0 +1,51 @@
+name: Tangrowth
+
+origin: primal-clash-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Tangela
+
+dex: 465
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Mega Drain
+    text: Heal 20 damage from this Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Grass Knot
+    text: This attack does 10 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

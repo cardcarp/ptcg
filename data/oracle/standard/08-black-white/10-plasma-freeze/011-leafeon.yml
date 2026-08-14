@@ -1,0 +1,55 @@
+name: Leafeon
+
+origin: plasma-freeze-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Eevee
+
+dex: 470
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Crush
+    text: Does 20 damage times the amount of Energy attached to all of your opponent's Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Leaf Blade
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

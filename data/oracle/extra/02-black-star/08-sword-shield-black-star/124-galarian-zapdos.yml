@@ -1,0 +1,40 @@
+name: Galarian Zapdos
+
+origin: sword-shield-black-star-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 145
+
+rule:
+  - type: ability
+    name: Strong Legs Charge
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may attach up to 2 Fighting Energy cards from your hand to this Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Zapper Kick
+    text: You may discard all Energy from this Pokémon. If you do, your opponent's Active Pokémon is now Paralyzed.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+  - E
+
+errata: []

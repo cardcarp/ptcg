@@ -1,0 +1,49 @@
+name: Cacturne δ
+
+origin: crystal-guardians-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Cacnea
+
+dex: 332
+
+rule:
+  - type: ability
+    name: Spike Storm
+    text: Once during your turn (before your attack), if Cacturne is your Active Pokémon, you may put 1 damage counter on 1 of your opponent's Pokémon that already has any damage counters on it. This power can't be used if Cacturne is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fighting
+    name: Triple Needle
+    text: Choose 3 of your opponent's Pokémon. This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Light Punch
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

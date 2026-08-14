@@ -1,0 +1,46 @@
+name: Misty's Golduck
+
+origin: gym-challenge-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Misty's Psyduck
+
+dex: 55
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Electro Beam
+    text: Flip a coin. If tails, discard all Energy cards attached to Misty's Golduck.
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Super Removal
+    text: Flip a coin. If heads, choose 1 Energy card attached to each of your opponent's Pokémon that has any Energy cards and discard those Energy cards.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

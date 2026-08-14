@@ -1,0 +1,42 @@
+name: Heatmor
+
+origin: dragon-majesty-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 631
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Charring Breath
+    text: If your opponent's Active Pokémon isn't Burned, this attack does nothing.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

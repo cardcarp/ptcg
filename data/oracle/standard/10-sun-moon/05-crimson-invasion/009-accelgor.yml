@@ -1,0 +1,44 @@
+name: Accelgor
+
+origin: crimson-invasion-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Shelmet
+
+dex: 617
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Recover
+    text: Discard an Energy from this Pokémon and heal all damage from it.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Speed Attack
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

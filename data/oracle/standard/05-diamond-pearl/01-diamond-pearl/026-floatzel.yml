@@ -1,0 +1,48 @@
+name: Floatzel
+
+origin: diamond-pearl-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Buizel
+
+dex: 419
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Screw Tail
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Water Gun
+    text: Does 40 damage plus 20 more damage for each Water Energy attached to Floatzel but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

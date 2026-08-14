@@ -1,0 +1,51 @@
+name: Pangoro
+
+origin: fusion-strike-174
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Pancham
+
+dex: 675
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Knocking Hammer
+    text: Discard the top card of your opponent's deck.
+    damage: 90
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Shakedown
+    text: Discard a random card from your opponent's hand.
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,36 @@
+name: Grubbin
+
+origin: rebel-clash-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 736
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

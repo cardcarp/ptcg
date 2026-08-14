@@ -1,0 +1,46 @@
+name: Leavanny
+
+origin: emerging-powers-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Swadloon
+
+dex: 542
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nurturing
+    text: Choose 1 of your Pokémon. Search your deck for a card that evolves from that Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 50 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

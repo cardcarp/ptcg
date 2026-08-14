@@ -1,0 +1,35 @@
+name: Poliwag
+
+origin: unbroken-bonds-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 60
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

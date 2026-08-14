@@ -1,0 +1,46 @@
+name: Galarian Moltres V
+
+origin: chilling-reign-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 220
+
+dex: 146
+
+rule:
+  - type: ability
+    name: Direflame Wings
+    text: Once during your turn, you may attach a Darkness Energy card from your discard pile to this Pokémon. You can't use more than 1 Direflame Wings Ability each turn.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Aura Burn
+    text: This Pokémon also does 30 damage to itself.
+    damage: 190
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

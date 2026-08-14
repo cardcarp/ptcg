@@ -1,0 +1,48 @@
+name: Tirtouga
+
+origin: plasma-blast-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Restored
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Cover Fossil
+
+dex: 564
+
+rule:
+  - type: ability
+    name: Prehistoric Call
+    text: Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put this Pokémon on the bottom of your deck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Cover Fossil
+
+regulation:
+
+errata: []

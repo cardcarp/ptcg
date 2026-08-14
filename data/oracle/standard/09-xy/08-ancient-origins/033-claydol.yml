@@ -1,0 +1,45 @@
+name: Claydol
+
+origin: ancient-origins-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Rewind
+    text: Devolve each of your opponent's evolved Pokémon and put the highest Stage Evolution card on it into your opponent's hand.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

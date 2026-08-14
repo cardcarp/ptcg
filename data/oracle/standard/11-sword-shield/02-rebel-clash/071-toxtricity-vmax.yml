@@ -1,0 +1,46 @@
+name: Toxtricity VMAX
+
+origin: rebel-clash-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Lightning
+
+hp: 320
+
+preevolution:
+  - Toxtricity V
+
+dex: 849
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: G-Max Riot
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 80 more damage.
+    damage: 160
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

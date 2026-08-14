@@ -1,0 +1,43 @@
+name: Skiploom
+
+origin: heartgold-soulsilver-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Hoppip
+
+dex: 188
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

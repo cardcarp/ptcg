@@ -1,0 +1,39 @@
+name: Mankey
+
+origin: battle-styles-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 56
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Focus Fist
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

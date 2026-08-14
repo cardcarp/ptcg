@@ -1,0 +1,50 @@
+name: Vileplume
+
+origin: boundaries-crossed-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: ability
+    name: Allergy Panic
+    text: Apply Weakness for each Pokémon (both yours and your opponent's) as x4 instead.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Pollen Spray
+    text: The Defending Pokémon is now Asleep and Poisoned.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

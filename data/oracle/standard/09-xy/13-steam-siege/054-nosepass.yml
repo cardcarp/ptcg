@@ -1,0 +1,42 @@
+name: Nosepass
+
+origin: steam-siege-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 299
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Thunder Wave
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rolling Tackle
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

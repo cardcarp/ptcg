@@ -1,0 +1,41 @@
+name: Seaking
+
+origin: pitch-black-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Jet
+    text: This attack does 30 damage to 1 of your opponent's Pokémon for each Water Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

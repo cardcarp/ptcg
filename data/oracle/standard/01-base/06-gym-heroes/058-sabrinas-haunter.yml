@@ -1,0 +1,39 @@
+name: Sabrina's Haunter
+
+origin: gym-heroes-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 50
+
+preevolution:
+  - Sabrina's Gastly
+
+dex: 93
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Night Spirits
+    text: Flip a number of coins equal to the total number of Sabrina's Gastlys, Sabrina's Haunters, and Sabrina's Gengars you have in play. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

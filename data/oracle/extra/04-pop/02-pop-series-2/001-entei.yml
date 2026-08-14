@@ -1,0 +1,46 @@
+name: Entei
+
+origin: pop-series-2-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 244
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Spin
+    text: Discard 2 Basic Energy cards attached to Entei or this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

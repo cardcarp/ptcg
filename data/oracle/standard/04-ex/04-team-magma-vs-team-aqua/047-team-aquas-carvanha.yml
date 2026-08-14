@@ -1,0 +1,43 @@
+name: Team Aqua's Carvanha
+
+origin: team-magma-vs-team-aqua-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 318
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Poison Fang
+    text: The Defending Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

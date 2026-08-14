@@ -1,0 +1,46 @@
+name: Vullaby
+
+origin: emerging-powers-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 629
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Rear Guard
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Gust
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

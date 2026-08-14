@@ -1,0 +1,49 @@
+name: Wailord
+
+origin: supreme-victors-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rest
+    text: Remove all Special Conditions and 4 damage counters from Wailord. Wailord is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Giant Wave
+    text: Wailord can't use Giant Wave during your next turn.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

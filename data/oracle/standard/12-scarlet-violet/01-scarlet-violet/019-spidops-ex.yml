@@ -1,0 +1,49 @@
+name: Spidops ex
+
+origin: scarlet-violet-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 260
+
+preevolution:
+  - Tarountula
+
+dex: 918
+
+rule:
+  - type: ability
+    name: Trap Territory
+    text: Your opponent's Active Pokémon's Retreat Cost is Colorless more.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Wire Hang
+    text: This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

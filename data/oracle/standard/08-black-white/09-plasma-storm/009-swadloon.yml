@@ -1,0 +1,45 @@
+name: Swadloon
+
+origin: plasma-storm-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Sewaddle
+
+dex: 541
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Swaddle Guard
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

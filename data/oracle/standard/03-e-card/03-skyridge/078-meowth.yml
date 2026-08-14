@@ -1,0 +1,36 @@
+name: Meowth
+
+origin: skyridge-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 52
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sudden Swipe
+    text: Flip a coin. If heads, look at your opponent's hand. If he or she has any Energy cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

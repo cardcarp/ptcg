@@ -1,0 +1,59 @@
+name: Steelix
+
+origin: skyridge-029h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: ability
+    name: Rare Metal
+    text: All basic Energy cards attached to Steelix provide Metal Energy instead of their usual types.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Squeeze
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage and the Defending Pokémon is now Paralyzed.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Metal Tail
+    text: Before doing damage, you may flip a coin. If heads, this attack does 80 damage. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

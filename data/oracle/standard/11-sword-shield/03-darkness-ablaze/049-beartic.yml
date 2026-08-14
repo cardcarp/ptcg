@@ -1,0 +1,48 @@
+name: Beartic
+
+origin: darkness-ablaze-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Cubchoo
+
+dex: 614
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frozen Slice
+    text: This Pokémon also does 50 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,38 @@
+name: Pancham
+
+origin: guardians-rising-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 674
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Karate Chop
+    text: This attack does 10 less damage for each damage counter on this Pokémon.
+    damage: 60
+    modifier: '-'
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

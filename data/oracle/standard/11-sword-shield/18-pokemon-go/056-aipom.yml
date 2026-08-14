@@ -1,0 +1,43 @@
+name: Aipom
+
+origin: pokemon-go-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 190
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bustle
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slap
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

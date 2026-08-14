@@ -1,0 +1,42 @@
+name: Floette
+
+origin: scarlet-violet-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Flabébé
+
+dex: 670
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Magical Leaf
+    text: Flip a coin. If heads, this attack does 30 more damage, and heal 30 damage from this Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,47 @@
+name: Croconaw
+
+origin: expedition-base-set-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Croconaw does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

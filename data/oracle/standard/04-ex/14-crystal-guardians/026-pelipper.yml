@@ -1,0 +1,56 @@
+name: Pelipper δ
+
+origin: crystal-guardians-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Wingull
+
+dex: 279
+
+rule:
+  - type: ability
+    name: Delta Transport
+    text: Once during your turn (before your attack), if Pelipper is on your Bench, you may switch 1 of your Active Pokémon that has δ on its card with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Supersonic
+    text: The Defending Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

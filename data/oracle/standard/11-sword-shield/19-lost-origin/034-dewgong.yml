@@ -1,0 +1,48 @@
+name: Dewgong
+
+origin: lost-origin-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Seel
+
+dex: 87
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Swim Freely
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Floe Return
+    text: Shuffle any amount of Water Energy from your Pokémon into your deck. This attack does 40 damage for each card you shuffled into your deck in this way.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

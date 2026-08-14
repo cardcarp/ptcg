@@ -1,0 +1,39 @@
+name: Lapras
+
+origin: brilliant-stars-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 131
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Raging Freeze
+    text: If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, your opponent's Active Pokémon is now Paralyzed.
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

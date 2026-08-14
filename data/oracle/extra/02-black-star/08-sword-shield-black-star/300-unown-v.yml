@@ -1,0 +1,53 @@
+name: Unown V
+
+origin: sword-shield-black-star-300
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 201
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Shady Stamp
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Victory Symbol
+    text: If you use this attack when you have only 1 Prize card remaining, you win this game.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

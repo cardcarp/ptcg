@@ -1,0 +1,51 @@
+name: Gyarados
+
+origin: xy-black-star-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Full Retaliation
+    text: This attack does 30 more damage for each damage counter on each of your Benched Magikarp.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Thrash
+    text: Flip a coin. If heads, this attack does 30 more damage. If tails, this Pokémon does 30 damage to itself.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

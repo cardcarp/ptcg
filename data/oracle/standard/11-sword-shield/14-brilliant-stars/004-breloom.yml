@@ -1,0 +1,46 @@
+name: Breloom
+
+origin: brilliant-stars-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Shroomish
+
+dex: 286
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Spore Ball
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+    name: Powdery Uppercut
+    text: You can use this attack only if this Pokémon used Spore Ball during your last turn.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

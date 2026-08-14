@@ -1,0 +1,41 @@
+name: Sabrina's Psyduck
+
+origin: gym-challenge-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+    name: Random ESP
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, this attack does no damage and Sabrina's Psyduck is now Confused.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

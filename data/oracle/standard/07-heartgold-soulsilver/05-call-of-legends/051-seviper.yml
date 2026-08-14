@@ -1,0 +1,43 @@
+name: Seviper
+
+origin: call-of-legends-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 336
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Poison Buildup
+    text: Seviper is now Poisoned.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poison Effect
+    text: If Seviper is Poisoned, this attack does 20 damage plus 60 more damage and remove the Special Condition Poisoned from Seviper.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

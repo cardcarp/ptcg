@@ -1,0 +1,49 @@
+name: Talonflame
+
+origin: guardians-rising-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Fletchinder
+
+dex: 663
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flame Charge
+    text: Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Loop-the-Loop
+    text: Put all Energy attached to this Pokémon into your hand.
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

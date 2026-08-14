@@ -1,0 +1,45 @@
+name: Honedge
+
+origin: unified-minds-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 679
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lucky Find
+    text: Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+    name: Pierce
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

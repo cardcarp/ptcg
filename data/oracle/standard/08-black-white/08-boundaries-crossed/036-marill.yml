@@ -1,0 +1,43 @@
+name: Marill
+
+origin: boundaries-crossed-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 183
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Water Gun
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

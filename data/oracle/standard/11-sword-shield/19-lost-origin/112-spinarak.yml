@@ -1,0 +1,37 @@
+name: Spinarak
+
+origin: lost-origin-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 167
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

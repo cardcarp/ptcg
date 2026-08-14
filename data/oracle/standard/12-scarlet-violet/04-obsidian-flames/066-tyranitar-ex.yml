@@ -1,0 +1,54 @@
+name: Tyranitar ex
+
+origin: obsidian-flames-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+  - Tera
+
+type:
+  - Lightning
+
+hp: 340
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Mountain Hurl
+    text: Discard the top 2 cards of your deck.
+    damage: 120
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Lightning Rampage
+    text: If your Benched Pokémon have any damage counters on them, this attack does 100 more damage.
+    damage: 150
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - G
+
+errata: []

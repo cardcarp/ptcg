@@ -1,0 +1,48 @@
+name: Altaria
+
+origin: champions-path-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: ability
+    name: Miraculous Charm
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon V and Pokémon-GX.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Speed Dive
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

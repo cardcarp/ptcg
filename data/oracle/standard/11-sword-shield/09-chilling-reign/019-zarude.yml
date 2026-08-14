@@ -1,0 +1,45 @@
+name: Zarude
+
+origin: chilling-reign-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 893
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Pack Call
+    text: Search your deck for a Grass Pokémon, reveal it, and put it into your hand. If you go second and it's your first turn, search for up to 3 Grass Pokémon instead of 1. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Repeated Whip
+    text: This attack does 20 more damage for each Grass Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

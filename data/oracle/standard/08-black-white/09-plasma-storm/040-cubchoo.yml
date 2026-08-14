@@ -1,0 +1,42 @@
+name: Cubchoo
+
+origin: plasma-storm-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 613
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Hail
+    text: Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Icy Snow
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

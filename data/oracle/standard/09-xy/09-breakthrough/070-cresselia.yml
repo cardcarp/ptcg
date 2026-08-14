@@ -1,0 +1,41 @@
+name: Cresselia
+
+origin: breakthrough-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 488
+
+rule:
+  - type: ability
+    name: My Way
+    text: If there is any Stadium card in play, this Pokémon has no Retreat Cost.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Moonlight Gain
+    text: Heal 20 damage from this Pokémon.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

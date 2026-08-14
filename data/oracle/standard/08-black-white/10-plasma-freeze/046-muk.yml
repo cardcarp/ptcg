@@ -1,0 +1,51 @@
+name: Muk
+
+origin: plasma-freeze-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Poison Suction
+    text: If the Defending Pokémon is Poisoned, heal 60 damage from this Pokémon.
+    damage: 60
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Sludge Crash
+    text: Flip a coin until you get tails. For each heads, discard an Energy attached to the Defending Pokémon.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Arrokuda
+
+origin: fusion-strike-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 846
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Peck
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

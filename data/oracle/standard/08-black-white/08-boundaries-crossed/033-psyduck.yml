@@ -1,0 +1,35 @@
+name: Psyduck
+
+origin: boundaries-crossed-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Firefighting
+    text: Discard a Fire Energy attached to the Defending Pokémon.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Kingler VMAX
+
+origin: brilliant-stars-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Water
+
+hp: 330
+
+preevolution:
+  - Kingler V
+
+dex: 99
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Bubbles Galore
+    text: Search your deck for up to 5 Water Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: G-Max Pincer
+    text: This Pokémon also does 30 damage to itself.
+    damage: 240
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

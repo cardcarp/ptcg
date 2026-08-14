@@ -1,0 +1,49 @@
+name: Spectrier
+
+origin: lost-origin-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 897
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Night Footsteps
+    text: Choose 2 of your opponent's Pokémon and put 2 damage counters on each of them.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Phantom Strike
+    text: During your next turn, this Pokémon can't use Phantom Strike.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

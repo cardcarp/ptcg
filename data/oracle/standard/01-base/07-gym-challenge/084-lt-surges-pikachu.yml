@@ -1,0 +1,36 @@
+name: Lt. Surge's Pikachu
+
+origin: gym-challenge-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

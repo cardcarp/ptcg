@@ -1,0 +1,38 @@
+name: Kakuna
+
+origin: plasma-freeze-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Weedle
+
+dex: 14
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Hide
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

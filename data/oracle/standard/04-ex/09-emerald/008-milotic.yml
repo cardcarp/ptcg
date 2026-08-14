@@ -1,0 +1,46 @@
+name: Milotic
+
+origin: emerald-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Surf
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Super Hypno Wave
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

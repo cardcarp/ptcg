@@ -1,0 +1,45 @@
+name: Tauros
+
+origin: firered-leafgreen-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Knock Over
+    text: You may discard any Stadium card in play.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rampage
+    text: Does 20 damage plus 10 more damage for each damage counter on Tauros. After doing damage, flip a coin. If tails, Tauros is now Confused.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

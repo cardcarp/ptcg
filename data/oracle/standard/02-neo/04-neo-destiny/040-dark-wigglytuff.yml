@@ -1,0 +1,53 @@
+name: Dark Wigglytuff
+
+origin: neo-destiny-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dark Song
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slap Awake
+    text: If the Defending Pokémon is Asleep or Confused, this attack does 20 damage plus 20 more damage. Then, the Defending Pokémon is no longer Asleep or Confused.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Swablu
+
+origin: legendary-treasures-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 333
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Glare and Peck
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

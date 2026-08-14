@@ -1,0 +1,40 @@
+name: Dolliv
+
+origin: obsidian-flames-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Smoliv
+
+dex: 929
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Sunny Wind
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

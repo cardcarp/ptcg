@@ -1,0 +1,43 @@
+name: Kangaskhan
+
+origin: aquapolis-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 115
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Baby Outing
+    text: Look at the top 3 cards of your deck, and then choose 1 of those cards and put it into your hand. Shuffle the rest into your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mega Punch
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

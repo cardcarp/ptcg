@@ -1,0 +1,44 @@
+name: Yamask
+
+origin: white-flare-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 562
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Focused Wish
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

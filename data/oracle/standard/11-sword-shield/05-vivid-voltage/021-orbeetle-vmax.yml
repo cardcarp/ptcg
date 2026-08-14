@@ -1,0 +1,48 @@
+name: Orbeetle VMAX
+
+origin: vivid-voltage-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Grass
+
+hp: 310
+
+preevolution:
+  - Orbeetle V
+
+dex: 826
+
+rule:
+  - type: ability
+    name: Eerie Beam
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may put 1 damage counter on each of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: G-Max Wave
+    text: This attack does 50 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

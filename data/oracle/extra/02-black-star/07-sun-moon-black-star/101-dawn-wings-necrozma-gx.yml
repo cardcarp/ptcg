@@ -1,0 +1,59 @@
+name: Dawn Wings Necrozma-GX
+
+origin: sun-moon-black-star-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+  - Ultra Beast
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 800
+
+rule:
+  - type: ability
+    name: Invasion
+    text: Once during your turn (before your attack), if this Pokémon is on your Bench, you may switch it with your Active Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Dark Flash
+    text: This attack's damage isn't affected by Resistance.
+    damage: 120
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Moon's Eclipse-GX
+    text: You can use this attack only if you have more Prize cards remaining than your opponent. Prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)
+    damage: 180
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

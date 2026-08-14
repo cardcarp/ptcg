@@ -1,0 +1,44 @@
+name: Slither Wing
+
+origin: paradox-rift-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ancient
+
+type:
+  - Fighting
+
+hp: 140
+
+dex: 988
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Stomp Off
+    text: Discard the top card of your opponent's deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Burning Turbulence
+    text: This Pokémon also does 90 damage to itself. Your opponent's Active Pokémon is now Burned.
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,44 @@
+name: Shroomish
+
+origin: temporal-forces-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 285
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Headbutt
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Seed Bomb
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

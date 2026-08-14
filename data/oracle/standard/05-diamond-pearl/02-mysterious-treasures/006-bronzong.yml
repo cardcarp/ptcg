@@ -1,0 +1,49 @@
+name: Bronzong
+
+origin: mysterious-treasures-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: ability
+    name: Miracle Oracle
+    text: Once during your turn (before your attack), you may draw a card. Then, discard a card from your hand. If you discard an Energy card, draw 1 more card. This power can't be used if Bronzong is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Shady Stamp
+    text: The Defending Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

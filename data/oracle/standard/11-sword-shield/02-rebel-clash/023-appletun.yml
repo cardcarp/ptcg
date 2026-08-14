@@ -1,0 +1,43 @@
+name: Appletun
+
+origin: rebel-clash-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Applin
+
+dex: 842
+
+rule:
+  - type: ability
+    name: Delicious Aroma
+    text: Once during your turn, you may flip a coin. If heads, switch 1 of your opponent's Benched Basic Pokémon with their Active Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Solar Beam
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

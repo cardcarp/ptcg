@@ -1,0 +1,45 @@
+name: Comfey
+
+origin: guardians-rising-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 764
+
+rule:
+  - type: ability
+    name: Flower Shield
+    text: Each of your Pokémon that has any Fairy Energy attached to it can't be affected by any Special Conditions. Remove any Special Conditions affecting those Pokémon.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Sweet Kiss
+    text: Your opponent draws a card.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

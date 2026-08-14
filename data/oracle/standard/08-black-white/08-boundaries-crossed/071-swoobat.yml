@@ -1,0 +1,51 @@
+name: Swoobat
+
+origin: boundaries-crossed-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Woobat
+
+dex: 528
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Jet Woofer
+    text: For each Psychic Energy attached to this Pokémon, discard the top card of your opponent's deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Acrobatics
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

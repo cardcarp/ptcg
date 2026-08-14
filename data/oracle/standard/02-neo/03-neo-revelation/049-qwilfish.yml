@@ -1,0 +1,44 @@
+name: Qwilfish
+
+origin: neo-revelation-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 211
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Poison Sting
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Needle Storm
+    text: Flip a coin until you get tails. This attack does 20 damage times the number of heads you get.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Wiglett
+
+origin: scarlet-violet-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 960
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dig a Little
+    text: Flip a coin. If heads, discard the top card of your opponent's deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

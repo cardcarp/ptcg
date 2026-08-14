@@ -1,0 +1,39 @@
+name: Sealeo
+
+origin: mysterious-treasures-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Spheal
+
+dex: 364
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Ice Rider
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Metal
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Raichu δ
+
+origin: holon-phantoms-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Zzzap
+    text: Does 20 damage to each Pokémon that has any Poké-Powers or Poké-Bodies (both yours and your opponent's). Don't apply Weakness or Resistance.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Metallic Thunder
+    text: You may discard 2 Metal Energy attached to Raichu. If you do, this attack's base damage is 90 instead of 50.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

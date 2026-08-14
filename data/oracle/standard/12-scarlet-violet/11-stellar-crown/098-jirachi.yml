@@ -1,0 +1,47 @@
+name: Jirachi
+
+origin: stellar-crown-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 385
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Swelling Wish
+    text: Attach a Basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Slap
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

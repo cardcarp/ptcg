@@ -1,0 +1,41 @@
+name: Entei
+
+origin: crown-zenith-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 244
+
+rule:
+  - type: ability
+    name: Explosive Heat Dash
+    text: If this Pokémon has any Fire Energy attached, it has no Retreat Cost.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

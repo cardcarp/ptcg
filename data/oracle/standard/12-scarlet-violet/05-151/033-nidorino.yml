@@ -1,0 +1,46 @@
+name: Nidorino
+
+origin: 151-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Nidoran♂
+
+dex: 33
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Sharp Fang
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Superpowered Horns
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

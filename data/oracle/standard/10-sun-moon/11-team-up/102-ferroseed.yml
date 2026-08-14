@@ -1,0 +1,42 @@
+name: Ferroseed
+
+origin: team-up-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 597
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Continuous Tumble
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

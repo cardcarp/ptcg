@@ -1,0 +1,42 @@
+name: Vigoroth
+
+origin: deoxys-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Slakoth
+
+dex: 288
+
+rule:
+  - type: ability
+    name: Vigorous Aura
+    text: As long as Vigoroth is your Active Pokémon, attacks by each player's Active Pokémon (both if there are 2) do 10 more damage to any Active Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

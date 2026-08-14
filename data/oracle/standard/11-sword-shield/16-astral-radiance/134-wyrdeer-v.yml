@@ -1,0 +1,47 @@
+name: Wyrdeer V
+
+origin: astral-radiance-134
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 220
+
+dex: 899
+
+rule:
+  - type: ability
+    name: Frontier Road
+    text: Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may move any amount of Energy from your other Pokémon to it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psyshield Bash
+    text: This attack does 40 damage for each Energy attached to this Pokémon.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

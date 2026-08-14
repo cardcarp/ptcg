@@ -1,0 +1,43 @@
+name: Celebi
+
+origin: sun-moon-black-star-224
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 251
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Greatness
+    text: Search your deck for up to 3 Pokémon-GX with different names, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psy Bolt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

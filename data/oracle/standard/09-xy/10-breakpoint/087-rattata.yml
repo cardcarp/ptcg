@@ -1,0 +1,35 @@
+name: Rattata
+
+origin: breakpoint-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 30
+
+dex: 19
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dangerous Suspicion
+    text: Draw a card. Switch this Pokémon with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

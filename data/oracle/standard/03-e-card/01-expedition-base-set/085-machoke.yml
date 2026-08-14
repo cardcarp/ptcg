@@ -1,0 +1,46 @@
+name: Machoke
+
+origin: expedition-base-set-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Punch
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mega Kick
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

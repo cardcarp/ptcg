@@ -1,0 +1,44 @@
+name: Shuppet
+
+origin: pitch-black-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 353
+
+rule:
+  - type: ability
+    name: Hide 'n' Sneak
+    text: Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)
+  - type: attack
+    cost:
+      - Psychic
+    name: Hang Down
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

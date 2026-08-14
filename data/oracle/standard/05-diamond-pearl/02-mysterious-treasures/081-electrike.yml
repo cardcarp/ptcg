@@ -1,0 +1,41 @@
+name: Electrike
+
+origin: mysterious-treasures-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 309
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Electromagnetic Jam
+    text: Flip a coin. If heads, your opponent can't attach any Energy cards from his or her hand to the Active Pokémon during his or her next turn.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

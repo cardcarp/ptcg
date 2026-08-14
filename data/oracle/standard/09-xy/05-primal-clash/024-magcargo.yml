@@ -1,0 +1,48 @@
+name: Magcargo
+
+origin: primal-clash-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ram
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Indomitable Blaze
+    text: If your opponent's Active Pokémon is a Pokémon-EX, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Kecleon
+
+origin: surging-sparks-150
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 352
+
+rule:
+  - type: ability
+    name: Expert Hider
+    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lick Whip
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

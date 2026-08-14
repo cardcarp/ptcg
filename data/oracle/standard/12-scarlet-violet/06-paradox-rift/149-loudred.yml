@@ -1,0 +1,46 @@
+name: Loudred
+
+origin: paradox-rift-149
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Whismur
+
+dex: 294
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mega Impact
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

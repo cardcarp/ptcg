@@ -1,0 +1,36 @@
+name: Gible
+
+origin: mysterious-treasures-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 443
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Push Down
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Colorless
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

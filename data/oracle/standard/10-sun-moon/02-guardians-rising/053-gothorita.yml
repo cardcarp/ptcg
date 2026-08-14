@@ -1,0 +1,45 @@
+name: Gothorita
+
+origin: guardians-rising-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Gothita
+
+dex: 575
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Slap
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

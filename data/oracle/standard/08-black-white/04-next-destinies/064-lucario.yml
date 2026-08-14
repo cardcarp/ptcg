@@ -1,0 +1,43 @@
+name: Lucario
+
+origin: next-destinies-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: ability
+    name: Reflexive Retaliation
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Aura Sphere
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Cufant
+
+origin: fusion-strike-191
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Metal
+
+hp: 100
+
+dex: 878
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: High Horsepower
+    text: This Pokémon also does 20 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

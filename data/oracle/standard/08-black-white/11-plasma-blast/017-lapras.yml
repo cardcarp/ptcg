@@ -1,0 +1,44 @@
+name: Lapras
+
+origin: plasma-blast-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 131
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Cleanse Away
+    text: Heal 30 damage from each of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

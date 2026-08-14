@@ -1,0 +1,42 @@
+name: Cloyster
+
+origin: secret-wonders-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Shellder
+
+dex: 91
+
+rule:
+  - type: attack
+    name: Withdraw
+    text: Flip a coin. If heads, prevent all damage done to Cloyster by attacks during your opponent's next turn.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Spine Missile
+    text: Flip 4 coins. For each heads, choose an opponent's Pokémon in play and this attack does 20 damage to those Pokémon. (You may choose the same Pokémon more than once.) (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

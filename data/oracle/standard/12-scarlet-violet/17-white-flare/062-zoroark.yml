@@ -1,0 +1,48 @@
+name: Zoroark
+
+origin: white-flare-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Mind Jack
+    text: This attack does 30 damage for each of your opponent's Benched Pokémon.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Foul Play
+    text: Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

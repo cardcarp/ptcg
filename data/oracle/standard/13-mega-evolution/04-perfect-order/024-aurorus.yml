@@ -1,0 +1,45 @@
+name: Aurorus
+
+origin: perfect-order-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Amaura
+
+dex: 699
+
+rule:
+  - type: ability
+    name: Tundra Wall
+    text: All of your Pokémon that have any Water Energy attached take 50 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance). The effect of Tundra Wall doesn't stack.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Freezing Chill
+    text: During your opponent's next turn, the Defending Pokémon can't use attacks.
+    damage: 150
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

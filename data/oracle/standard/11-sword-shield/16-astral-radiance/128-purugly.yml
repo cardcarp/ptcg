@@ -1,0 +1,47 @@
+name: Purugly
+
+origin: astral-radiance-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Glameow
+
+dex: 432
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slashing Claw
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

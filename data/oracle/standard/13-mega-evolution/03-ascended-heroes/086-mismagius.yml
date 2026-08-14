@@ -1,0 +1,46 @@
+name: Mismagius
+
+origin: ascended-heroes-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Assassin's Magic
+    text: If your opponent's Active Pokémon is affected by a Special Condition, place 6 damage counters on 1 of your opponent's Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

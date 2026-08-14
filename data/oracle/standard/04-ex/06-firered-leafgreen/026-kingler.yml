@@ -1,0 +1,46 @@
+name: Kingler
+
+origin: firered-leafgreen-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Krabby
+
+dex: 99
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Salt Water
+    text: Search your deck for up to 2 Water Energy cards and attach them to Kingler. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hyper Pump
+    text: Does 30 damage plus 20 more damage for each basic Energy attached to Kingler but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

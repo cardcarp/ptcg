@@ -1,0 +1,49 @@
+name: Galarian Mr. Rime
+
+origin: battle-styles-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Galarian Mr. Mime
+
+dex: 866
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ball Juggling
+    text: Discard any number of Item cards that have the word "Ball" in their name from your hand. This attack does 40 more damage for each card you discarded in this way.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Smash
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

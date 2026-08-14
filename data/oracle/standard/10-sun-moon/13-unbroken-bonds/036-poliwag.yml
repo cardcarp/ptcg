@@ -1,0 +1,38 @@
+name: Poliwag
+
+origin: unbroken-bonds-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 60
+
+rule:
+  - type: ability
+    name: Round 'n' Round
+    text: You can use this Ability only if you go second. Once during your first turn (before your attack), you may leave your opponent's Active Pokémon Confused.
+  - type: attack
+    cost:
+      - Water
+    name: Watering
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Kyogre
+
+origin: call-of-legends-006sl
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 382
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Destructive Tsunami
+    text: Flip a coin. If heads, this attack does 40 damage to each of your opponent's Pokémon. If tails, this attack does 40 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

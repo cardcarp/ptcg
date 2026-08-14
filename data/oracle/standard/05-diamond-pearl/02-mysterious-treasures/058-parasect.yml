@@ -1,0 +1,47 @@
+name: Parasect
+
+origin: mysterious-treasures-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Paras
+
+dex: 47
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Wild Spores
+    text: If Parasect evolved from Paras during this turn, this attack does 40 damage and the Defending Pokémon is now Asleep and Poisoned.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Extend Fungus
+    text: Remove 2 damage counters from Parasect.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

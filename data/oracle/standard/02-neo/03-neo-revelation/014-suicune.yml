@@ -1,0 +1,41 @@
+name: Suicune
+
+origin: neo-revelation-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 245
+
+rule:
+  - type: ability
+    name: Crystal Body
+    text: Prevent all effects of your opponent's attacks, other than damage, done to Suicune. This power stops working while Suicune is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Aurora Wave
+    text: Flip 2 coins. If both are heads, the Defending Pokémon is now Paralyzed. If only 1 is heads, the Defending Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,35 @@
+name: Torchic
+
+origin: ruby-sapphire-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 255
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Klink
+
+origin: darkness-ablaze-125
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 599
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Call for Backup
+    text: Search your deck for a Metal Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,49 @@
+name: Exploud
+
+origin: celestial-storm-119
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Loudred
+
+dex: 295
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dangerous Concert
+    text: This attack does 30 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 80
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

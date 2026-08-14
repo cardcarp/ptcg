@@ -1,0 +1,51 @@
+name: Charizard-EX
+
+origin: generations-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 180
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flame Cloak
+    text: Attach a Fire Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Burning Breath
+    text: Flip 2 coins. This attack does 40 more damage for each heads.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

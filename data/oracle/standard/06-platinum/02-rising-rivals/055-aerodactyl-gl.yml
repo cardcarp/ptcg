@@ -1,0 +1,46 @@
+name: Aerodactyl GL
+
+origin: rising-rivals-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 142
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Primal Breath
+    text: Your opponent can't play any Pokémon from his or her hand to Evolve or to Level-Up the Defending Pokémon during his or her next turn.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

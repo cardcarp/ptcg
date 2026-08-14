@@ -1,0 +1,43 @@
+name: Magikarp
+
+origin: deoxys-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Leap Out
+    text: Switch Magikarp with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Magikarp.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

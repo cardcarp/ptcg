@@ -1,0 +1,43 @@
+name: Malamar
+
+origin: sun-moon-black-star-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Inkay
+
+dex: 687
+
+rule:
+  - type: ability
+    name: Psychic Recharge
+    text: Once during your turn (before your attack), you may attach a Psychic Energy card from your discard pile to 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic Sphere
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

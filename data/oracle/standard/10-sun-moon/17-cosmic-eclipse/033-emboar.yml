@@ -1,0 +1,44 @@
+name: Emboar
+
+origin: cosmic-eclipse-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 170
+
+preevolution:
+  - Pignite
+
+dex: 500
+
+rule:
+  - type: ability
+    name: Explosive Fire Dance
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may look at the top 8 cards of your deck and attach any number of basic Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

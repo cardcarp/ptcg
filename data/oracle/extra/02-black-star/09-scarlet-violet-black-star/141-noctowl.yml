@@ -1,0 +1,48 @@
+name: Noctowl
+
+origin: scarlet-violet-black-star-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Hoothoot
+
+dex: 164
+
+rule:
+  - type: ability
+    name: Jewel Seeker
+    text: Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, if you have any Tera Pokémon in play, you may search your deck for up to 2 Trainer cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Speed Wing
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

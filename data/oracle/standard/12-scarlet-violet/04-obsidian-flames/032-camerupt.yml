@@ -1,0 +1,49 @@
+name: Camerupt
+
+origin: obsidian-flames-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Eruption
+    text: Discard the top card of each player's deck. This attack does 100 more damage for each Energy card discarded in this way.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Steaming Stomp
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

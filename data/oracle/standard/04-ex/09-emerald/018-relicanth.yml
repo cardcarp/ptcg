@@ -1,0 +1,42 @@
+name: Relicanth
+
+origin: emerald-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 369
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sharp Fin
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hypno Splash
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

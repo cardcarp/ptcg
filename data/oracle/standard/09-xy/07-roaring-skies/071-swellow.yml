@@ -1,0 +1,53 @@
+name: Swellow
+
+origin: roaring-skies-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Taillow
+
+dex: 277
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Clutch
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Aerial Ace
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

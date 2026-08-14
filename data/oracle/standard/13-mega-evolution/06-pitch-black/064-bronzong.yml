@@ -1,0 +1,52 @@
+name: Bronzong
+
+origin: pitch-black-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Gentle Slap
+    damage: 40
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Metal Block
+    text: During your opponent's next turn, this Pokémon takes 100 less damage from attacks from Evolution Pokémon (after applying Weakness and Resistance).
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

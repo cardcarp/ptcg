@@ -1,0 +1,46 @@
+name: Jynx
+
+origin: aquapolis-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 124
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Meditate
+    text: This attack does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,52 @@
+name: Ferrothorn
+
+origin: white-flare-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Ferroseed
+
+dex: 598
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Power Whip
+    text: This attack does 20 damage to 1 of your opponent's Pokémon for each Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Metal Claw
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

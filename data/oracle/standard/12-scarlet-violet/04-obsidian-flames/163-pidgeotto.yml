@@ -1,0 +1,45 @@
+name: Pidgeotto
+
+origin: obsidian-flames-163
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Pidgey
+
+dex: 17
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

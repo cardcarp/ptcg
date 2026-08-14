@@ -1,0 +1,48 @@
+name: Ninetales
+
+origin: aquapolis-019h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Miracle Tail
+    text: Flip a coin. If heads, choose a Special Condition (Asleep, Burned, Confused, Paralyzed, or Poisoned). The Defending Pokémon is now affected by that Special Condition.
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Roasting Heat
+    text: If the Defending Pokémon is Burned, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

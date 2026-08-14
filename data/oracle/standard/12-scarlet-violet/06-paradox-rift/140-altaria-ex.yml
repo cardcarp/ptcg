@@ -1,0 +1,43 @@
+name: Altaria ex
+
+origin: paradox-rift-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Dragon
+
+hp: 260
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: ability
+    name: Humming Heal
+    text: Once during your turn, you may heal 20 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Metal
+    name: Light Pulse
+    text: During your opponent's next turn, prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)
+    damage: 140
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

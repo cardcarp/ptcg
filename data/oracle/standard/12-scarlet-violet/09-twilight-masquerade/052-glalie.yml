@@ -1,0 +1,49 @@
+name: Glalie
+
+origin: twilight-masquerade-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Snorunt
+
+dex: 362
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Damage Beat
+    text: This attack does 20 damage for each damage counter on your opponent's Active Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Crazy Headbutt
+    text: Discard an Energy from this Pokémon.
+    damage: 140
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

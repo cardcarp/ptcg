@@ -1,0 +1,39 @@
+name: Fuecoco
+
+origin: mega-evolution-black-star-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 909
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

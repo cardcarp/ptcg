@@ -1,0 +1,40 @@
+name: Relicanth
+
+origin: great-encounters-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 369
+
+rule:
+  - type: attack
+    name: Primal Calling
+    text: Search your deck for up to 3 Trainer Cards that have Fossil in their names, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sleep Swirl
+    text: Both Relicanth and the Defending Pokémon are now Asleep.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

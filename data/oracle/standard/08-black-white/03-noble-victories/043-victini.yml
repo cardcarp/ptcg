@@ -1,0 +1,36 @@
+name: Victini
+
+origin: noble-victories-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 494
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: V-blast
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

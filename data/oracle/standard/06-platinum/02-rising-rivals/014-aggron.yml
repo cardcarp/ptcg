@@ -1,0 +1,60 @@
+name: Aggron
+
+origin: rising-rivals-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Lairon
+
+dex: 306
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Return Blow
+    text: If Aggron was damaged by an attack during your opponent's last turn, this attack does the same amount of damage done to Aggron to the Defending Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Fang
+    text: You may discard the top card of your deck. If you do, remove 2 damage counters and all Special Conditions from Aggron.
+    damage: 40
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

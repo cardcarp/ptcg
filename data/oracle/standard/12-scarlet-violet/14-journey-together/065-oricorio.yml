@@ -1,0 +1,46 @@
+name: Oricorio
+
+origin: journey-together-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 741
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+    name: Spooky Shot
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

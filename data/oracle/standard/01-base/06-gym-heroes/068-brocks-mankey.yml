@@ -1,0 +1,41 @@
+name: Brock's Mankey
+
+origin: gym-heroes-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 56
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fidget
+    text: Shuffle your deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Karate Chop
+    text: Does 40 damage minus 10 damage for each damage counter on Brock's Mankey.
+    damage: 40
+    modifier: '-'
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

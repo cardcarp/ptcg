@@ -1,0 +1,38 @@
+name: Cacnea
+
+origin: celestial-storm-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 331
+
+rule:
+  - type: ability
+    name: Poison Payback
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

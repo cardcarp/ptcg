@@ -1,0 +1,44 @@
+name: Timburr
+
+origin: plasma-storm-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 532
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Knock Back
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Low Kick
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

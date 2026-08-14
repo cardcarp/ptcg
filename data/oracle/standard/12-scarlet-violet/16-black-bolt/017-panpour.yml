@@ -1,0 +1,42 @@
+name: Panpour
+
+origin: black-bolt-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 515
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

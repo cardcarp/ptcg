@@ -1,0 +1,52 @@
+name: Pelipper
+
+origin: celestial-storm-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Wingull
+
+dex: 279
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Firefighting
+    text: Discard a Fire Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

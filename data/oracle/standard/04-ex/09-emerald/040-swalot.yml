@@ -1,0 +1,48 @@
+name: Swalot
+
+origin: emerald-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Gulpin
+
+dex: 317
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Blot
+    text: Remove 1 damage counter from Swalot.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Poison Breath
+    text: The Defending Pokémon is now Poisoned.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

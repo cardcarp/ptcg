@@ -1,0 +1,51 @@
+name: Blaziken-EX
+
+origin: xy-black-star-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 170
+
+dex: 257
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fist of Focus
+    text: Attach an Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Flare Storm
+    text: Flip a coin for each Fire Energy attached to this Pokémon. This attack does 20 more damage for each heads.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

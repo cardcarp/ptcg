@@ -1,0 +1,45 @@
+name: Gloom
+
+origin: legends-awakened-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Sleep Powder
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Frustration
+    text: Choose 1 of your opponent's Pokémon that doesn't have any damage counters on it. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

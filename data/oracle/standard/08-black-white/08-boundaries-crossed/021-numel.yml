@@ -1,0 +1,38 @@
+name: Numel
+
+origin: boundaries-crossed-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 322
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy attached to this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

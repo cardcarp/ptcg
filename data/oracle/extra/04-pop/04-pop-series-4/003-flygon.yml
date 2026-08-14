@@ -1,0 +1,51 @@
+name: Flygon
+
+origin: pop-series-4-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: ability
+    name: Levitate
+    text: As long as Flygon has any Energy attached to it, the Retreat Cost for Flygon is 0.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bite
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sand Pit
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

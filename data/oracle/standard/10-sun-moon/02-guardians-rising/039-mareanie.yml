@@ -1,0 +1,40 @@
+name: Mareanie
+
+origin: guardians-rising-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 747
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bail Out
+    text: Put a Pokémon from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,55 @@
+name: Zygarde-EX
+
+origin: xy-black-star-151
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Fighting
+
+hp: 190
+
+dex: 718
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Land's Pulse
+    text: If there is any Stadium card in play, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Cell Storm
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Land's Wrath
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

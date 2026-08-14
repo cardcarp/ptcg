@@ -1,0 +1,40 @@
+name: Capsakid
+
+origin: obsidian-flames-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 951
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Headbutt
+    text: Flip 2 coins. This attack does 50 damage for each heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

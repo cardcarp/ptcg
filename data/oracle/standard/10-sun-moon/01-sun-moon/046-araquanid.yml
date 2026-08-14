@@ -1,0 +1,43 @@
+name: Araquanid
+
+origin: sun-moon-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Dewpider
+
+dex: 752
+
+rule:
+  - type: ability
+    name: Water Bubble
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Fire Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aqua Edge
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

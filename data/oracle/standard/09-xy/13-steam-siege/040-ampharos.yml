@@ -1,0 +1,50 @@
+name: Ampharos
+
+origin: steam-siege-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: ability
+    name: Shocking Light
+    text: Once during your turn (before your attack), you may put 3 damage counters on 1 of your opponent's Pokémon-EX.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Gigavolt
+    text: Flip a coin. If heads, this attack does 40 more damage. If tails, your opponent's Active Pokémon is now Paralyzed.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

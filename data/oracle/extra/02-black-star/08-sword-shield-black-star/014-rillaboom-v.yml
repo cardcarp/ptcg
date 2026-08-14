@@ -1,0 +1,49 @@
+name: Rillaboom V
+
+origin: sword-shield-black-star-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 220
+
+dex: 812
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Forest Feast
+    text: Search your deck for up to 2 Basic Grass Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Colorless
+    name: Wood Hammer
+    text: This Pokémon also does 30 damage to itself.
+    damage: 220
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

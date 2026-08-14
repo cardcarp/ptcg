@@ -1,0 +1,49 @@
+name: Aegislash
+
+origin: rebel-clash-135
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Doublade
+
+dex: 681
+
+rule:
+  - type: ability
+    name: Big Shield
+    text: All of your Pokémon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance). You can't apply more than 1 Big Shield Ability at a time.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Power Edge
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

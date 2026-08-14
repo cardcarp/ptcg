@@ -1,0 +1,41 @@
+name: Swinub
+
+origin: neo-genesis-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 220
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Powder Snow
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

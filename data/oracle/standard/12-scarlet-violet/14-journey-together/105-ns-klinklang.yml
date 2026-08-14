@@ -1,0 +1,50 @@
+name: N's Klinklang
+
+origin: journey-together-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 160
+
+dex: 601
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Magnetic Blast
+    damage: 50
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Triple Smash
+    text: Flip 3 coins. This attack does 120 damage for each heads.
+    damage: 120
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

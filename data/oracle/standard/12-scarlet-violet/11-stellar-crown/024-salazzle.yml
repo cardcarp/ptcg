@@ -1,0 +1,48 @@
+name: Salazzle
+
+origin: stellar-crown-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Salandit
+
+dex: 758
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sudden Scorching
+    text: Your opponent discards a card from their hand. If this Pokémon evolved from Salandit during this turn, your opponent discards 2 more cards.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

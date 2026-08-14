@@ -1,0 +1,49 @@
+name: Team Magma's Claydol
+
+origin: team-magma-vs-team-aqua-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Team Magma's Baltoy
+
+dex: 344
+
+rule:
+  - type: ability
+    name: Magma Switch
+    text: Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can't be used if Team Magma's Claydol is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Dark Hand
+    text: If you have more cards in your hand than your opponent, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Psychic Darkness type.
+
+regulation:
+
+errata: []

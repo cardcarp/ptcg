@@ -1,0 +1,38 @@
+name: Electrike
+
+origin: dragons-exalted-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 309
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Quick Turn
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

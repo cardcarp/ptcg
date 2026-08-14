@@ -1,0 +1,41 @@
+name: Team Rocket's Mareep
+
+origin: destined-rivals-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 179
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Procurement
+    text: Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+    name: Tiny Bolt
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

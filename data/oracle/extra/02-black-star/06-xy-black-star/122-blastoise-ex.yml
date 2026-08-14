@@ -1,0 +1,49 @@
+name: Blastoise-EX
+
+origin: xy-black-star-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Water
+
+hp: 180
+
+dex: 9
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rapid Spin
+    text: Switch this Pokémon with 1 of your Benched Pokémon. The, your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Splash Bomb
+    text: Flip a coin. If heads, this Pokémon does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

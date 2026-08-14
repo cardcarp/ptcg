@@ -1,0 +1,51 @@
+name: Liepard
+
+origin: black-white-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Purrloin
+
+dex: 510
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Taunt
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sucker Punch
+    text: If this Pokémon has any Darkness Energy attached to it, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Skiploom
+
+origin: team-rocket-returns-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Hoppip
+
+dex: 188
+
+rule:
+  - type: ability
+    name: Buffer
+    text: If Skiploom would be Knocked Out by an opponent's attack, flip a coin. If heads, Skiploom is not Knocked Out and its remaining HP becomes 10 instead.
+  - type: attack
+    cost:
+      - Colorless
+    name: Miracle Powder
+    text: Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

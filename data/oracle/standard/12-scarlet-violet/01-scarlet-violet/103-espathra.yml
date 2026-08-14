@@ -1,0 +1,52 @@
+name: Espathra
+
+origin: scarlet-violet-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Flittle
+
+dex: 956
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Eye Strength
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 50 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - G
+
+errata: []

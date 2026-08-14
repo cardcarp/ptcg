@@ -1,0 +1,49 @@
+name: Charmeleon
+
+origin: crystal-guardians-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Charmeleon.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard a Fire Energy attached to Charmeleon.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

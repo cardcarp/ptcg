@@ -1,0 +1,44 @@
+name: Slowbro
+
+origin: scarlet-violet-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: ability
+    name: Strange Behavior
+    text: As often as you like during your turn, you may move 1 damage counter from 1 of your other Pokémon to this Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Bubble Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

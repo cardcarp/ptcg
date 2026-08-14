@@ -1,0 +1,44 @@
+name: Dhelmise
+
+origin: surging-sparks-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 781
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rescue Kedge
+    text: Put up to 2 Pokémon from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Annihilating Anchor
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

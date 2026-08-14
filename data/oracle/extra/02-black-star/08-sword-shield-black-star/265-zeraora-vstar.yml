@@ -1,0 +1,51 @@
+name: Zeraora VSTAR
+
+origin: sword-shield-black-star-265
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Lightning
+
+hp: 270
+
+preevolution:
+  - Zeraora V
+
+dex: 807
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Crushing Beat
+    text: You may discard a Stadium in play.
+    damage: 190
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Storm Star
+    text: Choose 1 of your opponent's Pokémon 4 times. (You can choose the same Pokémon more than once.) For each time you chose a Pokémon, do 60 damage to it. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 VSTAR Power in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

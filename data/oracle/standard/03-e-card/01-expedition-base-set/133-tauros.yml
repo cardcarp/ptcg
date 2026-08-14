@@ -1,0 +1,44 @@
+name: Tauros
+
+origin: expedition-base-set-133
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Horn Hazard
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Tauros does 20 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

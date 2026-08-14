@@ -1,0 +1,49 @@
+name: Flareon
+
+origin: scarlet-violet-black-star-167
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Destructive Flame
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fighting Blaze
+    text: If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

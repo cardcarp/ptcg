@@ -1,0 +1,45 @@
+name: Nuzleaf
+
+origin: flashfire-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Razor Leaf
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Cut
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

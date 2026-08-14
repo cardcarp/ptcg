@@ -1,0 +1,38 @@
+name: Eevee
+
+origin: unseen-forces-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 133
+
+rule:
+  - type: ability
+    name: Energy Evolution
+    text: Whenever you attach an Energy card from your hand to Eevee, you may search your deck for a card that evolves from Eevee that is the same type as the Energy card you attached to Eevee. Put that card onto Eevee. (This counts as evolving Eevee.) Shuffle your deck afterward. This power can't be used when you attach an Energy card to Eevee as part of an attack's effect.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Whap
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

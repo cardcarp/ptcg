@@ -1,0 +1,46 @@
+name: Bayleef δ
+
+origin: dragon-frontiers-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Chikorita
+
+dex: 153
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Poisonpowder
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

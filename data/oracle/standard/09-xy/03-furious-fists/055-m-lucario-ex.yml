@@ -1,0 +1,46 @@
+name: M Lucario-EX
+
+origin: furious-fists-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Fighting
+
+hp: 220
+
+preevolution:
+  - Lucario-EX
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Rising Fist
+    text: Discard an Energy attached to your opponent's Active Pokémon.
+    damage: 140
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

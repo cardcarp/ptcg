@@ -1,0 +1,46 @@
+name: Pidgeotto δ
+
+origin: holon-phantoms-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Pidgey
+
+dex: 17
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Whirlwind
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

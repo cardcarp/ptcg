@@ -1,0 +1,48 @@
+name: Grotle
+
+origin: ultra-prism-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Turtwig
+
+dex: 388
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Mega Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

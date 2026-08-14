@@ -1,0 +1,49 @@
+name: Magnezone
+
+origin: stormfront-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: ability
+    name: Super Connectivity
+    text: Once during your turn (before your attack), you may search your discard pile for a Lightning or Metal Energy card and attach it to your Active Pokémon. Then, put 1 damage counter on that Pokémon. This power can't be used if Magnezone is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Gyro Ball
+    text: You may switch Magnezone with 1 of your Benched Pokémon. If you do, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

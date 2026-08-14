@@ -1,0 +1,54 @@
+name: Trevenant & Dusknoir-GX
+
+origin: sun-moon-black-star-217
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Psychic
+
+hp: 270
+
+dex: 477
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Night Watch
+    text: Choose 2 random cards from your opponent's hand. Your opponent reveals those cards and shuffles them into their deck.
+    damage: 150
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Pale Moon-GX
+    text: At the end of your opponent's next turn, the Defending Pokémon will be Knocked Out. If this Pokémon has at least 1 extra Psychic Energy attached to it (in addition to this attack's cost), discard all Energy from your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+
+errata: []

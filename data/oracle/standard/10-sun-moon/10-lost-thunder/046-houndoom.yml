@@ -1,0 +1,46 @@
+name: Houndoom
+
+origin: lost-thunder-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nasty Plot
+    text: Search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Attack Operation
+    text: If you have more cards in your hand than your opponent, this attack does 80 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

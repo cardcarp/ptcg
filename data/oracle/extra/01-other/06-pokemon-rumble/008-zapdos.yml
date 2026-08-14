@@ -1,0 +1,43 @@
+name: Zapdos
+
+origin: pokemon-rumble-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 100
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Drill Peck
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

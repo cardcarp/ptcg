@@ -1,0 +1,55 @@
+name: Sylveon ex
+
+origin: surging-sparks-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Psychic
+
+hp: 270
+
+preevolution:
+  - Eevee
+
+dex: 700
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Magical Charm
+    text: During your opponent's next turn, attacks used by the Defending Pokémon do 100 less damage (before applying Weakness and Resistance).
+    damage: 160
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Psychic
+    name: Angelite
+    text: Choose 2 of your opponent's Benched Pokémon. Shuffle those Pokémon and all attached cards into your opponent's deck. If 1 of your Pokémon used Angelite during your last turn, this attack can't be used.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - H
+
+errata: []

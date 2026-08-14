@@ -1,0 +1,47 @@
+name: Octillery
+
+origin: unseen-forces-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: ability
+    name: Super Suction Cups
+    text: As long as Octillery is your Active Pokémon, your opponent's Pokémon can't retreat.
+  - type: attack
+    cost:
+      - Colorless
+    name: Standing By
+    text: Discard an Energy card attached to Octillery. During your next turn, Octillery's Pulse Blast attack's base damage is 120.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Pulse Blast
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

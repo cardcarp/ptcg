@@ -1,0 +1,46 @@
+name: Tropius
+
+origin: unleashed-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 357
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Green Call
+    text: Flip 2 coins. For each heads, search your deck for a Grass Pokémon, show it to your opponent, and put it into your hand. If you do, shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Gust
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

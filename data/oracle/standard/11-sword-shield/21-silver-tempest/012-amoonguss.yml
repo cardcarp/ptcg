@@ -1,0 +1,44 @@
+name: Amoonguss
+
+origin: silver-tempest-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Foongus
+
+dex: 591
+
+rule:
+  - type: ability
+    name: Surprise Spores
+    text: During your opponent's turn, if this Pokémon is discarded from your hand by an effect of an attack or Ability from your opponent's Pokémon, or by an effect of your opponent's Item or Supporter cards, discard your opponent's hand.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Hypno Hammer
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

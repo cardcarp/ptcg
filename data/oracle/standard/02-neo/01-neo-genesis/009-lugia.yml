@@ -1,0 +1,43 @@
+name: Lugia
+
+origin: neo-genesis-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 249
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Lightning
+    name: Elemental Blast
+    text: Discard a Fire Energy card, a Water Energy card, and a Lightning Energy card attached to Lugia in order to use this attack.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

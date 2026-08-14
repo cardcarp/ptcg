@@ -1,0 +1,44 @@
+name: Cradily
+
+origin: cosmic-eclipse-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Lileep
+
+dex: 346
+
+rule:
+  - type: ability
+    name: Swaying Strangle
+    text: Your opponent's Pokémon that are affected by Special Conditions can't retreat.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Poison Tentacles
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

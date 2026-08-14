@@ -1,0 +1,36 @@
+name: Roselia
+
+origin: lost-origin-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 315
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Soothing Scent
+    text: Your opponent's Active Pokémon is now Asleep.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

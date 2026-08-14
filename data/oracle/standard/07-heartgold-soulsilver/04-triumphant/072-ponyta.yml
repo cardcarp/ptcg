@@ -1,0 +1,41 @@
+name: Ponyta
+
+origin: triumphant-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 77
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rear Kick
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

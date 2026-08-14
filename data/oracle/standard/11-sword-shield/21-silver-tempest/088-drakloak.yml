@@ -1,0 +1,44 @@
+name: Drakloak
+
+origin: silver-tempest-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Dreepy
+
+dex: 886
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Spooky Shot
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

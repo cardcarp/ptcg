@@ -1,0 +1,41 @@
+name: Ducklett
+
+origin: darkness-ablaze-148
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 580
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

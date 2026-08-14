@@ -1,0 +1,37 @@
+name: Surskit
+
+origin: obsidian-flames-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 283
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

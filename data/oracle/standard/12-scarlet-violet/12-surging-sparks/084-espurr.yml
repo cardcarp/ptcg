@@ -1,0 +1,47 @@
+name: Espurr
+
+origin: surging-sparks-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 677
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: See Through
+    text: Your opponent reveals their hand.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psyshot
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

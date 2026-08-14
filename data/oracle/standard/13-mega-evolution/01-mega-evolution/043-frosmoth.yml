@@ -1,0 +1,39 @@
+name: Frosmoth
+
+origin: mega-evolution-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Snom
+
+dex: 873
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Chilling Wings
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Your opponent's Active Pokémon is now Asleep.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,49 @@
+name: Kricketune
+
+origin: triumphant-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Kricketot
+
+dex: 402
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Entrancing Melody
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Fury Cutter
+    text: Flip 3 coins. If 1 of them is heads, this attack does 20 damage plus 20 more damage. If 2 of them are heads, this attack does 20 damage plus 40 more damage. If all of them are heads, this attack does 20 damage plus 100 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

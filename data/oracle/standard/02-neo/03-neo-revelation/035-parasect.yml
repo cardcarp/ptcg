@@ -1,0 +1,43 @@
+name: Parasect
+
+origin: neo-revelation-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Paras
+
+dex: 47
+
+rule:
+  - type: ability
+    name: Allergic Pollen
+    text: As long as Parasect is in play, cards in any player's discard piles are not affected by attacks or Pokémon Powers. This power stops working if Parasect becomes Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Sleep Pinchers
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

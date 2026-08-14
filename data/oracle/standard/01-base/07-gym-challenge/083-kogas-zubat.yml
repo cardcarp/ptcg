@@ -1,0 +1,41 @@
+name: Koga's Zubat
+
+origin: gym-challenge-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 41
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Group Attack
+    text: Does 10 damage times the number of Koga's Zubats you have in play. Before doing damage, you may search your deck for any number of Basic Pokémon named Koga's Zubat and put them onto your Bench. (You can't get more cards with this attack than you have room on your Bench.) If you do, shuffle your deck afterward.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

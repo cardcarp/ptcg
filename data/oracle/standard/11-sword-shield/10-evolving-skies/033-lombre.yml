@@ -1,0 +1,40 @@
+name: Lombre
+
+origin: evolving-skies-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

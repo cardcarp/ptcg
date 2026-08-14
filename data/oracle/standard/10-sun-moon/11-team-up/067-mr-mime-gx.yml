@@ -1,0 +1,43 @@
+name: Mr. Mime-GX
+
+origin: team-up-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Psychic
+
+hp: 150
+
+dex: 122
+
+rule:
+  - type: ability
+    name: Magic Odds
+    text: Prevent all damage done to this Pokémon by your opponent's attacks if that damage is exactly 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 230, or 250.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Breakdown
+    text: For each card in your opponent's hand, put 1 damage counter on their Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Life Trick-GX
+    text: Heal all damage from this Pokémon. (You can't use more than 1 GX attack in a game.)
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

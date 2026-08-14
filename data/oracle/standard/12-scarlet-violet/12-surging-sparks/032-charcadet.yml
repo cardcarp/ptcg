@@ -1,0 +1,36 @@
+name: Charcadet
+
+origin: surging-sparks-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 935
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Will-O-Wisp
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

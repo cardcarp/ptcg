@@ -1,0 +1,42 @@
+name: Golbat
+
+origin: unleashed-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Zubat
+
+dex: 42
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Mean Look
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

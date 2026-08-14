@@ -1,0 +1,45 @@
+name: Trevenant
+
+origin: lost-origin-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: ability
+    name: Elder Tree Barrier
+    text: If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon V, your opponent can't take any Prize cards for it.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Giga Impact
+    text: During your next turn, this Pokémon can't attack.
+    damage: 150
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

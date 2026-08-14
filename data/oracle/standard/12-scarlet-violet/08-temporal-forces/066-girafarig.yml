@@ -1,0 +1,44 @@
+name: Girafarig
+
+origin: temporal-forces-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 203
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic Assault
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

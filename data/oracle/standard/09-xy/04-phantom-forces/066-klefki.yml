@@ -1,0 +1,47 @@
+name: Klefki
+
+origin: phantom-forces-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 707
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Dull Light
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

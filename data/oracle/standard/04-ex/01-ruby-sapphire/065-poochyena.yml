@@ -1,0 +1,41 @@
+name: Poochyena
+
+origin: ruby-sapphire-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 261
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Shadow Bind
+    text: The Defending Pokémon can't retreat until the end of your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

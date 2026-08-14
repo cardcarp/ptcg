@@ -1,0 +1,41 @@
+name: Dedenne
+
+origin: lost-thunder-142
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 702
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Zzzap Touch
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused. If tails, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

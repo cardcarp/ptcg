@@ -1,0 +1,53 @@
+name: Team Rocket's Hypno
+
+origin: destined-rivals-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Team Rocket's Drowzee
+
+dex: 97
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psyshot
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Bench Manipulation
+    text: Your opponent flips a coin for each of their Benched Pokémon. This attack does 80 damage to your opponent's Active Pokémon for each tails. This attack's damage isn't affected by Weakness or Resistance.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

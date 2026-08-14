@@ -1,0 +1,44 @@
+name: Grimmsnarl
+
+origin: journey-together-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 861
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Shadowy Knot
+    text: This attack does 50 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Mega Punch
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,38 @@
+name: Voltorb
+
+origin: 151-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 100
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Tumbling Attack
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

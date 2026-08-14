@@ -1,0 +1,46 @@
+name: Clefairy
+
+origin: guardians-rising-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 35
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Slap
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Follow Me
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

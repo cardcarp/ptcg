@@ -1,0 +1,42 @@
+name: Rockruff
+
+origin: crown-zenith-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 744
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Invite Out
+    text: Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Smash Kick
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

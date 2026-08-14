@@ -1,0 +1,49 @@
+name: Koraidon ex
+
+origin: obsidian-flames-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 230
+
+dex: 1007
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Splitting Beam
+    text: This attack also does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Gaia Press
+    text: This Pokémon also does 30 damage to itself.
+    damage: 230
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

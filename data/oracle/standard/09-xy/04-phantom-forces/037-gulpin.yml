@@ -1,0 +1,42 @@
+name: Gulpin
+
+origin: phantom-forces-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 316
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Poison Gas
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Sludge Bomb
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

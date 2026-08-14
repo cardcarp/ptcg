@@ -1,0 +1,38 @@
+name: Suicune
+
+origin: heartgold-soulsilver-black-star-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 245
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Sheer Cold
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

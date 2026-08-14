@@ -1,0 +1,51 @@
+name: Machamp
+
+origin: plasma-blast-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+    damage: 60
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Reinforced Lariat
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

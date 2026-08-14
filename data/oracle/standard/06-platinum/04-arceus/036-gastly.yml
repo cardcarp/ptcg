@@ -1,0 +1,48 @@
+name: Gastly
+
+origin: arceus-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 92
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Lick
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Night Shade
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

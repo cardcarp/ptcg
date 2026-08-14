@@ -1,0 +1,57 @@
+name: Sceptile
+
+origin: arceus-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Grovyle
+
+dex: 254
+
+rule:
+  - type: ability
+    name: Green Breath
+    text: When you attach a Grass Energy card from your hand to Sceptile, remove 2 damage counters from Sceptile.
+  - type: attack
+    cost:
+      - Grass
+    name: Leaf Blast
+    text: Does 20 damage times the amount of Grass Energy attached to Sceptile.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Poison Claws
+    text: The Defending Pokémon is now Poisoned.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

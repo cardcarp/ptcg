@@ -1,0 +1,37 @@
+name: Capsakid
+
+origin: scarlet-violet-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 951
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slightly Spicy
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Burned.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

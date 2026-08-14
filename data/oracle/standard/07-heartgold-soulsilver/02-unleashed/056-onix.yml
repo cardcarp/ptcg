@@ -1,0 +1,42 @@
+name: Onix
+
+origin: unleashed-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 95
+
+rule:
+  - type: ability
+    name: Energy Healer
+    text: Whenever you attach an Energy card from your hand to Onix, remove a damage counter from Onix.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boundless Power
+    text: Onix can't attack during your next turn.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

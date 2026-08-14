@@ -1,0 +1,48 @@
+name: Mega Feraligatr ex
+
+origin: mega-evolution-black-star-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - MEGA
+  - ex
+
+type:
+  - Water
+
+hp: 370
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Mortal Crunch
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 200 more damage.
+    damage: 200
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

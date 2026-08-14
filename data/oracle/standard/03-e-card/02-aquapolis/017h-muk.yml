@@ -1,0 +1,43 @@
+name: Muk
+
+origin: aquapolis-017h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: ability
+    name: Heavyweight
+    text: As long as there is a Grass Energy attached to Muk, you must pay an additional ColorlessColorless to retreat it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Burning Sludge
+    text: Flip a number of coins equal to the amount of Grass Energy attached to Muk. If any of them are heads, the Defending Pokémon is now Poisoned and Burned.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

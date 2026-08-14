@@ -1,0 +1,60 @@
+name: Gyarados
+
+origin: stormfront-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: attack
+    name: Tail Revenge
+    text: Does 30 damage times the number of Magikarp in your discard pile.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Wreak Havoc
+    text: Flip a coin until you get tails. For each heads, discard the top card from your opponent's deck.
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Beat
+    text: Flip a coin. If heads, discard an Energy card from each of your opponent's Pokémon.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

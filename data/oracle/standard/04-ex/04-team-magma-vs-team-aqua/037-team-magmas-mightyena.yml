@@ -1,0 +1,48 @@
+name: Team Magma's Mightyena
+
+origin: team-magma-vs-team-aqua-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Team Magma's Poochyena
+
+dex: 262
+
+rule:
+  - type: ability
+    name: Call for Help
+    text: Once during your turn (before your attack), if Team Magma's Mightyena is your Active Pokémon, you may search your deck for a Pokémon with Team Magma in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Team Magma's Mightyena is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

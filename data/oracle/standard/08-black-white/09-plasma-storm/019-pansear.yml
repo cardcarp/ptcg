@@ -1,0 +1,45 @@
+name: Pansear
+
+origin: plasma-storm-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 513
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Double Fire
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

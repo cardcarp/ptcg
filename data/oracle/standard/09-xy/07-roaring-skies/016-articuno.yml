@@ -1,0 +1,48 @@
+name: Articuno
+
+origin: roaring-skies-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 144
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Find Ice
+    text: Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Freezing Wind
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

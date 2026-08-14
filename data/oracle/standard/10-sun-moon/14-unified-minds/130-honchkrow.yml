@@ -1,0 +1,48 @@
+name: Honchkrow
+
+origin: unified-minds-130
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Murkrow
+
+dex: 430
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sharpshooting
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Darkness
+    name: Dark Cutter
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

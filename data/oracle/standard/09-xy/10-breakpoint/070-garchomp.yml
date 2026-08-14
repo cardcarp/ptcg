@@ -1,0 +1,45 @@
+name: Garchomp
+
+origin: breakpoint-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Gabite
+
+dex: 445
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Turbo Assault
+    text: Attach an Energy card from your discard pile to 1 of your Pokémon.
+    damage: 60
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Bite Off
+    text: If your opponent's Active Pokémon is a Pokémon-EX, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

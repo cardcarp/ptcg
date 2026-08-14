@@ -1,0 +1,43 @@
+name: Genesect
+
+origin: phantasmal-flames-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 649
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bug's Cannon
+    text: This attack does 20 damage to 1 of your opponent's Pokémon for each Grass Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Speed Attack
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

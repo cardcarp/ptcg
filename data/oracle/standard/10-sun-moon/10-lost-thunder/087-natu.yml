@@ -1,0 +1,38 @@
+name: Natu
+
+origin: lost-thunder-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 177
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lost March
+    text: This attack does 20 damage for each of your Pokémon, except ◇ (Prism Star) Pokémon, in the Lost Zone.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

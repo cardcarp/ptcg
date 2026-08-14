@@ -1,0 +1,39 @@
+name: Tynamo
+
+origin: vivid-voltage-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 602
+
+rule:
+  - type: ability
+    name: Levitate
+    text: If this Pokémon has any Energy attached, it has no Retreat Cost.
+  - type: attack
+    cost:
+      - Lightning
+    name: Tiny Charge
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

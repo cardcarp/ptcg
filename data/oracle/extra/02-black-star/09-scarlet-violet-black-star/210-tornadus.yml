@@ -1,0 +1,49 @@
+name: Tornadus
+
+origin: scarlet-violet-black-star-210
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 641
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Wrapped in Wind
+    text: Attach a Basic Energy card from your hand to this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hurricane
+    text: Move a Basic Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

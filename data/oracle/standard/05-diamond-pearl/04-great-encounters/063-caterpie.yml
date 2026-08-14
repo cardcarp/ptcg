@@ -1,0 +1,38 @@
+name: Caterpie
+
+origin: great-encounters-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 10
+
+rule:
+  - type: ability
+    name: Pupate
+    text: Once during your turn (before your attack), if Caterpie is your Active Pokémon, you may flip a coin. If heads, search your deck for a card that evolves from Caterpie and put it onto Caterpie. (This counts as evolving Caterpie.) Shuffle your deck afterward. This power can't be used if Caterpie is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Grass
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

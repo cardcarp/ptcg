@@ -1,0 +1,45 @@
+name: Sabrina's Haunter
+
+origin: gym-challenge-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Sabrina's Gastly
+
+dex: 93
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Nightmare
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Shadow Attack
+    text: Flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 30 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

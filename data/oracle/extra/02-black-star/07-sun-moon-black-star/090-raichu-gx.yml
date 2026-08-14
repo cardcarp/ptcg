@@ -1,0 +1,66 @@
+name: Raichu-GX
+
+origin: sun-moon-black-star-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Lightning
+
+hp: 210
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Powerful Spark
+    text: This attack does 20 more damage times the amount of Lightning Energy attached to your Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder
+    text: This Pokémon does 30 damage to itself.
+    damage: 160
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Voltail-GX
+    text: Your opponent's Active Pokémon is now Paralyzed. (You can't use more than 1 GX attack in a game.)
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

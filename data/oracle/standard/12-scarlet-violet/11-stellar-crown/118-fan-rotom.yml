@@ -1,0 +1,45 @@
+name: Fan Rotom
+
+origin: stellar-crown-118
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 479
+
+rule:
+  - type: ability
+    name: Fan Call
+    text: Once during your first turn, you may search your deck for up to 3 Colorless Pokémon with 100 HP or less, reveal them, and put them into your hand. Then, shuffle your deck. You can't use more than 1 Fan Call Ability during your turn.
+  - type: attack
+    cost:
+      - Colorless
+    name: Assault Landing
+    text: If there is no Stadium in play, this attack does nothing.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

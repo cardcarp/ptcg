@@ -1,0 +1,45 @@
+name: Dusknoir
+
+origin: boundaries-crossed-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Dusclops
+
+dex: 477
+
+rule:
+  - type: ability
+    name: Sinister Hand
+    text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Shadow Punch
+    text: This attack's damage isn't affected by Resistance.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

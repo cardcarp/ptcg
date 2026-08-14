@@ -1,0 +1,48 @@
+name: Dusknoir
+
+origin: diamond-pearl-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Dusclops
+
+dex: 477
+
+rule:
+  - type: ability
+    name: Dark Palm
+    text: Once during your turn (before your attack), if your opponent has 4 or more Benched Pokémon, you may choose 1 of them and shuffle that Pokémon and all cards attached to it into his or her deck. This power can't be used if Dusknoir if affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Hard Feelings
+    text: Put 5 damage counters on the Defending Pokémon. Then, count the number of Prize cards your opponent has taken and put that many damage counters on the Defending Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

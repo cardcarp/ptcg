@@ -1,0 +1,36 @@
+name: Tandemaus
+
+origin: paradox-rift-153
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 30
+
+dex: 924
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Damage Rush
+    text: Flip a coin until you get tails. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+  - G
+
+errata: []

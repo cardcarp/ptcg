@@ -1,0 +1,41 @@
+name: Natu
+
+origin: neo-discovery-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 177
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

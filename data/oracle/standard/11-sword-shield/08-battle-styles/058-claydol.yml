@@ -1,0 +1,51 @@
+name: Claydol
+
+origin: battle-styles-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Power Split
+    text: Attach Psychic Energy cards from your discard pile to your Pokémon in any way you like until your Pokémon and your opponent's Pokémon have the same total amount of Energy attached.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psyshot
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

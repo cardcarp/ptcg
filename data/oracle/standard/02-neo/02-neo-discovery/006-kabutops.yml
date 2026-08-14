@@ -1,0 +1,45 @@
+name: Kabutops
+
+origin: neo-discovery-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Kabuto
+
+dex: 141
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+    name: Hydrocutter
+    text: Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can't flip more than 3 coins in this way.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Mienshao
+
+origin: battle-styles-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Rapid Strike
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Mienfoo
+
+dex: 620
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Spinning Whip
+    text: Your opponent's Active Pokémon is now Confused. Shuffle this Pokémon and all attached cards into your deck.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

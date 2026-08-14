@@ -1,0 +1,40 @@
+name: Dugtrio
+
+origin: unbroken-bonds-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Diglett
+
+dex: 51
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Home Ground
+    text: If you have any Stadium card in play, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

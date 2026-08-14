@@ -1,0 +1,44 @@
+name: Druddigon
+
+origin: black-white-black-star-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Team Plasma
+
+type:
+  - Dragon
+
+hp: 100
+
+dex: 621
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Taunt
+    text: Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Boost Claw
+    text: During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

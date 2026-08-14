@@ -1,0 +1,39 @@
+name: Hawlucha
+
+origin: twilight-masquerade-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 701
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Prize Count
+    text: If you have more Prize cards remaining than your opponent, this attack does 90 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

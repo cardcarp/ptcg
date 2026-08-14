@@ -1,0 +1,48 @@
+name: Arcanine
+
+origin: supreme-victors-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Overrun
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Combustion
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Venomoth
+
+origin: 151-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Venonat
+
+dex: 49
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Perplexing Powder
+    text: Your opponent's Active Pokémon is now Confused. During your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Speed Wing
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

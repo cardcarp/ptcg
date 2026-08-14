@@ -1,0 +1,48 @@
+name: Zekrom
+
+origin: plasma-freeze-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 130
+
+dex: 644
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Mach Claw
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fusion Bolt
+    text: If Reshiram is on your Bench, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

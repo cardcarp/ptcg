@@ -1,0 +1,41 @@
+name: Oranguru
+
+origin: sword-shield-148
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 765
+
+rule:
+  - type: ability
+    name: Primate Wisdom
+    text: Once during your turn, you may switch a card from your hand with the top card of your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Whap Down
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

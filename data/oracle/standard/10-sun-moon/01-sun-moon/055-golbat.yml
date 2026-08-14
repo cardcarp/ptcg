@@ -1,0 +1,49 @@
+name: Golbat
+
+origin: sun-moon-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Zubat
+
+dex: 42
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Super Poison Breath
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Acrobatics
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

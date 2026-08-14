@@ -1,0 +1,36 @@
+name: Trubbish
+
+origin: breakpoint-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 568
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Acid Spray
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

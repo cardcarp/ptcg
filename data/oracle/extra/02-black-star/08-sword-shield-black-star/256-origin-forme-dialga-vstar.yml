@@ -1,0 +1,59 @@
+name: Origin Forme Dialga VSTAR
+
+origin: sword-shield-black-star-256
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Metal
+
+hp: 280
+
+preevolution:
+  - Origin Forme Dialga V
+
+dex: 483
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Metal Blast
+    text: This attack does 40 more damage for each Metal Energy attached to this Pokémon.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Star Chronos
+    text: Take another turn after this one. (Skip Pokémon Checkup.) (You can't use more than 1 VSTAR Power in a game.)
+    damage: 220
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

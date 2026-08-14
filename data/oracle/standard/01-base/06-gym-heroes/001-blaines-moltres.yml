@@ -1,0 +1,40 @@
+name: Blaine's Moltres
+
+origin: gym-heroes-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 146
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: Phoenix Flame
+    text: Flip a coin. If tails, shuffle Blaine's Moltres and all cards attached to it into your deck (after doing damage).
+    damage: 90
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

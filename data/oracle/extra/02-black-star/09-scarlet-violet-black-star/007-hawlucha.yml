@@ -1,0 +1,41 @@
+name: Hawlucha
+
+origin: scarlet-violet-black-star-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 701
+
+rule:
+  - type: ability
+    name: Flying Entry
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may choose 2 of your opponent's Benched Pokémon and put 1 damage counter on each of them.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

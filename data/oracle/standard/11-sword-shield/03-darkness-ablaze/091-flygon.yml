@@ -1,0 +1,45 @@
+name: Flygon
+
+origin: darkness-ablaze-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: ability
+    name: Labyrinth of Sand
+    text: As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon can't retreat.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Desert Geyser
+    text: If your opponent has a Stadium in play, discard it. If you discarded a Stadium in this way, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

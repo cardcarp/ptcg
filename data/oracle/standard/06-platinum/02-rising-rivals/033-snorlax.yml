@@ -1,0 +1,42 @@
+name: Snorlax
+
+origin: rising-rivals-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 143
+
+rule:
+  - type: attack
+    name: Pick and Collect
+    text: Search your discard pile for up to 4 basic Energy cards, show them to your opponent, and put them into your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Roll Over
+    text: Flip a coin. If heads, both Snorlax and the Defending Pokémon are now Asleep. If tails, Snorlax is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 4
+
+regulation:
+
+errata: []

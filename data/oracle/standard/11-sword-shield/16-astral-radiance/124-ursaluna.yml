@@ -1,0 +1,47 @@
+name: Ursaluna
+
+origin: astral-radiance-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 180
+
+preevolution:
+  - Ursaring
+
+dex: 901
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Peat Hunt
+    text: Put up to 2 cards from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bulky Bump
+    text: Discard 2 Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

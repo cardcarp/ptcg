@@ -1,0 +1,42 @@
+name: Meowth
+
+origin: 151-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 52
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Come Here Right Meow
+    text: Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dig Claws
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

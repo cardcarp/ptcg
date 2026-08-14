@@ -1,0 +1,45 @@
+name: Braixen
+
+origin: xy-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Fennekin
+
+dex: 654
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Clairvoyant Eye
+    text: Look at the top 3 cards of your deck and put them back on top of your deck in any order.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Tail Slap
+    text: Discard a Fire Energy attached to this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

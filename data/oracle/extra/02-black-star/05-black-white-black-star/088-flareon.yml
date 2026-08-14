@@ -1,0 +1,48 @@
+name: Flareon
+
+origin: black-white-black-star-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sand-Attack
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Slash
+    text: You may discard a Fire Energy attached to this Pokémon. If you do, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

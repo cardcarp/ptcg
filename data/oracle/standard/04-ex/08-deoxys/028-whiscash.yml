@@ -1,0 +1,47 @@
+name: Whiscash
+
+origin: deoxys-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Barboach
+
+dex: 340
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Raging Tremble
+    text: Flip a coin. If heads, this attack does 10 damage for each damage counter on Whiscash to each Defending Pokémon. If tails, this attack does 10 damage for each damage counter on Whiscash to the Defending Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Dwindling Wave
+    text: Does 70 damage minus 10 damage for each damage counter on Whiscash.
+    damage: 70
+    modifier: '-'
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,53 @@
+name: Exeggutor
+
+origin: plasma-freeze-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Blockade
+    text: Your opponent can't play any Supporter cards from his or her hand during his or her next turn.
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

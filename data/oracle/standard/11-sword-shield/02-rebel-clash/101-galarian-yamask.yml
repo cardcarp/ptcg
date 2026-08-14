@@ -1,0 +1,38 @@
+name: Galarian Yamask
+
+origin: rebel-clash-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 562
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon also does 30 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

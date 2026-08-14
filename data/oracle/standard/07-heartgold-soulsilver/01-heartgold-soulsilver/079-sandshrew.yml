@@ -1,0 +1,45 @@
+name: Sandshrew
+
+origin: heartgold-soulsilver-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 27
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during your opponent's next turn.
+  - type: attack
+    cost:
+      - Fighting
+    name: Rollout
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

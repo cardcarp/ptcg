@@ -1,0 +1,38 @@
+name: Gligar
+
+origin: phantom-forces-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 207
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rock Cannon
+    text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

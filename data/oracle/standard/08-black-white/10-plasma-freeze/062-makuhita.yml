@@ -1,0 +1,45 @@
+name: Makuhita
+
+origin: plasma-freeze-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 296
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Continuous Slap
+    text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Hammer In
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

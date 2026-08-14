@@ -1,0 +1,36 @@
+name: Bulbasaur
+
+origin: sword-shield-black-star-303
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 1
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Shake and Gather
+    text: Flip a coin until you get tails. For each heads, draw a card.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

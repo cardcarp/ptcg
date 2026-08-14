@@ -1,0 +1,41 @@
+name: Klink
+
+origin: silver-tempest-123
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 599
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Call Sign
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

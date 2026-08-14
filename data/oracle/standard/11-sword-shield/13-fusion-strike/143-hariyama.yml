@@ -1,0 +1,45 @@
+name: Hariyama
+
+origin: fusion-strike-143
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Makuhita
+
+dex: 297
+
+rule:
+  - type: ability
+    name: Guts
+    text: If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - E
+
+errata: []

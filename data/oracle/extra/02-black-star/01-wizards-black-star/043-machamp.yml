@@ -1,0 +1,50 @@
+name: Machamp
+
+origin: wizards-black-star-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Seething Anger
+    text: Flip a number of coins equal to the number of damage counters on Machamp. This attack does 20 damage plus 10 more damage for each heads.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Fling
+    text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

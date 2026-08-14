@@ -1,0 +1,48 @@
+name: Drifloon
+
+origin: stormfront-001sh
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 425
+
+rule:
+  - type: ability
+    name: Unburden
+    text: If Drifloon has a Pokémon Tool card attached to it, Drifloon's Retreat Cost is ColorlessColorless more.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Big Explosion
+    text: Drifloon does 50 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

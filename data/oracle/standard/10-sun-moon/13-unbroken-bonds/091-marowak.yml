@@ -1,0 +1,49 @@
+name: Marowak
+
+origin: unbroken-bonds-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Bone Rush
+    text: Flip a coin until you get tails. This attack does 50 damage for each heads.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Assault Boom
+    text: If your opponent's Active Pokémon has a Pokémon Tool card attached to it, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

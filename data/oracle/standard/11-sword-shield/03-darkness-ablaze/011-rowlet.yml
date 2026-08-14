@@ -1,0 +1,41 @@
+name: Rowlet
+
+origin: darkness-ablaze-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 722
+
+rule:
+  - type: ability
+    name: Sky Circus
+    text: If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wind Shard
+    text: This attack does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

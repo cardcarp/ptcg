@@ -1,0 +1,40 @@
+name: Gastly
+
+origin: expedition-base-set-109
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 92
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Bad Dream
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,55 @@
+name: Steelix
+
+origin: aquapolis-023h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Earth Rift
+    text: This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.) Then, flip a coin. If tails, this attack can't be used during your next turn.
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Iron Smash
+    text: Flip 2 coins. If both are heads, this attack does 50 damage plus 20 more damage. If both are tails, this attack does nothing. If 1 is heads and 1 is tails, this attack just does 50 damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

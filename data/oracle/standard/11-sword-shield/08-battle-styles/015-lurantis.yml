@@ -1,0 +1,46 @@
+name: Lurantis
+
+origin: battle-styles-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Fomantis
+
+dex: 754
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Leaf Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Solar Cutter
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

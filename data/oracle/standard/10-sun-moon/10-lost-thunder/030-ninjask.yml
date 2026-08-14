@@ -1,0 +1,41 @@
+name: Ninjask
+
+origin: lost-thunder-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Nincada
+
+dex: 291
+
+rule:
+  - type: ability
+    name: Molting
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put a Shedinja from your discard pile onto your Bench.
+  - type: attack
+    cost:
+      - Grass
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

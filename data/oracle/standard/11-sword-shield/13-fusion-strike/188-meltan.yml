@@ -1,0 +1,48 @@
+name: Meltan
+
+origin: fusion-strike-188
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 808
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Iron Intake
+    text: Heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,48 @@
+name: Zubat
+
+origin: unbroken-bonds-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 41
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Bite
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

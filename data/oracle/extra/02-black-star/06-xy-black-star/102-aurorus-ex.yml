@@ -1,0 +1,46 @@
+name: Aurorus-EX
+
+origin: xy-black-star-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Water
+
+hp: 180
+
+dex: 699
+
+rule:
+  - type: ability
+    name: Frozen Charm
+    text: Each of your Pokémon that has any Water Energy attached to it can't be Paralyzed. (If any of those Pokémon are Paralyzed, remove that Special Condition.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Crystal Breath
+    text: This Pokémon can't attack during your next turn.
+    damage: 160
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

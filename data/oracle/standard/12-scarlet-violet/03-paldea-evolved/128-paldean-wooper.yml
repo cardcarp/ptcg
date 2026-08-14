@@ -1,0 +1,41 @@
+name: Paldean Wooper
+
+origin: paldea-evolved-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 194
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Find a Home
+    text: Search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Darkness
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

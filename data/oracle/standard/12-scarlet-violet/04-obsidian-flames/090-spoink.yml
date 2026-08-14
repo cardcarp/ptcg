@@ -1,0 +1,47 @@
+name: Spoink
+
+origin: obsidian-flames-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 325
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Splash
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

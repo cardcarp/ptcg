@@ -1,0 +1,48 @@
+name: Mawile
+
+origin: crystal-guardians-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 303
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mining
+    text: Search your deck for a Trainer card, show it to your opponent, and put it into your hand. If that card is a Pokémon Tool card, you may attach it to 1 of your Pokémon instead. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Bite Off
+    text: If the Defending Pokémon is Pokémon-ex, this attack does 20 damage plus 30 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

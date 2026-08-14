@@ -1,0 +1,41 @@
+name: Bellibolt
+
+origin: obsidian-flames-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Tadbulb
+
+dex: 939
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electrobullet
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

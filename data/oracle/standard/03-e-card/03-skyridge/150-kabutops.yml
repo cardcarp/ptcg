@@ -1,0 +1,54 @@
+name: Kabutops
+
+origin: skyridge-150
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Kabuto
+
+dex: 141
+
+rule:
+  - type: ability
+    name: Crystal Type
+    text: Whenever you attach a Water, Lightning, or Fighting basic Energy card from your hand to Kabutops, Kabutops's type (color) becomes the same as that type of Energy until the end of the turn.
+  - type: attack
+    cost:
+      - Water
+      - Fighting
+      - Colorless
+    name: Draining Cut
+    text: Remove a damage counter from Kabutops.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Fighting
+      - Colorless
+    name: Triple Cutter
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

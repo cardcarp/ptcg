@@ -1,0 +1,41 @@
+name: Wobbuffet
+
+origin: phantom-forces-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 202
+
+rule:
+  - type: ability
+    name: Bide Barricade
+    text: If this Pokémon is your Active Pokémon, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Psychic Pokémon).
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic Assault
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

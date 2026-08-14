@@ -1,0 +1,45 @@
+name: Decidueye
+
+origin: shrouded-fable-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Dartrix
+
+dex: 724
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Stock Up on Feathers
+    text: Draw cards until you have 7 cards in your hand.
+  - type: attack
+    cost:
+      - Grass
+    name: Power Shot
+    text: Discard a Basic Grass Energy card from your hand. If you can't, this attack does nothing.
+    damage: 170
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

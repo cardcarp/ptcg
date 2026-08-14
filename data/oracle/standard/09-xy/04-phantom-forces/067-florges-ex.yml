@@ -1,0 +1,52 @@
+name: Florges-EX
+
+origin: phantom-forces-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Fairy
+
+hp: 160
+
+dex: 671
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Lead
+    text: Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Bright Garden
+    text: This attack does 20 damage times the number of Grass Pokémon and Fairy Pokémon you have in play.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

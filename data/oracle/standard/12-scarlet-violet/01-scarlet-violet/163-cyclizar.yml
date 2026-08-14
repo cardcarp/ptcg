@@ -1,0 +1,38 @@
+name: Cyclizar
+
+origin: scarlet-violet-163
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 967
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

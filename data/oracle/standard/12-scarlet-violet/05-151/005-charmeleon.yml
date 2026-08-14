@@ -1,0 +1,47 @@
+name: Charmeleon
+
+origin: 151-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Fire Blast
+    text: Discard an Energy from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

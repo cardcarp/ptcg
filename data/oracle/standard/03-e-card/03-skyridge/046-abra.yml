@@ -1,0 +1,39 @@
+name: Abra
+
+origin: skyridge-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 63
+
+rule:
+  - type: ability
+    name: Psychoflow
+    text: As long as there is a Psychic Energy card attached to Abra, its Retreat Cost is 0.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

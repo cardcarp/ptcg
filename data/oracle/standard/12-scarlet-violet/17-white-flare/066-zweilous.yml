@@ -1,0 +1,50 @@
+name: Zweilous
+
+origin: white-flare-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Deino
+
+dex: 634
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Hit
+    text: Flip 2 coins. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Pitch-Black Fangs
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

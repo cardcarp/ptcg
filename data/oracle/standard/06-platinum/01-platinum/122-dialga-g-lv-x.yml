@@ -1,0 +1,54 @@
+name: Dialga G LV.X
+
+origin: platinum-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+  - SP
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Dialga G
+
+dex: 483
+
+rule:
+  - type: ability
+    name: Time Crystal
+    text: Each Pokémon (both yours and your opponent's) (excluding Pokémon SP) can't use any Poké-Bodies.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Remove Lost
+    text: Flip a coin until you get tails. For each heads, remove an Energy card attached to the Defending Pokémon and put it in the Lost Zone.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - Put this card onto your Active Dialga G. Dialga G LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

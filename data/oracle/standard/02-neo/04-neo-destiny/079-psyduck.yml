@@ -1,0 +1,42 @@
+name: Psyduck
+
+origin: neo-destiny-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Flipper Splash
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Migraine
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

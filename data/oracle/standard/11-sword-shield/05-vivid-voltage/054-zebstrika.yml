@@ -1,0 +1,45 @@
+name: Zebstrika
+
+origin: vivid-voltage-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Low Kick
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Zap Kick
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

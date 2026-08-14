@@ -1,0 +1,47 @@
+name: Floette
+
+origin: cosmic-eclipse-151
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 70
+
+preevolution:
+  - Flabébé
+
+dex: 670
+
+rule:
+  - type: ability
+    name: Flower Picking
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 2 random cards from your opponent's hand. Your opponent reveals those cards and shuffles them into their deck.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Magical Shot
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

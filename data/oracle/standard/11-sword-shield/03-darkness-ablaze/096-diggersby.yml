@@ -1,0 +1,49 @@
+name: Diggersby
+
+origin: darkness-ablaze-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Bunnelby
+
+dex: 660
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 90
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Land Crush
+    damage: 140
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

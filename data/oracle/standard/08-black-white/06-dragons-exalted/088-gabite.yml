@@ -1,0 +1,45 @@
+name: Gabite
+
+origin: dragons-exalted-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Gible
+
+dex: 444
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Fighting
+    name: Shred
+    text: This attack's damage isn't affected by any effects on the Defending Pokémon.
+    damage: 40
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

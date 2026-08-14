@@ -1,0 +1,47 @@
+name: Inteleon
+
+origin: sword-shield-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Drizzile
+
+dex: 818
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Silent Shot
+    text: Discard a random card from your opponent's hand.
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hydro Snipe
+    text: You may put an Energy attached to your opponent's Active Pokémon into their hand.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

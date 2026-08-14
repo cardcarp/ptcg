@@ -1,0 +1,41 @@
+name: Ludicolo
+
+origin: journey-together-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+dex: 272
+
+rule:
+  - type: ability
+    name: Vibrant Dance
+    text: All of your Pokémon in play get +40 HP. The effect of Vibrant Dance doesn't stack.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hydro Splash
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,45 @@
+name: Articuno
+
+origin: team-up-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 144
+
+rule:
+  - type: ability
+    name: Blizzard Veil
+    text: As long as this Pokémon is your Active Pokémon, whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to your Benched Water Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Cold Cyclone
+    text: Move 2 Water Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

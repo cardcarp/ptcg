@@ -1,0 +1,36 @@
+name: Riolu
+
+origin: call-of-legends-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 447
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Tumble Over
+    text: Riolu can't attack during your next turn.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

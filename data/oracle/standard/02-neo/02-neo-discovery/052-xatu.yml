@@ -1,0 +1,50 @@
+name: Xatu
+
+origin: neo-discovery-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Energy Cycle
+    text: Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Super Psy
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

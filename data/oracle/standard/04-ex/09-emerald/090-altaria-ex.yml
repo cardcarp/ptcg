@@ -1,0 +1,48 @@
+name: Altaria ex
+
+origin: emerald-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: ability
+    name: Mist
+    text: Any damage done to Altaria ex by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Dive
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+    name: Dragon Mist
+    text: This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 70
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

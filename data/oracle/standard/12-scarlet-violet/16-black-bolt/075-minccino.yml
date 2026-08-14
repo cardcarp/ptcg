@@ -1,0 +1,38 @@
+name: Minccino
+
+origin: black-bolt-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 572
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Slap
+    text: Flip 2 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

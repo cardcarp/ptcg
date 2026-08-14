@@ -1,0 +1,47 @@
+name: Skiploom
+
+origin: neo-revelation-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Hoppip
+
+dex: 188
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hop
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+    name: Mysterious Powder
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

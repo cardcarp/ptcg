@@ -1,0 +1,49 @@
+name: Flareon
+
+origin: sandstorm-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Super Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard a Fire Energy card attached to Flareon.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

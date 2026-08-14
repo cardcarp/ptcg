@@ -1,0 +1,43 @@
+name: Hariyama
+
+origin: furious-fists-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Makuhita
+
+dex: 297
+
+rule:
+  - type: ability
+    name: Thick Fat
+    text: Any damage done to this Pokémon by attacks from your opponent's Fire or Water Pokémon is reduced by 30 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rocket Slap
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

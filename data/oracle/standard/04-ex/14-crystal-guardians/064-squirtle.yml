@@ -1,0 +1,39 @@
+name: Squirtle
+
+origin: crystal-guardians-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 7
+
+rule:
+  - type: ability
+    name: Solid Shell
+    text: Any damage done to Squirtle by attacks is reduced by 10 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Bubblebeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

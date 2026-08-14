@@ -1,0 +1,41 @@
+name: Chimecho
+
+origin: nintendo-black-star-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 358
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Resonate
+    text: Your opponent switches each Defending Pokémon with his or her Benched Pokémon. If your opponent has only 1 Benched Pokémon, you choose the Defending Pokémon to switch.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Healing Sound
+    text: Remove 3 damage counters from each of your Active Pokémon. Each Defending Pokémon is now Asleep.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

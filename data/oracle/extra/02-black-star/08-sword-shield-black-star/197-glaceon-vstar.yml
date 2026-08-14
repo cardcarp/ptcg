@@ -1,0 +1,53 @@
+name: Glaceon VSTAR
+
+origin: sword-shield-black-star-197
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Water
+
+hp: 260
+
+preevolution:
+  - Glaceon V
+
+dex: 471
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Icicle Shot
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 180
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Crystal Star
+    text: During your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon. (You can't use more than 1 VSTAR Power in a game.)
+    damage: 220
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,41 @@
+name: Medicham
+
+origin: destined-rivals-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Harmonious Spirit Palm
+    text: If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached, this attack does 120 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

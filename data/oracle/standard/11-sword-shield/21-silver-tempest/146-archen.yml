@@ -1,0 +1,51 @@
+name: Archen
+
+origin: silver-tempest-146
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 566
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

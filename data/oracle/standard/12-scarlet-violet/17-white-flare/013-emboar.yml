@@ -1,0 +1,45 @@
+name: Emboar
+
+origin: white-flare-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 180
+
+preevolution:
+  - Pignite
+
+dex: 500
+
+rule:
+  - type: ability
+    name: Inferno Fandango
+    text: As often as you like during your turn, you may attach a Basic Fire Energy card from your hand to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Crash
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - I
+
+errata: []

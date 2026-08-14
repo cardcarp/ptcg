@@ -1,0 +1,41 @@
+name: Snubbull
+
+origin: heartgold-soulsilver-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 209
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

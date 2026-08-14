@@ -1,0 +1,46 @@
+name: Weepinbell
+
+origin: aquapolis-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Bellsprout
+
+dex: 70
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Growth
+    text: Attach up to 2 Grass Energy cards from your hand to Weepinbell.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Double Razor Leaf
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

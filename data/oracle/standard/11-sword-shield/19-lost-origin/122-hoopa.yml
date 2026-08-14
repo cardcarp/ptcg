@@ -1,0 +1,43 @@
+name: Hoopa
+
+origin: lost-origin-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 720
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Hand of Djinn
+    text: Search your deck for a Darkness Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Tyrannical Hole
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

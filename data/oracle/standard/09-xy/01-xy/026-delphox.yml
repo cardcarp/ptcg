@@ -1,0 +1,45 @@
+name: Delphox
+
+origin: xy-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Braixen
+
+dex: 655
+
+rule:
+  - type: ability
+    name: Mystical Fire
+    text: Once during your turn (before your attack), you may draw cards until you have 6 cards in your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blaze Ball
+    text: This attack does 20 more damage for each Fire Energy attached to this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

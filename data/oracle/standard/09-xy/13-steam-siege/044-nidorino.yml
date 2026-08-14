@@ -1,0 +1,48 @@
+name: Nidorino
+
+origin: steam-siege-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Nidoran ♂
+
+dex: 33
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Peck
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Nido Press
+    text: If Nidorina is on your Bench, this attack does 40 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

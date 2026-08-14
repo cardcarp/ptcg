@@ -1,0 +1,46 @@
+name: Darkrai
+
+origin: diamond-pearl-black-star-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 90
+
+dex: 491
+
+rule:
+  - type: ability
+    name: Darkness Aura
+    text: If you have Cresselia in play, each of Darkrai's attack does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Hypnoblast
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

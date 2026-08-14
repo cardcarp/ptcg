@@ -1,0 +1,49 @@
+name: Toucannon
+
+origin: pitch-black-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Trumbeak
+
+dex: 733
+
+rule:
+  - type: ability
+    name: Aerial Draw
+    text: Once during your turn, you may use this Ability. Draw a card.
+  - type: attack
+    cost:
+      - Colorless
+    name: Feather Rondo
+    text: This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

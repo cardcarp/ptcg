@@ -1,0 +1,53 @@
+name: Latias δ
+
+origin: holon-phantoms-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 380
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Super Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 40
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Mankey
+
+origin: jungle-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 30
+
+dex: 56
+
+rule:
+  - type: ability
+    name: Peek
+    text: "Once during your turn (before your attack), you may look at one of the following: the top card of either player's deck, a random card from your opponent's hand, or one of either player's Prizes. This power can't be used if Mankey is Asleep, Confused, or Paralyzed."
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

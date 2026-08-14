@@ -1,0 +1,37 @@
+name: Nidoking BREAK
+
+origin: evolutions-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - BREAK
+
+type:
+  - Psychic
+
+hp: 180
+
+preevolution:
+  - Nidoking
+
+dex: 34
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Toxic Drill
+    text: Your opponent's Active Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.
+    damage: 120
+
+rulebox:
+  - 'BREAK Evolution Rule: Nidoking BREAK retains the attacks, Abilities, Weakness, Resistance, and Retreat Cost of its previous Evolution.'
+
+regulation:
+
+errata: []

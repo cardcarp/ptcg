@@ -1,0 +1,48 @@
+name: Magmortar
+
+origin: diamond-pearl-black-star-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Magmar
+
+dex: 467
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Smoke Bomb
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flame Drum
+    text: If Magby isn't anywhere under Magmortar, discard 2 Energy cards from your hand. (If you can't discard 2 Energy cards from your hand, this attack does nothing.)
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

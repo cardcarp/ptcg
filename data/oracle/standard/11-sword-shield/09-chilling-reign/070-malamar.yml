@@ -1,0 +1,47 @@
+name: Malamar
+
+origin: chilling-reign-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Rapid Strike
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Inkay
+
+dex: 687
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Rapid Strike Tentacles
+    text: Reveal any number of Rapid Strike cards from your hand. This attack does 40 damage for each card you revealed in this way. Then, shuffle those cards into your deck.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

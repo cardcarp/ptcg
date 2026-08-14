@@ -1,0 +1,40 @@
+name: Blaine's Vulpix
+
+origin: gym-challenge-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 37
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+    name: Call Will-o'-the-wisp
+    text: Flip 3 coins. For each heads, if you have a Fire Energy card in your discard pile, put it into your hand.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

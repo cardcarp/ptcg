@@ -1,0 +1,50 @@
+name: Team Aqua's Crawdaunt
+
+origin: team-magma-vs-team-aqua-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Team Aqua's Corphish
+
+dex: 342
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Poison Reaction
+    text: If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Double Claw
+    text: Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

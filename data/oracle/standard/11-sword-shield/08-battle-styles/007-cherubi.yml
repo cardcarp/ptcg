@@ -1,0 +1,36 @@
+name: Cherubi
+
+origin: battle-styles-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 420
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Leafage
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

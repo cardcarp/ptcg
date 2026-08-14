@@ -1,0 +1,57 @@
+name: Magcargo ex
+
+origin: twilight-masquerade-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Fire
+
+hp: 270
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Hot Magma
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 70
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Ground Burn
+    text: Discard the top card of each player's deck. This attack does 140 more damage for each Energy card discarded in this way.
+    damage: 140
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - H
+
+errata: []

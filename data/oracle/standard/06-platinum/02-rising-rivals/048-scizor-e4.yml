@@ -1,0 +1,44 @@
+name: Scizor E4
+
+origin: rising-rivals-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 212
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Cut
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Crushing Blow
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

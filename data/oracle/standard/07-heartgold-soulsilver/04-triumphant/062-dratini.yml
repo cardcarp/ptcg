@@ -1,0 +1,42 @@
+name: Dratini
+
+origin: triumphant-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 147
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gentle Wrap
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

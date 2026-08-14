@@ -1,0 +1,42 @@
+name: Cryogonal
+
+origin: evolving-skies-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 615
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Element Chain
+    text: Look at the top 6 cards of your deck and attach any number of basic Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Snow
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

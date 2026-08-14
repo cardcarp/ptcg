@@ -1,0 +1,43 @@
+name: Gimmighoul
+
+origin: paradox-rift-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 999
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Continuous Coin Toss
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

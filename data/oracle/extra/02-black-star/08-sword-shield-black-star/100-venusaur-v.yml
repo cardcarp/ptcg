@@ -1,0 +1,50 @@
+name: Venusaur V
+
+origin: sword-shield-black-star-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 220
+
+dex: 3
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Double-Edge
+    text: This Pokémon also does 30 damage to itself.
+    damage: 190
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

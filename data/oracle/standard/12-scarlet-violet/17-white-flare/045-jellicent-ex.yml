@@ -1,0 +1,54 @@
+name: Jellicent ex
+
+origin: white-flare-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 270
+
+preevolution:
+  - Frillish
+
+dex: 593
+
+rule:
+  - type: ability
+    name: Oceanic Curse
+    text: As long as this Pokémon is in the Active Spot, your opponent can't play any Item cards or Pokémon Tool cards from their hand.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Power Press
+    text: If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

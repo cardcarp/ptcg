@@ -1,0 +1,42 @@
+name: Axew
+
+origin: breakthrough-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 610
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Brat Snack
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Metal
+      - Colorless
+    name: Dragon Claw
+    damage: 40
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

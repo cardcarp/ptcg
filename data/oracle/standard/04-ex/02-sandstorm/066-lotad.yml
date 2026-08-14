@@ -1,0 +1,38 @@
+name: Lotad
+
+origin: sandstorm-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 270
+
+rule:
+  - type: ability
+    name: Rain Dish
+    text: At any time between turns, remove 1 damage counter from Lotad.
+  - type: attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

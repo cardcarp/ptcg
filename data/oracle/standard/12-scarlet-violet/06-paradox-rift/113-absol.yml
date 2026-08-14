@@ -1,0 +1,44 @@
+name: Absol
+
+origin: paradox-rift-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 359
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Drawareness
+    text: You may discard any number of cards from your hand until you have 4 or fewer. Draw cards until you have 5 cards in your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Enhanced Blade
+    text: If this Pokémon has a Pokémon Tool attached, this attack does 60 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

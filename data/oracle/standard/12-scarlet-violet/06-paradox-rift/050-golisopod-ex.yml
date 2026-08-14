@@ -1,0 +1,52 @@
+name: Golisopod ex
+
+origin: paradox-rift-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Water
+
+hp: 270
+
+preevolution:
+  - Wimpod
+
+dex: 768
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aqua Blade
+    damage: 70
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Swing and Skedaddle
+    text: Discard an Energy from this Pokémon. If you do, switch it with 1 of your Benched Pokémon.
+    damage: 170
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

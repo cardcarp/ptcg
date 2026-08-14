@@ -1,0 +1,54 @@
+name: Melmetal
+
+origin: pokemon-go-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 160
+
+preevolution:
+  - Meltan
+
+dex: 809
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 60
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Swinging Smash
+    text: Flip 2 coins. This attack does 90 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

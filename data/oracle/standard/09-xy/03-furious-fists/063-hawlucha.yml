@@ -1,0 +1,42 @@
+name: Hawlucha
+
+origin: furious-fists-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 701
+
+rule:
+  - type: ability
+    name: Shining Spirit
+    text: Damage from this Pokémon's attacks isn't affected by Weakness or Resistance.
+  - type: attack
+    cost:
+      - Fighting
+    name: Flying Press
+    text: If your opponent's Active Pokémon isn't a Pokémon-EX, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

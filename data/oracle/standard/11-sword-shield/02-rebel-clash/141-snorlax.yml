@@ -1,0 +1,44 @@
+name: Snorlax
+
+origin: rebel-clash-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 150
+
+dex: 143
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Collapse
+    text: This Pokémon is now Asleep.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - D
+
+errata: []

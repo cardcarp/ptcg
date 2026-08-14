@@ -1,0 +1,33 @@
+name: Mew
+
+origin: southern-islands-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 151
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Rainbow Wave
+    text: Choose a type of Energy other than Colorless attached to Mew. This attack does 20 damage to each of your opponent's Pokémon of that type (including Benched Pokémon). Don't apply Weakness and Resistance.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

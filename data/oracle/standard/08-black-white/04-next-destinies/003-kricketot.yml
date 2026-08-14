@@ -1,0 +1,43 @@
+name: Kricketot
+
+origin: next-destinies-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 401
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Beat
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Double Headbutt
+    text: Flip 2 coins. This attack does 10 more damage for each heads.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

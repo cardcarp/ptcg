@@ -1,0 +1,37 @@
+name: Grimer
+
+origin: 151-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 88
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Gummy Press
+    text: During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless more.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,47 @@
+name: Donphan
+
+origin: sword-shield-black-star-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Phanpy
+
+dex: 232
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Earthquake
+    text: This attack also does 20 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,34 @@
+name: Shinx
+
+origin: brilliant-stars-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 403
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Gnaw
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+  - F
+
+errata: []

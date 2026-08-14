@@ -1,0 +1,42 @@
+name: Snorlax
+
+origin: lost-origin-143
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 150
+
+dex: 143
+
+rule:
+  - type: ability
+    name: Unfazed Fat
+    text: Prevent all effects of attacks from your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Thumping Snore
+    text: This Pokémon is now Asleep. During Pokémon Checkup, flip 2 coins instead of 1. If either of them is tails, this Pokémon is still Asleep.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

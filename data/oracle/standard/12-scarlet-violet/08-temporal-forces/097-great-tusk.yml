@@ -1,0 +1,46 @@
+name: Great Tusk
+
+origin: temporal-forces-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ancient
+
+type:
+  - Fighting
+
+hp: 140
+
+dex: 984
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Land Collapse
+    text: Discard the top card of your opponent's deck. If you played an Ancient Supporter card from your hand during this turn, discard 3 more cards in this way.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Giant Tusk
+    damage: 160
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

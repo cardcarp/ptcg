@@ -1,0 +1,51 @@
+name: Hydreigon ex
+
+origin: white-flare-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Darkness
+
+hp: 330
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: ability
+    name: Greedy Eater
+    text: If your opponent's Basic Pokémon is Knocked Out by damage from an attack used by this Pokémon, take 1 more Prize card.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Bite
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,47 @@
+name: Lanturn
+
+origin: legends-awakened-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rushing Water
+    text: Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+    name: Confuse Ray
+    text: The Defending Pokémon is now Confused.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

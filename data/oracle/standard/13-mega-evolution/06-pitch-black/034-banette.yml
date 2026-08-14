@@ -1,0 +1,48 @@
+name: Banette
+
+origin: pitch-black-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: ability
+    name: Hide 'n' Sneak
+    text: Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)
+  - type: attack
+    cost:
+      - Psychic
+    name: Puppet Pull
+    text: You may search your deck for a card and put it into your hand. Then, shuffle your deck.
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,42 @@
+name: Lapras
+
+origin: southern-islands-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 131
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gentle Song
+    text: If Lapras has any damage counters on it, remove 2 of them from it (1 if it only has 1). If the Defending Pokémon has any damage counters on it, remove 2 of them from it (1 if it only has 1). The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Ice Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

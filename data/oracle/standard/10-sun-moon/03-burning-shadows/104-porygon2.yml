@@ -1,0 +1,45 @@
+name: Porygon2
+
+origin: burning-shadows-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Porygon
+
+dex: 233
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Calculate
+    text: Look at the top 6 cards of your deck and put them back in any order.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Beam
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

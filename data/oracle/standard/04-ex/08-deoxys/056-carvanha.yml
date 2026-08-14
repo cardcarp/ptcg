@@ -1,0 +1,48 @@
+name: Carvanha
+
+origin: deoxys-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 318
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Sharp Fin
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Carvanha.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Iron Bundle
+
+origin: twilight-masquerade-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Future
+
+type:
+  - Water
+
+hp: 90
+
+dex: 991
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Interjet
+    text: Switch this Pokémon with 1 of your Benched Pokémon. If you do, switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

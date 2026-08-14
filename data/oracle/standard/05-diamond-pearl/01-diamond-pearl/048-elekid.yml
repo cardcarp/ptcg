@@ -1,0 +1,41 @@
+name: Elekid
+
+origin: diamond-pearl-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 239
+
+rule:
+  - type: ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid) and remove all damage counters from Elekid.
+  - type: attack
+    name: Outlet
+    text: Search your deck for a Lightning Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

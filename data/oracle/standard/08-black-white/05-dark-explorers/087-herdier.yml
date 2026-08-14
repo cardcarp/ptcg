@@ -1,0 +1,44 @@
+name: Herdier
+
+origin: dark-explorers-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Lillipup
+
+dex: 507
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

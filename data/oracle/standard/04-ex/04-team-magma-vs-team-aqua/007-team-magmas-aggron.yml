@@ -1,0 +1,57 @@
+name: Team Magma's Aggron
+
+origin: team-magma-vs-team-aqua-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Team Magma's Lairon
+
+dex: 306
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Crush
+    text: Flip a coin for each Energy attached to Team Magma's Aggron. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Land Stream
+    text: You may discard any number of basic Energy cards attached to Team Magma's Aggron. If you do, this attack does 50 damage plus 20 more damage for each basic Energy card you discarded.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Fighting Darkness type.
+
+regulation:
+
+errata: []

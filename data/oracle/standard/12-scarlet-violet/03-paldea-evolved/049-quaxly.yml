@@ -1,0 +1,38 @@
+name: Quaxly
+
+origin: paldea-evolved-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 912
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Apply Gel
+    text: During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn't happen.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

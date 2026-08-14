@@ -1,0 +1,48 @@
+name: Vespiquen E4
+
+origin: rising-rivals-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 416
+
+rule:
+  - type: ability
+    name: Royal Gain
+    text: When you attach a Grass Energy card from your hand to Vespiquen E4, remove 1 damage counter from Vespiquen E4.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Leaf Needle
+    text: Flip a coin for each Grass Energy attached to Vespiquen E4. This attack does 30 damage plus 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Farfetch'd
+
+origin: emerald-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 83
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spearhead
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nosedive
+    text: Farfetch'd does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

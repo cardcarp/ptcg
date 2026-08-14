@@ -1,0 +1,45 @@
+name: Sigilyph
+
+origin: plasma-blast-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 561
+
+rule:
+  - type: ability
+    name: Toolbox
+    text: This Pokémon may have up to 4 Pokémon Tool cards attached to it. (If this Pokémon loses this Ability, discard Pokémon Tool cards attached to this Pokémon until only 1 Pokémon Tool card remains.)
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Cutting Wind
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

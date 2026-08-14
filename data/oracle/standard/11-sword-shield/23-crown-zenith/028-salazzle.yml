@@ -1,0 +1,47 @@
+name: Salazzle
+
+origin: crown-zenith-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Salandit
+
+dex: 758
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Trickery
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Super Singe
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

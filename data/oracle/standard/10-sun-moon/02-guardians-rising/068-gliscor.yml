@@ -1,0 +1,46 @@
+name: Gliscor
+
+origin: guardians-rising-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Finishing Stinger
+    text: If your opponent's Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.
+    damage: 70
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Guillotine
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

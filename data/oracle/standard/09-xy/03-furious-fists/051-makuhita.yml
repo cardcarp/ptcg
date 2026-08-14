@@ -1,0 +1,42 @@
+name: Makuhita
+
+origin: furious-fists-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 296
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Punch
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Strength
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

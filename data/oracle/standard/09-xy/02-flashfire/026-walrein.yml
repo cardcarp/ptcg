@@ -1,0 +1,51 @@
+name: Walrein
+
+origin: flashfire-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Sealeo
+
+dex: 365
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Powder Snow
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 60
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Big Tusk
+    text: This attack does 120 damage minus 10 damage for each damage counter on this Pokémon.
+    damage: 120
+    modifier: '-'
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

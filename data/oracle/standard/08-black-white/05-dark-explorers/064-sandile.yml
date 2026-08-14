@@ -1,0 +1,47 @@
+name: Sandile
+
+origin: dark-explorers-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 551
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sand Dive
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Corkscrew Punch
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

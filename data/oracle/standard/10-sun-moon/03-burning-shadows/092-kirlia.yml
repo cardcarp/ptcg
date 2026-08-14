@@ -1,0 +1,49 @@
+name: Kirlia
+
+origin: burning-shadows-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 80
+
+preevolution:
+  - Ralts
+
+dex: 281
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Smack
+    damage: 20
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Magical Shot
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

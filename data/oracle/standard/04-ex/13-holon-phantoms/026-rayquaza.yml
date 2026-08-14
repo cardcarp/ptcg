@@ -1,0 +1,47 @@
+name: Rayquaza δ
+
+origin: holon-phantoms-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Outrage
+    text: Flip a coin. If tails, this attack does nothing. If heads, this attack does 10 damage plus 10 more damage for each damage counter on Rayquaza.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard a Fire Energy attached to Rayquaza.
+    damage: 40
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

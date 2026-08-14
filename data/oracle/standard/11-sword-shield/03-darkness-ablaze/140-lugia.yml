@@ -1,0 +1,49 @@
+name: Lugia
+
+origin: darkness-ablaze-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 249
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gust
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Energy Loop
+    text: Put an Energy attached to this Pokémon into your hand.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

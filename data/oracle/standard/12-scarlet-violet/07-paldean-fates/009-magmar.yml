@@ -1,0 +1,42 @@
+name: Magmar
+
+origin: paldean-fates-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 126
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Steady Firebreathing
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

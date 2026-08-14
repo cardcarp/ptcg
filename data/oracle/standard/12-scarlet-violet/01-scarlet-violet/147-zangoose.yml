@@ -1,0 +1,44 @@
+name: Zangoose
+
+origin: scarlet-violet-147
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 335
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drag Off
+    text: Switch in 1 of your opponent's Benched Pokémon to the Active Spot. This attack does 30 damage to the new Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slashing Claw
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

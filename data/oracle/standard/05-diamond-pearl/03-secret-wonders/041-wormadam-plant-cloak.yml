@@ -1,0 +1,44 @@
+name: Wormadam Plant Cloak
+
+origin: secret-wonders-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Burmy Plant Cloak
+
+dex: 413
+
+rule:
+  - type: ability
+    name: Plant Cloak
+    text: If Wormadam Plant Cloak has 2 or more Grass Energy attached to it, Wormadam Plant Cloak gets +40 HP.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Leaf Hurricane
+    text: If the Defending Pokémon has fewer remaining HP than Wormadam Plant Cloak, the Defending Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

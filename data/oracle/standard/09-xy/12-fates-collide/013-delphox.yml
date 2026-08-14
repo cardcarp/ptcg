@@ -1,0 +1,48 @@
+name: Delphox
+
+origin: fates-collide-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Braixen
+
+dex: 655
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flickering Flames
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psystorm
+    text: This attack does 20 damage times the amount of Energy attached to all Pokémon in play.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

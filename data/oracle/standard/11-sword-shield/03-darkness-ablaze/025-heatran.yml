@@ -1,0 +1,47 @@
+name: Heatran
+
+origin: darkness-ablaze-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 485
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Fang
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Raging Flare
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - D
+
+errata: []

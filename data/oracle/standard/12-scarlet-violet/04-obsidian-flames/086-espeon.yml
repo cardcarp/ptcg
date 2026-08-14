@@ -1,0 +1,53 @@
+name: Espeon
+
+origin: obsidian-flames-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psychic Assault
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psy Bolt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

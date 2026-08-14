@@ -1,0 +1,43 @@
+name: Combee
+
+origin: stormfront-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 415
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Alert
+    text: Draw a card. Then, you may switch Combee with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Honey: Once during your turn, when you put Combee from your hand onto your Bench, you may search your discard pile for a Basic Pokémon and put it onto your Bench.'
+
+regulation:
+
+errata: []

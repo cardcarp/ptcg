@@ -1,0 +1,42 @@
+name: Metapod
+
+origin: firered-leafgreen-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Caterpie
+
+dex: 11
+
+rule:
+  - type: ability
+    name: Energy Protection
+    text: Any damage done to Metapod by attacks is reduced by 10 for each Energy attached to Metapod. You can't reduce more than 30 damage in this way.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sharpen
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

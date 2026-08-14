@@ -1,0 +1,43 @@
+name: Iono's Wattrel
+
+origin: journey-together-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 940
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

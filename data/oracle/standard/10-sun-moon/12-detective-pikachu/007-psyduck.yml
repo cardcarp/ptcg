@@ -1,0 +1,36 @@
+name: Psyduck
+
+origin: detective-pikachu-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Panic
+    text: This Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

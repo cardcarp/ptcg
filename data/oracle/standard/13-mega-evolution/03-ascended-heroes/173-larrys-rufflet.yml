@@ -1,0 +1,44 @@
+name: Larry's Rufflet
+
+origin: ascended-heroes-173
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 627
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Peck the Wound
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

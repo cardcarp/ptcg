@@ -1,0 +1,53 @@
+name: Boltund VMAX
+
+origin: fusion-strike-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Lightning
+
+hp: 320
+
+preevolution:
+  - Boltund V
+
+dex: 836
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Bolt Storm
+    text: This attack does 30 more damage for each Lightning Energy attached to all of your Pokémon.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Max Bolt
+    text: During your next turn, this Pokémon can't use Max Bolt.
+    damage: 230
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

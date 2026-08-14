@@ -1,0 +1,40 @@
+name: Dark Croconaw
+
+origin: neo-destiny-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Clamping Jaw
+    text: The Defending Pokémon can't retreat during your opponent's next turn. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing. (Benching either Pokémon ends this effect.)
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

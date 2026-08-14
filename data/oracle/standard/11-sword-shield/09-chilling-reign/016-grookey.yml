@@ -1,0 +1,40 @@
+name: Grookey
+
+origin: chilling-reign-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 810
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Hit Twice
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

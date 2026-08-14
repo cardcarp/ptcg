@@ -1,0 +1,43 @@
+name: Starmie
+
+origin: 151-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: ability
+    name: Mysterious Comet
+    text: Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon. If you placed any damage counters in this way, discard this Pokémon and all attached cards.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Speed Attack
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

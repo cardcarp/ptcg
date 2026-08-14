@@ -1,0 +1,48 @@
+name: Dark Flareon
+
+origin: team-rocket-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 50
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Dark Flareon.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Playing with Fire
+    text: Use this attack only if there are any Fire Energy cards attached to Dark Flareon. Flip a coin. If heads, discard 1 of those Energy cards and this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

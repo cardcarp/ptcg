@@ -1,0 +1,42 @@
+name: Misty's Shellder
+
+origin: gym-heroes-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 90
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Clamp
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

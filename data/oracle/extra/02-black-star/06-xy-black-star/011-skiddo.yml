@@ -1,0 +1,37 @@
+name: Skiddo
+
+origin: xy-black-star-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 672
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Take Down
+    text: This Pokémon does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

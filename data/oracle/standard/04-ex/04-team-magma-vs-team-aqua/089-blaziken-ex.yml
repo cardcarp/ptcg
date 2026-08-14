@@ -1,0 +1,56 @@
+name: Blaziken ex
+
+origin: team-magma-vs-team-aqua-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Blaze Kick
+    text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Burned.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Volcanic Ash
+    text: Discard 2 Fire Energy attached to Blaziken ex and then choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

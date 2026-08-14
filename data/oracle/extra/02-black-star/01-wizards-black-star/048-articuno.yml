@@ -1,0 +1,42 @@
+name: Articuno
+
+origin: wizards-black-star-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 144
+
+rule:
+  - type: ability
+    name: Aurora Veil
+    text: As long as Articuno is your Active Pokémon, your Benched Pokémon do not take damage from and are not affected by attacks. This power cannot be used if Articuno is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Ice Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

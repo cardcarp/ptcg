@@ -1,0 +1,44 @@
+name: Volcanion
+
+origin: mega-evolution-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 721
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Backfire
+    text: Put 2 Fire Energy attached to this Pokémon into your hand.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

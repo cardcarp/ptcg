@@ -1,0 +1,46 @@
+name: Torkoal
+
+origin: scarlet-violet-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 324
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stampede
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Concentrated Fire
+    text: Flip a coin for each Fire Energy attached to this Pokémon. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,44 @@
+name: Crabrawler
+
+origin: obsidian-flames-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 739
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Knuckle Punch
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Magnum Punch
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

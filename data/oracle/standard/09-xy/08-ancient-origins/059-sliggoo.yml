@@ -1,0 +1,44 @@
+name: Sliggoo
+
+origin: ancient-origins-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 70
+
+preevolution:
+  - Goomy
+
+dex: 705
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bubble
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Water
+      - Fairy
+    name: Melt
+    damage: 20
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

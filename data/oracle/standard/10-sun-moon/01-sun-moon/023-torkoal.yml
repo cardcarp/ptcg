@@ -1,0 +1,42 @@
+name: Torkoal
+
+origin: sun-moon-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 324
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

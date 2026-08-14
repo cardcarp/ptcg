@@ -1,0 +1,48 @@
+name: Purrloin
+
+origin: shining-legends-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 509
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Tail Rap
+    text: Flip 2 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Metang
+
+origin: power-keepers-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Beldum
+
+dex: 375
+
+rule:
+  - type: ability
+    name: Clear Body
+    text: Metang can't be affected by any Special Conditions.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Extra Comet Punch
+    text: During your next turn, Extra Comet Punch does 30 damage plus 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

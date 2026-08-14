@@ -1,0 +1,44 @@
+name: Team Magma's Camerupt
+
+origin: team-magma-vs-team-aqua-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Team Magma's Numel
+
+dex: 323
+
+rule:
+  - type: ability
+    name: Overheat
+    text: Once during your turn (before your attack), you may search your discard pile for a basic Energy card and attach it to Team Magma's Camerupt. Put 2 damage counters on Team Mamga's Camerupt. This power can't be used if Team Magma's Camerupt is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flame Ball
+    text: You may move a Fire Energy card attached to Team Magma's Camerupt to 1 of your Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

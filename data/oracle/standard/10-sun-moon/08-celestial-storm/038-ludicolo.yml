@@ -1,0 +1,45 @@
+name: Ludicolo
+
+origin: celestial-storm-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Lombre
+
+dex: 272
+
+rule:
+  - type: ability
+    name: Swing Dance
+    text: Once during your turn (before your attack), you may draw a card.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Circular Steps
+    text: This attack does 10 more damage for each other Pokémon in play (both yours and your opponent's).
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Electrode
+
+origin: boundaries-crossed-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Static Shock
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electro Ball
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

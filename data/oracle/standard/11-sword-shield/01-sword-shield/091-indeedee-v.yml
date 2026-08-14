@@ -1,0 +1,52 @@
+name: Indeedee V
+
+origin: sword-shield-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 876
+
+rule:
+  - type: ability
+    name: Watch Over
+    text: Once during your turn, you may heal 20 damage from your Active Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 60 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

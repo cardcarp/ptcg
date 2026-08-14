@@ -1,0 +1,47 @@
+name: Hawlucha
+
+origin: breakthrough-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 701
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: High Jump Kick
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Skyward Kick
+    text: This attack's damage isn't affected by Resistance.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

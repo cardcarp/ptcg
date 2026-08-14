@@ -1,0 +1,49 @@
+name: Sandaconda
+
+origin: scarlet-violet-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Silicobra
+
+dex: 844
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Skull Bash
+    damage: 120
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Sandstorm Spray
+    text: Discard 2 Energy from this Pokémon. If you discarded any Energy in this way, your opponent shuffles their Active Pokémon and all attached cards into their deck.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

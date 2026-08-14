@@ -1,0 +1,47 @@
+name: Virizion
+
+origin: noble-victories-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 640
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Wallop
+    text: During your next turn, this Pokémon's Leaf Wallop attack does 40 more damage (before applying Weakness and Resistance).
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

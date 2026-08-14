@@ -1,0 +1,48 @@
+name: M Mewtwo-EX
+
+origin: breakthrough-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Psychic
+
+hp: 230
+
+preevolution:
+  - Mewtwo-EX
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Vanishing Strike
+    text: If there is any Stadium card in play, this attack does 50 more damage, and this attack's damage isn't affected by Resistance or any effects on your opponent's Active Pokémon.
+    damage: 150
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

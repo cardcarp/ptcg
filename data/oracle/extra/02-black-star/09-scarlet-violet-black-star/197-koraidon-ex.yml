@@ -1,0 +1,50 @@
+name: Koraidon ex
+
+origin: scarlet-violet-black-star-197
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 230
+
+dex: 1007
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Claw Slash
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Revenge Buster
+    text: If your Benched Pokémon have any damage counters on them, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

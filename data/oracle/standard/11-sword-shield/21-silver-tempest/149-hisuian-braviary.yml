@@ -1,0 +1,50 @@
+name: Hisuian Braviary
+
+origin: silver-tempest-149
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Rufflet
+
+dex: 628
+
+rule:
+  - type: attack
+    name: Eerie Cry
+    text: Put 3 damage counters on each of your opponent's Pokémon that has any damage counters on it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mind Bend
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

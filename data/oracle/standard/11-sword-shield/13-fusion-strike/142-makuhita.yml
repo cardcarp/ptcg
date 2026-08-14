@@ -1,0 +1,44 @@
+name: Makuhita
+
+origin: fusion-strike-142
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 296
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lunge Out
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

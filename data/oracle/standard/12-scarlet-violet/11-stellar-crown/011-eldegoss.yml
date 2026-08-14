@@ -1,0 +1,44 @@
+name: Eldegoss
+
+origin: stellar-crown-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Gossifleur
+
+dex: 830
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Breezy Gift
+    text: Put this Pokémon and all attached cards into your deck. If you do, search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+    name: Leafage
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

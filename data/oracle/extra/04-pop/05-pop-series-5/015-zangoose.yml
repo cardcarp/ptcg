@@ -1,0 +1,42 @@
+name: Zangoose δ
+
+origin: pop-series-5-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 335
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Detect
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Zangoose during your opponent's next turn.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Claw
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

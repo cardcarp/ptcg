@@ -1,0 +1,49 @@
+name: Misty's Dewgong
+
+origin: gym-challenge-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Misty's Seel
+
+dex: 87
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Ice Throw
+    text: If the Defending Pokémon is Fighting, this attack's base damage is doubled.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Misty's Dewgong does 20 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,54 @@
+name: Metang
+
+origin: legends-awakened-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Beldum
+
+dex: 375
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Bullet Punch
+    text: Flip 2 coins. This attack does 40 damage plus 20 more damage for each heads.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

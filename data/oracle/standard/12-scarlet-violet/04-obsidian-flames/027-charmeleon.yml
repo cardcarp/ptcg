@@ -1,0 +1,41 @@
+name: Charmeleon
+
+origin: obsidian-flames-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Heat Tackle
+    text: This Pokémon also does 20 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

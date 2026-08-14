@@ -1,0 +1,43 @@
+name: Larvesta
+
+origin: dark-explorers-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 636
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Magearna
+
+origin: lost-origin-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 801
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Gear Cutter
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Windup Beam
+    text: If this Pokémon has a Pokémon Tool attached, this attack does 60 more damage, and your opponent's Active Pokémon is now Confused.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

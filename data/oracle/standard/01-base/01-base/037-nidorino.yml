@@ -1,0 +1,50 @@
+name: Nidorino
+
+origin: base-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Nidoran ♂
+
+dex: 33
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Horn Drill
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

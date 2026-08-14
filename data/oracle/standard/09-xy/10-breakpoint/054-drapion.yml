@@ -1,0 +1,49 @@
+name: Drapion
+
+origin: breakpoint-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Skorupi
+
+dex: 452
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Poison Claws
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 70
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Heavy Impact
+    damage: 130
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

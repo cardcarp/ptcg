@@ -1,0 +1,49 @@
+name: Team Magma's Rhydon
+
+origin: team-magma-vs-team-aqua-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Team Magma's Rhyhorn
+
+dex: 112
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Second Strike
+    text: If the Defending Pokémon already has at least 2 damage counters on it, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Land Crush
+    text: Flip a coin. If tails, discard an Energy card attached to Team Magma's Rhydon.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Galarian Stunfisk V
+
+origin: darkness-ablaze-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Metal
+
+hp: 200
+
+dex: 618
+
+rule:
+  - type: ability
+    name: Metal Skin
+    text: This Pokémon gets +20 HP for each Metal Energy attached to it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Trapping Bite
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

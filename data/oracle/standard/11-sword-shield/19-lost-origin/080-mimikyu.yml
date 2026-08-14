@@ -1,0 +1,49 @@
+name: Mimikyu
+
+origin: lost-origin-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 778
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Worst Gift
+    text: This attack does 10 damage for each damage counter on all of your opponent's Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

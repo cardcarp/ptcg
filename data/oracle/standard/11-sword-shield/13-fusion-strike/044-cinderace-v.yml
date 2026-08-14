@@ -1,0 +1,51 @@
+name: Cinderace V
+
+origin: fusion-strike-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+  - Single Strike
+
+type:
+  - Fire
+
+hp: 210
+
+dex: 815
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flare
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: All-Out Shot
+    text: During your next turn, this Pokémon can't attack.
+    damage: 210
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

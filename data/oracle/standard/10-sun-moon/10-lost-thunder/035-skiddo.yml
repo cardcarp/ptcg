@@ -1,0 +1,41 @@
+name: Skiddo
+
+origin: lost-thunder-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 672
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Vine Whip
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

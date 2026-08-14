@@ -1,0 +1,56 @@
+name: Copperajah
+
+origin: fusion-strike-192
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Metal
+
+hp: 190
+
+preevolution:
+  - Cufant
+
+dex: 879
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Strength
+    damage: 90
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: High Horsepower
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+  - E
+
+errata: []

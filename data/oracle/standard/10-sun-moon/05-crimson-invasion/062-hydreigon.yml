@@ -1,0 +1,49 @@
+name: Hydreigon
+
+origin: crimson-invasion-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 160
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: ability
+    name: Weed Out
+    text: Once during your turn (before your attack), you may choose 3 of your Benched Pokémon. Then, discard your other Benched Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Destruction
+    text: You may discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

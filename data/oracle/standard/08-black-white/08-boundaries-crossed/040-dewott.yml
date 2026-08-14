@@ -1,0 +1,45 @@
+name: Dewott
+
+origin: boundaries-crossed-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Oshawott
+
+dex: 502
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

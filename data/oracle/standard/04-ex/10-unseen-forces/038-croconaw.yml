@@ -1,0 +1,47 @@
+name: Croconaw
+
+origin: unseen-forces-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Sonic
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

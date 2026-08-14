@@ -1,0 +1,38 @@
+name: Numel
+
+origin: obsidian-flames-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 322
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Hot Magma
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

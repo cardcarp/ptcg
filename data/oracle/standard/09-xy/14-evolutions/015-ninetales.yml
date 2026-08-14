@@ -1,0 +1,46 @@
+name: Ninetales
+
+origin: evolutions-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Lure
+    text: Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon. The new Active Pokémon can't retreat during your opponent's next turn.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Blast
+    text: Discard a Fire Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

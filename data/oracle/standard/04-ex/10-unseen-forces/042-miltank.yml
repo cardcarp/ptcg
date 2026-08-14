@@ -1,0 +1,45 @@
+name: Miltank
+
+origin: unseen-forces-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 241
+
+rule:
+  - type: ability
+    name: Thick Fat
+    text: Any damage done to Miltank by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Healing Milk
+    text: Flip 2 coins. For each heads, remove 2 damage counters from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

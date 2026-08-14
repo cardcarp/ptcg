@@ -1,0 +1,46 @@
+name: Simisear
+
+origin: fusion-strike-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Pansear
+
+dex: 514
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+    name: Fling Fire
+    text: Discard up to 2 basic Energy cards from your hand. This attack does 60 damage for each card you discarded in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,36 @@
+name: Psyduck
+
+origin: team-up-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Headache
+    text: Flip a coin. If heads, your opponent can't play any Trainer cards from their hand during their next turn.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

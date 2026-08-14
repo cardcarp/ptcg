@@ -1,0 +1,50 @@
+name: Brock's Golbat
+
+origin: gym-heroes-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Brock's Zubat
+
+dex: 42
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dive
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Spiral Dive
+    text: Does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

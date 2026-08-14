@@ -1,0 +1,38 @@
+name: Galarian Farfetch'd
+
+origin: chilling-reign-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 83
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Puncture
+    text: This attack's damage isn't affected by Resistance.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

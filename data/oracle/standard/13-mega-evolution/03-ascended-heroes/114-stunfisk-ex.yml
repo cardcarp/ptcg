@@ -1,0 +1,50 @@
+name: Stunfisk ex
+
+origin: ascended-heroes-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 210
+
+dex: 618
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Big Bite
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Flopping Trap
+    text: If this Pokémon has any damage counters on it, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

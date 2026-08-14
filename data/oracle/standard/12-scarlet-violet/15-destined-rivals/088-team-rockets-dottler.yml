@@ -1,0 +1,50 @@
+name: Team Rocket's Dottler
+
+origin: destined-rivals-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Team Rocket's Blipbug
+
+dex: 825
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Disruptive Radar
+    text: Look at the top 5 cards of your opponent's deck and put them back in any order.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

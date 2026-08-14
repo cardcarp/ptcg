@@ -1,0 +1,46 @@
+name: Ursaring
+
+origin: evolving-skies-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Teddiursa
+
+dex: 217
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Whap Down
+    damage: 110
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

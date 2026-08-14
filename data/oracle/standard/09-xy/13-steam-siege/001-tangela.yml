@@ -1,0 +1,46 @@
+name: Tangela
+
+origin: steam-siege-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 114
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Mega Drain
+    text: Heal 20 damage from this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

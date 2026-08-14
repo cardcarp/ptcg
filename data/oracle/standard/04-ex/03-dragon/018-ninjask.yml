@@ -1,0 +1,41 @@
+name: Ninjask
+
+origin: dragon-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Nincada
+
+dex: 291
+
+rule:
+  - type: ability
+    name: Loose Shell
+    text: Once during your turn, when you play Ninjask from your hand to evolve 1 of your Pokémon, you may search your deck for Shedinja and put it onto your Bench. Treat the new Benched Pokémon as a Basic Pokémon. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Touch
+    text: You may switch Ninjask with 1 of your Benched Pokémon. If you do, you may move any number of Grass Energy cards attached to Ninjask to the new Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Leavanny
+
+origin: white-flare-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Swadloon
+
+dex: 542
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Healing Wrapping
+    text: Heal 100 damage from each of your Basic Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

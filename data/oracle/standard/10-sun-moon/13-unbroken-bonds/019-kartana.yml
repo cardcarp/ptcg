@@ -1,0 +1,43 @@
+name: Kartana
+
+origin: unbroken-bonds-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 798
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Big Cut
+    text: If you have exactly 4 Prize cards remaining, this attack does 120 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: False Swipe
+    text: Flip a coin. If heads, put damage counters on your opponent's Active Pokémon until its remaining HP is 10.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

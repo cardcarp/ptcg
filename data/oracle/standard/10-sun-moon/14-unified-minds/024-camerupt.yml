@@ -1,0 +1,48 @@
+name: Camerupt
+
+origin: unified-minds-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strong Flare
+    text: Discard 2 Energy from this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

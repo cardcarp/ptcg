@@ -1,0 +1,46 @@
+name: Butterfree
+
+origin: 151-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Metapod
+
+dex: 12
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Whirlwind
+    text: Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    damage: 60
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bye-Bye Flight
+    text: Choose 1 of your opponent's Benched Pokémon. Shuffle that Pokémon and all attached cards into their deck, and then shuffle this Pokémon and all attached cards into your deck. If your opponent has no Benched Pokémon, this attack does nothing.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

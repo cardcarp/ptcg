@@ -1,0 +1,53 @@
+name: Kilowattrel
+
+origin: surging-sparks-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Wattrel
+
+dex: 941
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Glide
+    damage: 50
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Storm Bolt
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you like.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

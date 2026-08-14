@@ -1,0 +1,46 @@
+name: Persian
+
+origin: fusion-strike-200
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pay Day
+    text: Draw a card.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

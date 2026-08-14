@@ -1,0 +1,45 @@
+name: Team Rocket's Spidops
+
+origin: destined-rivals-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Team Rocket's Tarountula
+
+dex: 918
+
+rule:
+  - type: ability
+    name: Charging Up
+    text: Once during your turn, you may attach a Basic Energy card from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Rocket Rush
+    text: This attack does 30 damage for each of your Team Rocket's Pokémon in play.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

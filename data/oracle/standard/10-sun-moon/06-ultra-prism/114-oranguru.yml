@@ -1,0 +1,43 @@
+name: Oranguru
+
+origin: ultra-prism-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 765
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Resource Management
+    text: Put 3 cards from your discard pile on the bottom of your deck in any order.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Profound Knowledge
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

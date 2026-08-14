@@ -1,0 +1,52 @@
+name: Azumarill
+
+origin: lost-thunder-136
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 100
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Polka-Dot Search
+    text: Look at the top 8 cards of your deck and attach any number of Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Play Rough
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

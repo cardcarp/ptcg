@@ -1,0 +1,37 @@
+name: Frigibax
+
+origin: paldea-evolved-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 996
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,48 @@
+name: Nidoqueen
+
+origin: plasma-freeze-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Nidorina
+
+dex: 31
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poison Horn
+    damage: 50
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Double Stomp
+    text: Flip 2 coins. This attack does 30 more damage for each heads.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

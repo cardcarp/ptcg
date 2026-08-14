@@ -1,0 +1,45 @@
+name: Parasect
+
+origin: lost-origin-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Paras
+
+dex: 47
+
+rule:
+  - type: ability
+    name: Lethargy Spores
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make both Active Pokémon Asleep and Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

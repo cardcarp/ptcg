@@ -1,0 +1,44 @@
+name: Stoutland
+
+origin: boundaries-crossed-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Herdier
+
+dex: 508
+
+rule:
+  - type: ability
+    name: Sentinel
+    text: As long as this Pokémon is your Active Pokémon, your opponent can't play any Supporter cards from his or her hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wild Tackle
+    text: Flip a coin. If tails, this Pokémon does 20 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

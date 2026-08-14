@@ -1,0 +1,47 @@
+name: Pachirisu
+
+origin: great-encounters-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 417
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+    name: Smash Short
+    text: If the Defending Pokémon has a Pokémon Tool card attached to it, this attack does 10 damage plus 30 more damage. Discard that Pokémon Tool card, look at your opponent's hand, and discard any Pokémon Tool cards of the same name you find there.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

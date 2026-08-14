@@ -1,0 +1,50 @@
+name: Flareon
+
+origin: plasma-freeze-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Vengeance
+    text: Does 10 more damage for each Pokémon in your discard pile.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Tackle
+    text: This Pokémon does 10 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

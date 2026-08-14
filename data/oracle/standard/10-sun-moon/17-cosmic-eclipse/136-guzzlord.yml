@@ -1,0 +1,50 @@
+name: Guzzlord
+
+origin: cosmic-eclipse-136
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Darkness
+
+hp: 150
+
+dex: 799
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Mountain Munch
+    text: Discard the top card of your opponent's deck.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Red Banquet
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Ninetales
+
+origin: fusion-strike-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: ability
+    name: Byway of the Nine-Tailed Fox
+    text: The Retreat Cost of each of your Pokémon that has any Fire Energy attached is ColorlessColorless less.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flame Tail
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,52 @@
+name: Musharna
+
+origin: fusion-strike-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Munna
+
+dex: 518
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sleep Inducer
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

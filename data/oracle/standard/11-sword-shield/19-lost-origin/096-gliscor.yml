@@ -1,0 +1,42 @@
+name: Gliscor
+
+origin: lost-origin-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Hurricane Shock
+    text: Flip 4 coins. This attack does 50 damage for each heads. If at least 2 of them are heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

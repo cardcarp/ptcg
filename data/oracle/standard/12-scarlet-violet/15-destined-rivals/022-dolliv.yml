@@ -1,0 +1,45 @@
+name: Dolliv
+
+origin: destined-rivals-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Smoliv
+
+dex: 929
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Nutrients
+    text: Heal 40 damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

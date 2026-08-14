@@ -1,0 +1,43 @@
+name: Dark Raticate
+
+origin: team-rocket-returns-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Dark Seed
+    text: The Defending Pokémon can't retreat during your opponent's next turn. Put 5 damage counters on the Defending Pokémon at the end of your opponent's next turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spread Poison
+    text: The Defending Pokémon is now Poisoned. This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

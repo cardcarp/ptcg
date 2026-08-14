@@ -1,0 +1,36 @@
+name: Geodude
+
+origin: expedition-base-set-110
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 74
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Rock Hurl
+    text: Don't apply Resistance.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

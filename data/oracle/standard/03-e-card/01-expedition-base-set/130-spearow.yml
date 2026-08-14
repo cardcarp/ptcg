@@ -1,0 +1,41 @@
+name: Spearow
+
+origin: expedition-base-set-130
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 21
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Razor Wind
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

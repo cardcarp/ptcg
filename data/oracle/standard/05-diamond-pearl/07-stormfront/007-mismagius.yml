@@ -1,0 +1,50 @@
+name: Mismagius
+
+origin: stormfront-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: attack
+    name: Crash Chant
+    text: Choose up to 4 in any combination of Pokémon Tool cards and Technical Machine cards in play (both yours and your opponent's) and discard them. This attack does 20 damage times the number of cards discarded in this way.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Horror Chant
+    text: If your opponent has 4 or more Benched Pokémon, choose 1 of them and return that Pokémon and all cards attached to it to your opponent's hand.
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

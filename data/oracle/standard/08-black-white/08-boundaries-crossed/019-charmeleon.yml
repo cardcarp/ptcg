@@ -1,0 +1,47 @@
+name: Charmeleon
+
+origin: boundaries-crossed-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Raging Claws
+    text: Does 10 more damage for each damage counter on this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

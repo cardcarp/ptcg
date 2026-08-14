@@ -1,0 +1,47 @@
+name: Nidorina
+
+origin: skyridge-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Nidoran ♀
+
+dex: 30
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Poison Claws
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

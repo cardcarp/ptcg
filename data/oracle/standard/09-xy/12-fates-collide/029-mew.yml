@@ -1,0 +1,36 @@
+name: Mew
+
+origin: fates-collide-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 151
+
+rule:
+  - type: ability
+    name: Memories of Dawn
+    text: This Pokémon can use the attacks of any of your Basic Pokémon in play. (You still need the necessary Energy to use each attack.)
+  - type: attack
+    cost:
+      - Colorless
+    name: Encounter
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

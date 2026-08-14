@@ -1,0 +1,39 @@
+name: Mudbray
+
+origin: destined-rivals-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 749
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Running Charge
+    text: Flip a coin until you get tails. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

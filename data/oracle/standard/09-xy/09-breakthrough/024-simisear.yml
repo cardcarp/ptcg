@@ -1,0 +1,46 @@
+name: Simisear
+
+origin: breakthrough-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Pansear
+
+dex: 514
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Water Fling
+    text: Put 3 Water Energy from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hand Fling
+    text: This attack does 10 damage times the number of cards in your hand.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

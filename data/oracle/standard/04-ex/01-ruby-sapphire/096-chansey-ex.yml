@@ -1,0 +1,48 @@
+name: Chansey ex
+
+origin: ruby-sapphire-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 113
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Healing Egg
+    text: Remove 2 damage counters (1 if there is only 1) from each of your Pokémon. Remove no damage counters from Chansey ex.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Chansey ex does 60 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

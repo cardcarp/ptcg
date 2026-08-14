@@ -1,0 +1,47 @@
+name: Scrafty
+
+origin: paldean-fates-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lambaste
+    text: If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Headbang
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

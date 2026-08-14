@@ -1,0 +1,47 @@
+name: Team Magma's Groudon-EX
+
+origin: double-crisis-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Fighting
+
+hp: 190
+
+dex: 383
+
+rule:
+  - type: ability
+    name: Power Saver
+    text: If there are 4 or fewer Team Magma Pokémon in play, this Pokémon can't attack.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Magma Quake
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

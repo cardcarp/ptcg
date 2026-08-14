@@ -1,0 +1,48 @@
+name: Luxio
+
+origin: next-destinies-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Jump On
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Wild Charge
+    text: This Pokémon does 10 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

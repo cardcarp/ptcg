@@ -1,0 +1,43 @@
+name: Panpour
+
+origin: kalos-starter-set-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 515
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

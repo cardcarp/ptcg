@@ -1,0 +1,54 @@
+name: Gengar VMAX
+
+origin: fusion-strike-157
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 320
+
+preevolution:
+  - Gengar V
+
+dex: 94
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Fear and Panic
+    text: This attack does 60 damage for each of your opponent's Pokémon V and Pokémon-GX in play.
+    damage: 60
+    modifier: x
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: G-Max Swallow Up
+    text: During your next turn, this Pokémon can't attack.
+    damage: 250
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

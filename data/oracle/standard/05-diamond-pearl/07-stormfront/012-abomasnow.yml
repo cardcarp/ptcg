@@ -1,0 +1,51 @@
+name: Abomasnow
+
+origin: stormfront-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Snover
+
+dex: 460
+
+rule:
+  - type: ability
+    name: Snow Veil
+    text: As long as Abomasnow is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Snow Play
+    text: Does 20 damage to each of your opponent's Benched Pokémon, excluding Grass Pokémon and Water Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Below Zero
+    text: If Abomasnow evolved from Snover during this turn, the Defending Pokémon is now Paralyzed.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

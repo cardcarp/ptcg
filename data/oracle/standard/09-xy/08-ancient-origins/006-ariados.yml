@@ -1,0 +1,43 @@
+name: Ariados
+
+origin: ancient-origins-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: ability
+    name: Poisonous Nest
+    text: Once during your turn (before your attack), you may use this Ability. Both Active Pokémon (except for Grass Pokémon) are now Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Impound
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

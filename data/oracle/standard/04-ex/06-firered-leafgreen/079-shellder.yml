@@ -1,0 +1,40 @@
+name: Shellder
+
+origin: firered-leafgreen-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 90
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Minimize
+    text: During your opponent's next turn, any damage done to Shellder by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

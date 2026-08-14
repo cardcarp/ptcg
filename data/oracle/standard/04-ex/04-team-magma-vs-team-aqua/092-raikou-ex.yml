@@ -1,0 +1,48 @@
+name: Raikou ex
+
+origin: team-magma-vs-team-aqua-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Lightning
+
+hp: 100
+
+dex: 243
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Dazzle Blast
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Tackle
+    text: Flip a coin. If tails, Raikou ex does 20 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

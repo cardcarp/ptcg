@@ -1,0 +1,45 @@
+name: Scovillain
+
+origin: obsidian-flames-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Capsakid
+
+dex: 952
+
+rule:
+  - type: ability
+    name: Double Type
+    text: As long as this Pokémon is in play, it is Grass and Fire type.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Spicy Headbutt
+    text: This attack's damage isn't affected by Resistance.
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

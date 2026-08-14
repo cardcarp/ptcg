@@ -1,0 +1,43 @@
+name: Dreepy
+
+origin: fusion-strike-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Fusion Strike
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 885
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Infestation
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

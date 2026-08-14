@@ -1,0 +1,44 @@
+name: Machoke
+
+origin: guardians-rising-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: ability
+    name: Daunting Pose
+    text: Prevent all damage done to your Benched Pokémon by your opponent's attacks. Your opponent's attacks and Abilities can't put damage counters on your Benched Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Cross Chop
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

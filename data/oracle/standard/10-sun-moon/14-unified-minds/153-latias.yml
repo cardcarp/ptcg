@@ -1,0 +1,44 @@
+name: Latias
+
+origin: unified-minds-153
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 380
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Energy Arrow
+    text: This attack does 20 damage times the amount of Energy attached to 1 of your opponent's Pokémon to that Pokémon. This damage isn't affected by Weakness or Resistance.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Speed Wing
+    damage: 100
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

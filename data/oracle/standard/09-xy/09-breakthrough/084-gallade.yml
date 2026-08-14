@@ -1,0 +1,44 @@
+name: Gallade
+
+origin: breakthrough-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Kirlia
+
+dex: 475
+
+rule:
+  - type: ability
+    name: Premonition
+    text: Once during your turn (before your attack), you may look at the top 5 cards of your deck and put them back on top of your deck in any order.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sensitive Blade
+    text: If you played a Supporter card from your hand during this turn, this attack does 70 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Goodra
+
+origin: phantom-forces-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 140
+
+preevolution:
+  - Sliggoo
+
+dex: 706
+
+rule:
+  - type: ability
+    name: Slip Trip
+    text: Each player can't attach any Pokémon Tool cards from his or her hand to any of his or her Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Dragon Pulse
+    text: Discard the top card of your deck.
+    damage: 130
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

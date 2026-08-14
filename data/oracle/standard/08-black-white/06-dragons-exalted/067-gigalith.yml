@@ -1,0 +1,51 @@
+name: Gigalith
+
+origin: dragons-exalted-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Boldore
+
+dex: 526
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Revenge Cannon
+    text: Does 10 more damage for each damage counter on each of your Benched Pokémon.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon does 40 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

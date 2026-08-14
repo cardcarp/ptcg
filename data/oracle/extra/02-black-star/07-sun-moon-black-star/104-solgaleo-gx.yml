@@ -1,0 +1,58 @@
+name: Solgaleo-GX
+
+origin: sun-moon-black-star-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Metal
+
+hp: 250
+
+preevolution:
+  - Cosmoem
+
+dex: 791
+
+rule:
+  - type: ability
+    name: Shining Mane
+    text: Your Pokémon in play have no Weakness.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Turbo Strike
+    text: Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.
+    damage: 120
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Prominence-GX
+    text: Heal all damage from all of your Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

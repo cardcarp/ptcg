@@ -1,0 +1,36 @@
+name: Salandit
+
+origin: sword-shield-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 757
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Smog
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

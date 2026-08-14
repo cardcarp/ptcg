@@ -1,0 +1,42 @@
+name: Misdreavus
+
+origin: neo-revelation-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 200
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Night Eyes
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Perish Song
+    text: If the Defending Pokémon is Asleep and was attacked with Night Eyes during your last turn, it is Knocked Out.
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

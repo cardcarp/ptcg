@@ -1,0 +1,43 @@
+name: Thundurus
+
+origin: black-white-black-star-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 642
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Charge
+    text: Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Disaster Volt
+    text: Discard an Energy attached to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

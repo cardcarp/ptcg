@@ -1,0 +1,51 @@
+name: Crobat VMAX
+
+origin: sword-shield-black-star-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Darkness
+
+hp: 300
+
+preevolution:
+  - Crobat V
+
+dex: 169
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Stealth Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 70
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Max Cutter
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

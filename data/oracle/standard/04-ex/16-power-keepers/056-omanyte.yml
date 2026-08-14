@@ -1,0 +1,44 @@
+name: Omanyte
+
+origin: power-keepers-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 138
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Influence
+    text: Search your deck for Omanyte, Kabuto, Aerodactyl, Lileep, or Anorith and put up to 2 of them onto your Bench. Shuffle your deck afterward. Treat the new Benched Pokémon as Basic Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mud Shot
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

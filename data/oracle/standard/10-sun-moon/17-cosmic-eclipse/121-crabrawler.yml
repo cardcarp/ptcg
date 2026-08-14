@@ -1,0 +1,41 @@
+name: Crabrawler
+
+origin: cosmic-eclipse-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 739
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Jab
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Confront
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

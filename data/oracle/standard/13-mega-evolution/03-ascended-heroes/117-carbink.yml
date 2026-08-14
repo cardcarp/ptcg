@@ -1,0 +1,43 @@
+name: Carbink
+
+origin: ascended-heroes-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 703
+
+rule:
+  - type: ability
+    name: Double Type
+    text: As long as this Pokémon is in play, it is Fighting and Psychic type.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Counter Jewel
+    text: If your opponent has 2 or fewer Prize cards remaining, this attack does 100 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

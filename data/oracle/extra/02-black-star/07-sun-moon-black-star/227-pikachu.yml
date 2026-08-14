@@ -1,0 +1,50 @@
+name: Pikachu
+
+origin: sun-moon-black-star-227
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunderbolt
+    text: Discard all Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

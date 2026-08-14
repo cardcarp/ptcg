@@ -1,0 +1,38 @@
+name: Darumaka
+
+origin: dragon-majesty-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 554
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Damage Rush
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

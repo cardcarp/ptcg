@@ -1,0 +1,39 @@
+name: Alolan Vulpix
+
+origin: lost-thunder-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: ability
+    name: Secret Alleyway
+    text: If you have any Fairy Pokémon in play, this Pokémon has no Retreat Cost.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

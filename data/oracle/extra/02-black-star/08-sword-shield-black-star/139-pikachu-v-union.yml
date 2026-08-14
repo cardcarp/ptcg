@@ -1,0 +1,62 @@
+name: Pikachu V-UNION
+
+origin: sword-shield-black-star-139
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - V-UNION
+
+type:
+  - Lightning
+
+hp: 300
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Union Gain
+    text: Attach up to 2 Lightning Energy cards from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Shocking Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 120
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Disconnect
+    text: During your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 150
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electro Ball Together
+    damage: 250
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'How to play a Pokémon V-UNION: Once per game during your turn, combine 4 different Pikachu V-UNION from your discard pile and put them onto your Bench.'
+  - 'V-UNION rule: When your Pokémon V-UNION is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

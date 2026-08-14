@@ -1,0 +1,47 @@
+name: Houndoom
+
+origin: aquapolis-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Burn Up
+    text: Flip a coin. If tails, discard all Fire Energy cards attached to Houndoom.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

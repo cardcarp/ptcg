@@ -1,0 +1,45 @@
+name: Morpeko VMAX
+
+origin: sword-shield-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Lightning
+
+hp: 300
+
+preevolution:
+  - Morpeko V
+
+dex: 877
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Max Discharge
+    text: This attack also does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

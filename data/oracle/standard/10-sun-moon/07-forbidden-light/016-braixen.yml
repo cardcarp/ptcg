@@ -1,0 +1,46 @@
+name: Braixen
+
+origin: forbidden-light-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Fennekin
+
+dex: 654
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

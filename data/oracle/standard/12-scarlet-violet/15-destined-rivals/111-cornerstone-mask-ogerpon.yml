@@ -1,0 +1,44 @@
+name: Cornerstone Mask Ogerpon
+
+origin: destined-rivals-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 1017
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rock Kagura
+    text: Search your deck for a Basic Fighting Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mountain Ramming
+    text: Discard the top card of your opponent's deck.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,51 @@
+name: Empoleon
+
+origin: stormfront-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Prinplup
+
+dex: 395
+
+rule:
+  - type: ability
+    name: Emperor Aura
+    text: Once during your turn (before your attack), when you play Empoleon from your hand to evolve 1 of your Active Pokémon, you may use this power. Your opponent can't attach any Energy cards from his or her hand to his or her Pokémon during your opponent's next turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Steel Wing
+    text: During your opponent's next turn, any damage done to Empoleon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Whirlpool
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

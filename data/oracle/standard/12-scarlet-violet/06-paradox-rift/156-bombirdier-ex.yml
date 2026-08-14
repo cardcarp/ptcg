@@ -1,0 +1,53 @@
+name: Bombirdier ex
+
+origin: paradox-rift-156
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 200
+
+dex: 962
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fast Carrier
+    text: If you go first, you can use this attack during your first turn. Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Shadowy Wind
+    text: You may put this Pokémon and all attached cards into your hand.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

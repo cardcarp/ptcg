@@ -1,0 +1,47 @@
+name: Virizion
+
+origin: black-white-black-star-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 640
+
+rule:
+  - type: ability
+    name: Justified
+    text: Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Leaf Blade
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Shining Ho-Oh
+
+origin: sun-moon-black-star-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 250
+
+rule:
+  - type: ability
+    name: Golden Wing
+    text: If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent's attack, move up to 2 basic Energy cards from this Pokémon to your Benched Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fire Blast
+    text: Discard an Energy from this Pokémon.
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

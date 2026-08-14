@@ -1,0 +1,41 @@
+name: Patrat
+
+origin: white-flare-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 504
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Procurement
+    text: Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

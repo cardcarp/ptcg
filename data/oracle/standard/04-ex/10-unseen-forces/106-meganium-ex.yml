@@ -1,0 +1,65 @@
+name: Meganium ex
+
+origin: unseen-forces-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: ability
+    name: Nurture and Heal
+    text: Once during your turn (before your attack), you may attach a Grass Energy card from your hand to 1 of your Pokémon. If you do, remove 1 damage counter from that Pokémon. This power can't be used if Meganium ex is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Razor Leaf
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Poison
+    text: Discard 1 Energy attached to Meganium ex. The Defending Pokémon is now Poisoned.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

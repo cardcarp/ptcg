@@ -1,0 +1,51 @@
+name: Crobat
+
+origin: paradox-rift-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Golbat
+
+dex: 169
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Echoing Madness
+    text: Choose Item cards or Supporter cards. During your opponent's next turn, they can't play any of the chosen cards from their hand.
+    damage: 50
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Cutting Wind
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - G
+
+errata: []

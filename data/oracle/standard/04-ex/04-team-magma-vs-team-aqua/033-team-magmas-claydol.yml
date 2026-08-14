@@ -1,0 +1,47 @@
+name: Team Magma's Claydol
+
+origin: team-magma-vs-team-aqua-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Team Magma's Baltoy
+
+dex: 344
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Clay Curse
+    text: Put 2 damage counters on your opponent's Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Clay Pulse
+    text: Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

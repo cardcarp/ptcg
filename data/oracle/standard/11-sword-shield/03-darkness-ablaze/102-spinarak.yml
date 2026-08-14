@@ -1,0 +1,42 @@
+name: Spinarak
+
+origin: darkness-ablaze-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 167
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Hang Down
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Sting
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,39 @@
+name: Kecleon
+
+origin: lost-thunder-162
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 352
+
+rule:
+  - type: ability
+    name: Unit Color 3
+    text: As long as this Pokémon has Unit Energy FightingDarknessFairy attached to it, it is a Fighting, Darkness, and Fairy Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gentle Slap
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

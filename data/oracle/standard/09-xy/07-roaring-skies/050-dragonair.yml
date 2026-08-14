@@ -1,0 +1,47 @@
+name: Dragonair
+
+origin: roaring-skies-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Shed Skin
+    text: Heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 60 damage times the number of heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

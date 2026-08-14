@@ -1,0 +1,48 @@
+name: Brambleghast
+
+origin: paldea-evolved-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Bramblin
+
+dex: 947
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Absorb Life
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dead Wood Detention
+    text: During your opponent's next turn, attacks that the Defending Pokémon uses cost ColorlessColorless more.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

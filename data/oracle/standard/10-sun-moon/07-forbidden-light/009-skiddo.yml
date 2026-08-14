@@ -1,0 +1,42 @@
+name: Skiddo
+
+origin: forbidden-light-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 672
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Growth
+    text: Attach a Grass Energy card from your hand to this Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Razor Leaf
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

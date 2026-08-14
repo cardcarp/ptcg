@@ -1,0 +1,52 @@
+name: Snorlax V
+
+origin: sword-shield-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 220
+
+dex: 143
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Swallow
+    text: Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.
+    damage: 60
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Falling Down
+    text: This Pokémon is now Asleep.
+    damage: 170
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

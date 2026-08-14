@@ -1,0 +1,39 @@
+name: Manaphy
+
+origin: shining-legends-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 490
+
+rule:
+  - type: ability
+    name: Blessings of the Deep
+    text: Once during your turn (before your attack), you may heal 20 damage from 1 of your Pokémon that has any Water Energy attached to it.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

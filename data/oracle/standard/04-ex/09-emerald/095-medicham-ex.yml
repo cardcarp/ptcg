@@ -1,0 +1,55 @@
+name: Medicham ex
+
+origin: emerald-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: ability
+    name: Wise Aura
+    text: As long as Medicham ex is your Active Pokémon, each Pokémon (excluding Pokémon-ex) (both yours and your opponent's) can't use any Poké-Powers.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pure Power
+    text: Put 3 damage counters on your opponent's Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sky Kick
+    text: If the Defending Pokémon has Fighting Resistance, this attack does 60 damage plus 40 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

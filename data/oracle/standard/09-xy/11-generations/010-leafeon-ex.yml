@@ -1,0 +1,51 @@
+name: Leafeon-EX
+
+origin: generations-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Grass
+
+hp: 170
+
+dex: 470
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Blade
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Nature's Breath
+    text: If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

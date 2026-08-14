@@ -1,0 +1,46 @@
+name: Blissey
+
+origin: pokemon-go-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 200
+
+preevolution:
+  - Chansey
+
+dex: 242
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Enriching Egg
+    text: Heal all damage from 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Zen Headbutt
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

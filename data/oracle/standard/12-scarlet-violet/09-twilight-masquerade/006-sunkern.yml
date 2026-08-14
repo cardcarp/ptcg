@@ -1,0 +1,38 @@
+name: Sunkern
+
+origin: twilight-masquerade-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 191
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bullet Seed
+    text: Flip 4 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

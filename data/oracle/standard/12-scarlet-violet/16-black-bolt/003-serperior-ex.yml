@@ -1,0 +1,50 @@
+name: Serperior ex
+
+origin: black-bolt-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Grass
+
+hp: 320
+
+preevolution:
+  - Servine
+
+dex: 497
+
+rule:
+  - type: ability
+    name: Regal Cheer
+    text: Attacks used by your Pokémon do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Command the Grass
+    text: You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.
+    damage: 150
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

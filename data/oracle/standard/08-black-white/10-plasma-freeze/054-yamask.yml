@@ -1,0 +1,35 @@
+name: Yamask
+
+origin: plasma-freeze-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 562
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Transfer Pain
+    text: Move 1 damage counter from any of your Pokémon to any of your opponent's Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

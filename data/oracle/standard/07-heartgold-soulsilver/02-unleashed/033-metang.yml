@@ -1,0 +1,45 @@
+name: Metang
+
+origin: unleashed-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Beldum
+
+dex: 375
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Energy Crane
+    text: Search your discard pile for up to 2 Psychic Energy cards and attach them to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psypunch
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

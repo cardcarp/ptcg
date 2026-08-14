@@ -1,0 +1,43 @@
+name: Sneasel
+
+origin: shrouded-fable-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 215
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Cut
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Beset
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,44 @@
+name: Venusaur
+
+origin: shining-legends-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 160
+
+preevolution:
+  - Ivysaur
+
+dex: 3
+
+rule:
+  - type: ability
+    name: Jungle Totem
+    text: Each basic Grass Energy attached to your Pokémon provides GrassGrass Energy. You can't apply more than 1 Jungle Totem Ability at a time.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

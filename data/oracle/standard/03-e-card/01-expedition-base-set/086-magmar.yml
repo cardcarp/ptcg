@@ -1,0 +1,46 @@
+name: Magmar
+
+origin: expedition-base-set-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 126
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flaming Punch
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Thrash
+    text: Flip a coin. If heads this attack does 30 damage plus 10 more damage. If tails, Magmar does 10 damage to itself.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

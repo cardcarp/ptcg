@@ -1,0 +1,44 @@
+name: Glalie
+
+origin: hidden-legends-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Snorunt
+
+dex: 362
+
+rule:
+  - type: ability
+    name: Ice Wall
+    text: Any damage done to Glalie by attacks from your opponent's Pokémon with any Special Energy cards attached to it is reduced by 40 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Heavy Blizzard
+    text: Flip a coin. If heads, put 1 damage counter on each of your opponent's Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

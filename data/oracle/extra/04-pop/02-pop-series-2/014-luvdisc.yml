@@ -1,0 +1,42 @@
+name: Luvdisc
+
+origin: pop-series-2-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 370
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Paralyzing Kiss
+    text: If there are 2 Defending Pokémon in play, choose 1 of the Defending Pokémon. That Pokémon is now Paralyzed. (If there is only 1 Defending Pokémon, this attack does nothing.)
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Fast Stream
+    text: Move 1 Energy card attached to the Defending Pokémon to the other Defending Pokémon. (Ignore this effect if your opponent has only 1 Defending Pokémon.)
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

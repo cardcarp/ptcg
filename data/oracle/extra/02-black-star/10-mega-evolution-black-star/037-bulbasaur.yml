@@ -1,0 +1,37 @@
+name: Bulbasaur
+
+origin: mega-evolution-black-star-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 1
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Leech Seed
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

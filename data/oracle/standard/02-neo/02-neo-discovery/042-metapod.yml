@@ -1,0 +1,45 @@
+name: Metapod
+
+origin: neo-discovery-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Caterpie
+
+dex: 11
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Harden
+    text: During your opponent's next turn, whenever 20 or less damage is done to Metapod (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen).
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Hatch
+    text: Flip a coin. If heads, remove all damage counters from Metapod. Then, search your deck for a card that evolves from Metapod and attach that card to Metapod. This counts as evolving Metapod. Shuffle your deck afterward.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

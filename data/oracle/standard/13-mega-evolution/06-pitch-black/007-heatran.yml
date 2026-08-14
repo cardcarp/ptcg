@@ -1,0 +1,44 @@
+name: Heatran
+
+origin: pitch-black-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 140
+
+dex: 485
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Lava Wall
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Burned Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - J
+
+errata: []

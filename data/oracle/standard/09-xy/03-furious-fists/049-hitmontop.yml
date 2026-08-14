@@ -1,0 +1,43 @@
+name: Hitmontop
+
+origin: furious-fists-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 237
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Quick Draw
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Helicoptero
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

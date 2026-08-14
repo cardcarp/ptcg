@@ -1,0 +1,49 @@
+name: Grumpig
+
+origin: dragon-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Spoink
+
+dex: 326
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic Boom
+    text: Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mind Trip
+    text: If Grumpig and the Defending Pokémon have the same amount of Energy attached to them, the Defending Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

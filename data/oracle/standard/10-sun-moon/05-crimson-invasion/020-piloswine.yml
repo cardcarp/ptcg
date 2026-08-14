@@ -1,0 +1,46 @@
+name: Piloswine
+
+origin: crimson-invasion-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Swinub
+
+dex: 221
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Stampede
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rest
+    text: This Pokémon is now Asleep. Heal 90 damage from it.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

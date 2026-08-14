@@ -1,0 +1,50 @@
+name: Light Ledian
+
+origin: neo-destiny-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Ledyba
+
+dex: 166
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Flash Touch
+    text: If you have any Benched Pokémon, switch 1 of them with Light Ledian. As long as that Pokémon is your Active Pokémon, it can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers, and Trainer cards still happen.)
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Comet Punch
+    text: Flip 4 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

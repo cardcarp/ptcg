@@ -1,0 +1,49 @@
+name: Charmeleon
+
+origin: pokemon-go-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Scratch
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard a Fire Energy from this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

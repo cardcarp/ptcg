@@ -1,0 +1,47 @@
+name: Watchog
+
+origin: plasma-storm-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Patrat
+
+dex: 505
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fast Swipe
+    text: Discard a random card from your opponent's hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Biting Fang
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

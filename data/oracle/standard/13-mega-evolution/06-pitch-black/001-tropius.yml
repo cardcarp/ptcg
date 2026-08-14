@@ -1,0 +1,42 @@
+name: Tropius
+
+origin: pitch-black-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 357
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fruity Aroma
+    text: Look at the top 6 cards of your deck, and you may reveal any number of Pokémon you find there and put them into your hand. Shuffle the other cards back into your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Solar Beam
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

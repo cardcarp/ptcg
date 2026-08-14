@@ -1,0 +1,52 @@
+name: Alolan Ninetales
+
+origin: sun-moon-black-star-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 110
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 30
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Spiral Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

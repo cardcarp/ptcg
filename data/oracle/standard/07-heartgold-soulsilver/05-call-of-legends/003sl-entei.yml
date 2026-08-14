@@ -1,0 +1,41 @@
+name: Entei
+
+origin: call-of-legends-003sl
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 244
+
+rule:
+  - type: ability
+    name: Extreme Speed
+    text: Entei's Retreat Cost is Colorless Energy less for each Fire Energy attached to Entei.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Wild Blaze
+    text: Discard the top 3 cards of your deck.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

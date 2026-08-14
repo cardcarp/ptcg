@@ -1,0 +1,41 @@
+name: Mow Rotom
+
+origin: ultra-prism-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 479
+
+rule:
+  - type: ability
+    name: Roto Motor
+    text: If you have 9 or more Pokémon Tool cards in your discard pile, ignore all Energy in the attack cost of each of this Pokémon's attacks.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Special Mow
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

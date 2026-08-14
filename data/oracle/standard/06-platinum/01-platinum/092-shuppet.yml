@@ -1,0 +1,44 @@
+name: Shuppet
+
+origin: platinum-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 353
+
+rule:
+  - type: attack
+    name: Hypnotic Gaze
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+    name: Fade Out
+    text: Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

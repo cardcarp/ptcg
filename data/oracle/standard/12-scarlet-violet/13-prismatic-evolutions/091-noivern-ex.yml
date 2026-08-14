@@ -1,0 +1,57 @@
+name: Noivern ex
+
+origin: prismatic-evolutions-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 270
+
+preevolution:
+  - Noibat
+
+dex: 715
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sonic Blast
+    text: This Pokémon also does 30 damage to itself.
+    damage: 220
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

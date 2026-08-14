@@ -1,0 +1,51 @@
+name: Articuno
+
+origin: next-destinies-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 144
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Ice Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 50
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Ice Wing
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,54 @@
+name: Team Rocket's Honchkrow
+
+origin: ascended-heroes-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Team Rocket's Murkrow
+
+dex: 430
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rocket Feathers
+    text: You may discard any number of Supporter cards that have "Team Rocket" in their name from your hand, and this attack does 60 damage for each card you discarded in this way.
+    damage: 60
+    modifier: x
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

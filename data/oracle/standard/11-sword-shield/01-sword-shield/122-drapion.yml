@@ -1,0 +1,51 @@
+name: Drapion
+
+origin: sword-shield-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Skorupi
+
+dex: 452
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hard Press
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 80
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Toxic Strike
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

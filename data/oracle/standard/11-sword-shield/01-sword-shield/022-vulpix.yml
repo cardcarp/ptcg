@@ -1,0 +1,36 @@
+name: Vulpix
+
+origin: sword-shield-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 37
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

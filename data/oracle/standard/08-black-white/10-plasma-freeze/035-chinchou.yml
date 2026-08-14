@@ -1,0 +1,36 @@
+name: Chinchou
+
+origin: plasma-freeze-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 170
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Static Shock
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

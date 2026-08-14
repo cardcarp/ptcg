@@ -1,0 +1,42 @@
+name: Marill
+
+origin: neo-genesis-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 183
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to Marill during your opponent's next turn. (Any other effects of attacks still happen.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Bubble Bomb
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Marill does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

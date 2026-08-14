@@ -1,0 +1,56 @@
+name: Blaziken-GX
+
+origin: celestial-storm-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Fire
+
+hp: 240
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 60
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Explosive Kick
+    text: Discard 2 Fire Energy from this Pokémon.
+    damage: 210
+  - type: attack
+    cost:
+      - Fire
+    name: Blaze Out-GX
+    text: Discard 2 Energy from your opponent's Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

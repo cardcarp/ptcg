@@ -1,0 +1,52 @@
+name: Metang
+
+origin: vivid-voltage-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Beldum
+
+dex: 375
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Magnetic Blast
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

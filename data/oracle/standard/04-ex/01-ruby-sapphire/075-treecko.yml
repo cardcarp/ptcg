@@ -1,0 +1,40 @@
+name: Treecko
+
+origin: ruby-sapphire-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 252
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Poison Breath
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

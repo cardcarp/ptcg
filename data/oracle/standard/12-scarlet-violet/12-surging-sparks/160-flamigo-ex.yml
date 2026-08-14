@@ -1,0 +1,57 @@
+name: Flamigo ex
+
+origin: surging-sparks-160
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 200
+
+dex: 973
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Precise Beak
+    text: If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached, this attack does 100 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Brave Bird
+    text: This Pokémon also does 30 damage to itself.
+    damage: 200
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

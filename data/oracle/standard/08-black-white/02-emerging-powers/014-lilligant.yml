@@ -1,0 +1,51 @@
+name: Lilligant
+
+origin: emerging-powers-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Petilil
+
+dex: 549
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bemusing Aroma
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned. If tails, the Defending Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Cut
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

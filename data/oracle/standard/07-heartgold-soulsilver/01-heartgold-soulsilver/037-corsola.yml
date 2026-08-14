@@ -1,0 +1,43 @@
+name: Corsola
+
+origin: heartgold-soulsilver-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 222
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Recover
+    text: Discard a Water Energy attached to Corsola and remove all damage counters from Corsola.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hyper Cannon
+    text: Flip 2 coins. If both of them are heads, this attack does 20 damage plus 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

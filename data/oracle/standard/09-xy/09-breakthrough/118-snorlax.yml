@@ -1,0 +1,43 @@
+name: Snorlax
+
+origin: breakthrough-118
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 143
+
+rule:
+  - type: ability
+    name: Plump Body
+    text: Any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

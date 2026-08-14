@@ -1,0 +1,41 @@
+name: Vulpix
+
+origin: expedition-base-set-136
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 37
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Shake
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

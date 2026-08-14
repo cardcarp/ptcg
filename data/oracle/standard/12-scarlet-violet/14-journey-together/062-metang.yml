@@ -1,0 +1,47 @@
+name: Metang
+
+origin: journey-together-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 375
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psypunch
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Zen Headbutt
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,46 @@
+name: Drifblim
+
+origin: scarlet-violet-black-star-135
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Drifloon
+
+dex: 426
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Everyone Explode Now
+    text: This attack does 50 damage for each of your Drifloon and Drifblim in play. This attack also does 30 damage to each of your Drifloon and Drifblim. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

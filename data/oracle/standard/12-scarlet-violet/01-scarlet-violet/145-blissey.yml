@@ -1,0 +1,45 @@
+name: Blissey
+
+origin: scarlet-violet-145
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Chansey
+
+dex: 242
+
+rule:
+  - type: ability
+    name: Busybody Nurse
+    text: Once during your turn, you may use this Ability. Your Active Pokémon recovers from all Special Conditions.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Happy Cyclone
+    text: Move all Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

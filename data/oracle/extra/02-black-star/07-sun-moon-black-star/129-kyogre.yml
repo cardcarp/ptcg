@@ -1,0 +1,44 @@
+name: Kyogre
+
+origin: sun-moon-black-star-129
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 382
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Dual Splash
+    text: This attack does 30 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Grand Wave
+    text: This Pokémon can't use Grand Wave during your next turn.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,35 @@
+name: Munna
+
+origin: mcdonalds-collection-2011-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 517
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Yawn
+    text: The Defending Pokémon is now Asleep.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

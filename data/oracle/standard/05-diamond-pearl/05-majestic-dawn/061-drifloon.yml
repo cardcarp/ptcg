@@ -1,0 +1,44 @@
+name: Drifloon
+
+origin: majestic-dawn-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 425
+
+rule:
+  - type: attack
+    name: Delivery
+    text: Flip a coin. If heads, put any 1 card from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Psychic
+    name: Reaction
+    text: Switch Drifloon with 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

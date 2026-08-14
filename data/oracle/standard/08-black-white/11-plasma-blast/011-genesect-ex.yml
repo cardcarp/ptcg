@@ -1,0 +1,46 @@
+name: Genesect-EX
+
+origin: plasma-blast-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+  - Team Plasma
+
+type:
+  - Grass
+
+hp: 170
+
+dex: 649
+
+rule:
+  - type: ability
+    name: Red Signal
+    text: When you attach a Plasma Energy from your hand to this Pokémon, you may switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Megalo Cannon
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.)
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

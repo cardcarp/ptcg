@@ -1,0 +1,42 @@
+name: Squirtle
+
+origin: expedition-base-set-132
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 7
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Bubblebeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

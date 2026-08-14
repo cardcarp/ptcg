@@ -1,0 +1,51 @@
+name: Escavalier
+
+origin: unified-minds-142
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Karrablast
+
+dex: 589
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Discerning Spear
+    text: If your opponent's Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.
+    damage: 80
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Iron Lance
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

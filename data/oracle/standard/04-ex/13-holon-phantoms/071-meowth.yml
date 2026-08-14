@@ -1,0 +1,47 @@
+name: Meowth δ
+
+origin: holon-phantoms-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Darkness
+  - Metal
+
+hp: 50
+
+dex: 52
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Slash
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Pay Day
+    text: Draw a card.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Darkness Metal type.
+
+regulation:
+
+errata: []

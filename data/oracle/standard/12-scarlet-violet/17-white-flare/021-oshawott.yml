@@ -1,0 +1,42 @@
+name: Oshawott
+
+origin: white-flare-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 501
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Tackle
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Water Gun
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

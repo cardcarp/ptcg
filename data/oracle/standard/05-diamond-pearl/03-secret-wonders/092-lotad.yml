@@ -1,0 +1,43 @@
+name: Lotad
+
+origin: secret-wonders-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 270
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Sport
+    text: If Lotad has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

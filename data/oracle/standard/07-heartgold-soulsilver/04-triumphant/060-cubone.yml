@@ -1,0 +1,46 @@
+name: Cubone
+
+origin: triumphant-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 104
+
+rule:
+  - type: ability
+    name: Lonely Bone
+    text: Any damage done to Cubone by your opponent's attacks is reduced by 20 for each Marowak in your discard pile (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bone Rush
+    text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

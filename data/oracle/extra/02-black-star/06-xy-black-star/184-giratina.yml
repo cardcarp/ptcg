@@ -1,0 +1,47 @@
+name: Giratina
+
+origin: xy-black-star-184
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 487
+
+rule:
+  - type: ability
+    name: Devour Light
+    text: Each Pokémon BREAK has no Abilities (this includes Abilities of its previous Evolution).
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Shadow Claw
+    text: Discard a random card from your opponent's hand.
+    damage: 110
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

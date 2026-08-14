@@ -1,0 +1,43 @@
+name: Rufflet
+
+origin: plasma-storm-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 627
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Incessant Peck
+    text: Flip a coin until you get tails. This attack does 20 more damage for each heads.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

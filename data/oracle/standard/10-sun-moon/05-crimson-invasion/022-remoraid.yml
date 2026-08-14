@@ -1,0 +1,36 @@
+name: Remoraid
+
+origin: crimson-invasion-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 223
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

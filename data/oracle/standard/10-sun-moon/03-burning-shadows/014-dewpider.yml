@@ -1,0 +1,37 @@
+name: Dewpider
+
+origin: burning-shadows-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 751
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

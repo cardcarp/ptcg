@@ -1,0 +1,46 @@
+name: Rotom
+
+origin: pop-series-9-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 479
+
+rule:
+  - type: ability
+    name: Type Shift
+    text: Once during your turn (before your attack), you may use this power. Rotom's type is Psychic until the end of your turn.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poltergeist
+    text: Look at your opponent's hand. This attack does 30 damage plus 10 more damage for each Trainer, Supporter, and Stadium card in your opponent's hand.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

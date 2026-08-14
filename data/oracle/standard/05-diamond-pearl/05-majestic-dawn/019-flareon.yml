@@ -1,0 +1,47 @@
+name: Flareon
+
+origin: majestic-dawn-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Fire Fang
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Kindle
+    text: Discard an Energy card attached to Flareon and then discard an Energy card attached to the Defending Pokémon.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

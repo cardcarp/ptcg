@@ -1,0 +1,41 @@
+name: Jangmo-o
+
+origin: dragon-majesty-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 782
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Rigidify
+    text: During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dragon Claw
+    damage: 20
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

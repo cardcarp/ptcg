@@ -1,0 +1,47 @@
+name: Spearow
+
+origin: firered-leafgreen-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 21
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Claw
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Regirock
+
+origin: xy-black-star-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 377
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Land Maker
+    text: Put 2 Stadium cards from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Stone Edge
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

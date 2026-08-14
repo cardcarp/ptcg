@@ -1,0 +1,51 @@
+name: Dewgong
+
+origin: supreme-victors-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Seel
+
+dex: 87
+
+rule:
+  - type: ability
+    name: Thick Fat
+    text: Any damage done to Dewgong by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Shard
+    text: If the Defending Pokémon is a Fighting Pokémon, this attack's base damage is 80 instead of 30.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Aurora Beam
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 20
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

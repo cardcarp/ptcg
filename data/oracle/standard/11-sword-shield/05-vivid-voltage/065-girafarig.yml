@@ -1,0 +1,48 @@
+name: Girafarig
+
+origin: vivid-voltage-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 203
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psypower
+    text: Put 2 damage counters on your opponent's Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Commanding Tail
+    text: You may have your opponent shuffle their hand into their deck. If you do, your opponent draws 4 cards.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

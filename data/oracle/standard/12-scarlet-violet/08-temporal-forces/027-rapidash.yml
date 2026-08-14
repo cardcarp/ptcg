@@ -1,0 +1,44 @@
+name: Rapidash
+
+origin: temporal-forces-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Combustion
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Inferno Onrush
+    text: This Pokémon also does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,42 @@
+name: Numel
+
+origin: unleashed-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 322
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flare Bonus
+    text: Discard a Fire Energy card from your hand. Then, draw 3 cards.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

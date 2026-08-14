@@ -1,0 +1,46 @@
+name: Gimmighoul
+
+origin: paldean-fates-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 999
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Chest-ouflage
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

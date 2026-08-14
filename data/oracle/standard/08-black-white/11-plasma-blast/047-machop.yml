@@ -1,0 +1,36 @@
+name: Machop
+
+origin: plasma-blast-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 66
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Low Kick
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

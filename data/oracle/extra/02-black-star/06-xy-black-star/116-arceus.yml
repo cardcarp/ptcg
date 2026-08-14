@@ -1,0 +1,44 @@
+name: Arceus
+
+origin: xy-black-star-116
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 493
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Type Switch
+    text: Choose Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy, or Dragon type. Until the ends of your next turn, this Pokémon is that type.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Blast
+    text: Discard an Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

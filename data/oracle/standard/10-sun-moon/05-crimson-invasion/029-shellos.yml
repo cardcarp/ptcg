@@ -1,0 +1,40 @@
+name: Shellos
+
+origin: crimson-invasion-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 422
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Regeneration
+    text: Heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Mud-Slap
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Lt. Surge's Voltorb
+
+origin: gym-heroes-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 100
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Spin Ball
+    text: Flip 1 coin. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

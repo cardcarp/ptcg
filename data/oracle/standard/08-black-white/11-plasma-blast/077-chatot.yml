@@ -1,0 +1,48 @@
+name: Chatot
+
+origin: plasma-blast-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Team Plasma
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 441
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Misinformation
+    text: Discard all Pokémon Tool cards attached to each of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tone-Deaf
+    text: The Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

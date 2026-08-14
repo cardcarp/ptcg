@@ -1,0 +1,43 @@
+name: Zeraora
+
+origin: destined-rivals-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 100
+
+dex: 807
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunder Raid
+    text: Discard all Energy from this Pokémon, and this attack does 210 damage to 1 of your opponent's Benched Pokémon ex. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

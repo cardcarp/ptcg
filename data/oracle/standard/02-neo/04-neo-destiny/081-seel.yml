@@ -1,0 +1,37 @@
+name: Seel
+
+origin: neo-destiny-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 86
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Take Down
+    text: Seel does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

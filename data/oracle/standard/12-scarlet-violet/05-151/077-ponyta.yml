@@ -1,0 +1,43 @@
+name: Ponyta
+
+origin: 151-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 77
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flop
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

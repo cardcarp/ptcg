@@ -1,0 +1,46 @@
+name: Ferrothorn
+
+origin: vivid-voltage-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Ferroseed
+
+dex: 598
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Swift Swing
+    text: This attack does 30 damage for each Metal Energy attached to this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

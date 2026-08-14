@@ -1,0 +1,49 @@
+name: Mienshao
+
+origin: paradox-rift-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Mienfoo
+
+dex: 620
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Three-Step Strike
+    text: Flip 3 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Whip Expert
+    text: If you attached a Pokémon Tool card from your hand to this Pokémon during this turn, this attack does 70 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

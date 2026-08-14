@@ -1,0 +1,47 @@
+name: M Venusaur-EX
+
+origin: xy-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Grass
+
+hp: 230
+
+preevolution:
+  - Venusaur-EX
+
+dex: 3
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Colorless
+    name: Crisis Vine
+    text: Your opponent's Active Pokémon is now Paralyzed and Poisoned.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Nickit
+
+origin: champions-path-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 827
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Filch
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Tail Smack
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

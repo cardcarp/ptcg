@@ -1,0 +1,35 @@
+name: Mudkip
+
+origin: celestial-storm-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 258
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Water Reserve
+    text: Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

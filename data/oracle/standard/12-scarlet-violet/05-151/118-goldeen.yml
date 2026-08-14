@@ -1,0 +1,44 @@
+name: Goldeen
+
+origin: 151-118
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 118
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Triple Strike
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sprinkle Water
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,46 @@
+name: Rotom V
+
+origin: lost-origin-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 190
+
+dex: 479
+
+rule:
+  - type: ability
+    name: Instant Charge
+    text: Once during your turn, you may draw 3 cards. If you use this Ability, your turn ends.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Scrap Short
+    text: Put any number of Pokémon Tool cards from your discard pile in the Lost Zone. This attack does 40 more damage for each card you put in the Lost Zone in this way.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

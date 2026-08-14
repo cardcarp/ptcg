@@ -1,0 +1,47 @@
+name: Amaura
+
+origin: forbidden-light-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 698
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Powder Snow
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aurora Beam
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

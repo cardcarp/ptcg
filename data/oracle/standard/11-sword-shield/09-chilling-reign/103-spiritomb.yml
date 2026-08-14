@@ -1,0 +1,41 @@
+name: Spiritomb
+
+origin: chilling-reign-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 442
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ghostly Cries
+    text: For each Pokémon in your opponent's discard pile, put 1 damage counter on your opponent's Pokémon in any way you like. If you placed any damage counters in this way, your opponent shuffles all Pokémon from their discard pile into their deck.
+  - type: attack
+    cost:
+      - Darkness
+    name: Will-O-Wisp
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

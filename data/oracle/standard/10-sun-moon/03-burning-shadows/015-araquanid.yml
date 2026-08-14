@@ -1,0 +1,47 @@
+name: Araquanid
+
+origin: burning-shadows-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Dewpider
+
+dex: 752
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bubble Net
+    text: Energy can't be attached to the Defending Pokémon from your opponent's hand during their next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Shieldon
+
+origin: pitch-black-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Antique Armor Fossil
+
+dex: 410
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Smithereen Smash
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

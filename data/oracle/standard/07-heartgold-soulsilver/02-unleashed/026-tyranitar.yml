@@ -1,0 +1,56 @@
+name: Tyranitar
+
+origin: unleashed-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tail Crush
+    text: Flip a coin. If heads, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: Discard an Energy card attached to the Defending Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

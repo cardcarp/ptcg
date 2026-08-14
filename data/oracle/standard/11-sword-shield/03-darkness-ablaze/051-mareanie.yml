@@ -1,0 +1,43 @@
+name: Mareanie
+
+origin: darkness-ablaze-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 747
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Regeneration
+    text: Heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Poison Tentacles
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

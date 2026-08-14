@@ -1,0 +1,47 @@
+name: Croconaw
+
+origin: dragon-majesty-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Sweep Away
+    text: Discard the top 3 cards of your deck.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

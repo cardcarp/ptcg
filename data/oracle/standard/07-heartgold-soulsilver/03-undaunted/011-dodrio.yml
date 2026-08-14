@@ -1,0 +1,49 @@
+name: Dodrio
+
+origin: undaunted-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Doduo
+
+dex: 85
+
+rule:
+  - type: ability
+    name: Retreat Aid
+    text: As long as Dodrio is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Incessant Peck
+    text: Flip a coin until you get tails. This attack does 20 damage plus 20 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

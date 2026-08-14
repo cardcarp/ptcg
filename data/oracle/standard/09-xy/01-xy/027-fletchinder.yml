@@ -1,0 +1,49 @@
+name: Fletchinder
+
+origin: xy-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Fletchling
+
+dex: 662
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flame Charge
+    text: Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Wing
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

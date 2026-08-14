@@ -1,0 +1,42 @@
+name: Shuppet
+
+origin: chilling-reign-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 353
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Will-O-Wisp
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

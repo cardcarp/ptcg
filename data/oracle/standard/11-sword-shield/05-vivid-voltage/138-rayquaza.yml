@@ -1,0 +1,45 @@
+name: Rayquaza
+
+origin: vivid-voltage-138
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+      - Fighting
+    name: Amazing Burst
+    text: Discard all basic Energy from this Pokémon. This attack does 80 damage for each type of basic Energy you discarded in this way.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

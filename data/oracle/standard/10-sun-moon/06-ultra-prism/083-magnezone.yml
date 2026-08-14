@@ -1,0 +1,50 @@
+name: Magnezone
+
+origin: ultra-prism-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: ability
+    name: Magnetic Circuit
+    text: As often as you like during your turn (before your attack), you may attach a Metal Energy card from your hand to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Zap Cannon
+    text: This Pokémon can't use Zap Cannon during your next turn.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

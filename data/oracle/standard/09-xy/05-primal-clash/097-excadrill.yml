@@ -1,0 +1,51 @@
+name: Excadrill
+
+origin: primal-clash-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dredge
+    text: Search your deck for 2 Energy cards and attach them to this Pokémon. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Mach Claw
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

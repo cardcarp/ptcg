@@ -1,0 +1,37 @@
+name: Emolga
+
+origin: noble-victories-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 587
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Electrichain
+    text: Does 20 more damage if you have any Lightning Pokémon on your Bench.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

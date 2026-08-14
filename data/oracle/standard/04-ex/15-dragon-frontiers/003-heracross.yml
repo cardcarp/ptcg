@@ -1,0 +1,47 @@
+name: Heracross δ
+
+origin: dragon-frontiers-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 214
+
+rule:
+  - type: ability
+    name: Shining Horn
+    text: As long as Heracross is the only Pokémon you have in play, your opponent's Basic Pokémon can't attack.
+  - type: attack
+    cost:
+      - Colorless
+    name: Dig Deep
+    text: Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Extra Claws
+    text: If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

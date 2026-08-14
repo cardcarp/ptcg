@@ -1,0 +1,54 @@
+name: Probopass
+
+origin: primal-clash-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Nosepass
+
+dex: 476
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Triple Smash
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Reinforced Nose
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

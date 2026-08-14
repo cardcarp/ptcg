@@ -1,0 +1,48 @@
+name: Lunala
+
+origin: cosmic-eclipse-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 160
+
+preevolution:
+  - Cosmoem
+
+dex: 792
+
+rule:
+  - type: ability
+    name: Blessing of the Moone
+    text: Once during your turn (before your attack), if you have Solgaleo in play, you may search your deck for up to 2 Energy cards and attach them to your Solgaleo or Lunala in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Lunar Blast
+    damage: 130
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

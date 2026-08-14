@@ -1,0 +1,42 @@
+name: Heatmor
+
+origin: noble-victories-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 631
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Singe
+    text: The Defending Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Incinerate
+    text: Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

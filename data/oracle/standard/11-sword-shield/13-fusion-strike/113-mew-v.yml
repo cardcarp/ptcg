@@ -1,0 +1,51 @@
+name: Mew V
+
+origin: fusion-strike-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+  - Fusion Strike
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 151
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Energy Mix
+    text: Search your deck for an Energy card and attach it to 1 of your Fusion Strike Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic Leap
+    text: You may shuffle this Pokémon and all attached cards into your deck.
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,52 @@
+name: Eelektross
+
+origin: plasma-blast-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Team Plasma
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Eelektrik
+
+dex: 604
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Crush and Burn
+    text: Discard as many Energy attached to your Pokémon as you like. This attack does 30 damage times the number of Energy cards you discarded.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Thunder Tempest
+    text: Flip 4 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

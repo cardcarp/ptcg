@@ -1,0 +1,41 @@
+name: Murkrow
+
+origin: ultra-prism-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 198
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Mean Look
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Milcery
+
+origin: rebel-clash-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 868
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Aromatherapy
+    text: Heal 10 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

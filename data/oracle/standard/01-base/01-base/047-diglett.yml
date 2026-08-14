@@ -1,0 +1,44 @@
+name: Diglett
+
+origin: base-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 30
+
+dex: 50
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Dig
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Mud Slap
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

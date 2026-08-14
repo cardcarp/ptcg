@@ -1,0 +1,45 @@
+name: Sandslash
+
+origin: sandstorm-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Sandshrew
+
+dex: 28
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Sand Swirl
+    text: Does 20 damage to each Defending Pokémon. The Defending Pokémon can't retreat until the end of your opponent's next turn.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Earthquake
+    text: Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

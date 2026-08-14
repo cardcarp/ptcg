@@ -1,0 +1,45 @@
+name: Skiploom
+
+origin: secret-wonders-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Hoppip
+
+dex: 188
+
+rule:
+  - type: ability
+    name: Cotton Balloon
+    text: If Skiploom has any Grass Energy attached to it, any damage done to Skiploom by attacks from your opponent's Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Grass
+    name: U-turn
+    text: Switch Skiploom with 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

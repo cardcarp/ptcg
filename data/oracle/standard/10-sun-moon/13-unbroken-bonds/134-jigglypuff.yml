@@ -1,0 +1,43 @@
+name: Jigglypuff
+
+origin: unbroken-bonds-134
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 39
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ball Roll
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

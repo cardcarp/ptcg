@@ -1,0 +1,46 @@
+name: Anorith
+
+origin: cosmic-eclipse-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 347
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bug Bite
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

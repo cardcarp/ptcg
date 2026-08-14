@@ -1,0 +1,38 @@
+name: Popplio
+
+origin: mega-evolution-black-star-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 728
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Disarming Voice
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

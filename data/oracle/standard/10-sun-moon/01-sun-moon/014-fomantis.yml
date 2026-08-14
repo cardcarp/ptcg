@@ -1,0 +1,41 @@
+name: Fomantis
+
+origin: sun-moon-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 753
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Synthesis
+    text: Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leafage
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

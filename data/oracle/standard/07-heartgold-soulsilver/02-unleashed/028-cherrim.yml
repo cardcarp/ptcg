@@ -1,0 +1,46 @@
+name: Cherrim
+
+origin: unleashed-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Cherubi
+
+dex: 421
+
+rule:
+  - type: ability
+    name: Sunny Heal
+    text: Once during your turn (before your attack), you may remove 1 damage counter from your Active Pokémon. This power can't be used if Cherrim is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Grass
+    name: Seed Bomb
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

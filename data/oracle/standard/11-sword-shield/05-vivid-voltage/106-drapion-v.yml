@@ -1,0 +1,51 @@
+name: Drapion V
+
+origin: vivid-voltage-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 452
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Wrack Down
+    damage: 70
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hazardous Claws
+    text: Discard 2 Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed and Poisoned.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

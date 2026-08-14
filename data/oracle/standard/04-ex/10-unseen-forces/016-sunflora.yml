@@ -1,0 +1,51 @@
+name: Sunflora
+
+origin: unseen-forces-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Sunkern
+
+dex: 192
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Dazzle Dance
+    text: Each Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Green Blast
+    text: Does 20 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

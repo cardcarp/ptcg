@@ -1,0 +1,46 @@
+name: Rocket's Raikou ex
+
+origin: deoxys-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 243
+
+rule:
+  - type: ability
+    name: Lightning Burst
+    text: Whenever you attach a Darkness Energy card from your hand to Rocket's Raikou ex, you may choose 1 of the Defending Pokémon and switch it with 1 of your opponent's Benched Pokémon. Your opponent chooses the Benched Pokémon to switch. This power can't be used if Rocket's Raikou ex is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunderous Blow
+    text: Does 40 damage plus 10 more damage for each Lightning Energy attached to Rocket's Raikou ex.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

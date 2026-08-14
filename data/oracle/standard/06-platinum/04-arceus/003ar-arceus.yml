@@ -1,0 +1,41 @@
+name: Arceus
+
+origin: arceus-003ar
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 493
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Bright Flame
+    text: Flip a coin. If tails, discard 2 Energy attached to Arceus.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You may have as many of this card in your deck as you like.
+
+regulation:
+
+errata: []

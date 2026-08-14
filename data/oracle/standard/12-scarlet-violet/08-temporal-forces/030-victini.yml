@@ -1,0 +1,42 @@
+name: Victini
+
+origin: temporal-forces-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 494
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flippity Flap
+    text: Shuffle your hand into your deck. Then, draw 6 cards.
+  - type: attack
+    cost:
+      - Fire
+    name: Singe Off
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

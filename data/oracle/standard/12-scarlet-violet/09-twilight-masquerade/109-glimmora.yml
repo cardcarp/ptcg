@@ -1,0 +1,46 @@
+name: Glimmora
+
+origin: twilight-masquerade-109
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Glimmet
+
+dex: 970
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Stun Poison
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed and Poisoned.
+  - type: attack
+    cost:
+      - Fighting
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 100 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

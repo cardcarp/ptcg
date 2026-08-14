@@ -1,0 +1,41 @@
+name: Kabuto
+
+origin: majestic-dawn-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Dome Fossil
+
+dex: 140
+
+rule:
+  - type: ability
+    name: Ancient Guidance
+    text: Once during your turn (before your attack), you may flip a coin. If heads, search your deck for Helix Fossil, Dome Fossil, or Old Amber and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Kabuto is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fighting
+    name: Shell Attack
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

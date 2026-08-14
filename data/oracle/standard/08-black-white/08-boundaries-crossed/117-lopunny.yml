@@ -1,0 +1,46 @@
+name: Lopunny
+
+origin: boundaries-crossed-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Buneary
+
+dex: 428
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Healing Melody
+    text: Flip a coin. If heads, heal 60 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Kick Away
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

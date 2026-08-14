@@ -1,0 +1,42 @@
+name: Pikipek
+
+origin: sun-moon-black-star-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 731
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nosedive
+    text: This Pokémon does 20 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

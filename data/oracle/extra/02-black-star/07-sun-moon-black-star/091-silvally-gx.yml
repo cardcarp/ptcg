@@ -1,0 +1,57 @@
+name: Silvally-GX
+
+origin: sun-moon-black-star-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Colorless
+
+hp: 210
+
+preevolution:
+  - 'Type: Null'
+
+dex: 773
+
+rule:
+  - type: ability
+    name: Gyro Unit
+    text: Your Basic Pokémon in play have no Retreat Cost.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Turbo Drive
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 120
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rebel-GX
+    text: This attack does 50 damage for each of your opponent's Benched Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

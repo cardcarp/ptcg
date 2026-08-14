@@ -1,0 +1,41 @@
+name: Eevee
+
+origin: aquapolis-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 133
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Charge Up
+    text: Flip a coin. If heads, search your deck for an Energy card and attach it to Eevee. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

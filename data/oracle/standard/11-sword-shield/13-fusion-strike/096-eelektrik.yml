@@ -1,0 +1,47 @@
+name: Eelektrik
+
+origin: fusion-strike-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Tynamo
+
+dex: 603
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Lightning Ball
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder
+    text: This Pokémon also does 20 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

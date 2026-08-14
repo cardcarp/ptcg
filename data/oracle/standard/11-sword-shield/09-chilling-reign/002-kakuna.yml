@@ -1,0 +1,40 @@
+name: Kakuna
+
+origin: chilling-reign-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Weedle
+
+dex: 14
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Stiffen
+    text: During your opponent's next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

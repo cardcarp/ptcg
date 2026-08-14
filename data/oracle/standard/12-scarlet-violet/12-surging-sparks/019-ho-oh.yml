@@ -1,0 +1,51 @@
+name: Ho-Oh
+
+origin: surging-sparks-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 250
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flap
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Shining Blaze
+    text: If you have any Tera Pokémon on your Bench, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

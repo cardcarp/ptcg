@@ -1,0 +1,53 @@
+name: Arven's Mabosstiff ex
+
+origin: destined-rivals-139
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Darkness
+
+hp: 270
+
+preevolution:
+  - Arven's Maschiff
+
+dex: 943
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Vigorous Tackle
+    text: If this Pokémon has no damage counters on it, this attack does 120 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boss Headbutt
+    text: During your next turn, this Pokémon can't use Boss Headbutt.
+    damage: 210
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

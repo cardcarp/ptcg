@@ -1,0 +1,51 @@
+name: Swellow
+
+origin: guardians-rising-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Taillow
+
+dex: 277
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+    name: Swallow Dive
+    text: If this Pokémon used Agility during your last turn, this attack does 80 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

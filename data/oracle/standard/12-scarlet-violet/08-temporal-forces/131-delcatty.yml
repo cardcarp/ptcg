@@ -1,0 +1,48 @@
+name: Delcatty
+
+origin: temporal-forces-131
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Skitty
+
+dex: 301
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Trickery
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Energy Blender
+    text: You may move any amount of Energy from your Pokémon to your other Pokémon in any way you like.
+    damage: 110
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

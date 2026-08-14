@@ -1,0 +1,49 @@
+name: Entei ☆
+
+origin: unseen-forces-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 244
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Burning Turn
+    text: Switch Entei Star with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Detonation
+    text: If you have less Prize cards left than your opponent, discard the top 10 cards from your deck.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

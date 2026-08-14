@@ -1,0 +1,37 @@
+name: Vanillite
+
+origin: paradox-rift-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 582
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Chilly
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

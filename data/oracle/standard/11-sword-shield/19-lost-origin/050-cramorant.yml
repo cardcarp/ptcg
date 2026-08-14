@@ -1,0 +1,42 @@
+name: Cramorant
+
+origin: lost-origin-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 845
+
+rule:
+  - type: ability
+    name: Lost Provisions
+    text: If you have 4 or more cards in the Lost Zone, ignore all Energy in this Pokémon's attack costs.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Spit Innocently
+    text: This attack's damage isn't affected by Weakness.
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

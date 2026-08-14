@@ -1,0 +1,50 @@
+name: Golurk
+
+origin: dragons-exalted-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Golett
+
+dex: 623
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Devolution Punch
+    text: Devolve the Defending Pokémon and put the highest Stage evolution card on it into your opponent's hand.
+    damage: 60
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Ghost Hammer
+    text: During your opponent's next turn, this Pokémon has no Weakness.
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

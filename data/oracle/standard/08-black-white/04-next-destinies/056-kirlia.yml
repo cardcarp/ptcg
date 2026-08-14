@@ -1,0 +1,48 @@
+name: Kirlia
+
+origin: next-destinies-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Ralts
+
+dex: 281
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smack
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: Does 10 more damage for each Energy attached to the Defending Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

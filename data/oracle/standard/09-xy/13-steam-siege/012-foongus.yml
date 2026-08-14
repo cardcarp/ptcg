@@ -1,0 +1,38 @@
+name: Foongus
+
+origin: steam-siege-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 590
+
+rule:
+  - type: ability
+    name: Play Ball
+    text: When you play this Pokémon from your hand onto your Bench, you may put 3 Poké Ball cards from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Grass
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

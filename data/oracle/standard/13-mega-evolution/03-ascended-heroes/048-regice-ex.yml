@@ -1,0 +1,49 @@
+name: Regice ex
+
+origin: ascended-heroes-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 230
+
+dex: 378
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Regi Charge
+    text: Attach up to 2 Basic Water Energy cards from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Ice Prison
+    text: Discard 2 Energy from this Pokémon, and your opponent's Active Pokémon is now Paralyzed.
+    damage: 140
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

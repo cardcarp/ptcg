@@ -1,0 +1,36 @@
+name: Bellsprout
+
+origin: guardians-rising-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 69
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Vine Whip
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Scolipede
+
+origin: boundaries-crossed-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Whirlipede
+
+dex: 545
+
+rule:
+  - type: ability
+    name: Poison Point
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), this Attacking Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Venoshock
+    text: If the Defending Pokémon is Poisoned, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

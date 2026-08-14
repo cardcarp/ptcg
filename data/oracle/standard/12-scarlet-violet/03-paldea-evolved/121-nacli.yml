@@ -1,0 +1,42 @@
+name: Nacli
+
+origin: paldea-evolved-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 932
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Salt Coating
+    text: Heal 20 damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

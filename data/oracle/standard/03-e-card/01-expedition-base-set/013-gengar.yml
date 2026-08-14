@@ -1,0 +1,49 @@
+name: Gengar
+
+origin: expedition-base-set-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: ability
+    name: Chaos Move
+    text: Once during your turn (before your attack), if your opponent has 3 or fewer Prizes, you may move 1 damage counter from 1 Pokémon (yours or your opponent's) to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Hide in Shadows
+    text: Switch Gengar with 1 of your Benched Pokémon, if any.
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

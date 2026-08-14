@@ -1,0 +1,57 @@
+name: Zapdos-EX
+
+origin: plasma-storm-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+  - Team Plasma
+
+type:
+  - Lightning
+
+hp: 170
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Powervolt
+    text: If this Pokémon has any Plasma Energy attached to it, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

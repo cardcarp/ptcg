@@ -1,0 +1,39 @@
+name: Raikou
+
+origin: vivid-voltage-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 243
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+      - Metal
+    name: Amazing Shot
+    text: This attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

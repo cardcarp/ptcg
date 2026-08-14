@@ -1,0 +1,43 @@
+name: Seaking
+
+origin: ruby-sapphire-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Arrow
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fast Stream
+    text: Move 1 Energy card attached to the Defending Pokémon to the other Defending Pokémon. (Ignore this effect if your opponent has only 1 Defending Pokémon.)
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

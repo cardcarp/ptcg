@@ -1,0 +1,45 @@
+name: Brock's Zubat
+
+origin: gym-heroes-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 41
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Wing Attack
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Poison Fang
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

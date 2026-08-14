@@ -1,0 +1,51 @@
+name: Conkeldurr
+
+origin: plasma-storm-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Gurdurr
+
+dex: 534
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Facade
+    text: If this Pokémon is Burned or Poisoned, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Drain Punch
+    text: Heal 20 damage from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

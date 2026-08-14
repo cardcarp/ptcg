@@ -1,0 +1,42 @@
+name: Giovanni's Nidorino
+
+origin: gym-challenge-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Giovanni's Nidoran ♂
+
+dex: 33
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Rend
+    text: If the Defending Pokémon already has any damage counters on it, this attack does 20 damage plus 20 more damage. If not, this attack does 20 damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

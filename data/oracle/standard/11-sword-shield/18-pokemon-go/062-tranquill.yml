@@ -1,0 +1,52 @@
+name: Tranquill
+
+origin: pokemon-go-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Pidove
+
+dex: 520
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Aerial Ace
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flap
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

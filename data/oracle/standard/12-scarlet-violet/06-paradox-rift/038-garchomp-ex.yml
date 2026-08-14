@@ -1,0 +1,50 @@
+name: Garchomp ex
+
+origin: paradox-rift-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Tera
+  - ex
+
+type:
+  - Water
+
+hp: 320
+
+preevolution:
+  - Gabite
+
+dex: 445
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Hydro Lander
+    text: Attach up to 3 Basic Fighting Energy cards from your discard pile to your Benched Pokémon in any way you like.
+    damage: 160
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sonic Dive
+    text: Discard 2 Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+rulebox:
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

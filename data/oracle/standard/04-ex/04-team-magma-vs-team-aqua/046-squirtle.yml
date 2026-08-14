@@ -1,0 +1,38 @@
+name: Squirtle
+
+origin: team-magma-vs-team-aqua-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 7
+
+rule:
+  - type: ability
+    name: Shell Retreat
+    text: As long as Squirtle has any Energy cards attached to it, damage done to Squirtle by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

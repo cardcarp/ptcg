@@ -1,0 +1,54 @@
+name: Rayquaza-EX
+
+origin: roaring-skies-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Colorless
+
+hp: 170
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Intensifying Burn
+    text: If your opponent's Active Pokémon is a Pokémon-EX, this attack does 50 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Pulse
+    text: Discard the top 3 cards of your deck.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

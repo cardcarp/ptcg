@@ -1,0 +1,51 @@
+name: Slowpoke & Psyduck-GX
+
+origin: unified-minds-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Water
+
+hp: 250
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Ditch and Splash
+    text: Discard any number of Supporter cards from your hand. This attack does 40 damage for each card you discarded in this way.
+    damage: 40
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Thrilling Times-GX
+    text: Flip a coin. If heads, this attack does 100 more damage. If this Pokémon has at least 6 extra Water Energy attached to it (in addition to this attack's cost), flip 10 coins instead, and this attack does 100 more damage for each heads. (You can't use more than 1 GX attack in a game.)
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+
+errata: []

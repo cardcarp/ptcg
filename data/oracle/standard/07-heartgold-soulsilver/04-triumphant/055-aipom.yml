@@ -1,0 +1,40 @@
+name: Aipom
+
+origin: triumphant-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 190
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Imitate
+    text: Draw cards until you have the same number of cards in your hand as your opponent.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Punch
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

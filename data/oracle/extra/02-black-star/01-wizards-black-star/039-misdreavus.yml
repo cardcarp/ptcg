@@ -1,0 +1,42 @@
+name: Misdreavus
+
+origin: wizards-black-star-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 200
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Pain Split
+    text: Put 1 damage counter on the Defending Pokémon for each damage counter on Misdreavus.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

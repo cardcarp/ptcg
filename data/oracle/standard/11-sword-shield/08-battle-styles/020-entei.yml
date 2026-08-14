@@ -1,0 +1,45 @@
+name: Entei
+
+origin: battle-styles-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 244
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Heat Dash
+    text: You may attach a Fire Energy card from your hand to this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Fang
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

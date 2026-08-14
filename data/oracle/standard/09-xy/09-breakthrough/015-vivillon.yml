@@ -1,0 +1,44 @@
+name: Vivillon
+
+origin: breakthrough-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Spewpa
+
+dex: 666
+
+rule:
+  - type: ability
+    name: Energy Color
+    text: Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Sleep Powder
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

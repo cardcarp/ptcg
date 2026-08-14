@@ -1,0 +1,46 @@
+name: Floette
+
+origin: flashfire-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 70
+
+preevolution:
+  - Flabébé
+
+dex: 670
+
+rule:
+  - type: ability
+    name: Flower Veil
+    text: Each of your Grass Pokémon in play gets +20 HP.
+  - type: attack
+    cost:
+      - Fairy
+    name: Fairy Wind
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

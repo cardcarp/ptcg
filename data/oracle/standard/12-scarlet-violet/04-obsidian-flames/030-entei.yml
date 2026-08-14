@@ -1,0 +1,43 @@
+name: Entei
+
+origin: obsidian-flames-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 244
+
+rule:
+  - type: ability
+    name: Pressure
+    text: As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon do 20 less damage (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blaze Ball
+    text: This attack does 20 more damage for each Fire Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

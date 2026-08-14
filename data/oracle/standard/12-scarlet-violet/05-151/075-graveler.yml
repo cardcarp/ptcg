@@ -1,0 +1,48 @@
+name: Graveler
+
+origin: 151-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Geodude
+
+dex: 75
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Rock Cannon
+    text: Flip a coin until you get tails. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

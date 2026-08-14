@@ -1,0 +1,50 @@
+name: Kyogre-EX
+
+origin: xy-black-star-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Water
+
+hp: 180
+
+dex: 382
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Giant Whirlpool
+    text: Return 2 Water Energy attached to this Pokémon to your hand.
+    damage: 140
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

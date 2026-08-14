@@ -1,0 +1,36 @@
+name: Snover
+
+origin: unified-minds-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 459
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Powder Snow
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

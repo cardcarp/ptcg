@@ -1,0 +1,49 @@
+name: Toxicroak
+
+origin: burning-shadows-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poison Jab
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Poison Boost
+    text: If this Pokémon is Poisoned, this attack does 80 more damage. Then, remove that Special Condition from this Pokémon.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

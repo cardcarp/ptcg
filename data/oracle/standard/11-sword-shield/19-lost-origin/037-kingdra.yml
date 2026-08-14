@@ -1,0 +1,43 @@
+name: Kingdra
+
+origin: lost-origin-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: ability
+    name: Seething Currents
+    text: Once during your turn, you may have either player shuffle their hand and put it on the bottom of their deck. If that player put any cards on the bottom of their deck in this way, they draw 4 cards.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hydro Splash
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

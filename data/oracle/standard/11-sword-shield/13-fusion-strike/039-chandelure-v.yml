@@ -1,0 +1,48 @@
+name: Chandelure V
+
+origin: fusion-strike-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 200
+
+dex: 609
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Poltergeist
+    text: Your opponent reveals their hand. This attack does 40 damage for each Trainer card you find there.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

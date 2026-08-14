@@ -1,0 +1,41 @@
+name: Petilil
+
+origin: boundaries-crossed-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 548
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Sleep Powder
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

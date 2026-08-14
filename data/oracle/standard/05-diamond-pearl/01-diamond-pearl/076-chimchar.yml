@@ -1,0 +1,40 @@
+name: Chimchar
+
+origin: diamond-pearl-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 390
+
+rule:
+  - type: attack
+    name: Scratch
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    text: Flip a coin. If tails, discard a Fire Energy attached to Chimchar.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

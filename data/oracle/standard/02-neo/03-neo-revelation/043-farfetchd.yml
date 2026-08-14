@@ -1,0 +1,48 @@
+name: Farfetch'd
+
+origin: neo-revelation-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 83
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gust
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Leek Jab
+    text: This attack can't be used during your next turn. (Benching Farfetch'd ends this effect.)
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

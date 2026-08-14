@@ -1,0 +1,45 @@
+name: Poliwrath
+
+origin: skyridge-024h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Poliwhirl
+
+dex: 62
+
+rule:
+  - type: ability
+    name: Strange Spiral
+    text: Once during your turn (before your attack), if Poliwrath is your Active Pokémon, you may discard a basic Energy card attached to Poliwrath. If you do, the Defending Pokémon is now Confused. This power can't be used if Poliwrath is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Spiral Punch
+    text: Flip a coin until you get tails. This attack does 40 damage plus 20 more damage for each heads.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

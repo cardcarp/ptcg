@@ -1,0 +1,49 @@
+name: Avalugg
+
+origin: forbidden-light-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Bergmite
+
+dex: 713
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frozen Ground
+    text: Your opponent can't play any Stadium cards from their hand during their next turn.
+    damage: 80
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Skull Bash
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

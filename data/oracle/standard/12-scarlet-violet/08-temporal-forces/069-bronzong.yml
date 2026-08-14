@@ -1,0 +1,52 @@
+name: Bronzong
+
+origin: temporal-forces-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Evolution Jammer
+    text: During your opponent's next turn, they can't play any Pokémon from their hand to evolve their Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Super Psy Bolt
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

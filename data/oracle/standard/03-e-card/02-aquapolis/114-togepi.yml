@@ -1,0 +1,40 @@
+name: Togepi
+
+origin: aquapolis-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 175
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Minor Errand-Running
+    text: Flip 2 coins. For each heads, search your deck for a basic Energy card. Show those cards to your opponent, and then put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

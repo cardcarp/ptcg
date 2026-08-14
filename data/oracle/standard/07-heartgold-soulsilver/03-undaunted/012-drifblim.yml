@@ -1,0 +1,50 @@
+name: Drifblim
+
+origin: undaunted-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Drifloon
+
+dex: 426
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Balloon Tackle
+    text: Drifblim does 20 damage to itself.
+    damage: 60
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Take Away
+    text: Shuffle Drifblim and all cards attached to it back into your deck. Then, your opponent shuffles the Defending Pokémon and all cards attached to it into his or her deck. (You choose your new Active Pokémon first.)
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

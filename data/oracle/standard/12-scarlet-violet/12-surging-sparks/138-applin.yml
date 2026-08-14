@@ -1,0 +1,39 @@
+name: Applin
+
+origin: surging-sparks-138
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 40
+
+dex: 840
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nutrients
+    text: Heal 30 damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Fire
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 20
+    modifier: +
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

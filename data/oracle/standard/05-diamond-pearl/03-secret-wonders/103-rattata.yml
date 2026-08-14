@@ -1,0 +1,38 @@
+name: Rattata
+
+origin: secret-wonders-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 30
+
+dex: 19
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Whip
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+  - type: attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+regulation:
+
+errata: []

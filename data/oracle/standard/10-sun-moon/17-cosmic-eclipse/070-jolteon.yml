@@ -1,0 +1,47 @@
+name: Jolteon
+
+origin: cosmic-eclipse-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: ability
+    name: Speed Cheer
+    text: The attacks of your Pokémon-GX in play that evolve from Eevee cost Colorless less. You can't apply more than 1 Speed Cheer Ability at a time.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Head Bolt
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

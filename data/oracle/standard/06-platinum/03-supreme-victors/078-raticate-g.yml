@@ -1,0 +1,41 @@
+name: Raticate G
+
+origin: supreme-victors-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 20
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Find
+    text: Search your discard pile for a Trainer card or a Supporter card, show it to your opponent, and put it into your hand.
+  - type: attack
+    cost:
+      - Colorless
+    name: Biting Fang
+    text: Flip a coin, if heads this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

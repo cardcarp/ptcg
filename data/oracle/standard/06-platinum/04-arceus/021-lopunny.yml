@@ -1,0 +1,43 @@
+name: Lopunny
+
+origin: arceus-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Buneary
+
+dex: 428
+
+rule:
+  - type: ability
+    name: Relaxing Shower
+    text: Once during your turn (before your attack), you may discard an Energy card from your hand. If you do, remove 1 damage counter from each of your Pokémon. This power can't be used if Lopunny is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hover Heal
+    text: Remove all Special Conditions from Lopunny.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

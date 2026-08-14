@@ -1,0 +1,47 @@
+name: Tauros
+
+origin: legends-awakened-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Herd Charge
+    text: Flip a coin for each Tauros you have in play. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Thrash
+    text: Flip a coin. If heads, this attack does 40 damage plus 20 more damage. If tails, Tauros does 10 damage to itself.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

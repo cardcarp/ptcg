@@ -1,0 +1,50 @@
+name: Galarian Mr. Rime V
+
+origin: astral-radiance-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+  - Fusion Strike
+
+type:
+  - Water
+
+hp: 210
+
+dex: 866
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Surprising Hand
+    text: Search your deck for up to 3 Item cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Customized Cane
+    text: If this Pokémon has a Pokémon Tool attached, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

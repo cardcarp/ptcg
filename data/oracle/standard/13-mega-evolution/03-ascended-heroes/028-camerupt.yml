@@ -1,0 +1,49 @@
+name: Camerupt
+
+origin: ascended-heroes-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Roasting Burn
+    text: If your opponent's Active Pokémon isn't Burned, this attack does nothing.
+    damage: 110
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Stomp
+    text: Discard 2 Energy from this Pokémon.
+    damage: 170
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,50 @@
+name: Electabuzz
+
+origin: diamond-pearl-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 125
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunderpunch
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Electabuzz does 10 damage to itself.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Shock Wave
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If Electabuzz is evolved from Elekid, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

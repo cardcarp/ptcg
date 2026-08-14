@@ -1,0 +1,44 @@
+name: Ribombee
+
+origin: lost-thunder-146
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 60
+
+preevolution:
+  - Cutiefly
+
+dex: 743
+
+rule:
+  - type: ability
+    name: Mysterious Buzz
+    text: As long as this Pokémon is on your Bench, whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to your Fairy Pokémon in play.
+  - type: attack
+    cost:
+      - Fairy
+    name: Stampede
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

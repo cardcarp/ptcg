@@ -1,0 +1,47 @@
+name: Purugly
+
+origin: unbroken-bonds-160
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Glameow
+
+dex: 432
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stray Cat Dash
+    text: Discard a random card from your opponent's hand. If this Pokémon evolved from Glameow during this turn, discard 2 cards instead of 1.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Lunge Out
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

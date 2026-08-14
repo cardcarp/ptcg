@@ -1,0 +1,46 @@
+name: Raticate
+
+origin: evolutions-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Crunch
+    text: Discard an Energy attached to your opponent's Active Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+    name: Shadowy Bite
+    text: This attack does 60 damage times the number of Special Energy cards in your opponent's discard pile.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

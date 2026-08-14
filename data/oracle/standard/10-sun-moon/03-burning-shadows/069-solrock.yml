@@ -1,0 +1,42 @@
+name: Solrock
+
+origin: burning-shadows-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 338
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Fighting
+    name: Solar Heat
+    text: If there is any Stadium card in play, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

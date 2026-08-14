@@ -1,0 +1,50 @@
+name: Mega Absol ex
+
+origin: mega-evolution-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Darkness
+
+hp: 280
+
+dex: 359
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Terminal Period
+    text: If your opponent's Active Pokémon has exactly 6 damage counters on it, that Pokémon is Knocked Out.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Claw of Darkness
+    text: Your opponent reveals their hand, and you discard a card you find there.
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,43 @@
+name: Swablu δ
+
+origin: dragon-frontiers-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Water
+
+hp: 40
+
+dex: 333
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Splash About
+    text: If Swablu has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

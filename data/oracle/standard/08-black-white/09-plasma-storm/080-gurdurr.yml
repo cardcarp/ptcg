@@ -1,0 +1,50 @@
+name: Gurdurr
+
+origin: plasma-storm-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Timburr
+
+dex: 533
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Dynamic Punch
+    text: Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

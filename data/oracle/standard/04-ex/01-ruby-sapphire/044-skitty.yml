@@ -1,0 +1,41 @@
+name: Skitty
+
+origin: ruby-sapphire-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 300
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Minor Errand-Running
+    text: Search your deck for 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+    name: Lullaby
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

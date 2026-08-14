@@ -1,0 +1,37 @@
+name: Qwilfish
+
+origin: heartgold-soulsilver-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 211
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Offensive Needle
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Solrock
+
+origin: sandstorm-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 338
+
+rule:
+  - type: ability
+    name: Solar Eclipse
+    text: Once during your turn (before your attack), if Lunatone is in play, you may use this power. Until the end of your turn, Solrock's type is Fire. This power can't be used if Solrock is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Colorless
+    name: Cosmic Draw
+    text: If your opponent has any Evolved Pokémon in play, draw 3 cards.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Solar Blast
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

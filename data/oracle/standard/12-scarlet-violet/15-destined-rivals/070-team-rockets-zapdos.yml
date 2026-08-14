@@ -1,0 +1,52 @@
+name: Team Rocket's Zapdos
+
+origin: destined-rivals-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jamming Wing
+    text: You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Wicked Thunder
+    text: If this Pokémon has any Team Rocket's Energy attached, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,46 @@
+name: Imakuni?'s Doduo
+
+origin: evolutions-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 84
+
+rule:
+  - type: ability
+    name: Frenzied Escape
+    text: When this Doduo retreats, hold this card and throw it as hard as you can because Doduo is running away. Throw the card horizontally with a snap to get the farthest distance!
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Harmonize
+    text: From the moment you use this attack, you must begin to sing a song. (While the song is being sung, the game continues.) When the song is finished, this attack does 30 damage.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+rulebox:
+  - (This card cannot be used at official tournaments.)
+
+regulation:
+
+errata: []

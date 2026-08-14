@@ -1,0 +1,46 @@
+name: Farfetch'd
+
+origin: secret-wonders-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 83
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Swords Dance
+    text: During your next turn, Farfetch'd's Leek Slap attack's base damage is 60.
+  - type: attack
+    cost:
+      - Colorless
+    name: Leek Slap
+    text: During your next turn, Farfetch'd can't use Leek Slap.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

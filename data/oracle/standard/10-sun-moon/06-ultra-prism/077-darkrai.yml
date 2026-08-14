@@ -1,0 +1,51 @@
+name: Darkrai ◇
+
+origin: ultra-prism-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Prism Star
+
+type:
+  - Darkness
+
+hp: 160
+
+dex: 491
+
+rule:
+  - type: ability
+    name: Nightmare Star
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may attach 2 Darkness Energy cards from your hand to it.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Abyssal Sleep
+    text: Your opponent's Active Pokémon is now Asleep. Your opponent flips 2 coins instead of 1 between turns. If either of them is tails, that Pokémon is still Asleep.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+regulation:
+
+errata: []

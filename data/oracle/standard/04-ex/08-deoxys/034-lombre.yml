@@ -1,0 +1,43 @@
+name: Lombre
+
+origin: deoxys-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: ability
+    name: Natural Cure
+    text: When you attach a Water Energy card from your hand to Lombre, remove all Special Conditions from Lombre.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Blot
+    text: Remove 2 damage counters from Lombre.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

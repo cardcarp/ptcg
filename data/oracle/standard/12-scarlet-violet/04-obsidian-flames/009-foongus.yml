@@ -1,0 +1,42 @@
+name: Foongus
+
+origin: obsidian-flames-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 590
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Enticing Pattern
+    text: Search your deck for a Basic Grass Pokémon and put it onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Beat
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

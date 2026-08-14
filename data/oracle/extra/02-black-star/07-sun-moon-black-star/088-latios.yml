@@ -1,0 +1,44 @@
+name: Latios
+
+origin: sun-moon-black-star-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Break Through
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Lagoon Flight
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,54 @@
+name: Golem E4
+
+origin: rising-rivals-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 76
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 20 damage plus 10 more damage for each damage counter on Golem GL.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Golem E4 does 60 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

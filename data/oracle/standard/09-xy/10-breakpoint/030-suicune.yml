@@ -1,0 +1,40 @@
+name: Suicune
+
+origin: breakpoint-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 245
+
+rule:
+  - type: ability
+    name: Wind Charm
+    text: As long as this Pokémon is your Active Pokémon, prevent all effects of your opponent's attacks, except damage, done to each of your Pokémon. (Existing effects are not removed.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Aurora Beam
+    damage: 110
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

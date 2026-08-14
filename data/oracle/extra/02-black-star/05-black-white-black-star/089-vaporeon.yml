@@ -1,0 +1,47 @@
+name: Vaporeon
+
+origin: black-white-black-star-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Muddy Water
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Spiral Drain
+    text: Recover 20 damage from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

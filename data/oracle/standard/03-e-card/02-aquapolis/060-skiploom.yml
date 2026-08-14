@@ -1,0 +1,48 @@
+name: Skiploom
+
+origin: aquapolis-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Hoppip
+
+dex: 188
+
+rule:
+  - type: ability
+    name: Lightweight
+    text: You pay Colorless less to retreat Skiploom for each Grass Energy attached to it.
+  - type: attack
+    cost:
+      - Colorless
+    name: Break Powder
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage. If tails, this attack does 10 damage and the Defending Pokémon is now Asleep.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

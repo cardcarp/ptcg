@@ -1,0 +1,46 @@
+name: Charizard
+
+origin: pokemon-go-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 170
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: ability
+    name: Burn Brightly
+    text: Each basic Fire Energy attached to your Pokémon provides FireFire Energy. You can't apply more than 1 Burn Brightly Ability at a time.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flare Blitz
+    text: Discard all Fire Energy from this Pokémon.
+    damage: 170
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

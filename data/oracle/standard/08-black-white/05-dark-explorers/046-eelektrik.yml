@@ -1,0 +1,46 @@
+name: Eelektrik
+
+origin: dark-explorers-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Tynamo
+
+dex: 603
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Shock Bolt
+    text: Discard all Lightning Energy attached to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

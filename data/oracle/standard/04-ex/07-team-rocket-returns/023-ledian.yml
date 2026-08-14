@@ -1,0 +1,50 @@
+name: Ledian
+
+origin: team-rocket-returns-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Ledyba
+
+dex: 166
+
+rule:
+  - type: ability
+    name: Powder Protection
+    text: Any damage done to Ledian by attacks from Pokémon that has an owner in its name is reduced by 40.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Split Spiral Punch
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

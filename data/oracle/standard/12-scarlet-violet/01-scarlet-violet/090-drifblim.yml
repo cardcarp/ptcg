@@ -1,0 +1,52 @@
+name: Drifblim
+
+origin: scarlet-violet-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Drifloon
+
+dex: 426
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Curse Spreading
+    text: Put 8 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

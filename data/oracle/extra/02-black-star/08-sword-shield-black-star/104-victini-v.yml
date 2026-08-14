@@ -1,0 +1,48 @@
+name: Victini V
+
+origin: sword-shield-black-star-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 190
+
+dex: 494
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spreading Flames
+    text: Attach up to 3 Fire Energy cards from your discard pile to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Energy Burst
+    text: This attack does 30 damage for each Energy attached to both Active Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

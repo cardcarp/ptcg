@@ -1,0 +1,37 @@
+name: Pinsir
+
+origin: prismatic-evolutions-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 127
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Slash
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,47 @@
+name: Fletchling
+
+origin: perfect-order-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 661
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Chirp
+    text: Search your deck for up to 2 Pokémon with Fighting Resistance, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

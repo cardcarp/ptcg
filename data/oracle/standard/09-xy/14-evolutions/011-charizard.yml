@@ -1,0 +1,50 @@
+name: Charizard
+
+origin: evolutions-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: ability
+    name: Energy Burn
+    text: All Energy attached to this Pokémon are Fire Energy instead of their usual type.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: Fire Spin
+    text: Discard 3 Energy attached to this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

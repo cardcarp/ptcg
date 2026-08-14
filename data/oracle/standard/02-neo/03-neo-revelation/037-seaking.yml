@@ -1,0 +1,48 @@
+name: Seaking
+
+origin: neo-revelation-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Horn Swipe
+    text: Flip 2 coins. If both are heads, this attack does 20 damage plus 40 more damage. If 1 or both of them are tails, this attack does 20 damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

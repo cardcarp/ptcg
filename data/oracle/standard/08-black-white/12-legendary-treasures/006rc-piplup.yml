@@ -1,0 +1,41 @@
+name: Piplup
+
+origin: legendary-treasures-006rc
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 393
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Charm
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

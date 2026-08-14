@@ -1,0 +1,52 @@
+name: Salamence-EX
+
+origin: xy-black-star-170
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 180
+
+dex: 373
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Beastly Fang
+    text: This attack does 50 more damage for each of your opponent's Pokémon-EX.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+      - Colorless
+    name: Dragon Strike
+    text: This Pokémon can't use Dragon Strike during your next turn.
+    damage: 130
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

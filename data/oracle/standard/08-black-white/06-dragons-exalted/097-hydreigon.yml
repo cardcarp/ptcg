@@ -1,0 +1,45 @@
+name: Hydreigon
+
+origin: dragons-exalted-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: ability
+    name: Dark Trance
+    text: As often as you like during your turn (before your attack), you may move a Darkness Energy attached to 1 of your Pokémon to another of your Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dragonblast
+    text: Discard 2 Darkness Energy attached to this Pokémon.
+    damage: 140
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Tangela
+
+origin: great-encounters-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 114
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Vine Invite
+    text: Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Grass Knot
+    text: Does 20 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the the Retreat Cost).
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

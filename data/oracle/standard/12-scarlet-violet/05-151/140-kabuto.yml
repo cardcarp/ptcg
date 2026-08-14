@@ -1,0 +1,42 @@
+name: Kabuto
+
+origin: 151-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Antique Dome Fossil
+
+dex: 140
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

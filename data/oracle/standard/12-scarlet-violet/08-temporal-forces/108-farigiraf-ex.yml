@@ -1,0 +1,52 @@
+name: Farigiraf ex
+
+origin: temporal-forces-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Darkness
+
+hp: 260
+
+preevolution:
+  - Girafarig
+
+dex: 981
+
+rule:
+  - type: ability
+    name: Armor Tail
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Basic Pokémon ex.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Dirty Beam
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - H
+
+errata: []

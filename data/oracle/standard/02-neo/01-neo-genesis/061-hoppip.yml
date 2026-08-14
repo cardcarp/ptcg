@@ -1,0 +1,43 @@
+name: Hoppip
+
+origin: neo-genesis-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 187
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hop
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+    name: Sprout
+    text: Search your deck for a Basic Pokémon named Hoppip and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

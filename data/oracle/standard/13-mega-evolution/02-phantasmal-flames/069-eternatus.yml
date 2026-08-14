@@ -1,0 +1,46 @@
+name: Eternatus
+
+origin: phantasmal-flames-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 150
+
+dex: 890
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Shatter
+    text: Discard a Stadium in play.
+    damage: 50
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Power Rush
+    text: Flip a coin. If tails, during your next turn, this Pokémon can't use attacks.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

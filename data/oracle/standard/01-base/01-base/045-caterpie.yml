@@ -1,0 +1,36 @@
+name: Caterpie
+
+origin: base-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 10
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: String Shot
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

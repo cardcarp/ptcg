@@ -1,0 +1,44 @@
+name: Roserade
+
+origin: unleashed-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Roselia
+
+dex: 407
+
+rule:
+  - type: ability
+    name: Energy Signal
+    text: When you attach a Grass Energy card or Psychic Energy card from your hand to Roserade during your turn, you may use this power. If you attach a Grass Energy card, the Defending Pokémon is now Confused. If you attach a Psychic Energy card, the Defending Pokémon is now Poisoned. This power can't be used if Roserade is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Power Blow
+    text: Does 20 damage times the amount of Energy attached to Roserade.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Pidgeot
+
+origin: 151-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Pidgeotto
+
+dex: 18
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fly
+    text: Flip a coin. If tails, this attack does nothing. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - G
+
+errata: []

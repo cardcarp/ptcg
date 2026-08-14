@@ -1,0 +1,45 @@
+name: Simisage
+
+origin: burning-shadows-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Pansage
+
+dex: 512
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Supply
+    text: You may attach a Grass Energy card from your hand to 1 of your Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

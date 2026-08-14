@@ -1,0 +1,42 @@
+name: Toxicroak G
+
+origin: diamond-pearl-black-star-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 454
+
+rule:
+  - type: ability
+    name: Leap Away
+    text: Once during your turn (before your attack), if Toxicroak G is your Active Pokémon, you may flip a coin. If heads, return Toxicroak G and all cards attached to it to your hand. This power can't be used if Toxicroak G is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poison Revenge
+    text: If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 20 damage plus 40 more damage and the Defending Pokémon is now Poisoned.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

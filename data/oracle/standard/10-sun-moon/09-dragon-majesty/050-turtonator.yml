@@ -1,0 +1,39 @@
+name: Turtonator
+
+origin: dragon-majesty-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 110
+
+dex: 776
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Explosive Jet
+    text: Discard any amount of Fire Energy from your Pokémon. This attack does 50 damage for each card you discarded in this way.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

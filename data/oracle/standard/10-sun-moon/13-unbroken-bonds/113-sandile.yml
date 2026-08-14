@@ -1,0 +1,43 @@
+name: Sandile
+
+origin: unbroken-bonds-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 551
+
+rule:
+  - type: ability
+    name: Intimidating Fang
+    text: As long as this Pokémon is your Active Pokémon, your opponent's Active Pokémon's attacks do 20 less damage (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Darkness
+    name: Gnaw
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

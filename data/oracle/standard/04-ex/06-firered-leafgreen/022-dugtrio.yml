@@ -1,0 +1,48 @@
+name: Dugtrio
+
+origin: firered-leafgreen-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Diglett
+
+dex: 51
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Sonicboom
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rumble
+    text: The Defending Pokémon can't retreat until the end of your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

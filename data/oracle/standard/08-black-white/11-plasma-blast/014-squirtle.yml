@@ -1,0 +1,41 @@
+name: Squirtle
+
+origin: plasma-blast-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 7
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Bubble
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

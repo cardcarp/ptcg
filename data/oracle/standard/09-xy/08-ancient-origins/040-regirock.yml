@@ -1,0 +1,45 @@
+name: Regirock
+
+origin: ancient-origins-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 377
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Unyielding Rock
+    text: If your opponent's Active Pokémon is a Pokémon-EX, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

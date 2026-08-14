@@ -1,0 +1,46 @@
+name: Snorlax
+
+origin: call-of-legends-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 143
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Layabout
+    text: Remove all damage counters from Snorlax. Snorlax can't use Layabout during your next turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Clomp Clomp Clobber
+    text: Put 1 Energy card attached to Snorlax in the Lost Zone.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

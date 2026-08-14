@@ -1,0 +1,42 @@
+name: Qwilfish
+
+origin: chilling-reign-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 90
+
+dex: 211
+
+rule:
+  - type: ability
+    name: Bursting Needles
+    text: If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, put 6 damage counters on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poison Jab
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

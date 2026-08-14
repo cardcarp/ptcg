@@ -1,0 +1,47 @@
+name: Squawkabilly
+
+origin: journey-together-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 931
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Add On
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

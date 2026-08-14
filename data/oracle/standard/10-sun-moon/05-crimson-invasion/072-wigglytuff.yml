@@ -1,0 +1,54 @@
+name: Wigglytuff
+
+origin: crimson-invasion-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 120
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hypnoblast
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Punishing Slap
+    text: If any of your opponent's Pokémon have any Darkness Energy attached to them, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

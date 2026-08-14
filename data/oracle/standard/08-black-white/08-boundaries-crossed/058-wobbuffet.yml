@@ -1,0 +1,37 @@
+name: Wobbuffet
+
+origin: boundaries-crossed-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 202
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Headbutt Bounce
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,54 @@
+name: Scizor
+
+origin: majestic-dawn-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Scyther
+
+dex: 212
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Special Blow
+    text: If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 50 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 50 damage plus 40 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

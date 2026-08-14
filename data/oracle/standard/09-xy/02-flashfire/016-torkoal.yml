@@ -1,0 +1,43 @@
+name: Torkoal
+
+origin: flashfire-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 324
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

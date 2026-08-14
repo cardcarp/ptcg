@@ -1,0 +1,45 @@
+name: Poliwhirl
+
+origin: unleashed-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Poliwag
+
+dex: 61
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Hypnoblast
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Light Punch
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: M Charizard-EX
+
+origin: flashfire-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Fire
+
+hp: 220
+
+preevolution:
+  - Charizard-EX
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Crimson Dive
+    text: This Pokémon does 50 damage to itself.
+    damage: 300
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

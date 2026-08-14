@@ -1,0 +1,44 @@
+name: Growlithe
+
+origin: legendary-treasures-004rc
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 58
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rest
+    text: Heal all damage from this Pokémon. This Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

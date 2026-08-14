@@ -1,0 +1,36 @@
+name: Ekans
+
+origin: shining-legends-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 23
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Poison Sting
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

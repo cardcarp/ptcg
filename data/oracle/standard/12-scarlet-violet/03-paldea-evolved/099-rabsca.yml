@@ -1,0 +1,51 @@
+name: Rabsca
+
+origin: paldea-evolved-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Rellor
+
+dex: 954
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Revival Blessing
+    text: Put a Pokémon from your discard pile onto your Bench.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,51 @@
+name: Ludicolo δ
+
+origin: crystal-guardians-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Lombre
+
+dex: 272
+
+rule:
+  - type: ability
+    name: Overzealous
+    text: If your opponent has any Pokémon-ex in play, each of Ludicolo's attacks does 30 more damage to the Defending Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Knock Off
+    text: Choose 1 card from your opponent's hand without looking and discard it.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Punch
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

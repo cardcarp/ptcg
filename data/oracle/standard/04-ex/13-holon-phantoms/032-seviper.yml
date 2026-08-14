@@ -1,0 +1,42 @@
+name: Seviper
+
+origin: holon-phantoms-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 336
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Poison Fang
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

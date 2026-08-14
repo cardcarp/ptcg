@@ -1,0 +1,52 @@
+name: Team Magma's Rhydon
+
+origin: team-magma-vs-team-aqua-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Team Magma's Rhyhorn
+
+dex: 112
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Magma Jab
+    text: This attack's damage is not affected by Resistance.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Shoot Down
+    text: If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Fighting Darkness type.
+
+regulation:
+
+errata: []

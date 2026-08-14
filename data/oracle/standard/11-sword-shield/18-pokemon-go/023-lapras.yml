@@ -1,0 +1,44 @@
+name: Lapras
+
+origin: pokemon-go-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 131
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Ice Beam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Surf
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

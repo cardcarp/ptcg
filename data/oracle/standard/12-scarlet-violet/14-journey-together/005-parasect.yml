@@ -1,0 +1,44 @@
+name: Parasect
+
+origin: journey-together-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 47
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spore
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Scissor Swing
+    text: Flip 2 coins. This attack does 30 more damage for each heads.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

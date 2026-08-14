@@ -1,0 +1,46 @@
+name: Shiftry
+
+origin: mega-evolution-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 160
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Reversing Gust
+    text: Flip a coin. If heads, choose 1 of your opponent's Pokémon. Shuffle that Pokémon and all attached cards into their deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

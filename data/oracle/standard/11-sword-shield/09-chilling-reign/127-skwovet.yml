@@ -1,0 +1,41 @@
+name: Skwovet
+
+origin: chilling-reign-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 819
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scrounge
+    text: Put a Pokémon Tool card from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

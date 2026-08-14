@@ -1,0 +1,44 @@
+name: Froslass
+
+origin: plasma-blast-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Snorunt
+
+dex: 478
+
+rule:
+  - type: ability
+    name: Cursed Glare
+    text: As long as this Pokémon is your Active Pokémon, your opponent can't attach any Special Energy cards from his or her hand to his or her Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Blizzard
+    text: Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

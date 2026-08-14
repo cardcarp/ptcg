@@ -1,0 +1,38 @@
+name: Starmie
+
+origin: primal-clash-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Synchro Star
+    text: If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached to them, this attack does 60 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

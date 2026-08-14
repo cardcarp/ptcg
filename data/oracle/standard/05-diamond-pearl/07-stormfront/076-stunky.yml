@@ -1,0 +1,49 @@
+name: Stunky
+
+origin: stormfront-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 434
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Gnaw and Run
+    text: Switch Stunky with 1 of your Benched Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

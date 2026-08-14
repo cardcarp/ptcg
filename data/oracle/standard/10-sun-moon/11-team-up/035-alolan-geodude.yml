@@ -1,0 +1,46 @@
+name: Alolan Geodude
+
+origin: team-up-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 74
+
+rule:
+  - type: attack
+    name: Charge
+    text: Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Smash Bomb
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

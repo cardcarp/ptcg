@@ -1,0 +1,47 @@
+name: Deerling
+
+origin: emerging-powers-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 585
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Wild Kick
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

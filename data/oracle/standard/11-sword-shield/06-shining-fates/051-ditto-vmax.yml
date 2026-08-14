@@ -1,0 +1,44 @@
+name: Ditto VMAX
+
+origin: shining-fates-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Colorless
+
+hp: 320
+
+preevolution:
+  - Ditto V
+
+dex: 132
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Max Transform
+    text: Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

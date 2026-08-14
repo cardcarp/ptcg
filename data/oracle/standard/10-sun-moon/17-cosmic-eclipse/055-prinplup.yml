@@ -1,0 +1,45 @@
+name: Prinplup
+
+origin: cosmic-eclipse-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Piplup
+
+dex: 394
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Drip
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Direct Dive
+    text: Discard all Energy from this Pokémon. This attack does 100 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

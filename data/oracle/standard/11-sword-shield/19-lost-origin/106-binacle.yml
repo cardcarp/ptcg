@@ -1,0 +1,42 @@
+name: Binacle
+
+origin: lost-origin-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 688
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Mud-Slap
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

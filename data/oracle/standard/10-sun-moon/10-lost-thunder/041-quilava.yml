@@ -1,0 +1,47 @@
+name: Quilava
+
+origin: lost-thunder-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Cyndaquil
+
+dex: 156
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Super Singe
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

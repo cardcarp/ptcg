@@ -1,0 +1,44 @@
+name: Oddish
+
+origin: scarlet-violet-black-star-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 43
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Razor Leaf
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Grass Knot
+    text: This attack does 20 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

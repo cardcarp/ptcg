@@ -1,0 +1,53 @@
+name: Suicune-GX
+
+origin: lost-thunder-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Water
+
+hp: 180
+
+dex: 245
+
+rule:
+  - type: ability
+    name: Phantom Winds
+    text: Once during your turn (before your attack), if this Pokémon is on your Bench, you may shuffle it and all cards attached to it into your deck.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Cure Stream
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).
+    damage: 120
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Brinicles-GX
+    text: Switch this Pokémon with 1 of your Benched Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Hisuian Goodra VSTAR
+
+origin: lost-origin-136
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Dragon
+
+hp: 270
+
+preevolution:
+  - Hisuian Goodra V
+
+dex: 706
+
+rule:
+  - type: ability
+    name: Moisture Star
+    text: During your turn, you may heal all damage from this Pokémon. (You can't use more than 1 VSTAR Power in a game.)
+  - type: attack
+    cost:
+      - Water
+      - Metal
+      - Colorless
+    name: Rolling Iron
+    text: During your opponent's next turn, this Pokémon takes 80 less damage from attacks (after applying Weakness and Resistance).
+    damage: 200
+
+retreat: 3
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

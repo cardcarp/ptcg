@@ -1,0 +1,42 @@
+name: Stunfisk
+
+origin: unified-minds-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 618
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Trap Bolt
+    text: If, before doing damage, your opponent's Active Pokémon has more remaining HP than this Pokémon, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

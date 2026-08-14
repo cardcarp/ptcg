@@ -1,0 +1,45 @@
+name: Sealeo
+
+origin: surging-sparks-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Spheal
+
+dex: 364
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Lunge Out
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Ice Ball
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

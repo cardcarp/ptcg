@@ -1,0 +1,43 @@
+name: Sharpedo
+
+origin: plasma-storm-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: ability
+    name: Rough Skin
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hard Bite
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

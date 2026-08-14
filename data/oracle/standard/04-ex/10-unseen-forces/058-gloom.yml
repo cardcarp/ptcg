@@ -1,0 +1,40 @@
+name: Gloom
+
+origin: unseen-forces-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Poisonpowder
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

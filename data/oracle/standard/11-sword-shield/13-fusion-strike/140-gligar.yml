@@ -1,0 +1,42 @@
+name: Gligar
+
+origin: fusion-strike-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 207
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Pierce
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,51 @@
+name: Magnezone LV.X
+
+origin: legends-awakened-142
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Magnezone
+
+dex: 462
+
+rule:
+  - type: ability
+    name: Electric Trans
+    text: As often as you like during your turn (before your attack), you may move a Lightning or Metal Energy attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Magnezone is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Lightning
+      - Metal
+    name: Cyber Shock
+    text: Discard a Lightning Energy and a Metal Energy attached to Magnezone. The Defending Pokémon is now Paralyzed.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - Put this card onto your Active Magnezone. Magnezone LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Hitmonlee
+
+origin: sword-shield-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 106
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Low Sweep
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Coordinated Strike
+    text: If Hitmonchan is on your Bench, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

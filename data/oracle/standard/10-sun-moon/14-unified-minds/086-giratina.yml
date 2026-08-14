@@ -1,0 +1,46 @@
+name: Giratina
+
+origin: unified-minds-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 487
+
+rule:
+  - type: ability
+    name: Dimension Breach
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Special Energy from your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Fade to Black
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

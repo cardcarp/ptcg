@@ -1,0 +1,50 @@
+name: Xerneas ex
+
+origin: scarlet-violet-black-star-179
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 210
+
+dex: 716
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Aurora Beam
+    damage: 50
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Rising Horns
+    text: If your opponent's Active Pokémon is a Pokémon ex, this attack does 100 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

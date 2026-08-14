@@ -1,0 +1,49 @@
+name: Annihilape
+
+origin: pitch-black-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Primeape
+
+dex: 979
+
+rule:
+  - type: ability
+    name: Durable Body
+    text: If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Ghostly Blow
+    text: Place 5 damage counters on 1 of your opponent's Benched Pokémon.
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

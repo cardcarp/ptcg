@@ -1,0 +1,36 @@
+name: Spinda
+
+origin: sun-moon-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 327
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Teeter Punch
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,37 @@
+name: Combusken
+
+origin: journey-together-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 256
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Slash
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

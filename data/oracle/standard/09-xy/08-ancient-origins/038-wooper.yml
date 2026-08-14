@@ -1,0 +1,41 @@
+name: Wooper
+
+origin: ancient-origins-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 194
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Heal 20 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

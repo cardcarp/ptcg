@@ -1,0 +1,42 @@
+name: Slugma
+
+origin: team-rocket-returns-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 218
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Heat Tackle
+    text: Slugma does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

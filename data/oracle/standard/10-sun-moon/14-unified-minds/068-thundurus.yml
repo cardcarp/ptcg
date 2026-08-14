@@ -1,0 +1,51 @@
+name: Thundurus
+
+origin: unified-minds-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 642
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Thunderous Gale
+    text: If Tornadus is on your Bench, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Raging Thunder
+    text: This attack does 40 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

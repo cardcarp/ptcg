@@ -1,0 +1,41 @@
+name: Trubbish
+
+origin: plasma-storm-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 568
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Pile Up
+    text: Flip a coin. If heads, search your deck for a Pokémon Tool card, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sludge Toss
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

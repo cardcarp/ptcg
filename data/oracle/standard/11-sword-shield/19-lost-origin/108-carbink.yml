@@ -1,0 +1,43 @@
+name: Carbink
+
+origin: lost-origin-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 703
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lucky Find
+    text: Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Power Gem
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

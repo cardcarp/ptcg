@@ -1,0 +1,48 @@
+name: Tapu Lele
+
+origin: ultra-prism-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 110
+
+dex: 786
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Psywave
+    text: This attack does 20 damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Magical Swap
+    text: Move any number of damage counters on your opponent's Pokémon to their other Pokémon in any way you like.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

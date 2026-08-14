@@ -1,0 +1,44 @@
+name: Heatmor
+
+origin: burning-shadows-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 631
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Odor Sleuth
+    text: Flip 2 coins. For each heads, put a card from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

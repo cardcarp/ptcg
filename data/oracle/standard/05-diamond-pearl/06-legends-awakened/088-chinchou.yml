@@ -1,0 +1,43 @@
+name: Chinchou
+
+origin: legends-awakened-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 170
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Razor Fin
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Aqua Spark
+    text: If Chinchou has any Water Energy attached to it, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

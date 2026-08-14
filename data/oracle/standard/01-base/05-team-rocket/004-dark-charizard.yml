@@ -1,0 +1,51 @@
+name: Dark Charizard
+
+origin: team-rocket-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Dark Charmeleon
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nail Flick
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Continuous Fireball
+    text: Flip a number of coins equal to the number of Fire Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of Fire Energy cards attached to Dark Charizard equal to the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

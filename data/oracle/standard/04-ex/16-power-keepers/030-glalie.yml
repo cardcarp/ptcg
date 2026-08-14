@@ -1,0 +1,51 @@
+name: Glalie
+
+origin: power-keepers-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Snorunt
+
+dex: 362
+
+rule:
+  - type: ability
+    name: Synergy Effect
+    text: If Glacia's Stadium is in play, any damage done to Glalie by attacks from your opponent's Pokémon is reduced by 30 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Powder Snow
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Glalie does 10 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

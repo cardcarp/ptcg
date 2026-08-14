@@ -1,0 +1,39 @@
+name: Smeargle
+
+origin: breakthrough-123
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 235
+
+rule:
+  - type: ability
+    name: Second Coat
+    text: Once during your turn (before your attack), you may switch a basic Energy card attached to your Active Pokémon with a different type of basic Energy card from your discard pile.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Beat
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

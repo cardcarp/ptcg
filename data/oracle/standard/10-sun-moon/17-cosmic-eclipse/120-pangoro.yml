@@ -1,0 +1,45 @@
+name: Pangoro
+
+origin: cosmic-eclipse-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Pancham
+
+dex: 675
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Magnum Punch
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

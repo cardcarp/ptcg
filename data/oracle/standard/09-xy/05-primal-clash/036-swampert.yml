@@ -1,0 +1,45 @@
+name: Swampert
+
+origin: primal-clash-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Marshtomp
+
+dex: 260
+
+rule:
+  - type: ability
+    name: Diving Search
+    text: Once during your turn (before your attack), you may search your deck for a card. Shuffle your deck, then put that card on top of it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 30 more damage for each Water Energy attached to this Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

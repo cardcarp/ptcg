@@ -1,0 +1,47 @@
+name: Bellossom
+
+origin: obsidian-flames-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Gloom
+
+dex: 182
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sleep Powder
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+    name: Powerful Dance
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 90 damage for each heads.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,47 @@
+name: Snubbull
+
+origin: breakthrough-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 209
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

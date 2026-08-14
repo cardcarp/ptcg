@@ -1,0 +1,47 @@
+name: Persian
+
+origin: team-up-126
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Make 'Em Pay
+    text: If your opponent has 4 or more cards in their hand, they reveal their hand. Discard cards you find there until your opponent has exactly 4 cards in their hand.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sharp Claws
+    text: Flip a coin. If heads, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

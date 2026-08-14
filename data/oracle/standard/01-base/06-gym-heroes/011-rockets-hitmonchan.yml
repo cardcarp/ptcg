@@ -1,0 +1,42 @@
+name: Rocket's Hitmonchan
+
+origin: gym-heroes-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 107
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Crosscounter
+    text: If an attack does damage to Rocket's Hitmonchan during your opponent's next turn (even if Rocket's Hitmonchan is Knocked Out), flip a coin. If heads, Rocket's Hitmonchan attacks your opponent's Active Pokémon for double that amount of damage. (If Rocket's Hitmonchan takes 20 damage, it does 40 damage to that Pokémon.)
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Magnum Punch
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

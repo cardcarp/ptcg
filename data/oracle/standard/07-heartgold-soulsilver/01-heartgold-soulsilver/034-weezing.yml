@@ -1,0 +1,45 @@
+name: Weezing
+
+origin: heartgold-soulsilver-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Super Poison Breath
+    text: The Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Super Explosion
+    text: Weezing does 90 damage to itself, and don't apply Weakness to this damage.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

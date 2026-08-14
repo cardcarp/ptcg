@@ -1,0 +1,43 @@
+name: Combusken
+
+origin: ruby-sapphire-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Torchic
+
+dex: 256
+
+rule:
+  - type: ability
+    name: Natural Cure
+    text: When you attach a Fire Energy card from your hand to Combusken, remove all Special Conditions from Combusken.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

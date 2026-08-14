@@ -1,0 +1,39 @@
+name: Misty's Tentacool
+
+origin: gym-heroes-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 72
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mysterious Light
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Jellyfish Pod
+    text: Search your deck for any number of Pokémon named Tentacool, Tentacruel, Misty's Tentacool, and/or Misty's Tentacruel. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

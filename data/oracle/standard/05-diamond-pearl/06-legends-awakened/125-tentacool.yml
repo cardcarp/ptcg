@@ -1,0 +1,40 @@
+name: Tentacool
+
+origin: legends-awakened-125
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 72
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Crystal Barrier
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Tentacool during your opponent's next turn.
+  - type: attack
+    cost:
+      - Water
+    name: Mysterious Beam
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

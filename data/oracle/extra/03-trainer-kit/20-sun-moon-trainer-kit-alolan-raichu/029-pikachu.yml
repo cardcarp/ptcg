@@ -1,0 +1,47 @@
+name: Pikachu
+
+origin: sun-moon-trainer-kit-alolan-raichu-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Whap
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Spark
+    text: This attack does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

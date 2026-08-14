@@ -1,0 +1,44 @@
+name: Spewpa
+
+origin: surging-sparks-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Scatterbug
+
+dex: 665
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Wander About
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Grass
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

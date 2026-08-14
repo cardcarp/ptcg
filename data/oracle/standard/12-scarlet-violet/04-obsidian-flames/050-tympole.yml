@@ -1,0 +1,37 @@
+name: Tympole
+
+origin: obsidian-flames-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 535
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Screw Tail
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

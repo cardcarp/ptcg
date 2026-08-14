@@ -1,0 +1,46 @@
+name: Sabrina's Gengar
+
+origin: gym-heroes-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Sabrina's Haunter
+
+dex: 94
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Pain Amplifier
+    text: Put a damage counter on each of your opponent's Pokémon has already has any damage counters on it.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Call of the Night
+    text: Unless this attack Knocks Out the Defending Pokémon, flip 2 coins. If both of them are heads, your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck.
+    damage: 40
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

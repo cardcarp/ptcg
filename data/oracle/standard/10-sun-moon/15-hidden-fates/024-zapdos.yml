@@ -1,0 +1,48 @@
+name: Zapdos
+
+origin: hidden-fates-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hurricane Call
+    text: Flip 4 coins. For each heads, search your deck for a Lightning Energy card and attach it to 1 of your Pokémon-GX or Pokémon-EX. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Sky-High Claws
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

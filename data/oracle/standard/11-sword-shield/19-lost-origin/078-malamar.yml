@@ -1,0 +1,53 @@
+name: Malamar
+
+origin: lost-origin-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Inkay
+
+dex: 687
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Synchro Kinesis
+    text: Each player reveals their hand. If a card in your opponent's hand has the same name as a card in your hand, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Sphere
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

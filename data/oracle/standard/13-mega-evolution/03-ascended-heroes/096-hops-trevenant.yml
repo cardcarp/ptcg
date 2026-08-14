@@ -1,0 +1,54 @@
+name: Hop's Trevenant
+
+origin: ascended-heroes-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Hop's Phantump
+
+dex: 709
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Horrifying Revenge
+    text: If any of your Hop's Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 100 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Corner
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

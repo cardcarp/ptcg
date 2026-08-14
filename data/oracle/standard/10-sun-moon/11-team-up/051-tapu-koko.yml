@@ -1,0 +1,49 @@
+name: Tapu Koko ◇
+
+origin: team-up-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Prism Star
+
+type:
+  - Lightning
+
+hp: 130
+
+dex: 785
+
+rule:
+  - type: ability
+    name: Dance of the Ancients
+    text: Once during your turn (before your attack), if this Pokémon is on your Bench, you may choose 2 of your Benched Pokémon and attach a Lightning Energy card from your discard pile to each of them. If you do, discard all cards from this Pokémon and put it in the Lost Zone.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Mach Bolt
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+regulation:
+
+errata: []

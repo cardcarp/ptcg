@@ -1,0 +1,42 @@
+name: Bruxish
+
+origin: scarlet-violet-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 779
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Vivid Charge
+    text: Search your deck for up to 3 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

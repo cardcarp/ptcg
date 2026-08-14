@@ -1,0 +1,46 @@
+name: Flaaffy
+
+origin: dragons-exalted-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Mareep
+
+dex: 180
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cotton Guard
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying weakness and resistance).
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Power Gem
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Machamp
+
+origin: guardians-rising-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Settle the Score
+    text: This attack does 80 more damage for each Prize card your opponent took on their last turn.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Submission
+    text: This Pokémon does 30 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

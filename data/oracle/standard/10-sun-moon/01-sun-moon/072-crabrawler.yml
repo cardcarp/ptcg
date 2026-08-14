@@ -1,0 +1,43 @@
+name: Crabrawler
+
+origin: sun-moon-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 739
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Punch
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Crabhammer
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

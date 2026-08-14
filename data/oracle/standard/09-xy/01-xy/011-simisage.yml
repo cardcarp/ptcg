@@ -1,0 +1,46 @@
+name: Simisage
+
+origin: xy-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Pansage
+
+dex: 512
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Torment
+    text: Choose 1 of your opponent's Active Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Solar Beam
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

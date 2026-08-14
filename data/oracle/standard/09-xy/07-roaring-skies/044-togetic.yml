@@ -1,0 +1,50 @@
+name: Togetic
+
+origin: roaring-skies-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 80
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Go Fetch
+    text: Shuffle 3 basic Energy cards from your discard pile into your deck.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Fairy Wind
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

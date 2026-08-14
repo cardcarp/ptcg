@@ -1,0 +1,51 @@
+name: Arctovish
+
+origin: darkness-ablaze-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Rare Fossil
+
+dex: 883
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hard Face
+    text: During your opponent's next turn, this Pokémon takes 60 less damage from attacks (after applying Weakness and Resistance).
+    damage: 90
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Cold Breath
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

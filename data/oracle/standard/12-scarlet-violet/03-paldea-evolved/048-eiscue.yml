@@ -1,0 +1,44 @@
+name: Eiscue
+
+origin: paldea-evolved-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 875
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Headbutt
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Frigid Block
+    text: Discard all Energy from this Pokémon. During your opponent's next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance).
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

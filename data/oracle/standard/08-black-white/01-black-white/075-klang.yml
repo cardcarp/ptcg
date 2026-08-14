@@ -1,0 +1,53 @@
+name: Klang
+
+origin: black-white-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Klink
+
+dex: 600
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Bind
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Gear Grind
+    text: Flip 2 coins. This attack does 60 damage times the number of heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

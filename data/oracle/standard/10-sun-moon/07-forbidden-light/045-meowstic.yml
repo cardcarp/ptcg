@@ -1,0 +1,47 @@
+name: Meowstic
+
+origin: forbidden-light-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Espurr
+
+dex: 678
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Teleportation Burst
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: This attack does 30 more damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

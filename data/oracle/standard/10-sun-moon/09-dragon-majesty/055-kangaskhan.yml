@@ -1,0 +1,50 @@
+name: Kangaskhan
+
+origin: dragon-majesty-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 115
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fetch
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: One-Two Punch
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Origin Forme Palkia VSTAR
+
+origin: sword-shield-black-star-254
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Water
+
+hp: 280
+
+preevolution:
+  - Origin Forme Palkia V
+
+dex: 484
+
+rule:
+  - type: ability
+    name: Star Portal
+    text: During your turn, you may attach up to 3 Water Energy cards from your discard pile to your Water Pokémon in any way you like. (You can't use more than 1 VSTAR Power in a game.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Subspace Swell
+    text: This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

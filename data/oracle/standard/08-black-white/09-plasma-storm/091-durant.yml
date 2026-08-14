@@ -1,0 +1,51 @@
+name: Durant
+
+origin: plasma-storm-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Team Plasma
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 632
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Hard Crunch
+    text: If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Swablu
+
+origin: paradox-rift-152
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 333
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bind Wound
+    text: Heal 30 damage from 1 of your Pokémon.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

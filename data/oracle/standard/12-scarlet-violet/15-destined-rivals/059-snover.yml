@@ -1,0 +1,44 @@
+name: Snover
+
+origin: destined-rivals-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 459
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Light Punch
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Icicle
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

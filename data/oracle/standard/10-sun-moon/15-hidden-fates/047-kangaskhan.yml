@@ -1,0 +1,38 @@
+name: Kangaskhan
+
+origin: hidden-fates-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 115
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Parental Fury
+    text: Flip a coin until you get tails. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

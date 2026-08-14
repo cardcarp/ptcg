@@ -1,0 +1,48 @@
+name: Gumshoos
+
+origin: crown-zenith-118
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Yungoos
+
+dex: 735
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stakeout Headbutt
+    text: If your opponent's Active Pokémon moved from the Bench to the Active Spot during your opponent's last turn, this attack does 120 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lunge Out
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

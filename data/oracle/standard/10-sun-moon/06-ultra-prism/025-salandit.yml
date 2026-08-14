@@ -1,0 +1,41 @@
+name: Salandit
+
+origin: ultra-prism-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 757
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Magmortar
+
+origin: brilliant-stars-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Magmar
+
+dex: 467
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mega Punch
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Boltsplosion
+    text: If Electivire is on your Bench, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

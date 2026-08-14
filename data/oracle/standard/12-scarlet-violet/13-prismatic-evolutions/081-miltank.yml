@@ -1,0 +1,43 @@
+name: Miltank
+
+origin: prismatic-evolutions-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 241
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Moomoo Rolling
+    text: You can use this attack only if this Pokémon used Rollout during your last turn.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

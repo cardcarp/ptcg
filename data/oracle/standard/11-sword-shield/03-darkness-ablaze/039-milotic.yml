@@ -1,0 +1,44 @@
+name: Milotic
+
+origin: darkness-ablaze-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: ability
+    name: Bright Heal
+    text: Once during your turn, you may heal 20 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,41 @@
+name: Feebas
+
+origin: silver-tempest-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 349
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ascension
+    text: Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+    name: Splash
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,53 @@
+name: Palossand
+
+origin: rebel-clash-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Sandygast
+
+dex: 770
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sand Sink
+    text: Discard the top card of your opponent's deck. If this Pokémon has a Cursed Shovel attached, discard 2 more cards from the top of your opponent's deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Super Absorption
+    text: Heal 30 damage from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+  - D
+
+errata: []

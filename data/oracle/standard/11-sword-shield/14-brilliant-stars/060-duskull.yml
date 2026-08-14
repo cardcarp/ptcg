@@ -1,0 +1,42 @@
+name: Duskull
+
+origin: brilliant-stars-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 355
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Perplex
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

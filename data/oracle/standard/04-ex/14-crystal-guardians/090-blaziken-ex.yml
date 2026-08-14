@@ -1,0 +1,53 @@
+name: Blaziken ex
+
+origin: crystal-guardians-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Drag Off
+    text: Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Burn Away
+    text: Before doing damage, count the remaining HP of the Defending Pokémon. If that Pokémon is Knocked Out by this attack, Blaziken ex does damage to itself equal to the attack's damage minus the remaining HP of the Defending Pokémon. This attack's damage isn't by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

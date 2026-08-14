@@ -1,0 +1,46 @@
+name: Floatzel GL LV.X
+
+origin: rising-rivals-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+  - SP
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Floatzel GL
+
+dex: 419
+
+rule:
+  - type: ability
+    name: Water Rescue
+    text: Whenever any of your Water Pokémon (excluding any Floatzel GL) is Knocked Out by damage from your opponent's attack, you may put that Pokémon and all cards that were attached to it from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Energy Cyclone
+    text: Choose as many Energy cards from your hand as you like and show them to your opponent. This attack does 20 damage times the number of Energy cards you chose. Put those Energy cards on top of your deck. Shuffle your deck afterward.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+rulebox:
+  - Put this card onto your Active Floatzel GL. Floatzel GL LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

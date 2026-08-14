@@ -1,0 +1,44 @@
+name: Kirlia
+
+origin: cosmic-eclipse-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Ralts
+
+dex: 281
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hypnosis
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spiral Kick
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

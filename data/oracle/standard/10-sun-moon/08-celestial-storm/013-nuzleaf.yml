@@ -1,0 +1,44 @@
+name: Nuzleaf
+
+origin: celestial-storm-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Pound
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Clear the Room
+    text: Your opponent reveals their hand. Choose a Supporter card you find there. Your opponent shuffles that card into their deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

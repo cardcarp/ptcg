@@ -1,0 +1,47 @@
+name: Aerodactyl δ
+
+origin: holon-phantoms-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 142
+
+rule:
+  - type: ability
+    name: Primal Light
+    text: Once during your turn (before your attack), you may search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Aerodactyl is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Granite Head
+    text: During your opponent's next turn, any damage done to Aerodactyl by attacks is reduced by 10 (after applying Weakness and Resistance).
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

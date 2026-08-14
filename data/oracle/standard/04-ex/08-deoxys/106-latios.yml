@@ -1,0 +1,54 @@
+name: Latios ☆
+
+origin: deoxys-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Miraculous Light
+    text: Remove 1 damage counter and all Special Conditions from Latios Star.
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+      - Psychic
+    name: Shining Star
+    text: If the Defending Pokémon is a Stage 2 Evolved Pokémon, discard all Energy cards attached to Latios Star and this attack does 50 damage plus 100 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

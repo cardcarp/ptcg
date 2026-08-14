@@ -1,0 +1,45 @@
+name: Vespiquen
+
+origin: ancient-origins-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Combee
+
+dex: 416
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Intelligence Gathering
+    text: You may draw cards until you have 6 cards in your hand.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bee Revenge
+    text: This attack does 10 more damage for each Pokémon in your discard pile.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

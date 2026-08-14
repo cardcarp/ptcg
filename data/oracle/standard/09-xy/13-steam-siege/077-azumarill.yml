@@ -1,0 +1,55 @@
+name: Azumarill
+
+origin: steam-siege-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+  - Water
+
+hp: 100
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Play Rough
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Bubble Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

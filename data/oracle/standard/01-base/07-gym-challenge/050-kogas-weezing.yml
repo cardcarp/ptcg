@@ -1,0 +1,49 @@
+name: Koga's Weezing
+
+origin: gym-challenge-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Koga's Koffing
+
+dex: 110
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Spontaneous Explosion
+    text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage and Koga's Weezing does 30 damage to itself; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Toxic Cloud
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

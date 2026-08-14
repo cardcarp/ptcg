@@ -1,0 +1,46 @@
+name: Politoed
+
+origin: guardians-rising-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Poliwhirl
+
+dex: 186
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Roll Call
+    text: Search your deck for a Poliwag, a Poliwhirl, and a Poliwrath, and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hyper Jump
+    text: You may shuffle this Pokémon and all cards attached to it into your deck.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

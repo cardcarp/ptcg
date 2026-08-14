@@ -1,0 +1,48 @@
+name: Rhydon
+
+origin: lost-origin-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Rhyhorn
+
+dex: 112
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Horn Drill
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: This Pokémon also does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

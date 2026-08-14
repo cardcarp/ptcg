@@ -1,0 +1,46 @@
+name: Porygon-Z
+
+origin: ancient-origins-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Porygon2
+
+dex: 474
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cyber Crush
+    text: Discard all Special Energy attached to each of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slowing Beam
+    text: During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

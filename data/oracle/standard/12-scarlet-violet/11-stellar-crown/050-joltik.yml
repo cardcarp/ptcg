@@ -1,0 +1,36 @@
+name: Joltik
+
+origin: stellar-crown-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 30
+
+dex: 595
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Jolting Charge
+    text: Search your deck for up to 2 Basic Grass Energy cards and up to 2 Basic Lightning Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

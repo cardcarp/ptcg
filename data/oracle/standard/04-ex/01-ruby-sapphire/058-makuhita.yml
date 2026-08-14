@@ -1,0 +1,36 @@
+name: Makuhita
+
+origin: ruby-sapphire-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 296
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Fake Out
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

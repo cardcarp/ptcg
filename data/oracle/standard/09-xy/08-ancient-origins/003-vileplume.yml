@@ -1,0 +1,43 @@
+name: Vileplume
+
+origin: ancient-origins-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: ability
+    name: Irritating Pollen
+    text: Each player can't play any Item cards from his or her hand.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Solar Beam
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

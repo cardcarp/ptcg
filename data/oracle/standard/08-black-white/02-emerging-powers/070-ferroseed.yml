@@ -1,0 +1,43 @@
+name: Ferroseed
+
+origin: emerging-powers-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 597
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Pin Missile
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

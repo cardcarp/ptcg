@@ -1,0 +1,41 @@
+name: Tropius δ
+
+origin: dragon-frontiers-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 357
+
+rule:
+  - type: ability
+    name: Tropical Heal
+    text: Once during your turn, when you put Tropius from your hand onto your Bench, you may remove all Special Conditions, Imprison markers, and Shock-wave markers from your Pokémon.
+  - type: attack
+    cost:
+      - Metal
+    name: Grind
+    text: Does 10 damage times the amount of Energy attached to Tropius.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Parasect
+
+origin: heartgold-soulsilver-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Paras
+
+dex: 47
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Sleep Drain
+    text: The Defending Pokémon is now Asleep. Remove 4 damage counters from Parasect.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Slash
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

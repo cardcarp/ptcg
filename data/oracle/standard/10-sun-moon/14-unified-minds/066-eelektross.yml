@@ -1,0 +1,50 @@
+name: Eelektross
+
+origin: unified-minds-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Eelektrik
+
+dex: 604
+
+rule:
+  - type: ability
+    name: Electric Swamp
+    text: Once during your turn (before your attack), if this Pokémon is in your hand and you have at least 4 Lightning Energy cards in play, you may play this Pokémon onto your Bench. If you do, move any number of Lightning Energy from your other Pokémon to this Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hover Over
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

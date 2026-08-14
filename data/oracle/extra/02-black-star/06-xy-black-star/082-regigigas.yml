@@ -1,0 +1,42 @@
+name: Regigigas
+
+origin: xy-black-star-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 486
+
+rule:
+  - type: ability
+    name: Earthen Awakening
+    text: Whenever you attach an Energy card from your hand to this Pokémon, heal 20 damage from it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gigas Punch
+    text: Flip 2 coins. If both of them are tails, this attack does nothing.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Drampa
+
+origin: evolving-skies-119
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 780
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Corkscrew Punch
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Fighting
+    name: Berserk
+    text: If your Benched Pokémon have any damage counters on them, this attack does 90 more damage.
+    damage: 70
+    modifier: +
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,48 @@
+name: Larvitar
+
+origin: mysterious-treasures-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 246
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Mountain Bite
+    text: You may discard the top card of your deck. If you do, this attack does 10 damage plus 10 more damage and Larvitar is now Asleep.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

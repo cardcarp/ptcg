@@ -1,0 +1,44 @@
+name: Latias
+
+origin: heartgold-soulsilver-black-star-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 380
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Assist
+    text: Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Infinite Wind
+    text: If Latios is on your Bench, remove 2 damage counters from each of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

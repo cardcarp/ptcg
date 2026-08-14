@@ -1,0 +1,48 @@
+name: Anorith δ
+
+origin: holon-phantoms-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Claw Fossil
+
+dex: 347
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Metal Claw
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

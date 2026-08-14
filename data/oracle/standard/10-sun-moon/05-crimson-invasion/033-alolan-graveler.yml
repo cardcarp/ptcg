@@ -1,0 +1,52 @@
+name: Alolan Graveler
+
+origin: crimson-invasion-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Alolan Geodude
+
+dex: 75
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Corkscrew Punch
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Self-Destruct
+    text: This Pokémon does 100 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

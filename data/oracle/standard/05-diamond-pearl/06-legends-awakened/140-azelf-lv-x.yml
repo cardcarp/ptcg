@@ -1,0 +1,44 @@
+name: Azelf LV.X
+
+origin: legends-awakened-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Azelf
+
+dex: 482
+
+rule:
+  - type: ability
+    name: Psychic Aura
+    text: Each of your Psychic Pokémon has no Weakness.
+  - type: attack
+    cost:
+      - Psychic
+    name: Deep Balance
+    text: Choose 1 of your opponent's Pokémon. Put 1 damage counter on that Pokémon for each Energy attached to all of your opponent's Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - Put this card onto your Active Azelf. Azelf LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

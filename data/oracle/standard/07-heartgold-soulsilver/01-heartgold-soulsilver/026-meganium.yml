@@ -1,0 +1,52 @@
+name: Meganium
+
+origin: heartgold-soulsilver-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Sleep Powder
+    text: The Defending Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Giant Bloom
+    text: Remove 2 damage counters from Meganium.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

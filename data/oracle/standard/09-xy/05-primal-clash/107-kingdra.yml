@@ -1,0 +1,46 @@
+name: Kingdra
+
+origin: primal-clash-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 130
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Shred
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+    name: Twister
+    text: Flip 2 coins. For each heads, discard an Energy attached to your opponent's Active Pokémon. If both of them are tails, this attack does nothing.
+    damage: 70
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

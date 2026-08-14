@@ -1,0 +1,46 @@
+name: Darkrai
+
+origin: lost-origin-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 491
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Nightmare
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Pitch-Black Blade
+    text: During your next turn, this Pokémon can't attack.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,54 @@
+name: Umbreon
+
+origin: xy-black-star-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Mach Claw
+    text: This attack's damage isn't affected by Resistance.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Lunatic Sense
+    text: Turn 1 of your face-down Prize cards face up. If that Prize card is a Pokémon, this attack does 60 more damage. (That Prize card remains up for the rest of the game.)
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

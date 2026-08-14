@@ -1,0 +1,49 @@
+name: Mudsdale
+
+origin: vivid-voltage-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Mudbray
+
+dex: 750
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Mud Bomb
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Heavy Slam
+    text: This attack does 30 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 180
+    modifier: '-'
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,46 @@
+name: Vileplume
+
+origin: aquapolis-031h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Poison Scent
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Addictive Pollen
+    text: Flip a coin. If heads, your opponent can't play Supporter cards during his or her next turn.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

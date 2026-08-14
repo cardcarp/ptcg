@@ -1,0 +1,41 @@
+name: Pumpkaboo
+
+origin: chaos-rising-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 710
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Stampede
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,42 @@
+name: Sudowoodo
+
+origin: chaos-rising-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 185
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Trials and Trip-ulations
+    text: Search your deck for up to 2 Transformation Tome cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fighting
+    name: Rock Hurl
+    text: This attack's damage isn't affected by Resistance.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

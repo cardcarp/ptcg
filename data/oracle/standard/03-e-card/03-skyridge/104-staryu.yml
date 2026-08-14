@@ -1,0 +1,42 @@
+name: Staryu
+
+origin: skyridge-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 120
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slap
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

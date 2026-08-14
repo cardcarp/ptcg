@@ -1,0 +1,50 @@
+name: Dugtrio
+
+origin: crystal-guardians-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Diglett
+
+dex: 51
+
+rule:
+  - type: ability
+    name: Sand Veil
+    text: Prevent all damage done to your Benched Pokémon by your opponent's attacks.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dig Under
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Dugtrio does 10 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,53 @@
+name: Nidoking
+
+origin: aquapolis-150
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Nidorino
+
+dex: 34
+
+rule:
+  - type: ability
+    name: Crystal Type
+    text: Whenever you attach a Grass, Lightning, or Fire basic Energy card from your hand to Nidoking, Nidoking's type (color) becomes the same as that Energy card type until the end of the turn.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Poison Horn
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Fighting
+      - Fighting
+    name: Rolling Thunder
+    text: Flip a coin, If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

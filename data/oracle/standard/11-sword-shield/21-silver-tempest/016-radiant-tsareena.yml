@@ -1,0 +1,46 @@
+name: Radiant Tsareena
+
+origin: silver-tempest-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Radiant
+
+type:
+  - Grass
+
+hp: 140
+
+dex: 763
+
+rule:
+  - type: ability
+    name: Elegant Heal
+    text: Once during your turn, you may heal 20 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Aroma Shot
+    text: This Pokémon recovers from all Special Conditions.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+regulation:
+  - F
+
+errata: []

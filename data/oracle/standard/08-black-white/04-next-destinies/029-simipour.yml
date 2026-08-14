@@ -1,0 +1,46 @@
+name: Simipour
+
+origin: next-destinies-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Panpour
+
+dex: 516
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Collect
+    text: Draw 3 cards.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Stadium Wave
+    text: If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Asleep.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Zubat
+
+origin: shrouded-fable-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 41
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Lead
+    text: Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Darkness
+    name: Darkness Fang
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

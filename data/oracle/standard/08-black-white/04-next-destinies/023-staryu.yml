@@ -1,0 +1,40 @@
+name: Staryu
+
+origin: next-destinies-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 120
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Recover
+    text: Discard an Energy attached to this Pokémon and heal all damage from this Pokémon.
+  - type: attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

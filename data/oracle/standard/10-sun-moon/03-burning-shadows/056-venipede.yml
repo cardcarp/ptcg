@@ -1,0 +1,43 @@
+name: Venipede
+
+origin: burning-shadows-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 543
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Bug Bite
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

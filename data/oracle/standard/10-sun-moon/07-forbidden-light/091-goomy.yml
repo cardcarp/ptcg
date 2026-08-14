@@ -1,0 +1,38 @@
+name: Goomy
+
+origin: forbidden-light-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 40
+
+dex: 704
+
+rule:
+  - type: ability
+    name: Sticky Membrane
+    text: As long as this Pokémon is your Active Pokémon, your opponent's Pokémon's attacks cost Colorless more.
+  - type: attack
+    cost:
+      - Fairy
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

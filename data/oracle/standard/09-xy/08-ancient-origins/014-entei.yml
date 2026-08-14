@@ -1,0 +1,43 @@
+name: Entei
+
+origin: ancient-origins-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 244
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Burning Roar
+    text: Discard the top 4 cards of your deck. If any of those cards are Fire Energy cards, attach them to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Combat Blaze
+    text: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

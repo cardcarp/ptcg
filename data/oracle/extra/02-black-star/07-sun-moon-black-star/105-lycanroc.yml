@@ -1,0 +1,48 @@
+name: Lycanroc
+
+origin: sun-moon-black-star-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Stone Edge
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

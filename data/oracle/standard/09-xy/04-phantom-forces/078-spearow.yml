@@ -1,0 +1,41 @@
+name: Spearow
+
+origin: phantom-forces-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 21
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Whirlwind
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

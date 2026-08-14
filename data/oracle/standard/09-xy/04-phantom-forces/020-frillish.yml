@@ -1,0 +1,35 @@
+name: Frillish
+
+origin: phantom-forces-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 592
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

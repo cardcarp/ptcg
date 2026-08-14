@@ -1,0 +1,45 @@
+name: Nidorina
+
+origin: 151-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Nidoran♀
+
+dex: 30
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Fetch Family
+    text: Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Sharp Fang
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

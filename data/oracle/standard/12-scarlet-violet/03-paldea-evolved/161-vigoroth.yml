@@ -1,0 +1,49 @@
+name: Vigoroth
+
+origin: paldea-evolved-161
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Slakoth
+
+dex: 288
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Confront
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sharp Claws
+    text: Flip a coin. If heads, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,53 @@
+name: Electivire ex
+
+origin: destined-rivals-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Lightning
+
+hp: 280
+
+preevolution:
+  - Electabuzz
+
+dex: 466
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Dual Bolt
+    text: This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: High-Voltage Press
+    text: If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack does 100 more damage.
+    damage: 180
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,45 @@
+name: Floragato
+
+origin: scarlet-violet-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Sprigatito
+
+dex: 907
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Step
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

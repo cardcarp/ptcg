@@ -1,0 +1,47 @@
+name: Kadabra
+
+origin: skyridge-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Abra
+
+dex: 64
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nightmare
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mind Shock
+    text: Don't apply Weakness and Resistance.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Cranidos
+
+origin: diamond-pearl-black-star-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Skull Fossil
+
+dex: 408
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Steamroll
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

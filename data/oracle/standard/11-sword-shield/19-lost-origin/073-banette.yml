@@ -1,0 +1,48 @@
+name: Banette
+
+origin: lost-origin-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: ability
+    name: Puppet Offering
+    text: Once during your turn, you may put a Supporter card from your discard pile into your hand. If you do, put this Pokémon in the Lost Zone. (Discard all attached cards.)
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Spooky Shot
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

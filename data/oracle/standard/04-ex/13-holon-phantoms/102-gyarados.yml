@@ -1,0 +1,52 @@
+name: Gyarados ☆ δ
+
+origin: holon-phantoms-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 130
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Spiral Growth
+    text: Flip a coin until you get tails. For each heads, search your discard pile for a basic Energy card and attach it to Gyarados Star.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: All-out Blast
+    text: Discard cards from the top of your deck until you have 1 card left. This attack does 50 damage plus 20 more damage for each Energy card you discarded in this way.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

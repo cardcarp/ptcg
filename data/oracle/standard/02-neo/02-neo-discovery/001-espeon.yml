@@ -1,0 +1,46 @@
+name: Espeon
+
+origin: neo-discovery-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: Does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

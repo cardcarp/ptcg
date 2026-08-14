@@ -1,0 +1,47 @@
+name: Dragapult
+
+origin: rebel-clash-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Drakloak
+
+dex: 887
+
+rule:
+  - type: ability
+    name: Infiltrator
+    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Phantom Force
+    text: Put 3 damage counters on your opponent's Benched Pokémon in any way you like.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - D
+
+errata: []

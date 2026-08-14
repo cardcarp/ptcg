@@ -1,0 +1,51 @@
+name: Umbreon
+
+origin: lost-thunder-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Retaliate
+    text: If any of your Pokémon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Cutter
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

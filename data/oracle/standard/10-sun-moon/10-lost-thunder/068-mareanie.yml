@@ -1,0 +1,37 @@
+name: Mareanie
+
+origin: lost-thunder-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 747
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Spike Cannon
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Vigoroth
+
+origin: evolving-skies-130
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Slakoth
+
+dex: 288
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shatter
+    text: Discard a Stadium in play.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

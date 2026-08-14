@@ -1,0 +1,45 @@
+name: Magnemite
+
+origin: forbidden-light-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 81
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Searching Magnet
+    text: Search your deck for up to 3 Lightning Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+    name: Tackle
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

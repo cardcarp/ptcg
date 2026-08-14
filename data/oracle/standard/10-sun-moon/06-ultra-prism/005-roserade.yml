@@ -1,0 +1,46 @@
+name: Roserade
+
+origin: ultra-prism-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Roselia
+
+dex: 407
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Inviting Poison
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Flower Tornado
+    text: Move any number of Grass Energy from your Pokémon to your other Pokémon in any way you like.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

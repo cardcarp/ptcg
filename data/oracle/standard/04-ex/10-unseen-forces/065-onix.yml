@@ -1,0 +1,41 @@
+name: Onix
+
+origin: unseen-forces-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 95
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dig Deep
+    text: Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mud Slap
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

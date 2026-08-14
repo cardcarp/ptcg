@@ -1,0 +1,42 @@
+name: Torkoal
+
+origin: legend-maker-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 324
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cry for Help
+    text: Search your deck for a Fire Pokémon (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fireworks
+    text: Flip a coin. If tails, discard a Fire Energy attached to Torkoal.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

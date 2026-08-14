@@ -1,0 +1,51 @@
+name: Zekrom
+
+origin: shining-legends-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 130
+
+dex: 644
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Outrage
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Storm Blade
+    text: Discard 2 Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Ivysaur
+
+origin: firered-leafgreen-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Bulbasaur
+
+dex: 2
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Poison Seed
+    text: The Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

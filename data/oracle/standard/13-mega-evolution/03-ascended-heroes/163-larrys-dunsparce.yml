@@ -1,0 +1,36 @@
+name: Larry's Dunsparce
+
+origin: ascended-heroes-163
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 206
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+  - J
+
+errata: []

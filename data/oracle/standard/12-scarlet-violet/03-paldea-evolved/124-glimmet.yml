@@ -1,0 +1,36 @@
+name: Glimmet
+
+origin: paldea-evolved-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 969
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Ascension
+    text: Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

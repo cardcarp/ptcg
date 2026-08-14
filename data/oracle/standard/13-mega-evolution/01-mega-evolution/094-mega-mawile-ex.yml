@@ -1,0 +1,57 @@
+name: Mega Mawile ex
+
+origin: mega-evolution-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Metal
+
+hp: 270
+
+dex: 303
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+    name: Gobble Down
+    text: This attack does 80 damage for each Prize card you have taken.
+    damage: 80
+    modifier: x
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Huge Bite
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack's base damage is 30.
+    damage: 260
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

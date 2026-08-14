@@ -1,0 +1,54 @@
+name: Bellossom
+
+origin: boundaries-crossed-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Gloom
+
+dex: 182
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Grass Knot
+    text: Does 20 more damage for each Colorless in the Defending Pokémon's Retreat Cost.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Petal Dance
+    text: Flip 3 coins. This attack does 50 damage times the number of heads. This Pokémon is now Confused.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Tropius
+
+origin: scarlet-violet-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 357
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Fresh-Picked Fruit
+    text: Heal 60 damage from 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

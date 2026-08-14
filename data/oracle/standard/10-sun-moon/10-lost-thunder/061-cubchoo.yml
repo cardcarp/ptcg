@@ -1,0 +1,41 @@
+name: Cubchoo
+
+origin: lost-thunder-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 613
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Secondary Chills
+    text: You can use this attack only if you go second, and only on your first turn. Your opponent's Active Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Beat
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

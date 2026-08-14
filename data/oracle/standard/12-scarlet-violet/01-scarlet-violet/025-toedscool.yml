@@ -1,0 +1,42 @@
+name: Toedscool
+
+origin: scarlet-violet-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 948
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Spore
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

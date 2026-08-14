@@ -1,0 +1,37 @@
+name: Horsea δ
+
+origin: dragon-frontiers-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 116
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sleepy Ball
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

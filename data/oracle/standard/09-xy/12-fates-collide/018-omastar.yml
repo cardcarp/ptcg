@@ -1,0 +1,42 @@
+name: Omastar
+
+origin: fates-collide-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Omanyte
+
+dex: 139
+
+rule:
+  - type: ability
+    name: Restoring Beam
+    text: Once during your turn (before your attack), you may search your deck for a Restored Pokémon and put it onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Spinning Attack
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

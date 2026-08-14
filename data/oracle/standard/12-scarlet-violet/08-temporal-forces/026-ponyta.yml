@@ -1,0 +1,42 @@
+name: Ponyta
+
+origin: temporal-forces-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 77
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Charge Energy
+    text: Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flame Tail
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,37 @@
+name: Sabrina's Slowpoke
+
+origin: gym-heroes-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 79
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Lazy Attack
+    text: Sabrina's Slowpoke is now Asleep (after doing damage).
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

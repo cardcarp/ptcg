@@ -1,0 +1,36 @@
+name: Larvesta
+
+origin: steam-siege-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 636
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Bug Bite
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

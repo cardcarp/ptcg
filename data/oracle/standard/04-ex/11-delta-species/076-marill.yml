@@ -1,0 +1,43 @@
+name: Marill
+
+origin: delta-species-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 183
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jump On
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

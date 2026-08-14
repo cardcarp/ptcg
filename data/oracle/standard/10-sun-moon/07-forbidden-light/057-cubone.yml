@@ -1,0 +1,37 @@
+name: Cubone
+
+origin: forbidden-light-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 104
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Burdensome Bone
+    text: This Pokémon can't attack during your next turn.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Totodile
+
+origin: mega-evolution-black-star-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 158
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Bite
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

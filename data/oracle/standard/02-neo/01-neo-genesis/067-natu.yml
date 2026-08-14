@@ -1,0 +1,44 @@
+name: Natu
+
+origin: neo-genesis-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 177
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Telekinesis
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

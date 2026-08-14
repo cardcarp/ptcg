@@ -1,0 +1,53 @@
+name: Absol G LV.X
+
+origin: supreme-victors-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+  - SP
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Absol G
+
+dex: 359
+
+rule:
+  - type: ability
+    name: Darkness Send
+    text: Once during your turn (before your attack), when you put Absol G LV.X from your hand onto your Active Absol G, you may flip 3 coins. For each heads, put the top card from your opponent's deck in the Lost Zone.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Darkness Slugger
+    text: You may discard a card from your hand. If you do, this attack does 30 damage plus 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - Put this card onto your Active Absol G. Absol G LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

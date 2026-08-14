@@ -1,0 +1,44 @@
+name: Milotic
+
+origin: twilight-masquerade-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: ability
+    name: Mentally Calm
+    text: Your opponent's Pokémon in play and all attached cards can't be put into your opponent's hand.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Splash
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

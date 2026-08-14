@@ -1,0 +1,50 @@
+name: Yanmega
+
+origin: phantom-forces-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Yanma
+
+dex: 469
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Windfall
+    text: Shuffle your hand into your deck. Then, draw 6 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Surprise Strike
+    text: If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

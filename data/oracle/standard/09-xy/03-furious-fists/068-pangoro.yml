@@ -1,0 +1,54 @@
+name: Pangoro
+
+origin: furious-fists-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Pancham
+
+dex: 675
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Clobber
+    text: You may discard an Item card from your hand. If you do, this attack does 40 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hammer Arm
+    text: Discard the top card of your opponent's deck.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

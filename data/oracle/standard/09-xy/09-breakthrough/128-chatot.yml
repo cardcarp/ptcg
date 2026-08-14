@@ -1,0 +1,48 @@
+name: Chatot
+
+origin: breakthrough-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 441
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sing
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aerial Ace
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

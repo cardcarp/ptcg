@@ -1,0 +1,41 @@
+name: Magikarp
+
+origin: dragon-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for Magikarp and put as many of them as you like onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

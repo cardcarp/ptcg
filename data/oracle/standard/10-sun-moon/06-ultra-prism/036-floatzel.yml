@@ -1,0 +1,46 @@
+name: Floatzel
+
+origin: ultra-prism-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Buizel
+
+dex: 419
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Blast
+    text: Discard a Water Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

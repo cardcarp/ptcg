@@ -1,0 +1,48 @@
+name: Loudred
+
+origin: phantom-forces-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Whismur
+
+dex: 294
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pound
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Energy Press
+    text: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

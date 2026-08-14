@@ -1,0 +1,38 @@
+name: Tadbulb
+
+origin: obsidian-flames-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 938
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Shake and Discharge
+    text: This attack also does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

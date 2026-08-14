@@ -1,0 +1,42 @@
+name: Sabrina's Jynx
+
+origin: gym-challenge-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 124
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Helping Hand
+    text: Choose 1 of your opponent's Pokémon. Remove any number of damage counters from that Pokémon, then draw that many cards.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Hug
+    text: Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

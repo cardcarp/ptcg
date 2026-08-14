@@ -1,0 +1,42 @@
+name: Growlithe
+
+origin: aquapolis-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 58
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Roar
+    text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches the Defending Pokémon with it.
+  - type: attack
+    cost:
+      - Fire
+    name: Firebreathing
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

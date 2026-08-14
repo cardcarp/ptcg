@@ -1,0 +1,56 @@
+name: Mawile-GX
+
+origin: unified-minds-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Metal
+
+hp: 170
+
+dex: 303
+
+rule:
+  - type: ability
+    name: Captivating Wink
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may have your opponent reveal their hand and put any number of Basic Pokémon you find there onto their Bench.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Wily Bite
+    text: This attack does 30 more damage for each of your opponent's Benched Pokémon.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Big Eater-GX
+    text: Your opponent reveals their hand. Discard all Supporter cards you find there. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

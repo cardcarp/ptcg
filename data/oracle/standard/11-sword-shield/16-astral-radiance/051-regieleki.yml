@@ -1,0 +1,43 @@
+name: Regieleki
+
+origin: astral-radiance-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 130
+
+dex: 894
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Electromagnetic Sonar
+    text: Put a Trainer card from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Targeted Bolt
+    text: Discard 2 Lightning Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

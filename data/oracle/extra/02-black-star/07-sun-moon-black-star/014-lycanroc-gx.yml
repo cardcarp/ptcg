@@ -1,0 +1,59 @@
+name: Lycanroc-GX
+
+origin: sun-moon-black-star-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Fighting
+
+hp: 200
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Crunch
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Accelerock
+    damage: 120
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Lycanfang-GX
+    text: Discard 2 Energy from this Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

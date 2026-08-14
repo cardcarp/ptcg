@@ -1,0 +1,57 @@
+name: Torterra
+
+origin: plasma-storm-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Team Plasma
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Grotle
+
+dex: 389
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Guard Press
+    text: During your opponent's next turn, any damage to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 60
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rumble Stomp
+    text: Flip a coin until you get tails. This attack does 20 more damage for each heads.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

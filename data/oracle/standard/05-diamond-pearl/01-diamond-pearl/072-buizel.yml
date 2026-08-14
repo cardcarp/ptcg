@@ -1,0 +1,37 @@
+name: Buizel
+
+origin: diamond-pearl-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 418
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Splash About
+    text: If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

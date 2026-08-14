@@ -1,0 +1,43 @@
+name: Greavard
+
+origin: scarlet-violet-black-star-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 971
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Graveyard Gamboling
+    text: This attack does 10 damage for each Psychic Pokémon in your discard pile.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

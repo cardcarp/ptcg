@@ -1,0 +1,40 @@
+name: Nincada
+
+origin: legends-awakened-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 290
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+    name: Big Bite
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

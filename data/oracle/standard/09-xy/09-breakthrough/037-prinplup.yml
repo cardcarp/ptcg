@@ -1,0 +1,40 @@
+name: Prinplup
+
+origin: breakthrough-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Piplup
+
+dex: 394
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Beam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

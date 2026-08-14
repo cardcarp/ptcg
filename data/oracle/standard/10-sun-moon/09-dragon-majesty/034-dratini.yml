@@ -1,0 +1,36 @@
+name: Dratini
+
+origin: dragon-majesty-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 147
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Wrap
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

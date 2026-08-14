@@ -1,0 +1,53 @@
+name: Dragonite FB
+
+origin: supreme-victors-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 149
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mach Blow
+    text: If the Defending Pokémon is a Pokémon SP, this attack's base damage is 80 instead of 20.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giant Tail
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 100
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

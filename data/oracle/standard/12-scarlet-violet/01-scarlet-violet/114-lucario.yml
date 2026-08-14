@@ -1,0 +1,49 @@
+name: Lucario
+
+origin: scarlet-violet-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Avenging Knuckle
+    text: If any of your Fighting Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 120 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Accelerating Stab
+    text: During your next turn, this Pokémon can't use Accelerating Stab.
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

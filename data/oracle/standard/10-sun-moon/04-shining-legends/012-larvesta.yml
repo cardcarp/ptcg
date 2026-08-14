@@ -1,0 +1,36 @@
+name: Larvesta
+
+origin: shining-legends-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 636
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

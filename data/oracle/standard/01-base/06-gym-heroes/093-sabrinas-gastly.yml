@@ -1,0 +1,37 @@
+name: Sabrina's Gastly
+
+origin: gym-heroes-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 92
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spook
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

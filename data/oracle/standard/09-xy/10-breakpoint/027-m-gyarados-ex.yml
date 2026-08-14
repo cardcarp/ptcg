@@ -1,0 +1,48 @@
+name: M Gyarados-EX
+
+origin: breakpoint-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Water
+
+hp: 240
+
+preevolution:
+  - Gyarados-EX
+
+dex: 130
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blast Geyser
+    text: You may do 20 more damage for each Water Energy attached to this Pokémon. If you do, discard the top 2 cards of your deck.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

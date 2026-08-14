@@ -1,0 +1,49 @@
+name: Aerodactyl V
+
+origin: lost-origin-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 210
+
+dex: 142
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bite
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Crush
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

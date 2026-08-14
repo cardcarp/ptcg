@@ -1,0 +1,45 @@
+name: Swampert
+
+origin: celestial-storm-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Marshtomp
+
+dex: 260
+
+rule:
+  - type: ability
+    name: Power Draw
+    text: Once during your turn (before your attack), you may discard a card from your hand. If you do, draw 3 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 20 more damage times the amount of Water Energy attached to this Pokémon.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

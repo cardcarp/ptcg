@@ -1,0 +1,45 @@
+name: Alcremie ex
+
+origin: journey-together-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 250
+
+dex: 869
+
+rule:
+  - type: ability
+    name: Confectionary Gift
+    text: Once during your turn, you may heal 30 damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Whipped Shot
+    damage: 160
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

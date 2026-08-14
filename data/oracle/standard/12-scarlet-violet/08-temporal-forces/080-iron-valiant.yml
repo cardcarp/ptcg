@@ -1,0 +1,46 @@
+name: Iron Valiant
+
+origin: temporal-forces-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Future
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 1006
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Calculation
+    text: Look at the top 4 cards of your deck and put them back in any order.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Majestic Sword
+    text: If you played a Future Supporter card from your hand during this turn, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

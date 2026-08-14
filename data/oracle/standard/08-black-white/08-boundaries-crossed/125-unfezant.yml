@@ -1,0 +1,53 @@
+name: Unfezant
+
+origin: boundaries-crossed-125
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Tranquill
+
+dex: 521
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Flick
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Elgyem
+
+origin: black-bolt-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 605
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Slight Shift
+    text: Move an Energy from 1 of your opponent's Pokémon to another of their Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Beam
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

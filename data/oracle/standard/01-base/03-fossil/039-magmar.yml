@@ -1,0 +1,46 @@
+name: Magmar
+
+origin: fossil-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Magby
+
+dex: 126
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Smog
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

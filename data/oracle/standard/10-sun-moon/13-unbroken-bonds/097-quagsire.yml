@@ -1,0 +1,45 @@
+name: Quagsire
+
+origin: unbroken-bonds-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Wooper
+
+dex: 195
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Surf
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

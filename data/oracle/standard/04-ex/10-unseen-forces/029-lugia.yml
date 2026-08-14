@@ -1,0 +1,39 @@
+name: Lugia
+
+origin: unseen-forces-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 249
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Aeroblast
+    text: Flip 2 coins. This attack does 20 damage plus 20 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

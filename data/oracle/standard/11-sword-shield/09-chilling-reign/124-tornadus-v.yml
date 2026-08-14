@@ -1,0 +1,57 @@
+name: Tornadus V
+
+origin: chilling-reign-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+  - Single Strike
+
+type:
+  - Colorless
+
+hp: 210
+
+dex: 641
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Blow Through
+    text: If a Stadium is in play, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blasting Hammer
+    text: Discard an Energy from this Pokémon.
+    damage: 180
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,36 @@
+name: Seel
+
+origin: firered-leafgreen-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 86
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Horn Hazard
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Haunter
+
+origin: stormfront-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: attack
+    name: Smog
+    text: The Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Psychic
+    name: Hoodwink
+    text: You may search your opponent's discard pile for up to 3 in any combination of Trainer, Supporter, or Stadium cards and put them into your opponent's hand.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,52 @@
+name: Unfezant
+
+origin: pokemon-go-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Tranquill
+
+dex: 521
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gust
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hurricane Wing
+    text: Flip 4 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

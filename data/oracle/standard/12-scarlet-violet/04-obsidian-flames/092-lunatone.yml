@@ -1,0 +1,46 @@
+name: Lunatone
+
+origin: obsidian-flames-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 337
+
+rule:
+  - type: ability
+    name: New Moon
+    text: If you have Solrock in play, prevent all effects of any Stadium done to your Pokémon in play.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Moon Press
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

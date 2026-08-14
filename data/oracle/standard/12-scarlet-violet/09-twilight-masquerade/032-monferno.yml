@@ -1,0 +1,48 @@
+name: Monferno
+
+origin: twilight-masquerade-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Chimchar
+
+dex: 391
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Chop
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Blow
+    text: Discard an Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

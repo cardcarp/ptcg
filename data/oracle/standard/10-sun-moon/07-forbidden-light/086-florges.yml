@@ -1,0 +1,49 @@
+name: Florges
+
+origin: forbidden-light-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fairy
+
+hp: 120
+
+preevolution:
+  - Floette
+
+dex: 671
+
+rule:
+  - type: ability
+    name: Wondrous Gift
+    text: Once during your turn (before your attack), you may flip a coin. If heads, put an Item card from your discard pile on top of your deck.
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Mist Guard
+    text: Prevent all damage done to this Pokémon by attacks from Dragon Pokémon during your opponent's next turn.
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

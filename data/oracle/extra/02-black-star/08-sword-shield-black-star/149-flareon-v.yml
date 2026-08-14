@@ -1,0 +1,50 @@
+name: Flareon V
+
+origin: sword-shield-black-star-149
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+  - Single Strike
+
+type:
+  - Fire
+
+hp: 210
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flaming Breath
+    text: Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Scorching Column
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

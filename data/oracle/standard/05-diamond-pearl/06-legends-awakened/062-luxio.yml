@@ -1,0 +1,53 @@
+name: Luxio
+
+origin: legends-awakened-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Spark
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunderous Claw
+    text: Flip a coin. If tails, discard all Lightning Energy attached to Luxio.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

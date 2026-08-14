@@ -1,0 +1,41 @@
+name: Kakuna
+
+origin: skyridge-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Weedle
+
+dex: 14
+
+rule:
+  - type: ability
+    name: Exoskeleton
+    text: All damage by attacks to Kakuna is reduced by 10 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Grass
+    name: Poisonpowder
+    text: The Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

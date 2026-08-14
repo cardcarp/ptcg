@@ -1,0 +1,51 @@
+name: Meganium
+
+origin: expedition-base-set-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Sleep Powder
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Solarbeam
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

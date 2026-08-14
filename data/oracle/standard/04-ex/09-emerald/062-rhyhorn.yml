@@ -1,0 +1,41 @@
+name: Rhyhorn
+
+origin: emerald-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 111
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Horn Attack
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Horn Drill
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

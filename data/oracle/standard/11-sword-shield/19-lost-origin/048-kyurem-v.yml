@@ -1,0 +1,47 @@
+name: Kyurem V
+
+origin: lost-origin-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 220
+
+dex: 646
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Rapid Freeze
+    text: Attach any number of Water Energy cards from your hand to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Frost Smash
+    damage: 140
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

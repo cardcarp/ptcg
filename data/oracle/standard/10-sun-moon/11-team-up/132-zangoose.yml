@@ -1,0 +1,41 @@
+name: Zangoose
+
+origin: team-up-132
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 335
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Head Hunt
+    text: Look at the top 6 cards of your deck, reveal any number of Pokémon you find there, and put them into your hand. Discard the other cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

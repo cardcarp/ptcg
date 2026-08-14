@@ -1,0 +1,42 @@
+name: Misty's Lapras
+
+origin: destined-rivals-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 131
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Swim Together
+    text: Search your deck for up to 3 Misty's Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Surf
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

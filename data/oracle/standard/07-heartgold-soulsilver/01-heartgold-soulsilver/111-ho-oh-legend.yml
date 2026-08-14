@@ -1,0 +1,50 @@
+name: Ho-Oh LEGEND
+
+origin: heartgold-soulsilver-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - LEGEND
+
+type:
+  - Fire
+
+hp: 140
+
+dex: 250
+
+rule:
+  - type: ability
+    name: Sacred Rainbow
+    text: All Energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: Bright Wing
+    text: Discard an Energy attached to Ho-Oh LEGEND.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - Put this card from your hand onto your Bench only with the other half of Ho-Oh LEGEND.
+
+regulation:
+
+errata: []

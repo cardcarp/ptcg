@@ -1,0 +1,46 @@
+name: Reshiram
+
+origin: black-white-black-star-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 643
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Outrage
+    text: Does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Blue Flare
+    text: Discard 2 Fire Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

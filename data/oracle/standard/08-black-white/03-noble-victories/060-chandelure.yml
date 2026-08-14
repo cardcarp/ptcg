@@ -1,0 +1,44 @@
+name: Chandelure
+
+origin: noble-victories-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Lampent
+
+dex: 609
+
+rule:
+  - type: ability
+    name: Cursed Shadow
+    text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may put 3 damage counters on your opponent's Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Eerie Glow
+    text: The Defending Pokémon is now Burned and Confused.
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

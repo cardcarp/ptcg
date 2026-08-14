@@ -1,0 +1,42 @@
+name: Abra
+
+origin: mega-evolution-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 63
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Teleportation Attack
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,40 @@
+name: Dragonite
+
+origin: expedition-base-set-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: ability
+    name: Tailwind
+    text: Once during your turn (before your attack), if Dragonite is on your Bench, you may reduce your Active Pokémon's Retreat Cost to 0.
+  - type: attack
+    cost:
+      - Lightning
+      - Water
+      - Fighting
+    name: Dragon Tail
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+retreat: 2
+
+regulation:
+
+errata: []

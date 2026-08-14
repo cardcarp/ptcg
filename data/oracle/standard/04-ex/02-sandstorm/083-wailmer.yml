@@ -1,0 +1,44 @@
+name: Wailmer
+
+origin: sandstorm-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 320
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Super Hypno Wave
+    text: The Defending Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

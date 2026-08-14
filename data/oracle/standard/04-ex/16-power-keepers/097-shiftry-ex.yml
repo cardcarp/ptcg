@@ -1,0 +1,55 @@
+name: Shiftry ex
+
+origin: power-keepers-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Skill Hack
+    text: Look at your opponent's hand and choose a Basic Pokémon or Evolution card you find there. Choose 1 of that Pokémon's attacks. Skill Hack copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Shiftry ex's type is still Darkness.) Shiftry ex performs that attack.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dirge
+    text: Does 60 damage to each of your opponent's Benched Pokémon that has the same name as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

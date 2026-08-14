@@ -1,0 +1,50 @@
+name: Swanna
+
+origin: black-white-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Ducklett
+
+dex: 581
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Feather Dance
+    text: During your next turn, each of this Pokémon's attacks does 40 more damage (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Ring
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,51 @@
+name: Drifblim
+
+origin: steam-siege-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Drifloon
+
+dex: 426
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Eerie Wave
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Burst Curse
+    text: Discard 2 Energy attached to this Pokémon. Put 8 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,37 @@
+name: Diglett
+
+origin: obsidian-flames-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 50
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Hole-Diggin' Noggin
+    text: Discard the top card of your deck.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

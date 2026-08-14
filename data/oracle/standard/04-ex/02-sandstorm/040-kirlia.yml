@@ -1,0 +1,48 @@
+name: Kirlia
+
+origin: sandstorm-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Ralts
+
+dex: 281
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Link Blast
+    text: If Kirlia and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 30 instead of 60.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

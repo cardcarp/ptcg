@@ -1,0 +1,46 @@
+name: Terrakion
+
+origin: white-flare-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 140
+
+dex: 639
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Retaliate
+    text: If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 80 more damage.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Land Crush
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

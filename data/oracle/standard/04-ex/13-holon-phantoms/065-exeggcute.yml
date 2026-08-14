@@ -1,0 +1,42 @@
+name: Exeggcute δ
+
+origin: holon-phantoms-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 102
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Pebble Throw
+    text: Choose 1 of your opponent's Benched Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

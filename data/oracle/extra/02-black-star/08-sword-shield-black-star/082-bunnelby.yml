@@ -1,0 +1,39 @@
+name: Bunnelby
+
+origin: sword-shield-black-star-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 659
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mad Party
+    text: This attack does 20 damage for each Pokémon in your discard pile that has the Mad Party attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

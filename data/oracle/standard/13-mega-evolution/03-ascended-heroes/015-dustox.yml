@@ -1,0 +1,44 @@
+name: Dustox
+
+origin: ascended-heroes-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Cascoon
+
+dex: 269
+
+rule:
+  - type: ability
+    name: Boisterous Wind
+    text: Once during your turn, you may use this Ability. Flip a coin. If heads, put an Energy attached to your opponent's Active Pokémon into their hand.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Twilight Poison
+    text: Your opponent's Active Pokémon is now Asleep and Poisoned.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

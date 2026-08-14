@@ -1,0 +1,47 @@
+name: Crawdaunt
+
+origin: brilliant-stars-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Corphish
+
+dex: 342
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Corkscrew Punch
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Crab Impact
+    text: Discard 2 Energy from this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

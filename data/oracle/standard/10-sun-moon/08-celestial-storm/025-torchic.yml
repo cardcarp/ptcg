@@ -1,0 +1,36 @@
+name: Torchic
+
+origin: celestial-storm-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 255
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Ember
+    text: Discard an Energy from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

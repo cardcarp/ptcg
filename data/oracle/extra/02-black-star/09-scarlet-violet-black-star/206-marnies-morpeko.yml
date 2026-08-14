@@ -1,0 +1,38 @@
+name: Marnie's Morpeko
+
+origin: scarlet-violet-black-star-206
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 877
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Spiky Wheel
+    text: This attack does 40 more damage for each Darkness Energy attached to this Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+regulation:
+  - I
+
+errata: []

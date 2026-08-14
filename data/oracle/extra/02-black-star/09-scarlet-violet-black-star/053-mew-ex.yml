@@ -1,0 +1,48 @@
+name: Mew ex
+
+origin: scarlet-violet-black-star-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 151
+
+rule:
+  - type: ability
+    name: Restart
+    text: Once during your turn, you may draw cards until you have 3 cards in your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Genome Hacking
+    text: Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

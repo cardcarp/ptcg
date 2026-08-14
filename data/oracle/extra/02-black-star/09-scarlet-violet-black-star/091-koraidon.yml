@@ -1,0 +1,43 @@
+name: Koraidon
+
+origin: scarlet-violet-black-star-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ancient
+
+type:
+  - Dragon
+
+hp: 140
+
+dex: 1007
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Primordial Beatdown
+    text: This attack does 30 damage for each of your Ancient Pokémon in play.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+      - Fighting
+      - Colorless
+    name: Shred
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 130
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,37 @@
+name: Galarian Darumaka
+
+origin: fusion-strike-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 554
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Reckless Charge
+    text: Flip a coin. If tails, this Pokémon also does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

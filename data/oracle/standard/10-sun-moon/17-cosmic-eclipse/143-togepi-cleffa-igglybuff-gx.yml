@@ -1,0 +1,55 @@
+name: Togepi & Cleffa & Igglybuff-GX
+
+origin: cosmic-eclipse-143
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Fairy
+
+hp: 240
+
+dex: 173
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Rolling Panic
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 120
+    modifier: +
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+    name: Supreme Puff-GX
+    text: Take another turn after this one. (Skip the between-turns step.) If this Pokémon has at least 14 extra Fairy Energy attached to it (in addition to this attack's cost), your opponent shuffles all of their Benched Pokémon and all cards attached to them into their deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+
+errata: []

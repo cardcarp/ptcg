@@ -1,0 +1,52 @@
+name: Altaria
+
+origin: silver-tempest-143
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Magical Echo
+    text: Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blasting Wind
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

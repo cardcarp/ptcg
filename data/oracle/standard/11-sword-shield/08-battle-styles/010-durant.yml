@@ -1,0 +1,42 @@
+name: Durant
+
+origin: battle-styles-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 632
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Vise Grip
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Devour
+    text: For each of your Durant in play, discard the top card of your opponent's deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

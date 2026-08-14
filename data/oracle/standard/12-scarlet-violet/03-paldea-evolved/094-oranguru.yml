@@ -1,0 +1,50 @@
+name: Oranguru
+
+origin: paldea-evolved-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 765
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Plotter's Command
+    text: Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Super Psy Bolt
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

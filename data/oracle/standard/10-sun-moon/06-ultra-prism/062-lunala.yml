@@ -1,0 +1,54 @@
+name: Lunala ◇
+
+origin: ultra-prism-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Prism Star
+
+type:
+  - Psychic
+
+hp: 160
+
+dex: 792
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Full Moon Star
+    text: For each of your opponent's Pokémon in play, attach a Psychic Energy card from your discard pile to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Psystorm
+    text: This attack does 20 damage times the amount of Energy attached to all Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+regulation:
+
+errata: []

@@ -1,0 +1,62 @@
+name: Gastrodon West Sea
+
+origin: rising-rivals-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Shellos West Sea
+
+dex: 423
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Muddy Bomb
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon and 10 damage to each of your opponent's other Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Raging Sea
+    text: Does 60 damage plus 10 more damage for each of your Benched Pokémon that has any damage counters on it.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

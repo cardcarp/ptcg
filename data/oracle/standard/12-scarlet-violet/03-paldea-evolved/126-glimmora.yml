@@ -1,0 +1,42 @@
+name: Glimmora
+
+origin: paldea-evolved-126
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Glimmet
+
+dex: 970
+
+rule:
+  - type: ability
+    name: Shattering Crystal
+    text: When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't take any Prize cards for it.
+  - type: attack
+    cost:
+      - Fighting
+    name: Poison Petals
+    text: Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 6 damage counters on that Pokémon instead of 1.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

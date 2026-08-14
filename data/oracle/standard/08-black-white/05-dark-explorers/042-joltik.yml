@@ -1,0 +1,35 @@
+name: Joltik
+
+origin: dark-explorers-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 30
+
+dex: 595
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Static Shock
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

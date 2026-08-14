@@ -1,0 +1,42 @@
+name: Pikachu
+
+origin: wizards-black-star-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Thunderbolt
+    text: Discard all Energy cards attached to Pikachu.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Krabby
+
+origin: 151-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 98
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Salt Water
+    text: Flip a coin. If heads, search your deck for up to 2 Basic Water Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Crabhammer
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,45 @@
+name: Infernape
+
+origin: diamond-pearl-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Monferno
+
+dex: 392
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Meteor Punch
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare Blitz
+    text: Discard all Fire Energy attached to Infernape.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+regulation:
+
+errata: []

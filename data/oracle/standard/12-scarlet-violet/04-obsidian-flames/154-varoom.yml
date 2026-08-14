@@ -1,0 +1,42 @@
+name: Varoom
+
+origin: obsidian-flames-154
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 965
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Spinning Draw
+    text: Draw a card.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

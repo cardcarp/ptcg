@@ -1,0 +1,38 @@
+name: Komala
+
+origin: unified-minds-185
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 775
+
+rule:
+  - type: ability
+    name: Drowsing
+    text: If this Pokémon remains Asleep between turns, put 6 damage counters on your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Snooze
+    text: This Pokémon is now Asleep.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

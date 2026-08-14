@@ -1,0 +1,46 @@
+name: Toxapex
+
+origin: lost-thunder-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Mareanie
+
+dex: 748
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Venom Fever
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 50 damage for each damage counter on that Pokémon.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

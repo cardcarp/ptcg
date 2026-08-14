@@ -1,0 +1,49 @@
+name: Giratina
+
+origin: platinum-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 487
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dragon Claw
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Dragonbreath
+    text: Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

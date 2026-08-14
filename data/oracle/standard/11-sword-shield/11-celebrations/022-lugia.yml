@@ -1,0 +1,53 @@
+name: Lugia
+
+origin: celebrations-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 249
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aero Ball
+    text: This attack does 20 damage for each Energy attached to both Active Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Deep Crush
+    text: During your next turn, this Pokémon can't attack.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

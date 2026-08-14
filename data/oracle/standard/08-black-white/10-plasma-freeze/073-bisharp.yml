@@ -1,0 +1,53 @@
+name: Bisharp
+
+origin: plasma-freeze-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Pawniard
+
+dex: 625
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 40
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dragon Slayer
+    text: If the Defending Pokémon is a Dragon Pokémon, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

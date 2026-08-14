@@ -1,0 +1,51 @@
+name: Raichu ex
+
+origin: sandstorm-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Dazzle Blast
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Mega Thunderbolt
+    text: Discard all Energy cards attached to Raichu ex.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Emolga
+
+origin: silver-tempest-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 587
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lucky Find
+    text: Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Static Shock
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+  - F
+
+errata: []

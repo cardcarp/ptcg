@@ -1,0 +1,38 @@
+name: Slugma
+
+origin: temporal-forces-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 218
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Roasting Heat
+    text: If your opponent's Active Pokémon is Burned, this attack does 40 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

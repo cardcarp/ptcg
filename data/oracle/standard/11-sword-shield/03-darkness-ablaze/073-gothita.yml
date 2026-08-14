@@ -1,0 +1,47 @@
+name: Gothita
+
+origin: darkness-ablaze-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 574
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Fortunate Eye
+    text: Look at the top 5 cards of your opponent's deck and put them back in any order.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Gentle Slap
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

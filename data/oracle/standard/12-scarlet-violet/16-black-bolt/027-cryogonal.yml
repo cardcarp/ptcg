@@ -1,0 +1,41 @@
+name: Cryogonal
+
+origin: black-bolt-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 615
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Drag Off
+    text: Switch in 1 of your opponent's Benched Pokémon to the Active Spot. This attack does 20 damage to the new Active Pokémon.
+  - type: attack
+    cost:
+      - Water
+    name: Icicle
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

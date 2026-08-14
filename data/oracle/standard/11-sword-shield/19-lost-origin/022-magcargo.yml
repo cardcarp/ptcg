@@ -1,0 +1,47 @@
+name: Magcargo
+
+origin: lost-origin-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Lost Volcano
+    text: Put all Energy attached to this Pokémon in the Lost Zone.
+    damage: 220
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

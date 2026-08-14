@@ -1,0 +1,42 @@
+name: Wooper
+
+origin: vivid-voltage-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 194
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Mud Shot
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Beat
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

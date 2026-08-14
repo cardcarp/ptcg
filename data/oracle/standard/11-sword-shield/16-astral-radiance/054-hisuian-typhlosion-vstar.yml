@@ -1,0 +1,55 @@
+name: Hisuian Typhlosion VSTAR
+
+origin: astral-radiance-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Psychic
+
+hp: 260
+
+preevolution:
+  - Hisuian Typhlosion V
+
+dex: 157
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Hollow Flame
+    text: Put 3 damage counters on your opponent's Benched Pokémon in any way you like.
+    damage: 180
+  - type: attack
+    cost:
+      - Psychic
+    name: Shimmering Star
+    text: If your opponent's Active Pokémon has exactly 4 damage counters on it, that Pokémon is Knocked Out. (You can't use more than 1 VSTAR Power in a game.)
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

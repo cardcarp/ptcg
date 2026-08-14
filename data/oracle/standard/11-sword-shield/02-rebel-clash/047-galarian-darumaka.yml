@@ -1,0 +1,38 @@
+name: Galarian Darumaka
+
+origin: rebel-clash-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 554
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Punch
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

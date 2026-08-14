@@ -1,0 +1,43 @@
+name: Seedot
+
+origin: hidden-legends-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 273
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Growth Spurt
+    text: Attach a Grass Energy card from your hand to Seedot.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

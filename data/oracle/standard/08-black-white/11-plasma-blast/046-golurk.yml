@@ -1,0 +1,49 @@
+name: Golurk
+
+origin: plasma-blast-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Golett
+
+dex: 623
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Iron Fist of Justice
+    text: If you have any Team Plasma Pokémon in play, this attack does nothing.
+    damage: 60
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Shadow Punch
+    text: This attack's damage isn't affected by Resistance.
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

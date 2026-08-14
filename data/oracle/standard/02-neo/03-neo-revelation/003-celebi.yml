@@ -1,0 +1,38 @@
+name: Celebi
+
+origin: neo-revelation-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 251
+
+rule:
+  - type: ability
+    name: Time Travel
+    text: If an opponent's attack would Knock Out Celebi, flip a coin. If heads, Celebi isn't Knocked Out and you shuffle it and all cards attached to it into your deck. This power doesn't work if Celebi is already Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Psychic
+    name: Psychic Damage
+    text: Flip 3 coins. For each heads, put 1 damage counter on the Defending Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

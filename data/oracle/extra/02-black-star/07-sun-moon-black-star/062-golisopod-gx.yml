@@ -1,0 +1,60 @@
+name: Golisopod-GX
+
+origin: sun-moon-black-star-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Grass
+
+hp: 210
+
+preevolution:
+  - Wimpod
+
+dex: 768
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: First Impression
+    text: If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Armor Press
+    text: During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+    damage: 100
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Crossing Cut-GX
+    text: Switch this Pokémon with 1 of your Benched Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 150
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

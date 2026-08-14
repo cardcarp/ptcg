@@ -1,0 +1,43 @@
+name: Drizzile
+
+origin: sword-shield-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Sobble
+
+dex: 817
+
+rule:
+  - type: ability
+    name: Shady Dealings
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Drip
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

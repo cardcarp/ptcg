@@ -1,0 +1,47 @@
+name: Noibat
+
+origin: xy-trainer-kit-noivern-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 714
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Misdreavus
+
+origin: undaunted-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 200
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mumble
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+    name: Dual Draw
+    text: Each player draws 3 cards.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Dragonair
+
+origin: dragon-majesty-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 100
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Tail
+    text: Flip 2 coins. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Waterfall
+    damage: 80
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

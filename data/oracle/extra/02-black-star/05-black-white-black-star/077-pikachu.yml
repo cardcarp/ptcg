@@ -1,0 +1,43 @@
+name: Pikachu
+
+origin: black-white-black-star-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Whap
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

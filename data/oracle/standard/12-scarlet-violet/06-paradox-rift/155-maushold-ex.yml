@@ -1,0 +1,46 @@
+name: Maushold ex
+
+origin: paradox-rift-155
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 230
+
+preevolution:
+  - Tandemaus
+
+dex: 925
+
+rule:
+  - type: ability
+    name: Solidarity
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon for each of your Tandemaus, Maushold, and Maushold ex in play.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nom-Nom-Nom Incisors
+    text: Draw 2 cards.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,43 @@
+name: Feraligatr
+
+origin: scarlet-violet-black-star-213
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Deep Submergence
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 140
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

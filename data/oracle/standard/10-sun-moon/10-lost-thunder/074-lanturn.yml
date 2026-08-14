@@ -1,0 +1,50 @@
+name: Lanturn
+
+origin: lost-thunder-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Salvage
+    text: Shuffle 4 Item cards from your discard pile into your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Signal Beam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

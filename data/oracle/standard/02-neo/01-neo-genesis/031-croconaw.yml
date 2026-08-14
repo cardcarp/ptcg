@@ -1,0 +1,46 @@
+name: Croconaw
+
+origin: neo-genesis-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Screech
+    text: Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Jaw Clamp
+    text: Until the end of your opponent's next turn, as long as Croconaw is your Active Pokémon, the Defending Pokémon can't retreat, and if the effect of an attack, Pokémon Power, or Trainer card would change that player's Active Pokémon, that part of the effect does nothing.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

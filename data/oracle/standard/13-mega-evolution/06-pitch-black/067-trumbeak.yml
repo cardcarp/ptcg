@@ -1,0 +1,45 @@
+name: Trumbeak
+
+origin: pitch-black-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Pikipek
+
+dex: 732
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fly
+    text: Flip a coin. If tails, this attack does nothing. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

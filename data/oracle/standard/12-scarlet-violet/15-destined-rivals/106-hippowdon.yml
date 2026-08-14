@@ -1,0 +1,48 @@
+name: Hippowdon
+
+origin: destined-rivals-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Hippopotas
+
+dex: 450
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Ram
+    damage: 60
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Super Sandstorm
+    text: This attack also does 40 damage to each Benched Pokémon that has any damage counters on it (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - H
+
+errata: []

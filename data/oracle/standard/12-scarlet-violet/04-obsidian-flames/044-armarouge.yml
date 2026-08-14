@@ -1,0 +1,43 @@
+name: Armarouge
+
+origin: obsidian-flames-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Charcadet
+
+dex: 936
+
+rule:
+  - type: ability
+    name: Scorching Armor
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Steam Artillery
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

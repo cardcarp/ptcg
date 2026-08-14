@@ -1,0 +1,41 @@
+name: Tynamo
+
+origin: lost-origin-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 30
+
+dex: 602
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call Sign
+    text: Search your deck for a Lightning Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+    name: Tiny Charge
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,44 @@
+name: Heracross
+
+origin: cosmic-eclipse-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 214
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Lunge Out
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Riled Horn
+    text: If your opponent has any TAG TEAM Pokémon in play, this attack does 70 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

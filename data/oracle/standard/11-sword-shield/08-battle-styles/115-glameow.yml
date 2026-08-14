@@ -1,0 +1,43 @@
+name: Glameow
+
+origin: battle-styles-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 431
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cat Kick
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

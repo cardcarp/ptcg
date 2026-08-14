@@ -1,0 +1,48 @@
+name: Floatzel
+
+origin: supreme-victors-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Buizel
+
+dex: 419
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Razor Fin
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Jet Screw
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

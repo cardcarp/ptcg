@@ -1,0 +1,46 @@
+name: Beldum δ
+
+origin: delta-species-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 374
+
+rule:
+  - type: ability
+    name: Conductive Body
+    text: As long as Beldum is your Active Pokémon, you pay Colorless less to retreat Beldum for each Beldum on your Bench.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Take Down
+    text: Beldum does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Charizard G
+
+origin: supreme-victors-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flame Jet
+    text: Flip a coin. If heads, this attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

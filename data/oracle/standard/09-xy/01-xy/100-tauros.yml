@@ -1,0 +1,45 @@
+name: Tauros
+
+origin: xy-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Take Down
+    text: This Pokémon does 10 damage to itself.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Seething Anger
+    text: Flip a coin for each damage counter on this Pokémon. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

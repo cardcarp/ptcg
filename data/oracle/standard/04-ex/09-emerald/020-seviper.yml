@@ -1,0 +1,44 @@
+name: Seviper
+
+origin: emerald-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 336
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pierce
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Bite Off
+    text: If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

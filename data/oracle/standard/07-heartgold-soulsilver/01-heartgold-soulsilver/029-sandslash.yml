@@ -1,0 +1,52 @@
+name: Sandslash
+
+origin: heartgold-soulsilver-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Sandshrew
+
+dex: 28
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Poison Sting
+    text: The Defending Pokémon is now Poisoned.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

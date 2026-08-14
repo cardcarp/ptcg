@@ -1,0 +1,46 @@
+name: Lycanroc
+
+origin: sun-moon-trainer-kit-lycanroc-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Claw Slash
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

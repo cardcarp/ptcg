@@ -1,0 +1,48 @@
+name: Pignite
+
+origin: boundaries-crossed-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Tepig
+
+dex: 499
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Rollout
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Firebreathing
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

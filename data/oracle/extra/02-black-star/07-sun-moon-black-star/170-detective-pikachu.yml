@@ -1,0 +1,48 @@
+name: Detective Pikachu
+
+origin: sun-moon-black-star-170
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Scout
+    text: Your opponent reveals their hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

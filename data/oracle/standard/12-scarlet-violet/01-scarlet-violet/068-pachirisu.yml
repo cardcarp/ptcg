@@ -1,0 +1,42 @@
+name: Pachirisu
+
+origin: scarlet-violet-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 417
+
+rule:
+  - type: ability
+    name: Electricity Pouches
+    text: This Pokémon can't be Paralyzed.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Everyone Discharge
+    text: This attack does 20 more damage for each of your Benched Lightning Pokémon. This attack's damage isn't affected by Weakness.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,51 @@
+name: Klang
+
+origin: darkness-ablaze-126
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Klink
+
+dex: 600
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Call for Backup
+    text: Search your deck for a Metal Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Spinning Attack
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

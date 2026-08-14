@@ -1,0 +1,44 @@
+name: Yanma
+
+origin: triumphant-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 193
+
+rule:
+  - type: ability
+    name: Free Flight
+    text: If Yanma has no Energy attached to it, Yanma's Retreat Cost is 0.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Dive
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

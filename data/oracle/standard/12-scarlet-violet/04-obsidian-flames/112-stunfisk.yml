@@ -1,0 +1,40 @@
+name: Stunfisk
+
+origin: obsidian-flames-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 618
+
+rule:
+  - type: ability
+    name: Custom Trap
+    text: If this Pokémon is in the Active Spot, has a Pokémon Tool attached, and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 5 damage counters on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+    name: Rumble
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

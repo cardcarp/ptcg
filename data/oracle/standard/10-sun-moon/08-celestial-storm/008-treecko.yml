@@ -1,0 +1,41 @@
+name: Treecko
+
+origin: celestial-storm-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 252
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Smack
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Tail Whap
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

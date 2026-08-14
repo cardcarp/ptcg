@@ -1,0 +1,40 @@
+name: Sandshrew
+
+origin: 151-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 27
+
+rule:
+  - type: ability
+    name: Sand Screen
+    text: Trainer cards in your opponent's discard pile can't be put into their deck by an effect of your opponent's Item or Supporter cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

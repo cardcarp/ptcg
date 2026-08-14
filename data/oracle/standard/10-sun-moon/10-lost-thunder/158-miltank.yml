@@ -1,0 +1,39 @@
+name: Miltank
+
+origin: lost-thunder-158
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 241
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Milk Cannon
+    text: Reveal any number of Moomoo Milk cards in your hand. This attack does 60 damage for each card you revealed in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

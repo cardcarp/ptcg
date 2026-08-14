@@ -1,0 +1,47 @@
+name: Chi-Yu ex
+
+origin: paldea-evolved-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fire
+
+hp: 190
+
+dex: 1004
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Jealously Singe
+    text: Discard the top 2 cards of your opponent's deck.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Flame Surge
+    text: Choose up to 3 of your Benched Pokémon. For each of those Pokémon, search your deck for a Basic Fire Energy card and attach it to that Pokémon. Then, shuffle your deck.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

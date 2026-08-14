@@ -1,0 +1,43 @@
+name: Alolan Ninetales
+
+origin: burning-shadows-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Alolan Vulpix
+
+dex: 38
+
+rule:
+  - type: ability
+    name: Luminous Barrier
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon-GX or Pokémon-EX.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aurora Beam
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

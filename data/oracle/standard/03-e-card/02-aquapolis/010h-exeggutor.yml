@@ -1,0 +1,45 @@
+name: Exeggutor
+
+origin: aquapolis-010h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Super Eggsplosion
+    text: Discard any number of Energy cards attached to any of your Pokémon. Flip a number of coins equal to the number of Energy cards discarded this way. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+    name: Called Shot
+    text: Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage times the amount of Grass Energy attached to Exeggutor. (Don't apply Weakness or Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,52 @@
+name: Lucario
+
+origin: fates-collide-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Vacuum Wave
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 50
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Fight Alone
+    text: If you have fewer Pokémon in play than your opponent, this attack does 60 more damage for each Pokémon fewer you have in play.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

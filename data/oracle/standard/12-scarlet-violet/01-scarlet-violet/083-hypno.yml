@@ -1,0 +1,51 @@
+name: Hypno
+
+origin: scarlet-violet-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Pendulum Influence
+    text: Flip a coin. If heads, choose an attack from 1 of your opponent's Pokémon in play and use it as this attack.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Sphere
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

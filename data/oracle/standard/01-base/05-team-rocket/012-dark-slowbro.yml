@@ -1,0 +1,43 @@
+name: Dark Slowbro
+
+origin: team-rocket-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: ability
+    name: Reel In
+    text: When you play Dark Slowbro from your hand, choose up to 3 Basic Pokémon and/or Evolution cards from your discard pile and put them into your hand.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Fickle Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

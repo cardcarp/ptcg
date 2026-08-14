@@ -1,0 +1,47 @@
+name: Butterfree FB
+
+origin: supreme-victors-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 12
+
+rule:
+  - type: ability
+    name: Compound Eyes
+    text: If your opponent's Active Pokémon has any Poké-Bodies, each of Butterfree FB's attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Select Powder
+    text: Choose either Burned or Poisoned. The Defending Pokémon is now affected by that Special Condition.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

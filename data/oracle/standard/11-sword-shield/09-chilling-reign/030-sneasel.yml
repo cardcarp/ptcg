@@ -1,0 +1,37 @@
+name: Sneasel
+
+origin: chilling-reign-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 70
+
+dex: 215
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cut Down
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

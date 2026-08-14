@@ -1,0 +1,43 @@
+name: Kakuna
+
+origin: unleashed-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Weedle
+
+dex: 14
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Speed Evolution
+    text: Search your deck for a card that evolves from Kakuna and put it onto Kakuna. (This counts as evolving Kakuna.) Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+    name: Poison Sting
+    text: The Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

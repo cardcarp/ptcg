@@ -1,0 +1,39 @@
+name: Throh
+
+origin: black-bolt-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 538
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Shoulder Throw
+    text: This attack does 30 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 120
+    modifier: '-'
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

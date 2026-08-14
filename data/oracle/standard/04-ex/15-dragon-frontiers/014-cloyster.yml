@@ -1,0 +1,44 @@
+name: Cloyster δ
+
+origin: dragon-frontiers-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Shellder
+
+dex: 91
+
+rule:
+  - type: ability
+    name: Solid Shell
+    text: Prevent all effects of attacks, including damage, done by your opponent's Pokémon to each of your Benched Pokémon that has δ on its card.
+  - type: attack
+    cost:
+      - Fighting
+    name: Grind
+    text: Does 10 damage plus 10 more damage for each Energy attached to Cloyster.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

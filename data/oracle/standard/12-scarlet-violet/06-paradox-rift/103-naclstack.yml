@@ -1,0 +1,41 @@
+name: Naclstack
+
+origin: paradox-rift-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Nacli
+
+dex: 933
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rocky Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

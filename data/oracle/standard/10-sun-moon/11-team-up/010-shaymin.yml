@@ -1,0 +1,40 @@
+name: Shaymin ◇
+
+origin: team-up-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Prism Star
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 492
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Flower Storm
+    text: This attack does 30 damage times the amount of basic Energy attached to all of your Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+regulation:
+
+errata: []

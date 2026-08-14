@@ -1,0 +1,37 @@
+name: Fennekin
+
+origin: mega-evolution-black-star-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 653
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

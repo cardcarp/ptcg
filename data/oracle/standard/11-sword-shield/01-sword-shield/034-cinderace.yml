@@ -1,0 +1,45 @@
+name: Cinderace
+
+origin: sword-shield-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 170
+
+preevolution:
+  - Raboot
+
+dex: 815
+
+rule:
+  - type: ability
+    name: Libero
+    text: Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may attach up to 2 Fire Energy cards from your discard pile to it.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flare Striker
+    text: Discard 2 Energy from this Pokémon.
+    damage: 190
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,42 @@
+name: Rockruff
+
+origin: guardians-rising-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 744
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Corner
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wild Kick
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

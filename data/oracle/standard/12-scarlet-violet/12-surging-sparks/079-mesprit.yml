@@ -1,0 +1,48 @@
+name: Mesprit
+
+origin: surging-sparks-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 481
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Full Heart
+    text: Attach up to 2 Basic Psychic Energy cards from your hand to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Guardian Burst
+    text: If you don't have Uxie and Azelf on your Bench, this attack does nothing.
+    damage: 160
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

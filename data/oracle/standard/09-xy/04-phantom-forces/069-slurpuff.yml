@@ -1,0 +1,49 @@
+name: Slurpuff
+
+origin: phantom-forces-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Swirlix
+
+dex: 685
+
+rule:
+  - type: ability
+    name: Tasting
+    text: Once during your turn (before your attack), you may draw a card. If this Pokémon is your Active Pokémon, draw 1 more card.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Light Pulse
+    text: Prevent all effects of your opponent's attacks, except damage, done to this Pokémon during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

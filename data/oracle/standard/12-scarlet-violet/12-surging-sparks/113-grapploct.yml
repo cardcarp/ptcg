@@ -1,0 +1,47 @@
+name: Grapploct
+
+origin: surging-sparks-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Clobbopus
+
+dex: 853
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Chop
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Raging Tentacles
+    text: If this Pokémon has any damage counters on it, this attack can be used for Fighting.
+    damage: 130
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

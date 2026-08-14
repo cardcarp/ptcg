@@ -1,0 +1,44 @@
+name: Torracat
+
+origin: shining-legends-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Litten
+
+dex: 726
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Swagger
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Claws
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

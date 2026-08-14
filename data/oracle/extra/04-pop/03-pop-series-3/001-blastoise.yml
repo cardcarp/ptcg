@@ -1,0 +1,49 @@
+name: Blastoise
+
+origin: pop-series-3-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Wartortle
+
+dex: 9
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Turn
+    text: After your attack, you may switch Blastoise with 1 of your Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Rocket Tackle
+    text: Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Blastoise by attacks during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

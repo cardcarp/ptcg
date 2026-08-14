@@ -1,0 +1,48 @@
+name: Gyarados
+
+origin: team-up-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Distilled Blast
+    text: Reveal the top 7 cards of your deck. This attack does 30 more damage times the amount of Water Energy you find there. Then, shuffle those Energy cards back into your deck and discard the other cards.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Hyper Beam
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

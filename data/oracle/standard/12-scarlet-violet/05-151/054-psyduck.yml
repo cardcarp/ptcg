@@ -1,0 +1,41 @@
+name: Psyduck
+
+origin: 151-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Overthink
+    text: During your opponent's next turn, whenever they flip a coin, treat it as tails.
+  - type: attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,48 @@
+name: Swampert
+
+origin: ruby-sapphire-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Marshtomp
+
+dex: 260
+
+rule:
+  - type: ability
+    name: Natural Remedy
+    text: Once during your turn (before your attack), when you attach a Water Energy card from your hand to Swampert, remove 1 damage counter from Swampert.
+  - type: attack
+    cost:
+      - Water
+    name: Water Arrow
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Waterfall
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

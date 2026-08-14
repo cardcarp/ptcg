@@ -1,0 +1,47 @@
+name: Houndoom
+
+origin: scarlet-violet-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sharp Fang
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Blast
+    text: Discard an Energy from this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,39 @@
+name: Magby
+
+origin: legend-maker-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 240
+
+rule:
+  - type: ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Magmar from your hand onto Magby (this counts as evolving Magby) and remove all damage counters from Magby.
+  - type: attack
+    cost:
+      - Colorless
+    name: Ignite
+    text: If Full Flame is in play, the Defending Pokémon is now Burned.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

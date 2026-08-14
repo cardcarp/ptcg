@@ -1,0 +1,51 @@
+name: Galarian Perrserker
+
+origin: fusion-strike-181
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Galarian Meowth
+
+dex: 863
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Call to Muster
+    text: Search your deck for up to 2 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Headbang
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

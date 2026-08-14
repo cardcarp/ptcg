@@ -1,0 +1,41 @@
+name: Skorupi
+
+origin: ultra-prism-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 451
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Hone Claws
+    text: During your next turn, this Pokémon's Pierce attack's base damage is 90.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Pierce
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Lombre
+
+origin: sandstorm-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: ability
+    name: Rain Dish
+    text: At any time between turns, remove 1 damage counter from Lombre.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

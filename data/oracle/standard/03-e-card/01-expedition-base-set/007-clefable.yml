@@ -1,0 +1,44 @@
+name: Clefable
+
+origin: expedition-base-set-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: ability
+    name: Moonlight
+    text: Once during your turn (before your attack), you may put a card from your hand back on your deck. If you do, search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Clefable is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Doubleslap
+    text: Flip 2 coins. This attack does 20 times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

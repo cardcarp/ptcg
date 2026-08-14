@@ -1,0 +1,43 @@
+name: Silcoon
+
+origin: platinum-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Wurmple
+
+dex: 266
+
+rule:
+  - type: attack
+    name: Ascension
+    text: Search your deck for a card that evolves from Silcoon and put it onto Silcoon. (This counts as evolving Silcoon.) Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Sticky String
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

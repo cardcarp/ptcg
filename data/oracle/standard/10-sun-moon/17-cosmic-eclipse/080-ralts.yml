@@ -1,0 +1,40 @@
+name: Ralts
+
+origin: cosmic-eclipse-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 280
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Teleport
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

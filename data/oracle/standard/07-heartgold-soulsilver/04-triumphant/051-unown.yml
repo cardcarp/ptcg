@@ -1,0 +1,38 @@
+name: Unown
+
+origin: triumphant-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 201
+
+rule:
+  - type: ability
+    name: CURE
+    text: Once during your turn, when you put Unown from your hand onto your Bench, remove all Special Conditions from your Active Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+    name: Hidden Power
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Marill
+
+origin: wizards-black-star-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 183
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Water Gun
+    text: Does 20 damage plus 10 more damage for each Energy attached to Marill but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

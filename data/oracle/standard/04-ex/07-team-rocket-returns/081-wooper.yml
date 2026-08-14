@@ -1,0 +1,38 @@
+name: Wooper
+
+origin: team-rocket-returns-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 194
+
+rule:
+  - type: ability
+    name: Saturation
+    text: When you attach a Water Energy card from your hand to Wooper, remove all Special Conditions and 1 damage counter from Wooper.
+  - type: attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

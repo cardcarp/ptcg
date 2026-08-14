@@ -1,0 +1,49 @@
+name: Dark Tyranitar
+
+origin: team-rocket-returns-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Dark Pupitar
+
+dex: 248
+
+rule:
+  - type: ability
+    name: Sand Damage
+    text: As long as Dark Tyranitar is your Active Pokémon, put 1 damage counter on each of your opponent's Benched Basic Pokémon between turns. You can't use more than 1 Sand Damage Poké-Body between turns.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Second Strike
+    text: If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - This Pokémon is both Fighting Darkness type.
+
+regulation:
+
+errata: []

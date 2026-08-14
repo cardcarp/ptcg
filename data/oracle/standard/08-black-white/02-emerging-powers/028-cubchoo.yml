@@ -1,0 +1,42 @@
+name: Cubchoo
+
+origin: emerging-powers-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 613
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Powder Snow
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rest
+    text: Heal 60 damage from this Pokémon. This Pokémon is now Asleep.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Nidorina δ
+
+origin: dragon-frontiers-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Nidoran ♀
+
+dex: 30
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poison Sting
+    text: The Defending Pokémon is now Poisoned.
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Rear Kick
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

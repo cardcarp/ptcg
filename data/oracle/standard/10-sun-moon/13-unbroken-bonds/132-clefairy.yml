@@ -1,0 +1,42 @@
+name: Clefairy
+
+origin: unbroken-bonds-132
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 35
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

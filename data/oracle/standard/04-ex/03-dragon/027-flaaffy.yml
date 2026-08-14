@@ -1,0 +1,49 @@
+name: Flaaffy
+
+origin: dragon-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Mareep
+
+dex: 180
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Energy Recall
+    text: Attach up to 2 basic Energy cards from your discard pile to Flaaffy.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Lightning Ball
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

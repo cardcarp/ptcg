@@ -1,0 +1,48 @@
+name: Regigigas VSTAR
+
+origin: crown-zenith-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Colorless
+
+hp: 300
+
+preevolution:
+  - Regigigas V
+
+dex: 486
+
+rule:
+  - type: ability
+    name: Star Guardian
+    text: During your turn, if your opponent has exactly 1 Prize card remaining, you may choose 1 of your opponent's Benched Pokémon. They discard that Pokémon and all attached cards. (You can't use more than 1 VSTAR Power in a game.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giga Impact
+    text: During your next turn, this Pokémon can't attack.
+    damage: 230
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

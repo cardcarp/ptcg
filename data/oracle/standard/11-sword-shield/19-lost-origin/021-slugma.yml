@@ -1,0 +1,43 @@
+name: Slugma
+
+origin: lost-origin-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 218
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Draw In
+    text: Attach a Fire Energy card from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

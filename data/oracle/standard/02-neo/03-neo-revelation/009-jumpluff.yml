@@ -1,0 +1,46 @@
+name: Jumpluff
+
+origin: neo-revelation-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Skiploom
+
+dex: 189
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Evolutionary Spore
+    text: Choose any number of your Hoppips and Skiplooms. Then, for each Pokémon you chose in this way, you may search your deck for a card that evolves from that Pokémon and attach it to that Pokémon. (This counts as evolving those Pokémon.) Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+    name: Solarbeam
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

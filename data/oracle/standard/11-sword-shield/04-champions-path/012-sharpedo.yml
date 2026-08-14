@@ -1,0 +1,40 @@
+name: Sharpedo
+
+origin: champions-path-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Aqua Jet
+    text: This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,42 @@
+name: Wingull
+
+origin: paldea-evolved-158
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 278
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,46 @@
+name: Pecharunt ex
+
+origin: shrouded-fable-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 190
+
+dex: 1025
+
+rule:
+  - type: ability
+    name: Subjugating Chains
+    text: Once during your turn, you may switch 1 of your Benched Darkness Pokémon, except any Pecharunt ex, with your Active Pokémon. If you do, the new Active Pokémon is now Poisoned. You can't use more than 1 Subjugating Chains Ability each turn.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Irritated Outburst
+    text: This attack does 60 damage for each Prize card your opponent has taken.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,47 @@
+name: Tsareena
+
+origin: obsidian-flames-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 160
+
+preevolution:
+  - Steenee
+
+dex: 763
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Queenly Heel
+    text: During your opponent's next turn, Pokémon can't be played from your opponent's hand to evolve the Defending Pokémon.
+    damage: 60
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Spinning Kick
+    text: This Pokémon also does 20 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,38 @@
+name: Meditite
+
+origin: destined-rivals-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 307
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Steady Punch
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

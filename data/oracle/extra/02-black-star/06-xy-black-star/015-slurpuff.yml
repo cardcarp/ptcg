@@ -1,0 +1,53 @@
+name: Slurpuff
+
+origin: xy-black-star-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 100
+
+preevolution:
+  - Swirlix
+
+dex: 685
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Cotton Guard
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).
+    damage: 30
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Sleepy Ball
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Mankey
+
+origin: fusion-strike-133
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 56
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

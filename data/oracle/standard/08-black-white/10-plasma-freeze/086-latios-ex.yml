@@ -1,0 +1,49 @@
+name: Latios-EX
+
+origin: plasma-freeze-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 170
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Mach Flight
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Psychic
+      - Colorless
+    name: Luster Purge
+    text: Discard all Energy attached to this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

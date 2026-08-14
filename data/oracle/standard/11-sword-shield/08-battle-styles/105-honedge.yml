@@ -1,0 +1,43 @@
+name: Honedge
+
+origin: battle-styles-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 679
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

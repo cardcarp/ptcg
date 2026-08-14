@@ -1,0 +1,44 @@
+name: Indeedee
+
+origin: battle-styles-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 876
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hand Kinesis
+    text: This attack does 10 damage for each card in your hand.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

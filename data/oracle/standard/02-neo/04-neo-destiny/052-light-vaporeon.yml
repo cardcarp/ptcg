@@ -1,0 +1,46 @@
+name: Light Vaporeon
+
+origin: neo-destiny-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Wash Away
+    text: If you have any Benched Pokémon, flip a coin. If heads, remove all damage counters from 1 of your Benched Pokémon and discard all Energy cards attached to it.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hypnoshower
+    text: The Defending Pokémon is now Asleep. Remove 1 damage counter from each Benched Pokémon (yours and your opponent's) with any damage counters on it.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

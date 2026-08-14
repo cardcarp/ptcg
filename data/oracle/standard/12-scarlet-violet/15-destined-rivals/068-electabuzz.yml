@@ -1,0 +1,37 @@
+name: Electabuzz
+
+origin: destined-rivals-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 125
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electroslug
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

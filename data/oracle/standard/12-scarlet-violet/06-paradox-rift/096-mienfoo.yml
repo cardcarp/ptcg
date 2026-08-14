@@ -1,0 +1,42 @@
+name: Mienfoo
+
+origin: paradox-rift-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 619
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Low Kick
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Beatdown
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

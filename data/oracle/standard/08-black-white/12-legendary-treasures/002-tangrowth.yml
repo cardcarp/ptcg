@@ -1,0 +1,54 @@
+name: Tangrowth
+
+origin: legendary-treasures-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Tangela
+
+dex: 465
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bind Down
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Flog
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

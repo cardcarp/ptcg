@@ -1,0 +1,51 @@
+name: Probopass
+
+origin: twilight-masquerade-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Nosepass
+
+dex: 476
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Assault Laser
+    text: If your opponent's Active Pokémon has a Pokémon Tool attached, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Land Crush
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

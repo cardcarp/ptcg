@@ -1,0 +1,50 @@
+name: Carracosta
+
+origin: plasma-blast-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Tirtouga
+
+dex: 565
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Fossil Clutch
+    text: You may discard an Item card that has Fossil in its name from your hand. If you do, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Waterfall
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

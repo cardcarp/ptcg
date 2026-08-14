@@ -1,0 +1,44 @@
+name: Porygon2
+
+origin: triumphant-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Porygon
+
+dex: 233
+
+rule:
+  - type: ability
+    name: Mapping
+    text: Once during your turn, when you play Porygon2 from your hand to evolve 1 of your Pokémon, you may search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: 3-D Attack
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

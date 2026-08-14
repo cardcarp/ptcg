@@ -1,0 +1,40 @@
+name: Fletchling
+
+origin: generations-025rc
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 661
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Warble
+    text: Search your deck for up to 2 Fletchling, reveal them, and put them into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,52 @@
+name: Toucannon
+
+origin: lost-thunder-166
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Trumbeak
+
+dex: 733
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Heat Beak
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giganticannon
+    text: If this Pokémon evolved during this turn, this attack does nothing.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

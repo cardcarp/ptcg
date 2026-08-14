@@ -1,0 +1,47 @@
+name: Morgrem
+
+origin: stellar-crown-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Impidimp
+
+dex: 860
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gentle Slap
+    damage: 40
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Darkness Fang
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

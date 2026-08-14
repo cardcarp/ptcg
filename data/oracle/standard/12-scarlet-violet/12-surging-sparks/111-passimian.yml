@@ -1,0 +1,39 @@
+name: Passimian
+
+origin: surging-sparks-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 766
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Coordinated Throwing
+    text: This attack does 20 damage for each of your Basic Pokémon in play.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

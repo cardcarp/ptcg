@@ -1,0 +1,52 @@
+name: Brock's Sandslash
+
+origin: gym-challenge-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Brock's Sandshrew
+
+dex: 28
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Needle Ball
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

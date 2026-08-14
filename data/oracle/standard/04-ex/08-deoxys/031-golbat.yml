@@ -1,0 +1,41 @@
+name: Golbat
+
+origin: deoxys-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Zubat
+
+dex: 42
+
+rule:
+  - type: ability
+    name: Self-control
+    text: Golbat can't be Paralyzed.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Spiral Drain
+    text: Remove 1 damage counter from Golbat.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

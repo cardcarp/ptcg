@@ -1,0 +1,53 @@
+name: Gengar
+
+origin: legend-maker-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: ability
+    name: Shadow Curse
+    text: If Gengar would be Knocked Out by damage from an opponent's attack, you may put 3 damage counters on 1 of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+    name: Cursed Reaction
+    text: Put 2 damage counters on your opponent's Pokémon in any way you like. If Gengar has any React Energy cards attached to it, put 4 damage counters instead.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

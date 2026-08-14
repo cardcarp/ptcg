@@ -1,0 +1,47 @@
+name: Durant ex
+
+origin: surging-sparks-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Grass
+
+hp: 190
+
+dex: 632
+
+rule:
+  - type: ability
+    name: Sudden Shearing
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may discard the top card of your opponent's deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Vengeful Crush
+    text: This attack does 30 more damage for each Prize card your opponent has taken.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,54 @@
+name: Rhydon
+
+origin: diamond-pearl-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Rhyhorn
+
+dex: 112
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Storm Up
+    text: If there is any Stadium card in play, this attack does 30 damage plus 20 more damage. Discard that Stadium card.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Crash Impact
+    text: Rhydon does 10 damage to itself. Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

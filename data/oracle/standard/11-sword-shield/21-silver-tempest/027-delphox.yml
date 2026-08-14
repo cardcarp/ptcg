@@ -1,0 +1,49 @@
+name: Delphox
+
+origin: silver-tempest-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Braixen
+
+dex: 655
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flare Parade
+    text: This attack does 60 damage for each Serena card in your discard pile.
+    damage: 60
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Energy Crush
+    text: This attack does 50 damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

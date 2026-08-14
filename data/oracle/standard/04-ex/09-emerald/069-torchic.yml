@@ -1,0 +1,35 @@
+name: Torchic
+
+origin: emerald-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 255
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Hypnotic Gaze
+    text: The Defending Pokémon is now Asleep.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

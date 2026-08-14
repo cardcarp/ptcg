@@ -1,0 +1,39 @@
+name: Zeraora
+
+origin: stellar-crown-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 807
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Combat Thunder
+    text: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

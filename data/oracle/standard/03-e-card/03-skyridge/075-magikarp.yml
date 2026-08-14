@@ -1,0 +1,40 @@
+name: Magikarp
+
+origin: skyridge-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Signs of Evolution
+    text: Flip a coin. If heads, search your deck for a card that evolves from Magikarp, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+    name: Splash
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

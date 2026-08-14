@@ -1,0 +1,54 @@
+name: Rocket's Sneasel ex
+
+origin: team-rocket-returns-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 90
+
+dex: 215
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Drag Off
+    text: Before doing damage, you may switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. If you do, this attack does 10 damage to the new Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Ring
+    text: Does 30 damage plus 10 more damage for each of your Darkness Pokémon in play.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

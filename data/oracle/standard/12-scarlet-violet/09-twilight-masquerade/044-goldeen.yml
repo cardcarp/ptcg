@@ -1,0 +1,41 @@
+name: Goldeen
+
+origin: twilight-masquerade-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 118
+
+rule:
+  - type: ability
+    name: Festival Lead
+    text: If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Whirlpool
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

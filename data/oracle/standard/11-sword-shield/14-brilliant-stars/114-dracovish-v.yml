@@ -1,0 +1,46 @@
+name: Dracovish V
+
+origin: brilliant-stars-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Dragon
+
+hp: 220
+
+dex: 882
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Water
+    name: Slosh 'n' Crash
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon. If you discarded a Pokémon Tool in this way, this attack does 120 more damage.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Water
+      - Water
+    name: Dragon Strike
+    text: During your next turn, this Pokémon can't use Dragon Strike.
+    damage: 210
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

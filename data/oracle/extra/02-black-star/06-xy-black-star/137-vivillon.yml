@@ -1,0 +1,45 @@
+name: Vivillon
+
+origin: xy-black-star-137
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Spewpa
+
+dex: 666
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dizzying Poison
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+  - type: attack
+    cost:
+      - Grass
+    name: Powder
+    text: This attack does 30 more damage for each Fire Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

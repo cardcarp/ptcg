@@ -1,0 +1,45 @@
+name: Rocket's Zapdos
+
+origin: gym-challenge-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Plasma
+    text: If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electroburn
+    text: Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it.
+    damage: 70
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

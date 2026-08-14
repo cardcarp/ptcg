@@ -1,0 +1,41 @@
+name: Dewott
+
+origin: astral-radiance-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Oshawott
+
+dex: 502
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Razor Shell
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

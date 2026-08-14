@@ -1,0 +1,49 @@
+name: Gengar GL
+
+origin: rising-rivals-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 94
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Confuse Ray
+    text: The Defending Pokémon is now Confused.
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Attack and Hide
+    text: Put 3 damage counters on 1 of your opponent's Pokémon. You may shuffle Gengar GL and all cards attached to it back into your deck.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

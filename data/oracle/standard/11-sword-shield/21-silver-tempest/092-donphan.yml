@@ -1,0 +1,48 @@
+name: Donphan
+
+origin: silver-tempest-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Phanpy
+
+dex: 232
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Overspin
+    text: If this Pokémon evolved during this turn, this attack does nothing.
+    damage: 110
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Giant Fangs
+    damage: 170
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

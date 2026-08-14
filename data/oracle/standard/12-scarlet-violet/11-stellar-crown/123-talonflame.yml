@@ -1,0 +1,45 @@
+name: Talonflame
+
+origin: stellar-crown-123
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Fletchinder
+
+dex: 663
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aero Chase
+    text: If the Retreat Cost of your opponent's Active Pokémon is ColorlessColorless or more, this attack does 110 more damage.
+    damage: 110
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - H
+
+errata: []

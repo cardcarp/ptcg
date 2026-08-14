@@ -1,0 +1,43 @@
+name: Dark Primeape
+
+origin: team-rocket-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 60
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: ability
+    name: Frenzy
+    text: If Dark Primeape does any damage while it's Confused (even to itself), it does 30 more damage.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Frenzied Attack
+    text: Dark Primeape is now Confused (after doing damage).
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

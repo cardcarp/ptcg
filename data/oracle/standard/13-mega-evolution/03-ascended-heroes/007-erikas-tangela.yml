@@ -1,0 +1,41 @@
+name: Erika's Tangela
+
+origin: ascended-heroes-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 114
+
+rule:
+  - type: ability
+    name: Gathering of Blossoms
+    text: Once during your turn, you may use this Ability. Search your deck for an Erika's Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Bind
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,46 @@
+name: Centiskorch
+
+origin: battle-styles-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Sizzlipede
+
+dex: 851
+
+rule:
+  - type: ability
+    name: Overheater
+    text: Whenever your opponent flips a coin for their Burned Pokémon during Pokémon Checkup, it doesn't recover from that Special Condition even if the result is heads.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Bursting Inferno
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

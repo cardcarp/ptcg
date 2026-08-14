@@ -1,0 +1,49 @@
+name: Poliwrath
+
+origin: unleashed-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Poliwhirl
+
+dex: 62
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Steamroll
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Dynamic Punch
+    text: Flip a coin. If heads, this attack does 60 damage plus 40 more damage and the Defending Pokémon is now Confused.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

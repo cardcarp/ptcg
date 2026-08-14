@@ -1,0 +1,41 @@
+name: Relicanth
+
+origin: holon-phantoms-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 369
+
+rule:
+  - type: ability
+    name: Aqua Lift
+    text: If Relicanth has any Water Energy attached to it, the Retreat Cost for Relicanth is 0.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

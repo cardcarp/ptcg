@@ -1,0 +1,49 @@
+name: Gliscor
+
+origin: fusion-strike-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Cut Down
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Venomous Hit
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

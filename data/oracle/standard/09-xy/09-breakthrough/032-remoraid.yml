@@ -1,0 +1,41 @@
+name: Remoraid
+
+origin: breakthrough-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 223
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ion Pool
+    text: Discard any Stadium card in play.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

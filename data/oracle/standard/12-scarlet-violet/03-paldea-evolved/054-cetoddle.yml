@@ -1,0 +1,43 @@
+name: Cetoddle
+
+origin: paldea-evolved-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 974
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rest
+    text: This Pokémon is now Asleep. Heal 60 damage from it.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Double-Edge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

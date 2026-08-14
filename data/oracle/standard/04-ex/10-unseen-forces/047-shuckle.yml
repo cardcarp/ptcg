@@ -1,0 +1,39 @@
+name: Shuckle
+
+origin: unseen-forces-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 213
+
+rule:
+  - type: ability
+    name: Extra-tight
+    text: Prevent all damage done to Shuckle by attacks from your opponent's Pokémon-ex.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Toxic
+    text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

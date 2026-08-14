@@ -1,0 +1,53 @@
+name: Moltres & Zapdos & Articuno-GX
+
+origin: sun-moon-black-star-210
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Colorless
+
+hp: 300
+
+dex: 144
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Lightning
+      - Colorless
+    name: Trinity Burn
+    damage: 210
+  - type: attack
+    cost:
+      - Colorless
+    name: Sky Legends-GX
+    text: Shuffle this Pokémon and all cards attached to it into your deck. If this Pokémon has at least 1 extra Fire, Water, and Lightning Energy attached to it (in addition to this attack's cost), this attack does 110 damage to 3 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+
+errata: []

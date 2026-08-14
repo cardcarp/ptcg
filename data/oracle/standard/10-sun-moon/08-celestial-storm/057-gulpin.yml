@@ -1,0 +1,40 @@
+name: Gulpin
+
+origin: celestial-storm-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 316
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Yawn
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+    name: Spit Poison
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

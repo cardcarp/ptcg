@@ -1,0 +1,51 @@
+name: Pidgeot ex
+
+origin: obsidian-flames-164
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Colorless
+
+hp: 280
+
+preevolution:
+  - Pidgeotto
+
+dex: 18
+
+rule:
+  - type: ability
+    name: Quick Search
+    text: Once during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. You can't use more than 1 Quick Search Ability each turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Blustery Wind
+    text: You may discard a Stadium in play.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

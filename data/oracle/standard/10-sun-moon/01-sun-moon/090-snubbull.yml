@@ -1,0 +1,41 @@
+name: Snubbull
+
+origin: sun-moon-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 209
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Reckless Charge
+    text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

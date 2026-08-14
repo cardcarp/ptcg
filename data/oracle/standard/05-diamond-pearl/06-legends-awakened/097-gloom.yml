@@ -1,0 +1,43 @@
+name: Gloom
+
+origin: legends-awakened-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: attack
+    name: Space Out
+    text: Remove 2 damage counters from Gloom. Gloom is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Stinky Nectar
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

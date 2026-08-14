@@ -1,0 +1,51 @@
+name: Eternatus V
+
+origin: sword-shield-black-star-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 220
+
+dex: 890
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Power Accelerator
+    text: You may attach a Darkness Energy card from your hand to 1 of your Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dynamax Cannon
+    text: If your opponent's Active Pokémon is a Pokémon VMAX, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

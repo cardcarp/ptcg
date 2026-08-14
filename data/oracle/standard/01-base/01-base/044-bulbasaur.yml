@@ -1,0 +1,37 @@
+name: Bulbasaur
+
+origin: base-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 1
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Leech Seed
+    text: Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

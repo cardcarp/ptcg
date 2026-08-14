@@ -1,0 +1,41 @@
+name: Druddigon
+
+origin: brilliant-stars-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 621
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Water
+    name: Revenge
+    text: If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 120 more damage.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Dragon Claw
+    damage: 120
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

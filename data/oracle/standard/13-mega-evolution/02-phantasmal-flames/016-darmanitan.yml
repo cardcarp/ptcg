@@ -1,0 +1,44 @@
+name: Darmanitan
+
+origin: phantasmal-flames-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Darumaka
+
+dex: 555
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blaze Ball
+    text: This attack does 40 more damage for each Fire Energy attached to this Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,44 @@
+name: Falinks
+
+origin: rebel-clash-109
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 870
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Team Attack
+    text: This attack does 30 damage for each of your Benched Pokémon that has "Falinks" in its name.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

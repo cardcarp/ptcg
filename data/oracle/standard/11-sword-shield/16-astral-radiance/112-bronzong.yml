@@ -1,0 +1,49 @@
+name: Bronzong
+
+origin: astral-radiance-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: ability
+    name: Heatproof
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Fire Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

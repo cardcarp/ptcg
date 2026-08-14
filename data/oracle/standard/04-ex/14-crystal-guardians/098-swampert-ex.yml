@@ -1,0 +1,49 @@
+name: Swampert ex
+
+origin: crystal-guardians-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Marshtomp
+
+dex: 260
+
+rule:
+  - type: ability
+    name: Energy Recycle
+    text: Once during your turn (before your attack), you may search your discard pile for 3 Energy cards and attach them to your Pokémon in any way you like. If you do, your turn ends. This power can't be used if Swampert ex is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Ultra Pump
+    text: You may discard 2 cards from your hand. If you do, this attack does 60 damage plus 20 more damage and does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

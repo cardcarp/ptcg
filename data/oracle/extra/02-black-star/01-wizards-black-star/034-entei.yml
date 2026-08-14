@@ -1,0 +1,41 @@
+name: Entei
+
+origin: wizards-black-star-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 244
+
+rule:
+  - type: ability
+    name: Bolt
+    text: Whenever your opponent's attack damages Entei, unless that attack Knocks Out Entei, flip a coin. If heads, shuffle Entei and all cards attached to it into your deck. This power can't be used if Entei is already Asleep, Confused, or Paralyzed when it is damaged.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Protective Flame
+    text: During your opponent's next turn, prevent all effects of attacks, including damage, done to your Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

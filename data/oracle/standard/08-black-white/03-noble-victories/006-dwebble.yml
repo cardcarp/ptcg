@@ -1,0 +1,41 @@
+name: Dwebble
+
+origin: noble-victories-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 557
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Withdraw
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

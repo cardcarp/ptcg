@@ -1,0 +1,49 @@
+name: Yveltal
+
+origin: shrouded-fable-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 717
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Corrosive Winds
+    text: Put 2 damage counters on each of your opponent's Pokémon that has any damage counters on it.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Destructive Beam
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

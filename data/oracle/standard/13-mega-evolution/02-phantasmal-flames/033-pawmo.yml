@@ -1,0 +1,40 @@
+name: Pawmo
+
+origin: phantasmal-flames-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Pawmi
+
+dex: 922
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Electric Punch
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

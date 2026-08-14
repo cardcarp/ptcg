@@ -1,0 +1,48 @@
+name: Kingler V
+
+origin: brilliant-stars-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 220
+
+dex: 99
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Falling Bubbles
+    text: Flip a coin. If heads, search your deck for up to 5 Water Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Raging Pincer
+    text: This Pokémon also does 30 damage to itself.
+    damage: 200
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

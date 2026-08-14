@@ -1,0 +1,36 @@
+name: Psyduck
+
+origin: evolving-skies-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rain Splash
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

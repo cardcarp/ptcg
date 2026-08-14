@@ -1,0 +1,43 @@
+name: Tentacruel
+
+origin: fossil-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Tentacool
+
+dex: 73
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Jellyfish Sting
+    text: The Defending Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

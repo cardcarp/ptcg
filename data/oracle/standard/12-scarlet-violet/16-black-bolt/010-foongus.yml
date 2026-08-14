@@ -1,0 +1,36 @@
+name: Foongus
+
+origin: black-bolt-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 590
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Toxic Spore
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,42 @@
+name: Toedscool
+
+origin: stellar-crown-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 948
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Ram
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Gentle Slap
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

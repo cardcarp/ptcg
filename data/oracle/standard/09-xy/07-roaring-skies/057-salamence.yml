@@ -1,0 +1,57 @@
+name: Salamence
+
+origin: roaring-skies-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 160
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Shatter
+    text: Discard any Stadium card in play.
+    damage: 60
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Power Howl
+    text: This attack does 20 damage times the number of cards in your opponent's hand.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Water
+      - Colorless
+    name: Steam Blast
+    text: Discard 3 Energy attached to this Pokémon.
+    damage: 170
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

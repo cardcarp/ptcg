@@ -1,0 +1,42 @@
+name: Metapod
+
+origin: heartgold-soulsilver-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Caterpie
+
+dex: 11
+
+rule:
+  - type: ability
+    name: Green Shield
+    text: Each of your Grass Pokémon has no Weakness.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sharpen
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

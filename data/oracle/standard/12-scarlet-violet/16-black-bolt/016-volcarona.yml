@@ -1,0 +1,44 @@
+name: Volcarona
+
+origin: black-bolt-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Larvesta
+
+dex: 637
+
+rule:
+  - type: ability
+    name: Torrid Scales
+    text: You must discard a Basic Fire Energy card from your hand in order to use this Ability. Once during your turn, you may make your opponent's Active Pokémon Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Wing
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,52 @@
+name: Gothitelle
+
+origin: darkness-ablaze-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Gothorita
+
+dex: 576
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Mind Bend
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Bend
+    text: Choose 2 random cards from your opponent's hand. Your opponent reveals those cards and shuffles them into their deck.
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

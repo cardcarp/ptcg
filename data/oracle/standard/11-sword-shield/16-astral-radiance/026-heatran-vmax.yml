@@ -1,0 +1,48 @@
+name: Heatran VMAX
+
+origin: astral-radiance-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Fire
+
+hp: 330
+
+preevolution:
+  - Heatran V
+
+dex: 485
+
+rule:
+  - type: ability
+    name: Magma Gain
+    text: Once during your turn, if you have a Stadium in play, you may heal 50 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Max Heat Burst
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 180
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

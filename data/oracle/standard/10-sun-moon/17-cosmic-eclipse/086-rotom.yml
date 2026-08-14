@@ -1,0 +1,45 @@
+name: Rotom
+
+origin: cosmic-eclipse-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 479
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cycle Draw
+    text: Discard a card from your hand. If you do, draw 2 cards.
+  - type: attack
+    cost:
+      - Psychic
+    name: Energy Assist
+    text: Attach 2 basic Energy cards from your discard pile to your Benched Pokémon in any way you like.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

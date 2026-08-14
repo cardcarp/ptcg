@@ -1,0 +1,48 @@
+name: Gogoat
+
+origin: vivid-voltage-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Skiddo
+
+dex: 673
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Take Down
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

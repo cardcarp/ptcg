@@ -1,0 +1,38 @@
+name: Solosis
+
+origin: fates-collide-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 577
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Mini Link
+    text: If Solosis is on your Bench, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

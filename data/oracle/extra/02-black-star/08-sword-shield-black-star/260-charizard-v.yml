@@ -1,0 +1,51 @@
+name: Charizard V
+
+origin: sword-shield-black-star-260
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Incinerate
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 90
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Blast
+    damage: 180
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

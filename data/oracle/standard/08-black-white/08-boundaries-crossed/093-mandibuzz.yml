@@ -1,0 +1,54 @@
+name: Mandibuzz
+
+origin: boundaries-crossed-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Vullaby
+
+dex: 630
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Gust
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dual Cut
+    text: Flip 2 coins. This attack does 80 damage times the number of heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

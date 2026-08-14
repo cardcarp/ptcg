@@ -1,0 +1,46 @@
+name: Drampa
+
+origin: ultra-prism-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 780
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Outrage
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Pulse
+    text: Discard the top 2 cards of your deck.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

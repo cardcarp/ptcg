@@ -1,0 +1,38 @@
+name: Larvitar
+
+origin: paldea-evolved-110
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 246
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Stab
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

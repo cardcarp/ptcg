@@ -1,0 +1,50 @@
+name: Grovyle
+
+origin: crystal-guardians-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Treecko
+
+dex: 253
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Detect
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Grovyle during your opponent's next turn.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Smash Kick
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

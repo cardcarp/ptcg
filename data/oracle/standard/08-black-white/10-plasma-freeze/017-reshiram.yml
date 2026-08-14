@@ -1,0 +1,48 @@
+name: Reshiram
+
+origin: plasma-freeze-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 643
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Purifying Flame
+    text: Remove all Special Conditions from this Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fusion Flare
+    text: If Zekrom is on your Bench, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

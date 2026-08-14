@@ -1,0 +1,36 @@
+name: Tentacool
+
+origin: primal-clash-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 72
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psyshot
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

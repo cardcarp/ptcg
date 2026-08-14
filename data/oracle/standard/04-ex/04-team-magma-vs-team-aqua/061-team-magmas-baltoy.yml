@@ -1,0 +1,41 @@
+name: Team Magma's Baltoy
+
+origin: team-magma-vs-team-aqua-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 343
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Night Attack
+    text: Put 1 damage counter on 1 of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spinning Attack
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

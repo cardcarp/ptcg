@@ -1,0 +1,49 @@
+name: Breloom
+
+origin: secret-wonders-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Shroomish
+
+dex: 286
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Drain Punch
+    text: Remove from Breloom a number of damage counters equal to the amount of Energy attached to the Defending Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Homing Uppercut
+    text: If the Defending Pokémon's Retreat Cost is 0, this attack does 60 damage plus 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

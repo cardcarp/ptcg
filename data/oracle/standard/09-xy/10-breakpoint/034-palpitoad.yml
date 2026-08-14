@@ -1,0 +1,48 @@
+name: Palpitoad
+
+origin: breakpoint-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Tympole
+
+dex: 536
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Frog Hop
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Mud Shot
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

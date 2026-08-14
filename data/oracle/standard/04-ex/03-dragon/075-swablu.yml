@@ -1,0 +1,47 @@
+name: Swablu
+
+origin: dragon-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 333
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Lullaby
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+    name: Stifling Fluff
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

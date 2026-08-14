@@ -1,0 +1,42 @@
+name: Snorunt
+
+origin: brilliant-stars-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 361
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Ice Breath
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Snow
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

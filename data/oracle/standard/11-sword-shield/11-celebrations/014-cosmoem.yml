@@ -1,0 +1,41 @@
+name: Cosmoem
+
+origin: celebrations-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 790
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Star Protection
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

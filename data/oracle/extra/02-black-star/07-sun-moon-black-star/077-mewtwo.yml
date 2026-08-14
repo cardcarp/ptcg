@@ -1,0 +1,40 @@
+name: Mewtwo
+
+origin: sun-moon-black-star-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 150
+
+rule:
+  - type: ability
+    name: Pressure
+    text: As long as this Pokémon is your Active Pokémon, your opponent's Active Pokémon's attack do 20 less damage (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Super Psy Bolt
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

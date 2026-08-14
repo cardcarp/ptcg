@@ -1,0 +1,37 @@
+name: Stunfisk
+
+origin: ascended-heroes-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 618
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Pouncing Trap
+    text: During your opponent's next turn, the Defending Pokémon can't retreat. During your next turn, the Defending Pokémon takes 100 more damage from attacks (after applying Weakness and Resistance).
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

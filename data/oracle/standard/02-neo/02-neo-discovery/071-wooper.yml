@@ -1,0 +1,46 @@
+name: Wooper
+
+origin: neo-discovery-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 194
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Slime
+    text: If an attack would do damage to Wooper during your opponent's next turn, your opponent flips a coin. If tails, prevent all damage to Wooper from that attack. (Any other effects of that attack happen.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Slap
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

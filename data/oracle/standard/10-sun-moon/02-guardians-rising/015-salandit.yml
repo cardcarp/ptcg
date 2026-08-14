@@ -1,0 +1,43 @@
+name: Salandit
+
+origin: guardians-rising-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 757
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Scratch
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

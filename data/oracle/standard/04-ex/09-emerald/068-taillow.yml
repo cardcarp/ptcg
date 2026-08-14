@@ -1,0 +1,41 @@
+name: Taillow
+
+origin: emerald-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 276
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Razor Wind
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

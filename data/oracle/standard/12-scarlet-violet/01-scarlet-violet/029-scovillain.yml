@@ -1,0 +1,49 @@
+name: Scovillain
+
+origin: scarlet-violet-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Capsakid
+
+dex: 952
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hot Bite
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Super Spicy Breath
+    text: If this Pokémon has any Fire Energy attached, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

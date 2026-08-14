@@ -1,0 +1,47 @@
+name: Snubbull
+
+origin: neo-genesis-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 209
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Flip a coin. If heads and if your opponent has any Benched Pokémon, he of she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lick
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

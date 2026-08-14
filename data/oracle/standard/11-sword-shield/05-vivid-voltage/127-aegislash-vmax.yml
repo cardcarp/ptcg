@@ -1,0 +1,51 @@
+name: Aegislash VMAX
+
+origin: vivid-voltage-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Metal
+
+hp: 320
+
+preevolution:
+  - Aegislash V
+
+dex: 681
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Max Hack
+    text: This attack does 30 more damage for each Prize card you have taken.
+    damage: 160
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

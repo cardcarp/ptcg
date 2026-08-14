@@ -1,0 +1,39 @@
+name: Fuecoco
+
+origin: scarlet-violet-black-star-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 909
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Super Singe
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

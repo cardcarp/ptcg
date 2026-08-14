@@ -1,0 +1,40 @@
+name: Mantine
+
+origin: team-rocket-returns-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 226
+
+rule:
+  - type: ability
+    name: Ripples
+    text: Once during your turn (before your attack), you may remove 1 damage counter from 1 of your Pokémon (excluding Mantine). This power can't be used if Mantine is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Slash
+    text: Mantine can't attack during your next turn.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

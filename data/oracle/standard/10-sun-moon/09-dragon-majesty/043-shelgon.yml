@@ -1,0 +1,42 @@
+name: Shelgon
+
+origin: dragon-majesty-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Bagon
+
+dex: 372
+
+rule:
+  - type: ability
+    name: Energy Guard
+    text: If this Pokémon has any basic Energy attached to it, it takes 20 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 30
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

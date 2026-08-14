@@ -1,0 +1,47 @@
+name: Walking Wake
+
+origin: twilight-masquerade-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ancient
+
+type:
+  - Water
+
+hp: 130
+
+dex: 1009
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Aurora Gain
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Undulating Slice
+    text: Put up to 9 damage counters on this Pokémon. This attack does 20 damage for each damage counter you placed in this way.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

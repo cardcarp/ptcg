@@ -1,0 +1,52 @@
+name: Togetic
+
+origin: great-encounters-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Speed Dive
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sweet Kiss
+    text: Your opponent may draw a card.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

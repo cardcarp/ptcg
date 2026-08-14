@@ -1,0 +1,46 @@
+name: Volcarona
+
+origin: crown-zenith-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Larvesta
+
+dex: 637
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Will-O-Wisp
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Volcanic Heat
+    text: During your next turn, this Pokémon can't attack.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,47 @@
+name: Cranidos
+
+origin: sword-shield-black-star-274
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 408
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Ram
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Stone Edge
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,42 @@
+name: Shining Genesect
+
+origin: shining-legends-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 649
+
+rule:
+  - type: ability
+    name: Energy Reload
+    text: Once during your turn (before your attack), you may move a Grass Energy from 1 of your other Pokémon to this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gaia Blaster
+    text: This attack does 20 more damage times the amount of Grass Energy attached to this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

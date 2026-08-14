@@ -1,0 +1,43 @@
+name: Cryogonal
+
+origin: noble-victories-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 615
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Icy Wind
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Shard
+    text: If the Defending Pokémon is a Fighting Pokémon, this attack does 40 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Croconaw
+
+origin: mysterious-treasures-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: ability
+    name: Evolutionary Vitality
+    text: Once during your turn, when you play Croconaw from your hand to evolve 1 of your Pokémon, you may look at the top 5 cards of your deck. Choose all Energy cards you find there, show them to your opponent, and put them into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hover Over
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

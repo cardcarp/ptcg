@@ -1,0 +1,53 @@
+name: Greedent ex
+
+origin: obsidian-flames-179
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+  - Tera
+
+type:
+  - Colorless
+
+hp: 260
+
+preevolution:
+  - Skwovet
+
+dex: 820
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Never Ever Enough
+    text: Look at the top 3 cards of your deck. You may put those cards into your hand. If you don't, discard those cards and draw 3 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slip 'n' Roll
+    text: During your next turn, this Pokémon can't use Slip 'n' Roll.
+    damage: 210
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - G
+
+errata: []

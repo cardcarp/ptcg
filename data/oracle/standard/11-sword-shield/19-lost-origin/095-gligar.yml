@@ -1,0 +1,38 @@
+name: Gligar
+
+origin: lost-origin-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 207
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Cyclone Pincers
+    text: Flip 4 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

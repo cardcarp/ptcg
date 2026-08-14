@@ -1,0 +1,44 @@
+name: Duosion
+
+origin: black-white-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Solosis
+
+dex: 578
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Recover
+    text: Discard an Energy attached to this Pokémon and heal all damage from this Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Rollout
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Hariyama
+
+origin: paldea-evolved-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Makuhita
+
+dex: 297
+
+rule:
+  - type: ability
+    name: Arm Thrust Practice
+    text: All of your Pokémon take 10 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rocket Slap
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

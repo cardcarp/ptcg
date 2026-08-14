@@ -1,0 +1,44 @@
+name: N's Darumaka
+
+origin: journey-together-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 554
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rolling Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

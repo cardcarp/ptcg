@@ -1,0 +1,50 @@
+name: Wormadam Trash Cloak
+
+origin: arceus-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Burmy Trash Cloak
+
+dex: 413
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Cloak Shard
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. If you have Wormadam Plant Cloak in play, this attack does 40 damage to that Pokémon instead. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Serve Trash
+    text: You may search your opponent's discard pile for any 1 card, show it to your opponent, and put it on top of his or her deck.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

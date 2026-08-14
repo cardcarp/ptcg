@@ -1,0 +1,50 @@
+name: Gourgeist
+
+origin: paradox-rift-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Pumpkaboo
+
+dex: 711
+
+rule:
+  - type: ability
+    name: Startling Pumpkin
+    text: If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, discard 2 random cards from your opponent's hand.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Shadow Bind
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

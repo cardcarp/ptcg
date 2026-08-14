@@ -1,0 +1,48 @@
+name: Lickilicky
+
+origin: lost-origin-139
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Lickitung
+
+dex: 463
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tongue Slap
+    damage: 50
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

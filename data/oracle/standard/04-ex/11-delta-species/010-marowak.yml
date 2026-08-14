@@ -1,0 +1,52 @@
+name: Marowak δ
+
+origin: delta-species-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fighting
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Metal
+    name: Energy Bone
+    text: Choose a number of your opponent's Pokémon up to the amount of Energy attached to Marowak. This attack does 20 damage to each of them.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Metal Crusher
+    text: If the Defending Pokémon is Metal Pokémon, this attack's base damage is 90.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Fighting Metal type.
+
+regulation:
+
+errata: []

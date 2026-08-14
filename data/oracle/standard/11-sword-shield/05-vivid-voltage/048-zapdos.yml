@@ -1,0 +1,48 @@
+name: Zapdos
+
+origin: vivid-voltage-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Drill Peck
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder Snipe
+    text: Discard all Energy from this Pokémon, and this attack does 160 damage to 1 of your opponent's Pokémon V or Pokémon-GX. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

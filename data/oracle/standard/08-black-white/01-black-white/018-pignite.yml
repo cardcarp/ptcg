@@ -1,0 +1,47 @@
+name: Pignite
+
+origin: black-white-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Tepig
+
+dex: 499
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy attached to this Pokémon.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

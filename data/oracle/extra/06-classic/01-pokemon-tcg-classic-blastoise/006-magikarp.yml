@@ -1,0 +1,35 @@
+name: Magikarp
+
+origin: pokemon-tcg-classic-blastoise-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Splash
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Gastly
+
+origin: diamond-pearl-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 92
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Pain Payback
+    text: Move 1 damage counter from Gastly to 1 of your opponent's Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

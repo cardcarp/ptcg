@@ -1,0 +1,52 @@
+name: Trevenant
+
+origin: xy-black-star-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Eerie Wave
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Wood Hammer
+    text: Flip a coin. If tails, this Pokémon does 20 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

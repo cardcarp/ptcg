@@ -1,0 +1,45 @@
+name: Paldean Tauros
+
+origin: surging-sparks-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Smash Kick
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Blocking Stomp
+    text: If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

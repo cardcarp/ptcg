@@ -1,0 +1,41 @@
+name: Paras
+
+origin: firered-leafgreen-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 46
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+    name: Toxic Spore
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

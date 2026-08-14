@@ -1,0 +1,47 @@
+name: Arcanine
+
+origin: heartgold-soulsilver-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Sharp Fang
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fire Mane
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

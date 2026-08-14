@@ -1,0 +1,42 @@
+name: Seedot
+
+origin: mega-evolution-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 273
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Heal 20 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Seed Bomb
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

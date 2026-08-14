@@ -1,0 +1,55 @@
+name: Rocket's Mewtwo ex
+
+origin: team-rocket-returns-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Darkness Switch
+    text: Discard an Energy card attached to Rocket's Mewtwo ex, and then switch all damage counters on Rocket's Mewtwo ex with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Hypnoblast
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psyburn
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

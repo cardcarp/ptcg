@@ -1,0 +1,37 @@
+name: Larvesta
+
+origin: chilling-reign-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 636
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flame Charge
+    text: Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

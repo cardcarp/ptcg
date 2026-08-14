@@ -1,0 +1,46 @@
+name: Moltres
+
+origin: 151-146
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 146
+
+rule:
+  - type: ability
+    name: Flare Float
+    text: If this Pokémon has any Fire Energy attached, it has no Retreat Cost.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Blazing Flight
+    text: Discard 2 Fire Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

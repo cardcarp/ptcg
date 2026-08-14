@@ -1,0 +1,54 @@
+name: Kirlia
+
+origin: scarlet-violet-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Ralts
+
+dex: 281
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Magical Shot
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

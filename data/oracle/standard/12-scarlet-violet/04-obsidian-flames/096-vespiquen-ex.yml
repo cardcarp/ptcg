@@ -1,0 +1,58 @@
+name: Vespiquen ex
+
+origin: obsidian-flames-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+  - Tera
+
+type:
+  - Psychic
+
+hp: 270
+
+preevolution:
+  - Combee
+
+dex: 416
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Healing Pheromone
+    text: Heal 60 damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Phantom Queen
+    text: Put 3 damage counters on each of your opponent's Benched Pokémon that has any damage counters on it.
+    damage: 200
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - G
+
+errata: []

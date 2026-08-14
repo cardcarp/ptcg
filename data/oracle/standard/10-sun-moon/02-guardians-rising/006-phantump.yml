@@ -1,0 +1,41 @@
+name: Phantump
+
+origin: guardians-rising-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 708
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Tackle
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

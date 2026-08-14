@@ -1,0 +1,45 @@
+name: Meganium
+
+origin: neo-genesis-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: ability
+    name: Wild Growth
+    text: As long as Meganium is in play each Grass Energy card attached to your Grass Pokémon instead provides GrassGrass. This power stops working while Meganium is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Grass
+    name: Soothing Scent
+    text: The Defending Pokémon is now Asleep.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Ninetales
+
+origin: heartgold-soulsilver-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: ability
+    name: Roast Reveal
+    text: Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Will-o'-the-wisp
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Delibird
+
+origin: great-encounters-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 225
+
+rule:
+  - type: attack
+    name: Present
+    text: Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+    name: Ice Ball
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

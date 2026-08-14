@@ -1,0 +1,54 @@
+name: Rayquaza-EX
+
+origin: xy-black-star-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Colorless
+
+hp: 170
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mega Ascension
+    text: Search your deck for M Rayquaza-EX, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Aeroscream
+    text: Flip a coin. If tails, discard 2 Energy attached to this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

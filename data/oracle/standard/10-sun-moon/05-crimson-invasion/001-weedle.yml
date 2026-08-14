@@ -1,0 +1,35 @@
+name: Weedle
+
+origin: crimson-invasion-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 13
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

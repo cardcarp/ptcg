@@ -1,0 +1,43 @@
+name: Tsareena V
+
+origin: fusion-strike-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 200
+
+dex: 763
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Queen's Orders
+    text: You may discard any number of your Benched Pokémon. This attack does 40 more damage for each Benched Pokémon you discarded in this way.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

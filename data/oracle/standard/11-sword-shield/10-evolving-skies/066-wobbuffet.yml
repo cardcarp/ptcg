@@ -1,0 +1,50 @@
+name: Wobbuffet
+
+origin: evolving-skies-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 202
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mirror Pain
+    text: Put damage counters on your opponent's Active Pokémon equal to the number of damage counters on 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Headbutt Bounce
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

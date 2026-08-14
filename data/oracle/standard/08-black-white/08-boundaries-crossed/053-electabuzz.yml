@@ -1,0 +1,43 @@
+name: Electabuzz
+
+origin: boundaries-crossed-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 125
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Low Kick
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Magnetic Blast
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

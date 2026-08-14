@@ -1,0 +1,44 @@
+name: Nacli
+
+origin: paradox-rift-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 932
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Rock Throw
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Stone Edge
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

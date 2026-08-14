@@ -1,0 +1,47 @@
+name: Cinccino
+
+origin: temporal-forces-137
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Minccino
+
+dex: 573
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gentle Slap
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Special Roll
+    text: This attack does 70 damage for each Special Energy card attached to this Pokémon.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

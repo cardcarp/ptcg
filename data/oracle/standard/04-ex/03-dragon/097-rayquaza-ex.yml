@@ -1,0 +1,55 @@
+name: Rayquaza ex
+
+origin: dragon-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spiral Growth
+    text: Flip a coin until you get tails. For each heads, search your discard pile for a basic Energy card and attach it to Rayquaza ex.
+  - type: attack
+    cost:
+      - Fire
+      - Lightning
+    name: Dragon Burst
+    text: Discard either all Fire Energy or all Lightning Energy attached to Rayquaza ex. This attack does 40 damage times the amount of Fire or Lightning Energy discarded.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

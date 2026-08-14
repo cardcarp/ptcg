@@ -1,0 +1,45 @@
+name: Weepinbell
+
+origin: legends-awakened-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Bellsprout
+
+dex: 70
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Poisonpowder
+    text: The Defending Pokémon is now Poisoned.
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Razor Leaf
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

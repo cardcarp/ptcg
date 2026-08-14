@@ -1,0 +1,44 @@
+name: Meloetta
+
+origin: breakthrough-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 648
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Accelerating Spin
+    text: Attach 2 Fighting Energy cards from your discard pile to this Pokémon. Then, switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Prima Rondo
+    text: If this Pokémon has any Psychic Energy attached to it, this attack does 50 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

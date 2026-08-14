@@ -1,0 +1,40 @@
+name: Chimchar
+
+origin: majestic-dawn-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 390
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+rulebox:
+  - "Cheri Berry: If Chimchar is Paralyzed, remove the Special Condition Paralyzed from Chimchar at the end of each player's turn."
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Azumarill
+
+origin: fusion-strike-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Dive and Rescue
+    text: Put up to 3 in any combination of Pokémon and Supporter cards from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

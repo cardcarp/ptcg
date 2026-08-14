@@ -1,0 +1,49 @@
+name: Zarude V
+
+origin: vivid-voltage-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 210
+
+dex: 893
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bind Down
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Jungle Rising
+    text: You may attach up to 2 basic Energy cards from your hand to your Benched Pokémon in any way you like. If you attached Energy to a Pokémon in this way, heal all damage from that Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

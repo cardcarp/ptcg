@@ -1,0 +1,43 @@
+name: Buneary
+
+origin: pop-series-9-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 427
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dizzy Punch
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to Buneary by attacks during your opponent's next turn.
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

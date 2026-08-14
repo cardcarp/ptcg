@@ -1,0 +1,47 @@
+name: Seaking
+
+origin: diamond-pearl-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flail
+    text: Does 10 damage times the number of damage counters on Seaking.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Horn Drill
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,37 @@
+name: 'Type: Null'
+
+origin: pitch-black-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 772
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Power Edge
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

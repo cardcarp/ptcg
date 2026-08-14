@@ -1,0 +1,46 @@
+name: Emolga
+
+origin: crimson-invasion-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 587
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Catch
+    text: Put 3 basic Energy cards from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Lightning
+    name: Volt Switch
+    text: Switch this Pokémon with 1 of your Benched Lightning Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

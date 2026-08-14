@@ -1,0 +1,44 @@
+name: Tentacruel
+
+origin: legends-awakened-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Tentacool
+
+dex: 73
+
+rule:
+  - type: attack
+    name: Tentacle Strike
+    text: Search your opponent's discard pile for up to 2 Energy cards and attach them to any of your opponent's Pokémon in any way you like. For each Energy card attached in this way, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Dangerous Poison
+    text: If Tentacruel has less Energy attached to it than the Defending Pokémon, the Defending Pokémon is now Paralyzed and Poisoned.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

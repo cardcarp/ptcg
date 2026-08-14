@@ -1,0 +1,39 @@
+name: Relicanth
+
+origin: hidden-legends-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 369
+
+rule:
+  - type: ability
+    name: Deep Sleep
+    text: As long as Relicanth is your Active Pokémon, a player flips 2 coins for each of his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep.
+  - type: attack
+    cost:
+      - Water
+    name: Yawn
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

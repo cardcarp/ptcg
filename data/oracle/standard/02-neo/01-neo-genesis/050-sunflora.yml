@@ -1,0 +1,42 @@
+name: Sunflora
+
+origin: neo-genesis-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Sunkern
+
+dex: 192
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Petal Dance
+    text: Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage).
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

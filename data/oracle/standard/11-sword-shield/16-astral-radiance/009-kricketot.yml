@@ -1,0 +1,38 @@
+name: Kricketot
+
+origin: astral-radiance-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 401
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

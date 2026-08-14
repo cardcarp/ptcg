@@ -1,0 +1,42 @@
+name: Petilil
+
+origin: black-white-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 548
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Magical Leaf
+    text: Flip a coin. If heads, this attack does 10 more damage and heal 10 damage from this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

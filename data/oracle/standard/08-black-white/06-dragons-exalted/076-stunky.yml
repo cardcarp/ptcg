@@ -1,0 +1,41 @@
+name: Stunky
+
+origin: dragons-exalted-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 434
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Acid Spray
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

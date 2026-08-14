@@ -1,0 +1,49 @@
+name: Vaporeon V
+
+origin: sword-shield-black-star-150
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 210
+
+dex: 134
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Triple Draw
+    text: Draw 3 cards.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Splash Jump
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,58 @@
+name: Bastiodon
+
+origin: platinum-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Shieldon
+
+dex: 411
+
+rule:
+  - type: ability
+    name: Metal Trait
+    text: As long as Bastiodon has a Pokémon Tool attached to it, remove 1 damage counter from Bastiodon between turns.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Iron Defense
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Bastiodon during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Iron Tackle
+    text: Bastiodon does 30 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

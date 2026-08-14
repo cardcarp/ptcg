@@ -1,0 +1,47 @@
+name: M Slowbro-EX
+
+origin: evolutions-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Water
+
+hp: 220
+
+preevolution:
+  - Slowbro-EX
+
+dex: 80
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Loll Roll Spin
+    text: This Pokémon is now Confused. During your next turn, this Pokémon's Loll Roll Spin attack does 100 more damage (before applying Weakness and Resistance).
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

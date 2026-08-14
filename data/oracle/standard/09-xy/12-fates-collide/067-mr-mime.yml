@@ -1,0 +1,48 @@
+name: Mr. Mime
+
+origin: fates-collide-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 80
+
+dex: 122
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Mimic
+    text: Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Juggling
+    text: Flip 4 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

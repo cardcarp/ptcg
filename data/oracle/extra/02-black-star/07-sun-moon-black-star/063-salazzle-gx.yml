@@ -1,0 +1,57 @@
+name: Salazzle-GX
+
+origin: sun-moon-black-star-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Fire
+
+hp: 200
+
+preevolution:
+  - Salandit
+
+dex: 758
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Diabolical Claws
+    text: This attack does 50 damage for each Prize card you have taken.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Heat Blast
+    damage: 110
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Queen's Haze-GX
+    text: Discard all Energy from your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

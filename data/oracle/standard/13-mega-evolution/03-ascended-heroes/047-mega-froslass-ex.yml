@@ -1,0 +1,54 @@
+name: Mega Froslass ex
+
+origin: ascended-heroes-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - MEGA
+  - ex
+
+type:
+  - Water
+
+hp: 310
+
+preevolution:
+  - Snorunt
+
+dex: 478
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Resentful Refrain
+    text: This attack does 50 damage for each card in your opponent's hand.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Absolute Snow
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 150
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

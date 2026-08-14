@@ -1,0 +1,48 @@
+name: Rotom VSTAR
+
+origin: crown-zenith-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Lightning
+
+hp: 250
+
+preevolution:
+  - Rotom V
+
+dex: 479
+
+rule:
+  - type: ability
+    name: Conversion Star
+    text: During your turn, you may use this Ability. Discard any number of cards from your hand. Then, draw that many cards. (You can't use more than 1 VSTAR Power in a game.)
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Scrap Pulse
+    text: Put any number of Pokémon Tool cards from your discard pile in the Lost Zone. This attack does 40 more damage for each card you put in the Lost Zone in this way.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

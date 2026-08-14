@@ -1,0 +1,40 @@
+name: Drifloon
+
+origin: steam-siege-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 425
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Transfer Pain
+    text: Move 1 damage counter from 1 of your Pokémon to 1 of your opponent's Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Murkrow
+
+origin: skyridge-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 198
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Evil Eye
+    text: Choose 1 of your opponent's Pokémon. Put a damage counter on that Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Blindside
+    text: Choose 1 of your opponent's Pokémon that has a damage counter on it. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

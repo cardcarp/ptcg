@@ -1,0 +1,48 @@
+name: Simisear
+
+origin: emerging-powers-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Pansear
+
+dex: 514
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Water's Power
+    text: If this Pokémon has any Water Energy attached to it, the Defending Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy attached to this Pokémon.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

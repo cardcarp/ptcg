@@ -1,0 +1,46 @@
+name: Sealeo
+
+origin: cosmic-eclipse-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Spheal
+
+dex: 364
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Rollout
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Ice Ball
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Fletchinder
+
+origin: paldea-evolved-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Fletchling
+
+dex: 662
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Heat Dive
+    text: This Pokémon also does 10 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

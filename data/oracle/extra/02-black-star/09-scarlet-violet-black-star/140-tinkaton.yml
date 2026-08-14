@@ -1,0 +1,48 @@
+name: Tinkaton
+
+origin: scarlet-violet-black-star-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Tinkatuff
+
+dex: 959
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Wild Press
+    text: This Pokémon also does 60 damage to itself.
+    damage: 220
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

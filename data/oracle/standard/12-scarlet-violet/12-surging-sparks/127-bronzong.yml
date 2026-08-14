@@ -1,0 +1,54 @@
+name: Bronzong
+
+origin: surging-sparks-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Spinning Attack
+    damage: 50
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Double Impact
+    text: Flip 2 coins. This attack does 100 damage for each heads.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,39 @@
+name: Gastly
+
+origin: base-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 92
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Sleeping Gas
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Destiny Bond
+    text: Discard 1 Psychic Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon.
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

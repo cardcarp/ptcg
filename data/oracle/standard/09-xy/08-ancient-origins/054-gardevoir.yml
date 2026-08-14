@@ -1,0 +1,48 @@
+name: Gardevoir
+
+origin: ancient-origins-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fairy
+
+hp: 130
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: ability
+    name: Bright Heal
+    text: Once during your turn (before your attack), you may heal 20 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Telekinesis
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

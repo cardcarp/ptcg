@@ -1,0 +1,38 @@
+name: Binacle
+
+origin: flashfire-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 688
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

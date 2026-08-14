@@ -1,0 +1,47 @@
+name: Probopass
+
+origin: steam-siege-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Nosepass
+
+dex: 476
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Bounce Back
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Tomb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Hitmonlee
+
+origin: 151-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 106
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Twister Kick
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Low Kick
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

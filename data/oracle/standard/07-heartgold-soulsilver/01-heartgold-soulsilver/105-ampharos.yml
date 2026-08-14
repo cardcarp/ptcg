@@ -1,0 +1,51 @@
+name: Ampharos
+
+origin: heartgold-soulsilver-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Prime
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: ability
+    name: Conductivity
+    text: Whenever your opponent attaches an Energy card from his or her hand to 1 of his or her Pokémon, put 1 damage counter on that Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Lightning Crush
+    text: Flip a coin. If heads, this attack does 40 damage plus 40 more damage. If tails, discard an Energy attached to the Defending Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

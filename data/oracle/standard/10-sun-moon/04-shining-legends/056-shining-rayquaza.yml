@@ -1,0 +1,45 @@
+name: Shining Rayquaza
+
+origin: shining-legends-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Dragon Pulse
+    text: Discard the top 2 cards of your deck.
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Sky Judgment
+    text: Discard 3 Energy from this Pokémon.
+    damage: 190
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

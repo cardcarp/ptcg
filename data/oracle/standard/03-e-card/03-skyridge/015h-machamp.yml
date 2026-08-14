@@ -1,0 +1,53 @@
+name: Machamp
+
+origin: skyridge-015h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: ability
+    name: Immunity
+    text: Prevent all effects of your opponent's attacks done to Machamp.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Drag Off
+    text: Before doing damage, if your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon. If your opponent has no Benched Pokémon, ignore this effect.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hurricane Punch
+    text: Flip 4 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

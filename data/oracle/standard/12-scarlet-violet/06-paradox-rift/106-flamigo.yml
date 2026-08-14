@@ -1,0 +1,49 @@
+name: Flamigo
+
+origin: paradox-rift-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 973
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Peck
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Combat Beak
+    text: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

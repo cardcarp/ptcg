@@ -1,0 +1,51 @@
+name: Medicham
+
+origin: silver-tempest-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: ability
+    name: Chakra Awakening
+    text: If you have exactly 4 cards in your hand, this Pokémon's attacks cost ColorlessColorlessColorless less.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Vigorous Kick
+    text: If your opponent has any Pokémon VMAX in play, this attack does 90 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

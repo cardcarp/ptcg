@@ -1,0 +1,44 @@
+name: Landorus
+
+origin: lost-origin-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 645
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slap Push
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Smashing Edge
+    text: Discard 2 Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

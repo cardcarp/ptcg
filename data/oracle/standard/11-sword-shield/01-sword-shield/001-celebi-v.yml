@@ -1,0 +1,48 @@
+name: Celebi V
+
+origin: sword-shield-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 180
+
+dex: 251
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Find a Friend
+    text: Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Line Force
+    text: This attack does 20 more damage for each of your Benched Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

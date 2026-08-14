@@ -1,0 +1,49 @@
+name: Victini ex
+
+origin: scarlet-violet-black-star-142
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fire
+
+hp: 190
+
+dex: 494
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Victory Flame
+    text: During your next turn, this Pokémon can't attack.
+    damage: 220
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

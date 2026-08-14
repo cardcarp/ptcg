@@ -1,0 +1,38 @@
+name: Lickitung
+
+origin: detective-pikachu-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 108
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Continuous Lick
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

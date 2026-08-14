@@ -1,0 +1,41 @@
+name: Snorunt
+
+origin: mysterious-treasures-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 361
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Water
+    name: Snowball
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

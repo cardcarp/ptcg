@@ -1,0 +1,51 @@
+name: Corvisquire
+
+origin: sword-shield-151
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Rookidee
+
+dex: 822
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pluck
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drill Peck
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

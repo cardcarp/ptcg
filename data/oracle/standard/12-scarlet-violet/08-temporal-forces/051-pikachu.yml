@@ -1,0 +1,36 @@
+name: Pikachu
+
+origin: temporal-forces-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Random Spark
+    text: This attack does 10 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

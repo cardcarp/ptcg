@@ -1,0 +1,41 @@
+name: Cosmog
+
+origin: celebrations-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 789
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Star Protection
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

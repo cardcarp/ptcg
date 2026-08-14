@@ -1,0 +1,44 @@
+name: Houndour
+
+origin: shrouded-fable-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 228
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Rear Kick
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

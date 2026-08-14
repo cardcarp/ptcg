@@ -1,0 +1,51 @@
+name: Hippowdon
+
+origin: darkness-ablaze-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Hippopotas
+
+dex: 450
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Triple Smash
+    text: Flip 3 coins. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Land Crush
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - D
+
+errata: []

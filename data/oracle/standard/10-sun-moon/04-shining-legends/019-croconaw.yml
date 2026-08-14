@@ -1,0 +1,43 @@
+name: Croconaw
+
+origin: shining-legends-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: ability
+    name: Plunge
+    text: Once during your turn (before your attack), if this Pokémon is on your Bench, you may move all Energy from your Active Pokémon to this Pokémon. If you do, switch it with your Active Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Charizard
+
+origin: dragon-majesty-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 160
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: ability
+    name: Resolute Flame
+    text: This Pokémon's attacks do 30 more damage to your opponent's Active Pokémon for each of their Pokémon-GX and Pokémon-EX in play.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fiery Blast
+    text: Discard an Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

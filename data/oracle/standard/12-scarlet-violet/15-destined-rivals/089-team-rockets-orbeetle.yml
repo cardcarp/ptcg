@@ -1,0 +1,51 @@
+name: Team Rocket's Orbeetle
+
+origin: destined-rivals-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Team Rocket's Dottler
+
+dex: 826
+
+rule:
+  - type: ability
+    name: Rocket Brain
+    text: As often as you like during your turn, you may move 1 damage counter from 1 of your Team Rocket's Pokémon to another of your Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 40 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

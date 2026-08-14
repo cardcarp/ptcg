@@ -1,0 +1,44 @@
+name: Cyclizar
+
+origin: scarlet-violet-black-star-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 967
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flat-Out Dash
+    text: Flip a coin until you get tails. For each heads, draw a card.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Tackle
+    text: During your next turn, this Pokémon can't attack.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

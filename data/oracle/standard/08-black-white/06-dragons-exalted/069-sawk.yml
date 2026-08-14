@@ -1,0 +1,44 @@
+name: Sawk
+
+origin: dragons-exalted-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 539
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Defensive Stance
+    text: Heal 30 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Karate Chop
+    text: Does 70 damage minus 10 damage for each damage counter on this Pokémon.
+    damage: 70
+    modifier: '-'
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

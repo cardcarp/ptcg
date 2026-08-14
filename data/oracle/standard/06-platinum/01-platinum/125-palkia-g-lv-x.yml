@@ -1,0 +1,48 @@
+name: Palkia G LV.X
+
+origin: platinum-125
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+  - SP
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Palkia G
+
+dex: 484
+
+rule:
+  - type: ability
+    name: Lost Cyclone
+    text: Once during your turn (before your attack), you may use this power. Any player who has 4 or more Benched Pokémon chooses 3 of his or her Benched Pokémon. Put the other Benched Pokémon and all cards attached to them in the Lost Zone. (You choose your Pokémon first.) This power can't be used it Palkia G is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Shot
+    text: Discard 2 Energy attached to Palkia G. Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - Put this card onto your Active Palkia G. Palkia G LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

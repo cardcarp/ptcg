@@ -1,0 +1,38 @@
+name: Moltres
+
+origin: phantasmal-flames-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 146
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Fighting Wings
+    text: If your opponent's Active Pokémon is a Pokémon ex, this attack does 90 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,52 @@
+name: Ho-Oh
+
+origin: call-of-legends-005sl
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 250
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Combustion
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Scorching Wing
+    text: Flip a coin. If tails, discard all Fire Energy attached to Ho-Oh.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

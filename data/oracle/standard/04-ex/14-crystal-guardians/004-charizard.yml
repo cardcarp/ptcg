@@ -1,0 +1,50 @@
+name: Charizard δ
+
+origin: crystal-guardians-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Lightning
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: ability
+    name: Peal of Thunder
+    text: Once during your turn, when you play Charizard from your hand to evolve 1 of your Pokémon, you may look at the top 5 cards of your deck, choose as many Energy cards as you like, and attach them to 1 of your Pokémon. Discard the other cards.
+  - type: attack
+    cost:
+      - Lightning
+      - Metal
+      - Metal
+      - Colorless
+    name: Metal Burn
+    text: Discard all Metal Energy attached to Charizard.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Lightning Metal type.
+
+regulation:
+
+errata: []

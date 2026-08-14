@@ -1,0 +1,43 @@
+name: Misdreavus
+
+origin: platinum-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 200
+
+rule:
+  - type: attack
+    name: Take Back
+    text: Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Centiskorch V
+
+origin: darkness-ablaze-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 210
+
+dex: 851
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Radiating Heat
+    text: You may discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: Burning Train
+    damage: 180
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

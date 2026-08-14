@@ -1,0 +1,57 @@
+name: Latias ☆
+
+origin: deoxys-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 380
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Healing Light
+    text: Remove 1 damage counter from each of your Pokémon (including Latias Star).
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Psychic
+    name: Shooting Star
+    text: If the Defending Pokémon is Pokémon-ex, discard all Energy cards attached to Latias Star and this attack does 50 damage plus 100 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

@@ -1,0 +1,35 @@
+name: Spinarak
+
+origin: aquapolis-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 167
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Sharp Stinger
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

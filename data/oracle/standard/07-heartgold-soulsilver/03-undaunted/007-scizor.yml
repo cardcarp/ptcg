@@ -1,0 +1,51 @@
+name: Scizor
+
+origin: undaunted-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Scyther
+
+dex: 212
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Cut
+    damage: 50
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

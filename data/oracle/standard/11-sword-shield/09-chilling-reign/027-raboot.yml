@@ -1,0 +1,42 @@
+name: Raboot
+
+origin: chilling-reign-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Scorbunny
+
+dex: 814
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Volley Kick
+    text: During your next turn, this Pokémon can't attack.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

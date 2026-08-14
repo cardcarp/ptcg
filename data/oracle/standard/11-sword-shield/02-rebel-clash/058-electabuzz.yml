@@ -1,0 +1,43 @@
+name: Electabuzz
+
+origin: rebel-clash-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 125
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Knuckle Punch
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electroslug
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

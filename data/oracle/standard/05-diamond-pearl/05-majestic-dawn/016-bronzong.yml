@@ -1,0 +1,52 @@
+name: Bronzong
+
+origin: majestic-dawn-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: ability
+    name: Cursed Alloy
+    text: As long as Bronzong is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon that has any Poké-Powers between turns.
+  - type: attack
+    name: Pain Amplifier
+    text: Put 1 damage counter on each of your opponent's Pokémon that already has damage counters on it.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Coating
+    text: During your opponent's next turn, any damage done to Bronzong by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fire
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Jolteon
+
+origin: vivid-voltage-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: ability
+    name: Thunderous Awakening
+    text: If this Pokémon has a Memory Capsule attached, Water Pokémon in play (both yours and your opponent's) have no Abilities.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electric Ball
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,38 @@
+name: Larvitar
+
+origin: journey-together-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 246
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,44 @@
+name: Shinx
+
+origin: mysterious-treasures-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 403
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Plasma
+    text: Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Shinx.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - "Rawst Berry: If Shinx is Burned, remove the Special Condition Burned from Shinx at the end of each player's turn."
+
+regulation:
+
+errata: []

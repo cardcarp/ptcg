@@ -1,0 +1,48 @@
+name: Aromatisse
+
+origin: xy-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Spritzee
+
+dex: 683
+
+rule:
+  - type: ability
+    name: Fairy Transfer
+    text: As often as you like during your turn (before your attack), you may move a Fairy Energy attached to 1 of your Pokémon to another of your Pokémon.
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Fairy Wind
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

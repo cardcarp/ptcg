@@ -1,0 +1,46 @@
+name: Noctowl
+
+origin: temporal-forces-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Hoothoot
+
+dex: 164
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Talon Hunt
+    text: You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,40 @@
+name: Victini
+
+origin: sun-moon-black-star-225
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 494
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Victory Sign
+    text: Search your deck for up to 2 basic Energy cards of different types and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

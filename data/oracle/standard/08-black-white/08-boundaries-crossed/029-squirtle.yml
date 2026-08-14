@@ -1,0 +1,41 @@
+name: Squirtle
+
+origin: boundaries-crossed-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 7
+
+rule:
+  - type: ability
+    name: Shell Shield
+    text: As along as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Splash
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

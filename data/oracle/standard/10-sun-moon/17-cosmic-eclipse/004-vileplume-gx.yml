@@ -1,0 +1,54 @@
+name: Vileplume-GX
+
+origin: cosmic-eclipse-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Grass
+
+hp: 240
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: ability
+    name: Fragrant Flower Garden
+    text: Once during your turn (before your attack), you may heal 30 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Massive Bloom
+    text: This attack does 10 less damage for each damage counter on this Pokémon.
+    damage: 180
+    modifier: '-'
+  - type: attack
+    cost:
+      - Grass
+    name: Allergic Explosion-GX
+    text: Your opponent's Active Pokémon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

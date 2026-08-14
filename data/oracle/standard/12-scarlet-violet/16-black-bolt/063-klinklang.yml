@@ -1,0 +1,49 @@
+name: Klinklang
+
+origin: black-bolt-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Klang
+
+dex: 601
+
+rule:
+  - type: ability
+    name: Gear Coating
+    text: All of your Pokémon that have any Metal Energy attached take 20 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

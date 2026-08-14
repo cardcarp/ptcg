@@ -1,0 +1,43 @@
+name: Meditite
+
+origin: diamond-pearl-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 307
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Detect
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Meditite during your opponent's next turn.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Meditate
+    text: Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Clawitzer
+
+origin: scarlet-violet-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Clauncher
+
+dex: 693
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 50
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Cannon
+    text: During your next turn, this Pokémon can't attack.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,45 @@
+name: Servine
+
+origin: black-white-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Snivy
+
+dex: 496
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Wring Out
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy attached to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Hawlucha
+
+origin: silver-tempest-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 701
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Allure
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Acrobatics
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,55 @@
+name: Vibrava
+
+origin: power-keepers-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Trapinch
+
+dex: 329
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+      - Colorless
+    name: Dragonbreath
+    text: Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 60
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

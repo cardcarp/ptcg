@@ -1,0 +1,47 @@
+name: Koraidon
+
+origin: surging-sparks-116
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ancient
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 1007
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Unrelenting Onslaught
+    text: If 1 of your other Ancient Pokémon used an attack during your last turn, this attack does 150 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Hammer In
+    damage: 110
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,48 @@
+name: N's Sigilyph
+
+origin: journey-together-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 561
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psychic Sphere
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Victory Symbol
+    text: If you use this attack when you have exactly 1 Prize card remaining, you win this game.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,42 @@
+name: Golduck
+
+origin: boundaries-crossed-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Confuse Ray
+    text: The Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

@@ -1,0 +1,55 @@
+name: Hydreigon
+
+origin: plasma-freeze-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Team Plasma
+
+type:
+  - Darkness
+
+hp: 150
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Tractorbeam
+    text: Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. This attack does 40 damage to the new Defending Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Obsidian Fang
+    text: Before doing damage, discard all Pokémon Tool cards attached to the Defending Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

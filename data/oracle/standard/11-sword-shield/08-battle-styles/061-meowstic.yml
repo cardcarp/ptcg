@@ -1,0 +1,48 @@
+name: Meowstic
+
+origin: battle-styles-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Espurr
+
+dex: 678
+
+rule:
+  - type: ability
+    name: Ear Moves
+    text: Once during your turn, you may move 1 damage counter from 1 of your Pokémon to 1 of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic Sphere
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

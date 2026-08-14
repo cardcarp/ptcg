@@ -1,0 +1,45 @@
+name: Dottler
+
+origin: paradox-rift-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Blipbug
+
+dex: 825
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Protect
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Zen Headbutt
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

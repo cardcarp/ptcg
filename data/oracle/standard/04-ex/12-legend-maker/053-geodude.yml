@@ -1,0 +1,37 @@
+name: Geodude
+
+origin: legend-maker-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 74
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Selfdestruct
+    text: Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) Geodude does 50 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

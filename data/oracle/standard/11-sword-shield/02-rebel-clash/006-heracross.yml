@@ -1,0 +1,45 @@
+name: Heracross
+
+origin: rebel-clash-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 214
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Push Down
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Superpowered Horns
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

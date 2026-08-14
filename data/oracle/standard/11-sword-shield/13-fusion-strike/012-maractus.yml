@@ -1,0 +1,44 @@
+name: Maractus
+
+origin: fusion-strike-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 556
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Peck
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ditch and Shake
+    text: Discard any number of Pokémon Tool cards from your hand. This attack does 50 damage for each card you discarded in this way.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,40 @@
+name: Gastly
+
+origin: fossil-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 92
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Lick
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Energy Conversion
+    text: Put up to 2 Energy cards from your discard pile into your hand. Gastly does 10 damage to itself.
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

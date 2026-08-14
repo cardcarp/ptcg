@@ -1,0 +1,51 @@
+name: Sylveon
+
+origin: xy-black-star-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 700
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Disarming Voice
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Fairy Wind
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

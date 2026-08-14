@@ -1,0 +1,53 @@
+name: Mandibuzz
+
+origin: emerging-powers-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Vullaby
+
+dex: 630
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Bone Rush
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dark Pulse
+    text: Does 10 more damage for each Darkness Energy attached to all of your Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

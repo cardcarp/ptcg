@@ -1,0 +1,52 @@
+name: Dark Pupitar
+
+origin: team-rocket-returns-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dark Streak
+    text: Flip a coin. If heads, each Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Tumble
+    text: This attack's damage is not affected by Resistance.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Fighting Darkness type.
+
+regulation:
+
+errata: []

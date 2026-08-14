@@ -1,0 +1,51 @@
+name: Tangrowth
+
+origin: mega-evolution-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Tangela
+
+dex: 465
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Absorb
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Pumped-Up Whip
+    text: If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack does 140 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - I
+
+errata: []

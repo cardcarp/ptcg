@@ -1,0 +1,42 @@
+name: Luxio
+
+origin: rebel-clash-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: ability
+    name: Top Entry
+    text: Once during your turn, if you drew this Pokémon from your deck at the beginning of your turn and your Bench isn't full, before you put it into your hand, you may put it onto your Bench.
+  - type: attack
+    cost:
+      - Lightning
+    name: Zap Kick
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

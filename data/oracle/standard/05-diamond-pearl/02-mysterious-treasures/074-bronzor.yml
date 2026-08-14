@@ -1,0 +1,42 @@
+name: Bronzor
+
+origin: mysterious-treasures-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 436
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Dull Light
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

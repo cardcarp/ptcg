@@ -1,0 +1,42 @@
+name: Krabby
+
+origin: sword-shield-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 98
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Aqua Shower
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Vise Grip
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

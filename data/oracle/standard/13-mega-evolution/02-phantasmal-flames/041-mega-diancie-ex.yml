@@ -1,0 +1,47 @@
+name: Mega Diancie ex
+
+origin: phantasmal-flames-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Psychic
+
+hp: 270
+
+dex: 719
+
+rule:
+  - type: ability
+    name: Diamond Coat
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Garland Ray
+    text: Discard up to 2 Energy cards from this Pokémon, and this attack does 120 damage for each card you discarded in this way.
+    damage: 120
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

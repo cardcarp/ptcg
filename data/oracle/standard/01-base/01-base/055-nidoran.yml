@@ -1,0 +1,36 @@
+name: Nidoran ♂
+
+origin: base-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 32
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Horn Hazard
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Masquerain
+
+origin: supreme-victors-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Surskit
+
+dex: 284
+
+rule:
+  - type: ability
+    name: Intimidating Pattern
+    text: As long as Masquerain is your Active Pokémon, any damage done by an opponent's attack is reduced by 20 (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Grass
+    name: Skim Attack
+    text: Draw 2 cards.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

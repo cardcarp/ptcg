@@ -1,0 +1,49 @@
+name: Armaldo
+
+origin: cosmic-eclipse-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Anorith
+
+dex: 348
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ancient Blast
+    text: This attack does 50 more damage for each Unidentified Fossil card in your discard pile.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mach Claw
+    text: This attack's damage isn't affected by Resistance.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

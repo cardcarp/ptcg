@@ -1,0 +1,43 @@
+name: Wartortle
+
+origin: unbroken-bonds-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Squirtle
+
+dex: 8
+
+rule:
+  - type: ability
+    name: Solid Shell
+    text: This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Aqua Slash
+    text: This Pokémon can't attack during your next turn.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

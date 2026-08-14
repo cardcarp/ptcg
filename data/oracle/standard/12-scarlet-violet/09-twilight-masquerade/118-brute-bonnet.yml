@@ -1,0 +1,46 @@
+name: Brute Bonnet
+
+origin: twilight-masquerade-118
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ancient
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 986
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Poison Spray
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Relentless Punches
+    text: This attack does 50 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,38 @@
+name: Feebas
+
+origin: twilight-masquerade-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 349
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Flail
+    text: This attack does 10 damage for each damage counter on this Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

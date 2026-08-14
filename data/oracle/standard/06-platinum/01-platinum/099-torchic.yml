@@ -1,0 +1,39 @@
+name: Torchic
+
+origin: platinum-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 255
+
+rule:
+  - type: attack
+    name: Focus Energy
+    text: During your next turn, Torchic's Fire Shard attack's base damage is 80.
+  - type: attack
+    cost:
+      - Fire
+    name: Fire Shard
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

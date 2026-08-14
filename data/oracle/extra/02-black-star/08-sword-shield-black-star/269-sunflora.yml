@@ -1,0 +1,42 @@
+name: Sunflora
+
+origin: sword-shield-black-star-269
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Sunkern
+
+dex: 192
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bright Beam
+    text: You may discard up to 3 Energy cards from your hand. This attack does 70 more damage for each card you discarded in this way.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

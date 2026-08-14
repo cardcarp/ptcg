@@ -1,0 +1,46 @@
+name: Giratina-EX
+
+origin: ancient-origins-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 170
+
+dex: 487
+
+rule:
+  - type: ability
+    name: Renegade Pulse
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Mega Evolution Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Chaos Wheel
+    text: Your opponent can't play any Pokémon Tool, Special Energy, or Stadium cards from his or her hand during his or her next turn.
+    damage: 100
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Annihilape
+
+origin: scarlet-violet-109
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Primeape
+
+dex: 979
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Rage Fist
+    text: This attack does 70 damage for each Prize card your opponent has taken.
+    damage: 70
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Dynamite Punch
+    text: This Pokémon also does 50 damage to itself.
+    damage: 170
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

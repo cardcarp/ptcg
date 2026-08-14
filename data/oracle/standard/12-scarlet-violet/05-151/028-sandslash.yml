@@ -1,0 +1,49 @@
+name: Sandslash
+
+origin: 151-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Sandshrew
+
+dex: 28
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Rumble
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Spike Rend
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 100 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

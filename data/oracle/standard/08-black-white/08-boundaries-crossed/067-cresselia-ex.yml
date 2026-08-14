@@ -1,0 +1,46 @@
+name: Cresselia-EX
+
+origin: boundaries-crossed-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 488
+
+rule:
+  - type: ability
+    name: Sparkling Particles
+    text: At any time between turns, heal 10 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psychic Protection
+    text: During your opponent's next turn, this Pokémon has no Weakness.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,51 @@
+name: Zacian V
+
+origin: sword-shield-black-star-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Metal
+
+hp: 220
+
+dex: 888
+
+rule:
+  - type: ability
+    name: Intrepid Sword
+    text: Once during your turn, you may look at the top 3 cards of your deck and attach any number of Metal Energy cards you find there to this Pokémon. Put the other cards into your hand. If you use this Ability, your turn ends.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+    name: Brave Blade
+    text: During your next turn, this Pokémon can't attack.
+    damage: 230
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

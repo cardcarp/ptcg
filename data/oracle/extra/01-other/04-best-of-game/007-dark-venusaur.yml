@@ -1,0 +1,41 @@
+name: Dark Venusaur
+
+origin: best-of-game-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Dark Ivysaur
+
+dex: 3
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Horrid Pollen
+    text: Flip 2 coins. If 1 is heads, the Defending Pokémon is now Asleep and Poisoned. If both are heads, the Defending Pokémon is now Confused and Poisoned. If both are tails, the Defending Pokémon is now Paralyzed and Poisoned.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

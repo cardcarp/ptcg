@@ -1,0 +1,38 @@
+name: Torchic
+
+origin: great-encounters-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 255
+
+rule:
+  - type: attack
+    name: Peck
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+    name: Singe
+    text: The Defending Pokémon is now Burned.
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

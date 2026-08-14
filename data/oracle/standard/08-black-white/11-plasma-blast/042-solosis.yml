@@ -1,0 +1,35 @@
+name: Solosis
+
+origin: plasma-blast-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 577
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Hide
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,56 @@
+name: Hearthflame Mask Ogerpon ex
+
+origin: twilight-masquerade-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Fire
+
+hp: 210
+
+dex: 1017
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Wrathful Hearth
+    text: This attack does 20 damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Dynamic Blaze
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 140 more damage, and discard all Energy from this Pokémon.
+    damage: 140
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - H
+
+errata: []

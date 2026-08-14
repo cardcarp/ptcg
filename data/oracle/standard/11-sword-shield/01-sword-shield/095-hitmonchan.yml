@@ -1,0 +1,44 @@
+name: Hitmonchan
+
+origin: sword-shield-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 107
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Coordinated Beatdown
+    text: If Hitmonlee is on your Bench, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Mach Cross
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

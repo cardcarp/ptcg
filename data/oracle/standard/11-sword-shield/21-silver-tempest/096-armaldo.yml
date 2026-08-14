@@ -1,0 +1,46 @@
+name: Armaldo
+
+origin: silver-tempest-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Anorith
+
+dex: 348
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Reaping Claw
+    text: If your opponent's Active Pokémon has 100 HP or less remaining, it is Knocked Out.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Boulder Crush
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

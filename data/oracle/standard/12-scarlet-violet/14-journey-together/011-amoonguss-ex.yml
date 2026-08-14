@@ -1,0 +1,49 @@
+name: Amoonguss ex
+
+origin: journey-together-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 260
+
+dex: 591
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Spore Ball
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Champignon's Swing
+    text: Flip a coin. If heads, this attack does 80 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

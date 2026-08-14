@@ -1,0 +1,49 @@
+name: Donphan
+
+origin: paldean-fates-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Phanpy
+
+dex: 232
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cragalanche
+    text: Discard the top 2 cards of your opponent's deck.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Powerful Spin
+    text: During your next turn, this Pokémon can't attack.
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,39 @@
+name: Diglett
+
+origin: evolutions-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 50
+
+rule:
+  - type: ability
+    name: Submerge
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dig Through
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

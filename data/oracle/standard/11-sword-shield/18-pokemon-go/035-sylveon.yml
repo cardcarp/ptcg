@@ -1,0 +1,48 @@
+name: Sylveon
+
+origin: pokemon-go-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Eevee
+
+dex: 700
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Souvenir
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wonder Flash
+    text: If your opponent's Active Pokémon is a Dragon Pokémon, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

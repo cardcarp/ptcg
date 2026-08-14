@@ -1,0 +1,41 @@
+name: Pidgey
+
+origin: obsidian-flames-162
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 16
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gust
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,52 @@
+name: Mega Heracross ex
+
+origin: phantasmal-flames-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Grass
+
+hp: 280
+
+dex: 214
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Juggernaut Horn
+    text: If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage.
+    damage: 100
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Mountain Ramming
+    text: Discard the top 2 cards of your opponent's deck.
+    damage: 170
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

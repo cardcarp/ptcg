@@ -1,0 +1,43 @@
+name: Misty's Seel
+
+origin: gym-challenge-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 86
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Frostbite
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Mirage
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Medicham
+
+origin: primal-clash-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Pure Power
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Windmill Kick
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Sharpedo
+
+origin: sun-moon-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: ability
+    name: Rough Skin
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Aqua Impact
+    text: This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

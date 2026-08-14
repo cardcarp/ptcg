@@ -1,0 +1,52 @@
+name: Bronzong
+
+origin: arceus-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Oracle Arrow
+    text: Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Antigravity
+    text: The Retreat Cost for Bronzong is 0 until the end of your next turn.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Magnemite
+
+origin: mega-evolution-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 81
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Beam
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

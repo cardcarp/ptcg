@@ -1,0 +1,50 @@
+name: Ash's Pikachu
+
+origin: sun-moon-black-star-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Iron Tail
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunderbolt
+    text: Discard all Energy from this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

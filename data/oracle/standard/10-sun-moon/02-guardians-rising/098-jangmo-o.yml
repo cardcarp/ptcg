@@ -1,0 +1,39 @@
+name: Jangmo-o
+
+origin: guardians-rising-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 782
+
+rule:
+  - type: ability
+    name: Bulletproof
+    text: This Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Lightning
+      - Fighting
+    name: Dragon Claw
+    damage: 30
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

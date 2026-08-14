@@ -1,0 +1,45 @@
+name: Landorus
+
+origin: fusion-strike-148
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 645
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Earthen Boom
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you like.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,47 @@
+name: Rayquaza ex δ
+
+origin: dragon-frontiers-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 384
+
+rule:
+  - type: ability
+    name: Rage Aura
+    text: If you have more Prize cards left than your opponent, ignore all Colorless Energy necessary to use Rayquaza ex's Special Circuit and Sky-high Claws attacks.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Special Circuit
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to the Pokémon. If you choose a Pokémon that has any Poké-Powers or Poké-Bodies, this attack does 50 damage instead. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Sky-high Claws
+    damage: 70
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Raichu
+
+origin: power-keepers-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Plasma
+    text: Search your discard pile for a Lightning Energy card and attach it to Raichu.
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunderbolt
+    text: Discard all Energy cards attached to Raichu.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

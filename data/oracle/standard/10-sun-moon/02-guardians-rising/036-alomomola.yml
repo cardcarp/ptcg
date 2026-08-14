@@ -1,0 +1,42 @@
+name: Alomomola
+
+origin: guardians-rising-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 594
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Borne Ashore
+    text: Put a Basic Pokémon from either player's discard pile onto its owner's Bench.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Splash
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Furret
+
+origin: journey-together-119
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 162
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jet Headbutt
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

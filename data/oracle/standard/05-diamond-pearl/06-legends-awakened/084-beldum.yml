@@ -1,0 +1,46 @@
+name: Beldum
+
+origin: legends-awakened-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 374
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Allure
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

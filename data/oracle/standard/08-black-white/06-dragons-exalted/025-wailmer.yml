@@ -1,0 +1,42 @@
+name: Wailmer
+
+origin: dragons-exalted-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 320
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lullaby
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Water Gun
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

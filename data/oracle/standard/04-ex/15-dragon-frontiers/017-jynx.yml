@@ -1,0 +1,40 @@
+name: Jynx δ
+
+origin: dragon-frontiers-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 124
+
+rule:
+  - type: ability
+    name: Stages of Evolution
+    text: As long as Jynx is an Evolved Pokémon, you pay Colorless less to retreat your Fire and Psychic Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Punch
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

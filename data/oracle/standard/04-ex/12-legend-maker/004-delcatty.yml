@@ -1,0 +1,49 @@
+name: Delcatty
+
+origin: legend-maker-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Skitty
+
+dex: 301
+
+rule:
+  - type: ability
+    name: Reactive Shift
+    text: Once during your turn (before your attack), you may move a React Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Delcatty is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Link
+    text: Search your discard pile for an Energy card and attach it to Delcatty.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tail Whap
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

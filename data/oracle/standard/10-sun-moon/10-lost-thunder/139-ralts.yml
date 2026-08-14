@@ -1,0 +1,46 @@
+name: Ralts
+
+origin: lost-thunder-139
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 50
+
+dex: 280
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Beckon
+    text: Put a Supporter card from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Beat
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Raticate
+
+origin: 151-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Second Bite
+    text: This attack does 30 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+  - G
+
+errata: []

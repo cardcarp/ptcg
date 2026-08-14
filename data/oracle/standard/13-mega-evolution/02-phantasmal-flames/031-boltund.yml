@@ -1,0 +1,42 @@
+name: Boltund
+
+origin: phantasmal-flames-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Yamper
+
+dex: 836
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electric Run
+    text: Flip a coin. If heads, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

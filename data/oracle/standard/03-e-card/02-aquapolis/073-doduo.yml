@@ -1,0 +1,46 @@
+name: Doduo
+
+origin: aquapolis-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 84
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Super Speed
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Doduo.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rear Kick
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

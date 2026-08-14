@@ -1,0 +1,45 @@
+name: Swellow
+
+origin: ruby-sapphire-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Taillow
+
+dex: 277
+
+rule:
+  - type: ability
+    name: Drive Off
+    text: Once during your turn (before your attack), if Swellow is your Active Pokémon, you may switch 1 of the Defending Pokémon with 1 of your opponent's Benched Pokémon. Your opponent picks the Benched Pokémon to switch. This power can't be used if Swellow is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

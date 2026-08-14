@@ -1,0 +1,44 @@
+name: Umbreon
+
+origin: sword-shield-black-star-129
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 197
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Blindside
+    text: This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Moon Mirage
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

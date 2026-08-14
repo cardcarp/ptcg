@@ -1,0 +1,46 @@
+name: Xatu
+
+origin: legendary-treasures-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Fortunate Draw
+    text: You and your opponent play Rock-Paper-Scissors. The player who wins draws 3 cards. The player who loses discards the top 3 cards of his or her deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Miracle Wing
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

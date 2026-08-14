@@ -1,0 +1,62 @@
+name: Umbreon-GX
+
+origin: sun-moon-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Darkness
+
+hp: 200
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Shadow Bullet
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 90
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Call-GX
+    text: Discard 2 Energy from your opponent's Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

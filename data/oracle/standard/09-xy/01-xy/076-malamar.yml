@@ -1,0 +1,51 @@
+name: Malamar
+
+origin: xy-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Inkay
+
+dex: 687
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Mental Trash
+    text: Your opponent flips 4 coins. For each tails, he or she discards a card from his or her hand.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Distortion Beam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Asleep. If tails, your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

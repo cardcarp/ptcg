@@ -1,0 +1,45 @@
+name: Manectric
+
+origin: sun-moon-black-star-130
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: ability
+    name: Electric Start
+    text: If you go second, and if this Pokémon is in your hand when you are setting up to play, you may put it face down as your Active Pokémon or on your Bench.
+  - type: attack
+    cost:
+      - Lightning
+    name: Double Charge
+    text: You may attach up to 2 basic Energy cards from your hand to 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

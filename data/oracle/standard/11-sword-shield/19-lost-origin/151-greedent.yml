@@ -1,0 +1,47 @@
+name: Greedent
+
+origin: lost-origin-151
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Skwovet
+
+dex: 820
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spill Out
+    text: Discard your hand. If you discarded 5 or more cards in this way, this attack does 150 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

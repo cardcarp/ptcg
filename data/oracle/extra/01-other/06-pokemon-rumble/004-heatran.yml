@@ -1,0 +1,40 @@
+name: Heatran
+
+origin: pokemon-rumble-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 485
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heat Boiler
+    text: If the Defending Pokémon is a Water Pokémon, this attack does 60 damage plus 40 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

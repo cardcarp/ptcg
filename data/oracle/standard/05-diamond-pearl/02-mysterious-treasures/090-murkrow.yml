@@ -1,0 +1,45 @@
+name: Murkrow
+
+origin: mysterious-treasures-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 198
+
+rule:
+  - type: attack
+    name: Swarm
+    text: Search your deck for Murkrow and put it onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hide Crowd
+    text: Switch Murkrow with 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

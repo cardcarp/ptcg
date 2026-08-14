@@ -1,0 +1,50 @@
+name: Luxray
+
+origin: diamond-pearl-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: ability
+    name: Gleam Eyes
+    text: Once during your turn, when you play Luxray from your hand to evolve 1 of your Pokémon, you may look at your opponent's hand. If your opponent's Bench isn't full, choose 1 Basic Pokémon from your opponent's hand, and put it onto his or her Bench. Then, switch it with the Defending Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Lightning Star
+    text: Move all Lightning Energy attached to Luxray to 1 of your Benched Pokémon. (Ignore this effect if you don't have any Benched Pokémon.)
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

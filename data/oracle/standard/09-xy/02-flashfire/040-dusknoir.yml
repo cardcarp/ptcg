@@ -1,0 +1,48 @@
+name: Dusknoir
+
+origin: flashfire-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Dusclops
+
+dex: 477
+
+rule:
+  - type: ability
+    name: Shadow Void
+    text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to this Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Pain Pellets
+    text: Put damage counters on 1 of your opponent's Pokémon equal to the number of damage counters on this Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

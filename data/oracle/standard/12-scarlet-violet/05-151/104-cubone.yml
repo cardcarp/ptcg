@@ -1,0 +1,41 @@
+name: Cubone
+
+origin: 151-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 104
+
+rule:
+  - type: ability
+    name: Cheering Bone
+    text: As long as this Pokémon is on your Bench, attacks used by your Marowak do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+    name: Hit Twice
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

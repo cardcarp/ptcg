@@ -1,0 +1,37 @@
+name: Salandit
+
+origin: stellar-crown-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 757
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Ember
+    text: Discard an Energy from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

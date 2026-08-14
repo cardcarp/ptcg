@@ -1,0 +1,44 @@
+name: Sawsbuck
+
+origin: temporal-forces-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Deerling
+
+dex: 586
+
+rule:
+  - type: ability
+    name: Changing Seasons
+    text: Once during your turn, you may search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Superpowered Horns
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

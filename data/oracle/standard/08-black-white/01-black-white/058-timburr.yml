@@ -1,0 +1,36 @@
+name: Timburr
+
+origin: black-white-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 532
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Pound
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

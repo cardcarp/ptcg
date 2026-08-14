@@ -1,0 +1,47 @@
+name: Breloom
+
+origin: fusion-strike-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Shroomish
+
+dex: 286
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Headbutt
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Impact Blow
+    text: During your next turn, this Pokémon can't use Impact Blow.
+    damage: 150
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

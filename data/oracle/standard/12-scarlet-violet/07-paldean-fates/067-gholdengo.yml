@@ -1,0 +1,53 @@
+name: Gholdengo
+
+origin: paldean-fates-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Gimmighoul
+
+dex: 1000
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lavish Hospitality
+    text: You may attach any number of Basic Metal Energy cards from your hand to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Scintillating Surfing
+    text: Flip a coin for each Metal Energy attached to this Pokémon. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

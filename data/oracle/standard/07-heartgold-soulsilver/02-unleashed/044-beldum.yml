@@ -1,0 +1,36 @@
+name: Beldum
+
+origin: unleashed-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 374
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Reaction
+    text: You may switch Beldum with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

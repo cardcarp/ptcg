@@ -1,0 +1,57 @@
+name: Lugia-EX
+
+origin: ancient-origins-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Colorless
+
+hp: 170
+
+dex: 249
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aero Ball
+    text: This attack does 20 damage times the amount of Energy attached to both Active Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Deep Hurricane
+    text: If there is any Stadium card in play, this attack does 70 more damage. Then, discard that Stadium card.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

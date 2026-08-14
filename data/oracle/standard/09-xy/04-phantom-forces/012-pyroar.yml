@@ -1,0 +1,45 @@
+name: Pyroar
+
+origin: phantom-forces-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Litleo
+
+dex: 668
+
+rule:
+  - type: ability
+    name: Flare Command
+    text: Once during your turn (before your attack), you may discard a Fire Energy attached to this Pokémon. If you do, switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Inferno Onrush
+    text: This Pokémon does 30 damage to itself.
+    damage: 110
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

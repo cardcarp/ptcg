@@ -1,0 +1,49 @@
+name: Raikou ☆
+
+origin: unseen-forces-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 243
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Lightning Turn
+    text: Switch Raikou Star with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Meta Voltage
+    text: If you have less Prize cards left than your opponent, this attack does 40 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

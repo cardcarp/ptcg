@@ -1,0 +1,37 @@
+name: Rapidash E4
+
+origin: rising-rivals-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 78
+
+rule:
+  - type: attack
+    name: Pickup Power
+    text: Flip 3 coins. For each heads, search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.
+  - type: attack
+    cost:
+      - Fire
+    name: Fire Mane
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

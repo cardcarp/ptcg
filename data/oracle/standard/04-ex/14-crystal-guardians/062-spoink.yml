@@ -1,0 +1,43 @@
+name: Spoink
+
+origin: crystal-guardians-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 325
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psywave
+    text: Does 10 damage times the amount of Energy attached to the Defending Pokémon.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

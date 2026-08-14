@@ -1,0 +1,41 @@
+name: Salandit
+
+origin: unified-minds-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 757
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Suffocating Gas
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Gnaw
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

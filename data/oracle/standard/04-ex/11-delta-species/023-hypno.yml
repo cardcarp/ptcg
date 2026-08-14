@@ -1,0 +1,47 @@
+name: Hypno
+
+origin: delta-species-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: ability
+    name: Binding Aura
+    text: Your opponent can't play any Basic Pokémon or Evolution cards from his or her hand to evolve an Active Pokémon and can't attach any Energy cards from his or her hand to an Asleep Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Sleep Inducer
+    text: Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psyshot
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

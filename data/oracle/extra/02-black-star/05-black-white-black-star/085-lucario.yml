@@ -1,0 +1,45 @@
+name: Lucario
+
+origin: black-white-black-star-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: ability
+    name: Intuition
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw 2 cards.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Fast Punch
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

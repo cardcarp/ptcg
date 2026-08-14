@@ -1,0 +1,52 @@
+name: Rhyperior V
+
+origin: darkness-ablaze-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 230
+
+dex: 464
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Drill Run
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 80
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Rock Artillery
+    text: During your next turn, this Pokémon can't use Heavy Rock Artillery.
+    damage: 210
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

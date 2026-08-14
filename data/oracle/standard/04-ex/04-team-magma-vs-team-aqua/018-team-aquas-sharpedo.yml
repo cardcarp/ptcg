@@ -1,0 +1,47 @@
+name: Team Aqua's Sharpedo
+
+origin: team-magma-vs-team-aqua-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Team Aqua's Carvanha
+
+dex: 319
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slow-Acting Poison
+    text: At the end of your opponent's next turn, the Defending Pokémon is now Poisoned.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Smash
+    text: If the Defending Pokémon is affected by a Special Condition, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

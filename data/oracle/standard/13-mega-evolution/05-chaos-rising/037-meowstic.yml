@@ -1,0 +1,46 @@
+name: Meowstic
+
+origin: chaos-rising-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Espurr
+
+dex: 678
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Tricky Steps
+    text: You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

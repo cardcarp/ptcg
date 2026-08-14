@@ -1,0 +1,38 @@
+name: Marshadow
+
+origin: mega-evolution-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 802
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Shadowy Side Kick
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

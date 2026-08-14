@@ -1,0 +1,48 @@
+name: Empoleon
+
+origin: majestic-dawn-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Prinplup
+
+dex: 395
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Dual Splash
+    text: Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Surf Together
+    text: Does 50 damage plus 10 more damage for each of your Benched Pokémon. Flip a coin. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

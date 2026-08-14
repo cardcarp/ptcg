@@ -1,0 +1,39 @@
+name: Charjabug
+
+origin: stellar-crown-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Grubbin
+
+dex: 737
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Parallel Placement
+    text: Search your deck for up to 3 Charjabug and put them onto your Bench. Then, shuffle your deck.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

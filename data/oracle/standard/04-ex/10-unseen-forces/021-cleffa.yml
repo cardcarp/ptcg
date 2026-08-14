@@ -1,0 +1,38 @@
+name: Cleffa
+
+origin: unseen-forces-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 173
+
+rule:
+  - type: ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Clefairy from your hand onto Cleffa (this counts as evolving Cleffa) and remove all damage counters from Cleffa.
+  - type: attack
+    cost:
+      - Colorless
+    name: Eeeeeeek
+    text: Shuffle your hand into your deck, then draw 6 cards.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

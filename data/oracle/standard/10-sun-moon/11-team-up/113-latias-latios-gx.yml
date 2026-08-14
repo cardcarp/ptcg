@@ -1,0 +1,49 @@
+name: Latias & Latios-GX
+
+origin: team-up-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Dragon
+
+hp: 250
+
+dex: 380
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Buster Purge
+    text: Discard 3 Energy from this Pokémon.
+    damage: 240
+  - type: attack
+    cost:
+      - Psychic
+    name: Aero Unit-GX
+    text: Attach 5 basic Energy cards from your discard pile to your Pokémon in any way you like. If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack's cost), prevent all effects of attacks, including damage, done to it during your opponent's next turn. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+
+errata: []

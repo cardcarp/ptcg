@@ -1,0 +1,52 @@
+name: Umbreon δ
+
+origin: delta-species-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Darkness
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: ability
+    name: Delta Moon
+    text: When your opponent attaches a Special Energy card from his or her hand to 1 of his or her Pokémon, put 1 damage counter on that Pokémon. You can't use more than 1 Delta Moon Poké-Body each turn.
+  - type: attack
+    cost:
+      - Darkness
+      - Metal
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Darkness Metal type.
+
+regulation:
+
+errata: []

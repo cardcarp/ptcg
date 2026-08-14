@@ -1,0 +1,41 @@
+name: Taillow
+
+origin: destined-rivals-156
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 276
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Wing Attack
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

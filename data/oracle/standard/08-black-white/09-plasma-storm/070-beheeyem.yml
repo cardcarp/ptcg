@@ -1,0 +1,47 @@
+name: Beheeyem
+
+origin: plasma-storm-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Elgyem
+
+dex: 606
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Lock Up
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Damakinesis
+    text: Move 6 damage counters from any of your Pokémon to the Defending Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

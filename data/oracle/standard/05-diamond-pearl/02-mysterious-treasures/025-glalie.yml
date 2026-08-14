@@ -1,0 +1,44 @@
+name: Glalie
+
+origin: mysterious-treasures-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Snorunt
+
+dex: 362
+
+rule:
+  - type: ability
+    name: Craggy Face
+    text: As long as Glalie is your Active Pokémon, any damage done by attacks from your opponent's Stage 2 Evolved Pokémon is reduced by 20 (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Intimidation Pebble
+    text: Flip a coin. If heads, your opponent can't play any Trainer cards or Supporter cards from his or her hand during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

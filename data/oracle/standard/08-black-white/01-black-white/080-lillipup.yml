@@ -1,0 +1,40 @@
+name: Lillipup
+
+origin: black-white-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 506
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pickup
+    text: Put an Item card from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Caterpie
+
+origin: flashfire-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 10
+
+rule:
+  - type: ability
+    name: Adaptive Evolution
+    text: This Pokémon can evolve during your first turn or the turn you play it.
+  - type: attack
+    cost:
+      - Grass
+    name: Bug Bite
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

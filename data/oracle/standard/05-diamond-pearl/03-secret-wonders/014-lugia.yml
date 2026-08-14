@@ -1,0 +1,49 @@
+name: Lugia
+
+origin: secret-wonders-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 249
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Silver Wing
+    text: Flip a coin. If heads, choose an Energy card attached to the Defending Pokémon and return it to your opponent's hand.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Destruction
+    text: If the Defending Pokémon has any Energy cards attached to it, this attack's base damage is 40 instead of 120.
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Shaymin-EX
+
+origin: xy-black-star-148
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 492
+
+rule:
+  - type: ability
+    name: Aroma of Gratitude
+    text: Once during your turn (before your attack), you may heal 20 damage from each of your Benched Basic Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Floral Gain
+    text: Heal 20 damage and remove all Special Conditions from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Nosepass
+
+origin: primal-clash-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 299
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stiffen
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

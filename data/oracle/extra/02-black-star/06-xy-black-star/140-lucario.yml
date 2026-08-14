@@ -1,0 +1,48 @@
+name: Lucario
+
+origin: xy-black-star-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Bone Rush
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Mach Claw
+    text: This attack's damage isn't affected by Resistance.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

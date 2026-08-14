@@ -1,0 +1,48 @@
+name: Beartic
+
+origin: brilliant-stars-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Cubchoo
+
+dex: 614
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Sheer Cold
+    text: During your opponent's next turn, the Defending Pokémon can't attack.
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Frost Smash
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,38 @@
+name: Eevee
+
+origin: sun-moon-black-star-235
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 133
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Running Charge
+    text: Flip a coin until you get tails. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

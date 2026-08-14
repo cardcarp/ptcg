@@ -1,0 +1,42 @@
+name: Swinub
+
+origin: breakthrough-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 220
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Powder Snow
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mud-Slap
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

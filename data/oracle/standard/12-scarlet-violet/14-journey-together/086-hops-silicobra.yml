@@ -1,0 +1,42 @@
+name: Hop's Silicobra
+
+origin: journey-together-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 843
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Turf Maker
+    text: Search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

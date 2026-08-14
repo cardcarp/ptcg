@@ -1,0 +1,58 @@
+name: Metagross-GX
+
+origin: guardians-rising-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Metal
+
+hp: 250
+
+preevolution:
+  - Metang
+
+dex: 376
+
+rule:
+  - type: ability
+    name: Geotech System
+    text: Once during your turn (before your attack), you may attach a Psychic or Metal Energy card from your discard pile to your Active Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Giga Hammer
+    text: This Pokémon can't use Giga Hammer during your next turn.
+    damage: 150
+  - type: attack
+    cost:
+      - Colorless
+    name: Algorithm-GX
+    text: Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

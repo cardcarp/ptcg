@@ -1,0 +1,41 @@
+name: Nidoran ♂
+
+origin: steam-siege-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 32
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Come Along
+    text: Search your deck for Nidoran ♀ and put it onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Shelmet
+
+origin: plasma-blast-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 616
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Yawn
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

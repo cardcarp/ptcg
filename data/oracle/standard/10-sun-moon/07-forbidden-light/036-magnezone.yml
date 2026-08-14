@@ -1,0 +1,50 @@
+name: Magnezone
+
+origin: forbidden-light-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: ability
+    name: Magnetic Circuit
+    text: As often as you like during your turn (before your attack), you may attach a Lightning Energy card from your hand to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Zap Cannon
+    text: This Pokémon can't use Zap Cannon during your next turn.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

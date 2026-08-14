@@ -1,0 +1,42 @@
+name: Sableye
+
+origin: temporal-forces-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 302
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Claw Slash
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Damage Collection
+    text: You may move any number of damage counters from your opponent's Benched Pokémon to their Active Pokémon.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

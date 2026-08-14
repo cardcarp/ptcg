@@ -1,0 +1,35 @@
+name: Machop
+
+origin: diamond-pearl-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 66
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Low Kick
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Swirlix
+
+origin: xy-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 684
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Fairy Wind
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

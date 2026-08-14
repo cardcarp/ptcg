@@ -1,0 +1,48 @@
+name: Abomasnow
+
+origin: lost-origin-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Snover
+
+dex: 460
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Icicle Punch
+    damage: 50
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Double-Edge
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

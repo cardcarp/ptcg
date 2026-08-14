@@ -1,0 +1,47 @@
+name: Garbodor
+
+origin: fusion-strike-169
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Poison Gas
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Sludge Whirlpool
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

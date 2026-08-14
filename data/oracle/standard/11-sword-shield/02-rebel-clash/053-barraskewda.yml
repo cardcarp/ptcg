@@ -1,0 +1,45 @@
+name: Barraskewda
+
+origin: rebel-clash-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Arrokuda
+
+dex: 847
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+    name: Spiral Jet
+    text: Discard 2 Water Energy cards from your hand. If you don't, this attack does nothing.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

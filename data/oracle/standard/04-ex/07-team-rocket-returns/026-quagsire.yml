@@ -1,0 +1,43 @@
+name: Quagsire
+
+origin: team-rocket-returns-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Wooper
+
+dex: 195
+
+rule:
+  - type: ability
+    name: Saturation
+    text: When you attach a Water Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire.
+  - type: attack
+    cost:
+      - Water
+    name: Hyper Pump
+    text: Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not used to pay for this attack's Energy cost. You can't add more than 60 damage in this way.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

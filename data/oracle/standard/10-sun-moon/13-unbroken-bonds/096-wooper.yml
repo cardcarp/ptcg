@@ -1,0 +1,36 @@
+name: Wooper
+
+origin: unbroken-bonds-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 194
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Mud Bomb
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

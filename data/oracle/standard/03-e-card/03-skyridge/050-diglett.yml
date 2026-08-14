@@ -1,0 +1,41 @@
+name: Diglett
+
+origin: skyridge-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 50
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Burrow
+    text: Flip a coin. If heads, prevent all damage done by attacks to Diglett during your opponent's next turn. (Any other effects of attacks still happen.)
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

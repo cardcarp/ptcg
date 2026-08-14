@@ -1,0 +1,40 @@
+name: Quilava
+
+origin: mysterious-treasures-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Cyndaquil
+
+dex: 156
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fireworks
+    text: Flip a coin. If tails, discard a Fire Energy attached to Quilava.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Fidough
+
+origin: stellar-crown-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 926
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pleasant Aroma
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Stampede
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

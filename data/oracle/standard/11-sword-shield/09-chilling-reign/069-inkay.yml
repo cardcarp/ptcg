@@ -1,0 +1,42 @@
+name: Inkay
+
+origin: chilling-reign-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 686
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Spinning Attack
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,45 @@
+name: Thundurus
+
+origin: chilling-reign-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 642
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Assisting Spark
+    text: You may attach a Lightning Energy card from your hand to 1 of your Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder
+    text: This Pokémon also does 30 damage to itself.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,45 @@
+name: Garbodor
+
+origin: breakpoint-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: ability
+    name: Garbotoxin
+    text: If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Offensive Bomb
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

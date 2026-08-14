@@ -1,0 +1,42 @@
+name: Bellossom
+
+origin: crown-zenith-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Gloom
+
+dex: 182
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Flower Spin
+    text: Flip 3 coins. This attack does 80 damage for each heads. Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

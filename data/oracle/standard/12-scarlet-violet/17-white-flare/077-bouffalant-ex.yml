@@ -1,0 +1,47 @@
+name: Bouffalant ex
+
+origin: white-flare-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 220
+
+dex: 626
+
+rule:
+  - type: ability
+    name: Bouffer
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gold Breaker
+    text: If your opponent's Active Pokémon is a Pokémon ex, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,48 @@
+name: Darmanitan
+
+origin: twilight-masquerade-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Darumaka
+
+dex: 555
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Rolling Tackle
+    damage: 60
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Inferno Onrush
+    text: This Pokémon also does 70 damage to itself.
+    damage: 210
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

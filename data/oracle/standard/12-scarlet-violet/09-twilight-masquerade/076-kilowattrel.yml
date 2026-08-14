@@ -1,0 +1,52 @@
+name: Kilowattrel
+
+origin: twilight-masquerade-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Wattrel
+
+dex: 941
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Wind Power Charge
+    text: During your next turn, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Strong Volt
+    text: Discard an Energy from this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

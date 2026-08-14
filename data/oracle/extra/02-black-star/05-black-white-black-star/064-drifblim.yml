@@ -1,0 +1,46 @@
+name: Drifblim
+
+origin: black-white-black-star-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Drifloon
+
+dex: 426
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shadow Steal
+    text: Does 50 damage times the number of Special Energy cards in your opponent's discard pile.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Plentiful Placement
+    text: Put 4 damage counters on 1 of your opponent's Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,55 @@
+name: Golurk
+
+origin: shining-legends-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Golett
+
+dex: 623
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Triple Smash
+    text: Flip 3 coins. This attack does 60 more damage for each heads.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Golurk Hammer
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

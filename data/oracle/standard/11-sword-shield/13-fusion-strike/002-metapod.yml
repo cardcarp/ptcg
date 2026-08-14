@@ -1,0 +1,42 @@
+name: Metapod
+
+origin: fusion-strike-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Caterpie
+
+dex: 11
+
+rule:
+  - type: ability
+    name: Exoskeleton
+    text: This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Grass
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

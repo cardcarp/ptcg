@@ -1,0 +1,36 @@
+name: Magmar
+
+origin: hidden-fates-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 126
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Fire Punch
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

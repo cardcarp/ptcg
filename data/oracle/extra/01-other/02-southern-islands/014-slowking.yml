@@ -1,0 +1,46 @@
+name: Slowking
+
+origin: southern-islands-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Revelation
+    text: Flip a coin. If heads, search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

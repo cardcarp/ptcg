@@ -1,0 +1,46 @@
+name: Salazzle
+
+origin: dragon-majesty-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Salandit
+
+dex: 758
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Ring of Fire
+    text: Your opponent's Active Pokémon is now Burned. It can't retreat during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

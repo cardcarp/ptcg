@@ -1,0 +1,45 @@
+name: Charjabug
+
+origin: pitch-black-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Grubbin
+
+dex: 737
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Vise Grip
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Ram
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

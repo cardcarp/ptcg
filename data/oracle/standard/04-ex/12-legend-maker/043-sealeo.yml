@@ -1,0 +1,42 @@
+name: Sealeo
+
+origin: legend-maker-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Spheal
+
+dex: 364
+
+rule:
+  - type: ability
+    name: Power Circulation
+    text: Once during your turn (before your attack), you may search your discard pile for a basic Energy card, show it to your opponent, and put it on top of your deck. If you do, put 1 damage counter on Sealeo. This power can't be used if Sealeo is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Lunge Out
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

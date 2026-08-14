@@ -1,0 +1,49 @@
+name: Azumarill
+
+origin: temporal-forces-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Play Rough
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Power Tackle
+    text: During your next turn, this Pokémon can't attack.
+    damage: 140
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

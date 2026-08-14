@@ -1,0 +1,45 @@
+name: Watchog
+
+origin: furious-fists-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Patrat
+
+dex: 505
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Held-Item Inspection
+    text: Your opponent reveals his or her hand. Choose an Item card you find there. Your opponent shuffles that card into his or her deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Thorough Crunch
+    text: Flip 2 coins. For each heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

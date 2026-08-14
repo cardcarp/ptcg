@@ -1,0 +1,37 @@
+name: Gothita
+
+origin: fates-collide-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 574
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

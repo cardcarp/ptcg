@@ -1,0 +1,48 @@
+name: Slowbro
+
+origin: heartgold-soulsilver-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Big Yawn
+    text: Both Slowbro and the Defending Pokémon are now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Madkinesis
+    text: Does 30 damage plus 20 more damage for each Psychic Energy attached to Slowbro.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

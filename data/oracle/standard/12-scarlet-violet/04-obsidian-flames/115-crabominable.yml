@@ -1,0 +1,48 @@
+name: Crabominable
+
+origin: obsidian-flames-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Crabrawler
+
+dex: 740
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Confront
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Knuckle Impact
+    text: During your next turn, this Pokémon can't attack.
+    damage: 170
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,42 @@
+name: Cyclizar
+
+origin: stellar-crown-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 967
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Snap
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Speed Attack
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

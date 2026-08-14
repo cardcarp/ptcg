@@ -1,0 +1,49 @@
+name: Grumpig
+
+origin: boundaries-crossed-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Spoink
+
+dex: 326
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psybeam
+    text: The Defending Pokémon is now Confused.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Extrasensory
+    text: If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

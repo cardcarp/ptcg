@@ -1,0 +1,49 @@
+name: Pupitar
+
+origin: unleashed-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: ability
+    name: Boost Gas
+    text: If Pupitar has any Energy attached to it, the Retreat Cost of Pupitar is 0.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 20 damage plus 10 more damage for each damage counter on Pupitar.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Scyther
+
+origin: astral-radiance-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 123
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Blinding Scythe
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

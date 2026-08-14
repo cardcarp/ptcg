@@ -1,0 +1,39 @@
+name: Quaxly
+
+origin: scarlet-violet-black-star-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 912
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Splash
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

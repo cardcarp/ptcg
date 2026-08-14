@@ -1,0 +1,48 @@
+name: Sawsbuck
+
+origin: chilling-reign-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Deerling
+
+dex: 586
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Winter Horn
+    text: If you have a Stadium in play, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,45 @@
+name: Dragonair
+
+origin: sun-moon-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 90
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dragon's Wish
+    text: During your next turn, you may attach any number of Energy cards from your hand to your Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+      - Colorless
+    name: Tail Smack
+    damage: 60
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

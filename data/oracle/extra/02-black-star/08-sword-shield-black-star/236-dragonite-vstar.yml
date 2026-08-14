@@ -1,0 +1,46 @@
+name: Dragonite VSTAR
+
+origin: sword-shield-black-star-236
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Dragon
+
+hp: 280
+
+preevolution:
+  - Dragonite V
+
+dex: 149
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Giga Impact
+    text: During your next turn, this Pokémon can't attack.
+    damage: 250
+  - type: attack
+    cost:
+      - Colorless
+    name: Draconic Star
+    text: Look at the top 12 cards of your deck and attach any number of Water or Lightning Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck. (You can't use more than 1 VSTAR Power in a game.)
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

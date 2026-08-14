@@ -1,0 +1,44 @@
+name: Lunatone
+
+origin: sandstorm-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 337
+
+rule:
+  - type: ability
+    name: Lunar Eclipse
+    text: Once during your turn (before your attack), if Solrock is in play, you may use this power. Until the end of your turn, Lunatone's type is Darkness. This power can't be used if Lunatone is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Colorless
+    name: Cosmic Draw
+    text: If your opponent has any Evolved Pokémon in play, draw 3 cards.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Lunar Blast
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Dustox
+
+origin: lost-thunder-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Cascoon
+
+dex: 269
+
+rule:
+  - type: ability
+    name: Hazardous Evolution
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may leave your opponent's Active Pokémon Paralyzed and Poisoned. If you do, put 3 damage counters instead of 1 on that Pokémon between turns.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Gust
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

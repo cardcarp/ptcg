@@ -1,0 +1,43 @@
+name: Rapidash
+
+origin: destined-rivals-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: ability
+    name: Hurried Gait
+    text: Once during your turn, you may draw a card.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Mane
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

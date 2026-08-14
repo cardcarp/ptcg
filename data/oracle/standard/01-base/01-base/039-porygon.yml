@@ -1,0 +1,46 @@
+name: Porygon
+
+origin: base-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 30
+
+dex: 137
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Conversion 1
+    text: If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Conversion 2
+    text: Change Porygon's Resistance to a type of your choice other than Colorless.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Ampharos
+
+origin: evolving-skies-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Thunder Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 40
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electron Crush
+    text: You may discard 3 Lightning Energy from this Pokémon. If you do, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,45 @@
+name: Shaymin
+
+origin: unleashed-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: ability
+    name: Celebration Wind
+    text: Once during your turn, when you put Shaymin from your hand onto your Bench, you may move as many Energy cards attached to your Pokémon as you like to any of your other Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Energy Bloom
+    text: Remove 3 damage counters from each of your Pokémon that has any Energy attached to it.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

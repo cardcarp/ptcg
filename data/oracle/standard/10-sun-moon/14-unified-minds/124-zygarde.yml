@@ -1,0 +1,39 @@
+name: Zygarde
+
+origin: unified-minds-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 718
+
+rule:
+  - type: ability
+    name: Cellular Companions
+    text: As long as this Pokémon is on your Bench, your Zygarde's and Zygarde-GX's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+    name: Boost Fang
+    text: Attach a Fighting Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

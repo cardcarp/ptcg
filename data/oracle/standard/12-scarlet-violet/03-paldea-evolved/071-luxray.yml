@@ -1,0 +1,45 @@
+name: Luxray
+
+origin: paldea-evolved-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: ability
+    name: Swelling Flash
+    text: Once during your turn, if this Pokémon is in your hand and you have more Prize cards remaining than your opponent, you may put this Pokémon onto your Bench.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Wild Charge
+    text: This Pokémon also does 20 damage to itself.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

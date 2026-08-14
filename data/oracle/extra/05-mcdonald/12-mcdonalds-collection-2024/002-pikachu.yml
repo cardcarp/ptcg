@@ -1,0 +1,40 @@
+name: Pikachu
+
+origin: mcdonalds-collection-2024-002
+
+layout: standard
+
+category: Pokémon
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Charge
+    text: Search your deck for a Basic Lightning Energy card and attack it to this Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Pika Punch
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

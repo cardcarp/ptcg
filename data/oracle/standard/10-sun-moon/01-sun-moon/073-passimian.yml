@@ -1,0 +1,43 @@
+name: Passimian
+
+origin: sun-moon-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 766
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Fling
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Team Play
+    text: This attack does 30 damage for each of your Benched Passimian.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

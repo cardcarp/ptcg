@@ -1,0 +1,35 @@
+name: Koffing
+
+origin: fates-collide-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 109
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Division
+    text: Search your deck for up to 2 Koffing and put them onto your Bench. Shuffle your deck afterward.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

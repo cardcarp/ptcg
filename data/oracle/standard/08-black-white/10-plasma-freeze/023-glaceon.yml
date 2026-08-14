@@ -1,0 +1,45 @@
+name: Glaceon
+
+origin: plasma-freeze-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 471
+
+rule:
+  - type: ability
+    name: Freeze Zone
+    text: The Retreat Cost of each of your Team Plasma Pokémon in play is ColorlessColorless less.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Icy Wind
+    text: The Defending Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

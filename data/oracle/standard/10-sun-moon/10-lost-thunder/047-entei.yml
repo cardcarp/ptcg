@@ -1,0 +1,46 @@
+name: Entei
+
+origin: lost-thunder-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 244
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Fang
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Eruption
+    text: Each player discards the top card of their deck. This attack does 60 more damage for each Energy card discarded in this way.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

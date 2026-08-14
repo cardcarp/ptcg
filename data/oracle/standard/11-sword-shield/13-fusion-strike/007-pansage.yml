@@ -1,0 +1,36 @@
+name: Pansage
+
+origin: fusion-strike-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 511
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Scratch
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

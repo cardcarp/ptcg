@@ -1,0 +1,54 @@
+name: Dugtrio
+
+origin: platinum-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Diglett
+
+dex: 51
+
+rule:
+  - type: ability
+    name: Sinkhole
+    text: If your opponent's Active Pokémon retreats, put 2 damage counters on that Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Push Down
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Magnitude
+    text: Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

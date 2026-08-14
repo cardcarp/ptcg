@@ -1,0 +1,45 @@
+name: Flutter Mane
+
+origin: surging-sparks-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ancient
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 987
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Perplexing Transfer
+    text: Move all damage counters from 1 of your Benched Ancient Pokémon to your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Moonblast
+    text: During your opponent's next turn, attacks used by the Defending Pokémon do 30 less damage (before applying Weakness and Resistance).
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

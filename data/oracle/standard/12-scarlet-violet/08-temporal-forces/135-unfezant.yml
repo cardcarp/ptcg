@@ -1,0 +1,52 @@
+name: Unfezant
+
+origin: temporal-forces-135
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Tranquill
+
+dex: 521
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Opposing Winds
+    text: You may put 2 Energy attached to your opponent's Active Pokémon into their hand.
+    damage: 70
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boundless Power
+    text: During your next turn, this Pokémon can't attack.
+    damage: 180
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - H
+
+errata: []

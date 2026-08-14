@@ -1,0 +1,47 @@
+name: Dedenne
+
+origin: furious-fists-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 702
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Entrainment
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Short
+    text: This attack does 20 damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

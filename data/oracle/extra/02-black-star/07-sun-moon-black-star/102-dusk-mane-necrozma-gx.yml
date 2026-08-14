@@ -1,0 +1,64 @@
+name: Dusk Mane Necrozma-GX
+
+origin: sun-moon-black-star-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+  - Ultra Beast
+
+type:
+  - Metal
+
+hp: 190
+
+dex: 800
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 60
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Meteor Tempest
+    text: Discard 3 Energy from this Pokémon.
+    damage: 220
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+    name: Sun's Eclipse-GX
+    text: You can use this attack only if you have more Prize cards remaining than your opponent. (You can't use more than 1 GX attack in a game.)
+    damage: 250
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

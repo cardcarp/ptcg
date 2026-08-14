@@ -1,0 +1,41 @@
+name: Elgyem
+
+origin: silver-tempest-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 605
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

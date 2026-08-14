@@ -1,0 +1,50 @@
+name: Latios
+
+origin: great-encounters-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Draw
+    text: Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward.
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Luster Purge
+    text: Discard 3 Energy attached to Latios.
+    damage: 120
+
+weakness:
+  - type: Colorless
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

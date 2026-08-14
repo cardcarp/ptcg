@@ -1,0 +1,43 @@
+name: Salazzle
+
+origin: sun-moon-black-star-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Salandit
+
+dex: 758
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Nasty Plot
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+    name: Severe Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

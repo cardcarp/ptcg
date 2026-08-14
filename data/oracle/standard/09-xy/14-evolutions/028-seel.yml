@@ -1,0 +1,41 @@
+name: Seel
+
+origin: evolutions-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 86
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Growl
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

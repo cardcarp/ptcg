@@ -1,0 +1,54 @@
+name: Electivire FB LV.X
+
+origin: supreme-victors-144
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+  - SP
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Electivire FB
+
+dex: 466
+
+rule:
+  - type: ability
+    name: Energy Recycle
+    text: Once during your turn (before your attack), you may use this power. If you do, your turn ends. Search your discard pile for up to 3 Energy cards and attach them to your Pokémon in any way you like. This power can't be used if Electivire FB is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Powerful Spark
+    text: This attack does 30 damage plus 10 more damage for each Energy attached to all of your Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - Put this card onto your Active Electivire FB. Electivire FB LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

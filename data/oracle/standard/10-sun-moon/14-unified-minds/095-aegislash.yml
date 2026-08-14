@@ -1,0 +1,48 @@
+name: Aegislash
+
+origin: unified-minds-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Doublade
+
+dex: 681
+
+rule:
+  - type: ability
+    name: Durable Blade
+    text: If this Pokémon is Knocked Out by damage from an opponent's attack, put it into your hand instead of the discard pile. (Discard all cards attached to it.)
+  - type: attack
+    cost:
+      - Colorless
+    name: Trash Slash
+    text: This attack does 10 damage for each Item card in your discard pile. You can't do more than 130 damage in this way.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

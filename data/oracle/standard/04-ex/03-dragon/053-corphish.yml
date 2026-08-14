@@ -1,0 +1,41 @@
+name: Corphish
+
+origin: dragon-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 341
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Irongrip
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,37 @@
+name: Mudkip
+
+origin: mega-evolution-black-star-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 258
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Mud-Slap
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

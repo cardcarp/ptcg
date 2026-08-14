@@ -1,0 +1,42 @@
+name: Rufflet
+
+origin: surging-sparks-152
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 627
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flap
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

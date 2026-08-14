@@ -1,0 +1,41 @@
+name: Palpitoad
+
+origin: rebel-clash-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Tympole
+
+dex: 536
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Twirling Sign
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,39 @@
+name: Ralts
+
+origin: platinum-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 280
+
+rule:
+  - type: attack
+    name: Future Sight
+    text: Look at the top 5 cards in either player's deck and put them back on top of that player's deck in any order.
+  - type: attack
+    cost:
+      - Psychic
+    name: Hypnoblast
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

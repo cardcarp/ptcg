@@ -1,0 +1,45 @@
+name: Ariados
+
+origin: celestial-storm-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Reactive Poison
+    text: This attack does 50 more damage for each Special Condition affecting your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+    name: Spider Trap
+    text: You may switch 1 of your opponent's Benched Pokémon with their Active Pokémon. Your opponent's Active Pokémon is now Asleep and Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

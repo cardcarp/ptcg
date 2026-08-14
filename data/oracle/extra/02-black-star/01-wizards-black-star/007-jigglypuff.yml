@@ -1,0 +1,48 @@
+name: Jigglypuff
+
+origin: wizards-black-star-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 39
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: First Aid
+    text: Remove 1 damage counter from Jigglypuff.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Jigglypuff does 20 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

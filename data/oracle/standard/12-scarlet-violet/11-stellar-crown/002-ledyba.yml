@@ -1,0 +1,37 @@
+name: Ledyba
+
+origin: stellar-crown-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 165
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt Bounce
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,51 @@
+name: Lairon
+
+origin: crimson-invasion-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Aron
+
+dex: 305
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Metal Claw
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Volcarona
+
+origin: surging-sparks-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Larvesta
+
+dex: 637
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Leech Life
+    text: Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Turbulent Wings
+    text: This Pokémon also does 50 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,49 @@
+name: Manectric
+
+origin: pitch-black-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Flashing Barrier
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Sonic Edge
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 110
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,52 @@
+name: Grotle
+
+origin: platinum-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Turtwig
+
+dex: 388
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Absorb
+    text: Remove 1 damage counter from Grotle.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

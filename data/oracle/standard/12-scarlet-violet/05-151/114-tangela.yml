@@ -1,0 +1,38 @@
+name: Tangela
+
+origin: 151-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 114
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Tactful Tangling
+    text: If you played Erika's Invitation from your hand during this turn, this attack does 60 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,45 @@
+name: Team Rocket's Porygon-Z
+
+origin: destined-rivals-155
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Team Rocket's Porygon2
+
+dex: 474
+
+rule:
+  - type: ability
+    name: Reconstitute
+    text: You must discard 2 cards from your hand in order to use this Ability. Once during your turn, you may draw a card.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: R Command
+    text: This attack does 20 damage for each Supporter card that has "Team Rocket" in its name in your discard pile.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

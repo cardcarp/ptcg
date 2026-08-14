@@ -1,0 +1,42 @@
+name: Mareep
+
+origin: evolving-skies-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 179
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rear Kick
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

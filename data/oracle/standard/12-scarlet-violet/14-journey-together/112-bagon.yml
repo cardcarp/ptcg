@@ -1,0 +1,38 @@
+name: Bagon
+
+origin: journey-together-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 70
+
+dex: 371
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Water
+    name: Reckless Charge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 50
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,36 @@
+name: Unown [?]
+
+origin: legends-awakened-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 201
+
+rule:
+  - type: ability
+    name: '?'
+    text: Once during your turn (before your attack), if Unown ? is on your Bench, you may choose a Pokémon in your hand and put it face down. Your opponent guesses a type of that Pokémon. Reveal that card. If your opponent guessed wrong, draw a card. Then, put that card back into your hand.
+  - type: attack
+    name: Hidden Power
+    text: Discard up to 2 cards from your hand. For each card you discarded, draw a card.
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

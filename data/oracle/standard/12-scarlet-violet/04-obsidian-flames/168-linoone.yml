@@ -1,0 +1,45 @@
+name: Linoone
+
+origin: obsidian-flames-168
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Zigzagoon
+
+dex: 264
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Jet Headbutt
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon also does 30 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+  - G
+
+errata: []

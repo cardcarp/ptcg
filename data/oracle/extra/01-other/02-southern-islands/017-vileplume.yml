@@ -1,0 +1,46 @@
+name: Vileplume
+
+origin: southern-islands-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Paradise Pollen
+    text: Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pokémon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1).
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Horrid Pollen
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

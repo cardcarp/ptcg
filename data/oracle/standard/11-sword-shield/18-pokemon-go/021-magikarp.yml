@@ -1,0 +1,44 @@
+name: Magikarp
+
+origin: pokemon-go-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lively Grouping
+    text: Search your deck for any number of Magikarp, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Raging Fin
+    text: This attack does 30 more damage for each Magikarp and Gyarados in your discard pile.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

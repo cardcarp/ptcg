@@ -1,0 +1,48 @@
+name: Roserade
+
+origin: sword-shield-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Roselia
+
+dex: 407
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Paralyze Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Flip a coin. If heads, your opponent's Active Pokémon is also Paralyzed.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Mega Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

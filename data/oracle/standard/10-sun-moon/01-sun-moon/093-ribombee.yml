@@ -1,0 +1,46 @@
+name: Ribombee
+
+origin: sun-moon-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 60
+
+preevolution:
+  - Cutiefly
+
+dex: 743
+
+rule:
+  - type: ability
+    name: Curative Pollen
+    text: Once during your turn (before your attack), you may heal 20 damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Fairy
+    name: Fairy Wind
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

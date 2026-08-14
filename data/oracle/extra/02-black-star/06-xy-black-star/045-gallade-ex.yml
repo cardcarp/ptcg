@@ -1,0 +1,52 @@
+name: Gallade-EX
+
+origin: xy-black-star-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 475
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Assault Sword
+    text: If your opponent's Active Pokémon has no Energy attached to it, this attack does 40 more damage.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Cross Slash
+    text: This Pokémon can't use Cross Slash during your next turn.
+    damage: 140
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

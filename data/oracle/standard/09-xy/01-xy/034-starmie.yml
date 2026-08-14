@@ -1,0 +1,47 @@
+name: Starmie
+
+origin: xy-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Recover
+    text: Discard an Energy attached to this Pokémon and heal all damage from it.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Core Splash
+    text: If this Pokémon has any Psychic Energy attached to it, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

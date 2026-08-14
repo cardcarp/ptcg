@@ -1,0 +1,37 @@
+name: Milcery
+
+origin: phantasmal-flames-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 868
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Draining Kiss
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

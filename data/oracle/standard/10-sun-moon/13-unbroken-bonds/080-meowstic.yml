@@ -1,0 +1,46 @@
+name: Meowstic
+
+origin: unbroken-bonds-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Espurr
+
+dex: 678
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Caturday
+    text: Draw 3 cards. If you do, this Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Perplexing Eyes
+    text: The Defending Pokémon's Weakness is now Psychic until the end of your next turn. (The amount of Weakness doesn't change.)
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

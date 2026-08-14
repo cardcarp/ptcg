@@ -1,0 +1,37 @@
+name: Shroomish
+
+origin: shining-legends-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 285
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Absorb
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

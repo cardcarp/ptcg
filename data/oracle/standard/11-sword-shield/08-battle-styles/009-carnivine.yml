@@ -1,0 +1,48 @@
+name: Carnivine
+
+origin: battle-styles-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 455
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Big Bite
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Triple Whip
+    text: Flip 3 coins. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

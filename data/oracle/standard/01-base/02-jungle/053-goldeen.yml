@@ -1,0 +1,33 @@
+name: Goldeen
+
+origin: jungle-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 118
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Horn Attack
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

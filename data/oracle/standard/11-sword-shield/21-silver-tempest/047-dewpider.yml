@@ -1,0 +1,37 @@
+name: Dewpider
+
+origin: silver-tempest-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 751
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hook
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,50 @@
+name: Wormadam Sandy Cloak
+
+origin: secret-wonders-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Burmy Sandy Cloak
+
+dex: 413
+
+rule:
+  - type: ability
+    name: Sandy Cloak
+    text: Prevent all effects of attacks, excluding damage, done to Wormadam Sandy Cloak.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Push Over
+    text: Does 40 damage plus 10 damage for each Fighting Energy attached to Wormadam Sandy Cloak.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

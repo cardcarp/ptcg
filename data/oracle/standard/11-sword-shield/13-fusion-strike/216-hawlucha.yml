@@ -1,0 +1,43 @@
+name: Hawlucha
+
+origin: fusion-strike-216
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 701
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flying Stomp
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

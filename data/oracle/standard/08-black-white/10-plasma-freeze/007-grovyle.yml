@@ -1,0 +1,49 @@
+name: Grovyle
+
+origin: plasma-freeze-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Treecko
+
+dex: 253
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Cut
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

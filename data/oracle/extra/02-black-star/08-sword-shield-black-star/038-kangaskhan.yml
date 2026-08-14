@@ -1,0 +1,46 @@
+name: Kangaskhan
+
+origin: sword-shield-black-star-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 115
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rally Back
+    text: If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

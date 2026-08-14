@@ -1,0 +1,52 @@
+name: Team Aqua's Mightyena
+
+origin: team-magma-vs-team-aqua-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Team Aqua's Poochyena
+
+dex: 262
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Bite
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Mystic Fang
+    text: If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

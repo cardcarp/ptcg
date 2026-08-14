@@ -1,0 +1,46 @@
+name: Magmar
+
+origin: legend-maker-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 126
+
+rule:
+  - type: ability
+    name: Stages of Evolution
+    text: As long as Magmar is an Evolved Pokémon, all Energy attached to Magmar are Fire Energy instead of their usual types.
+  - type: attack
+    cost:
+      - Colorless
+    name: Linear Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Burning Sensation
+    text: If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Lampent
+
+origin: steam-siege-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mirror Mirror
+    text: Each player either draws or discards cards until that player has 4 cards in his or her hand. (Your opponent does this first.)
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Flickering Flames
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Doduo
+
+origin: breakthrough-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 84
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Simultaneous Peck
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Doduo Delivery
+    text: Draw 2 cards.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

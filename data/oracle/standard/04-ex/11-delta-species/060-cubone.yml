@@ -1,0 +1,43 @@
+name: Cubone
+
+origin: delta-species-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 104
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Beat
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Cubone.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Castform
+
+origin: brilliant-stars-116
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 351
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Colorless
+    name: Hurricane
+    text: Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,35 @@
+name: Togepi
+
+origin: undaunted-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 175
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Plead
+    text: Ask your opponent if you may draw 2 cards. If yes, draw 2 cards. If no, this attack does 20 damage to the Defending Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

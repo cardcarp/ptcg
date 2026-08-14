@@ -1,0 +1,42 @@
+name: Zorua
+
+origin: fusion-strike-170
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 570
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Rear Kick
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,46 @@
+name: Absol
+
+origin: guardians-rising-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 359
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Future Sight
+    text: Look at the top 4 cards of either player's deck and put them back in any order.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Doom News
+    text: Put all Energy attached to this Pokémon into your hand. At the end of your opponent's next turn, the Defending Pokémon will be Knocked Out.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

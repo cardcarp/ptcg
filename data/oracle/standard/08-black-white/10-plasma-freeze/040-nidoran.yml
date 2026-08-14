@@ -1,0 +1,37 @@
+name: Nidoran ♀
+
+origin: plasma-freeze-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 29
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poison Sting
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

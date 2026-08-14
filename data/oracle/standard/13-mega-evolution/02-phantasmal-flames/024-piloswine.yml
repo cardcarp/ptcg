@@ -1,0 +1,49 @@
+name: Piloswine
+
+origin: phantasmal-flames-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Swinub
+
+dex: 221
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Smash
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

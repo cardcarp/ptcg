@@ -1,0 +1,45 @@
+name: Hippopotas
+
+origin: majestic-dawn-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 449
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Grainy Sand
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Hippopotas does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

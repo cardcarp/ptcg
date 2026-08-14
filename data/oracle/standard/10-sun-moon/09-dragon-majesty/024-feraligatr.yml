@@ -1,0 +1,44 @@
+name: Feraligatr
+
+origin: dragon-majesty-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: ability
+    name: Downpour
+    text: As often as you like during your turn (before your attack), you may discard a Water Energy card from your hand.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Riptide
+    text: This attack does 20 more damage for each Water Energy card in your discard pile. Then, shuffle those cards into your deck.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

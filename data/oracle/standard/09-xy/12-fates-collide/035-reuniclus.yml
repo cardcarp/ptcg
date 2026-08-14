@@ -1,0 +1,41 @@
+name: Reuniclus
+
+origin: fates-collide-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Duosion
+
+dex: 579
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Link Fusion
+    text: If Solosis is on your Bench, this attack does 30 more damage. If Duosion is on your Bench, this attack does 60 more damage. If Reuniclus is on your Bench, this attack does 90 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Pachirisu
+
+origin: battle-styles-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 417
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Find a Friend
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

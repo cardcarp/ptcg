@@ -1,0 +1,43 @@
+name: Mawile
+
+origin: lost-origin-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 303
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tempting Trap
+    text: During your opponent's next turn, the Defending Pokémon can't retreat. During your next turn, the Defending Pokémon takes 90 more damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

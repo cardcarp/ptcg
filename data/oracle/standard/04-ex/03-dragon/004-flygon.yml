@@ -1,0 +1,56 @@
+name: Flygon
+
+origin: dragon-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+    name: Energy Shower
+    text: Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rainbow Burn
+    text: Does 30 damage plus 10 more damage for each type of basic Energy card attached to Flygon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fire
+    delta: 30
+    operator: '-'
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

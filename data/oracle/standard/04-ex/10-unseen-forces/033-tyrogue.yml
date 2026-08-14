@@ -1,0 +1,40 @@
+name: Tyrogue
+
+origin: unseen-forces-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 236
+
+rule:
+  - type: ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue.
+  - type: attack
+    cost:
+      - Colorless
+    name: Desperate Punch
+    text: Does 10 damage times the number of Pokémon in play your opponent has more than you.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

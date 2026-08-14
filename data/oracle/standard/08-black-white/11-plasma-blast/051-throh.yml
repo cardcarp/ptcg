@@ -1,0 +1,47 @@
+name: Throh
+
+origin: plasma-blast-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 538
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Freestyle Strike
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Shoulder Throw
+    text: Does 80 damage minus 20 damage for each Colorless in the Defending Pokémon's Retreat Cost.
+    damage: 80
+    modifier: '-'
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

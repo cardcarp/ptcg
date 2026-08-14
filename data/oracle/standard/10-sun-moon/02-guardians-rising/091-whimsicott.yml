@@ -1,0 +1,46 @@
+name: Whimsicott
+
+origin: guardians-rising-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 80
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: The Wages of Fluff
+    text: If the Defending Pokémon is Knocked Out during your next turn, take 2 more Prize cards.
+  - type: attack
+    cost:
+      - Fairy
+    name: Fairy Wind
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

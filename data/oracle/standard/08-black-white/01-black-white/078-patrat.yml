@@ -1,0 +1,36 @@
+name: Patrat
+
+origin: black-white-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 504
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hyper Fang
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Nuzleaf
+
+origin: temporal-forces-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Corkscrew Punch
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Comet Slap
+    text: Flip 3 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

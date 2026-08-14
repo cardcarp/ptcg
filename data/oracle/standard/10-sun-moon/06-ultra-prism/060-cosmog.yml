@@ -1,0 +1,35 @@
+name: Cosmog
+
+origin: ultra-prism-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 789
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Teleport
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

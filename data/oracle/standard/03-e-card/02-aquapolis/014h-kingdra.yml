@@ -1,0 +1,45 @@
+name: Kingdra
+
+origin: aquapolis-014h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: ability
+    name: Water Cyclone
+    text: As often as you like during your turn (before your attack), you may move a Water Energy card from your Active Pokémon to 1 of your Benched Pokémon. This power can't be used if Kingdra is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Rapids
+    text: Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon, if any.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

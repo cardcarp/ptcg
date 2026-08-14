@@ -1,0 +1,49 @@
+name: Charizard & Braixen-GX
+
+origin: sun-moon-black-star-230
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Fire
+
+hp: 270
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Brilliant Flare
+    text: You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.
+    damage: 180
+  - type: attack
+    cost:
+      - Fire
+    name: Crimson Flame Pillar-GX
+    text: Attach 5 basic Energy cards from your discard pile to your Pokémon in any way you like. If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pokémon is now Burned and Confused. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+
+errata: []

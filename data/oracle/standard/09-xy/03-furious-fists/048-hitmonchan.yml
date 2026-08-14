@@ -1,0 +1,45 @@
+name: Hitmonchan
+
+origin: furious-fists-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 107
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bullet Punch
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mach Cross
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

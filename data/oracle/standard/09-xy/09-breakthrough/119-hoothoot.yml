@@ -1,0 +1,41 @@
+name: Hoothoot
+
+origin: breakthrough-119
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 163
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Proclaim the Night
+    text: Your opponent can't play any Item cards from his or her hand during his or her next turn.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

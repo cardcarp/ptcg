@@ -1,0 +1,52 @@
+name: Absol
+
+origin: plasma-freeze-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Team Plasma
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 359
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Mind Jack
+    text: Does 20 more damage for each of your opponent's Benched Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Fearsome Shadow
+    text: Your opponent reveals his or her hand.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

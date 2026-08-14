@@ -1,0 +1,43 @@
+name: Mantine
+
+origin: astral-radiance-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 226
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Borne Ashore
+    text: Put a Basic Pokémon from either player's discard pile onto that player's Bench.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Edge
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

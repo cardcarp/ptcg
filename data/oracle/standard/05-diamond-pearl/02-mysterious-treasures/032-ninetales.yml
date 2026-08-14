@@ -1,0 +1,43 @@
+name: Ninetales
+
+origin: mysterious-treasures-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: ability
+    name: Color Shift
+    text: Once during your turn (before your attack), you may choose 1 of your opponent's Pokémon. Ninetales is the same type as that Pokémon (all if that Pokémon is more than 1 type) until the end of your turn. This power can't be used if Ninetales is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Fire Blast
+    text: Discard a Fire Energy attached to Ninetales.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

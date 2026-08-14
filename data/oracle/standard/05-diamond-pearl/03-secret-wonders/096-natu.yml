@@ -1,0 +1,46 @@
+name: Natu
+
+origin: secret-wonders-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 177
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bothering Wave
+    text: Flip a coin. If tails, this attack does nothing. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+    name: Future Sight
+    text: Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

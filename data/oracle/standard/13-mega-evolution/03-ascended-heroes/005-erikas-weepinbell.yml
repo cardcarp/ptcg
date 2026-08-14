@@ -1,0 +1,46 @@
+name: Erika's Weepinbell
+
+origin: ascended-heroes-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Erika's Bellsprout
+
+dex: 70
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Melt
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leafy Cyclone
+    text: During your next turn, this Pokémon can't use attacks.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

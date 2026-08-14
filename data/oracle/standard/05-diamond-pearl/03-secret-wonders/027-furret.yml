@@ -1,0 +1,43 @@
+name: Furret
+
+origin: secret-wonders-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Sentret
+
+dex: 162
+
+rule:
+  - type: attack
+    name: Keen Eye
+    text: Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Baton Pass
+    text: You may switch Furret with 1 of your Benched Pokémon. If you do, move as many Energy cards attached to Furret as you like to the new Active Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

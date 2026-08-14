@@ -1,0 +1,51 @@
+name: Zapdos
+
+origin: scarlet-violet-black-star-157
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Follow-Up Bolt
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Drill Peck
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

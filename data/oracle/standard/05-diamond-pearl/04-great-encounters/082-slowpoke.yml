@@ -1,0 +1,41 @@
+name: Slowpoke
+
+origin: great-encounters-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 79
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rest
+    text: Remove all Special Conditions and 3 damage counters from Slowpoke. Slowpoke is now Asleep.
+  - type: attack
+    cost:
+      - Water
+    name: Tumble Over
+    text: Slowpoke can't attack during your next turn.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

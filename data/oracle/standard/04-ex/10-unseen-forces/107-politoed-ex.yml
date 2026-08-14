@@ -1,0 +1,60 @@
+name: Politoed ex
+
+origin: unseen-forces-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Poliwhirl
+
+dex: 186
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Upward Lick
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. If that Pokémon is a Stage 2 Evolved Pokémon, this attack does 50 damage instead. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Punch and Run
+    text: Switch Politoed ex with 1 of your Benched Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Swallow Up
+    text: Before doing damage, count the remaining HP of the Defending Pokémon and Politoed ex. If the Defending Pokémon has fewer remaining HP than Politoed ex's, this attack does 120 damage instead.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

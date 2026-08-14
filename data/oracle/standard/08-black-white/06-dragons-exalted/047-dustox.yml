@@ -1,0 +1,47 @@
+name: Dustox
+
+origin: dragons-exalted-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Cascoon
+
+dex: 269
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Hazardous Scales
+    text: The Defending Pokémon is now Asleep, Burned, and Poisoned.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Aerial Ace
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

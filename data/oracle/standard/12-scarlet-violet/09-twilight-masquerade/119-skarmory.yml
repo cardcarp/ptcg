@@ -1,0 +1,49 @@
+name: Skarmory
+
+origin: twilight-masquerade-119
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 120
+
+dex: 227
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Cutting Wind
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Big Storm
+    text: Discard a Stadium in play.
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,48 @@
+name: Reshiram ex
+
+origin: journey-together-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 643
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Fire Wing
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Scorching Fire
+    text: Discard an Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

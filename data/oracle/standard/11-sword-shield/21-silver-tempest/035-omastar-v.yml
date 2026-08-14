@@ -1,0 +1,48 @@
+name: Omastar V
+
+origin: silver-tempest-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 190
+
+dex: 139
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Primal Guidance
+    text: Search your deck for up to 2 Pokémon that evolve from an Item card that has "Fossil" in its name and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Tentacle Lock
+    text: If the Defending Pokémon is an Evolution Pokémon, it can't attack during your opponent's next turn.
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,50 @@
+name: Noivern
+
+origin: xy-trainer-kit-noivern-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 110
+
+preevolution:
+  - Noibat
+
+dex: 715
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Second Bite
+    text: Does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Psychic
+      - Colorless
+    name: Sonic Bazooka
+    text: Flip a coin. If heads, this attack does 30 more damage and your opponent's Active Pokémon is now Confused.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

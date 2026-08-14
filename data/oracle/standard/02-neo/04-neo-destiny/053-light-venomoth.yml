@@ -1,0 +1,48 @@
+name: Light Venomoth
+
+origin: neo-destiny-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Venonat
+
+dex: 49
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Mysterious Wing
+    text: Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Synchronize
+    text: If Light Venomoth and the Defending Pokémon have a different number of Energy cards attached to them, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

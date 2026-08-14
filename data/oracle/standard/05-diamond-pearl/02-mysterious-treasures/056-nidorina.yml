@@ -1,0 +1,44 @@
+name: Nidorina
+
+origin: mysterious-treasures-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Nidoran ♀
+
+dex: 30
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rescue
+    text: Search your discard pile for up to 2 Pokémon, show them to your opponent, and put them into your hand.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

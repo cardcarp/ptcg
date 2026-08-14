@@ -1,0 +1,46 @@
+name: Latias ex δ
+
+origin: dragon-frontiers-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 380
+
+rule:
+  - type: ability
+    name: Fellow Boost
+    text: Once during your turn (before your attack), you may attach a basic Energy card from your hand to your Latias, Latias ex, Latios, or Latios ex. If you do, your turn ends. This power can't be used if Latias ex is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Power Crush
+    text: If the Defending Pokémon is Knocked Out by this attack, discard 2 Fire Energy attached to Latias ex.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

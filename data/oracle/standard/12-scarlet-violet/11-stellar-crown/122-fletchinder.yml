@@ -1,0 +1,45 @@
+name: Fletchinder
+
+origin: stellar-crown-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Fletchling
+
+dex: 662
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Speed Dive
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

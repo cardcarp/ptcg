@@ -1,0 +1,44 @@
+name: Stunfisk
+
+origin: noble-victories-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 618
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mud Shot
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder
+    text: Flip a coin. If tails, this Pokémon does 30 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

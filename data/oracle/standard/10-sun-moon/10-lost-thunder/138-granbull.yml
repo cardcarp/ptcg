@@ -1,0 +1,52 @@
+name: Granbull
+
+origin: lost-thunder-138
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 130
+
+preevolution:
+  - Snubbull
+
+dex: 210
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: All Out
+    text: If you have no cards in your hand, this attack does 130 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+      - Fairy
+    name: Giant Fangs
+    damage: 110
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Toxicroak
+
+origin: boundaries-crossed-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Revenge
+    text: If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Poison Jab
+    text: The Defending Pokémon is now Poisoned.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

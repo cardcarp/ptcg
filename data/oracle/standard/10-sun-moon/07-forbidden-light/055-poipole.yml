@@ -1,0 +1,42 @@
+name: Poipole
+
+origin: forbidden-light-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 803
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spit Poison
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Knockout Reviver
+    text: During your opponent's next turn, if this Pokémon is Knocked Out, your opponent can't take any Prize cards for it.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

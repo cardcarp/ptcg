@@ -1,0 +1,49 @@
+name: Boldore
+
+origin: emerging-powers-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Roggenrola
+
+dex: 525
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Smack Down
+    text: If the Defending Pokémon has Fighting Resistance, this attack does 60 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Power Gem
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

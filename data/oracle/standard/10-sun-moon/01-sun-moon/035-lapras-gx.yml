@@ -1,0 +1,55 @@
+name: Lapras-GX
+
+origin: sun-moon-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Water
+
+hp: 190
+
+dex: 131
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Collect
+    text: Draw 3 cards.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Blizzard Burn
+    text: This Pokémon can't attack during your next turn.
+    damage: 160
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Ice Beam-GX
+    text: Your opponent's Active Pokémon is now Paralyzed. (You can't use more than 1 GX attack in a game.)
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

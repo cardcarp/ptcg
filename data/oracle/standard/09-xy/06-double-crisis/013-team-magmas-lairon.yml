@@ -1,0 +1,47 @@
+name: Team Magma's Lairon
+
+origin: double-crisis-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Team Magma's Aron
+
+dex: 305
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Gnaw
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: This Pokémon does 10 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,52 @@
+name: Ninetales ex
+
+origin: 151-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Fire
+
+hp: 260
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Heat Wave
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Mirrored Flames
+    text: If you have the same number of cards in your hand as your opponent, this attack does 140 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

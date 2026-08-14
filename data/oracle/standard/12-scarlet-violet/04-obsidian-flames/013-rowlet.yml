@@ -1,0 +1,36 @@
+name: Rowlet
+
+origin: obsidian-flames-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 722
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Razor Wing
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

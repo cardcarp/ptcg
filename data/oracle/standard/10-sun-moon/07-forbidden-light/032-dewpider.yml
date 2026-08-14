@@ -1,0 +1,40 @@
+name: Dewpider
+
+origin: forbidden-light-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 751
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+    name: Spider Web
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

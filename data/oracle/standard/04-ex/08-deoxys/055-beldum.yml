@@ -1,0 +1,37 @@
+name: Beldum
+
+origin: deoxys-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 374
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flip Over
+    text: Beldum does 10 damage to itself, and don't apply Weakness and Resistance to this damage.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

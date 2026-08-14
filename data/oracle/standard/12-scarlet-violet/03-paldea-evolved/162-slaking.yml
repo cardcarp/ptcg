@@ -1,0 +1,45 @@
+name: Slaking
+
+origin: paldea-evolved-162
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 180
+
+preevolution:
+  - Vigoroth
+
+dex: 289
+
+rule:
+  - type: ability
+    name: Stir and Snooze
+    text: If this Pokémon is Asleep, flip 2 coins instead of 1 during Pokémon Checkup. If either of them is tails, this Pokémon is still Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slacker's Headstrike
+    text: This Pokémon is now Asleep.
+    damage: 240
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - G
+
+errata: []

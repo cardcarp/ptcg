@@ -1,0 +1,44 @@
+name: Cradily
+
+origin: stellar-crown-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Lileep
+
+dex: 346
+
+rule:
+  - type: ability
+    name: Selective Slime
+    text: Once during your turn, you may flip a coin. If heads, choose Burned, Confused, or Poisoned. Your opponent's Active Pokémon is now affected by that Special Condition.
+  - type: attack
+    cost:
+      - Grass
+    name: Miasma Wind
+    text: This attack does 100 damage for each Special Condition affecting your opponent's Active Pokémon.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

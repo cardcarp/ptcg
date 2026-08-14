@@ -1,0 +1,46 @@
+name: Lickitung
+
+origin: southern-islands-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 108
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lick Wounds
+    text: Flip a coin. If heads, choose 1 Pokémon (yours or your opponent's) with damage counters on it and remove 2 damage counters from it (1 if it only has 1).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tongue Stretch
+    text: Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Deoxys
+
+origin: chaos-rising-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 386
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Psyspear
+    text: If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,42 @@
+name: Latias
+
+origin: xy-black-star-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 90
+
+dex: 380
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Eon Connection
+    text: Draw a card. If Latios is on your Bench, draw 1 more card.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Speed Wing
+    damage: 60
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

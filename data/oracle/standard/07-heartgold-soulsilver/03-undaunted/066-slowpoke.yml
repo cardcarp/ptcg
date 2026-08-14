@@ -1,0 +1,41 @@
+name: Slowpoke
+
+origin: undaunted-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 79
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rambunctious Party
+    text: Look at the top 5 cards of your deck. Choose as many Basic Pokémon as you like and put them onto your Bench. Shuffle the other cards back into your deck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Rain Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

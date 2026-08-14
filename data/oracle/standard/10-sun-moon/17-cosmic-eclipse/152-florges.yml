@@ -1,0 +1,49 @@
+name: Florges
+
+origin: cosmic-eclipse-152
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fairy
+
+hp: 130
+
+preevolution:
+  - Floette
+
+dex: 671
+
+rule:
+  - type: ability
+    name: Flower Picking
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 2 random cards from your opponent's hand. Your opponent reveals those cards and shuffles them into their deck.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Petal Dance
+    text: Flip 3 coins. This attack does 60 damage for each heads. This Pokémon is now Confused.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

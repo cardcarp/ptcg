@@ -1,0 +1,48 @@
+name: Walrein
+
+origin: chilling-reign-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Sealeo
+
+dex: 365
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aurora Beam
+    damage: 70
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hail Prison
+    text: Discard 2 Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.
+    damage: 160
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - E
+
+errata: []

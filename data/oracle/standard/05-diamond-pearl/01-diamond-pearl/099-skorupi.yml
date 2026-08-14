@@ -1,0 +1,43 @@
+name: Skorupi
+
+origin: diamond-pearl-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 451
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Poison Sting
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pin Missile
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Umbreon
+
+origin: neo-discovery-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Feint Attack
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Torracat
+
+origin: temporal-forces-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Litten
+
+dex: 726
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Bite
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flare Strike
+    text: During your next turn, this Pokémon can't use Flare Strike.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,44 @@
+name: Haxorus
+
+origin: noble-victories-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Fraxure
+
+dex: 612
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dual Chop
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giga Impact
+    text: This Pokémon can't attack during your next turn.
+    damage: 120
+
+retreat: 2
+
+regulation:
+
+errata: []

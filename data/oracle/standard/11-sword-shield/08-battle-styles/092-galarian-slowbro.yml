@@ -1,0 +1,48 @@
+name: Galarian Slowbro
+
+origin: battle-styles-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Galarian Slowpoke
+
+dex: 80
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Splattering Poison
+    text: Both Active Pokémon are now Poisoned.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Unhinged Hammer
+    text: If this Pokémon is affected by a Special Condition, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

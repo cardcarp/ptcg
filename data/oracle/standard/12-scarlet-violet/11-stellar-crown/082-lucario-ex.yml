@@ -1,0 +1,51 @@
+name: Lucario ex
+
+origin: stellar-crown-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Fighting
+
+hp: 250
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Low Kick
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Aura Knuckle
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

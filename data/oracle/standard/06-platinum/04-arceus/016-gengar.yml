@@ -1,0 +1,47 @@
+name: Gengar
+
+origin: arceus-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: ability
+    name: Curse
+    text: Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another of your opponent's Pokémon. This power can't be used if Gengar is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Shadow Skip
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) You may switch Gengar with 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

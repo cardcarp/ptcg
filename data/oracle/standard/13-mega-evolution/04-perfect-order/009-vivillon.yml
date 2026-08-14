@@ -1,0 +1,44 @@
+name: Vivillon
+
+origin: perfect-order-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Spewpa
+
+dex: 666
+
+rule:
+  - type: ability
+    name: Grand Wing
+    text: Once during your turn, you may use this Ability. Your opponent shuffles their hand and puts it on the bottom of their deck. If they put any cards on the bottom of their deck in this way, they draw 4 cards.
+  - type: attack
+    cost:
+      - Grass
+    name: Blow Through
+    text: If a Stadium is in play, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

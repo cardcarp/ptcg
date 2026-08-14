@@ -1,0 +1,41 @@
+name: Riolu
+
+origin: burning-shadows-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 447
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Punch
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Low Kick
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

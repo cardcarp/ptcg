@@ -1,0 +1,49 @@
+name: Malamar
+
+origin: xy-black-star-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Inkay
+
+dex: 687
+
+rule:
+  - type: ability
+    name: Contrary
+    text: If this Pokémon is your Active Pokémon, whenever your opponent flips a coin during his or her turn, treat it as tails.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Conform
+    text: If you have the same number of cards in your hand as your opponent, your opponent's Active Pokémon is now Confused.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

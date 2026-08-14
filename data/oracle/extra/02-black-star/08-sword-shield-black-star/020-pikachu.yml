@@ -1,0 +1,46 @@
+name: Pikachu
+
+origin: sword-shield-black-star-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Iron Tail
+    text: Flip a coin until you get tails. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

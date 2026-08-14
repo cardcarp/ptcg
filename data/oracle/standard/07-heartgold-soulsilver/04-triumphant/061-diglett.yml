@@ -1,0 +1,47 @@
+name: Diglett
+
+origin: triumphant-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 50
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sand Veil
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to Diglett during your opponent's next turn.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Mini Earthquake
+    text: Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

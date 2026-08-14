@@ -1,0 +1,46 @@
+name: Chatot
+
+origin: unbroken-bonds-162
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 441
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mimic
+    text: Shuffle your hand into your deck. Then, draw a card for each card in your opponent's hand.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tone-Deaf
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

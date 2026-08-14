@@ -1,0 +1,42 @@
+name: Sabrina's Abra
+
+origin: gym-challenge-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 63
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psyscan
+    text: Look at your opponent's hand.
+  - type: attack
+    cost:
+      - Psychic
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

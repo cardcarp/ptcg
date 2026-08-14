@@ -1,0 +1,44 @@
+name: Gabite
+
+origin: mysterious-treasures-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Gible
+
+dex: 444
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gather Up
+    text: Search your discard pile for up to 2 Energy cards, show them to your opponent, and put them into your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Marvelous Shine
+    text: Flip a coin. If heads put 4 damage counters on 1 of your opponent's Pokémon. If tails, remove 4 damage counters from 1 of your Pokémon.
+
+weakness:
+  - type: Colorless
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

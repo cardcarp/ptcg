@@ -1,0 +1,37 @@
+name: Nymble
+
+origin: paldea-evolved-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 919
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Wild Kick
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

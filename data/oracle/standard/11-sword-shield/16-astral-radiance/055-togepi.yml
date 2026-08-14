@@ -1,0 +1,39 @@
+name: Togepi
+
+origin: astral-radiance-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 175
+
+rule:
+  - type: ability
+    name: Touch of Happiness
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may heal 10 damage from your Active Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+    name: Rollout
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

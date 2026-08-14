@@ -1,0 +1,54 @@
+name: Honchkrow
+
+origin: undaunted-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Murkrow
+
+dex: 430
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Shadow Bind
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Vengeance
+    text: Does 10 damage plus 10 more damage for each Darkness Pokémon in your discard pile.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

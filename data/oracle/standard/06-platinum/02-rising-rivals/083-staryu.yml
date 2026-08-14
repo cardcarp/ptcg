@@ -1,0 +1,41 @@
+name: Staryu
+
+origin: rising-rivals-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 120
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cosmic Draw
+    text: If your opponent has any Evolved Pokémon in play, draw 3 cards.
+  - type: attack
+    cost:
+      - Water
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Bellossom δ
+
+origin: holon-phantoms-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Gloom
+
+dex: 182
+
+rule:
+  - type: ability
+    name: Fellowship
+    text: Bellossom can use the attacks of all Oddish, Gloom, Vileplume, Vileplume ex, or other Bellossom you have in play as its own. (You still need the necessary Energy to use each attack.)
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Flower
+    text: During your opponent's next turn, Bellossom has no Weakness.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Cascoon
+
+origin: dragons-exalted-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Wurmple
+
+dex: 268
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tangle Drag
+    text: Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spiral Drain
+    text: Heal 20 damage from this Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

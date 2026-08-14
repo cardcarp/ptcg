@@ -1,0 +1,53 @@
+name: Lilligant
+
+origin: boundaries-crossed-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Petilil
+
+dex: 549
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Return
+    text: Draw cards until you have 6 cards in your hand.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Magical Leaf
+    text: Flip a coin. If heads, this attack does 30 more damage and heal 30 damage from this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

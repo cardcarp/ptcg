@@ -1,0 +1,42 @@
+name: Kabuto
+
+origin: skyridge-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 50
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 140
+
+rule:
+  - type: ability
+    name: Thick Shell
+    text: All damage done by attacks to Kabuto from Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,52 @@
+name: Lairon
+
+origin: plasma-blast-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Aron
+
+dex: 305
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Metal Claw
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Iron Head
+    text: Flip a coin until you get tails. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Ditto
+
+origin: triumphant-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 132
+
+rule:
+  - type: ability
+    name: Dittobolic
+    text: The number of Benched Pokémon your opponent can have is now 4. If your opponent has 5 Benched Pokémon, your opponent must discard 1 of them and all cards attached to it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sharp Point
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Mimikyu
+
+origin: sun-moon-black-star-163
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 778
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Mimic
+    text: Shuffle your hand into your deck. Then, draw a card for each card in your opponent's hand.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Play Rough
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Detective Pikachu
+
+origin: sun-moon-black-star-190
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Coffee Break
+    text: Heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Corkscrew Punch
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

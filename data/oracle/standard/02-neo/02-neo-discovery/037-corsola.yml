@@ -1,0 +1,43 @@
+name: Corsola
+
+origin: neo-discovery-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 222
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Recover
+    text: Discard 1 Water Energy card attached to Corsola or this attack does nothing. Remove all damage counters from Corsola.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Spike Cannon
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

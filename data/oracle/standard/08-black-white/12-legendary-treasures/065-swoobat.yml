@@ -1,0 +1,48 @@
+name: Swoobat
+
+origin: legendary-treasures-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Woobat
+
+dex: 528
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Gift
+    text: Flip a coin. If heads, search your deck for 2 Psychic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Psychic
+    name: Heart Stamp
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

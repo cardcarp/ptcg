@@ -1,0 +1,45 @@
+name: Magmortar
+
+origin: ultra-prism-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Magmar
+
+dex: 467
+
+rule:
+  - type: ability
+    name: Incandescent Body
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Blaster
+    text: You may discard 2 Energy from this Pokémon. If you do, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

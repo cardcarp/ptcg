@@ -1,0 +1,47 @@
+name: Magearna
+
+origin: xy-black-star-165
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 801
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Entertain
+    text: Heal 40 damage from 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Metal
+    name: Prismatic Wave
+    text: This attack does 20 damage times the number of different types of Pokémon on your opponent's Bench.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

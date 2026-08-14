@@ -1,0 +1,47 @@
+name: Diancie
+
+origin: burning-shadows-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 90
+
+dex: 719
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Sparkling Wish
+    text: Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Diamond Storm
+    text: Heal 30 damage from each of your Fairy Pokémon.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

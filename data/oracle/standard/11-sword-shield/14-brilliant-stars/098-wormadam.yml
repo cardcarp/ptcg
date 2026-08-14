@@ -1,0 +1,54 @@
+name: Wormadam
+
+origin: brilliant-stars-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Burmy
+
+dex: 413
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Matron's Anger
+    text: This attack does 10 more damage for each Pokémon in your discard pile.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Scrap Drop
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

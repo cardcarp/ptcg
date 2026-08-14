@@ -1,0 +1,46 @@
+name: Zapdos
+
+origin: majestic-dawn-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 100
+
+dex: 145
+
+rule:
+  - type: ability
+    name: Sheet Lightning
+    text: Once during your turn, when you put Zapdos from your hand onto your Bench, you may flip a coin. If heads, put 1 damage counter on each of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Raging Thunder
+    text: Does 40 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

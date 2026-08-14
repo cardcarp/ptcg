@@ -1,0 +1,35 @@
+name: Wurmple
+
+origin: lost-thunder-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 265
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

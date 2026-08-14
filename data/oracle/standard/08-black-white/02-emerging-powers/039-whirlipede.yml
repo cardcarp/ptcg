@@ -1,0 +1,48 @@
+name: Whirlipede
+
+origin: emerging-powers-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Venipede
+
+dex: 544
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Venoshock
+    text: If the Defending Pokémon is Poisoned, this attack does 60 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Steamroller
+    text: This attack's damage isn't affected by Resistance.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

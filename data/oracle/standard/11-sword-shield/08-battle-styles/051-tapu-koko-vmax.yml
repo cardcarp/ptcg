@@ -1,0 +1,45 @@
+name: Tapu Koko VMAX
+
+origin: battle-styles-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Lightning
+
+hp: 320
+
+preevolution:
+  - Tapu Koko V
+
+dex: 785
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Max Shock
+    text: If you have more Prize cards remaining than your opponent, their Active Pokémon is now Paralyzed.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

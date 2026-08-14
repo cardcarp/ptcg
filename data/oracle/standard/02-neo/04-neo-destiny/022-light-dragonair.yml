@@ -1,0 +1,47 @@
+name: Light Dragonair
+
+origin: neo-destiny-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Healing Light
+    text: Remove 1 damage counter from each of your Pokémon that has any damage counters on it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Protective Wave
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Light Dragonair.
+    damage: 20
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Pawmot
+
+origin: phantasmal-flames-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Pawmo
+
+dex: 923
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Voltaic Fist
+    text: You may have this Pokémon also do 60 damage to itself and make your opponent's Active Pokémon Paralyzed.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

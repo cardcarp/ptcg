@@ -1,0 +1,44 @@
+name: Virizion
+
+origin: shining-legends-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 640
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Wrapped in Wind
+    text: You may attach a basic Energy card from your hand to this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Pike
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

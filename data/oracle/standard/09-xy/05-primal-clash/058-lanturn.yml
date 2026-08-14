@@ -1,0 +1,53 @@
+name: Lanturn
+
+origin: primal-clash-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Dive
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: This Pokémon does 20 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

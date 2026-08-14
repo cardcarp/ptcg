@@ -1,0 +1,44 @@
+name: Plusle
+
+origin: supreme-victors-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 311
+
+rule:
+  - type: attack
+    name: Greedy Draw
+    text: If you have the same number of cards or less in your hand as your opponent, draw cards until you have 1 more card than your opponent. (If you have more cards in your hand than your opponent, this attack does nothing.)
+  - type: attack
+    cost:
+      - Lightning
+    name: Hand Charge
+    text: Attach a Lightning Energy card from your hand to 1 of your Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,61 @@
+name: Machamp-GX
+
+origin: burning-shadows-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Fighting
+
+hp: 250
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Cross-Cut
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Bedrock Breaker
+    text: Discard any Stadium card in play.
+    damage: 130
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Muscle Punch-GX
+    text: This attack's damage isn't affected by Resistance. (You can't use more than 1 GX attack in a game.)
+    damage: 180
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Wobbuffet
+
+origin: skyridge-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 202
+
+rule:
+  - type: ability
+    name: Mirror Coat
+    text: If Wobbuffet becomes Poisoned or Burned by the Defending Pokémon's attack during your opponent's turn, the Defending Pokémon becomes affected by the same Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Return Attack
+    text: Flip 2 coins. If either is heads, this attack does 10 damage times the number of damage counters on Wobbuffet.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

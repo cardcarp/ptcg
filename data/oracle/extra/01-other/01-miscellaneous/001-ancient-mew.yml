@@ -1,0 +1,36 @@
+name: Ancient Mew
+
+origin: miscellaneous-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 151
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Psyche
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

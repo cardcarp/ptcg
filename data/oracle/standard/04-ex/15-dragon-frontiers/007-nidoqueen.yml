@@ -1,0 +1,46 @@
+name: Nidoqueen δ
+
+origin: dragon-frontiers-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Nidorina
+
+dex: 31
+
+rule:
+  - type: ability
+    name: Invitation
+    text: Once during your turn (before your attack), you may search your deck for a Basic Pokémon or Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Nidoqueen is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Vengeance
+    text: Does 30 damage plus 10 more damage for each Basic Pokémon and each Evolution card in your discard pile. You can't add more than 60 damage in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

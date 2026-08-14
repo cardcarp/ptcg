@@ -1,0 +1,52 @@
+name: Gyarados V
+
+origin: evolving-skies-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 220
+
+dex: 130
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Get Angry
+    text: This attack does 20 damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Heavy Storm
+    damage: 180
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

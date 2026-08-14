@@ -1,0 +1,36 @@
+name: Magikarp
+
+origin: rebel-clash-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Leap Out
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

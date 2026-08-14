@@ -1,0 +1,46 @@
+name: Bronzor
+
+origin: triumphant-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 436
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Iron Defense
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to Bronzor during your opponent's next turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

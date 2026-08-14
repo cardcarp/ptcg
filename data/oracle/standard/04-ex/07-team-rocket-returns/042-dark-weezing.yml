@@ -1,0 +1,53 @@
+name: Dark Weezing
+
+origin: team-rocket-returns-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: ability
+    name: Methane Leak
+    text: As long as Dark Weezing is your Active Pokémon, put 1 damage counter on each Pokémon that remains Poisoned between turns.
+  - type: attack
+    cost:
+      - Colorless
+    name: Smog
+    text: The Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Darkness Charge
+    text: Put 2 damage counters on Dark Weezing.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Grass Darkness type.
+
+regulation:
+
+errata: []

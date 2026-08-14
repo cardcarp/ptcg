@@ -1,0 +1,49 @@
+name: Serperior
+
+origin: boundaries-crossed-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Servine
+
+dex: 497
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Double Slash
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Mega Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Zoroark
+
+origin: evolving-skies-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: ability
+    name: Phantom Transformation
+    text: Once during your turn, you may choose a Stage 1 Pokémon, except any Zoroark, from your discard pile. If you do, discard this Pokémon and all attached cards, and put the chosen Pokémon in its place.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Night Daze
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

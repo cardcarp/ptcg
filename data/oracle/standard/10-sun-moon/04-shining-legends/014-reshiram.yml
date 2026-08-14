@@ -1,0 +1,46 @@
+name: Reshiram
+
+origin: shining-legends-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 643
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Outrage
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Scorching Breath
+    text: This Pokémon can't attack during your next turn.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

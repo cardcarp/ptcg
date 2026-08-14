@@ -1,0 +1,48 @@
+name: Reuniclus
+
+origin: noble-victories-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Duosion
+
+dex: 579
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Dizzy Punch
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mind Bend
+    text: The Defending Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

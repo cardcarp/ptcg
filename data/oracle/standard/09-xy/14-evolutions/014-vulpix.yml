@@ -1,0 +1,37 @@
+name: Vulpix
+
+origin: evolutions-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Confuse Ray
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

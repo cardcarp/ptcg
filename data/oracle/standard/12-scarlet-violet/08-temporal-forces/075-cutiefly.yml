@@ -1,0 +1,37 @@
+name: Cutiefly
+
+origin: temporal-forces-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 742
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mini Drain
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

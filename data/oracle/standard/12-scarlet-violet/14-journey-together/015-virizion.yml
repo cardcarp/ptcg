@@ -1,0 +1,45 @@
+name: Virizion
+
+origin: journey-together-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 640
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Slicing Blade
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

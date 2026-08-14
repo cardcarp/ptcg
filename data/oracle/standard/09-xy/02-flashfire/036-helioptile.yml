@@ -1,0 +1,46 @@
+name: Helioptile
+
+origin: flashfire-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 694
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Pound
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Destructive Beam
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

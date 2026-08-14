@@ -1,0 +1,54 @@
+name: Keldeo-GX
+
+origin: unified-minds-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Water
+
+hp: 170
+
+dex: 647
+
+rule:
+  - type: ability
+    name: Pure Heart
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon-GX or Pokémon-EX.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Sonic Edge
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 110
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Resolute Blade-GX
+    text: This attack does 50 damage for each of your opponent's Benched Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Abomasnow
+
+origin: paldea-evolved-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Snover
+
+dex: 460
+
+rule:
+  - type: ability
+    name: Freezing Disaster
+    text: Pokémon (both yours and your opponent's) can't be healed.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Magnum Punch
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,48 @@
+name: Kricketune
+
+origin: mysterious-treasures-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Kricketot
+
+dex: 402
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sore Performance
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Concerto
+    text: Does 40 damage plus 10 more damage for each Kricketot and each Kricketune you have in play.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

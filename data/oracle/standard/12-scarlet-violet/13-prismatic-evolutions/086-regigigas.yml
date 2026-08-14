@@ -1,0 +1,41 @@
+name: Regigigas
+
+origin: prismatic-evolutions-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 160
+
+dex: 486
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Jewel Breaker
+    text: If your opponent's Active Pokémon is a Tera Pokémon, this attack does 230 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - H
+
+errata: []

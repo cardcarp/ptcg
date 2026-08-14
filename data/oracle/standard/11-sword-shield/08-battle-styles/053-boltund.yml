@@ -1,0 +1,48 @@
+name: Boltund
+
+origin: battle-styles-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Yamper
+
+dex: 836
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Corner
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Defiant Spark
+    text: If this Pokémon has any damage counters on it, this attack can be used for Lightning.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

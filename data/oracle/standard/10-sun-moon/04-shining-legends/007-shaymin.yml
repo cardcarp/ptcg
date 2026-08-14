@@ -1,0 +1,43 @@
+name: Shaymin
+
+origin: shining-legends-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Flippity Flap
+    text: Shuffle your hand into your deck. Then, draw 6 cards.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Rally Back
+    text: If any of your Pokémon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

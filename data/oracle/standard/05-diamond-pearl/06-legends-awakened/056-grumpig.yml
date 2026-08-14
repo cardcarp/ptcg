@@ -1,0 +1,44 @@
+name: Grumpig
+
+origin: legends-awakened-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Spoink
+
+dex: 326
+
+rule:
+  - type: attack
+    name: Magical Step
+    text: The Defending Pokémon is now Confused. Put 6 damage counters instead of 3 on the Confused Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Grind
+    text: Does 20 damage times the amount of Energy attached to Grumpig.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

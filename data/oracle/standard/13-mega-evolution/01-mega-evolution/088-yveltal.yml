@@ -1,0 +1,47 @@
+name: Yveltal
+
+origin: mega-evolution-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 717
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Clutch
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Feather
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - I
+
+errata: []

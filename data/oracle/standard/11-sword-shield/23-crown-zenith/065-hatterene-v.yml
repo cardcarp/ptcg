@@ -1,0 +1,53 @@
+name: Hatterene V
+
+origin: crown-zenith-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 200
+
+dex: 858
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Horoscope
+    text: Look at the top 3 cards of your deck. You may attach any number of Energy cards you find there to this Pokémon. Put the other cards back in any order.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Teleportation Burst
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

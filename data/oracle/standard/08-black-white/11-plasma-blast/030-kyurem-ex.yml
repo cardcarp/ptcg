@@ -1,0 +1,51 @@
+name: Kyurem-EX
+
+origin: plasma-blast-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Water
+
+hp: 180
+
+dex: 646
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Outrage
+    text: Does 10 more damage for each damage counter on this Pokémon.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Giga Frost
+    text: Discard 2 Water Energy attached to this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

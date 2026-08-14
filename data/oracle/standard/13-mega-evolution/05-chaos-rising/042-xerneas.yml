@@ -1,0 +1,40 @@
+name: Xerneas
+
+origin: chaos-rising-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 716
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Geo Storm
+    text: This attack does 30 damage for each Psychic Energy attached to all of your Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

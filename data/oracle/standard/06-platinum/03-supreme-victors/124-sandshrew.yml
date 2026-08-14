@@ -1,0 +1,40 @@
+name: Sandshrew
+
+origin: supreme-victors-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 27
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Scratch
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

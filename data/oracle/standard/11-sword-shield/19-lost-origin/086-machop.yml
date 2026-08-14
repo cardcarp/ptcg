@@ -1,0 +1,36 @@
+name: Machop
+
+origin: lost-origin-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 66
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Punch
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

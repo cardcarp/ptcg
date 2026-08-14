@@ -1,0 +1,55 @@
+name: Melmetal
+
+origin: temporal-forces-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 160
+
+preevolution:
+  - Meltan
+
+dex: 809
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Hammer In
+    damage: 120
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Iron Bash
+    damage: 230
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+  - H
+
+errata: []

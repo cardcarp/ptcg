@@ -1,0 +1,46 @@
+name: Pikachu ex
+
+origin: paldea-evolved-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Lightning
+
+hp: 190
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pika Punch
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Dynamic Bolt
+    text: Flip a coin. If tails, discard all Energy from this Pokémon.
+    damage: 220
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

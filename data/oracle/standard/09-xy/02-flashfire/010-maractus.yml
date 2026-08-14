@@ -1,0 +1,43 @@
+name: Maractus
+
+origin: flashfire-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 556
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Exciting Shake
+    text: During your next turn, flip 6 coins instead of 2 for this Pokémon's Prickly Needles attack.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Prickly Needles
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

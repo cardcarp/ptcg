@@ -1,0 +1,53 @@
+name: Noctowl
+
+origin: breakthrough-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Hoothoot
+
+dex: 164
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: High Flight
+    text: Each player reveals his or her hand. This attack does 20 damage times the number of Item cards revealed.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Speed Dive
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

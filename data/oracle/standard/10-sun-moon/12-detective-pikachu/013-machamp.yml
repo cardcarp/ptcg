@@ -1,0 +1,46 @@
+name: Machamp
+
+origin: detective-pikachu-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Directing Traffic
+    text: Look at the top 5 cards of your deck and put them back in any order.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Cross Chop
+    text: Flip a coin. If heads, this attack does 60 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

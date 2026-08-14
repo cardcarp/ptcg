@@ -1,0 +1,45 @@
+name: Simisage
+
+origin: paradox-rift-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Pansage
+
+dex: 512
+
+rule:
+  - type: ability
+    name: Monkey Trio
+    text: If you have Simisage, Simisear, and Simipour in play, ignore all Colorless Energy in the costs of attacks used by this Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Arm Thrust Needle
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon that have an Ability, except any Simisage.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

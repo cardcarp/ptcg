@@ -1,0 +1,48 @@
+name: Heatran
+
+origin: twilight-masquerade-123
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 140
+
+dex: 485
+
+rule:
+  - type: ability
+    name: Incandescent Body
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Steel Burst
+    text: Discard all Metal Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+  - H
+
+errata: []

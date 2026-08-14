@@ -1,0 +1,44 @@
+name: Rotom
+
+origin: plasma-storm-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Team Plasma
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 479
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Electribonus
+    text: Discard a Lightning Energy card from your hand. If you do, draw 3 cards.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Poltergeist
+    text: Your opponent reveals his or her hand. This attack does 20 damage times the number of Trainer cards in your opponent's hand.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

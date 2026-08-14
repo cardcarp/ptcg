@@ -1,0 +1,56 @@
+name: Claydol ex
+
+origin: power-keepers-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: ability
+    name: Type Shift
+    text: Once during your turn (before your attack), you may use this power. Claydol ex's type is Fighting until the end of your turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psychic Boom
+    text: Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Shadow Crush
+    text: You may discard a Psychic Energy card attached to Claydol ex. If you do, discard an Energy card attached to the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

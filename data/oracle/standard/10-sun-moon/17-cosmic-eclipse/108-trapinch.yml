@@ -1,0 +1,37 @@
+name: Trapinch
+
+origin: cosmic-eclipse-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 328
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dig
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

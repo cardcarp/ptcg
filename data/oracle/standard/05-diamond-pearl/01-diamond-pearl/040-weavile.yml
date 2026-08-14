@@ -1,0 +1,52 @@
+name: Weavile
+
+origin: diamond-pearl-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Nasty Plot
+    text: Search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Dark Pulse
+    text: Does 10 damage times the total amount of Darkness Energy attached to all of your Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

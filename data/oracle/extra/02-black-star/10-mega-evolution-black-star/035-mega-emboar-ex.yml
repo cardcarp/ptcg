@@ -1,0 +1,47 @@
+name: Mega Emboar ex
+
+origin: mega-evolution-black-star-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - MEGA
+  - ex
+
+type:
+  - Fire
+
+hp: 380
+
+preevolution:
+  - Pignite
+
+dex: 500
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Crimson Blast
+    text: This Pokémon also does 60 damage to itself.
+    damage: 320
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

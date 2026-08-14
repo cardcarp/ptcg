@@ -1,0 +1,44 @@
+name: Rapidash
+
+origin: delta-species-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Super Singe
+    text: The Defending Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

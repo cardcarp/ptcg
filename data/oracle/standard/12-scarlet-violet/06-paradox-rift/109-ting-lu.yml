@@ -1,0 +1,44 @@
+name: Ting-Lu
+
+origin: paradox-rift-109
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 140
+
+dex: 1003
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Sand Bringer
+    text: Attach up to 2 Basic Fighting Energy cards from your discard pile to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Arrogant Impact
+    text: If this Pokémon has 4 or more damage counters on it, this attack does nothing.
+    damage: 220
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - G
+
+errata: []

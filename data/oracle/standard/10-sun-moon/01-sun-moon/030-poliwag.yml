@@ -1,0 +1,44 @@
+name: Poliwag
+
+origin: sun-moon-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 60
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 10 more damage times the amount of Water Energy attached to this Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

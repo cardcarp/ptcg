@@ -1,0 +1,46 @@
+name: M Mewtwo-EX
+
+origin: breakthrough-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Psychic
+
+hp: 210
+
+preevolution:
+  - Mewtwo-EX
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psychic Infinity
+    text: This attack does 30 more damage times the amount of Energy attached to both Active Pokémon. This attack's damage isn't affected by Weakness.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,35 @@
+name: Tangela
+
+origin: cosmic-eclipse-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 114
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Toxic
+    text: Your opponent's Active Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

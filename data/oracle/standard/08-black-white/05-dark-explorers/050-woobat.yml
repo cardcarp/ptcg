@@ -1,0 +1,46 @@
+name: Woobat
+
+origin: dark-explorers-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 527
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Heart Stamp
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

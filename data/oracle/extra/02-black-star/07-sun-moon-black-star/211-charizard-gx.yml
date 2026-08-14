@@ -1,0 +1,54 @@
+name: Charizard-GX
+
+origin: sun-moon-black-star-211
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Fire
+
+hp: 250
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    damage: 140
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flare Blitz-GX
+    text: (You can't use more than 1 GX attack in a game.)
+    damage: 300
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

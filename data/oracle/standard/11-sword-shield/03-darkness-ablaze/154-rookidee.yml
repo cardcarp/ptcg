@@ -1,0 +1,42 @@
+name: Rookidee
+
+origin: darkness-ablaze-154
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 821
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pluck
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

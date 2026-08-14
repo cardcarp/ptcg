@@ -1,0 +1,50 @@
+name: Luxray V
+
+origin: astral-radiance-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 210
+
+dex: 405
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fang Snipe
+    text: Your opponent reveals their hand. Discard a Trainer card you find there.
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Radiating Pulse
+    text: Discard 2 Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,43 @@
+name: Crobat
+
+origin: skyridge-005h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Golbat
+
+dex: 169
+
+rule:
+  - type: ability
+    name: Carry Off
+    text: Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Baby Pokémon, Basic Pokémon, or Evolution cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Crobat is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Double Cross
+    text: Flip 2 coins. This attack does 40 damage times the number of heads. If both of them are tails, the Defending Pokémon is now Confused and Poisoned.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

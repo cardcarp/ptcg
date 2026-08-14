@@ -1,0 +1,59 @@
+name: Wishiwashi-GX
+
+origin: guardians-rising-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Water
+
+hp: 210
+
+dex: 746
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Torrential Vortex
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 120
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Blue Surge-GX
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you like. (You can't use more than 1 GX attack in a game.)
+    damage: 220
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

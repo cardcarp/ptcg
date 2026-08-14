@@ -1,0 +1,44 @@
+name: Marill
+
+origin: diamond-pearl-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 183
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rollout
+    text: If Marill is evolved from Azurill, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Splashing Turn
+    text: Switch Marill with 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

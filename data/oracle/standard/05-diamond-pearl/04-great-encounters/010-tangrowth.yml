@@ -1,0 +1,52 @@
+name: Tangrowth
+
+origin: great-encounters-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Tangela
+
+dex: 465
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Power Whip
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage for each basic Energy card attached to Tangrowth to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Stick and Absorb
+    text: Remove 3 damage counters from Tangrowth. The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

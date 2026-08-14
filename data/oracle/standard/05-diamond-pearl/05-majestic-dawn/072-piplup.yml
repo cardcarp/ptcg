@@ -1,0 +1,38 @@
+name: Piplup
+
+origin: majestic-dawn-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 393
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Splatter
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+rulebox:
+  - "Pecha Berry: If Piplup is Poisoned, remove the Special Condition Poisoned from Piplup at the end of each player's turn."
+
+regulation:
+
+errata: []

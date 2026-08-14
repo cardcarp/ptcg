@@ -1,0 +1,59 @@
+name: Zacian VSTAR
+
+origin: crown-zenith-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Metal
+
+hp: 270
+
+preevolution:
+  - Zacian V
+
+dex: 888
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Break Edge
+    text: This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pokémon.
+    damage: 200
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Sword Star
+    text: This Pokémon also does 30 damage to itself. (You can't use more than 1 VSTAR Power in a game.)
+    damage: 310
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

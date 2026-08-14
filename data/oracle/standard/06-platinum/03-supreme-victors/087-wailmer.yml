@@ -1,0 +1,46 @@
+name: Wailmer
+
+origin: supreme-victors-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 320
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hydro Pump
+    text: Does 20 damage plus 10 more damage for each Water Energy attached to Wailmer but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Wailmer does 20 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

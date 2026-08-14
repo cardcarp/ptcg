@@ -1,0 +1,44 @@
+name: Lombre
+
+origin: deoxys-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: ability
+    name: Aqua Lift
+    text: If Lombre has any Water Energy attached to it, the Retreat Cost for Lombre is 0.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

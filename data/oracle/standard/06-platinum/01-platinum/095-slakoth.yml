@@ -1,0 +1,43 @@
+name: Slakoth
+
+origin: platinum-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 287
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flail
+    text: Does 10 damage times the number of damage counters on Slakoth.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slack Off
+    text: Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

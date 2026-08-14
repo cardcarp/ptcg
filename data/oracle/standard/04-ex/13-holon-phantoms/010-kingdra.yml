@@ -1,0 +1,57 @@
+name: Kingdra δ
+
+origin: holon-phantoms-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Fire
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: ability
+    name: Dragon Curse
+    text: Once during your turn (before your attack), if Kingdra is your Active Pokémon, you may put 2 damage counters on 1 of your opponent's Pokémon with δ on its card. This power can't be used if Kingdra is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Extra Flame
+    text: If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Metal
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Fire Metal type.
+
+regulation:
+
+errata: []

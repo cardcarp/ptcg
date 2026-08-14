@@ -1,0 +1,49 @@
+name: Machoke
+
+origin: evolutions-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Karate Chop
+    text: This attack does 60 damage minus 10 damage for each damage counter on this Pokémon.
+    damage: 60
+    modifier: '-'
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Submission
+    text: This Pokémon does 20 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

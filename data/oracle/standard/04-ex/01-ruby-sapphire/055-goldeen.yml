@@ -1,0 +1,37 @@
+name: Goldeen
+
+origin: ruby-sapphire-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 118
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flail
+    text: Does 10 damage for each damage counter on Goldeen.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

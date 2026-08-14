@@ -1,0 +1,42 @@
+name: Chinchou
+
+origin: paldean-fates-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 170
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shine On
+    text: Look at the top card of your deck. You may put that card on the bottom of your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Tiny Charge
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,50 @@
+name: Hydreigon
+
+origin: dragons-exalted-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Consume
+    text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Destructor Beam
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 90
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

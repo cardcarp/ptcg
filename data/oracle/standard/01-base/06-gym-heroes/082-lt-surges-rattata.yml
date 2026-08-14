@@ -1,0 +1,46 @@
+name: Lt. Surge's Rattata
+
+origin: gym-heroes-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 19
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Focus Energy
+    text: During your next turn, Lt. Surge's Rattata's Gnaw attack's base damage is doubled.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

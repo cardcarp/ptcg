@@ -1,0 +1,41 @@
+name: Frillish
+
+origin: next-destinies-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 592
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bubble
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Spit Poison
+    text: The Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

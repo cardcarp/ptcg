@@ -1,0 +1,48 @@
+name: Beartic
+
+origin: emerging-powers-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Cubchoo
+
+dex: 614
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Icy Wind
+    text: The Defending Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Superpower
+    text: You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

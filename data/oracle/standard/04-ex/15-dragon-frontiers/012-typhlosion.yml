@@ -1,0 +1,45 @@
+name: Typhlosion δ
+
+origin: dragon-frontiers-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Quilava
+
+dex: 157
+
+rule:
+  - type: ability
+    name: Shady Move
+    text: Once during your turn (before your attack), if Typhlosion is your Active Pokémon, you may move 1 damage counter from either player's Pokémon to another Pokémon (yours or your opponent's). This power can't be used if Typhlosion is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Burning Ball
+    text: If Typhlosion has at least 2 Fire Energy attached to it, the Defending Pokémon is now Burned.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

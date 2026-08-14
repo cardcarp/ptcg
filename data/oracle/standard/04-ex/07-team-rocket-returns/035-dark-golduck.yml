@@ -1,0 +1,52 @@
+name: Dark Golduck
+
+origin: team-rocket-returns-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Darkness Shield
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to each of your Active Pokémon during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Cold Crush
+    text: You may discard an Energy card attached to Dark Golduck. If you do, discard an Energy attached to the Defending Pokémon.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Water Darkness type.
+
+regulation:
+
+errata: []

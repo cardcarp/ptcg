@@ -1,0 +1,45 @@
+name: Tapu Lele-GX
+
+origin: guardians-rising-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 786
+
+rule:
+  - type: ability
+    name: Wonder Tag
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Energy Drive
+    text: This attack does 20 damage times the amount of Energy attached to both Active Pokémon. This damage isn't affected by Weakness or Resistance.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+    name: Tapu Cure-GX
+    text: Heal all damage from 2 of your Benched Pokémon. (You can't use more than 1 GX attack in a game.)
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

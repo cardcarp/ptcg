@@ -1,0 +1,45 @@
+name: Zebstrika
+
+origin: next-destinies-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Disconnect
+    text: Your opponent can't play any Item cards from his or her hand during your opponent's next turn.
+    damage: 40
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Crash
+    text: Discard all Lightning Energy attached to this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

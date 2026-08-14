@@ -1,0 +1,47 @@
+name: Wartortle
+
+origin: secret-wonders-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Squirtle
+
+dex: 8
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Giant Wave
+    text: Wartortle can't use Giant Wave during your next turn.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Shell Attack
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Deoxys
+
+origin: call-of-legends-001sl
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 386
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Cell Storm
+    text: Discard 2 Psychic Energy attached to Deoxys and remove 6 damage counters from Deoxys.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

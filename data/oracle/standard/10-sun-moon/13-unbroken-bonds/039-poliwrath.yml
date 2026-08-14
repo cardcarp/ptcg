@@ -1,0 +1,48 @@
+name: Poliwrath
+
+origin: unbroken-bonds-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Poliwhirl
+
+dex: 62
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Knuckle Punch
+    damage: 50
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Swirly Rush
+    text: If Poliwag and Poliwhirl are on your Bench, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

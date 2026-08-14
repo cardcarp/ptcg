@@ -1,0 +1,51 @@
+name: Rillaboom
+
+origin: sword-shield-black-star-277
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Rapid Strike
+
+type:
+  - Grass
+
+hp: 180
+
+preevolution:
+  - Thwackey
+
+dex: 812
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Wood Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Raging Repeated Strike
+    text: Discard any amount of Energy from your Pokémon. This attack does 30 more damage for each card you discarded in this way.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

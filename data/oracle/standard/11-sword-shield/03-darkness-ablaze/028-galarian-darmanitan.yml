@@ -1,0 +1,48 @@
+name: Galarian Darmanitan
+
+origin: darkness-ablaze-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Galarian Darumaka
+
+dex: 555
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Frozen Heat
+    text: You may discard all Water Energy from this Pokémon. If you do, this attack does 60 more damage.
+    damage: 110
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

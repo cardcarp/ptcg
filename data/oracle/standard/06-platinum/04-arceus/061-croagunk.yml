@@ -1,0 +1,41 @@
+name: Croagunk
+
+origin: arceus-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 453
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Astonish
+    text: Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Punch
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

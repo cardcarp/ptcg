@@ -1,0 +1,44 @@
+name: Politoed
+
+origin: legends-awakened-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Poliwhirl
+
+dex: 186
+
+rule:
+  - type: ability
+    name: Enthusiasm
+    text: If you have Poliwag, Poliwhirl, and Poliwrath in play, each of these Pokémon's attacks does 60 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Frog Hop
+    text: Flip a coin. If heads, this attack does 40 damage plus 40 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

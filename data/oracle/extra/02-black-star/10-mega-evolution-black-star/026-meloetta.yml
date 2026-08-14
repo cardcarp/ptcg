@@ -1,0 +1,47 @@
+name: Meloetta
+
+origin: mega-evolution-black-star-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 648
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Soothing Melody
+    text: Heal 120 damage from 1 of your Benched Psychic Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Magical Shot
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

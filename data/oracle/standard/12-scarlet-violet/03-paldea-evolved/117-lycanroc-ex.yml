@@ -1,0 +1,51 @@
+name: Lycanroc ex
+
+origin: paldea-evolved-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Fighting
+
+hp: 260
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Rock Throw
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Scary Fangs
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 10 damage counters on the Attacking Pokémon.
+    damage: 140
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,69 @@
+name: Greninja V-UNION
+
+origin: sword-shield-black-star-155
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - V-UNION
+
+type:
+  - Water
+
+hp: 300
+
+dex: 658
+
+rule:
+  - type: ability
+    name: Ninja Body
+    text: Whenever your opponent plays an Item card from their hand, prevent all effects of that card done to this Pokémon.
+  - type: ability
+    name: Antidote Jutsu
+    text: This Pokémon can't be Poisoned.
+  - type: ability
+    name: Feel the Way
+    text: Once during your turn, you may have your opponent reveal their hand.
+  - type: attack
+    cost:
+      - Colorless
+    name: Union Gain
+    text: Attach up to 2 Water Energy cards from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Water
+    name: Aqua Edge
+    damage: 130
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Twister Shuriken
+    text: This attack does 100 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Waterfall Blind
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 180
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'How to play a Pokémon V-UNION: Once per game during your turn, combine 4 different Greninja V-UNION from your discard pile and put them onto your Bench.'
+  - 'V-UNION rule: When your Pokémon V-UNION is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

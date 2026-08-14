@@ -1,0 +1,62 @@
+name: Morpeko V-UNION
+
+origin: sword-shield-black-star-215
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - V-UNION
+
+type:
+  - Lightning
+
+hp: 310
+
+dex: 877
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Union Gain
+    text: Attach up to 2 Lightning Energy cards from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: All You Can Eat
+    text: Draw cards until you have 10 cards in your hand.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Burst Wheel
+    text: Discard all energy from this Pokémon. This attack does 100 damage for each card you discarded in this way.
+    damage: 100
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electric Ball
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'How to play a Pokémon V-UNION: Once per game during your turn, combine 4 different Morpeko V-UNION from your discard pile and put them onto your Bench.'
+  - 'V-UNION rule: When your Pokémon V-UNION is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

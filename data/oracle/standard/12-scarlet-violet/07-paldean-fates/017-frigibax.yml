@@ -1,0 +1,42 @@
+name: Frigibax
+
+origin: paldean-fates-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 996
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Beat
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

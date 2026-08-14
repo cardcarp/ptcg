@@ -1,0 +1,49 @@
+name: Orbeetle V
+
+origin: sword-shield-black-star-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 180
+
+dex: 826
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Mysterious Wave
+    text: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

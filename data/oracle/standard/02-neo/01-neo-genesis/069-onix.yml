@@ -1,0 +1,43 @@
+name: Onix
+
+origin: neo-genesis-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 95
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Screech
+    text: Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Onix.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

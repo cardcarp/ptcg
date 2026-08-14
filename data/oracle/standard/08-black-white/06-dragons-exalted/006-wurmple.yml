@@ -1,0 +1,35 @@
+name: Wurmple
+
+origin: dragons-exalted-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 265
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sleep Poison
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

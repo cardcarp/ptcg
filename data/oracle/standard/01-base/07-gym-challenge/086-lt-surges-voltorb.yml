@@ -1,0 +1,37 @@
+name: Lt. Surge's Voltorb
+
+origin: gym-challenge-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 100
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Bouncing Ball
+    text: Flip a coin. If tails, Lt. Surge's Voltorb does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

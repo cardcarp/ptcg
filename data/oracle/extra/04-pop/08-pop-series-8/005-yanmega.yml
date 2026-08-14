@@ -1,0 +1,50 @@
+name: Yanmega
+
+origin: pop-series-8-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Yanma
+
+dex: 469
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Flip a coin. If tails, discard an Energy attached to Yanmega.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

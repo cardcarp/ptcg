@@ -1,0 +1,45 @@
+name: Flareon
+
+origin: ancient-origins-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: ability
+    name: Flare Effect
+    text: Each of your Stage 1 Pokémon in play is now a Fire Pokémon in addition to its existing types.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Breath
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

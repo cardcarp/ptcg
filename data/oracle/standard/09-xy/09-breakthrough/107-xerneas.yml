@@ -1,0 +1,54 @@
+name: Xerneas
+
+origin: breakthrough-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 120
+
+dex: 716
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Rainbow Force
+    text: This attack does 30 more damage for each different type of Pokémon on your Bench.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Power Creation
+    text: If this Pokémon was healed during this turn, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

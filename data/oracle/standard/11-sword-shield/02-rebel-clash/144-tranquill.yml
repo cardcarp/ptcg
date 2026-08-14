@@ -1,0 +1,52 @@
+name: Tranquill
+
+origin: rebel-clash-144
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Pidove
+
+dex: 520
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Razor Wing
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

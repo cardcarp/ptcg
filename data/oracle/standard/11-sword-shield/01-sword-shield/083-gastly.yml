@@ -1,0 +1,42 @@
+name: Gastly
+
+origin: sword-shield-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 92
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Fade Out
+    text: Put this Pokémon and all attached cards into your hand.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

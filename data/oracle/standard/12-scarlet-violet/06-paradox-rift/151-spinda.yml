@@ -1,0 +1,42 @@
+name: Spinda
+
+origin: paradox-rift-151
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 327
+
+rule:
+  - type: ability
+    name: Tangled Feet
+    text: If this Pokémon is Confused and is damaged by an attack, flip a coin. If heads, prevent that damage.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Teetering Steps
+    text: This Pokémon is now Confused.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,46 @@
+name: Kangaskhan
+
+origin: fusion-strike-204
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 115
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Coordinated One-Two Punch
+    text: Flip a coin. If heads, this attack does 100 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

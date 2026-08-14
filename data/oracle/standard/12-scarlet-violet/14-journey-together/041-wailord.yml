@@ -1,0 +1,41 @@
+name: Wailord
+
+origin: journey-together-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 240
+
+dex: 321
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 50 more damage for each Water Energy attached to this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - I
+
+errata: []

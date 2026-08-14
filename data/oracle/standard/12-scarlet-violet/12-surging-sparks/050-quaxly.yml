@@ -1,0 +1,38 @@
+name: Quaxly
+
+origin: surging-sparks-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 912
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Aerial Ace
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

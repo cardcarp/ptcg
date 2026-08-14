@@ -1,0 +1,50 @@
+name: Musharna
+
+origin: black-bolt-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Munna
+
+dex: 518
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dream Calling
+    text: You may search your deck for any number of Fennel cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+    name: Sleep Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

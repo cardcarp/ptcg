@@ -1,0 +1,40 @@
+name: Trapinch
+
+origin: cosmic-eclipse-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 328
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nest Building
+    text: Search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fighting
+    name: Sand Spray
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

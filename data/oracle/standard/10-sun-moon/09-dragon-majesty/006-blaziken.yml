@@ -1,0 +1,44 @@
+name: Blaziken
+
+origin: dragon-majesty-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: ability
+    name: Firestarter
+    text: Once during your turn (before your attack), you may attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Stream
+    text: Discard a Fire Energy from this Pokémon. This attack does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

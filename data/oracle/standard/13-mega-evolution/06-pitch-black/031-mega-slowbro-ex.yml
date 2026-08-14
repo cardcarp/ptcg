@@ -1,0 +1,52 @@
+name: Mega Slowbro ex
+
+origin: pitch-black-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - MEGA
+  - ex
+
+type:
+  - Psychic
+
+hp: 330
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Shellnado Spin
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), place 12 damage counters on the Attacking Pokémon.
+    damage: 180
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

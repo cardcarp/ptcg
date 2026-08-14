@@ -1,0 +1,45 @@
+name: Goodra
+
+origin: forbidden-light-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 160
+
+preevolution:
+  - Sliggoo
+
+dex: 706
+
+rule:
+  - type: ability
+    name: Hydration
+    text: Whenever you attach a Water Energy card from your hand to this Pokémon, heal 20 damage from it.
+  - type: attack
+    cost:
+      - Water
+      - Fairy
+      - Colorless
+    name: Soaking Horn
+    text: If this Pokémon was healed during this turn, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

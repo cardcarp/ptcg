@@ -1,0 +1,38 @@
+name: Bombirdier
+
+origin: stellar-crown-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 962
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon also does 20 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

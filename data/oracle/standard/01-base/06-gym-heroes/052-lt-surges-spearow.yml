@@ -1,0 +1,38 @@
+name: Lt. Surge's Spearow
+
+origin: gym-heroes-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 30
+
+dex: 21
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Drill Peck
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

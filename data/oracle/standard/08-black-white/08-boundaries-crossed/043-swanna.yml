@@ -1,0 +1,55 @@
+name: Swanna
+
+origin: boundaries-crossed-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Ducklett
+
+dex: 581
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aerial Ace
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Defog
+    text: You may discard any Stadium card in play. If you do, this attack does 40 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

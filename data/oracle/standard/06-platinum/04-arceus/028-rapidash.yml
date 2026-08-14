@@ -1,0 +1,48 @@
+name: Rapidash
+
+origin: arceus-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: ability
+    name: Wild Guard
+    text: Prevent all effects of attacks, including damage, done to Rapidash by your opponent's Pokémon SP.
+  - type: attack
+    cost:
+      - Fire
+    name: Fire Mane
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+regulation:
+
+errata: []

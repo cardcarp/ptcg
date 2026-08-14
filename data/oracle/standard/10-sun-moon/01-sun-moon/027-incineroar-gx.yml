@@ -1,0 +1,61 @@
+name: Incineroar-GX
+
+origin: sun-moon-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Fire
+
+hp: 250
+
+preevolution:
+  - Torracat
+
+dex: 727
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Hustling Strike
+    text: This attack does 20 more damage for each of your Benched Fire Pokémon.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Tiger Swing
+    text: Flip 2 coins. This attack does 50 more damage for each heads.
+    damage: 80
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Burning Slam-GX
+    text: Your opponent's Active Pokémon is now Burned. (You can't use more than 1 GX attack in a game.)
+    damage: 200
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

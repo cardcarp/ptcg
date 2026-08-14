@@ -1,0 +1,54 @@
+name: Jolteon
+
+origin: sandstorm-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Strike
+    text: You may discard all Lightning Energy cards attached to Jolteon. If you do, this attack's base damage is 70 instead of 40.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Probopass
+
+origin: destined-rivals-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Nosepass
+
+dex: 476
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Power Gem
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mountain Drop
+    text: If a Stadium is in play, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

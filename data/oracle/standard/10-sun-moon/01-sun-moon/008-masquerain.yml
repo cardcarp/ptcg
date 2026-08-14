@@ -1,0 +1,37 @@
+name: Masquerain
+
+origin: sun-moon-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Surskit
+
+dex: 284
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Struggle Bug
+    text: Move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

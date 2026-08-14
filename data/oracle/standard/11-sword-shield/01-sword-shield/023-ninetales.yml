@@ -1,0 +1,46 @@
+name: Ninetales
+
+origin: sword-shield-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flame Cloak
+    text: Attach a Fire Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Mane
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

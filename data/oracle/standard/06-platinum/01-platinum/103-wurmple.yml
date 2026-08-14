@@ -1,0 +1,42 @@
+name: Wurmple
+
+origin: platinum-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 265
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Poison Sting
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

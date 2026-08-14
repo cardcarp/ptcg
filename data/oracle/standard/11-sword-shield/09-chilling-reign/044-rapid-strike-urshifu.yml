@@ -1,0 +1,48 @@
+name: Rapid Strike Urshifu
+
+origin: chilling-reign-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Kubfu
+
+dex: 892
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slashing Claw
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Rapid-Fisted Rush
+    text: This attack does 30 damage for each of your Rapid Strike Pokémon in play.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

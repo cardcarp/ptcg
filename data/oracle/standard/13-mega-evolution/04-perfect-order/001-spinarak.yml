@@ -1,0 +1,37 @@
+name: Spinarak
+
+origin: perfect-order-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 167
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Gooey Thread
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

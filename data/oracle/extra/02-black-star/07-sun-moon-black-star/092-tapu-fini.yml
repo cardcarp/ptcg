@@ -1,0 +1,46 @@
+name: Tapu Fini
+
+origin: sun-moon-black-star-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 788
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Shining Current
+    text: If any of your Water Pokémon was healed during this turn, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

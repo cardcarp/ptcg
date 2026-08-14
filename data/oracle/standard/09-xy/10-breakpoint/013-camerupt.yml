@@ -1,0 +1,48 @@
+name: Camerupt
+
+origin: breakpoint-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Eruption
+    text: Each player discards the top card of his or her deck. This attack does 60 more damage for each Energy card discarded in this way.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

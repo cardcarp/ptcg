@@ -1,0 +1,36 @@
+name: Tentacool
+
+origin: fossil-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 72
+
+rule:
+  - type: ability
+    name: Cowardice
+    text: At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Water
+    name: Acid
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

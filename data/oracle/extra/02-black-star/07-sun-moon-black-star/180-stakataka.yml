@@ -1,0 +1,42 @@
+name: Stakataka
+
+origin: sun-moon-black-star-180
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 805
+
+rule:
+  - type: ability
+    name: Wall of Stone
+    text: If your opponent has 3 or fewer Prize cards remaining, this Pokémon's maximum HP is 200.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Top Down
+    text: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+    damage: 110
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

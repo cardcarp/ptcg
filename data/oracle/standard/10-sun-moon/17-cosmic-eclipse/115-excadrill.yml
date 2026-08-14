@@ -1,0 +1,46 @@
+name: Excadrill
+
+origin: cosmic-eclipse-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Eleventh Hour Tackle
+    text: If there are 3 or fewer cards in your deck, this attack does 150 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+    name: Drill Bazooka
+    text: Discard the top 4 cards of your deck.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

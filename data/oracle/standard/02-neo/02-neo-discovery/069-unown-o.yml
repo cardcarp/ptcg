@@ -1,0 +1,41 @@
+name: Unown [O]
+
+origin: neo-discovery-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 201
+
+rule:
+  - type: ability
+    name: '[Observe]'
+    text: Once during your turn (before your attack), you may look at 5 cards from the top of your opponent's deck and put them back in the same order.
+  - type: attack
+    cost:
+      - Psychic
+    name: Hidden Power
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You may have up to 4 Basic Pokémon cards in your deck with Unown in their names.
+
+regulation:
+
+errata: []

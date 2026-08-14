@@ -1,0 +1,47 @@
+name: Ariados
+
+origin: pokemon-go-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Poison String-Up
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed and Poisoned.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Absorb
+    text: Heal 50 damage from this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

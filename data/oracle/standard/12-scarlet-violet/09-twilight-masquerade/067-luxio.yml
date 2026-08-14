@@ -1,0 +1,41 @@
+name: Luxio
+
+origin: twilight-masquerade-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Big Bite
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

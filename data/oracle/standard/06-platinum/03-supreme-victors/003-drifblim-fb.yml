@@ -1,0 +1,46 @@
+name: Drifblim FB
+
+origin: supreme-victors-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 426
+
+rule:
+  - type: ability
+    name: Pump Up
+    text: If your opponent has 3 or less Prize cards left, Drifblim FB gets +40 HP.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Shadow Ball
+    text: Choose 1 of your opponent's Benched Pokémon. This attack does 40 damage to that Pokémon. Apply Weakness and Resistance.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

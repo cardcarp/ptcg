@@ -1,0 +1,50 @@
+name: Cresselia
+
+origin: shrouded-fable-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 488
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Healing Pirouette
+    text: Heal 20 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Crescent Purge
+    text: You may turn 1 of your face-down Prize cards face up. If you do, this attack does 80 more damage. (That Prize card remains face up for the rest of the game.)
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

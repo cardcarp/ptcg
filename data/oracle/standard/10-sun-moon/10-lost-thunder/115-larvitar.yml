@@ -1,0 +1,38 @@
+name: Larvitar
+
+origin: lost-thunder-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 246
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Second Strike
+    text: If your opponent's Active Pokémon already has 3 or more damage counters on it, this attack does 70 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Marshadow
+
+origin: pitch-black-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 802
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Shadowy Knot
+    text: This attack does 30 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

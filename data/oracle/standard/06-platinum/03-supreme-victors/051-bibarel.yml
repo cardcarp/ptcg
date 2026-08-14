@@ -1,0 +1,48 @@
+name: Bibarel
+
+origin: supreme-victors-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Bidoof
+
+dex: 400
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rolling Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tail Rap
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

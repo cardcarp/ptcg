@@ -1,0 +1,52 @@
+name: Luxray
+
+origin: breakpoint-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 50
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Snarl
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (after applying Weakness and Resistance).
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

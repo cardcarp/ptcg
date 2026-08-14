@@ -1,0 +1,40 @@
+name: Inkay
+
+origin: kalos-starter-set-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 686
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Peck
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

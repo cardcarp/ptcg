@@ -1,0 +1,57 @@
+name: Moltres-EX
+
+origin: plasma-storm-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+  - Team Plasma
+
+type:
+  - Fire
+
+hp: 170
+
+dex: 146
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Destructive Flame
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Power Flame
+    text: If this Pokémon has any Plasma Energy attached to it, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

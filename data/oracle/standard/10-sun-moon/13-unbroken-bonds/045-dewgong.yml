@@ -1,0 +1,46 @@
+name: Dewgong
+
+origin: unbroken-bonds-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Seel
+
+dex: 87
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Whap
+    damage: 60
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dual Blizzard
+    text: Discard 2 Energy from this Pokémon. This attack does 60 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

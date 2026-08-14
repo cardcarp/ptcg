@@ -1,0 +1,38 @@
+name: Charmander
+
+origin: generations-003rc
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 4
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Playful
+    text: Flip a coin. If heads, this attack does 20 damage times the number of damage counters on this Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Crabominable V
+
+origin: fusion-strike-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 220
+
+dex: 740
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Trigger Avalanche
+    text: Discard the top 2 cards of your opponent's deck.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Destroyer Punch
+    text: This attack does 60 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

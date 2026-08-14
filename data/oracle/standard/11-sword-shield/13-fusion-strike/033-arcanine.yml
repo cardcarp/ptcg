@@ -1,0 +1,47 @@
+name: Arcanine
+
+origin: fusion-strike-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Fire Claws
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

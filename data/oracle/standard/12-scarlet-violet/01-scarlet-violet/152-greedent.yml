@@ -1,0 +1,49 @@
+name: Greedent
+
+origin: scarlet-violet-152
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Skwovet
+
+dex: 820
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 50
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Enhanced Fang
+    text: If this Pokémon has a Pokémon Tool attached, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,42 @@
+name: Kingdra
+
+origin: neo-revelation-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Genetic Memory
+    text: Use any attack from Kingdra's Basic Pokémon card or Evolution card. (Kingdra doesn't have to pay for that attack's Energy cost.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Twister
+    text: Flip 2 coins. For each heads, choose 1 Energy card attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing (not even damage).
+    damage: 50
+
+retreat: 2
+
+regulation:
+
+errata: []

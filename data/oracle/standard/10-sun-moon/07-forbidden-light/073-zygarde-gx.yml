@@ -1,0 +1,58 @@
+name: Zygarde-GX
+
+origin: forbidden-light-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Fighting
+
+hp: 200
+
+dex: 718
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cell Connector
+    text: Attach 2 Fighting Energy cards from your discard pile to this Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Land's Wrath
+    damage: 130
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Verdict-GX
+    text: Prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX during your opponent's next turn. (You can't use more than 1 GX attack in a game.)
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

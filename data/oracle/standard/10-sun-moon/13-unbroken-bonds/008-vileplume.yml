@@ -1,0 +1,44 @@
+name: Vileplume
+
+origin: unbroken-bonds-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: ability
+    name: Varied Pollen
+    text: Once during your turn (before your attack), you may flip a coin. If heads, choose Asleep, Burned, Confused, or Poisoned. Your opponent's Active Pokémon is now affected by that Special Condition.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Giant Bloom
+    text: Heal 30 damage from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

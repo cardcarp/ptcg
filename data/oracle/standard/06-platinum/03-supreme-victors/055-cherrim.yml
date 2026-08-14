@@ -1,0 +1,48 @@
+name: Cherrim
+
+origin: supreme-victors-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Cherubi
+
+dex: 421
+
+rule:
+  - type: attack
+    name: Ram
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+    name: Petal Dance
+    text: Flip 3 coins. This attack does 30 damage times the number of heads. Cherrim is now Confused.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

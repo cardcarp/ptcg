@@ -1,0 +1,45 @@
+name: Shaymin
+
+origin: platinum-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 492
+
+rule:
+  - type: attack
+    name: Growth
+    text: Attach a Grass Energy card from your hand to Shaymin.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Flip a coin. If tails, discard an Energy attached to Shaymin.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

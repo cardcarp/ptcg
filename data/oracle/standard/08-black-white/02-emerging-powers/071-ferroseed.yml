@@ -1,0 +1,41 @@
+name: Ferroseed
+
+origin: emerging-powers-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 597
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+    name: Pierce
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

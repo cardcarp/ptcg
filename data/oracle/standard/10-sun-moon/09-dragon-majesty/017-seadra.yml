@@ -1,0 +1,40 @@
+name: Seadra
+
+origin: dragon-majesty-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Horsea
+
+dex: 117
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 20 more damage times the amount of Water Energy attached to this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

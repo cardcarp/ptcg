@@ -1,0 +1,46 @@
+name: Rocket's Snorlax
+
+origin: gym-heroes-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 143
+
+rule:
+  - type: ability
+    name: Restless Sleep
+    text: If your opponent's attack does damage to Rocket's Snorlax and Rocket's Snorlax is already Asleep (even if it's Knocked Out), this power does 20 damage to the attacking Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Collapse
+    text: Rocket's Snorlax is now Asleep (after doing damage).
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

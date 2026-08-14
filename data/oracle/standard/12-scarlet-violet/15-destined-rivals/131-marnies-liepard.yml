@@ -1,0 +1,42 @@
+name: Marnie's Liepard
+
+origin: destined-rivals-131
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Marnie's Purrloin
+
+dex: 510
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Pointy Claws
+    text: If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

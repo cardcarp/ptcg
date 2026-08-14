@@ -1,0 +1,45 @@
+name: Slurpuff
+
+origin: ascended-heroes-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Swirlix
+
+dex: 685
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Tackle
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Magical Shot
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

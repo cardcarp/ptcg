@@ -1,0 +1,40 @@
+name: Suicune
+
+origin: plasma-blast-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 245
+
+rule:
+  - type: ability
+    name: Safeguard
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aurora Beam
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

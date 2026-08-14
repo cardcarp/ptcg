@@ -1,0 +1,45 @@
+name: Beldum
+
+origin: legends-awakened-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 374
+
+rule:
+  - type: ability
+    name: Metal Chain
+    text: Once during your turn (before your attack), when you attach a Metal Energy card from your hand to Beldum (excluding effects of attacks or Poké-Powers), you may search your deck for Beldum and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Take Down
+    text: Beldum does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

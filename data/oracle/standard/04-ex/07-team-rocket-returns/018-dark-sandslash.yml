@@ -1,0 +1,46 @@
+name: Dark Sandslash
+
+origin: team-rocket-returns-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Sandshrew
+
+dex: 28
+
+rule:
+  - type: ability
+    name: Poison Payback
+    text: If Dark Sandslash is your Active Pokémon and is damaged by an opponent's attack (even if Dark Sandslash is Knocked Out), the Attacking Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+rulebox:
+  - This Pokémon is both Fighting Darkness type.
+
+regulation:
+
+errata: []

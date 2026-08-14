@@ -1,0 +1,46 @@
+name: Toxicroak
+
+origin: paldea-evolved-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Pierce
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Knuckle Claws
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

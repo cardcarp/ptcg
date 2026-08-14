@@ -1,0 +1,45 @@
+name: Samurott
+
+origin: black-white-black-star-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Dewott
+
+dex: 503
+
+rule:
+  - type: ability
+    name: Shell Armor
+    text: Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: Does 10 more damage for each Water Energy attached to this Pokémon.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

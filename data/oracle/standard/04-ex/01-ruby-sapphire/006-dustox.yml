@@ -1,0 +1,47 @@
+name: Dustox
+
+origin: ruby-sapphire-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Cascoon
+
+dex: 269
+
+rule:
+  - type: ability
+    name: Protective Dust
+    text: Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Toxic
+    text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

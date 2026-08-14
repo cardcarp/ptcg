@@ -1,0 +1,39 @@
+name: Feebas
+
+origin: supreme-victors-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 349
+
+rule:
+  - type: attack
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+    name: Count and Draw
+    text: Draw a card for each of your opponent's Pokémon that isn't an Evolved Pokémon.
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

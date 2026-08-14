@@ -1,0 +1,39 @@
+name: Goodra
+
+origin: mega-evolution-black-star-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 160
+
+preevolution:
+  - Sliggoo
+
+dex: 706
+
+rule:
+  - type: ability
+    name: Slimy Sliding
+    text: When your opponent's Active Pokémon retreats, your opponent flips a coin. If tails, Energy for its Retreat Cost is not discarded, and they don't switch Pokémon. The effect of Slimy Sliding doesn't stack.
+  - type: attack
+    cost:
+      - Water
+      - Psychic
+    name: Dragon Pulse
+    text: Discard the top card of your deck.
+    damage: 160
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

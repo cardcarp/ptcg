@@ -1,0 +1,45 @@
+name: Monferno
+
+origin: diamond-pearl-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Chimchar
+
+dex: 391
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flame Dance
+    text: Search your discard pile for a Fire Energy card and attach it to Monferno.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Shelmet
+
+origin: white-flare-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 616
+
+rule:
+  - type: ability
+    name: Stimulated Evolution
+    text: If you have Karrablast in play, this Pokémon can evolve during your first turn or the turn you play it.
+  - type: attack
+    cost:
+      - Colorless
+    name: Headbutt Bounce
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

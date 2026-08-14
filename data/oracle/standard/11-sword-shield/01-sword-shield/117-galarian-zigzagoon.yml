@@ -1,0 +1,41 @@
+name: Galarian Zigzagoon
+
+origin: sword-shield-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 263
+
+rule:
+  - type: ability
+    name: Headbutt Tantrum
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may put 1 damage counter on 1 of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

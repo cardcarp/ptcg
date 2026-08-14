@@ -1,0 +1,47 @@
+name: Iron Thorns ex
+
+origin: twilight-masquerade-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+  - Future
+
+type:
+  - Lightning
+
+hp: 230
+
+dex: 995
+
+rule:
+  - type: ability
+    name: Initialization
+    text: As long as this Pokémon is in the Active Spot, Pokémon with a Rule Box in play (both yours and your opponent's) have no Abilities, except for Future Pokémon. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Volt Cyclone
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 140
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

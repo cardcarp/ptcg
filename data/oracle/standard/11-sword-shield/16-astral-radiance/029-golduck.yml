@@ -1,0 +1,47 @@
+name: Golduck
+
+origin: astral-radiance-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Edge
+    damage: 50
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Entangled Dive
+    text: Discard each player's Active Pokémon and all attached cards. (You choose a new Active Pokémon first.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

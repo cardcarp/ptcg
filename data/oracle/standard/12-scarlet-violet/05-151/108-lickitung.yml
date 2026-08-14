@@ -1,0 +1,39 @@
+name: Lickitung
+
+origin: 151-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 108
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tongue-Tied
+    text: During your opponent's next turn, the Defending Pokémon can't attack.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,52 @@
+name: Scizor
+
+origin: wizards-black-star-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Scyther
+
+dex: 212
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Leer
+    text: Flip a coin. If heads, the Defending Pokémon can't attack Scizor during your opponent's next turn. (Benching either Pokémon ends this effect.)
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Pincer
+    text: Flip a coin until you get tails. This attack does 30 damage plus 10 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

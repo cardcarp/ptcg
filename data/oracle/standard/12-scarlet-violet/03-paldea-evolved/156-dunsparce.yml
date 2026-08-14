@@ -1,0 +1,43 @@
+name: Dunsparce
+
+origin: paldea-evolved-156
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 206
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Find a Friend
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

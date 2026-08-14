@@ -1,0 +1,48 @@
+name: Granbull
+
+origin: darkness-ablaze-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Snubbull
+
+dex: 210
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Jaw Lock
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 50
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Headbutt Bounce
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

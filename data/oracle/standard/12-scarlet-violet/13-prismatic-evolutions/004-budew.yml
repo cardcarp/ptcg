@@ -1,0 +1,33 @@
+name: Budew
+
+origin: prismatic-evolutions-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 30
+
+dex: 406
+
+rule:
+  - type: attack
+    name: Itchy Pollen
+    text: During your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+  - H
+
+errata: []

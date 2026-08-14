@@ -1,0 +1,45 @@
+name: Vanilluxe
+
+origin: next-destinies-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Vanillish
+
+dex: 584
+
+rule:
+  - type: ability
+    name: Slippery Soles
+    text: Once during your turn (before your attack), you may switch your Active Pokémon with 1 of your Benched Pokémon. If you do, your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Crushing Ice
+    text: Does 10 more damage for each Colorless
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

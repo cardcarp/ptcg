@@ -1,0 +1,45 @@
+name: Arcanine
+
+origin: aquapolis-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: ability
+    name: Extreme Speed
+    text: You pay Colorless less to retreat Arcanine for each Energy attached to it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fire Blow
+    text: You may discard any number of Fire Energy cards attached to Arcanine when you use this attack. If you do, flip a number of coins equal to the number of Fire Energy cards you discarded. This attack does 30 damage plus 30 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

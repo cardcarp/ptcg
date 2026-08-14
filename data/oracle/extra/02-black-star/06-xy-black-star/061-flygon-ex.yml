@@ -1,0 +1,47 @@
+name: Flygon-EX
+
+origin: xy-black-star-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 170
+
+dex: 330
+
+rule:
+  - type: ability
+    name: Voice of the Sands
+    text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Spiral Buzz
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

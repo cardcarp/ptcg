@@ -1,0 +1,44 @@
+name: Gothorita
+
+origin: furious-fists-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Gothita
+
+dex: 575
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fortunate Eye
+    text: Look at the top 5 cards of your opponent's deck and put them back on top of his or her deck in any order.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Smack
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

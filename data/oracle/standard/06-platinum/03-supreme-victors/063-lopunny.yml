@@ -1,0 +1,46 @@
+name: Lopunny
+
+origin: supreme-victors-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Buneary
+
+dex: 428
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ice Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rear Kick
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

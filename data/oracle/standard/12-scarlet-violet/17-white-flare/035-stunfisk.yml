@@ -1,0 +1,44 @@
+name: Stunfisk
+
+origin: white-flare-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 618
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Muddy Bolt
+    text: If this Pokémon has any Fighting Energy attached, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Flop
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

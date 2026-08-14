@@ -1,0 +1,47 @@
+name: Petilil
+
+origin: noble-victories-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 548
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Absorb
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

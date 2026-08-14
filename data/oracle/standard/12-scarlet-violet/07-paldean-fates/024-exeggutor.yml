@@ -1,0 +1,54 @@
+name: Exeggutor
+
+origin: paldean-fates-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Hypnoblast
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic Loop
+    text: Put 2 Energy attached to this Pokémon into your hand.
+    damage: 160
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

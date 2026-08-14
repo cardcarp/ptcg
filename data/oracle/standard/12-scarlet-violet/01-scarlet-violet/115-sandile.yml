@@ -1,0 +1,42 @@
+name: Sandile
+
+origin: scarlet-violet-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 551
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Gnaw
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,52 @@
+name: Feraligatr
+
+origin: unseen-forces-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: ability
+    name: Intimidating Fang
+    text: As long as Feraligatr is your Active Pokémon, any damage done by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Pull Away
+    text: If your opponent has 5 of more cards in his or her hand, your opponent discards a number of cards until your opponent has 4 cards left in his or her hand.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Tonnage
+    text: You may do 50 damage plus 30 more damage. If you do, Feraligatr does 30 damage to itself.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

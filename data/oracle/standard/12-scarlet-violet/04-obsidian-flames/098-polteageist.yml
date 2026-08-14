@@ -1,0 +1,49 @@
+name: Polteageist
+
+origin: obsidian-flames-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Sinistea
+
+dex: 855
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Antique Collecting
+    text: Put up to 2 in any combination of Item cards and Pokémon Tool cards from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Psychic
+    name: Pour Tea
+    text: Put 5 damage counters on your opponent's Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

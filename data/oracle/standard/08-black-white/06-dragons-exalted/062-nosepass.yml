@@ -1,0 +1,36 @@
+name: Nosepass
+
+origin: dragons-exalted-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 299
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rock Throw
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

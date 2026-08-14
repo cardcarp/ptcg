@@ -1,0 +1,46 @@
+name: Medicham
+
+origin: temporal-forces-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Low Sweep
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: High Jump Kick
+    damage: 110
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

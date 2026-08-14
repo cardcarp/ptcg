@@ -1,0 +1,44 @@
+name: Magcargo
+
+origin: great-encounters-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: ability
+    name: Magma Armor
+    text: Magcargo can't be Asleep or Paralyzed.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Lava Plume
+    text: You may discard the top card of your deck. If you do, the Defending Pokémon is now Burned.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

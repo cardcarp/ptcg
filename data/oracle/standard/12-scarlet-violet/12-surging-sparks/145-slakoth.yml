@@ -1,0 +1,36 @@
+name: Slakoth
+
+origin: surging-sparks-145
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 287
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Take It Easy
+    text: Heal 60 damage from this Pokémon. During your next turn, this Pokémon can't retreat.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

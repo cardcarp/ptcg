@@ -1,0 +1,54 @@
+name: Houndstone
+
+origin: obsidian-flames-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Greavard
+
+dex: 972
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rear Kick
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Two Four-ocious
+    text: If your opponent has exactly 2 or 4 Prize cards remaining, this attack does 120 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

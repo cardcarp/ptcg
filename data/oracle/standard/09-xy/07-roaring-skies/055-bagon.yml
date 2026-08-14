@@ -1,0 +1,42 @@
+name: Bagon
+
+origin: roaring-skies-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 371
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Leer
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Fire
+      - Water
+    name: Almost Flight
+    text: This Pokémon does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

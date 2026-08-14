@@ -1,0 +1,38 @@
+name: Onix
+
+origin: aquapolis-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 95
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Crush
+    text: Flip a number of coins equal to the amount of Energy attached to Onix. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

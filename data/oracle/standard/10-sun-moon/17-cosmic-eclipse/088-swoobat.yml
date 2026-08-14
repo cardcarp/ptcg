@@ -1,0 +1,48 @@
+name: Swoobat
+
+origin: cosmic-eclipse-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Woobat
+
+dex: 528
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Psychic
+    name: Charming Stamp
+    text: Your opponent chooses 1 of their own Pokémon. This attack does 90 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

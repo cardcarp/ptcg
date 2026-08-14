@@ -1,0 +1,47 @@
+name: Bronzong G
+
+origin: platinum-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 437
+
+rule:
+  - type: ability
+    name: Galactic Switch
+    text: Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pokémon SP to another of your Pokémon. Then, put 2 damage counters on Bronzong G. This power can't be used if Bronzong G is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Psychic Pulse
+    text: Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fire
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

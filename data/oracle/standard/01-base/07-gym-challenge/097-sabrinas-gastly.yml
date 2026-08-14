@@ -1,0 +1,39 @@
+name: Sabrina's Gastly
+
+origin: gym-challenge-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 92
+
+rule:
+  - type: ability
+    name: Gaseous Form
+    text: Sabrina's Gastly gets +10 HP for each Psychic Energy card attached to it. This power works even if Sabrina's Gastly is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Suffocating Gas
+    damage: 30
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

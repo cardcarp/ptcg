@@ -1,0 +1,47 @@
+name: Tauros
+
+origin: chilling-reign-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Raging Bull
+    text: This attack does 20 more damage for each damage counter on this Pokémon. This Pokémon is now Confused.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: This Pokémon also does 30 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

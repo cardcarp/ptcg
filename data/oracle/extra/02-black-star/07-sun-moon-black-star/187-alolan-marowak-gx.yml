@@ -1,0 +1,51 @@
+name: Alolan Marowak-GX
+
+origin: sun-moon-black-star-187
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Fire
+
+hp: 200
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: ability
+    name: Cursed Body
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fiery Bone
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 90
+  - type: attack
+    name: Lost Boomerang-GX
+    text: This attack does 50 damage to 2 of your opponent's Pokémon. This damage isn't affected by Weakness or Resistance. If a Pokémon is Knocked Out by this damage, put that Pokémon and all cards attached to it in the Lost Zone instead of the discard pile. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

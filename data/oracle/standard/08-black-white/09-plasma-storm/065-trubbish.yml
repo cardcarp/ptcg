@@ -1,0 +1,38 @@
+name: Trubbish
+
+origin: plasma-storm-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 568
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Tool Drop
+    text: Does 20 damage for each Pokémon Tool card attached to Pokémon in play (both yours and your opponent's).
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Claydol
+
+origin: emerald-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: ability
+    name: Levitate
+    text: As long as Claydol has any Energy attached to it, the Retreat Cost for Claydol is 0.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Smash
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

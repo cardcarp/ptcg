@@ -1,0 +1,48 @@
+name: Mewtwo-EX
+
+origin: black-white-black-star-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: X Ball
+    text: Does 20 damage times the amount of Energy attached to this Pokémon and the Defending Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psydrive
+    text: Discard an Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

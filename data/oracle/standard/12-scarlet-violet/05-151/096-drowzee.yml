@@ -1,0 +1,42 @@
+name: Drowzee
+
+origin: 151-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 96
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Zen Headbutt
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

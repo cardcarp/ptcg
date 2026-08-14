@@ -1,0 +1,50 @@
+name: Lugia
+
+origin: heartgold-soulsilver-black-star-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 249
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Aeroblast
+    text: Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

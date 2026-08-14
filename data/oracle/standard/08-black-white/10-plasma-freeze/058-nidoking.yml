@@ -1,0 +1,54 @@
+name: Nidoking
+
+origin: plasma-freeze-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Nidorino
+
+dex: 34
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lovestrike
+    text: Does 40 more damage for each Nidoqueen on your Bench.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Horn Drill
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

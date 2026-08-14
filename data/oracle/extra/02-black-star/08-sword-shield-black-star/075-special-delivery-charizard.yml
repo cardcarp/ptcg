@@ -1,0 +1,44 @@
+name: Special Delivery Charizard
+
+origin: sword-shield-black-star-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 160
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Happy Delivery
+    text: Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

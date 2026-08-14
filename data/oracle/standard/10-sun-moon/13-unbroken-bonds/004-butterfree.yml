@@ -1,0 +1,45 @@
+name: Butterfree
+
+origin: unbroken-bonds-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Metapod
+
+dex: 12
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Triple Charge
+    text: Search your deck for up to 3 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

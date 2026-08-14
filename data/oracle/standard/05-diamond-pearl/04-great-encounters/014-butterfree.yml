@@ -1,0 +1,45 @@
+name: Butterfree
+
+origin: great-encounters-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Metapod
+
+dex: 12
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Parallel Drain
+    text: After your attack, remove from 1 of your Pokémon the number of damage counters equal to the damage you did to the Defending Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Dozing Scales
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Poisoned.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+regulation:
+
+errata: []

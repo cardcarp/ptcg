@@ -1,0 +1,50 @@
+name: Seismitoad
+
+origin: plasma-freeze-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Palpitoad
+
+dex: 537
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Seismic Punch
+    text: Does 30 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Splashing Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,54 @@
+name: Rayquaza C LV.X
+
+origin: diamond-pearl-black-star-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+  - SP
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Rayquaza C
+
+dex: 384
+
+rule:
+  - type: ability
+    name: Dragon Spirit
+    text: If Rayquaza C is your Active Pokémon and is damaged but not Knocked Out by an opponent's attack, you may search your discard pile for an Energy card and attach it to Rayquaza C.
+  - type: attack
+    cost:
+      - Water
+      - Psychic
+      - Fighting
+      - Colorless
+    name: Final Blowup
+    text: Discard all Energy attached to Rayquaza C. Ignore this effect if you have no cards in your hand.
+    damage: 200
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - Put this card onto your Active Rayquaza C. Rayquaza C LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

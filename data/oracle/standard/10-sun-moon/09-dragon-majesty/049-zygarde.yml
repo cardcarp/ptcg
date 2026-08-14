@@ -1,0 +1,45 @@
+name: Zygarde
+
+origin: dragon-majesty-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 718
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Rumble
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Raging Blade
+    text: If this Pokémon has any damage counters on it, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

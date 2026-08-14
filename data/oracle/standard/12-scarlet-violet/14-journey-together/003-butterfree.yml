@@ -1,0 +1,38 @@
+name: Butterfree
+
+origin: journey-together-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 12
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Scale Hurricane
+    text: Flip 4 coins. This attack does 60 damage for each heads. If at least 2 of them are heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

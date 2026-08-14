@@ -1,0 +1,45 @@
+name: Dark Typhlosion
+
+origin: neo-destiny-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Dark Quilava
+
+dex: 157
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Claw Swipe
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+    name: Rushing Flames
+    text: You may discard any number of Fire Energy cards attached to your Pokémon. Flip a coin for each Fire Energy card discarded in this way. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

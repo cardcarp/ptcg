@@ -1,0 +1,49 @@
+name: Wailord
+
+origin: triumphant-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Underwater Dive
+    text: Flip 2 coins. For each heads, remove 3 damage counters from Wailord.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Swallow Up
+    text: Before doing damage, count the remaining HP of the Defending Pokémon and Wailord. If the Defending Pokémon has fewer remaining HP than Wailord, this attack does 50 damage plus 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

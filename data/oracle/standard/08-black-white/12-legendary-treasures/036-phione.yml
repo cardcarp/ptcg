@@ -1,0 +1,41 @@
+name: Phione
+
+origin: legendary-treasures-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 489
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pull Out
+    text: Put a card from your discard pile on top of your deck.
+  - type: attack
+    cost:
+      - Water
+    name: Aqua Boomerang
+    text: Return this Pokémon and all cards attached to it to your hand.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

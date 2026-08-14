@@ -1,0 +1,37 @@
+name: Hippopotas
+
+origin: destined-rivals-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 449
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Push Down
+    text: Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

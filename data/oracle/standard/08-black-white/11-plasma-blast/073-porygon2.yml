@@ -1,0 +1,40 @@
+name: Porygon2
+
+origin: plasma-blast-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Porygon
+
+dex: 233
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Destructive Beam
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

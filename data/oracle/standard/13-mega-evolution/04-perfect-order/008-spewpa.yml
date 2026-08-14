@@ -1,0 +1,39 @@
+name: Spewpa
+
+origin: perfect-order-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Scatterbug
+
+dex: 665
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Hide
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,44 @@
+name: Vaporeon
+
+origin: cosmic-eclipse-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: ability
+    name: Vitality Cheer
+    text: Your Pokémon-GX in play that evolve from Eevee get +60 HP. You can't apply more than 1 Vitality Cheer Ability at a time.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Refreshing Rain
+    text: Heal 30 damage from each of your Pokémon.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

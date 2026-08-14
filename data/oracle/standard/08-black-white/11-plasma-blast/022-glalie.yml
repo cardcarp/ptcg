@@ -1,0 +1,49 @@
+name: Glalie
+
+origin: plasma-blast-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Snorunt
+
+dex: 362
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Powder Snow
+    text: The Defending Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Reflect Energy
+    text: Move a Water Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

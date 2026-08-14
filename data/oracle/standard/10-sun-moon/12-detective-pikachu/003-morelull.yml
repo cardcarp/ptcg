@@ -1,0 +1,36 @@
+name: Morelull
+
+origin: detective-pikachu-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 755
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Sleep Spore
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

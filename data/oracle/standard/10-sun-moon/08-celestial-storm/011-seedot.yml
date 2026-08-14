@@ -1,0 +1,40 @@
+name: Seedot
+
+origin: celestial-storm-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 273
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hang Down
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+    name: Harden
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks if that damage is 40 or less.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

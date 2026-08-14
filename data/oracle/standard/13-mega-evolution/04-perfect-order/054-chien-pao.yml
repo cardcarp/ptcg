@@ -1,0 +1,46 @@
+name: Chien-Pao
+
+origin: perfect-order-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 1002
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Rising Blade
+    text: If your opponent's Active Pokémon is a Pokémon ex, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,46 @@
+name: Primeape
+
+origin: crimson-invasion-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Low Kick
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Lucha Fight
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30 more damage (before applying Weakness and Resistance).
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

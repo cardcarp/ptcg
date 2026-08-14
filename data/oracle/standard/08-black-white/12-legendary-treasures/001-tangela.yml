@@ -1,0 +1,49 @@
+name: Tangela
+
+origin: legendary-treasures-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 114
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Beat
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Flog
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

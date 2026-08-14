@@ -1,0 +1,40 @@
+name: Clamperl
+
+origin: legend-maker-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 366
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Iron Defense
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Clamperl during your opponent's next turn.
+  - type: attack
+    cost:
+      - Water
+    name: Clamp Splash
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

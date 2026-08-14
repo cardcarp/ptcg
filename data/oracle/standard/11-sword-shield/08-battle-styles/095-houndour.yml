@@ -1,0 +1,37 @@
+name: Houndour
+
+origin: battle-styles-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 228
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

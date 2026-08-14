@@ -1,0 +1,49 @@
+name: Exeggutor
+
+origin: aquapolis-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Big Eggsplosion
+    text: Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Lateral Eggsplosion
+    text: Flip a number of coins equal to the amount of Energy attached to all of of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

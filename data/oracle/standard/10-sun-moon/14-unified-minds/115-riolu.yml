@@ -1,0 +1,35 @@
+name: Riolu
+
+origin: unified-minds-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 447
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Kick
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

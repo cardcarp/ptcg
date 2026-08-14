@@ -1,0 +1,39 @@
+name: Koraidon
+
+origin: stellar-crown-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 1007
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Resolute Fang
+    text: If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,35 @@
+name: Vulpix
+
+origin: dragons-exalted-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Singe
+    text: The Defending Pokémon is now Burned.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

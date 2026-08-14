@@ -1,0 +1,44 @@
+name: Pinsir
+
+origin: undaunted-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 127
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Charging Horn
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Guillotine
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

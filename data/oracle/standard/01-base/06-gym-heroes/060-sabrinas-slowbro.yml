@@ -1,0 +1,46 @@
+name: Sabrina's Slowbro
+
+origin: gym-heroes-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Sabrina's Slowpoke
+
+dex: 80
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Naptime
+    text: Flip a coin. If heads, remove 3 damage counters from Sabrina's Slowbro and Sabrina's Slowbro is now Asleep. If Sabrina's Slowbro has fewer damage counters than that, remove all of them.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Screaming Headbutt
+    text: You can't use this attack during your next turn.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Heracross E4
+
+origin: rising-rivals-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 214
+
+rule:
+  - type: attack
+    name: Focus Energy
+    text: During your next turn, Heracross E4's Megahorn attack's base damage is 100.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Megahorn
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

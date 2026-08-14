@@ -1,0 +1,47 @@
+name: Nidoqueen
+
+origin: primal-clash-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Nidorina
+
+dex: 31
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Poison Jab
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Dynamite Punch
+    text: This Pokémon does 20 damage to itself. Don't apply Weakness to this damage.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

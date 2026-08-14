@@ -1,0 +1,46 @@
+name: Drednaw
+
+origin: stellar-crown-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Chewtle
+
+dex: 834
+
+rule:
+  - type: ability
+    name: Impervious Shell
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon if that damage is 200 or more.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hard Crunch
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

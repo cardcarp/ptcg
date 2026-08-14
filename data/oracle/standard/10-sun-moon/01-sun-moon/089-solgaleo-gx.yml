@@ -1,0 +1,58 @@
+name: Solgaleo-GX
+
+origin: sun-moon-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Metal
+
+hp: 250
+
+preevolution:
+  - Cosmoem
+
+dex: 791
+
+rule:
+  - type: ability
+    name: Ultra Road
+    text: Once during your turn (before your attack), you may switch your Active Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Sunsteel Strike
+    text: Discard all Energy from this Pokémon.
+    damage: 230
+  - type: attack
+    cost:
+      - Metal
+    name: Sol Burst-GX
+    text: Search your deck for up to 5 Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

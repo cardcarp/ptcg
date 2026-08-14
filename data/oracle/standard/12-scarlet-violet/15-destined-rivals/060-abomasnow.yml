@@ -1,0 +1,51 @@
+name: Abomasnow
+
+origin: destined-rivals-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Snover
+
+dex: 460
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Lunge Out
+    damage: 90
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Frozen Wood
+    text: If this Pokémon has 2 or more Grass Energy attached, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - I
+
+errata: []

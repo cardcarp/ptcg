@@ -1,0 +1,47 @@
+name: Galarian Zapdos V
+
+origin: chilling-reign-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 200
+
+dex: 145
+
+rule:
+  - type: ability
+    name: Fighting Instinct
+    text: This Pokémon's attacks cost Colorless less for each of your opponent's Pokémon V in play.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Thunderous Kick
+    text: Before doing damage, discard a Special Energy from your opponent's Active Pokémon.
+    damage: 170
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

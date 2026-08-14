@@ -1,0 +1,40 @@
+name: Alolan Grimer
+
+origin: sun-moon-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 88
+
+rule:
+  - type: attack
+    name: Super Poison Breath
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Pound
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

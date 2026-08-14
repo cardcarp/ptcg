@@ -1,0 +1,42 @@
+name: Bronzor
+
+origin: prismatic-evolutions-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 436
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Hammer In
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

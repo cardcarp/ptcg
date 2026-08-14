@@ -1,0 +1,51 @@
+name: Zamazenta
+
+origin: rebel-clash-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 120
+
+dex: 889
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Guard Press
+    text: During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Power Rush
+    text: Flip a coin. If tails, this Pokémon can't attack during your next turn.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

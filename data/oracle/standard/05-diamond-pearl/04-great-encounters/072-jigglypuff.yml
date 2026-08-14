@@ -1,0 +1,42 @@
+name: Jigglypuff
+
+origin: great-encounters-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 39
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hypnotic Gaze
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Expand
+    text: During your opponent's next turn, any damage done to Jigglypuff by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Machoke
+
+origin: furious-fists-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Beatdown
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

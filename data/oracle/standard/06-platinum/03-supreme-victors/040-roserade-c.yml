@@ -1,0 +1,43 @@
+name: Roserade C
+
+origin: supreme-victors-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 407
+
+rule:
+  - type: ability
+    name: Natural Cure
+    text: When you attach an Energy card from your hand to Roserade C, remove all Special Conditions from Roserade C.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Magical Leaf
+    text: Flip a coin. If heads, this attack does 40 damage plus 20 more damage and remove 2 damage counters from Roserade C.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Smeargle
+
+origin: evolving-skies-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 235
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Live Painting
+    text: Reveal any number of basic Energy cards from your hand. This attack does 30 more damage for each type of basic Energy you revealed in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

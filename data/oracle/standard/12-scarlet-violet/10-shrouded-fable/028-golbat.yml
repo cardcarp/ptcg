@@ -1,0 +1,51 @@
+name: Golbat
+
+origin: shrouded-fable-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Zubat
+
+dex: 42
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Speed Dive
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Pitch-Black Blade
+    text: During your next turn, this Pokémon can't attack.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,45 @@
+name: Regirock
+
+origin: celestial-storm-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 377
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Enhanced Stomp
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Hammer Arm
+    text: Discard the top card of your opponent's deck.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

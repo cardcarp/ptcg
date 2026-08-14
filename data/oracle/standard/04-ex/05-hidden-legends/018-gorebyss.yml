@@ -1,0 +1,45 @@
+name: Gorebyss
+
+origin: hidden-legends-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Clamperl
+
+dex: 368
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Stun Needle
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Mystic Water
+    text: Does 20 damage plus 10 more damage for each Psychic Energy in play.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

@@ -1,0 +1,51 @@
+name: Brock's Dugtrio
+
+origin: gym-challenge-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 60
+
+preevolution:
+  - Brock's Diglett
+
+dex: 51
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Lie Low
+    text: All damage done to Brock's Dugtrio during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Earthdrill
+    text: This attack can't be used unless Brock's Dugtrio used its Lie Low attack last turn.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,57 @@
+name: Flygon δ
+
+origin: holon-phantoms-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Grass
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: ability
+    name: Delta Supply
+    text: Once during your turn (before your attack), you may attach a basic Energy card or a δ Rainbow Energy card from your hand to 1 of your Pokémon that has δ on its card. This power can't be used if Flygon is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Grass
+      - Metal
+      - Colorless
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Grass Metal type.
+
+regulation:
+
+errata: []

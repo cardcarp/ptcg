@@ -1,0 +1,43 @@
+name: Growlithe
+
+origin: fusion-strike-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 58
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Warm Up
+    text: Search your deck for a Fire Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Combustion
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

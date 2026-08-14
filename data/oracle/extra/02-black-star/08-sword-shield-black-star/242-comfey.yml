@@ -1,0 +1,40 @@
+name: Comfey
+
+origin: sword-shield-black-star-242
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 764
+
+rule:
+  - type: ability
+    name: Flower Selecting
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card in the Lost Zone.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spinning Attack
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,36 @@
+name: Exeggcute
+
+origin: mega-evolution-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 102
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Jam-Packed
+    text: Search your deck for a Basic Grass Energy card and attach it to this Pokémon. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,44 @@
+name: Magneton
+
+origin: plasma-storm-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Metal Sound
+    text: The Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

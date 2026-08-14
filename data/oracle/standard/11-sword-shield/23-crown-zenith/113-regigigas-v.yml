@@ -1,0 +1,50 @@
+name: Regigigas V
+
+origin: crown-zenith-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 240
+
+dex: 486
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 50
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Angry Whack
+    text: This attack does 10 more damage for each damage counter on this Pokémon. This Pokémon is now Confused.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

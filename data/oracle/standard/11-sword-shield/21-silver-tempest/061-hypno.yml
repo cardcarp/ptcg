@@ -1,0 +1,51 @@
+name: Hypno
+
+origin: silver-tempest-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psy Call
+    text: Search your deck for up to 2 Stage 1 Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Zen Headbutt
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

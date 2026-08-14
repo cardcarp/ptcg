@@ -1,0 +1,42 @@
+name: Oranguru
+
+origin: crimson-invasion-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 765
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Fixer of the Forest
+    text: Put 3 Pokémon Tool cards from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Zen Headbutt
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

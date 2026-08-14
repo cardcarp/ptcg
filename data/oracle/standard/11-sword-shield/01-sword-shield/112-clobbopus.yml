@@ -1,0 +1,37 @@
+name: Clobbopus
+
+origin: sword-shield-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 852
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Punch
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

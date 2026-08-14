@@ -1,0 +1,53 @@
+name: Cofagrigus ex
+
+origin: paradox-rift-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 260
+
+preevolution:
+  - Yamask
+
+dex: 563
+
+rule:
+  - type: ability
+    name: Gold Coffin
+    text: If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Hollow Hands
+    text: Put 5 damage counters on your opponent's Benched Pokémon in any way you like.
+    damage: 110
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

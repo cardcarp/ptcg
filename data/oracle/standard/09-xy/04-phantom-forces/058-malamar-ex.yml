@@ -1,0 +1,50 @@
+name: Malamar-EX
+
+origin: phantom-forces-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Darkness
+
+hp: 170
+
+dex: 687
+
+rule:
+  - type: ability
+    name: Hyper Hypnosis
+    text: When you attach an Energy from your hand to this Pokémon, you may use this Ability. Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: MAXamar
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage times the number of heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

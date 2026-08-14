@@ -1,0 +1,52 @@
+name: Hippowdon LV.X
+
+origin: rising-rivals-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Hippowdon
+
+dex: 450
+
+rule:
+  - type: ability
+    name: Sand Reset
+    text: Once during a game on your turn (before your attack), each player shuffles all cards in play (excluding Pokémon and Supporter cards) into his or her deck. You can't use more than 1 Sand Reset Poké-Power each game.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Double Shoot
+    text: Discard 2 Fighting Energy attached to Hippowdon and choose 2 of your opponent's Benched Pokémon. This attack does 40 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - Put this card onto your Active Hippowdon. Hippowdon LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

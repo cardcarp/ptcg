@@ -1,0 +1,43 @@
+name: Thievul
+
+origin: evolving-skies-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Nickit
+
+dex: 828
+
+rule:
+  - type: ability
+    name: Fumbling Hands
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may have each player shuffle their hand and put it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, each player draws 4 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Smack
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,43 @@
+name: Horsea
+
+origin: unleashed-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 116
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Beat
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Fin Smack
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

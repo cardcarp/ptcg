@@ -1,0 +1,42 @@
+name: Cryogonal
+
+origin: noble-victories-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 615
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Ice Chain
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Frost Vanish
+    text: You may return this Pokémon and all cards attached to it to your hand.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

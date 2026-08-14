@@ -1,0 +1,39 @@
+name: Miltank
+
+origin: paradox-rift-147
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 241
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lively Tackle
+    text: If this Pokémon was healed during this turn, this attack does 90 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

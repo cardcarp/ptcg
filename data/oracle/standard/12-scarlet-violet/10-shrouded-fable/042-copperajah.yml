@@ -1,0 +1,52 @@
+name: Copperajah
+
+origin: shrouded-fable-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 200
+
+preevolution:
+  - Cufant
+
+dex: 879
+
+rule:
+  - type: ability
+    name: Massive Body
+    text: As long as this Pokémon is in the Active Spot, your opponent can't play any Stadium cards from their hand.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Nasal Lariat
+    text: You may do 100 more damage. If you do, during your next turn, this Pokémon can't attack.
+    damage: 130
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+  - H
+
+errata: []

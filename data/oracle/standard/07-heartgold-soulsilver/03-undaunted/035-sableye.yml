@@ -1,0 +1,43 @@
+name: Sableye
+
+origin: undaunted-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 302
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Pull Out
+    text: Search your discard pile for any 1 card, show it to your opponent, and put it on top of your deck.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Hand
+    text: If you have more cards in your hand than your opponent, this attack does 20 damage plus 30 more damage.
+    damage: 20
+    modifier: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

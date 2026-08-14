@@ -1,0 +1,38 @@
+name: Alolan Rattata
+
+origin: pokemon-go-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 40
+
+dex: 19
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hyper Fang
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,39 @@
+name: Vanillish
+
+origin: plasma-storm-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Vanillite
+
+dex: 583
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Snow
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

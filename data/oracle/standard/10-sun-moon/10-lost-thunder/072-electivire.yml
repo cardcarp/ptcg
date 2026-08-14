@@ -1,0 +1,52 @@
+name: Electivire
+
+origin: lost-thunder-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Electabuzz
+
+dex: 466
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Electrocharge
+    text: Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: High-Voltage Knuckle
+    text: Discard 3 Energy from this Pokémon.
+    damage: 190
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Beedrill
+
+origin: champions-path-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Kakuna
+
+dex: 15
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Poison Jab
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

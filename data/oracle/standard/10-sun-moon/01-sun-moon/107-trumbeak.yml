@@ -1,0 +1,45 @@
+name: Trumbeak
+
+origin: sun-moon-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Pikipek
+
+dex: 732
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bullet Seed
+    text: Flip 4 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

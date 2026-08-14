@@ -1,0 +1,52 @@
+name: Greninja-GX
+
+origin: sun-moon-black-star-197
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Water
+
+hp: 230
+
+preevolution:
+  - Frogadier
+
+dex: 658
+
+rule:
+  - type: ability
+    name: Elusive Master
+    text: Once during your turn (before your attack), if this Pokémon is the last card in your hand, you may play it onto your Bench. If you do, draw 3 cards.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Mist Slash
+    text: This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon.
+    damage: 130
+  - type: attack
+    cost:
+      - Water
+    name: Dark Mist-GX
+    text: Put 1 of your opponent's Benched Pokémon and all cards attached to it into your opponent's hand. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

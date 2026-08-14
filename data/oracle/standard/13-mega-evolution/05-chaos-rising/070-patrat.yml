@@ -1,0 +1,39 @@
+name: Patrat
+
+origin: chaos-rising-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 504
+
+rule:
+  - type: ability
+    name: Watchful Eye
+    text: Damage counters on each Pokémon (both yours and your opponent's) can't be moved to other Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

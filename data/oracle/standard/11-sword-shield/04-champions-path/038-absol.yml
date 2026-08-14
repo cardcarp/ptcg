@@ -1,0 +1,37 @@
+name: Absol
+
+origin: champions-path-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 359
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Dark Cutter
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

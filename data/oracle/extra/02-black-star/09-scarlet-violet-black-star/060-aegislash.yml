@@ -1,0 +1,49 @@
+name: Aegislash
+
+origin: scarlet-violet-black-star-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Doublade
+
+dex: 681
+
+rule:
+  - type: ability
+    name: Mysterious Shield
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex and Pokémon V.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Hard Bashing
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

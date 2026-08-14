@@ -1,0 +1,44 @@
+name: Greninja
+
+origin: breakpoint-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Frogadier
+
+dex: 658
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shadow Stitching
+    text: Until the end of your opponent's next turn, each Pokémon your opponent has in play, in his or her hand, and in his or her discard pile has no Abilities. (This includes cards that come into play on that turn.)
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+    name: Moonlight Slash
+    text: You may return a Water Energy from this Pokémon to your hand. If you do, this attack does 20 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

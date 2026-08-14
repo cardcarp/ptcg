@@ -1,0 +1,43 @@
+name: Diancie
+
+origin: vivid-voltage-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 719
+
+rule:
+  - type: ability
+    name: Sparkle Veil
+    text: As long as this Pokémon is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 30 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Sensitive Ray
+    text: If you played a Supporter card from your hand during this turn, this attack does 70 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

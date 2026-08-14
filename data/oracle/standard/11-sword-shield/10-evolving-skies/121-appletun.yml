@@ -1,0 +1,44 @@
+name: Appletun
+
+origin: evolving-skies-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 90
+
+preevolution:
+  - Applin
+
+dex: 842
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Thick Mucus
+    text: This attack does 70 damage for each Special Energy card attached to your opponent's Pokémon.
+    damage: 70
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Fire
+    name: Fighting Tackle
+    text: If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

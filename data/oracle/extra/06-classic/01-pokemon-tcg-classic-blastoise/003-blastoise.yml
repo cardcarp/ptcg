@@ -1,0 +1,45 @@
+name: Blastoise
+
+origin: pokemon-tcg-classic-blastoise-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Wartortle
+
+dex: 9
+
+rule:
+  - type: ability
+    name: Rain Dance
+    text: As often as you like during your turn, you may attach a Basic Water Energy card from your hand to 1 of your Water Pokémon. This Pokémon Power can't be used if this Pokémon is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Hydro Pump
+    text: This attack does 10 more damage for each extra Water Energy attached to this Pokémon (in addition to this attack's cost). You can't add more than 20 damage in this way.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

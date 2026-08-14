@@ -1,0 +1,48 @@
+name: Poliwrath
+
+origin: evolutions-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Poliwhirl
+
+dex: 62
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Dashing Punch
+    text: If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Whirlpool
+    text: Discard an Energy attached to your opponent's Active Pokémon.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

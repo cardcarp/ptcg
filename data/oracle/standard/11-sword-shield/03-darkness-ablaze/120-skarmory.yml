@@ -1,0 +1,50 @@
+name: Skarmory
+
+origin: darkness-ablaze-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 120
+
+dex: 227
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Metal Arms
+    text: If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Cutting Wind
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

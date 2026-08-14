@@ -1,0 +1,50 @@
+name: Mega Scrafty ex
+
+origin: ascended-heroes-135
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - MEGA
+  - ex
+
+type:
+  - Darkness
+
+hp: 330
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: ability
+    name: Counterattacking Crest
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), place 5 damage counters on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Outlaw Leg
+    text: Discard a random card from your opponent's hand. Discard the top card of your opponent's deck.
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

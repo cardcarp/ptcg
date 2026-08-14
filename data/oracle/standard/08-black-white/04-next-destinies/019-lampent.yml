@@ -1,0 +1,40 @@
+name: Lampent
+
+origin: next-destinies-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

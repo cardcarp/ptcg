@@ -1,0 +1,48 @@
+name: Golisopod
+
+origin: paradox-rift-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Wimpod
+
+dex: 768
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Powerful Cross
+    text: This attack does 20 damage for each card in your opponent's hand.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

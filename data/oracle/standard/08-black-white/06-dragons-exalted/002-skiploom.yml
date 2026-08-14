@@ -1,0 +1,43 @@
+name: Skiploom
+
+origin: dragons-exalted-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Hoppip
+
+dex: 188
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bullet Seed
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Feebas
+
+origin: great-encounters-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 349
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Splash
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+    name: Fast Evolution
+    text: Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

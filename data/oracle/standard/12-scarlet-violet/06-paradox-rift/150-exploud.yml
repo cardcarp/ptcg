@@ -1,0 +1,46 @@
+name: Exploud
+
+origin: paradox-rift-150
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 160
+
+preevolution:
+  - Loudred
+
+dex: 295
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sudden Shout
+    text: Discard your opponent's Active Pokémon and all attached cards. If this Pokémon didn't evolve from Loudred during this turn, this attack does nothing.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Headbang
+    damage: 140
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

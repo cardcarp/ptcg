@@ -1,0 +1,49 @@
+name: Medicham
+
+origin: rebel-clash-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Yoga Kick
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

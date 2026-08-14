@@ -1,0 +1,44 @@
+name: Alolan Sandslash
+
+origin: sun-moon-black-star-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Alolan Sandshrew
+
+dex: 28
+
+rule:
+  - type: ability
+    name: Slush Rush
+    text: Once during your turn (before your attack), you may draw a card.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Smash Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Mankey
+
+origin: great-encounters-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 56
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Light Punch
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Mankey.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

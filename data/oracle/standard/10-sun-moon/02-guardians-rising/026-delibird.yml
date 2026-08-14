@@ -1,0 +1,41 @@
+name: Delibird
+
+origin: guardians-rising-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 225
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: All the Presents
+    text: Flip a coin until you get tails. For each heads, you may search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

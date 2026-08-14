@@ -1,0 +1,52 @@
+name: Duraludon
+
+origin: vivid-voltage-129
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 884
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Raging Claws
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Power Blast
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

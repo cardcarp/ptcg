@@ -1,0 +1,48 @@
+name: Ash-Greninja-EX
+
+origin: xy-black-star-133
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Water
+
+hp: 170
+
+dex: 658
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Dancing Shuriken
+    text: Flip 3 coins. This attack does 20 damage times the number of heads to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Ninja Blade
+    text: This Pokémon can't use Ninja Blade during your next turn.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

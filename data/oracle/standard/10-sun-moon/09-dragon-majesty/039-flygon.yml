@@ -1,0 +1,44 @@
+name: Flygon
+
+origin: dragon-majesty-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 140
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: ability
+    name: Dragon Guard
+    text: Prevent all effects of your opponent's attacks, except damage, done to your Dragon Pokémon. (Existing effects are not removed.)
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Sand Tomb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 110
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

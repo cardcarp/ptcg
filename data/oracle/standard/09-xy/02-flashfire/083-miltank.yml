@@ -1,0 +1,44 @@
+name: Miltank
+
+origin: flashfire-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 241
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Powerful Friends
+    text: If you have any Stage 2 Pokémon on your Bench, this attack does 70 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

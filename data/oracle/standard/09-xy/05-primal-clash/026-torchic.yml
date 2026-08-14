@@ -1,0 +1,41 @@
+name: Torchic
+
+origin: primal-clash-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 255
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flare Bonus
+    text: Discard a Fire Energy card from your hand. If you do, draw 2 cards.
+  - type: attack
+    cost:
+      - Fire
+    name: Claw
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

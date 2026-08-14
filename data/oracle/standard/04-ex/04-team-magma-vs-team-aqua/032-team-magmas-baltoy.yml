@@ -1,0 +1,41 @@
+name: Team Magma's Baltoy
+
+origin: team-magma-vs-team-aqua-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 343
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Psymist
+    text: Flip 2 coins. For each heads, choose 1 of you opponent's Pokémon and put 1 damage counter on that Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Pain Amplifier
+    text: Put 1 damage counter on each of your opponent's Pokémon that already has damage counters on it.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

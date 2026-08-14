@@ -1,0 +1,47 @@
+name: Quilava
+
+origin: expedition-base-set-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Cyndaquil
+
+dex: 156
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Super Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

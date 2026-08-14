@@ -1,0 +1,41 @@
+name: Iron Bundle
+
+origin: surging-sparks-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Future
+
+type:
+  - Water
+
+hp: 100
+
+dex: 991
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Gusting Collision
+    text: This attack does 50 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 200
+    modifier: '-'
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

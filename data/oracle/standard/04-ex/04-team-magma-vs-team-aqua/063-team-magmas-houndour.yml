@@ -1,0 +1,42 @@
+name: Team Magma's Houndour
+
+origin: team-magma-vs-team-aqua-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Kick Away
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Steady Firebreathing
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

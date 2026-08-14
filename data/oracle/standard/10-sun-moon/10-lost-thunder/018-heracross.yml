@@ -1,0 +1,43 @@
+name: Heracross
+
+origin: lost-thunder-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 214
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Powerful Friends
+    text: If you have any Stage 2 Pokémon on your Bench, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,52 @@
+name: Mandibuzz
+
+origin: black-white-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Vullaby
+
+dex: 630
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Blindside
+    text: Does 50 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Punishment
+    text: If the Defending Pokémon is a Stage 2 Pokémon, this attack does 60 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

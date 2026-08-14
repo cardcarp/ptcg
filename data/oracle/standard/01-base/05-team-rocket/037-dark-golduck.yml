@@ -1,0 +1,45 @@
+name: Dark Golduck
+
+origin: team-rocket-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Third Eye
+    text: Discard 1 Energy card attached to Dark Golduck in order to draw up to 3 cards.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Super Psy
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

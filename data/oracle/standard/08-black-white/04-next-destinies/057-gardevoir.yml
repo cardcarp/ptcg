@@ -1,0 +1,45 @@
+name: Gardevoir
+
+origin: next-destinies-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: ability
+    name: Psychic Mirage
+    text: Each basic Psychic Energy attached to your Psychic Pokémon provides PsychicPsychic Energy. You can't apply more than 1 Psychic Mirage Ability at a time.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mind Shock
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

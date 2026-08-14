@@ -1,0 +1,52 @@
+name: Electrode
+
+origin: triumphant-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Strike
+    text: You may do 40 damage plus 60 more damage. If you do, discard all Lightning Energy attached to Electrode.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

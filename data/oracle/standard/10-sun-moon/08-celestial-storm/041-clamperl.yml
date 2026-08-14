@@ -1,0 +1,38 @@
+name: Clamperl
+
+origin: celestial-storm-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 366
+
+rule:
+  - type: ability
+    name: Evolutionary Advantage
+    text: If you go second, this Pokémon can evolve during your first turn.
+  - type: attack
+    cost:
+      - Water
+    name: Sparkling Pearl
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

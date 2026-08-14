@@ -1,0 +1,54 @@
+name: Magcargo-GX
+
+origin: lost-thunder-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Fire
+
+hp: 210
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: ability
+    name: Crushing Charge
+    text: Once during your turn (before your attack), you may discard the top card of your deck. If it's a basic Energy card, attach it to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Lava Flow
+    text: Discard any amount of basic Energy from this Pokémon. This attack does 50 more damage for each card you discarded in this way.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+    name: Burning Magma-GX
+    text: Discard the top 5 cards of your opponent's deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

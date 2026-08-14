@@ -1,0 +1,52 @@
+name: Vaporeon VMAX
+
+origin: sword-shield-black-star-182
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 320
+
+preevolution:
+  - Vaporeon V
+
+dex: 134
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bubble Pod
+    text: Put a Water Pokémon from your discard pile onto your Bench. If you do, attach up to 3 Water Energy cards from your discard pile to that Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Max Torrent
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

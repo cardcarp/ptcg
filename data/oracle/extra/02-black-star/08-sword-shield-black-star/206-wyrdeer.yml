@@ -1,0 +1,50 @@
+name: Wyrdeer
+
+origin: sword-shield-black-star-206
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Stantler
+
+dex: 899
+
+rule:
+  - type: ability
+    name: Hurried Gait
+    text: Once during your turn, you may draw a card.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Extrasensory
+    text: If you have the same number of cards in your hand as your opponent, this attack does 80 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

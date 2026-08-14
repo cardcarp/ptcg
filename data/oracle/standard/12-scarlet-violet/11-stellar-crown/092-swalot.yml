@@ -1,0 +1,49 @@
+name: Swalot
+
+origin: stellar-crown-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Gulpin
+
+dex: 317
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Devouring Mouth
+    text: If this Pokémon has more Energy attached than your opponent's Active Pokémon, this attack does 160 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Venomous Hit
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

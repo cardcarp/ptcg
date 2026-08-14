@@ -1,0 +1,44 @@
+name: Ninjask
+
+origin: dragon-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Nincada
+
+dex: 291
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Sonic Wing
+    text: This attack's damage is not affected by Resistance.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

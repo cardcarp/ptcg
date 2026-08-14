@@ -1,0 +1,46 @@
+name: Jirachi
+
+origin: deoxys-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 385
+
+rule:
+  - type: ability
+    name: Wishing Star
+    text: Once during your turn (before your attack), if Jirachi is your Active Pokémon, you may look at the top 5 cards of your deck, choose 1 of them, and put it into your hand. Shuffle your deck afterward. Jirachi and your other Active Pokémon, if any, are now Asleep. This power can't be used if Jirachi is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metallic Blow
+    text: If the Defending Pokémon has any Poké-Bodies, this attack does 20 damage plus 30 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

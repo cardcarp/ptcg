@@ -1,0 +1,49 @@
+name: Hisuian Arcanine
+
+origin: astral-radiance-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Hisuian Growlithe
+
+dex: 59
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Boulder Crush
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Scorching Horn
+    text: If this Pokémon has any Fire Energy attached, this attack does 80 more damage, and your opponent's Active Pokémon is now Burned.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

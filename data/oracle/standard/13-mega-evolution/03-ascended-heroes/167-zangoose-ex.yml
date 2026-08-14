@@ -1,0 +1,49 @@
+name: Zangoose ex
+
+origin: ascended-heroes-167
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 200
+
+dex: 335
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spike Draw
+    text: Draw 2 cards.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wild Scissors
+    text: This Pokémon also does 30 damage to itself.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

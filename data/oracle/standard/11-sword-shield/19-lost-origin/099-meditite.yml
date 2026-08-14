@@ -1,0 +1,37 @@
+name: Meditite
+
+origin: lost-origin-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 307
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Focus Fist
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

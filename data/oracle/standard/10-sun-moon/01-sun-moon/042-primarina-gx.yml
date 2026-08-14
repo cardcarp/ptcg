@@ -1,0 +1,60 @@
+name: Primarina-GX
+
+origin: sun-moon-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Water
+
+hp: 250
+
+preevolution:
+  - Brionne
+
+dex: 730
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bubble Beat
+    text: This attack does 20 more damage times the amount of Water Energy attached to your Pokémon.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Roaring Seas
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 120
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Grand Echo-GX
+    text: Heal all damage from all of your Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

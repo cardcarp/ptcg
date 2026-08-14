@@ -1,0 +1,48 @@
+name: Pikachu ex
+
+origin: surging-sparks-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Lightning
+
+hp: 200
+
+dex: 25
+
+rule:
+  - type: ability
+    name: Resolute Heart
+    text: If this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10.
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+      - Metal
+    name: Topaz Bolt
+    text: Discard 3 Energy from this Pokémon.
+    damage: 300
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,47 @@
+name: Raikou
+
+origin: secret-wonders-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 243
+
+rule:
+  - type: ability
+    name: Thunder Rumble
+    text: Once during your turn (before your attack), when you attach a Lightning Energy card from your hand to Raikou, you may put 1 damage counter on 1 of your opponent's Benched Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunder Climb
+    text: Discard 3 cards from the top of your deck. This attack does 50 damage plus 10 more damage for each Lightning Energy card you discarded. Then, attach those Lightning Energy cards to 1 of your Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

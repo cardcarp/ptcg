@@ -1,0 +1,46 @@
+name: Grimmsnarl VMAX
+
+origin: darkness-ablaze-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Darkness
+
+hp: 330
+
+preevolution:
+  - Grimmsnarl V
+
+dex: 861
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: G-Max Drill
+    text: This attack does 50 more damage for each extra Darkness Energy attached to this Pokémon (in addition to this attack's cost). You can't add more than 100 damage in this way.
+    damage: 170
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,43 @@
+name: Thwackey
+
+origin: scarlet-violet-black-star-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Grookey
+
+dex: 811
+
+rule:
+  - type: ability
+    name: Boom Boom Groove
+    text: Once during your turn, if your Active Pokémon has the Festival Lead Ability, you may search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Beat
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

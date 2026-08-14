@@ -1,0 +1,36 @@
+name: Elgyem
+
+origin: plasma-storm-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 605
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Psyshot
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

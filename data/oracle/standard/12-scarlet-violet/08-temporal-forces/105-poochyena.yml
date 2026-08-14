@@ -1,0 +1,39 @@
+name: Poochyena
+
+origin: temporal-forces-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 261
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Gnaw Off
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

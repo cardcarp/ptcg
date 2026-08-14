@@ -1,0 +1,40 @@
+name: Ralts
+
+origin: secret-wonders-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 280
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Smack
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

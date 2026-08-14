@@ -1,0 +1,41 @@
+name: Cloyster
+
+origin: 151-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Shellder
+
+dex: 91
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Protect Charge
+    text: During your opponent's next turn, this Pokémon takes 80 less damage from attacks (after applying Weakness and Resistance).
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,37 @@
+name: # name
+  type: string
+  required: true
+  
+type: # no data, we'll set all to standard to start
+  type: string
+  required: true
+  allowed: ['standard', 'special']
+
+index: # no data, perhaps we can derive this, or I can manually edit it after. 
+  type: integer
+  required: true
+
+subtotal: # printed_total
+  type: integer
+
+total: # total
+  type: integer
+
+date: # release_date, converted from upstream 'yyyy/mm/dd' to 'yyyy-mm-dd'
+  type: string
+  regex: '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'
+
+collection: # series
+  type: string
+  required: true
+
+
+# id is always derivative 
+
+# https://scrydex.com/docs/pokemon/expansions#search-expansions
+# curl --request GET \
+#   --url https://api.scrydex.com/pokemon/v1/expansions \
+#   --header 'X-Api-Key: <api_key_here>'
+#   --header 'X-Team-ID: <team_id_here>'
+
+

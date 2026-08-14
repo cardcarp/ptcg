@@ -1,0 +1,51 @@
+name: Tyrantrum
+
+origin: furious-fists-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Tyrunt
+
+dex: 697
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Chew Up
+    text: If your opponent's Active Pokémon has any Special Energy attached to it, this attack does 90 more damage.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Giga Impact
+    text: This Pokémon can't attack during your next turn.
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

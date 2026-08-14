@@ -1,0 +1,47 @@
+name: Rampardos
+
+origin: ultra-prism-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Cranidos
+
+dex: 409
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Clean Hit
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Wild Crash
+    text: If your opponent's Active Pokémon is a Basic Pokémon, it is Knocked Out.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

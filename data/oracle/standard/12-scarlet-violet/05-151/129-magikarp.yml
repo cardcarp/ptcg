@@ -1,0 +1,36 @@
+name: Magikarp
+
+origin: 151-129
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Splashy Splash
+    text: Flip a coin until you get tails. For each heads, draw a card.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

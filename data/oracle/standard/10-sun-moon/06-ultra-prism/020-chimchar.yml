@@ -1,0 +1,33 @@
+name: Chimchar
+
+origin: ultra-prism-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 390
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

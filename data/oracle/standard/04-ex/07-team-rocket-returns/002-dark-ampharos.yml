@@ -1,0 +1,54 @@
+name: Dark Ampharos
+
+origin: team-rocket-returns-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Dark Flaaffy
+
+dex: 181
+
+rule:
+  - type: ability
+    name: Darkest Impulse
+    text: As long as Dark Ampharos is in play, whenever your opponent plays an Evolution card from his or her hand to evolve 1 of his or her Pokémon, put 2 damage counters on that Pokémon. You can't use more than 1 Darkest Impulse Poké-Body each turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Shock Bolt
+    text: Discard all Lightning Energy attached to Dark Ampharos.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Lightning Darkness type.
+
+regulation:
+
+errata: []

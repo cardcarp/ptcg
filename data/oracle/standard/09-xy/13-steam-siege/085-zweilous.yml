@@ -1,0 +1,48 @@
+name: Zweilous
+
+origin: steam-siege-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 90
+
+preevolution:
+  - Deino
+
+dex: 634
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Hit
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Darkness
+      - Colorless
+    name: Power Breath
+    text: Discard an Energy attached to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

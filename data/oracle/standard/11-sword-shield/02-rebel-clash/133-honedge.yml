@@ -1,0 +1,42 @@
+name: Honedge
+
+origin: rebel-clash-133
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 679
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Slicing Blade
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

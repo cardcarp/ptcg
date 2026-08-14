@@ -1,0 +1,41 @@
+name: Koffing
+
+origin: rising-rivals-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 109
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Offensive Gas
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.
+  - type: attack
+    cost:
+      - Psychic
+    name: Gas Bomb
+    text: Koffing does 30 damage to itself, and don't apply Weakness and Resistance to this damage.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

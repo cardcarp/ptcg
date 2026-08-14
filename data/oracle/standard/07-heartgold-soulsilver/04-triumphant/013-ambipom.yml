@@ -1,0 +1,47 @@
+name: Ambipom
+
+origin: triumphant-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Aipom
+
+dex: 424
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Astonish
+    text: Choose 2 cards from your opponent's hand without looking. Look at the cards you chose, then have your opponent shuffle those cards into his or her deck.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Spank
+    text: Discard 2 cards from your hand. (If you can't discard 2 cards from your hand, this attack does nothing.)
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

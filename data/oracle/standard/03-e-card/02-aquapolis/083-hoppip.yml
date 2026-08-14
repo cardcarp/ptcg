@@ -1,0 +1,44 @@
+name: Hoppip
+
+origin: aquapolis-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 187
+
+rule:
+  - type: ability
+    name: Lightweight
+    text: You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.
+  - type: attack
+    cost:
+      - Colorless
+    name: Careless Tackle
+    text: Hoppip does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

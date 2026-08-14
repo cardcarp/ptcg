@@ -1,0 +1,41 @@
+name: Stonjourner
+
+origin: scarlet-violet-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 874
+
+rule:
+  - type: ability
+    name: Exoskeleton
+    text: This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mega Kick
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,42 @@
+name: Nosepass
+
+origin: obsidian-flames-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 299
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Iron Collecting
+    text: Put up to 2 Basic Metal Energy cards from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rolling Tackle
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

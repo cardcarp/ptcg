@@ -1,0 +1,54 @@
+name: Mabosstiff ex
+
+origin: scarlet-violet-black-star-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Darkness
+
+hp: 260
+
+preevolution:
+  - Maschiff
+
+dex: 943
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Daunt
+    text: During your opponent's next turn, attacks used by the Defending Pokémon do 50 less damage (before applying Weakness and Resistance).
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Proud Fangs
+    text: If your Benched Pokémon have any damage counters on them, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

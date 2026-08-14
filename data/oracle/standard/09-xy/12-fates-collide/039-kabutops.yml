@@ -1,0 +1,49 @@
+name: Kabutops
+
+origin: fates-collide-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Kabuto
+
+dex: 141
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cling
+    text: Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 60 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

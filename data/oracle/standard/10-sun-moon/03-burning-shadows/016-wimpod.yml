@@ -1,0 +1,40 @@
+name: Wimpod
+
+origin: burning-shadows-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 767
+
+rule:
+  - type: ability
+    name: Wimp Out
+    text: During your first turn, this Pokémon has no Retreat Cost.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

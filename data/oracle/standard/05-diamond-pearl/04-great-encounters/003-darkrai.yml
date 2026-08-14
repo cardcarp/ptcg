@@ -1,0 +1,46 @@
+name: Darkrai
+
+origin: great-encounters-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 491
+
+rule:
+  - type: attack
+    name: Reach Over
+    text: Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Darkness Pursuit
+    text: If the Defending Pokémon is Cresselia, this attack's base damage is 100.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Pikachu
+
+origin: wizards-black-star-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Recharge
+    text: Search your deck for a Lightning Energy card and attach it to Pikachu. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunderbolt
+    text: Discard all Energy cards attached to Pikachu in order to use this attack.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

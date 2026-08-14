@@ -1,0 +1,37 @@
+name: Mienfoo
+
+origin: boundaries-crossed-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 619
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Steady Punch
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

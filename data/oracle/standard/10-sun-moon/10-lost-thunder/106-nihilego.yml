@@ -1,0 +1,41 @@
+name: Nihilego
+
+origin: lost-thunder-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 793
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Nightcap
+    text: You can use this attack only if your opponent has exactly 2 Prize cards remaining. Choose 1 of your opponent's Pokémon's attacks and use it as this attack.
+  - type: attack
+    cost:
+      - Psychic
+    name: Void Tentacles
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

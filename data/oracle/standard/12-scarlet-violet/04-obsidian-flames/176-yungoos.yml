@@ -1,0 +1,38 @@
+name: Yungoos
+
+origin: obsidian-flames-176
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 734
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

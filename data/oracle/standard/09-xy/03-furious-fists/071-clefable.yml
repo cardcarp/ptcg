@@ -1,0 +1,50 @@
+name: Clefable
+
+origin: furious-fists-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Follow Me
+    text: Switch 1 of your opponent's Benched Pokémon with your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Moonblast
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

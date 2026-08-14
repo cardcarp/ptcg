@@ -1,0 +1,47 @@
+name: Shelgon
+
+origin: dragon-vault-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Bagon
+
+dex: 372
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Rollout
+    damage: 50
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

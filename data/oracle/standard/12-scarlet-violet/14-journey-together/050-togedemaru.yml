@@ -1,0 +1,38 @@
+name: Togedemaru
+
+origin: journey-together-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 777
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Toge Spark
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

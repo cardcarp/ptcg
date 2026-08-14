@@ -1,0 +1,48 @@
+name: Tornadus
+
+origin: black-white-black-star-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 641
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Wheel
+    text: Move an Energy from 1 of your Benched Pokémon to this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hurricane
+    text: Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

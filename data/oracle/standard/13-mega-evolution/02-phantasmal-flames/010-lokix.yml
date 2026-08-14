@@ -1,0 +1,47 @@
+name: Lokix
+
+origin: phantasmal-flames-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Nymble
+
+dex: 920
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Low Kick
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Jumping Shot
+    text: Shuffle this Pokémon and all attached cards into your deck.
+    damage: 150
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

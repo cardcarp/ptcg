@@ -1,0 +1,46 @@
+name: Treecko
+
+origin: arceus-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 252
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

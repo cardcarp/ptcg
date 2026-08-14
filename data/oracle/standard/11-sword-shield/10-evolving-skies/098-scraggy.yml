@@ -1,0 +1,37 @@
+name: Scraggy
+
+origin: evolving-skies-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 559
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Hard Head
+    text: During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

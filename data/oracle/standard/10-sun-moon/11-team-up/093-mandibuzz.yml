@@ -1,0 +1,51 @@
+name: Mandibuzz
+
+origin: team-up-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Vullaby
+
+dex: 630
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Trash Crash
+    text: Discard an Item card from your hand. If you do, this attack does 60 damage to 1 of your opponent's Pokémon. This damage isn't affected by Weakness or Resistance.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Brave Bird
+    text: This Pokémon does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

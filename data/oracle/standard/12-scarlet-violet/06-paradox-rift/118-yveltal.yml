@@ -1,0 +1,52 @@
+name: Yveltal
+
+origin: paradox-rift-118
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 130
+
+dex: 717
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cross-Cut
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Edge
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

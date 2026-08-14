@@ -1,0 +1,44 @@
+name: Heatmor
+
+origin: battle-styles-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 631
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Burning Licks
+    text: Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

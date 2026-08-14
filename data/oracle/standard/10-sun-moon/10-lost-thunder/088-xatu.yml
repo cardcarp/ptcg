@@ -1,0 +1,48 @@
+name: Xatu
+
+origin: lost-thunder-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Energy Gaze
+    text: Your opponent reveals their hand. If you find any Energy cards there, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Sphere
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

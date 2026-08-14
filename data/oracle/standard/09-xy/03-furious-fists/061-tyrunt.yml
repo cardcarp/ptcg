@@ -1,0 +1,50 @@
+name: Tyrunt
+
+origin: furious-fists-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Restored
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Jaw Fossil
+
+dex: 696
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Gnaw
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Jaw Fossil
+
+regulation:
+
+errata: []

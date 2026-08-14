@@ -1,0 +1,41 @@
+name: Spinarak
+
+origin: unseen-forces-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 167
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Stun Poison
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pierce
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

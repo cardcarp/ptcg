@@ -1,0 +1,59 @@
+name: Dragonite-GX
+
+origin: unified-minds-152
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Dragon
+
+hp: 250
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+    name: Dragon Claw
+    damage: 130
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sky Judgment
+    text: Discard 3 Energy from this Pokémon.
+    damage: 270
+  - type: attack
+    cost:
+      - Colorless
+    name: Mach Delivery-GX
+    text: You may discard any number of cards from your hand until you have 9 or fewer. Draw cards until you have 10 cards in your hand. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

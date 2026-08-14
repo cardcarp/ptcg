@@ -1,0 +1,51 @@
+name: Hisuian Typhlosion V
+
+origin: sword-shield-black-star-237
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 210
+
+dex: 157
+
+rule:
+  - type: attack
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Petrifying Flame
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

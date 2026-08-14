@@ -1,0 +1,54 @@
+name: Aerodactyl
+
+origin: legend-maker-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 142
+
+rule:
+  - type: ability
+    name: Reactive Protection
+    text: Any damage done to Aerodactyl by attacks from your opponent's Pokémon is reduced by 10 for each React Energy card attached to Aerodactyl (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Power Blow
+    text: Does 10 damage plus 10 more damage for each Energy attached to Aerodactyl.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Speed Stroke
+    text: During your opponent's next turn, prevent all effects, including damage, done to Aerodactyl by attacks from your opponent's Pokémon-ex.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

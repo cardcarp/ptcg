@@ -1,0 +1,41 @@
+name: Pyukumuku
+
+origin: sword-shield-black-star-169
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 771
+
+rule:
+  - type: ability
+    name: Pitch a Pyukumuku
+    text: Once during your turn, if this Pokémon is in your hand, you may reveal it and put it on the bottom of your deck. If you do, draw a card. You can't use more than 1 Pitch a Pyukumuku Ability each turn.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Knuckle Punch
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

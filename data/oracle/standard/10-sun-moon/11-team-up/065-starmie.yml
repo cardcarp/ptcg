@@ -1,0 +1,37 @@
+name: Starmie
+
+origin: team-up-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Strange Wave
+    text: Search your deck for up to 3 in any combination of Water and Psychic Energy cards and attach them to 1 of your Benched Pokémon. Then, shuffle your deck.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

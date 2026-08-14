@@ -1,0 +1,44 @@
+name: Wailmer
+
+origin: ruby-sapphire-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 320
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rest
+    text: Remove all Special Conditions and 4 damage counters from Wailmer (all if there are less than 4). Wailmer is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    text: This attack does 20 damage plus 10 more damage for each Water Energy attached to Wailmer but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

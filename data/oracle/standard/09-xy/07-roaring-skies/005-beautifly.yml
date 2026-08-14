@@ -1,0 +1,42 @@
+name: Beautifly
+
+origin: roaring-skies-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Silcoon
+
+dex: 267
+
+rule:
+  - type: ability
+    name: Miraculous Scales
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon-EX.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Whirlwind
+    text: You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

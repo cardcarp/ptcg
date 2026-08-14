@@ -1,0 +1,54 @@
+name: Single Strike Urshifu VMAX
+
+origin: battle-styles-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 330
+
+preevolution:
+  - Single Strike Urshifu V
+
+dex: 892
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Beatdown
+    damage: 100
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: G-Max One Blow
+    text: Discard all Energy from this Pokémon. This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 270
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,37 @@
+name: Litwick
+
+origin: noble-victories-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 607
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Searing Flame
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

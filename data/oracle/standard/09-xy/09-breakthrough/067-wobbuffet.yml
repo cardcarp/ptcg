@@ -1,0 +1,42 @@
+name: Wobbuffet
+
+origin: breakthrough-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 202
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mirror Barrier
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Rolling Tackle
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

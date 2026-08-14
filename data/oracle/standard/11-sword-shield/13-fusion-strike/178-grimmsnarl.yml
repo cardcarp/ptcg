@@ -1,0 +1,48 @@
+name: Grimmsnarl
+
+origin: fusion-strike-178
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Morgrem
+
+dex: 861
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 60
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Rear Attack
+    text: If you have 2 or fewer Benched Pokémon, this attack does 140 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

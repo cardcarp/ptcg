@@ -1,0 +1,49 @@
+name: Veluza ex
+
+origin: journey-together-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 210
+
+dex: 976
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Razor Fin
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Purging Strike
+    text: You may discard your hand. If you discarded any cards in this way, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

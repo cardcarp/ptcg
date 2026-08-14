@@ -1,0 +1,40 @@
+name: Shuckle
+
+origin: heartgold-soulsilver-black-star-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 213
+
+rule:
+  - type: ability
+    name: Fermenting Liquid
+    text: Whenever you attach an Energy card from your hand to Shuckle, draw a card.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Shell Stunner
+    text: Flip a coin. If heads, prevent all damage done to Shuckle by attacks during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

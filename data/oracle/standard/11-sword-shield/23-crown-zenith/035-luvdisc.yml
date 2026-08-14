@@ -1,0 +1,41 @@
+name: Luvdisc
+
+origin: crown-zenith-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 370
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Emotional Draw
+    text: Shuffle your hand into your deck. Then, draw 5 cards.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

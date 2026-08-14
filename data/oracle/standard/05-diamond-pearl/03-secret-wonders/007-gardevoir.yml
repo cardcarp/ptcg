@@ -1,0 +1,44 @@
+name: Gardevoir
+
+origin: secret-wonders-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: ability
+    name: Telepass
+    text: Once during your turn (before your attack), you may search your opponent's discard pile for a Supporter card and use the effect of that card as the effect of this power. (The Supporter card remains in your opponent's discard pile.) You can't use more than 1 Telepass Poké-Power each turn. This power can't be used if Gardevoir is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Lock
+    text: During your opponent's next turn, your opponent can't use any Poké-Powers on his or her Pokémon.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Whimsicott
+
+origin: mega-evolution-black-star-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Healing Fluff
+    text: Heal all damage from 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+    name: U-turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

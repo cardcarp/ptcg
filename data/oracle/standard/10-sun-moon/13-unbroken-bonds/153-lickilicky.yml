@@ -1,0 +1,49 @@
+name: Lickilicky
+
+origin: unbroken-bonds-153
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Lickitung
+
+dex: 463
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Eat Up
+    text: Before doing damage, discard all Pokémon Tool cards from your opponent's Active Pokémon. If you discarded a Pokémon Tool card in this way, heal all damage from this Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tonguenado
+    text: Flip 4 coins. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

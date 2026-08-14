@@ -1,0 +1,40 @@
+name: Accelgor
+
+origin: white-flare-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Shelmet
+
+dex: 617
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Acid Spray
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

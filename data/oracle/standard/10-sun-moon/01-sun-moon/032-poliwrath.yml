@@ -1,0 +1,48 @@
+name: Poliwrath
+
+origin: sun-moon-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Poliwhirl
+
+dex: 62
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Split Spiral Punch
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Wake-Up Slap
+    text: If your opponent's Active Pokémon is affected by a Special Condition, this attack does 80 more damage. Then, remove all Special Conditions from that Pokémon.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

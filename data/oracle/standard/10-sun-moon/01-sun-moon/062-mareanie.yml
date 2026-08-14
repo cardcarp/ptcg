@@ -1,0 +1,35 @@
+name: Mareanie
+
+origin: sun-moon-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 747
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

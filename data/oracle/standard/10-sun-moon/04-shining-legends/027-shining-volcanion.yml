@@ -1,0 +1,47 @@
+name: Shining Volcanion
+
+origin: shining-legends-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 721
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Dual Pump
+    text: This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Quad Smash
+    text: Flip 4 coins. This attack does 50 damage for each heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

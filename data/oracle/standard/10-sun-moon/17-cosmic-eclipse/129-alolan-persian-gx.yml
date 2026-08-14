@@ -1,0 +1,59 @@
+name: Alolan Persian-GX
+
+origin: cosmic-eclipse-129
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Darkness
+
+hp: 200
+
+preevolution:
+  - Alolan Meowth
+
+dex: 53
+
+rule:
+  - type: ability
+    name: Smug Face
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's TAG TEAM Pokémon and Ultra Beasts, and by your opponent's Pokémon that have any Special Energy attached to them.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 120
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Stalking Claws-GX
+    text: This attack does 120 damage to 1 of your opponent's Pokémon. This damage isn't affected by Weakness, Resistance, or any other effects on that Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

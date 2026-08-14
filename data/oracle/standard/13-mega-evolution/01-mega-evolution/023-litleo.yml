@@ -1,0 +1,37 @@
+name: Litleo
+
+origin: mega-evolution-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 667
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

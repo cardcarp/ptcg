@@ -1,0 +1,49 @@
+name: Wigglytuff
+
+origin: darkness-ablaze-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Sleep Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Smash
+    text: Flip 2 coins. This attack does 90 damage for each heads.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,41 @@
+name: Azumarill
+
+origin: stellar-crown-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Bubble Beam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

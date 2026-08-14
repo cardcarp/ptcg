@@ -1,0 +1,44 @@
+name: Lampent
+
+origin: noble-victories-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Luring Light
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Will-O-Wisp
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

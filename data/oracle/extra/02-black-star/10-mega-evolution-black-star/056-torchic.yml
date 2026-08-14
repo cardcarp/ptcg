@@ -1,0 +1,36 @@
+name: Torchic
+
+origin: mega-evolution-black-star-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 255
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

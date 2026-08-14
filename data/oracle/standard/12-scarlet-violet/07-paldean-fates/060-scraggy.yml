@@ -1,0 +1,43 @@
+name: Scraggy
+
+origin: paldean-fates-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 559
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Low Kick
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Headstrike
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

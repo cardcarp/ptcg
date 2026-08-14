@@ -1,0 +1,47 @@
+name: Chimecho
+
+origin: twilight-masquerade-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 358
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Hyper Voice
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Homeward Chime
+    text: Shuffle 1 of your Benched Pokémon and all attached cards into your deck.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

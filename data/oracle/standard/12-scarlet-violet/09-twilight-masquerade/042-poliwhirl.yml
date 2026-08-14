@@ -1,0 +1,47 @@
+name: Poliwhirl
+
+origin: twilight-masquerade-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Poliwag
+
+dex: 61
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Hypnosis
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

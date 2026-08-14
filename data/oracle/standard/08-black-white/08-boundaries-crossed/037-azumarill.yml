@@ -1,0 +1,47 @@
+name: Azumarill
+
+origin: boundaries-crossed-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Deep Dive
+    text: Flip 2 coins. For each heads, heal 40 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Sonic
+    text: This attack's damage isn't affected by Resistance.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

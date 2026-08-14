@@ -1,0 +1,47 @@
+name: Ducklett
+
+origin: white-flare-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 580
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Firefighting
+    text: Discard a Fire Energy from your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

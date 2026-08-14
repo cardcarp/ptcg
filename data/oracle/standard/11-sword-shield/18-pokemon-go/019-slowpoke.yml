@@ -1,0 +1,41 @@
+name: Slowpoke
+
+origin: pokemon-go-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 79
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hold Still
+    text: Heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Water
+    name: Ideal Fishing Day
+    text: Put an Item card from your discard pile into your hand.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

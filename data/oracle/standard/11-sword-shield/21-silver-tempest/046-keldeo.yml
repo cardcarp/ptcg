@@ -1,0 +1,45 @@
+name: Keldeo
+
+origin: silver-tempest-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 647
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Four as One
+    text: If Cobalion, Terrakion, and Virizion are on your Bench, this attack does 170 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,42 @@
+name: Azelf
+
+origin: plasma-blast-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 482
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Trading Places
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psyjamming
+    text: Move as many Special Energy attached to your opponent's Pokémon to your opponent's other Pokémon in any way you like.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

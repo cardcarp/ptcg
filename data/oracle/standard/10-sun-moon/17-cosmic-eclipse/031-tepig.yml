@@ -1,0 +1,42 @@
+name: Tepig
+
+origin: cosmic-eclipse-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 498
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

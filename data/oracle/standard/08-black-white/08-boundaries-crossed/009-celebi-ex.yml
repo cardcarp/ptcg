@@ -1,0 +1,50 @@
+name: Celebi-EX
+
+origin: boundaries-crossed-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 251
+
+rule:
+  - type: ability
+    name: Time Recall
+    text: Each of your evolved Pokémon can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Wind Whisk
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

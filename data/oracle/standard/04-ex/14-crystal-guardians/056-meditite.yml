@@ -1,0 +1,41 @@
+name: Meditite
+
+origin: crystal-guardians-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 307
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Kick
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pure Power
+    text: Put 2 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

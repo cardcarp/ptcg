@@ -1,0 +1,45 @@
+name: Yveltal
+
+origin: shining-fates-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 717
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Psychic
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Amazing Destruction
+    text: Your opponent's Active Pokémon is Knocked Out.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

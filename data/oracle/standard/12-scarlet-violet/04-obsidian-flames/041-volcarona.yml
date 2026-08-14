@@ -1,0 +1,47 @@
+name: Volcarona
+
+origin: obsidian-flames-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Larvesta
+
+dex: 637
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flame Cloak
+    text: Attach a Basic Fire Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Blast
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

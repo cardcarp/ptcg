@@ -1,0 +1,57 @@
+name: Weavile-GX
+
+origin: unified-minds-132
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Darkness
+
+hp: 200
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: ability
+    name: Shadow Connection
+    text: As often as you like during your turn (before your attack), you may move a basic Darkness Energy from 1 of your Pokémon to another of your Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Claw Slash
+    damage: 130
+  - type: attack
+    cost:
+      - Colorless
+    name: Nocturnal Maneuvers-GX
+    text: Search your deck for any number of Basic Pokémon and put them onto your Bench. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

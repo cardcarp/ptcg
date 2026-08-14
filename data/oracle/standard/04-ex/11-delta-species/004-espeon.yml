@@ -1,0 +1,48 @@
+name: Espeon δ
+
+origin: delta-species-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Psychic
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: ability
+    name: Delta Heal
+    text: Once during your turn (before your attack), you may remove 1 damage counter from each of your Pokémon that has δ on its card. You can't use more than 1 Delta Heal Poké-Power each turn. This power can't be used if Espeon is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Metal
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Psychic Metal type.
+
+regulation:
+
+errata: []

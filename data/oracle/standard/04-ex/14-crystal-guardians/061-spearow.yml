@@ -1,0 +1,40 @@
+name: Spearow
+
+origin: crystal-guardians-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 21
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spearhead
+    text: Draw a card.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

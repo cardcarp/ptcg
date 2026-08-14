@@ -1,0 +1,40 @@
+name: Dugtrio
+
+origin: obsidian-flames-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Diglett
+
+dex: 51
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Dig
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

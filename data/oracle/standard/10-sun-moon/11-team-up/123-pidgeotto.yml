@@ -1,0 +1,47 @@
+name: Pidgeotto
+
+origin: team-up-123
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Pidgey
+
+dex: 17
+
+rule:
+  - type: ability
+    name: Air Mail
+    text: Once during your turn (before your attack), you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Alolan Vulpix
+
+origin: burning-shadows-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: attack
+    name: Powder Snow
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Icy Snow
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

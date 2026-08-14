@@ -1,0 +1,38 @@
+name: Unown [K]
+
+origin: secret-wonders-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 201
+
+rule:
+  - type: ability
+    name: Kind
+    text: Once during your turn (before your attack), you may remove 2 damage counters from 1 of the Defending Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+    name: Hidden Power
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Phanpy
+
+origin: paldean-fates-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 231
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Strength
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Rolling Tackle
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

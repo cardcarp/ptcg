@@ -1,0 +1,37 @@
+name: Wimpod
+
+origin: darkness-ablaze-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 767
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Gnaw and Run
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

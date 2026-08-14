@@ -1,0 +1,47 @@
+name: Black Kyurem
+
+origin: cosmic-eclipse-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 646
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Frozen Wings
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Dazzling Blizzard
+    text: If you have any Stadium card in play, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Kecleon
+
+origin: rising-rivals-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 352
+
+rule:
+  - type: ability
+    name: Colorful Body
+    text: Kecleon's type is Grass Fire Water Lightning Psychic Fighting Darkness Metal Colorless.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Triple Smash
+    text: Flip 3 coins. This attack does 10 damage plus 20 more damage for each heads.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

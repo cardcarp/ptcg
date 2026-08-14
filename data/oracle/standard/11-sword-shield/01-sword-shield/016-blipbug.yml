@@ -1,0 +1,36 @@
+name: Blipbug
+
+origin: sword-shield-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 824
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

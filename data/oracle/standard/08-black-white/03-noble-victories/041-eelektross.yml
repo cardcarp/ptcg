@@ -1,0 +1,48 @@
+name: Eelektross
+
+origin: noble-victories-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Eelektrik
+
+dex: 604
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Acid
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Wild Charge
+    text: This Pokémon does 10 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

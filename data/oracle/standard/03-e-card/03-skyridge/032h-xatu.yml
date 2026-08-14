@@ -1,0 +1,44 @@
+name: Xatu
+
+origin: skyridge-032h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: ability
+    name: Synchronicity
+    text: You may attach any Technical Machine to Xatu.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Warp Hole
+    text: Flip a coin. If heads, choose a card from your discard pile and put it on top of your deck.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

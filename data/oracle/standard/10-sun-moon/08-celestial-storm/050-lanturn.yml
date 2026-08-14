@@ -1,0 +1,50 @@
+name: Lanturn
+
+origin: celestial-storm-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: ability
+    name: Energy Grounding
+    text: When 1 of your Pokémon is Knocked Out by damage from an opponent's attack, you may move a basic Energy card from that Pokémon to this Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Strike
+    text: You may discard all Lightning Energy from this Pokémon. If you do, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

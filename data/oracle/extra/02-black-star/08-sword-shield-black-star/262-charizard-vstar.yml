@@ -1,0 +1,55 @@
+name: Charizard VSTAR
+
+origin: sword-shield-black-star-262
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Fire
+
+hp: 280
+
+preevolution:
+  - Charizard V
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Explosive Fire
+    text: If this Pokémon has any damage counters on it, this attack does 100 more damage.
+    damage: 130
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Star Blaze
+    text: Discard 2 Energy from this Pokémon. (You can't use more than 1 VSTAR Power in a game.)
+    damage: 320
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

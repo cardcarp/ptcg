@@ -1,0 +1,40 @@
+name: Chimecho
+
+origin: supreme-victors-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 358
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Heal Bell
+    text: Remove 3 damage counters from each of your Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+    name: Super Psywave
+    text: Choose 1 of your opponent's Pokémon. Count the amount of Energy attached to that Pokémon. Put that many damage counters on the Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

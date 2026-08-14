@@ -1,0 +1,48 @@
+name: Dratini
+
+origin: dragon-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 147
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Dragon Dew
+    text: Remove 2 damage counters from 1 of your Pokémon (remove 1 if there is only 1).
+  - type: attack
+    cost:
+      - Lightning
+    name: Tail Slap
+    damage: 10
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

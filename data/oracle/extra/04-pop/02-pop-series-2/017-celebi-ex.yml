@@ -1,0 +1,44 @@
+name: Celebi ex
+
+origin: pop-series-2-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 251
+
+rule:
+  - type: ability
+    name: Time Reversal
+    text: Once during your turn, when you put Celebi ex from your hand onto your Bench, you may search your discard pile for a card, show it to your opponent, and put it on top of your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic Shield
+    text: Prevent all effects of attacks, including damage, done to Celebi ex by your opponent's Pokémon-ex during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Tapu Koko V
+
+origin: battle-styles-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 210
+
+dex: 785
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Electro Ball
+    damage: 40
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Spiral Thunder
+    text: This attack does 40 more damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

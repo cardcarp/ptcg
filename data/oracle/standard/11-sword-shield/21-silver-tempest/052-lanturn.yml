@@ -1,0 +1,47 @@
+name: Lanturn
+
+origin: silver-tempest-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Ram
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Strong Volt
+    text: Discard 2 Energy from this Pokémon.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,52 @@
+name: Flareon δ
+
+origin: delta-species-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fire
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Delta Search
+    text: Search your deck for a Holon Energy card and attach it to Flareon. Shuffle your deck afterward.
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Metal
+      - Colorless
+    name: Return Burn
+    text: You may return an Energy card attached to Flareon to your hand. If you do, the Defending Pokémon is now Burned.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Fire Metal type.
+
+regulation:
+
+errata: []

@@ -1,0 +1,54 @@
+name: Mewtwo V
+
+origin: sword-shield-black-star-223
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 220
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 50
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Transfer Break
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 160
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

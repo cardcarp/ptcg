@@ -1,0 +1,53 @@
+name: Escavalier
+
+origin: phantom-forces-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Karrablast
+
+dex: 589
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Poke Through
+    text: Discard a random card from your opponent's hand.
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Spiral Rush
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

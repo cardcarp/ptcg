@@ -1,0 +1,46 @@
+name: Golduck
+
+origin: 151-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Aquatic Rescue
+    text: Put up to 4 Pokémon from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Super Splash
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

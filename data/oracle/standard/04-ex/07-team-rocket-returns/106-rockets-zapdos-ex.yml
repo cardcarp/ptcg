@@ -1,0 +1,51 @@
+name: Rocket's Zapdos ex
+
+origin: team-rocket-returns-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 145
+
+rule:
+  - type: ability
+    name: Darkness Guard
+    text: As long as Rocket's Zapdos ex has any Darkness Energy attached to it, damage done to Rocket's Zapdos ex by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Plasma
+    text: Search your discard pile for a Lightning Energy card and attach it to Rocket's Zapdos ex.
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Raging Thunder
+    text: This attack does 30 damage to 1 of your Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

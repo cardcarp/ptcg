@@ -1,0 +1,44 @@
+name: Slowbro
+
+origin: aquapolis-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: ability
+    name: Dense Body
+    text: Any damage done to Slowbro by attacks from Basic Pokémon (excluding Baby Pokémon) is reduced by 20.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Energy Cannon
+    text: This attack does 30 damage plus 10 damage for each Energy attached to Slowbro but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

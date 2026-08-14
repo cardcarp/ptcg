@@ -1,0 +1,42 @@
+name: Vibrava
+
+origin: cosmic-eclipse-109
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Trapinch
+
+dex: 329
+
+rule:
+  - type: ability
+    name: Obnoxious Whirring
+    text: Whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to this Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Flap
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

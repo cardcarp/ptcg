@@ -1,0 +1,48 @@
+name: Gurdurr
+
+origin: twilight-masquerade-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Timburr
+
+dex: 533
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Knuckle Punch
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Superpower
+    text: You may do 30 more damage. If you do, this Pokémon also does 30 damage to itself.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

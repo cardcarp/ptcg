@@ -1,0 +1,50 @@
+name: Rocket's Articuno ex
+
+origin: team-rocket-returns-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 144
+
+rule:
+  - type: ability
+    name: Darkness Veil
+    text: As long as Rocket's Articuno ex has any Darkness Energy attached to it, prevent all effects, except damage, by an opponent's attack done to Rocket's Articuno ex.
+  - type: attack
+    cost:
+      - Colorless
+    name: Freeze Solid
+    text: Search your discard pile for a Water Energy card and attach it to Rocket's Articuno ex.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Ice Wing
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

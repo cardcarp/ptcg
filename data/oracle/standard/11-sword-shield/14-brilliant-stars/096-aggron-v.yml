@@ -1,0 +1,59 @@
+name: Aggron V
+
+origin: brilliant-stars-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Metal
+
+hp: 230
+
+dex: 306
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Rock Slide
+    text: This attack also does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 90
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Merciless Strike
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 150 more damage.
+    damage: 150
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

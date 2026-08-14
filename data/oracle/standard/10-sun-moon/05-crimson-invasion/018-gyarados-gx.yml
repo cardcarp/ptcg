@@ -1,0 +1,60 @@
+name: Gyarados-GX
+
+origin: crimson-invasion-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Water
+
+hp: 240
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Waterfall
+    damage: 70
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Draconic Disaster
+    text: If there is any Stadium card in play, this attack does 100 more damage. Then, discard that Stadium card.
+    damage: 100
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+    name: Dread Storm-GX
+    text: Discard an Energy from each of your opponent's Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

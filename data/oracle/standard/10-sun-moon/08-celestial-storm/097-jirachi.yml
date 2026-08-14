@@ -1,0 +1,50 @@
+name: Jirachi ◇
+
+origin: celestial-storm-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Prism Star
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 385
+
+rule:
+  - type: ability
+    name: Wish Upon a Star
+    text: If you took this Pokémon as a face-down Prize card during your turn and your Bench isn't full, before you put it into your hand, you may put it onto your Bench and take 1 more Prize card.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Perish Dream
+    text: This Pokémon is now Asleep. At the end of your opponent's next turn, the Defending Pokémon will be Knocked Out.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+regulation:
+
+errata: []

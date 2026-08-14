@@ -1,0 +1,54 @@
+name: Vaporeon-GX
+
+origin: sun-moon-black-star-172
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Water
+
+hp: 210
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: ability
+    name: Hydrating Drops
+    text: Once during your turn (before your attack), you may heal 30 damage from your Active Water Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 30 more damage times the amount of Water Energy attached to this Pokémon.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+    name: Cure Shower-GX
+    text: Heal all damage from all of your Water Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

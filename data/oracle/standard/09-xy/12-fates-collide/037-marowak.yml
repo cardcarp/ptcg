@@ -1,0 +1,44 @@
+name: Marowak
+
+origin: fates-collide-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: ability
+    name: Bodyguard
+    text: Prevent all effects of attacks done to you or your hand by your opponent's Pokémon. Remove any existing effects.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bonemerang
+    text: Flip 2 coins. This attack does 60 damage times the number of heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

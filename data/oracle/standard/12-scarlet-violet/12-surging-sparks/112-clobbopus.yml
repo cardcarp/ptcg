@@ -1,0 +1,37 @@
+name: Clobbopus
+
+origin: surging-sparks-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 852
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Slight Intrusion
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

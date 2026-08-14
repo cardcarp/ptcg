@@ -1,0 +1,49 @@
+name: Garchomp-EX
+
+origin: xy-black-star-167
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 180
+
+dex: 445
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Shred
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

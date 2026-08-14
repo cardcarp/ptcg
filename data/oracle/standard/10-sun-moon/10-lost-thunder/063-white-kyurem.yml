@@ -1,0 +1,46 @@
+name: White Kyurem
+
+origin: lost-thunder-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 646
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Field Crush
+    text: If your opponent has a Stadium card in play, discard it.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Freezing Flames
+    text: If this Pokémon has any Fire Energy attached to it, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

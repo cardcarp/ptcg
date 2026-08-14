@@ -1,0 +1,47 @@
+name: Beldum
+
+origin: chaos-rising-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 374
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Headbutt
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Beam
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

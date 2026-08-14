@@ -1,0 +1,44 @@
+name: Xerneas
+
+origin: mega-evolution-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 716
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Geo Gate
+    text: Search your deck for up to 3 Basic Psychic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Bright Horns
+    text: During your next turn, this Pokémon can't use Bright Horns.
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,46 @@
+name: Chimchar
+
+origin: pop-series-9-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 390
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Serial Swipes
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Sleepy
+    text: If you have Piplup in play, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Asleep.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

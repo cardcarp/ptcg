@@ -1,0 +1,47 @@
+name: Rayquaza
+
+origin: legends-awakened-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 384
+
+rule:
+  - type: ability
+    name: Speed Gain
+    text: Once during your turn (before your attack), you may flip a coin until you get tails. For each heads, search your discard pile for a basic Fire Energy card or a basic Lightning Energy card and attach it to Rayquaza. This power can't be used if Rayquaza is affected by a Special Condition or if you have another Rayquaza in play.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Lightning
+      - Lightning
+    name: Sky Judgement
+    text: Discard all Energy attached to Rayquaza.
+    damage: 150
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

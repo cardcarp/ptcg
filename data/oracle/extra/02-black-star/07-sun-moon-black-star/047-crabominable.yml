@@ -1,0 +1,48 @@
+name: Crabominable
+
+origin: sun-moon-black-star-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Crabrawler
+
+dex: 740
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Gutsy Hammer
+    text: This Pokémon does 10 damage to itself for each damage counter on it.
+    damage: 80
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Double Stomp
+    text: Flip 2 coins. This attack does 40 more damage for each heads.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

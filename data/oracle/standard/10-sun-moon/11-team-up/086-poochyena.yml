@@ -1,0 +1,45 @@
+name: Poochyena
+
+origin: team-up-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 261
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Howl in the Dark
+    text: Search your deck for up to 2 Darkness Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

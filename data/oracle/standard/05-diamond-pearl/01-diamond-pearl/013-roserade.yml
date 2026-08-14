@@ -1,0 +1,48 @@
+name: Roserade
+
+origin: diamond-pearl-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Roselia
+
+dex: 407
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Poison Sting
+    text: The Defending Pokémon is now Poisoned.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Spike Whip
+    text: If Budew is anywhere under Roserade, choose 1 of your opponent's Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

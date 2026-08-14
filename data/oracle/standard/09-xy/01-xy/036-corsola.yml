@@ -1,0 +1,43 @@
+name: Corsola
+
+origin: xy-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 222
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Refresh
+    text: Heal 30 damage and remove all Special Conditions from this Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Spiny Rush
+    text: Flip a coin until you get tails. This attack does 20 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

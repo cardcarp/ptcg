@@ -1,0 +1,46 @@
+name: Zacian
+
+origin: vivid-voltage-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 888
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Metal Armament
+    text: Attach a basic Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Psychic
+      - Metal
+    name: Amazing Sword
+    text: If your opponent has any Pokémon VMAX in play, this attack does 150 more damage.
+    damage: 150
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

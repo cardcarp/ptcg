@@ -1,0 +1,49 @@
+name: Deoxys
+
+origin: paradox-rift-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 386
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psypunch
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Genome Spiral
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you like.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,44 @@
+name: Gloom
+
+origin: burning-shadows-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Stinky Scent
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

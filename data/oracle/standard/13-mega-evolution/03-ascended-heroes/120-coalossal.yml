@@ -1,0 +1,48 @@
+name: Coalossal
+
+origin: ascended-heroes-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Carkol
+
+dex: 839
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Tar Cannon
+    text: This attack does 140 damage to 1 of your opponent's Pokémon. If you don't have 10 or more Basic Fighting Energy cards in your discard pile, this attack does nothing. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bulky Bump
+    text: Discard 3 Energy from this Pokémon.
+    damage: 220
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - I
+
+errata: []

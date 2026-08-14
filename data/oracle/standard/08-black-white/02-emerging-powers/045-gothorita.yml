@@ -1,0 +1,47 @@
+name: Gothorita
+
+origin: emerging-powers-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Gothita
+
+dex: 575
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psybeam
+    text: The Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,55 @@
+name: Zeraora-GX
+
+origin: lost-thunder-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Lightning
+
+hp: 190
+
+dex: 807
+
+rule:
+  - type: ability
+    name: Thunderclap Zone
+    text: Each of your Pokémon that has any Lightning Energy attached to it has no Retreat Cost.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Plasma Fists
+    text: This Pokémon can't attack during your next turn.
+    damage: 160
+  - type: attack
+    cost:
+      - Lightning
+    name: Full Voltage-GX
+    text: Attach 5 basic Energy cards from your discard pile to your Pokémon in any way you like. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

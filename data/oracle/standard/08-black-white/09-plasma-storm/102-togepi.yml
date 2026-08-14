@@ -1,0 +1,35 @@
+name: Togepi
+
+origin: plasma-storm-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 175
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Yawn
+    text: The Defending Pokémon is now Asleep.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Phanpy
+
+origin: aquapolis-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 231
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flail
+    text: This attack does 10 damage times the number of damage counters on Phanpy.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rollout
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

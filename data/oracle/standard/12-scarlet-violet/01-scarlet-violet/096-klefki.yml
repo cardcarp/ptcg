@@ -1,0 +1,40 @@
+name: Klefki
+
+origin: scarlet-violet-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 707
+
+rule:
+  - type: ability
+    name: Mischievous Lock
+    text: As long as this Pokémon is in the Active Spot, Basic Pokémon in play (both yours and your opponent's) have no Abilities, except for Mischievous Lock.
+  - type: attack
+    cost:
+      - Colorless
+    name: Joust
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,52 @@
+name: Krookodile
+
+origin: plasma-freeze-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Team Plasma
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Piston Headbutt
+    text: Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

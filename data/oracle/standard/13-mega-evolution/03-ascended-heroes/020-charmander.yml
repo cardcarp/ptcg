@@ -1,0 +1,37 @@
+name: Charmander
+
+origin: ascended-heroes-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 4
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Claws
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

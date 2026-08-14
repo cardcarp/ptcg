@@ -1,0 +1,43 @@
+name: Chansey
+
+origin: phantom-forces-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 113
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Lucky Punch
+    text: If you don't have exactly 7 cards in your hand, this attack does nothing.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Giratina
+
+origin: black-white-black-star-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Team Plasma
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 487
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Hex
+    text: If the Defending Pokémon is affected by a Special Condition, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Shadow Claw
+    text: Discard a random card from your opponent's hand.
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

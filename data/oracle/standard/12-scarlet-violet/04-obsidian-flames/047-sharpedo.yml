@@ -1,0 +1,47 @@
+name: Sharpedo
+
+origin: obsidian-flames-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Aqua Impact
+    text: This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Jet Headbutt
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

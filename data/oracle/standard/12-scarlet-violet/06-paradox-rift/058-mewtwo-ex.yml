@@ -1,0 +1,50 @@
+name: Mewtwo ex
+
+origin: paradox-rift-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Lightning
+
+hp: 230
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Transfer Charge
+    text: Attach up to 2 Basic Psychic Energy cards from your discard pile to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Photon Kinesis
+    text: This attack does 30 more damage for each Psychic Energy attached to all of your Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

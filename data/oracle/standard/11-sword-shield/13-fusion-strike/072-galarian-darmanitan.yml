@@ -1,0 +1,49 @@
+name: Galarian Darmanitan
+
+origin: fusion-strike-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Galarian Darumaka
+
+dex: 555
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Powder Snow
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Daruma Headbutt
+    text: If this Pokémon has any damage counters on it, this attack can be used for Water.
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

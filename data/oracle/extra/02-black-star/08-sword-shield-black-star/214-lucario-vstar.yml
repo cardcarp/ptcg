@@ -1,0 +1,51 @@
+name: Lucario VSTAR
+
+origin: sword-shield-black-star-214
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Fighting
+
+hp: 270
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Fighting Knuckle
+    text: If your opponent's Active Pokémon is a Pokémon V, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Aura Star
+    text: This attack does 70 damage for each Energy attached to all of your opponent's Pokémon. (You can't use more than 1 VSTAR Power in a game.)
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

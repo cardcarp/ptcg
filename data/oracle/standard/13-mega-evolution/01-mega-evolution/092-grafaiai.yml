@@ -1,0 +1,41 @@
+name: Grafaiai
+
+origin: mega-evolution-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Shroodle
+
+dex: 945
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Miraculous Paint
+    text: Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

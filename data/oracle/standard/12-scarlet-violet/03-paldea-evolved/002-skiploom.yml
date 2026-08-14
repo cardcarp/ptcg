@@ -1,0 +1,43 @@
+name: Skiploom
+
+origin: paldea-evolved-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Hoppip
+
+dex: 188
+
+rule:
+  - type: ability
+    name: Drifting Dodge
+    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+  - type: attack
+    cost:
+      - Grass
+    name: Flowery Zephyr
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

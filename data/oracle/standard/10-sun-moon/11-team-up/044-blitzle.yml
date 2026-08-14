@@ -1,0 +1,46 @@
+name: Blitzle
+
+origin: team-up-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 522
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Delivery Dash
+    text: Search your deck for up to 2 Electropower cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Zap Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

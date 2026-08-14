@@ -1,0 +1,47 @@
+name: Mismagius
+
+origin: legendary-treasures-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Absorb Life
+    text: Heal 10 damage from this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Spooky Shot
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Aipom
+
+origin: cosmic-eclipse-169
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 190
+
+rule:
+  - type: ability
+    name: Scampering Tail
+    text: Once during your turn (before your attack), you may put the top card of your opponent's deck on the bottom of their deck without looking at it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Smack
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

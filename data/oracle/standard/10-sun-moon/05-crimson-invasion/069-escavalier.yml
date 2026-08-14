@@ -1,0 +1,53 @@
+name: Escavalier
+
+origin: crimson-invasion-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Karrablast
+
+dex: 589
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Fury Attack
+    text: Flip 3 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Iron Tackle
+    text: This Pokémon does 30 damage to itself.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

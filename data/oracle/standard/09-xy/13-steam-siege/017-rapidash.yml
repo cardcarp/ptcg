@@ -1,0 +1,45 @@
+name: Rapidash
+
+origin: steam-siege-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rear Kick
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Fire Blast
+    text: Discard a Fire Energy attached to this Pokémon.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

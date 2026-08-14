@@ -1,0 +1,43 @@
+name: Noivern
+
+origin: furious-fists-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 100
+
+preevolution:
+  - Noibat
+
+dex: 715
+
+rule:
+  - type: ability
+    name: Echolocation
+    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+  - type: attack
+    cost:
+      - Psychic
+      - Darkness
+      - Colorless
+    name: Boomburst
+    text: This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

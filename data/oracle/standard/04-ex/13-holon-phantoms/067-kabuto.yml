@@ -1,0 +1,45 @@
+name: Kabuto δ
+
+origin: holon-phantoms-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 140
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Eerie Light
+    text: The Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Shell Attack
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

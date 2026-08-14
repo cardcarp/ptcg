@@ -1,0 +1,35 @@
+name: Slowpoke
+
+origin: lost-thunder-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 79
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Yawn
+    text: Your opponent's Active Pokémon is now Asleep.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

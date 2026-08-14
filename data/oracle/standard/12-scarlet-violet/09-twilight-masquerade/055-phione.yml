@@ -1,0 +1,43 @@
+name: Phione
+
+origin: twilight-masquerade-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 489
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Beckon
+    text: Put a Supporter card from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Water
+    name: Energy Press
+    text: This attack does 20 damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

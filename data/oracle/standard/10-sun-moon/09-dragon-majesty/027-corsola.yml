@@ -1,0 +1,35 @@
+name: Corsola
+
+origin: dragon-majesty-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 222
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Bubble Shoot
+    text: This attack does 20 damage times the amount of Water Energy attached to this Pokémon to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Manectric G
+
+origin: supreme-victors-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 310
+
+rule:
+  - type: attack
+    name: Energy Absorption
+    text: Search your discard pile for up to 2 Energy cards and attach them to Manectric G.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder Fang
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

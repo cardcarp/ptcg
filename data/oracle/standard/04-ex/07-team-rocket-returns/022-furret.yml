@@ -1,0 +1,45 @@
+name: Furret
+
+origin: team-rocket-returns-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Sentret
+
+dex: 162
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Quick Change
+    text: Choose up to 3 cards in your hand and put them on top of your deck. Then, search your deck for that many cards and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Tail Smash
+    text: Before doing damage, you may flip a coin. If heads, this attack does 80 damage instead. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

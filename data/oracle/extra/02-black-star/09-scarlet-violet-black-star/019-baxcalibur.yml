@@ -1,0 +1,44 @@
+name: Baxcalibur
+
+origin: scarlet-violet-black-star-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Arctibax
+
+dex: 998
+
+rule:
+  - type: ability
+    name: Super Cold
+    text: As often as you like during your turn, you may attach a Basic Water Energy card from your hand to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Buster Tail
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

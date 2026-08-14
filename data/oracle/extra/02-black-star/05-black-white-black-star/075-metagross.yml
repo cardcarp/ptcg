@@ -1,0 +1,46 @@
+name: Metagross
+
+origin: black-white-black-star-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Team Plasma
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Metang
+
+dex: 376
+
+rule:
+  - type: ability
+    name: Plasma Search
+    text: Once during your turn (before your attack), you may search your deck for a Team Plasma card, reveal it, and put it in your hand. Shuffle your deck afterward. You may not use an Ability with the same name during your turn.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mind Bend
+    text: The Defending Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

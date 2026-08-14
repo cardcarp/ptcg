@@ -1,0 +1,58 @@
+name: Flareon-GX
+
+origin: sun-moon-black-star-171
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Fire
+
+hp: 210
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Heat Stage
+    text: You may attach up to 3 Fire Energy cards from your hand to your Pokémon in any way you like.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Bright Flame
+    text: Discard 2 Fire Energy from this Pokémon.
+    damage: 190
+  - type: attack
+    cost:
+      - Fire
+    name: Power Burner-GX
+    text: This attack does 20 damage for each Fire Energy card in your discard pile. (You can't use more than 1 GX attack in a game.)
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

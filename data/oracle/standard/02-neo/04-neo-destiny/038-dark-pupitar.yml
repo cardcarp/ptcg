@@ -1,0 +1,52 @@
+name: Dark Pupitar
+
+origin: neo-destiny-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 60
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rock Tackle
+    text: Dark Pupitar does 10 damage to itself. Dark Pupitar can't use this attack during your next turn.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Explosive Evolution
+    text: Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, search your deck for an Evolution card named Dark Tyranitar and put it on Dark Pupitar. (This counts as evolving Dark Pupitar.) Shuffle your deck afterward.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Slakoth
+
+origin: evolving-skies-129
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 287
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smack 'n' Slack
+    text: This Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

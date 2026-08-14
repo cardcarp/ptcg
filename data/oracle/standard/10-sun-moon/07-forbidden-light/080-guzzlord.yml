@@ -1,0 +1,45 @@
+name: Guzzlord
+
+origin: forbidden-light-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Darkness
+
+hp: 160
+
+dex: 799
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Lord's Valley
+    text: If you have exactly 2, 4, or 6 Prize cards remaining, discard the top 10 cards of your deck.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

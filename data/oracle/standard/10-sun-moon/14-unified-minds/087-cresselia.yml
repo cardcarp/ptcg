@@ -1,0 +1,47 @@
+name: Cresselia
+
+origin: unified-minds-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 488
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Aurora Gain
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Luminous Blade
+    text: Discard a Psychic Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

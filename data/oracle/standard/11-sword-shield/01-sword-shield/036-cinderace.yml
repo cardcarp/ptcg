@@ -1,0 +1,48 @@
+name: Cinderace
+
+origin: sword-shield-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 170
+
+preevolution:
+  - Raboot
+
+dex: 815
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flame Cloak
+    text: Attach a Fire Energy card from your discard pile to this Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Bright Flame
+    text: Flip a coin. If tails, discard 2 Energy from this Pokémon.
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

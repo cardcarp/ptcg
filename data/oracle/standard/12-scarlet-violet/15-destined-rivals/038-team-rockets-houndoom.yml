@@ -1,0 +1,46 @@
+name: Team Rocket's Houndoom
+
+origin: destined-rivals-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Team Rocket's Houndour
+
+dex: 229
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Cruel Coal
+    text: Your opponent's Active Pokémon is now Burned and Confused.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Scorching Fire
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

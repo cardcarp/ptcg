@@ -1,0 +1,41 @@
+name: Remoraid
+
+origin: unleashed-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 223
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Arrow
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

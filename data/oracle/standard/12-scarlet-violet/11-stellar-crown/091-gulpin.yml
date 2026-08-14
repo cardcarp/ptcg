@@ -1,0 +1,44 @@
+name: Gulpin
+
+origin: stellar-crown-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 316
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Drool
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Super Poison Breath
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

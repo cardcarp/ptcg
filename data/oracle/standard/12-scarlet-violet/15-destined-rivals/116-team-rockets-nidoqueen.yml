@@ -1,0 +1,47 @@
+name: Team Rocket's Nidoqueen
+
+origin: destined-rivals-116
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Team Rocket's Nidorina
+
+dex: 31
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Love Impact
+    text: If a Pokémon that has "Nidoking" in its name is on your Bench, this attack does 120 more damage.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Mega Kick
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

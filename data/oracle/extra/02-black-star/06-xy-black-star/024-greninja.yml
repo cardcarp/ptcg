@@ -1,0 +1,48 @@
+name: Greninja
+
+origin: xy-black-star-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Frogadier
+
+dex: 658
+
+rule:
+  - type: ability
+    name: Mist Concealment
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon during your opponent's next turn.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Shadow Bullet
+    text: This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

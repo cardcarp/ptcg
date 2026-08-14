@@ -1,0 +1,45 @@
+name: Quilava
+
+origin: astral-radiance-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Cyndaquil
+
+dex: 156
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flare
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

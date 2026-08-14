@@ -1,0 +1,43 @@
+name: Raticate
+
+origin: arceus-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Recruit
+    text: Look at your opponent's hand, choose a Supporter card you find there, and discard it. Then, use the effect of that card as the effect of this attack.
+  - type: attack
+    cost:
+      - Colorless
+    name: Extend Fang
+    text: If Raticate has a Pokémon Tool card attached to it, this attack does 20 damage plus 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+regulation:
+
+errata: []

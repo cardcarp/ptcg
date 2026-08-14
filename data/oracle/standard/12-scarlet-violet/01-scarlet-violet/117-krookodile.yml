@@ -1,0 +1,47 @@
+name: Krookodile
+
+origin: scarlet-violet-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 170
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Chomp Chomp Bite
+    text: Flip a coin until you get tails. For each heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Earthquake
+    text: This attack also does 30 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

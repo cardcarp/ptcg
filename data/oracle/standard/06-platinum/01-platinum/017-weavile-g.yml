@@ -1,0 +1,46 @@
+name: Weavile G
+
+origin: platinum-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 461
+
+rule:
+  - type: attack
+    name: Call for Family
+    text: Search your deck for up to 2 basic Pokémon SP and put them onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Team Attack
+    text: Does 10 damage plus 10 more damage for each Pokémon SP you have in play.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

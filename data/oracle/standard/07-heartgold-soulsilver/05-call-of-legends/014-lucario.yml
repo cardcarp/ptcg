@@ -1,0 +1,49 @@
+name: Lucario
+
+origin: call-of-legends-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dimension Sphere
+    text: Does 30 damage plus 20 more damage for each of your Pokémon in the Lost Zone.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Sky Uppercut
+    text: This attack's damage isn't affected by Resistance.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Omanyte
+
+origin: skyridge-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 138
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Water of Evolution
+    text: Put an Omastar from your hand onto Omanyte. This counts as evolving Omanyte.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Drag Off
+    text: Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,54 @@
+name: Registeel ex
+
+origin: ascended-heroes-145
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Metal
+
+hp: 230
+
+dex: 379
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Regi Charge
+    text: Attach up to 2 Basic Metal Energy cards from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Protecting Steel
+    text: During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

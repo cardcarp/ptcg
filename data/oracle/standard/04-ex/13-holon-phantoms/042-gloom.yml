@@ -1,0 +1,46 @@
+name: Gloom δ
+
+origin: holon-phantoms-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Drool
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Acid
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

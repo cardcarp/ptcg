@@ -1,0 +1,49 @@
+name: Gloom
+
+origin: neo-genesis-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Strange Powder
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Sticky Nectar
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage and, until the end of your next turn, as long as Gloom is your Active Pokémon, the Defending Pokémon can't retreat, and if the effect of an attack, Pokémon Power, or Trainer card would change that player's Active Pokémon, that part of the effect does nothing. If tails, this attack does 20 damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

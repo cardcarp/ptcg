@@ -1,0 +1,55 @@
+name: Excadrill-EX
+
+origin: legendary-treasures-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Fighting
+
+hp: 180
+
+dex: 530
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dig Out
+    text: Discard the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Break Ground
+    text: Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

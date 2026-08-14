@@ -1,0 +1,46 @@
+name: Clawitzer
+
+origin: fusion-strike-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Clauncher
+
+dex: 693
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Snipe Shot
+    text: This attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Crabhammer
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

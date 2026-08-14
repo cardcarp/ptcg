@@ -1,0 +1,38 @@
+name: Kecleon
+
+origin: plasma-freeze-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 352
+
+rule:
+  - type: ability
+    name: Color Change
+    text: As long as this Pokémon is your Active Pokémon, this Pokémon is the same type as the your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Imittack
+    text: Choose 1 of the Defending Pokémon's attacks. If this Pokémon has the necessary Energy to use that attack, use it as this attack.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

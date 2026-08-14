@@ -1,0 +1,52 @@
+name: Blastoise
+
+origin: platinum-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Wartortle
+
+dex: 9
+
+rule:
+  - type: ability
+    name: Dig Well
+    text: Once during your turn (before your attack), you may look at the top 3 cards of your deck, choose as many Water Energy cards as you like, and attach them to your Pokémon in any way you like. Discard the other cards. This power can't be used if Blastoise is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Press
+    text: Does 20 damage plus 10 more damage for each Energy attached to all Pokémon (both yours and your opponent's).
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Double Launcher
+    text: Discard 2 Energy attached to Blastoise. Choose 2 of your opponent's Benched Pokémon. This attack does 60 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Blastoise can't use Double Launcher during your next turn.
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

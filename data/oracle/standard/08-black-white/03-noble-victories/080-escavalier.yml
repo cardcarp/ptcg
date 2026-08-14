@@ -1,0 +1,54 @@
+name: Escavalier
+
+origin: noble-victories-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Karrablast
+
+dex: 589
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Guard Press
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 40
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Twineedle
+    text: Flip 2 coins. This attack does 70 damage times the number of heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

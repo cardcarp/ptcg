@@ -1,0 +1,43 @@
+name: Tsareena
+
+origin: unified-minds-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Steenee
+
+dex: 763
+
+rule:
+  - type: ability
+    name: Queenly Reward
+    text: Once during your turn (before your attack), you may attach a Grass Energy card from your discard pile to your Active Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: High Jump Kick
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

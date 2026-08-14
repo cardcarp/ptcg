@@ -1,0 +1,42 @@
+name: Whimsicott
+
+origin: temporal-forces-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: ability
+    name: Wafting Heal
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from your Active Grass Pokémon. If you healed any damage in this way, discard all Energy from that Pokémon.
+  - type: attack
+    cost:
+      - Grass
+    name: Seed Bomb
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

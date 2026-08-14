@@ -1,0 +1,45 @@
+name: Erika's Exeggcute
+
+origin: gym-heroes-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 102
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Eggsplosion
+    text: Flip a number of coins equal to the number of Energy attached to Erika's Exeggcute. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

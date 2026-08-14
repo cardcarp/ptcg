@@ -1,0 +1,43 @@
+name: Meditite
+
+origin: stellar-crown-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 307
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Calm Mind
+    text: Heal 20 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Chop
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

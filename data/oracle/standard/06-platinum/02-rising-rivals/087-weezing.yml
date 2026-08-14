@@ -1,0 +1,47 @@
+name: Weezing
+
+origin: rising-rivals-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: ability
+    name: Camouflage Gas
+    text: If Weezing is Confused and is Knocked Out, your opponent can't take a Prize card.
+  - type: attack
+    cost:
+      - Colorless
+    name: Damage Breakdown
+    text: Count the number of damage counters on Weezing. Put that many damage counters on the Defending Pokémon and Weezing is now Confused.
+  - type: attack
+    cost:
+      - Psychic
+    name: Smog
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

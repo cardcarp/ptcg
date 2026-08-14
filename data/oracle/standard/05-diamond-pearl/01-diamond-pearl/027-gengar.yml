@@ -1,0 +1,50 @@
+name: Gengar
+
+origin: diamond-pearl-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Life Drain
+    text: Flip a coin. If heads, put damage counter on the Defending Pokémon until it is 10 HP away from being Knocked Out.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Shadow Dance
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like. Then, switch Gengar with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Minun
+
+origin: paradox-rift-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 312
+
+rule:
+  - type: ability
+    name: Buddy Pulse
+    text: If you have Plusle in play, whenever your opponent attaches an Energy card from their hand to 1 of their Pokémon, put 2 damage counters on that Pokémon. The effect of Buddy Pulse doesn't stack.
+  - type: attack
+    cost:
+      - Lightning
+    name: Speed Ball
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

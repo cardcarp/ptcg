@@ -1,0 +1,44 @@
+name: Lampent
+
+origin: pitch-black-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Spreading Light
+    text: Search your deck for up to 3 Lampent and put them onto your Bench. Then, shuffle your deck.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

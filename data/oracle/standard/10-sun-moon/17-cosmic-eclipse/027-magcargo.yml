@@ -1,0 +1,45 @@
+name: Magcargo
+
+origin: cosmic-eclipse-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Stomp Off
+    text: Discard the top 2 cards of your opponent's deck.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

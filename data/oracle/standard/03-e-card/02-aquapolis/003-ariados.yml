@@ -1,0 +1,42 @@
+name: Ariados
+
+origin: aquapolis-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: ability
+    name: Gluey Slime
+    text: As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Spider Force
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, this attack does 20 damage and the Defending Pokémon is now Paralyzed.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

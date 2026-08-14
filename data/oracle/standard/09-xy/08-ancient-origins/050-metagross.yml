@@ -1,0 +1,55 @@
+name: Metagross
+
+origin: ancient-origins-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Metang
+
+dex: 376
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Machine Gun Stomp
+    text: This attack does 10 more damage for each card in your hand.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Guard Press
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

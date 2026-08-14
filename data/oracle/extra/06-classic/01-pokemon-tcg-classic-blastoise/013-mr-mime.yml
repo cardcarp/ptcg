@@ -1,0 +1,41 @@
+name: Mr. Mime
+
+origin: pokemon-tcg-classic-blastoise-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 122
+
+rule:
+  - type: ability
+    name: Dampening Shield
+    text: As long as this Pokémon is on your Bench, Pokémon in play (both yours and your opponent's) have no Weakness or Resistance.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Juggling
+    text: Flip 4 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

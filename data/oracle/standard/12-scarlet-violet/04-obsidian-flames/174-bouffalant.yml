@@ -1,0 +1,42 @@
+name: Bouffalant
+
+origin: obsidian-flames-174
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 626
+
+rule:
+  - type: ability
+    name: Bouffer
+    text: This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Damage Rush
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,44 @@
+name: Makuhita
+
+origin: deoxys-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 296
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Thrust
+    text: Flip a coin. If tails, this attack does nothing. If heads, discard 1 Energy card attached to the Defending Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

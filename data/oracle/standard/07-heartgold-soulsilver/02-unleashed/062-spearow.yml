@@ -1,0 +1,45 @@
+name: Spearow
+
+origin: unleashed-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 21
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Roost
+    text: Remove 4 damage counters from Spearow. Spearow can't retreat during your next turn.
+  - type: attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

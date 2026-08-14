@@ -1,0 +1,46 @@
+name: Heliolisk
+
+origin: rebel-clash-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Eerie Impulse
+    text: Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder
+    text: This Pokémon also does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

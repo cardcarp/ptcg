@@ -1,0 +1,41 @@
+name: Ninjask
+
+origin: vivid-voltage-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Nincada
+
+dex: 291
+
+rule:
+  - type: ability
+    name: Cast-off Shell
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may search your deck for Shedinja and put it onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+    name: Absorb
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+  - D
+
+errata: []

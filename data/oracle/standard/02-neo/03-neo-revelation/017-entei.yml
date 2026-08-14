@@ -1,0 +1,39 @@
+name: Entei
+
+origin: neo-revelation-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 244
+
+rule:
+  - type: ability
+    name: Legendary Body
+    text: As long as Entei is your Active Pokémon, Entei and Energy cards attached to it aren't affected by effects from Trainer cards other than Stadium cards. As long as this Power is active, discard any Trainer cards attached to Entei. (This power works even if Entei is Asleep, Confused, or Paralyzed.)
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Mega Flame
+    text: Flip 2 coins. For each tails, discard 1 Fire Energy card from Entei, if it has any.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

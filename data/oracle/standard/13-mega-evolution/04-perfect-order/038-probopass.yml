@@ -1,0 +1,49 @@
+name: Probopass
+
+origin: perfect-order-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Nosepass
+
+dex: 476
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rolling Rocks
+    damage: 60
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Obliterating Nose
+    text: Discard 3 Energy from this Pokémon.
+    damage: 260
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

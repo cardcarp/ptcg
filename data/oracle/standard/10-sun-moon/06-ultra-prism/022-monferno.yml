@@ -1,0 +1,39 @@
+name: Monferno
+
+origin: ultra-prism-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Chimchar
+
+dex: 391
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Super Singe
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

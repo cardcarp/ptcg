@@ -1,0 +1,43 @@
+name: Claydol
+
+origin: hidden-legends-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: ability
+    name: Primal Pull
+    text: As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays Colorless more Energy to use its attacks.
+  - type: attack
+    cost:
+      - Psychic
+    name: Muddy Eye
+    text: Does 10 damage times the number of basic Energy cards attached to Claydol and the Defending Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

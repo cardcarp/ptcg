@@ -1,0 +1,39 @@
+name: Solrock
+
+origin: great-encounters-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 338
+
+rule:
+  - type: ability
+    name: Sunlight
+    text: If you have Lunatone in play, damage done to your opponent's Pokémon by your Psychic or Fighting Pokémon isn't affected by resistance.
+  - type: attack
+    cost:
+      - Fighting
+    name: Sol Charge
+    text: Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

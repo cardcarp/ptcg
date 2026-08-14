@@ -1,0 +1,48 @@
+name: Tentacruel
+
+origin: evolving-skies-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Tentacool
+
+dex: 73
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 50
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Poisonous Prison
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

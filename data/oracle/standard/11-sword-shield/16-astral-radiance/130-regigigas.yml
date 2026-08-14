@@ -1,0 +1,45 @@
+name: Regigigas
+
+origin: astral-radiance-130
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 150
+
+dex: 486
+
+rule:
+  - type: ability
+    name: Ancient Wisdom
+    text: Once during your turn, if you have Regirock, Regice, Registeel, Regieleki, and Regidrago in play, you may attach up to 3 Energy cards from your discard pile to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gigaton Break
+    text: If your opponent's Active Pokémon is a Pokémon VMAX, this attack does 150 more damage.
+    damage: 150
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

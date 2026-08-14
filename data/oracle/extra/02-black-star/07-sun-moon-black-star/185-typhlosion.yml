@@ -1,0 +1,46 @@
+name: Typhlosion
+
+origin: sun-moon-black-star-185
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Quilava
+
+dex: 157
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Exploder
+    text: Search your deck for up to 3 Fire Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Bursting Inferno
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

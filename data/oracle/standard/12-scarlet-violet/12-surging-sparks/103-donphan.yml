@@ -1,0 +1,48 @@
+name: Donphan
+
+origin: surging-sparks-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Phanpy
+
+dex: 232
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Knock Flat
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Guarded Rolling
+    text: Discard 2 Energy from this Pokémon. During your opponent's next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance).
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - H
+
+errata: []

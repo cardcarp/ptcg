@@ -1,0 +1,44 @@
+name: Tauros
+
+origin: 151-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gather the Crew
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rage
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,41 @@
+name: Celebi
+
+origin: unified-minds-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 251
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Time Spiral
+    text: Devolve 1 of your opponent's evolved Pokémon by removing the highest Stage Evolution card from it. Your opponent shuffles that card into their deck.
+  - type: attack
+    cost:
+      - Grass
+    name: Mind Bend
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

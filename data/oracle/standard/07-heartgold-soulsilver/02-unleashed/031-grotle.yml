@@ -1,0 +1,52 @@
+name: Grotle
+
+origin: unleashed-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Turtwig
+
+dex: 388
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Sleep Powder
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

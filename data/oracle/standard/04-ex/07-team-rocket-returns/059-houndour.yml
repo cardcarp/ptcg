@@ -1,0 +1,42 @@
+name: Houndour
+
+origin: team-rocket-returns-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rear Kick
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Honchkrow G
+
+origin: platinum-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 430
+
+rule:
+  - type: attack
+    name: Honcho's Command
+    text: Search your deck for up to 2 in any combination of Stadium cards or Trainer cards that has Team Galactic's Invention in its name, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Target Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. If that Pokémon already has any damage counters on it, this attack does 20 damage plus 20 more damage. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

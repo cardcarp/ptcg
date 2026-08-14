@@ -1,0 +1,45 @@
+name: Pidgey
+
+origin: triumphant-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 16
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Messenger
+    text: Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle Pidgey and all cards attached to it back into your deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Glide
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

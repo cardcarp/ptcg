@@ -1,0 +1,37 @@
+name: Bellsprout
+
+origin: celestial-storm-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 69
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Blot
+    text: Heal 10 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Misty's Goldeen
+
+origin: gym-heroes-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 118
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fury Attack
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

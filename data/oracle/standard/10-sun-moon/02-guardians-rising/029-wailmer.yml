@@ -1,0 +1,44 @@
+name: Wailmer
+
+origin: guardians-rising-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 320
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Splash
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Surf
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Morgrem
+
+origin: journey-together-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 860
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Light Punch
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Smash Kick
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,42 @@
+name: Alolan Graveler
+
+origin: journey-together-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+dex: 75
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rolling Tackle
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electric Punch
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

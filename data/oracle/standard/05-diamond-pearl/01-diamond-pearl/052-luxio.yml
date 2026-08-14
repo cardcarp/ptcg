@@ -1,0 +1,50 @@
+name: Luxio
+
+origin: diamond-pearl-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fasten Claws
+    text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Thunder Fang
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

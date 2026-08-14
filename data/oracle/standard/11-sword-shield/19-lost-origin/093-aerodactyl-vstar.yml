@@ -1,0 +1,50 @@
+name: Aerodactyl VSTAR
+
+origin: lost-origin-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Fighting
+
+hp: 260
+
+preevolution:
+  - Aerodactyl V
+
+dex: 142
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Lost Dive
+    text: Put the top 3 cards of your deck in the Lost Zone.
+    damage: 240
+  - type: attack
+    cost:
+      - Colorless
+    name: Ancient Star
+    text: Until this Pokémon leaves play, it gains an Ability that has the effect "Your opponent's Pokémon V in play, except any Aerodactyl VSTAR, have no Abilities." (You can't use more than 1 VSTAR Power in a game.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

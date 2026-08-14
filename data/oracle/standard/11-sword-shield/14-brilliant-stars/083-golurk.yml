@@ -1,0 +1,49 @@
+name: Golurk
+
+origin: brilliant-stars-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Golett
+
+dex: 623
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Big Hand
+    text: This attack does 10 more damage for each card in your hand.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mega Punch
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

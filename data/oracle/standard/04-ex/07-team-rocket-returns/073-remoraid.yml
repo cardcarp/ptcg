@@ -1,0 +1,40 @@
+name: Remoraid
+
+origin: team-rocket-returns-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 223
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Draw
+    text: Flip a coin. If heads, search your deck for a basic Energy card and attach it to Remoraid. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+    name: Razor Fin
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

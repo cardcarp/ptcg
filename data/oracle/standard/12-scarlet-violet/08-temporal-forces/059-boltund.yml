@@ -1,0 +1,40 @@
+name: Boltund
+
+origin: temporal-forces-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Yamper
+
+dex: 836
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Electrifying Dash
+    text: Search your deck for up to 2 Basic Lightning Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

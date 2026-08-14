@@ -1,0 +1,43 @@
+name: Iron Boulder
+
+origin: stellar-crown-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 140
+
+dex: 1022
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Adjusted Horn
+    text: If you don't have the same number of cards in your hand as your opponent, this attack does nothing.
+    damage: 170
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

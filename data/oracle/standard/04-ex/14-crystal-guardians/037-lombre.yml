@@ -1,0 +1,47 @@
+name: Lombre
+
+origin: crystal-guardians-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Plunder
+    text: Before doing damage, discard all Trainer cards attached to the Defending Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Wave Splash
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

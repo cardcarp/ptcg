@@ -1,0 +1,42 @@
+name: Salandit
+
+origin: obsidian-flames-139
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 757
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Suffocating Gas
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

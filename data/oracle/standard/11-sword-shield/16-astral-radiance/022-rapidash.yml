@@ -1,0 +1,46 @@
+name: Rapidash
+
+origin: astral-radiance-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ring of Fire
+    text: Your opponent's Active Pokémon is now Burned. During your opponent's next turn, that Pokémon can't retreat.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,50 @@
+name: Kleavor
+
+origin: astral-radiance-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Scyther
+
+dex: 900
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rout
+    text: This attack does 30 more damage for each of your opponent's Benched Pokémon.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rocky Tackle
+    text: This Pokémon also does 50 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

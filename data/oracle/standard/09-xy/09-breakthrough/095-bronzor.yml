@@ -1,0 +1,43 @@
+name: Bronzor
+
+origin: breakthrough-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 436
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Payback
+    text: If your opponent has only 1 Prize card left, this attack does 60 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

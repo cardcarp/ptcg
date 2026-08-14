@@ -1,0 +1,44 @@
+name: Audino
+
+origin: emerging-powers-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 531
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Powerful Slap
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heal Pulse
+    text: Heal 50 damage from 1 of your Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

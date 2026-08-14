@@ -1,0 +1,48 @@
+name: Zamazenta
+
+origin: crown-zenith-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 889
+
+rule:
+  - type: ability
+    name: Metal Shield
+    text: If this Pokémon has any Energy attached, it takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Retaliate
+    text: If any of your Pokémon were Knocked Out during your opponent's last turn, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

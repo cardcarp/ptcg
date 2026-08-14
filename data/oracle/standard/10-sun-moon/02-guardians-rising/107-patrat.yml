@@ -1,0 +1,41 @@
+name: Patrat
+
+origin: guardians-rising-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 504
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Glance
+    text: Look at the top card of your opponent's deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

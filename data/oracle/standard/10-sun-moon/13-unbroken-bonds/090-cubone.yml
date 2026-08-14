@@ -1,0 +1,40 @@
+name: Cubone
+
+origin: unbroken-bonds-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 104
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Focus Energy
+    text: During your next turn, this Pokémon's Beat attack's base damage is 80.
+  - type: attack
+    cost:
+      - Colorless
+    name: Beat
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

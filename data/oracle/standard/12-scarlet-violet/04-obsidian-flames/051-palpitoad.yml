@@ -1,0 +1,40 @@
+name: Palpitoad
+
+origin: obsidian-flames-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Tympole
+
+dex: 536
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Rain Splash
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,51 @@
+name: Togedemaru
+
+origin: fusion-strike-187
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 777
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Let's All Rollout
+    text: This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Rolling Attack
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

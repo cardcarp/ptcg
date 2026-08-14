@@ -1,0 +1,50 @@
+name: Drakloak
+
+origin: rebel-clash-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Dreepy
+
+dex: 886
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Summon
+    text: Search your deck for a Dreepy and put it onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Bite
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

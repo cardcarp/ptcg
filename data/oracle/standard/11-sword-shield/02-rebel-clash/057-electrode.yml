@@ -1,0 +1,43 @@
+name: Electrode
+
+origin: rebel-clash-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Orb Collector
+    text: Search your deck for up to 3 Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Rolling Attack
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+  - D
+
+errata: []

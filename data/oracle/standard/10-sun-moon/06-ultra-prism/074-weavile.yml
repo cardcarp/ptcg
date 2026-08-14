@@ -1,0 +1,51 @@
+name: Weavile
+
+origin: ultra-prism-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+    name: Evil Admonition
+    text: This attack does 50 damage for each of your opponent's Pokémon that has an Ability.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,37 @@
+name: Darumaka
+
+origin: boundaries-crossed-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 554
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Reckless Charge
+    text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

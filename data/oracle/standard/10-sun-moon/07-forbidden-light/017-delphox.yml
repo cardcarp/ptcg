@@ -1,0 +1,45 @@
+name: Delphox
+
+origin: forbidden-light-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Braixen
+
+dex: 655
+
+rule:
+  - type: ability
+    name: Mystical Torch
+    text: Once during your turn (before your attack), you may leave your opponent's Active Pokémon Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Spin
+    text: Discard 2 Energy from this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

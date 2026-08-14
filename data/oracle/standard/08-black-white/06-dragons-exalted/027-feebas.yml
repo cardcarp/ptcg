@@ -1,0 +1,35 @@
+name: Feebas
+
+origin: dragons-exalted-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 349
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Add-a-Dash
+    text: Flip 2 coins. For each heads, draw a card.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

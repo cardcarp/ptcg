@@ -1,0 +1,40 @@
+name: Heliolisk
+
+origin: twilight-masquerade-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Wild Charge
+    text: This Pokémon also does 20 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

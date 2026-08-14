@@ -1,0 +1,42 @@
+name: Ferroseed
+
+origin: paradox-rift-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 597
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Spike Sting
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

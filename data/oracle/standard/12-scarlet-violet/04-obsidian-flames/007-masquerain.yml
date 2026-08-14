@@ -1,0 +1,45 @@
+name: Masquerain
+
+origin: obsidian-flames-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Surskit
+
+dex: 284
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Panic-Prompting Pattern
+    text: Flip a coin until you get tails. For each heads, discard a random card from your opponent's hand.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Bug Buzz
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

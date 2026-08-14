@@ -1,0 +1,38 @@
+name: Azurill
+
+origin: sandstorm-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 298
+
+rule:
+  - type: ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Marill from your hand onto Azurill (this counts as evolving Azurill), and remove all damage counters from Azurill.
+  - type: attack
+    cost:
+      - Colorless
+    name: Jump Catch
+    text: Search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

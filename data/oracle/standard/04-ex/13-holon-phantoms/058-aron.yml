@@ -1,0 +1,46 @@
+name: Aron
+
+origin: holon-phantoms-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 40
+
+dex: 304
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mud Slap
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

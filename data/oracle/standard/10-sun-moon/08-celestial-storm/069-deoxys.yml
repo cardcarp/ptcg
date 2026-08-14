@@ -1,0 +1,43 @@
+name: Deoxys
+
+origin: celestial-storm-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 386
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Teleportation Burst
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Spear Dive
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. This damage isn't affected by Weakness or Resistance.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

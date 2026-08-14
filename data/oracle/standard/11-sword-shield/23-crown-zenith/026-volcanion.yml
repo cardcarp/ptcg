@@ -1,0 +1,46 @@
+name: Volcanion
+
+origin: crown-zenith-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 721
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Hydro Burn
+    text: If this Pokémon has any Water Energy attached, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

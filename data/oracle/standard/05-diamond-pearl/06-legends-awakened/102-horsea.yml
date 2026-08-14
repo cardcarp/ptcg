@@ -1,0 +1,41 @@
+name: Horsea
+
+origin: legends-awakened-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 116
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: attack
+    cost:
+      - Water
+    name: Reverse Thrust
+    text: Switch Horsea with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

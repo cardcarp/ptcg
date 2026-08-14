@@ -1,0 +1,56 @@
+name: Shiftry
+
+origin: rising-rivals-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: ability
+    name: Unlucky Wind
+    text: As long as Shiftry is your Active Pokémon, whenever your opponent flips a coin during his or her turn, treat it as tails.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Conform
+    text: If you have the same number of cards in your hand as your opponent, the Defending Pokémon is now Confused.
+    damage: 40
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Seal Off
+    text: The Defending Pokémon can't use any Poké-Powers or Poké-Bodies during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

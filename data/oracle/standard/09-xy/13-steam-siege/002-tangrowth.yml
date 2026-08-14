@@ -1,0 +1,51 @@
+name: Tangrowth
+
+origin: steam-siege-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Tangela
+
+dex: 465
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Leaf Storm
+    text: Heal 40 damage from each of your Grass Pokémon.
+    damage: 80
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Colorless
+    name: Flog
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 110
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

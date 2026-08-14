@@ -1,0 +1,41 @@
+name: Drilbur
+
+origin: surging-sparks-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 529
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Burrow
+    text: Discard the top card of your opponent's deck.
+  - type: attack
+    cost:
+      - Fighting
+    name: Mud-Slap
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

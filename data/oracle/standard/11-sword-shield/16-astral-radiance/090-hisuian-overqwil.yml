@@ -1,0 +1,44 @@
+name: Hisuian Overqwil
+
+origin: astral-radiance-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Hisuian Qwilfish
+
+dex: 904
+
+rule:
+  - type: attack
+    name: Tormenting Poison
+    text: Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 5 damage counters on that Pokémon instead of 1.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Pinning
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

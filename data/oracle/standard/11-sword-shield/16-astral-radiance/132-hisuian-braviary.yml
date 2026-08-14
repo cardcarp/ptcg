@@ -1,0 +1,52 @@
+name: Hisuian Braviary
+
+origin: astral-radiance-132
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Rufflet
+
+dex: 628
+
+rule:
+  - type: attack
+    name: Psywave
+    text: This attack does 30 damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slashing Strike
+    text: During your next turn, this Pokémon can't use Slashing Strike.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,48 @@
+name: Togekiss
+
+origin: roaring-skies-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fairy
+
+hp: 130
+
+preevolution:
+  - Togetic
+
+dex: 468
+
+rule:
+  - type: ability
+    name: Serene Grace
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may look at the top 8 cards of your deck. Choose any basic Energy cards you find there and attach them to your Pokémon in any way you like. Shuffle the other cards back into your deck.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Fairy Wind
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

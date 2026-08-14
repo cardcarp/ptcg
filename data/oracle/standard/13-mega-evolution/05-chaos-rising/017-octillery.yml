@@ -1,0 +1,47 @@
+name: Octillery
+
+origin: chaos-rising-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Jet of Ink
+    text: During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips 2 coins. If either of them is tails, that attack doesn't happen.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Tantrum
+    text: This Pokémon is now Confused.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

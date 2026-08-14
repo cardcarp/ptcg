@@ -1,0 +1,45 @@
+name: Zebstrika
+
+origin: scarlet-violet-black-star-201
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Full Speed
+    text: Discard your hand and draw 6 cards.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Head Bolt
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

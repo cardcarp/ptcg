@@ -1,0 +1,45 @@
+name: Beedrill
+
+origin: plasma-freeze-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Kakuna
+
+dex: 15
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Swift Sting
+    text: If this Pokémon has full HP, this attack does 40 more damage, and the Defending Pokémon is now Confused and Poisoned.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Pierce
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Gigalith
+
+origin: sun-moon-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Boldore
+
+dex: 526
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Artillery
+    text: Discard any amount of Fighting Energy from your Pokémon. This attack does 50 damage for each card you discarded in this way.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Tumble
+    text: This attack's damage isn't affected by Resistance.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

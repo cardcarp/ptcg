@@ -1,0 +1,50 @@
+name: Ho-Oh-EX
+
+origin: breakpoint-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Colorless
+
+hp: 180
+
+dex: 250
+
+rule:
+  - type: ability
+    name: Purifying Fire
+    text: Once during your turn (before your attack), if this Pokémon has any basic Fire Energy attached to it, you may heal 50 damage from it.
+  - type: attack
+    cost:
+      - Grass
+      - Water
+      - Lightning
+    name: Elemental Feather
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon).
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

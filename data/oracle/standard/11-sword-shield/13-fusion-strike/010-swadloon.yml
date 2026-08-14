@@ -1,0 +1,48 @@
+name: Swadloon
+
+origin: fusion-strike-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Sewaddle
+
+dex: 541
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Seed Bomb
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

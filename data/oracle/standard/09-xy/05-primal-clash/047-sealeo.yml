@@ -1,0 +1,47 @@
+name: Sealeo
+
+origin: primal-clash-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Spheal
+
+dex: 364
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Freezing Headbutt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aurora Beam
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Toxtricity ex
+
+origin: scarlet-violet-black-star-215
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Lightning
+
+hp: 260
+
+preevolution:
+  - Toxel
+
+dex: 849
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Strumming Thunder
+    text: Discard 2 Energy from this Pokémon.
+    damage: 240
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

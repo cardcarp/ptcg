@@ -1,0 +1,49 @@
+name: Purugly
+
+origin: great-encounters-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Glameow
+
+dex: 432
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Swagger
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Plusle
+
+origin: paradox-rift-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 311
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Plus Damage
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

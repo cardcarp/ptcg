@@ -1,0 +1,45 @@
+name: Latios
+
+origin: dragon-vault-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 100
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Sky Blade
+    text: If Latias is on your Bench, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Speed Wing
+    damage: 60
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

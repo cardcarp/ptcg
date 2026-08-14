@@ -1,0 +1,48 @@
+name: M Rayquaza-EX
+
+origin: roaring-skies-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Dragon
+
+hp: 230
+
+preevolution:
+  - Rayquaza-EX
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Lightning
+      - Colorless
+    name: Dragon Ascent
+    text: Discard 2 Energy attached to this Pokémon.
+    damage: 300
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

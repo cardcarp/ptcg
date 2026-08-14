@@ -1,0 +1,50 @@
+name: Shining Tyranitar
+
+origin: neo-destiny-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 248
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Fighting
+      - Fighting
+    name: Mountain Crush
+    text: Flip a coin until you get tails. For each heads, your opponent discards the top card from his or her deck.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Fire
+      - Fire
+      - Fire
+    name: Destructive Fire
+    text: Flip a coin for each Fire Energy card attached to Shining Tyranitar. For each heads, discard a Fire Energy card attached to Shining Tyranitar or this attack does nothing. Then, for each heads, choose an Energy card attached to the Defending Pokémon and discard it. If it has fewer Energy cards than that, remove all of them.
+    damage: 50
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - You can't have more than 1 Shining Tyranitar in your deck.
+
+regulation:
+
+errata: []

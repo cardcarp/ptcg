@@ -1,0 +1,45 @@
+name: Klawf
+
+origin: scarlet-violet-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 950
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Vise Grip
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Adrenaline Hammer
+    text: This Pokémon is now Confused.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

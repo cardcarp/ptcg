@@ -1,0 +1,38 @@
+name: Wooloo
+
+origin: sword-shield-152
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 831
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Expand
+    text: During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

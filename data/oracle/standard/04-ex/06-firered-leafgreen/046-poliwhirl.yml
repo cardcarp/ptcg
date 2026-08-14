@@ -1,0 +1,46 @@
+name: Poliwhirl
+
+origin: firered-leafgreen-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Poliwag
+
+dex: 61
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Stream
+    text: Search your discard pile for a basic Energy card and attach it to Poliwhirl.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Bubble
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

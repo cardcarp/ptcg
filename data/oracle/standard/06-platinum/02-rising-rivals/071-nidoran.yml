@@ -1,0 +1,41 @@
+name: Nidoran ♀
+
+origin: rising-rivals-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 29
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Scratch
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Offer Help
+    text: Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

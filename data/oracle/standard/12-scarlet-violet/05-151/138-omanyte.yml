@@ -1,0 +1,41 @@
+name: Omanyte
+
+origin: 151-138
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Antique Helix Fossil
+
+dex: 138
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Tentacular Return
+    text: Put an Energy attached to your opponent's Active Pokémon into their hand.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

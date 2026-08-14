@@ -1,0 +1,45 @@
+name: Marill
+
+origin: temporal-forces-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 183
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ball Roll
+    text: Flip a coin until you get tails. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Magical Shot
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

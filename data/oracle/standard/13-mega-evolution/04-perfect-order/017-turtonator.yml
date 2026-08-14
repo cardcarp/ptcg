@@ -1,0 +1,43 @@
+name: Turtonator
+
+origin: perfect-order-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 776
+
+rule:
+  - type: ability
+    name: Shell Spikes
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), discard an Energy from the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Breath
+    text: Flip a coin. If heads, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

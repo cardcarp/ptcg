@@ -1,0 +1,50 @@
+name: Flaaffy
+
+origin: team-up-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Mareep
+
+dex: 180
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Electric Punch
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Shock Bolt
+    text: Discard all Lightning Energy from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Phione
+
+origin: dragon-majesty-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 489
+
+rule:
+  - type: ability
+    name: Murmurs of the Sea
+    text: Your Water Pokémon can't be Confused. If those Pokémon are already Confused, remove that Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

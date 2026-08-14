@@ -1,0 +1,47 @@
+name: Shaymin
+
+origin: crown-zenith-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gather Flowers
+    text: Shuffle up to 2 Energy cards from your discard pile into your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rear Kick
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

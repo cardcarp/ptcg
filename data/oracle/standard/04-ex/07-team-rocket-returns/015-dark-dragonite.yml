@@ -1,0 +1,57 @@
+name: Dark Dragonite
+
+origin: team-rocket-returns-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Dark Dragonair
+
+dex: 149
+
+rule:
+  - type: ability
+    name: Dark Trance
+    text: As often as you like during your turn (before your attack), you may move a Darkness Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Dark Dragonite is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+    name: Double Wing Attack
+    text: Does 30 damage to each Defending Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Swipe
+    damage: 50
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

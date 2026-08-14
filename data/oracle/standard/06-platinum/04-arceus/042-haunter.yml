@@ -1,0 +1,50 @@
+name: Haunter
+
+origin: arceus-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psyshot
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Shadow Bind
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

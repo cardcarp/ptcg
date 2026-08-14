@@ -1,0 +1,43 @@
+name: Growlithe
+
+origin: rebel-clash-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 58
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Odor Sleuth
+    text: Flip a coin. If heads, put a card from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Claws
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

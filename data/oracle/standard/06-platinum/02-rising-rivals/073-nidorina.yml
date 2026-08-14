@@ -1,0 +1,48 @@
+name: Nidorina
+
+origin: rising-rivals-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Nidoran ♀
+
+dex: 30
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Jump Tackle
+    text: Nidorina does 10 damage to itself, and don't apply Weakness and Resistance to this damage.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Stress Poison
+    text: If Nidorina has any damage counters on it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Poisoned.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Pikachu V
+
+origin: sword-shield-black-star-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 190
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Charge
+    text: Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunderbolt
+    text: Discard all Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

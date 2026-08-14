@@ -1,0 +1,42 @@
+name: Cubchoo
+
+origin: darkness-ablaze-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 613
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Chop
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Icicle
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

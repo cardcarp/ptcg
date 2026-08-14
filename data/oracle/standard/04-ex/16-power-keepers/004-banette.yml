@@ -1,0 +1,55 @@
+name: Banette
+
+origin: power-keepers-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Grudge
+    text: Does 20 damage plus 10 more damage for each Prize card your opponent has taken.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Bench Manipulation
+    text: Your opponent flips a number of coins equal to the number of his or her Benched Pokémon. This attack does 40 damage times the number of tails. This attack's damage isn't affected by Weakness or Resistance.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

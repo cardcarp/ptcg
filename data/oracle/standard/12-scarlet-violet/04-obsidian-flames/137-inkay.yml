@@ -1,0 +1,38 @@
+name: Inkay
+
+origin: obsidian-flames-137
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 686
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Hug
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,58 @@
+name: Mewtwo-GX
+
+origin: sun-moon-black-star-196
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Psychic
+
+hp: 190
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Telekinesis
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. This damage isn't affected by Weakness or Resistance.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Reigning Pulse
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 120
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Nova-GX
+    text: Prevent all damage done to this Pokémon by attacks during your opponent's next turn. (You can't use more than 1 GX attack in a game.)
+    damage: 180
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

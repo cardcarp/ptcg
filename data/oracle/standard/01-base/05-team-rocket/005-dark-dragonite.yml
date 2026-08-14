@@ -1,0 +1,45 @@
+name: Dark Dragonite
+
+origin: team-rocket-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Dark Dragonair
+
+dex: 149
+
+rule:
+  - type: ability
+    name: Summon Minions
+    text: When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giant Tail
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 70
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

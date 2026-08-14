@@ -1,0 +1,42 @@
+name: Hitmonlee
+
+origin: heartgold-soulsilver-black-star-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 106
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Kick
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: High Jump Kick
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

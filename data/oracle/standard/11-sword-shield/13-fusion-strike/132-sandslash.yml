@@ -1,0 +1,41 @@
+name: Sandslash
+
+origin: fusion-strike-132
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Sandshrew
+
+dex: 28
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dig Uppercut
+    text: Put a card from your discard pile into your hand.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

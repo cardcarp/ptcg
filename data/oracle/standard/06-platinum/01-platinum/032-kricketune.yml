@@ -1,0 +1,49 @@
+name: Kricketune
+
+origin: platinum-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Kricketot
+
+dex: 402
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Revenge Melody
+    text: Does 20 damage times the number of Kricketot and Kricketune in your discard pile.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Bug Buzz
+    text: If the Defending Pokémon is Asleep, this attack does 50 damage plus 30 more damage. Remove the Special Condition Asleep from the Defending Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

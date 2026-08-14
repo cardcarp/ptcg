@@ -1,0 +1,48 @@
+name: Rocket's Scizor
+
+origin: best-of-game-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 212
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Focus
+    text: During your next turn, Rocket's Scizor's Agility attack's damage is doubled.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rocket's Scizor.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

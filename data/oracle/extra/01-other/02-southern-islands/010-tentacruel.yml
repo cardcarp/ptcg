@@ -1,0 +1,45 @@
+name: Tentacruel
+
+origin: southern-islands-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Tentacool
+
+dex: 73
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Tentacle Grip
+    text: Flip a number of coins equal to the number of Water Energy attached to Tentacruel. For each heads, draw 2 cards.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Poison Sting
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

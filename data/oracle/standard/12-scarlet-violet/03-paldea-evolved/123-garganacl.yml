@@ -1,0 +1,44 @@
+name: Garganacl
+
+origin: paldea-evolved-123
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Naclstack
+
+dex: 934
+
+rule:
+  - type: ability
+    name: Blessed Salt
+    text: During Pokémon Checkup, heal 20 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Knocking Hammer
+    text: Discard the top card of your opponent's deck.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

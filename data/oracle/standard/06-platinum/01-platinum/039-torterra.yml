@@ -1,0 +1,51 @@
+name: Torterra
+
+origin: platinum-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Grotle
+
+dex: 389
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Green Blast
+    text: Does 40 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Soothing Scent
+    text: The Defending Pokémon is now Asleep.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+retreat: 4
+
+regulation:
+
+errata: []

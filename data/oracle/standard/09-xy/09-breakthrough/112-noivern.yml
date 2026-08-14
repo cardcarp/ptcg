@@ -1,0 +1,46 @@
+name: Noivern
+
+origin: breakthrough-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 100
+
+preevolution:
+  - Noibat
+
+dex: 715
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tuning
+    text: Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.
+  - type: attack
+    cost:
+      - Psychic
+      - Darkness
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

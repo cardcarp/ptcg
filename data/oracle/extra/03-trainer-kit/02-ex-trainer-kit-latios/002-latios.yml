@@ -1,0 +1,44 @@
+name: Latios
+
+origin: ex-trainer-kit-latios-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Gather Energy
+    text: Flip a coin. If heads, search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Dragon Claw
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

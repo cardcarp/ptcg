@@ -1,0 +1,43 @@
+name: Jirachi
+
+origin: team-magma-vs-team-aqua-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 385
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Hypnoblast
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies or any other effects on the Defending Pokémon.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

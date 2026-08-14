@@ -1,0 +1,44 @@
+name: Blissey
+
+origin: heartgold-soulsilver-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Prime
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Chansey
+
+dex: 242
+
+rule:
+  - type: ability
+    name: Blissful Nurse
+    text: Once during your turn, when you play Blissey from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon. If you do, discard all Energy attached to those Pokémon that had any damage counters on them.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strength
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

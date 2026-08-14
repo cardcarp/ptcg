@@ -1,0 +1,48 @@
+name: Quagsire
+
+origin: vivid-voltage-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Wooper
+
+dex: 195
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Beat
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Fickle Impact
+    text: If you have exactly 2, 4, or 6 Prize cards remaining, this attack does nothing.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

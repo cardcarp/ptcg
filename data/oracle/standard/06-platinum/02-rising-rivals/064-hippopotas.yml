@@ -1,0 +1,50 @@
+name: Hippopotas
+
+origin: rising-rivals-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 449
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Push Down
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Endeavor
+    text: Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Primeape
+
+origin: aquapolis-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Karate Chop
+    text: Damage from this attack is reduced by 10 for each damage counter on Primeape.
+    damage: 40
+    modifier: '-'
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sudden Charge
+    text: Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

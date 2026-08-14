@@ -1,0 +1,39 @@
+name: Whismur
+
+origin: vivid-voltage-135
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 293
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Continuous Tumble
+    text: Flip a coin until you get tails. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

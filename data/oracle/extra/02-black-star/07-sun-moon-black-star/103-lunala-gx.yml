@@ -1,0 +1,64 @@
+name: Lunala-GX
+
+origin: sun-moon-black-star-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Psychic
+
+hp: 230
+
+preevolution:
+  - Cosmoem
+
+dex: 792
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Glide
+    damage: 50
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Lunar Javelin
+    text: Discard 2 Psychic Energy from this Pokémon.
+    damage: 200
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Requiem-GX
+    text: (You can't use more than 1 GX attack in a game.)
+    damage: 250
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

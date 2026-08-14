@@ -1,0 +1,47 @@
+name: Gastrodon
+
+origin: steam-siege-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Shellos
+
+dex: 423
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Sticky Shot
+    text: During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

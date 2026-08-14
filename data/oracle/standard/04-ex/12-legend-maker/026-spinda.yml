@@ -1,0 +1,45 @@
+name: Spinda
+
+origin: legend-maker-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 327
+
+rule:
+  - type: ability
+    name: Pattern Distraction
+    text: As long as Spinda is your Active Pokémon, whenever your opponent's Basic Pokémon tries to attack, your opponent flips a coin. If tails, that attack does nothing. You can't use more than 1 Pattern Distraction Poké-Body each turn.
+  - type: attack
+    cost:
+      - Colorless
+    name: Whimsy Draw
+    text: Flip a coin until you get tails. For each heads, draw 2 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Flip a coin. If tails, Spinda does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Victreebel
+
+origin: celestial-storm-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Weepinbell
+
+dex: 71
+
+rule:
+  - type: ability
+    name: Fragrance Trap
+    text: Once during your turn (before your attack), you may flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Corrosive Acid
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Burned.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

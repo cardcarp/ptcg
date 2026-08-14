@@ -1,0 +1,42 @@
+name: Gligar
+
+origin: unbroken-bonds-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 207
+
+rule:
+  - type: ability
+    name: Free Flight
+    text: If this Pokémon has no Energy attached to it, it has no Retreat Cost.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Shinobi Strike
+    text: If you played Janine from your hand during this turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

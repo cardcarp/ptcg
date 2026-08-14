@@ -1,0 +1,49 @@
+name: Hariyama
+
+origin: sun-moon-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Makuhita
+
+dex: 297
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Push Out
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 60
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Megaton Slap Push
+    damage: 130
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Omastar
+
+origin: team-up-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Omanyte
+
+dex: 139
+
+rule:
+  - type: ability
+    name: Fossil Bind
+    text: As long as you have fewer Pokémon in play than your opponent, they can't play any Item cards from their hand.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bite
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

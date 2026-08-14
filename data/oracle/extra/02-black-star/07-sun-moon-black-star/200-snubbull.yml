@@ -1,0 +1,46 @@
+name: Snubbull
+
+origin: sun-moon-black-star-200
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 209
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Bite
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

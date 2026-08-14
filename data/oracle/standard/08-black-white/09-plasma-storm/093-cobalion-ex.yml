@@ -1,0 +1,53 @@
+name: Cobalion-EX
+
+origin: plasma-storm-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Metal
+
+hp: 180
+
+dex: 638
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Righteous Edge
+    text: Discard a Special Energy attached to the Defending Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Steel Bullet
+    text: This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

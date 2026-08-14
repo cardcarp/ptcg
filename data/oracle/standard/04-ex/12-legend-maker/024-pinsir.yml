@@ -1,0 +1,45 @@
+name: Pinsir
+
+origin: legend-maker-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 127
+
+rule:
+  - type: ability
+    name: Shining Horn
+    text: As long as Pinsir is the only Pokémon you have in play, your opponent's Basic Pokémon can't attack.
+  - type: attack
+    cost:
+      - Colorless
+    name: Cry for Help
+    text: Search your deck for a Grass Pokémon (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Overhead Toss
+    text: Does 20 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

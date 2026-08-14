@@ -1,0 +1,45 @@
+name: Lumineon
+
+origin: phantom-forces-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Finneon
+
+dex: 457
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Neon Sign
+    text: Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

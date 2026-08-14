@@ -1,0 +1,48 @@
+name: Seismitoad
+
+origin: noble-victories-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Palpitoad
+
+dex: 537
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Round
+    text: Does 30 damage times the number of your Pokémon that have the Round attack.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hyper Voice
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

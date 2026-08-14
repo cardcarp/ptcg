@@ -1,0 +1,36 @@
+name: Team Rocket's Diglett
+
+origin: ascended-heroes-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 50
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Relentless Burrowing
+    text: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

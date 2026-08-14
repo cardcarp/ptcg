@@ -1,0 +1,48 @@
+name: Gurdurr
+
+origin: noble-victories-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Timburr
+
+dex: 533
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Strength
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Pummel
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

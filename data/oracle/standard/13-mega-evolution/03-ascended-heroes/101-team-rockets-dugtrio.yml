@@ -1,0 +1,43 @@
+name: Team Rocket's Dugtrio
+
+origin: ascended-heroes-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Team Rocket's Diglett
+
+dex: 51
+
+rule:
+  - type: ability
+    name: Holes
+    text: Whenever your opponent's Active Pokémon moves to the Bench during their turn, place 2 damage counters on that Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Mud Shot
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,46 @@
+name: Light Toxtricity
+
+origin: sword-shield-black-star-137
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 849
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slow Ballad
+    text: Heal 30 damage from both Active Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Beatdown Smash
+    text: During your next turn, this Pokémon can't use Beatdown Smash.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - (This card cannot be used at official tournaments.)
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Banette
+
+origin: roaring-skies-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Evolution Jammer
+    text: Your opponent can't play any Pokémon from his or her hand to evolve his or her Pokémon during his or her next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Curse Deeply
+    text: Put 5 damage counters on your opponent's Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

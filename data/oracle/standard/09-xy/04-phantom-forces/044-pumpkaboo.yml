@@ -1,0 +1,49 @@
+name: Pumpkaboo
+
+origin: phantom-forces-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 710
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Ram
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Night March
+    text: This attack does 20 damage times the number of Pokémon in your discard pile that have the Night March attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

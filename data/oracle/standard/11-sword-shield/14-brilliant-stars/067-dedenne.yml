@@ -1,0 +1,38 @@
+name: Dedenne
+
+origin: brilliant-stars-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 702
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Dede-Flash
+    text: If your opponent has exactly 1 Prize card remaining, this attack does 60 more damage, and your opponent's Active Pokémon is now Confused.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,49 @@
+name: Lucario V
+
+origin: sword-shield-black-star-213
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 210
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crushing Punch
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Cyclone Kick
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

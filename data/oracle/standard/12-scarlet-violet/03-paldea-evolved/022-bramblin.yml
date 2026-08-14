@@ -1,0 +1,37 @@
+name: Bramblin
+
+origin: paldea-evolved-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 946
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ride the Wind
+    text: Flip a coin. If heads, switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

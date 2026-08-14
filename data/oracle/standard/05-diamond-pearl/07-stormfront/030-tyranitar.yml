@@ -1,0 +1,58 @@
+name: Tyranitar
+
+origin: stormfront-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: ability
+    name: Darkness Drive
+    text: After your opponent's Pokémon uses a Poké-Power, you may search your discard pile for a basic Darkness Energy card and attach it to Tyranitar.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Grind
+    text: Does 20 damage times the amount of Energy attached to Tyranitar.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Spinning Tail
+    text: This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Lycanroc
+
+origin: burning-shadows-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Accelerock
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

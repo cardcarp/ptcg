@@ -1,0 +1,51 @@
+name: Lairon
+
+origin: legend-maker-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Aron
+
+dex: 305
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rest
+    text: Remove all Special Conditions and 5 damage counters (all if there are less than 5) from Lairon. Lairon is now Asleep.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

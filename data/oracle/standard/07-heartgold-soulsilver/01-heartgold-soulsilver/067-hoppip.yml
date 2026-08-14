@@ -1,0 +1,41 @@
+name: Hoppip
+
+origin: heartgold-soulsilver-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 30
+
+dex: 187
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bounce
+    text: You may switch Hoppip with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

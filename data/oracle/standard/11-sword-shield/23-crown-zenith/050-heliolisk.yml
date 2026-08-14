@@ -1,0 +1,47 @@
+name: Heliolisk
+
+origin: crown-zenith-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Static Shock
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Wild Charge
+    text: This Pokémon also does 50 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

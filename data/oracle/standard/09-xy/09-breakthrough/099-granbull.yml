@@ -1,0 +1,52 @@
+name: Granbull
+
+origin: breakthrough-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 120
+
+preevolution:
+  - Snubbull
+
+dex: 210
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Startling Bark
+    text: Flip a coin. If heads, choose 3 random cards from your opponent's hand. Your opponent reveals those cards and shuffles them into his or her deck.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Tantrum
+    text: This Pokémon is now Confused.
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

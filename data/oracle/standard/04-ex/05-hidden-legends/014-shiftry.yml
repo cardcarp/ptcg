@@ -1,0 +1,54 @@
+name: Shiftry
+
+origin: hidden-legends-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Push Aside
+    text: Look at your opponent's hand and choose 1 Basic Pokémon or Evolution card you find there. Your opponent puts it at the bottom of his or her deck.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Supernatural Power
+    text: If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

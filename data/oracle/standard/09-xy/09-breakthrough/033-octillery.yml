@@ -1,0 +1,44 @@
+name: Octillery
+
+origin: breakthrough-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: ability
+    name: Abyssal Hand
+    text: Once during your turn (before your attack), you may draw cards until you have 5 cards in your hand.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hug
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Dustox
+
+origin: lost-origin-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Cascoon
+
+dex: 269
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nadir Powder
+    text: Your opponent's Active Pokémon is now Confused and Poisoned. During Pokémon Checkup, put 8 damage counters on that Pokémon instead of 1.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Cutting Wind
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,54 @@
+name: Swampert
+
+origin: supreme-victors-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Marshtomp
+
+dex: 260
+
+rule:
+  - type: ability
+    name: Root Protector
+    text: Any damage done to Swampert by attacks from your opponent's Pokémon that isn't an Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Drag Off
+    text: Before doing damage, you may switch your opponent's Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Push Over
+    text: Does 60 damage plus 10 more damage for each Fighting Energy attached to Swampert.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

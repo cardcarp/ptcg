@@ -1,0 +1,49 @@
+name: Dialga
+
+origin: vivid-voltage-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 483
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rewind Time
+    text: Attach up to 2 Metal Energy cards from your discard pile to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Flash of Destruction
+    text: Discard 2 Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,47 @@
+name: Whirlipede
+
+origin: black-white-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Venipede
+
+dex: 544
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poison Sting
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Rotom
+
+origin: fusion-strike-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 479
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Surprise Short
+    text: Discard all Pokémon Tools from all of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+    name: Static Shock
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

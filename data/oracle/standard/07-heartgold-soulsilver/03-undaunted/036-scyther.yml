@@ -1,0 +1,37 @@
+name: Scyther
+
+origin: undaunted-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 123
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Afterimage Strike
+    text: During your opponent's next turn, if Scyther would be damaged by an attack, flip a coin. If heads, prevent that attack's damage done to Scyther.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

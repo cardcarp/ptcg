@@ -1,0 +1,51 @@
+name: Tapu Bulu-GX
+
+origin: sun-moon-black-star-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Grass
+
+hp: 180
+
+dex: 787
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Horn Attack
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Nature's Judgment
+    text: You may discard all Energy from this Pokémon. If you do, this attack does 60 more damage.
+    damage: 120
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Tapu Wilderness-GX
+    text: Heal all damage from this Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 150
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

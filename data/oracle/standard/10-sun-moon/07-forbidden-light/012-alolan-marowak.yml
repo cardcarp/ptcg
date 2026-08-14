@@ -1,0 +1,44 @@
+name: Alolan Marowak
+
+origin: forbidden-light-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: attack
+    name: Limbo Limbo
+    text: Search your deck for up to 2 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Alolan Club
+    text: This attack does 20 damage for each of your Pokémon in play that has Alolan in its name.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

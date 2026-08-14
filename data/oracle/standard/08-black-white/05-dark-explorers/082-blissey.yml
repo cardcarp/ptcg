@@ -1,0 +1,44 @@
+name: Blissey
+
+origin: dark-explorers-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Chansey
+
+dex: 242
+
+rule:
+  - type: ability
+    name: Softboiled
+    text: Once during your turn (before your attack), you may flip a coin. If heads, heal 30 damage from your Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-Edge
+    text: This Pokémon does 60 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

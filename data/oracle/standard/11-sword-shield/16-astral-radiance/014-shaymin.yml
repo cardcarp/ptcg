@@ -1,0 +1,41 @@
+name: Shaymin
+
+origin: astral-radiance-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Encouraging Gift
+    text: You can use this attack only if you go second, and only during your first turn. Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+    name: Flop
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

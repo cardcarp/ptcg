@@ -1,0 +1,51 @@
+name: Dialga
+
+origin: platinum-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 100
+
+dex: 483
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Energy Stream
+    text: Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga.
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Diamond Blow
+    text: Dialga can't attack during your next turn.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

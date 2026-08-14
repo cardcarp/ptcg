@@ -1,0 +1,41 @@
+name: Staryu
+
+origin: legends-awakened-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 120
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Recover
+    text: Discard an Energy attached to Staryu and remove 3 damage counters from Staryu.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Spinning Attack
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Wigglytuff
+
+origin: fusion-strike-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Find Treasure
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

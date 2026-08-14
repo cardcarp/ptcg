@@ -1,0 +1,43 @@
+oracle: # first id instance of card's which share matching card_name and rule. Perhaps we have to do this normalization in 2 stages. First stage is just making an oracle of every card. Second stage is when we find matches.
+  type: string
+  required: true
+
+index: # number:
+  type: string
+  required: true
+
+rarity: # rarity
+  type: string
+  required: true
+  nullable: true
+
+artist: # artist
+  type: string
+  required: true
+  nullable: true
+
+variation: # no data yet
+  type: list
+  schema:
+    type: string
+
+flavor: #flavor_text
+  type: string
+  nullable: true
+
+set: # expansion.id
+  type: string
+  required: true
+
+#chaning all instances of 'lex' to 'index'
+
+# we might need to build the set list first as it looks like this API mixes english, japanese, and digital into one database. 
+# For our app we are only interested in english.
+
+# at the same time we want to build a folder structure of images. 
+# The source data is images. Properties are type, small, medium, large. 
+# save large as name and in folder structure used in split.py
+# Additionally, If type equals 'front' then that is our 'standard' and we save the image with no suffix. 
+# If equals is not front we push the type value to variation and save the image with suffix '-{type}'.
+# unclear what file format the images are.
+# they're documentation regarding image: https://scrydex.com/docs/getting-started/best-practices#images

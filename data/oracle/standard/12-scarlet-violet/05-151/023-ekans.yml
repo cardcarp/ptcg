@@ -1,0 +1,38 @@
+name: Ekans
+
+origin: 151-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 23
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Acid Spray
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

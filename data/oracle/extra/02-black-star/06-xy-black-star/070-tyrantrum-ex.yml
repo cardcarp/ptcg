@@ -1,0 +1,46 @@
+name: Tyrantrum-EX
+
+origin: xy-black-star-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 180
+
+dex: 697
+
+rule:
+  - type: ability
+    name: Despotic Fang
+    text: Damage from this Pokémon's attacks isn't affected by any effects on your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Metal
+      - Metal
+      - Colorless
+    name: Dragon Fang
+    text: Discard 3 Energy attached to this Pokémon.
+    damage: 190
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Dialga
+
+origin: xy-black-star-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 120
+
+dex: 483
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Time Freeze
+    text: Your opponent can't play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

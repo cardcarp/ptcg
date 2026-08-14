@@ -1,0 +1,36 @@
+name: Nickit
+
+origin: darkness-ablaze-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 827
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Tail Whip
+    text: Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

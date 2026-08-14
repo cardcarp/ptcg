@@ -1,0 +1,54 @@
+name: Alolan Sandslash-GX
+
+origin: sun-moon-black-star-236
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Water
+
+hp: 200
+
+preevolution:
+  - Alolan Sandshrew
+
+dex: 28
+
+rule:
+  - type: ability
+    name: Spiky Shield
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Breath
+    damage: 120
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Spiky Storm-GX
+    text: This attack does 100 damage to each of your opponent's Pokémon that has any damage counters on it. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

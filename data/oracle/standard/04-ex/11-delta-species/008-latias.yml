@@ -1,0 +1,63 @@
+name: Latias δ
+
+origin: delta-species-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Lightning
+  - Metal
+
+hp: 70
+
+dex: 380
+
+rule:
+  - type: ability
+    name: Delta Aura
+    text: If you have Latios or Latios ex in play, the attack cost of Latias's Extra Crush is now Lightning MetalColorless.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Spiral Drain
+    text: Remove 2 damage counters fro Latias.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Extra Crush
+    text: If your opponent has no Pokémon-ex in play, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Lightning Metal type.
+
+regulation:
+
+errata: []

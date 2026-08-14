@@ -1,0 +1,48 @@
+name: Ice Rider Calyrex V
+
+origin: chilling-reign-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 210
+
+dex: 898
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Pierce
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Glacial Lance
+    text: Discard 2 Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

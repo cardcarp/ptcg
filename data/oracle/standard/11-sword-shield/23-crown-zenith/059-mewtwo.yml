@@ -1,0 +1,50 @@
+name: Mewtwo
+
+origin: crown-zenith-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Psypump
+    text: Attach up to 2 Psychic Energy cards from your discard pile to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Limit Break
+    text: If your opponent has 3 or fewer Prize cards remaining, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

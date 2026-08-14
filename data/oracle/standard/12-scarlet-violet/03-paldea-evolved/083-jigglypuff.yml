@@ -1,0 +1,42 @@
+name: Jigglypuff
+
+origin: paldea-evolved-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 39
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sing
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Slap
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

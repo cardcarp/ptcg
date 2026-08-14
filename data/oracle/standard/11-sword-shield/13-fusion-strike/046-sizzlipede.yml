@@ -1,0 +1,42 @@
+name: Sizzlipede
+
+origin: fusion-strike-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 850
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Gnaw
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

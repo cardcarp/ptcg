@@ -1,0 +1,40 @@
+name: Zubat
+
+origin: sun-moon-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 41
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Astonish
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

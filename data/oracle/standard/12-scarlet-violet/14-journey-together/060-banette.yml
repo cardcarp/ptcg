@@ -1,0 +1,50 @@
+name: Banette
+
+origin: journey-together-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Cursed Words
+    text: Your opponent chooses 3 cards from their hand and shuffles those cards into their deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spooky Shot
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

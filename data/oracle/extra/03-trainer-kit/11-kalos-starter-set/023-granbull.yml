@@ -1,0 +1,53 @@
+name: Granbull
+
+origin: kalos-starter-set-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 100
+
+preevolution:
+  - Snubbull
+
+dex: 210
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Headbutt
+    damage: 30
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Double Stomp
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

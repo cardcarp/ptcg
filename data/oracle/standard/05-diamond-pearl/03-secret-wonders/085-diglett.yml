@@ -1,0 +1,46 @@
+name: Diglett
+
+origin: secret-wonders-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 50
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Down Draw
+    text: Draw a card from the bottom of your deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Mud Spatter
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

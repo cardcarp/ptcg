@@ -1,0 +1,38 @@
+name: Stunky
+
+origin: rebel-clash-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 434
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poison Gas
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

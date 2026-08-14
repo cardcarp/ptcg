@@ -1,0 +1,48 @@
+name: Stonjourner
+
+origin: battle-styles-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 874
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Land's Pulse
+    text: If a Stadium is in play, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Giga Hammer
+    text: During your next turn, this Pokémon can't use Giga Hammer.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

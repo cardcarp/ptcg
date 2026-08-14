@@ -1,0 +1,50 @@
+name: Piloswine
+
+origin: team-rocket-returns-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Swinub
+
+dex: 221
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sheer Cold
+    text: Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Tonnage
+    text: You may do 60 damage plus 40 more damage. If you do, Piloswine does 30 damage to itself.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

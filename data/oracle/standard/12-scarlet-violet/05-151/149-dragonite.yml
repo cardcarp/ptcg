@@ -1,0 +1,39 @@
+name: Dragonite
+
+origin: 151-149
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 180
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: ability
+    name: Jet Cruise
+    text: Your Pokémon in play have no Retreat Cost.
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+    name: Dragon Pulse
+    text: Discard the top 2 cards of your deck.
+    damage: 180
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

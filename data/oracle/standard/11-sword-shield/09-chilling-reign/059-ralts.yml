@@ -1,0 +1,36 @@
+name: Ralts
+
+origin: chilling-reign-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 280
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

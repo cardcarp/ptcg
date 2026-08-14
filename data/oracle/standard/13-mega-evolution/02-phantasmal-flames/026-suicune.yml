@@ -1,0 +1,39 @@
+name: Suicune
+
+origin: phantasmal-flames-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 245
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Crystal Fall
+    text: If you have at least 4 Water Energy in play, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

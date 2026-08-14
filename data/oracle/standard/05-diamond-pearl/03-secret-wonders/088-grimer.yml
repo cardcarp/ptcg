@@ -1,0 +1,40 @@
+name: Grimer
+
+origin: secret-wonders-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 88
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mud Bomb
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+    name: Gunky
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

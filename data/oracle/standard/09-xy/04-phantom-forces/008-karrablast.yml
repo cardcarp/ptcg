@@ -1,0 +1,41 @@
+name: Karrablast
+
+origin: phantom-forces-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 588
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

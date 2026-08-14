@@ -1,0 +1,47 @@
+name: Buzzwole
+
+origin: forbidden-light-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 794
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Sledgehammer
+    text: If your opponent has exactly 4 Prize cards remaining, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Swing Around
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

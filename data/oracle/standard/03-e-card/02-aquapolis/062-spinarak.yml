@@ -1,0 +1,42 @@
+name: Spinarak
+
+origin: aquapolis-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 167
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Gooey Thread
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

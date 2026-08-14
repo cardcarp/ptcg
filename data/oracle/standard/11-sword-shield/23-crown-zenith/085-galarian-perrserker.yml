@@ -1,0 +1,54 @@
+name: Galarian Perrserker
+
+origin: crown-zenith-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Galarian Meowth
+
+dex: 863
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Sharp Claws
+    text: Flip a coin. If heads, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

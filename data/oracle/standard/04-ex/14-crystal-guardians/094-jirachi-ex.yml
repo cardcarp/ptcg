@@ -1,0 +1,46 @@
+name: Jirachi ex
+
+origin: crystal-guardians-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 385
+
+rule:
+  - type: ability
+    name: Star Light
+    text: As long as your opponent has any Pokémon-ex or Stage 2 Evolved Pokémon in play, Jirachi ex pays Colorless less Energy to use Shield Beam or Super Psy Bolt.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Shield Beam
+    text: During your opponent's next turn, your opponent can't use any Poké-Powers on his or her Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Super Psy Bolt
+    damage: 50
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

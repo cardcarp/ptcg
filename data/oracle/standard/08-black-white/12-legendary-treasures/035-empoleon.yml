@@ -1,0 +1,48 @@
+name: Empoleon
+
+origin: legendary-treasures-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Prinplup
+
+dex: 395
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Surf
+    damage: 50
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Emperor's Strike
+    text: If this Pokémon has fewer remaining HP than the Defending Pokémon, this attack does 60 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

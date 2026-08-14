@@ -1,0 +1,40 @@
+name: Porygon
+
+origin: unbroken-bonds-154
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 137
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Digicharge
+    text: Flip 3 coins. For each heads, search your deck for an Energy card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Sharp Point
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

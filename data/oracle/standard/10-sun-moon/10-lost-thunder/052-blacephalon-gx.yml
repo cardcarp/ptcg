@@ -1,0 +1,53 @@
+name: Blacephalon-GX
+
+origin: lost-thunder-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+  - Ultra Beast
+
+type:
+  - Fire
+
+hp: 180
+
+dex: 806
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Bursting Burn
+    text: Your opponent's Active Pokémon is now Burned and Confused.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Mind Blown
+    text: Put any amount of Fire Energy attached to your Pokémon in the Lost Zone. This attack does 50 damage for each card put in the Lost Zone in this way.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+    name: Burst-GX
+    text: Discard 1 of your Prize cards. If it's an Energy card, attach it to 1 of your Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

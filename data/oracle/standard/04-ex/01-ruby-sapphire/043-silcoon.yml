@@ -1,0 +1,42 @@
+name: Silcoon
+
+origin: ruby-sapphire-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Wurmple
+
+dex: 266
+
+rule:
+  - type: ability
+    name: Hard Cocoon
+    text: During your opponent's turn, if Silcoon would be damaged by an opponent's attack (after applying Weakness and Resistance), flip a coin. If heads, reduce that damage by 30.
+  - type: attack
+    cost:
+      - Grass
+    name: Gooey Thread
+    text: The Defending Pokémon can't retreat until the end of your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

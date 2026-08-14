@@ -1,0 +1,41 @@
+name: Litwick
+
+origin: black-white-black-star-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 607
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Will-O-Wisp
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

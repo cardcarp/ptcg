@@ -1,0 +1,49 @@
+name: Palafin
+
+origin: temporal-forces-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Finizen
+
+dex: 964
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Vanguard Punch
+    text: This Pokémon also does 10 damage to itself for each damage counter on it.
+    damage: 130
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Double Hit
+    text: Flip 2 coins. This attack does 90 damage for each heads.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

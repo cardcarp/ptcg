@@ -1,0 +1,51 @@
+name: Lugia
+
+origin: sword-shield-black-star-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 249
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wind Pressure
+    text: If your opponent has 5 or fewer cards in their hand, this attack does nothing.
+    damage: 250
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

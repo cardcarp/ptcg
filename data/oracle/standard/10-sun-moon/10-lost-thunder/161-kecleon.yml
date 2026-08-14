@@ -1,0 +1,40 @@
+name: Kecleon
+
+origin: lost-thunder-161
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 352
+
+rule:
+  - type: ability
+    name: Unit Color 1
+    text: As long as this Pokémon has Unit Energy GrassFireWater attached to it, it is a Grass, Fire, and Water Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tongue Smack
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 50 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

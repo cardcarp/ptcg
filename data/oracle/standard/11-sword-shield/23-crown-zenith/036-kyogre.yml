@@ -1,0 +1,44 @@
+name: Kyogre
+
+origin: crown-zenith-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 140
+
+dex: 382
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Wave Summoning
+    text: Search your deck for a Water Energy card and attach it to this Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Dynamic Wave
+    text: Put 3 Energy attached to this Pokémon into your hand. This attack does 180 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,47 @@
+name: Kingler
+
+origin: great-encounters-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Krabby
+
+dex: 99
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crabhammer
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Scissor Blow
+    text: If the Defending Pokémon would be be Knocked Out by this attack, Kingler does 30 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

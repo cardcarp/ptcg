@@ -1,0 +1,50 @@
+name: Serperior VSTAR
+
+origin: silver-tempest-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Grass
+
+hp: 270
+
+preevolution:
+  - Serperior V
+
+dex: 497
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Regal Blender
+    text: You may move any amount of Energy from your Pokémon to your other Pokémon in any way you like.
+    damage: 190
+  - type: attack
+    cost:
+      - Grass
+    name: Star Winder
+    text: This attack does 60 damage for each Energy attached to this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon. (You can't use more than 1 VSTAR Power in a game.)
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

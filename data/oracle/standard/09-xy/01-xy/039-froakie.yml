@@ -1,0 +1,36 @@
+name: Froakie
+
+origin: xy-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 656
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Bounce
+    text: Flip a coin. If heads, switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

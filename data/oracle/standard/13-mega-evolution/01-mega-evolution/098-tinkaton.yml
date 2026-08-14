@@ -1,0 +1,46 @@
+name: Tinkaton
+
+origin: mega-evolution-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 160
+
+preevolution:
+  - Tinkatuff
+
+dex: 959
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Windup Swing
+    text: This attack does 60 less damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 240
+    modifier: '-'
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

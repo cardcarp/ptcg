@@ -1,0 +1,50 @@
+name: Jolteon
+
+origin: majestic-dawn-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Thunder Fang
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Strike
+    text: You may discard 2 Energy attached to Jolteon. If you do, this attack's base damage is 90 instead of 50.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

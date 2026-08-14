@@ -1,0 +1,47 @@
+name: Salamence
+
+origin: xy-black-star-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Goons
+    text: Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+      - Colorless
+    name: Dragon Pulse
+    text: Discard the top card of your deck.
+    damage: 130
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

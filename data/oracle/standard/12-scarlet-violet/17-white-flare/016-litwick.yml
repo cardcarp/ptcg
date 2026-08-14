@@ -1,0 +1,36 @@
+name: Litwick
+
+origin: white-flare-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 607
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Brighten and Burn
+    text: Look at the top card of your deck. You may discard that card.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

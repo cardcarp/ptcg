@@ -1,0 +1,35 @@
+name: Ralts
+
+origin: plasma-storm-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 280
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Psy Bolt
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

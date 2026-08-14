@@ -1,0 +1,48 @@
+name: Dewott
+
+origin: black-white-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Oshawott
+
+dex: 502
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Water Gun
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Razor Shell
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

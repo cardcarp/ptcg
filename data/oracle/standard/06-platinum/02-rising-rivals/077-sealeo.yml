@@ -1,0 +1,43 @@
+name: Sealeo
+
+origin: rising-rivals-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Spheal
+
+dex: 364
+
+rule:
+  - type: attack
+    name: Find Ice
+    text: Search your deck for up to 2 Water Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Sheer Cold
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

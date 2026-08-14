@@ -1,0 +1,38 @@
+name: Hoppip
+
+origin: neo-discovery-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 30
+
+dex: 187
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Rolling Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

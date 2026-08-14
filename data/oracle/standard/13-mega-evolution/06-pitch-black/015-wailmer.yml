@@ -1,0 +1,44 @@
+name: Wailmer
+
+origin: pitch-black-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 320
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Water Gun
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Wave Splash
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - J
+
+errata: []

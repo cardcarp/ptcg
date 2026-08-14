@@ -1,0 +1,46 @@
+name: Enamorus
+
+origin: crown-zenith-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 905
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Draining Kiss
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Loving Sympathy
+    text: If you have the same number of cards in your hand as your opponent, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

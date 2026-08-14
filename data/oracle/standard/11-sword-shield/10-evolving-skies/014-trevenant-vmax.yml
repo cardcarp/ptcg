@@ -1,0 +1,52 @@
+name: Trevenant VMAX
+
+origin: evolving-skies-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Grass
+
+hp: 320
+
+preevolution:
+  - Trevenant V
+
+dex: 709
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Missing in the Forest
+    text: This attack does 40 damage for each Supporter card in your opponent's discard pile.
+    damage: 40
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Max Tree
+    damage: 180
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

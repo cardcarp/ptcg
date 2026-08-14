@@ -1,0 +1,48 @@
+name: Deoxys
+
+origin: sword-shield-black-star-170
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Fusion Strike
+  - Single Strike
+  - Rapid Strike
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 386
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Photon Boost
+    text: If this Pokémon has any Fusion Strike Energy attached, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

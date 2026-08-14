@@ -1,0 +1,36 @@
+name: Seel
+
+origin: 151-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 86
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Chilly
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

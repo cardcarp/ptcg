@@ -1,0 +1,48 @@
+name: Blaziken
+
+origin: pop-series-1-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Punch
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

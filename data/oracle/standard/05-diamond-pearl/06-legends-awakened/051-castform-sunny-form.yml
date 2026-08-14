@@ -1,0 +1,40 @@
+name: Castform Sunny Form
+
+origin: legends-awakened-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 351
+
+rule:
+  - type: ability
+    name: Temperament
+    text: Once during your turn (before your attack), you may search your deck for any Castform and switch it with Castform Sunny Form. (Any cards attached to Castform Sunny Form, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Shuffle Castform Sunny Form back into your deck. You can't use more than 1 Temperament Poké-Power each turn.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    text: Discard a Fire Energy attached to Castform Sunny Form.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

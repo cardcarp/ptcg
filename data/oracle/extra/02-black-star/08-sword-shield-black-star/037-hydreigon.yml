@@ -1,0 +1,44 @@
+name: Hydreigon
+
+origin: sword-shield-black-star-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 160
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: ability
+    name: Dark Squall
+    text: As often as you like during your turn, you may attach a Darkness Energy card from your hand to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Pitch-Black Fangs
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

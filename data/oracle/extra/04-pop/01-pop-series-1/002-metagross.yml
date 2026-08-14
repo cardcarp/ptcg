@@ -1,0 +1,53 @@
+name: Metagross
+
+origin: pop-series-1-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Metang
+
+dex: 376
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard 1 Energy attached to the Defending Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

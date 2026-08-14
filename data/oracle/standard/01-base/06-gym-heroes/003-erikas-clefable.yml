@@ -1,0 +1,50 @@
+name: Erika's Clefable
+
+origin: gym-heroes-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Erika's Clefairy
+
+dex: 36
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fairy Power
+    text: Flip a coin. If heads, you may return any number of your Pokémon in play and all cards attached to them to your hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Moon Impact
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Chansey
+
+origin: dark-explorers-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 113
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sing
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-Edge
+    text: This Pokémon does 30 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

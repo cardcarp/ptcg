@@ -1,0 +1,36 @@
+name: Krabby
+
+origin: expedition-base-set-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 98
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Crabhammer
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

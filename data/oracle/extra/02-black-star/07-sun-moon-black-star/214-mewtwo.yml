@@ -1,0 +1,41 @@
+name: Mewtwo
+
+origin: sun-moon-black-star-214
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 150
+
+rule:
+  - type: ability
+    name: Mind Report
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may put a Supporter card from your discard pile on top of your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psyshock
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

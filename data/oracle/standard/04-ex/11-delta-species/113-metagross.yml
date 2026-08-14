@@ -1,0 +1,55 @@
+name: Metagross ☆
+
+origin: delta-species-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 376
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Critical Collection
+    text: Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many Metal Energy cards and attach them to Metagross Star.
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

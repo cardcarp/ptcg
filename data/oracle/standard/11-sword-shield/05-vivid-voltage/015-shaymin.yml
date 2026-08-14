@@ -1,0 +1,43 @@
+name: Shaymin
+
+origin: vivid-voltage-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Leech Seed
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Flower Bearing
+    text: Flip a coin. If heads, your opponent shuffles their Active Pokémon and all attached cards and puts them on the bottom of their deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

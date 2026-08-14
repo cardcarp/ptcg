@@ -1,0 +1,37 @@
+name: Krabby
+
+origin: crystal-guardians-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 98
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Vital Pinchers
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

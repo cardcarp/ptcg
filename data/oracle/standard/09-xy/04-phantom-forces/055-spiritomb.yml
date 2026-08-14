@@ -1,0 +1,38 @@
+name: Spiritomb
+
+origin: phantom-forces-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 442
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: B Cancel
+    text: Your opponent can't play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+retreat: 1
+
+regulation:
+
+errata: []

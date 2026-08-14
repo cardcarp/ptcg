@@ -1,0 +1,41 @@
+name: Minior
+
+origin: paradox-rift-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 774
+
+rule:
+  - type: ability
+    name: Far-Flying Meteor
+    text: Once during your turn, if this Pokémon is on your Bench, when you attach an Energy card from your hand to this Pokémon, you may switch it with your Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Gravitational Tackle
+    text: This attack does 20 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,47 @@
+name: Dark Octillery
+
+origin: neo-destiny-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Ink Blast
+    text: This attack does 20 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Tentacle Wrap
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, during your opponent's next turn, your opponent pays Colorless more to retreat the Defending Pokémon.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

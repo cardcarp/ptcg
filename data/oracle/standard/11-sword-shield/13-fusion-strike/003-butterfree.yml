@@ -1,0 +1,43 @@
+name: Butterfree
+
+origin: fusion-strike-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Metapod
+
+dex: 12
+
+rule:
+  - type: ability
+    name: Tricolored Scales
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make your opponent's Active Pokémon Burned, Confused, and Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Gust
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

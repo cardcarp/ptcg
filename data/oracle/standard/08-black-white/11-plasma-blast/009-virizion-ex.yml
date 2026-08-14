@@ -1,0 +1,49 @@
+name: Virizion-EX
+
+origin: plasma-blast-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Grass
+
+hp: 170
+
+dex: 640
+
+rule:
+  - type: ability
+    name: Verdant Wind
+    text: Each of your Pokémon that has any Grass Energy attached to it can't be affected by any Special Conditions. (Remove any Special Conditions affecting those Pokémon.)
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Emerald Slash
+    text: You may search your deck for 2 Grass Energy cards and attach them to 1 of your Benched Pokémon. Shuffle your deck afterward.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Numel
+
+origin: ascended-heroes-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 322
+
+rule:
+  - type: ability
+    name: Incandescent Body
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,44 @@
+name: Abomasnow
+
+origin: mysterious-treasures-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Snover
+
+dex: 460
+
+rule:
+  - type: ability
+    name: Glacier Snow
+    text: If Abomasnow is your Active Pokémon and is damaged by an opponent's attack (even if Abomasnow is Knocked Out), the Attacking Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Heavy Blizzard
+    text: Flip a coin. If heads, put 1 damage counter on each of your opponent's Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

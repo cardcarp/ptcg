@@ -1,0 +1,43 @@
+name: Toxicroak
+
+origin: mysterious-treasures-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: ability
+    name: Poison Sacs
+    text: Your opponent can't remove the Special Condition Poisoned by evolving or devolving his or her Poisoned Pokémon. (This also includes putting a Pokémon Level-Up card onto the Poisoned Pokémon.)
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Knuckle Claws
+    text: The Defending Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

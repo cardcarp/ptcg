@@ -1,0 +1,49 @@
+name: Mega Floette ex
+
+origin: chaos-rising-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Psychic
+
+hp: 250
+
+dex: 670
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Gentle Light
+    text: Heal 30 damage from each Pokémon (both yours and your opponent's).
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Eternity Bloom
+    text: Search your deck for up to 4 Basic Psychic Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.
+    damage: 200
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

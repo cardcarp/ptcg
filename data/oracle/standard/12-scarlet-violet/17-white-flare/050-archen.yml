@@ -1,0 +1,42 @@
+name: Archen
+
+origin: white-flare-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Antique Plume Fossil
+
+dex: 566
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Acrobatics
+    text: Flip 2 coins. This attack does 30 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

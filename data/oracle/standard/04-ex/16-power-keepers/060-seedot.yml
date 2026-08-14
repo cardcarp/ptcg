@@ -1,0 +1,43 @@
+name: Seedot
+
+origin: power-keepers-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 273
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Remove 2 damage counters from Seedot.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 20 times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,55 @@
+name: Toxtricity ex
+
+origin: paradox-rift-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Fighting
+
+hp: 260
+
+preevolution:
+  - Toxel
+
+dex: 849
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Knocking Hammer
+    text: Discard the top card of your opponent's deck.
+    damage: 70
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Gaia Punk
+    text: Discard 3 Lightning Energy from your Pokémon.
+    damage: 270
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

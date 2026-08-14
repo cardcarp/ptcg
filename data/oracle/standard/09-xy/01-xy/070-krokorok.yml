@@ -1,0 +1,52 @@
+name: Krokorok
+
+origin: xy-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Sandile
+
+dex: 552
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Darkness Fang
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Porygon
+
+origin: aquapolis-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 137
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Data Sort
+    text: Flip a coin. If heads, choose a Trainer card from your discard pile, show it to your opponent, and then shuffle it into your deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

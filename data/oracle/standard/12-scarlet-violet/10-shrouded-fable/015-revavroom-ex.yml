@@ -1,0 +1,55 @@
+name: Revavroom ex
+
+origin: shrouded-fable-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Lightning
+
+hp: 280
+
+preevolution:
+  - Varoom
+
+dex: 966
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Accelerator Flash
+    text: If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 120 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+    name: Shattering Speed
+    text: Discard this Pokémon and all attached cards.
+    damage: 250
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,47 @@
+name: Vivillon
+
+origin: xy-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Spewpa
+
+dex: 666
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Conversion Powder
+    text: Choose either Asleep or Poisoned. Your opponent's Active Pokémon is now affected by that Special Condition.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Colorful Wind
+    text: This attack does 30 more damage for each different type of basic Energy attached to this Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

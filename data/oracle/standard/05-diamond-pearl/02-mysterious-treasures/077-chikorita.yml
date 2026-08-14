@@ -1,0 +1,45 @@
+name: Chikorita
+
+origin: mysterious-treasures-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 152
+
+rule:
+  - type: attack
+    name: Sleep Scent
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Grass
+    name: Jump On
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

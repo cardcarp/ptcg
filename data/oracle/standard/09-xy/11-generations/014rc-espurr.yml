@@ -1,0 +1,35 @@
+name: Espurr
+
+origin: generations-014rc
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 677
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Twinkle
+    text: Your opponent's Active Pokémon is now Asleep.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Natu
+
+origin: roaring-skies-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 177
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psywave
+    text: This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

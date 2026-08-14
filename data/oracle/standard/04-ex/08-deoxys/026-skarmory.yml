@@ -1,0 +1,51 @@
+name: Skarmory
+
+origin: deoxys-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 227
+
+rule:
+  - type: ability
+    name: Metallic Lift
+    text: If Skarmory has any Metal Energy attached to it, the Retreat Cost for Skarmory is 0.
+  - type: attack
+    cost:
+      - Colorless
+    name: Spearhead
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Heavy Metal
+    text: Flip a coin for each Metal Energy attached to Skarmory. This attack does 10 damage plus 20 more damage for each heads.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

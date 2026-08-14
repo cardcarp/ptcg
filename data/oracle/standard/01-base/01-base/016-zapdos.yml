@@ -1,0 +1,48 @@
+name: Zapdos
+
+origin: base-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder
+    text: Flip a coin. If tails, Zapdos does 30 damage to itself.
+    damage: 60
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunderbolt
+    text: Discard all Energy cards attached to Zapdos in order to use this attack.
+    damage: 100
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

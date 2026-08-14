@@ -1,0 +1,43 @@
+name: Lumineon
+
+origin: stormfront-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Finneon
+
+dex: 457
+
+rule:
+  - type: ability
+    name: Fin Luster
+    text: Once during your turn (before your attack), if Lumineon is your Active Pokémon, you may look at your opponent's hand. If your opponent's Bench isn't full, choose 1 Basic Pokémon from your opponent's hand, and put it onto his or her Bench. Then, switch it with the Defending Pokémon. This power can't be used if Lumineon is affected by a Special Condition.
+  - type: attack
+    name: Quick Swim
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+  - type: attack
+    cost:
+      - Water
+    name: Elegant Swim
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Lumineon during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+regulation:
+
+errata: []

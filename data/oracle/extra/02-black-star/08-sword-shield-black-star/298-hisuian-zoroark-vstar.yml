@@ -1,0 +1,48 @@
+name: Hisuian Zoroark VSTAR
+
+origin: sword-shield-black-star-298
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Colorless
+
+hp: 270
+
+preevolution:
+  - Hisuian Zoroark V
+
+dex: 571
+
+rule:
+  - type: ability
+    name: Phantom Star
+    text: During your turn, you may discard your hand and draw 7 cards. (You can't use more than 1 VSTAR Power in a game.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ticking Curse
+    text: This attack does 50 damage for each of your Pokémon that has any damage counters on it.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,50 @@
+name: Zeraora
+
+origin: unbroken-bonds-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 807
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Crushing Claw
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Discharge
+    text: Discard all Lightning Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

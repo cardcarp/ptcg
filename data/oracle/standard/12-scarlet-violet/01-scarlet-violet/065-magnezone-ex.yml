@@ -1,0 +1,52 @@
+name: Magnezone ex
+
+origin: scarlet-violet-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Lightning
+
+hp: 330
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Energy Crush
+    text: This attack does 50 damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Pulse Launcher
+    text: This Pokémon also does 30 damage to itself.
+    damage: 220
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

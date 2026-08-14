@@ -1,0 +1,40 @@
+name: Zygarde
+
+origin: forbidden-light-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 718
+
+rule:
+  - type: ability
+    name: Earthen Aura
+    text: Damage from this Pokémon's attacks isn't affected by Weakness or Resistance.
+  - type: attack
+    cost:
+      - Fighting
+    name: Peace Maker
+    text: If your opponent has an Ultra Beast in play, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

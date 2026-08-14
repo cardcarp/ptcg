@@ -1,0 +1,46 @@
+name: Slowking
+
+origin: burning-shadows-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Drift Ashore
+    text: Search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Unarmed
+    text: If you have no cards in your hand, ignore all Energy in this attack's cost.
+    damage: 110
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

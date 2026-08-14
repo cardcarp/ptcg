@@ -1,0 +1,37 @@
+name: Pancham
+
+origin: forbidden-light-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 674
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Act Tough
+    text: If this Pokémon has any Darkness Energy attached to it, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

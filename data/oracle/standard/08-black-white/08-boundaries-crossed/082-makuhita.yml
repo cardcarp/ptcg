@@ -1,0 +1,36 @@
+name: Makuhita
+
+origin: boundaries-crossed-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 296
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Slap Push
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

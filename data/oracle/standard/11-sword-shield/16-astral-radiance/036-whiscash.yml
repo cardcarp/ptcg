@@ -1,0 +1,51 @@
+name: Whiscash
+
+origin: astral-radiance-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Barboach
+
+dex: 340
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Mud Shot
+    damage: 80
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Thrash
+    text: Flip a coin. If tails, this Pokémon also does 60 damage to itself. If heads, this attack does 60 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

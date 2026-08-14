@@ -1,0 +1,44 @@
+name: Dialga
+
+origin: call-of-legends-002sl
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 100
+
+dex: 483
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Metal
+    name: Time Rewind
+    text: Shuffle your hand into your deck.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

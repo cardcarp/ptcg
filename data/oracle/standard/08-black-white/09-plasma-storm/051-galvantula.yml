@@ -1,0 +1,45 @@
+name: Galvantula
+
+origin: plasma-storm-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Joltik
+
+dex: 596
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Discharge
+    text: Discard all Lightning Energy attached to this Pokémon. This attack does 30 damage times the number of Energy cards you discarded.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Signal Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

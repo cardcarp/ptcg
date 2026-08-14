@@ -1,0 +1,50 @@
+name: Gallade
+
+origin: astral-radiance-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 160
+
+preevolution:
+  - Kirlia
+
+dex: 475
+
+rule:
+  - type: ability
+    name: Buddy Catch
+    text: Once during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Swirling Slice
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 160
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

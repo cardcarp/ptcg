@@ -1,0 +1,38 @@
+name: Kakuna
+
+origin: crimson-invasion-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Weedle
+
+dex: 14
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Multiply
+    text: Search your deck for up to 3 Kakuna and put them onto your Bench. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

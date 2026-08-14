@@ -1,0 +1,50 @@
+name: Hydreigon
+
+origin: noble-victories-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 150
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: ability
+    name: Dark Aura
+    text: All Energy attached to this Pokémon are Darkness Energy instead of their usual type.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Berserker Blade
+    text: Does 40 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

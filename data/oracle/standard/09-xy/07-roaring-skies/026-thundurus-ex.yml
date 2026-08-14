@@ -1,0 +1,55 @@
+name: Thundurus-EX
+
+origin: roaring-skies-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Lightning
+
+hp: 170
+
+dex: 642
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Headlock
+    text: Flip a coin. If heads, this attack does 30 more damage. If tails, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Voltage Rush
+    text: This Pokémon does 50 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

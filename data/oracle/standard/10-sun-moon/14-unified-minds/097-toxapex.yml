@@ -1,0 +1,39 @@
+name: Toxapex
+
+origin: unified-minds-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Mareanie
+
+dex: 748
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Spike Shot
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

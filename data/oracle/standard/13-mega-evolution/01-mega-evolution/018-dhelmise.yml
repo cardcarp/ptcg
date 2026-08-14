@@ -1,0 +1,39 @@
+name: Dhelmise
+
+origin: mega-evolution-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 781
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Earthen Power
+    text: If you have a Stadium in play, this attack does 50 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

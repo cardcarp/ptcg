@@ -1,0 +1,49 @@
+name: Cresselia
+
+origin: sword-shield-black-star-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 488
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Crescent Glow
+    text: Search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. If you go second and it's your first turn, instead search for up to 3 Psychic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Photon Laser
+    text: If you have at least 5 Energy in play, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

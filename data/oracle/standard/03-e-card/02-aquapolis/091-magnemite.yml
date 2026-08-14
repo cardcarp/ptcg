@@ -1,0 +1,41 @@
+name: Magnemite
+
+origin: aquapolis-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 81
+
+rule:
+  - type: ability
+    name: Conductive Body
+    text: You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Magnetic Bomb
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, Magnemite does 10 damage to itself.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

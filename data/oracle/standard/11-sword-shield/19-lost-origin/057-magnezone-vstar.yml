@@ -1,0 +1,51 @@
+name: Magnezone VSTAR
+
+origin: lost-origin-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Lightning
+
+hp: 270
+
+preevolution:
+  - Magnezone V
+
+dex: 462
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Magnetic Grip
+    text: Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck.
+    damage: 180
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Electro Star
+    text: This attack does 90 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 VSTAR Power in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

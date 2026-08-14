@@ -1,0 +1,43 @@
+name: Barbaracle
+
+origin: fates-collide-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Binacle
+
+dex: 689
+
+rule:
+  - type: ability
+    name: Hand Block
+    text: If you have a Stadium card in play, your opponent can't attach any Special Energy cards from his or her hand to his or her Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Claw Slash
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

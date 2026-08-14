@@ -1,0 +1,53 @@
+name: Simisear VSTAR
+
+origin: crown-zenith-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Fire
+
+hp: 260
+
+preevolution:
+  - Simisear V
+
+dex: 514
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fireball Fever
+    text: You may discard up to 5 cards from the top of your deck. This attack does 40 more damage for each card you discarded in this way.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+    name: Ember Star
+    text: This attack does 30 damage for each Energy card in your discard pile. (You can't use more than 1 VSTAR Power in a game.)
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

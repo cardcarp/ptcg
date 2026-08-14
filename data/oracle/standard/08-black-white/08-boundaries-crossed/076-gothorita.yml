@@ -1,0 +1,47 @@
+name: Gothorita
+
+origin: boundaries-crossed-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Gothita
+
+dex: 575
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psypunch
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Destructive Beam
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

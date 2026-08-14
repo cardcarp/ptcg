@@ -1,0 +1,51 @@
+name: Golurk
+
+origin: ancient-origins-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Golett
+
+dex: 623
+
+rule:
+  - type: ability
+    name: Double Type
+    text: As long as this Pokémon is in play, it is Psychic and Fighting type.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Superpower
+    text: You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

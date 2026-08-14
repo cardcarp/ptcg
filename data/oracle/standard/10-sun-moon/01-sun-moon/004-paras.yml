@@ -1,0 +1,36 @@
+name: Paras
+
+origin: sun-moon-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 46
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

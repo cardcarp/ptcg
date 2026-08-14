@@ -1,0 +1,44 @@
+name: Walrein
+
+origin: hidden-legends-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Sealeo
+
+dex: 365
+
+rule:
+  - type: ability
+    name: Crush Draw
+    text: Once during your turn (before your attack), you may reveal the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon. If not, put the card back on your deck. This power can't be used if Walrein is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Sheer Cold
+    text: Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

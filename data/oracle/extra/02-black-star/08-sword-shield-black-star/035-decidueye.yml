@@ -1,0 +1,44 @@
+name: Decidueye
+
+origin: sword-shield-black-star-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Dartrix
+
+dex: 724
+
+rule:
+  - type: ability
+    name: Deep Forest Camo
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon V and Pokémon-GX.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Splitting Arrow
+    text: This attack also does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

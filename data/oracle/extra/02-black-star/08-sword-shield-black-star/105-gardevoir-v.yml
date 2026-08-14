@@ -1,0 +1,49 @@
+name: Gardevoir V
+
+origin: sword-shield-black-star-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 210
+
+dex: 282
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Magical Shot
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Swelling Pulse
+    text: If this Pokémon was healed during this turn, this attack does 80 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

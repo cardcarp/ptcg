@@ -1,0 +1,45 @@
+name: Empoleon
+
+origin: cosmic-eclipse-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Prinplup
+
+dex: 395
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Recall
+    text: Choose an attack from 1 of this Pokémon's previous Evolutions and use it as this attack.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aquafall
+    text: Discard all Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

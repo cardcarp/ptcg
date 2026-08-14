@@ -1,0 +1,41 @@
+name: Starly
+
+origin: scarlet-violet-148
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 396
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

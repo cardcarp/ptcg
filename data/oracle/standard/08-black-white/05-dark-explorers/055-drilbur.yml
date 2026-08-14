@@ -1,0 +1,41 @@
+name: Drilbur
+
+origin: dark-explorers-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 529
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

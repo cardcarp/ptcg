@@ -1,0 +1,37 @@
+name: Rhyhorn
+
+origin: primal-clash-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 111
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Take Down
+    text: This Pokémon does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Stunky
+
+origin: chaos-rising-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 434
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Scratch
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

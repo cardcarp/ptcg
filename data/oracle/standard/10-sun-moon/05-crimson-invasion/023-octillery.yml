@@ -1,0 +1,46 @@
+name: Octillery
+
+origin: crimson-invasion-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ink Spit
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Special Artillery
+    text: You may discard a Special Energy from this Pokémon. If you do, this attack does 80 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

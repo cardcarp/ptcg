@@ -1,0 +1,48 @@
+name: Lucario
+
+origin: pokemon-rumble-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Metal Claw
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Metal
+      - Colorless
+      - Colorless
+    name: Pulse Blast
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

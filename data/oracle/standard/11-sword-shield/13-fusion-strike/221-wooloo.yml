@@ -1,0 +1,45 @@
+name: Wooloo
+
+origin: fusion-strike-221
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 831
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Derail
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Let's All Rollout
+    text: This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

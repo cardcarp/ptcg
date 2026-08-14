@@ -1,0 +1,57 @@
+name: Aegislash ex
+
+origin: paradox-rift-135
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Metal
+
+hp: 330
+
+preevolution:
+  - Doublade
+
+dex: 681
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Peerless Edge
+    text: This attack does 70 damage for each Prize card you have taken.
+    damage: 70
+    modifier: x
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+    name: Double-Edged Slash
+    text: This Pokémon also does 30 damage to itself.
+    damage: 220
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

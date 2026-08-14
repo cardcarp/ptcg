@@ -1,0 +1,52 @@
+name: Raichu
+
+origin: xy-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Circle Circuit
+    text: This attack does 20 damage times the number of your Benched Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunderbolt
+    text: Discard all Energy attached to this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Doublade
+
+origin: team-up-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Honedge
+
+dex: 680
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tool Drop
+    text: This attack does 30 damage for each Pokémon Tool card attached to all Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

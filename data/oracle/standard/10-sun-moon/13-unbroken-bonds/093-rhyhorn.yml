@@ -1,0 +1,44 @@
+name: Rhyhorn
+
+origin: unbroken-bonds-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 111
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Horn Attack
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boulder Crush
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

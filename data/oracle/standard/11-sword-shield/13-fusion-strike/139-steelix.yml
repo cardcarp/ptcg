@@ -1,0 +1,50 @@
+name: Steelix
+
+origin: fusion-strike-139
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 190
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Powerful Rage
+    text: This attack does 20 damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Earthquake
+    text: This attack also does 30 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - E
+
+errata: []

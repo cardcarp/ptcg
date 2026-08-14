@@ -1,0 +1,48 @@
+name: Crabominable
+
+origin: unbroken-bonds-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Crabrawler
+
+dex: 740
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fight Alone
+    text: If you have fewer Pokémon in play than your opponent, this attack does 50 more damage for each Pokémon fewer you have in play.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Magnum Punch
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

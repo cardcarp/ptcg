@@ -1,0 +1,53 @@
+name: Salamence LV.X
+
+origin: arceus-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+
+type:
+  - Colorless
+
+hp: 160
+
+preevolution:
+  - Salamence
+
+dex: 373
+
+rule:
+  - type: ability
+    name: Double Fall
+    text: Once during your turn (before your attack), when you put Salamence LV.X from your hand onto your Active Salamence, you may use this power. For each of your opponent's Pokémon that is Knocked Out by damage from Salamence's attacks this turn, take 1 more Prize card.
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+      - Colorless
+    name: Steam Blast
+    text: Discard an Energy card attached to Salamence.
+    damage: 100
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - Put this card onto your Active Salamence. Salamence LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

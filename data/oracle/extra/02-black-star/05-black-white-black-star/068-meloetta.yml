@@ -1,0 +1,42 @@
+name: Meloetta
+
+origin: black-white-black-star-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 648
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Sing
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psyburn
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

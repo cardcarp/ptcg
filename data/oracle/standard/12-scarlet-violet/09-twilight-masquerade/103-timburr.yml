@@ -1,0 +1,37 @@
+name: Timburr
+
+origin: twilight-masquerade-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 532
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Best Punch
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

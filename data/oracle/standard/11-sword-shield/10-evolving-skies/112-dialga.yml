@@ -1,0 +1,43 @@
+name: Dialga
+
+origin: evolving-skies-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 483
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Chrono Wind
+    text: If the Defending Pokémon is a Pokémon V, it can't attack during your opponent's next turn.
+    damage: 80
+  - type: attack
+    cost:
+      - Psychic
+      - Metal
+      - Metal
+      - Colorless
+    name: Heavy Impact
+    damage: 210
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

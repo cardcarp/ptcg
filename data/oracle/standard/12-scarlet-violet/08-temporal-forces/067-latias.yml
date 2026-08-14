@@ -1,0 +1,47 @@
+name: Latias
+
+origin: temporal-forces-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 380
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Allure
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Lagoon Flight
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

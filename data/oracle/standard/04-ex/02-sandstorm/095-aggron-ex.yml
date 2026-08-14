@@ -1,0 +1,64 @@
+name: Aggron ex
+
+origin: sandstorm-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Lairon
+
+dex: 306
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rend
+    text: If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Metal Surge
+    text: Does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Skitty
+
+origin: ruby-sapphire-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 300
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Plus Energy
+    text: Attach a basic Energy card from your hand to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

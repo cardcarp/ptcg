@@ -1,0 +1,48 @@
+name: Torracat
+
+origin: silver-tempest-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Litten
+
+dex: 726
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Gritty Claws
+    text: During your opponent's next turn, if this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10.
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Combustion
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

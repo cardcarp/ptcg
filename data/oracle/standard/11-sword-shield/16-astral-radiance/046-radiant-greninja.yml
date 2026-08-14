@@ -1,0 +1,45 @@
+name: Radiant Greninja
+
+origin: astral-radiance-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Radiant
+
+type:
+  - Water
+
+hp: 130
+
+dex: 658
+
+rule:
+  - type: ability
+    name: Concealed Cards
+    text: You must discard an Energy card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Moonlight Shuriken
+    text: Discard 2 Energy from this Pokémon. This attack does 90 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+regulation:
+  - F
+
+errata: []

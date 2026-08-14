@@ -1,0 +1,44 @@
+name: Meloetta
+
+origin: black-white-black-star-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 648
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Smack
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Acrobatics
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

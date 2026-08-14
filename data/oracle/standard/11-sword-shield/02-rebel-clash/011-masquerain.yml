@@ -1,0 +1,47 @@
+name: Masquerain
+
+origin: rebel-clash-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Surskit
+
+dex: 284
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Threatening Pattern
+    text: During your opponent's next turn, Energy can't be attached from your opponent's hand to the Defending Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: U-turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

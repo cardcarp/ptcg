@@ -1,0 +1,40 @@
+name: Mr. Mime
+
+origin: plasma-freeze-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 122
+
+rule:
+  - type: ability
+    name: Bench Barrier
+    text: Prevent all damage done to your Benched Pokémon by attacks.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psy Bolt
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

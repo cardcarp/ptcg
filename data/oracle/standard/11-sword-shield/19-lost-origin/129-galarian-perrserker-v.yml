@@ -1,0 +1,53 @@
+name: Galarian Perrserker V
+
+origin: lost-origin-129
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Metal
+
+hp: 200
+
+dex: 863
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Feelin' Fine
+    text: Draw 3 cards.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Treasure Rush
+    text: This attack does 20 damage for each card in your hand.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

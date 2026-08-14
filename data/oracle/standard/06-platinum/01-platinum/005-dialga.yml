@@ -1,0 +1,46 @@
+name: Dialga
+
+origin: platinum-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 100
+
+dex: 483
+
+rule:
+  - type: ability
+    name: Reverse Time
+    text: Once during your turn, when you put Dialga from your hand onto your Bench, you may search your discard pile for up to 3 in any combination of Pokémon (excluding Pokémon LV.X) and basic Energy cards. Show them to your opponent and put them on top of your deck in any order.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Time-Space Traveling
+    text: Draw cards until you have 7 cards in your hand.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

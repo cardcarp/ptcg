@@ -1,0 +1,48 @@
+name: Crustle
+
+origin: paradox-rift-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Dwebble
+
+dex: 558
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Confront
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Crag Bash
+    text: During your opponent's next turn, this Pokémon takes 100 less damage from attacks from Evolution Pokémon (after applying Weakness and Resistance).
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

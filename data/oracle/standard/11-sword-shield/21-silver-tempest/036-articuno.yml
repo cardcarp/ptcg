@@ -1,0 +1,43 @@
+name: Articuno
+
+origin: silver-tempest-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 144
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Ice Wing
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Wild Freeze
+    text: This Pokémon also does 50 damage to itself. Your opponent's Active Pokémon is now Paralyzed.
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,49 @@
+name: Articuno-GX
+
+origin: celestial-storm-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Water
+
+hp: 170
+
+dex: 144
+
+rule:
+  - type: ability
+    name: Legendary Ascent
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may switch it with your Active Pokémon. If you do, move any number of Water Energy from your other Pokémon to this Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Ice Wing
+    damage: 130
+  - type: attack
+    cost:
+      - Water
+    name: Cold Crush-GX
+    text: Discard all Energy from both Active Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

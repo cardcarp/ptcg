@@ -1,0 +1,47 @@
+name: Team Magma's Torkoal
+
+origin: team-magma-vs-team-aqua-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+  - Darkness
+
+hp: 80
+
+dex: 324
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Magma Burn
+    text: Discard the top card from your opponent's deck, and flip a coin. If tails, discard a Fire Energy attached to Team Magma's Torkoal.
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Hot Air
+    text: Discard a Fire Energy attached to Team Magma's Torkoal and your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Fire Darkness type.
+
+regulation:
+
+errata: []

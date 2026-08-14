@@ -1,0 +1,39 @@
+name: Sprigatito
+
+origin: scarlet-violet-black-star-191
+
+layout: standard
+
+category: Pokémon
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 906
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leafage
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

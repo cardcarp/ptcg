@@ -1,0 +1,44 @@
+name: Jirachi
+
+origin: paradox-rift-126
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 385
+
+rule:
+  - type: ability
+    name: Stellar Veil
+    text: Prevent all damage counters from being placed on your Benched Pokémon by effects of attacks used by your opponent's Basic Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Charge Energy
+    text: Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

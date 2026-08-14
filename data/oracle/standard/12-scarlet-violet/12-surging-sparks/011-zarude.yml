@@ -1,0 +1,46 @@
+name: Zarude
+
+origin: surging-sparks-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 893
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Leaf Drain
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Jungle Whip
+    text: You may put all Energy attached to this Pokémon into your hand to have this attack do 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

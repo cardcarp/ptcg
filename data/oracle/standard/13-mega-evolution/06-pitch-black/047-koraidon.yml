@@ -1,0 +1,46 @@
+name: Koraidon
+
+origin: pitch-black-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 1007
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Battle Claw
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Gaia Impact
+    text: Discard all Energy from this Pokémon.
+    damage: 190
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

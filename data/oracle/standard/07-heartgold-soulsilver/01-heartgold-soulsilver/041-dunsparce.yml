@@ -1,0 +1,41 @@
+name: Dunsparce
+
+origin: heartgold-soulsilver-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 206
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Glare
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Colorless
+    name: Fade Out
+    text: Return Dunsparce and all cards attached to it to your hand.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

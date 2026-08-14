@@ -1,0 +1,35 @@
+name: Seel
+
+origin: base-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 86
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Headbutt
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

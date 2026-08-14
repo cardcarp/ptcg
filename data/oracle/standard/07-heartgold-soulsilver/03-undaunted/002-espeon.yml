@@ -1,0 +1,45 @@
+name: Espeon
+
+origin: undaunted-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Solar Suggestion
+    text: Move up to 4 damage counters from any of your Pokémon to any of your opponent's Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psybeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

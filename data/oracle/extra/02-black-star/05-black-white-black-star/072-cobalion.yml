@@ -1,0 +1,47 @@
+name: Cobalion
+
+origin: black-white-black-star-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 120
+
+dex: 638
+
+rule:
+  - type: ability
+    name: Justified
+    text: Each of this Pokémon's attack does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Iron Head
+    text: Flip a coin until you get tails. This attack does 20 more damage for each heads.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

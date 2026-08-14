@@ -1,0 +1,47 @@
+name: Mightyena
+
+origin: vivid-voltage-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Ferocious Bellow
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 50 less damage (before applying Weakness and Resistance).
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Pitch-Black Fangs
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

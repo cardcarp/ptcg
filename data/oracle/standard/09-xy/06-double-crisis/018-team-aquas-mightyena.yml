@@ -1,0 +1,54 @@
+name: Team Aqua's Mightyena
+
+origin: double-crisis-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Team Aqua's Poochyena
+
+dex: 262
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Teampact
+    text: Flip a coin for each Team Aqua Pokémon you have in play. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

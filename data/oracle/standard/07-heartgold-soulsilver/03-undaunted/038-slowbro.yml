@@ -1,0 +1,46 @@
+name: Slowbro
+
+origin: undaunted-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Full-Belly Refresh
+    text: Remove all Special Conditions and 3 damage counters from Slowbro.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Startling Trip
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Slowbro is now Confused.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,52 @@
+name: Mismagius
+
+origin: diamond-pearl-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Avenge
+    text: Count the number of your Pokémon that have any damage counters on them. Put that many damage counters on the Defending Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psywave
+    text: Does 30 damage plus 20 more damage for each Energy attached to the Defending Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

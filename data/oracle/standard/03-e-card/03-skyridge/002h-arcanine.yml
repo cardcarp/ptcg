@@ -1,0 +1,50 @@
+name: Arcanine
+
+origin: skyridge-002h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: ability
+    name: Energy Recharge
+    text: When you play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to Arcanine.
+  - type: attack
+    cost:
+      - Colorless
+    name: Shake
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: White Flames
+    text: Discard all Fire Energy cards attached to Arcanine.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

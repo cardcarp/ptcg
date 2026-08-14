@@ -1,0 +1,52 @@
+name: Golem ex
+
+origin: 151-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Fighting
+
+hp: 330
+
+preevolution:
+  - Graveler
+
+dex: 76
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Dynamic Roll
+    text: During your next turn, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Blaster
+    text: This attack's damage isn't affected by Resistance.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

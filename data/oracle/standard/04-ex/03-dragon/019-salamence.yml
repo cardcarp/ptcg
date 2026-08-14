@@ -1,0 +1,40 @@
+name: Salamence
+
+origin: dragon-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: ability
+    name: Intimidating Fang
+    text: As long as Salamence is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Dragon Flame
+    text: You may discard an Energy card attached to Salamence. If you do, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+retreat: 2
+
+regulation:
+
+errata: []

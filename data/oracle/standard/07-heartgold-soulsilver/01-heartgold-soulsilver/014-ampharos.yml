@@ -1,0 +1,52 @@
+name: Ampharos
+
+origin: heartgold-soulsilver-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Acceleration Bolt
+    text: Search your deck for up to 2 basic Energy cards and attach them to 1 of your Pokémon. Shuffle your deck afterward.
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder
+    text: Flip a coin. If tails, Ampharos does 20 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

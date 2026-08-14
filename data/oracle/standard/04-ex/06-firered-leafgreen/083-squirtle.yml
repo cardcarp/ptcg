@@ -1,0 +1,42 @@
+name: Squirtle
+
+origin: firered-leafgreen-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 7
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bubble
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Smash Turn
+    text: After your attack, you may switch Squirtle with 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

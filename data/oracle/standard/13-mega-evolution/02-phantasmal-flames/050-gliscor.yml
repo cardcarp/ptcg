@@ -1,0 +1,40 @@
+name: Gliscor
+
+origin: phantasmal-flames-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Poison Ring
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

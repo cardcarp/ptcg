@@ -1,0 +1,49 @@
+name: Dark Weezing
+
+origin: team-rocket-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Mass Explosion
+    text: Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play (Apply Weakness and Resistance.). Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing (even your own). Don't apply Weakness and Resistance.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Stun Gas
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

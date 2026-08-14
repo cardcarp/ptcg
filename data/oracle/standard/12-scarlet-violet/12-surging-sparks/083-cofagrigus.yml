@@ -1,0 +1,51 @@
+name: Cofagrigus
+
+origin: surging-sparks-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Yamask
+
+dex: 563
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Law of the Underworld
+    text: Put 6 damage counters on each Pokémon that has an Ability (both yours and your opponent's).
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Spooky Shot
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

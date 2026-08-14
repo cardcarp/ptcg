@@ -1,0 +1,37 @@
+name: Finizen
+
+origin: obsidian-flames-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 963
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Tail Smack
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

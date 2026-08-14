@@ -1,0 +1,42 @@
+name: Victini ◇
+
+origin: dragon-majesty-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Prism Star
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 494
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Infinity
+    text: This attack does 20 damage for each basic Energy card in your discard pile. Then, shuffle those cards into your deck.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+regulation:
+
+errata: []

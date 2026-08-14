@@ -1,0 +1,42 @@
+name: Drowzee
+
+origin: unbroken-bonds-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 96
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Hypnosis
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psypunch
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

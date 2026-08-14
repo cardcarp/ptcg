@@ -1,0 +1,50 @@
+name: Mega Audino ex
+
+origin: ascended-heroes-172
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Colorless
+
+hp: 270
+
+dex: 531
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Kaleidowaltz
+    text: Flip 3 coins. For each heads, search your deck for up to 2 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Ear Force
+    text: This attack does 80 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

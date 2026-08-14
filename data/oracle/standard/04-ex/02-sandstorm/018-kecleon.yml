@@ -1,0 +1,41 @@
+name: Kecleon
+
+origin: sandstorm-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 352
+
+rule:
+  - type: ability
+    name: Energy Variation
+    text: Kecleon's type is the same as every type of basic Energy card attached to Kecleon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

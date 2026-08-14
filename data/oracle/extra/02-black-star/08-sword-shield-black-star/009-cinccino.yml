@@ -1,0 +1,43 @@
+name: Cinccino
+
+origin: sword-shield-black-star-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Minccino
+
+dex: 573
+
+rule:
+  - type: ability
+    name: Make Do
+    text: You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards.
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Assist
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

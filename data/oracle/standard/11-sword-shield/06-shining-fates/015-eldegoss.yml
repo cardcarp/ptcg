@@ -1,0 +1,45 @@
+name: Eldegoss
+
+origin: shining-fates-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Gossifleur
+
+dex: 830
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Enriching Seeds
+    text: Heal all damage from 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Grass
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

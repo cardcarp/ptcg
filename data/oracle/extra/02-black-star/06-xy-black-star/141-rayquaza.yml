@@ -1,0 +1,47 @@
+name: Rayquaza
+
+origin: xy-black-star-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Dual Claw
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Dragon Blast
+    text: Discard 1 Fire Energy and 1 Lightning Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

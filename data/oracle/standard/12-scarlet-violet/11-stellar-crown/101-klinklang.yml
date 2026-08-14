@@ -1,0 +1,49 @@
+name: Klinklang
+
+origin: stellar-crown-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Klang
+
+dex: 601
+
+rule:
+  - type: ability
+    name: Emergency Rotation
+    text: Once during your turn, if this Pokémon is in your hand and your opponent has any Stage 2 Pokémon in play, you may put this Pokémon onto your Bench.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hyper Ray
+    text: Discard all Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

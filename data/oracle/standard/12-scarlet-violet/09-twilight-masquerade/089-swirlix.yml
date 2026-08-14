@@ -1,0 +1,39 @@
+name: Swirlix
+
+origin: twilight-masquerade-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 684
+
+rule:
+  - type: ability
+    name: Festival Lead
+    text: If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+    name: Sneaky Placement
+    text: Put 2 damage counters on 1 of your opponent's Pokémon.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

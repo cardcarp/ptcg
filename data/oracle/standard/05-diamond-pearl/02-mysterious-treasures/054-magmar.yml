@@ -1,0 +1,43 @@
+name: Magmar
+
+origin: mysterious-treasures-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 126
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy attached to Magmar.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

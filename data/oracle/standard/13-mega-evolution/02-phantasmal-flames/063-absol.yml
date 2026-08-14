@@ -1,0 +1,42 @@
+name: Absol
+
+origin: phantasmal-flames-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 359
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Allure
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Cutter
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

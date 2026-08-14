@@ -1,0 +1,47 @@
+name: Charizard
+
+origin: expedition-base-set-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Smash
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard 1 Fire Energy card attached to Charizard.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

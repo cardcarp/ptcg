@@ -1,0 +1,53 @@
+name: Articuno
+
+origin: skyridge-003h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 144
+
+rule:
+  - type: ability
+    name: Water Immunity
+    text: You can't attach Water Energy cards from your hand to Articuno.
+  - type: attack
+    cost:
+      - Colorless
+    name: Freeze Solid
+    text: If there are any Water Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Articuno.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Ice Cyclone
+    text: Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your Pokémon in play. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

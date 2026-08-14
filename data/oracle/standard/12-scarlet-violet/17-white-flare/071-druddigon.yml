@@ -1,0 +1,41 @@
+name: Druddigon
+
+origin: white-flare-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 621
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shred
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 60 more damage.
+    damage: 90
+    modifier: +
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

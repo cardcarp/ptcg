@@ -1,0 +1,41 @@
+name: Corsola
+
+origin: secret-wonders-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 222
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rally
+    text: Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hook
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

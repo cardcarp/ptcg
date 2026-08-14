@@ -1,0 +1,48 @@
+name: Blastoise V
+
+origin: sword-shield-black-star-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 220
+
+dex: 9
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Torrential Cannon
+    text: During your next turn, this Pokémon can't use Torrential Cannon.
+    damage: 200
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

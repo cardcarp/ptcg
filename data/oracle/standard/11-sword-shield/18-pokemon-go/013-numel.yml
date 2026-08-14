@@ -1,0 +1,46 @@
+name: Numel
+
+origin: pokemon-go-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 322
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

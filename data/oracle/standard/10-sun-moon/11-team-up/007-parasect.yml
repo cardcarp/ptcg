@@ -1,0 +1,43 @@
+name: Parasect
+
+origin: team-up-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Paras
+
+dex: 47
+
+rule:
+  - type: ability
+    name: Panic Spores
+    text: Put 2 damage counters on your opponent's Confused Pokémon between turns.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Mysterious Powder
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

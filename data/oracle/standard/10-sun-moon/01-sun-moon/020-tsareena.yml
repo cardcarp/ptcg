@@ -1,0 +1,44 @@
+name: Tsareena
+
+origin: sun-moon-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Steenee
+
+dex: 763
+
+rule:
+  - type: ability
+    name: Queenly Majesty
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may have your opponent reveal their hand. Then, discard a card from it.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Trop Kick
+    text: Heal 20 damage and remove all Special Conditions from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

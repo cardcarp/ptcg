@@ -1,0 +1,36 @@
+name: Popplio
+
+origin: pitch-black-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 728
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Pound
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

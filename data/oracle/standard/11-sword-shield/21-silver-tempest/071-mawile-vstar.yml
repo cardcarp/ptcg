@@ -1,0 +1,48 @@
+name: Mawile VSTAR
+
+origin: silver-tempest-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Psychic
+
+hp: 260
+
+preevolution:
+  - Mawile V
+
+dex: 303
+
+rule:
+  - type: ability
+    name: Star Rondo
+    text: During your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon. If you do, switch 1 of your opponent's Benched Pokémon with their Active Pokémon. (You can't use more than 1 VSTAR Power in a game.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sudden Eater
+    text: If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

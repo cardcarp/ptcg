@@ -1,0 +1,35 @@
+name: Kricketot
+
+origin: breakpoint-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 401
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bug Hunch
+    text: Search your deck for up to 3 Grass Pokémon, reveal them, and put them into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

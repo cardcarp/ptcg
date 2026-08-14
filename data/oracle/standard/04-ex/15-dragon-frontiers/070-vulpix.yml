@@ -1,0 +1,42 @@
+name: Vulpix δ
+
+origin: dragon-frontiers-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 37
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hypnotic Gaze
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Will-o'-the-wisp
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

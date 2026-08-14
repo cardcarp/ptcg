@@ -1,0 +1,46 @@
+name: Kingdra
+
+origin: xy-black-star-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 130
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gather Strength
+    text: Search your deck for up to 4 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Lightning
+    name: Dragon Blast
+    text: Discard a Water and a Lightning Energy attached to this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

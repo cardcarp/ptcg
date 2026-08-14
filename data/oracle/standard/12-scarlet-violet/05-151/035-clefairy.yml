@@ -1,0 +1,42 @@
+name: Clefairy
+
+origin: 151-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 35
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Moon-Viewing Invitation
+    text: Search your deck for up to 3 Clefairy and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Smack
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

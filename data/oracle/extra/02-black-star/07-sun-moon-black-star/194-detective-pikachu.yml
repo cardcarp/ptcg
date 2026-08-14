@@ -1,0 +1,40 @@
+name: Detective Pikachu
+
+origin: sun-moon-black-star-194
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Brilliant Deduction
+    text: Look at the top 4 cards of your deck and put 1 of them into your hand. Shuffle the other cards back into your deck.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

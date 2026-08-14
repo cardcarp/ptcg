@@ -1,0 +1,52 @@
+name: Cherrim
+
+origin: diamond-pearl-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Cherubi
+
+dex: 421
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Worry Seed
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Magical Leaf
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Azumarill
+
+origin: sandstorm-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Drizzle
+    text: If you have Water Energy cards in your hand, attach as many Water Energy cards as you like to any of your Active Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Max Bubbles
+    text: Flip a coin for each Energy attached to all of your Active Pokémon. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

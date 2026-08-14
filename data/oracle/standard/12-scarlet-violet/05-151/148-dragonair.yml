@@ -1,0 +1,41 @@
+name: Dragonair
+
+origin: 151-148
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 100
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Beat
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+    name: Aqua Slash
+    text: During your next turn, this Pokémon can't attack.
+    damage: 90
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,50 @@
+name: Iono's Bellibolt ex
+
+origin: scarlet-violet-black-star-194
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Lightning
+
+hp: 280
+
+preevolution:
+  - Iono's Tadbulb
+
+dex: 939
+
+rule:
+  - type: ability
+    name: Electric Streamer
+    text: As often as you like during your turn, you may attach a Basic Lightning Energy card from your hand to 1 of your Iono's Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunderous Bolt
+    text: During your next turn, this Pokémon can't attack.
+    damage: 230
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

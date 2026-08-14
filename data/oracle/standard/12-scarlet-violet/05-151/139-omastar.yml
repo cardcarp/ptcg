@@ -1,0 +1,44 @@
+name: Omastar
+
+origin: 151-139
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Omanyte
+
+dex: 139
+
+rule:
+  - type: ability
+    name: Primordial Tentacles
+    text: As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon can't retreat.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Aqua Split
+    text: This attack also does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

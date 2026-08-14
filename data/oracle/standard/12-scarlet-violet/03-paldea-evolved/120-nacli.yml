@@ -1,0 +1,36 @@
+name: Nacli
+
+origin: paldea-evolved-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 932
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

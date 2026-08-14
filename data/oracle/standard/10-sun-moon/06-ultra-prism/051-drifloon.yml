@@ -1,0 +1,45 @@
+name: Drifloon
+
+origin: ultra-prism-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 425
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Creepy Wind
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Colorless
+    name: Hang Down
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Latios
+
+origin: nintendo-black-star-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Super Psy
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Psychic
+      - Lightning
+    name: Freeze Dry
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

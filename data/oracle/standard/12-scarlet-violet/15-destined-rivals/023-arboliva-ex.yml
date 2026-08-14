@@ -1,0 +1,51 @@
+name: Arboliva ex
+
+origin: destined-rivals-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Grass
+
+hp: 310
+
+preevolution:
+  - Dolliv
+
+dex: 930
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Oil Salvo
+    text: Choose 1 of your opponent's Pokémon 6 times. (You can choose the same Pokémon more than once.) For each time you chose a Pokémon, do 20 damage to it. This damage isn't affected by Weakness or Resistance.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Aroma Shot
+    text: This Pokémon recovers from all Special Conditions.
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

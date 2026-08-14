@@ -1,0 +1,48 @@
+name: Dachsbun ex
+
+origin: stellar-crown-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 250
+
+preevolution:
+  - Fidough
+
+dex: 927
+
+rule:
+  - type: ability
+    name: Time to Chow Down
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from each of your Evolution Pokémon. If you healed any damage in this way, discard all Energy from those Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wonder Shine
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

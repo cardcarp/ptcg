@@ -1,0 +1,53 @@
+name: Honchkrow
+
+origin: dragons-exalted-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Murkrow
+
+dex: 430
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Whirlwind
+    text: You may have your opponent switch the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Diving Swipe
+    text: Discard a random card from your opponent's hand.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

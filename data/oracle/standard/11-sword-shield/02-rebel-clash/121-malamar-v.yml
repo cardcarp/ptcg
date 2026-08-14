@@ -1,0 +1,49 @@
+name: Malamar V
+
+origin: rebel-clash-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 687
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Drag Off
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 30 damage to the new Active Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Brain Shake
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

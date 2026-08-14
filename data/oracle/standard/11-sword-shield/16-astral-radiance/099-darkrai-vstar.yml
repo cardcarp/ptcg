@@ -1,0 +1,48 @@
+name: Darkrai VSTAR
+
+origin: astral-radiance-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Darkness
+
+hp: 270
+
+preevolution:
+  - Darkrai V
+
+dex: 491
+
+rule:
+  - type: ability
+    name: Star Abyss
+    text: During your turn, you may put up to 2 Item cards from your discard pile into your hand. (You can't use more than 1 VSTAR Power in a game.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dark Pulse
+    text: This attack does 30 more damage for each Darkness Energy attached to all of your Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

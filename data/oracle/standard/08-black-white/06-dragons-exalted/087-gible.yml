@@ -1,0 +1,43 @@
+name: Gible
+
+origin: dragons-exalted-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 443
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Sand-Attack
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

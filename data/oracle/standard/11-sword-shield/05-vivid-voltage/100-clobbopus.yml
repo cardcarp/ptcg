@@ -1,0 +1,42 @@
+name: Clobbopus
+
+origin: vivid-voltage-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 852
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Beat
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Hammer In
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

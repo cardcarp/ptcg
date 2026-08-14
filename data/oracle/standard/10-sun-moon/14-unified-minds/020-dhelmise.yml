@@ -1,0 +1,41 @@
+name: Dhelmise
+
+origin: unified-minds-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 781
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sea Creeper Net
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Spinning Attack
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

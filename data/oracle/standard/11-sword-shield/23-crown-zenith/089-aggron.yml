@@ -1,0 +1,55 @@
+name: Aggron
+
+origin: crown-zenith-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 180
+
+preevolution:
+  - Lairon
+
+dex: 306
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Counter Press
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.
+    damage: 90
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 180
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

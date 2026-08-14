@@ -1,0 +1,47 @@
+name: Vanilluxe
+
+origin: plasma-storm-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Vanillish
+
+dex: 584
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Enefountain
+    text: Attach 2 basic Energy cards from your hand to 1 of your Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Blizzard
+    text: Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,51 @@
+name: Magmortar
+
+origin: unleashed-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Magmar
+
+dex: 467
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Hard Crush
+    text: Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Mantle Bazooka
+    text: Discard 2 Fire Energy attached to Magmortar.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,35 @@
+name: Staryu
+
+origin: base-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 120
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Slap
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

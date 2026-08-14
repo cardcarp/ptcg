@@ -1,0 +1,48 @@
+name: Zapdos
+
+origin: evolutions-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder
+    text: This Pokémon does 30 damage to itself.
+    damage: 90
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunderbolt
+    text: Discard all Energy attached to this Pokémon.
+    damage: 170
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

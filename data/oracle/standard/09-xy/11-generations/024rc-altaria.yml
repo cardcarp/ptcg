@@ -1,0 +1,51 @@
+name: Altaria
+
+origin: generations-024rc
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fairy Friend
+    text: If you have any Fairy Pokémon on your Bench, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

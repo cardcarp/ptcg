@@ -1,0 +1,54 @@
+name: Vibrava δ
+
+origin: dragon-frontiers-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Trapinch
+
+dex: 329
+
+rule:
+  - type: ability
+    name: Psychic Wing
+    text: If Vibrava has any Psychic Energy attached to it, the Retreat Cost for Vibrava is 0.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Quick Blow
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

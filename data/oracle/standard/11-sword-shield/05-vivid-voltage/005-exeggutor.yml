@@ -1,0 +1,47 @@
+name: Exeggutor
+
+origin: vivid-voltage-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Head Crack
+    text: Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

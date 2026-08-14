@@ -1,0 +1,57 @@
+name: Gyarados δ
+
+origin: holon-phantoms-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Lightning
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: ability
+    name: Delta Reactor
+    text: As long as any Stadium card with Holon in its name is in play, each of your Pokémon that has δ on its card does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Lightning Metal type.
+
+regulation:
+
+errata: []

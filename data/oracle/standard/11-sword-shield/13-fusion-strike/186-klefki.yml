@@ -1,0 +1,42 @@
+name: Klefki
+
+origin: fusion-strike-186
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 707
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Unlock
+    text: Draw 2 cards.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

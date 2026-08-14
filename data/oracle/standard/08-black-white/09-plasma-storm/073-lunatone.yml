@@ -1,0 +1,39 @@
+name: Lunatone
+
+origin: plasma-storm-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 337
+
+rule:
+  - type: ability
+    name: Premonition
+    text: Once during your turn (before your attack), you may look at the top 2 cards of your deck and put them back on top of your deck in any order.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

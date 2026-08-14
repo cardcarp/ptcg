@@ -1,0 +1,32 @@
+name: Magby
+
+origin: neo-genesis-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Baby
+
+type:
+  - Fire
+
+hp: 30
+
+dex: 240
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sputter
+    text: All Pokémon Powers stop working until the end of your next turn.
+    damage: 10
+
+rulebox:
+  - If this Baby Pokémon is your Active Pokémon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent's turn ends without an attack.
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Reshiram
+
+origin: roaring-skies-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 643
+
+rule:
+  - type: ability
+    name: Turboblaze
+    text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may attach a Fire Energy card from your hand to 1 of your Dragon Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Lightning
+      - Colorless
+    name: Bright Wing
+    text: Discard a Fire Energy attached to this Pokémon.
+    damage: 110
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

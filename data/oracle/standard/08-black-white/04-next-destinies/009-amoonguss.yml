@@ -1,0 +1,49 @@
+name: Amoonguss
+
+origin: next-destinies-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Foongus
+
+dex: 591
+
+rule:
+  - type: ability
+    name: Sporprise
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. If you do, your opponent's Active Pokémon is now Confused and Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

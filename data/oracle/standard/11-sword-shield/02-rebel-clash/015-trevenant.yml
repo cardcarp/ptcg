@@ -1,0 +1,47 @@
+name: Trevenant
+
+origin: rebel-clash-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Seed Bomb
+    damage: 40
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Shadow Cage
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

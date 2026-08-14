@@ -1,0 +1,51 @@
+name: Nidoking
+
+origin: aquapolis-018h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Nidorino
+
+dex: 34
+
+rule:
+  - type: ability
+    name: Earth Rage
+    text: Once during your turn (before your attack), if Nidoking is your Active Pokémon, you may flip a coin. If heads, put a damage counter on each of your opponent's Benched Pokémon. This power can't be used if Nidoking is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Giant Horn
+    text: Flip a coin. If heads, this attack does 50 damage plus 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

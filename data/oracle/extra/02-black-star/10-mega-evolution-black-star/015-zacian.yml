@@ -1,0 +1,39 @@
+name: Zacian
+
+origin: mega-evolution-black-star-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 888
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Limit Break
+    text: If your opponent has 3 or fewer Prize cards remaining, this attack does 90 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

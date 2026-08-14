@@ -1,0 +1,47 @@
+name: Beldum
+
+origin: ancient-origins-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 374
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Ram
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Spinning Attack
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Meltan
+
+origin: temporal-forces-116
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 808
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+    name: Headbutt
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

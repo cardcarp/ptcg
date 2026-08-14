@@ -1,0 +1,51 @@
+name: Dratini
+
+origin: team-rocket-returns-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 147
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dragon Song
+    text: Each Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+    name: Tail Strike
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

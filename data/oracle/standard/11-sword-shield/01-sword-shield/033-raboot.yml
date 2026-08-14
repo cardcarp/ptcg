@@ -1,0 +1,45 @@
+name: Raboot
+
+origin: sword-shield-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Scorbunny
+
+dex: 814
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Kick
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Heat Blast
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,46 @@
+name: Radiant Venusaur
+
+origin: pokemon-go-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Radiant
+
+type:
+  - Grass
+
+hp: 150
+
+dex: 3
+
+rule:
+  - type: ability
+    name: Sunny Bloom
+    text: Once at the end of your turn (after your attack), you may use this Ability. Draw cards until you have 4 cards in your hand.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Pollen Hazard
+    text: Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,45 @@
+name: Rhyperior
+
+origin: burning-shadows-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Rhydon
+
+dex: 464
+
+rule:
+  - type: ability
+    name: Toppling Wind
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may discard the top 3 cards of your opponent's deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Wrecker
+    text: This attack's damage isn't affected by Weakness or Resistance. This Pokémon can't attack during your next turn.
+    damage: 170
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Gallade
+
+origin: chilling-reign-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 170
+
+preevolution:
+  - Kirlia
+
+dex: 475
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Feint
+    text: This attack's damage isn't affected by Resistance.
+    damage: 60
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dynablade
+    text: This attack does 60 damage for each of your opponent's Pokémon V in play.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

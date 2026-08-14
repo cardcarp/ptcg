@@ -1,0 +1,50 @@
+name: Delphox-EX
+
+origin: xy-black-star-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 170
+
+dex: 655
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Psybeam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wonder Flare
+    text: Your opponent reveals his or her hand. This attack does 40 more damage for each Energy card in your opponent's hand.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

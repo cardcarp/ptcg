@@ -1,0 +1,45 @@
+name: Sunkern
+
+origin: secret-wonders-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 191
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sun Soak
+    text: Flip a coin. If heads, remove all damage counters from Sunkern, search your deck for an Evolution card that evolves from Sunkern, and put it onto Sunkern. (This counts as evolving Sunkern.) Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+    name: Seed Bomb
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

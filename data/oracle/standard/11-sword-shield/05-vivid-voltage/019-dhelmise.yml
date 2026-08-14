@@ -1,0 +1,45 @@
+name: Dhelmise
+
+origin: vivid-voltage-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 781
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hook
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Special Anchor
+    text: If this Pokémon has any Special Energy attached, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

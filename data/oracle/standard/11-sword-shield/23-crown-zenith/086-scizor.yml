@@ -1,0 +1,55 @@
+name: Scizor
+
+origin: crown-zenith-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Scyther
+
+dex: 212
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dangerous Claws
+    text: If your opponent's Active Pokémon is a Basic Pokémon, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

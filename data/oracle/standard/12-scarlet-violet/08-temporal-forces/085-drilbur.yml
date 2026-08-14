@@ -1,0 +1,40 @@
+name: Drilbur
+
+origin: temporal-forces-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 529
+
+rule:
+  - type: ability
+    name: Dig Dig Dig
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for up to 3 Basic Fighting Energy cards and discard them. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Sand Spray
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

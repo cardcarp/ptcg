@@ -1,0 +1,41 @@
+name: Heracross
+
+origin: neo-genesis-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 214
+
+rule:
+  - type: ability
+    name: Final Blow
+    text: If Heracross's remaining HP are 20 or less, you may make its Megahorn attack's base damage 120 instead of 60. This power can't be used if Heracross is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Megahorn
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

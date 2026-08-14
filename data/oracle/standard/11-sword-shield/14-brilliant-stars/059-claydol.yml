@@ -1,0 +1,54 @@
+name: Claydol
+
+origin: brilliant-stars-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spinning Attack
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Coinciding Figures
+    text: If you and your opponent have the same number of Benched Pokémon, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

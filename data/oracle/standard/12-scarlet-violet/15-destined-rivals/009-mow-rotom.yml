@@ -1,0 +1,45 @@
+name: Mow Rotom
+
+origin: destined-rivals-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 479
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Trimming Mower
+    text: Discard a Stadium in play.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gadget Show
+    text: This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

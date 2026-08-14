@@ -1,0 +1,40 @@
+name: Starmie
+
+origin: fusion-strike-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Multishot Star
+    text: Discard any amount of Water Energy from this Pokémon. Then, for each Energy card you discarded in this way, choose 1 of your opponent's Pokémon and do 30 damage to it. (You can choose the same Pokémon more than once.) This damage isn't affected by Weakness or Resistance.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

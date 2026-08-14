@@ -1,0 +1,57 @@
+name: Melmetal
+
+origin: fusion-strike-189
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Meltan
+
+dex: 809
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Ingot Swing
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon that have an Ability.
+    damage: 80
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Blasting Hammer
+    text: Discard an Energy from this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+  - E
+
+errata: []

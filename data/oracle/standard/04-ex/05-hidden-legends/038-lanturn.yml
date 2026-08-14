@@ -1,0 +1,44 @@
+name: Lanturn
+
+origin: hidden-legends-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: ability
+    name: Energy Grounding
+    text: Once during your opponent's turn, when any of your Pokémon is Knocked Out by your opponent's attacks, you may use this power. Choose a basic Energy card discarded from the Knocked Out Pokémon and attach it to Lanturn. You can't use more than 1 Energy Grounding Poké-Power each turn.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Strike
+    text: You may discard all Lightning Energy attached to Lanturn. If you do, this attack's base damage is 90 instead of 50.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

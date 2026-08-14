@@ -1,0 +1,52 @@
+name: Scizor
+
+origin: aquapolis-021h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Scyther
+
+dex: 212
+
+rule:
+  - type: ability
+    name: Poison Resistance
+    text: Scizor can't be Poisoned.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Snatch
+    text: Before doing damage, you may choose 1 of your opponent's Benched Pokémon with no damage counters on it and switch the Defending Pokémon with it.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Metal
+    text: Flip a number of coins equal to the amount of Metal Energy attached to Scizor. This attack does 30 damage plus 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

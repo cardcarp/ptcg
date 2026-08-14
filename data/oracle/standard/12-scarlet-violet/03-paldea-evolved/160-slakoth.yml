@@ -1,0 +1,37 @@
+name: Slakoth
+
+origin: paldea-evolved-160
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 287
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Yawn
+    text: Your opponent's Active Pokémon is now Asleep.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

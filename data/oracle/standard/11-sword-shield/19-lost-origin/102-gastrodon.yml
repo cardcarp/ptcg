@@ -1,0 +1,47 @@
+name: Gastrodon
+
+origin: lost-origin-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Shellos
+
+dex: 423
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Recover
+    text: Discard an Energy from this Pokémon and heal all damage from it.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Earthquake
+    text: This attack also does 20 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 170
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

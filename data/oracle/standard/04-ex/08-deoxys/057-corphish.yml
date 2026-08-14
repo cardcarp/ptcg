@@ -1,0 +1,40 @@
+name: Corphish
+
+origin: deoxys-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 341
+
+rule:
+  - type: ability
+    name: Exoskeleton
+    text: Any damage done to Corphish by attacks is reduced by 10 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Chop
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

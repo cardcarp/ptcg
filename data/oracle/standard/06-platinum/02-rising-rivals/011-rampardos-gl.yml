@@ -1,0 +1,46 @@
+name: Rampardos GL
+
+origin: rising-rivals-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 409
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Trample
+    text: Flip a coin for each Benched Pokémon (both yours and your opponent's). If that coin flip is heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rend
+    text: If the Defending Pokémon has any damage counters on it, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

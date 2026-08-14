@@ -1,0 +1,45 @@
+name: Heracross
+
+origin: chilling-reign-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 214
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Horn Attack
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Single-Horn Throw
+    text: Flip 2 coins. If both of them are heads, this attack does 160 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

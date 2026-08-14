@@ -1,0 +1,46 @@
+name: Gothitelle
+
+origin: guardians-rising-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Gothorita
+
+dex: 576
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Tractorbeam
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 30 damage to the new Active Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Link Blast
+    text: If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached to them, this attack does 80 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Hatenna
+
+origin: chilling-reign-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 856
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psyshot
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

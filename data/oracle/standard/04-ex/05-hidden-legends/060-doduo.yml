@@ -1,0 +1,40 @@
+name: Doduo
+
+origin: hidden-legends-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 84
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Drill Peck
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

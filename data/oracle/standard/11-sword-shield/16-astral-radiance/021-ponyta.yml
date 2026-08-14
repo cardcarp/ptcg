@@ -1,0 +1,36 @@
+name: Ponyta
+
+origin: astral-radiance-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 77
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flame Tail
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

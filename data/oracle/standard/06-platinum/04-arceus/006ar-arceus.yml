@@ -1,0 +1,45 @@
+name: Arceus
+
+origin: arceus-006ar
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 493
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Lightning Turn
+    text: Switch Arceus with 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - You may have as many of this card in your deck as you like.
+
+regulation:
+
+errata: []

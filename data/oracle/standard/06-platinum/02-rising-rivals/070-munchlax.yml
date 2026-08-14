@@ -1,0 +1,39 @@
+name: Munchlax
+
+origin: rising-rivals-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 446
+
+rule:
+  - type: ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Snorlax from your hand onto Munchlax (this counts as evolving Munchlax) and remove all damage counters from Munchlax.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Errand-Running
+    text: Search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

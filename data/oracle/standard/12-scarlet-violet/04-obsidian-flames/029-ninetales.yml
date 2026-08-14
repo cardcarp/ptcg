@@ -1,0 +1,45 @@
+name: Ninetales
+
+origin: obsidian-flames-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Will-O-Wisp
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Nine-Tailed Dance
+    text: Put 9 damage counters on 1 of your opponent's Pokémon. During your next turn, this Pokémon can't attack.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

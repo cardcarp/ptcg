@@ -1,0 +1,39 @@
+name: Oshawott
+
+origin: mega-evolution-black-star-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 501
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Razor Shell
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,52 @@
+name: Zekrom-EX
+
+origin: black-white-black-star-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Lightning
+
+hp: 180
+
+dex: 644
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Glinting Claw
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Strong Volt
+    text: Discard 2 Energy attached to this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

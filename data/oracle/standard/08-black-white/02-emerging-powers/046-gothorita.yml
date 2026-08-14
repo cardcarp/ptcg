@@ -1,0 +1,45 @@
+name: Gothorita
+
+origin: emerging-powers-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Gothita
+
+dex: 575
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Deleting Glare
+    text: Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Super Psy Bolt
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

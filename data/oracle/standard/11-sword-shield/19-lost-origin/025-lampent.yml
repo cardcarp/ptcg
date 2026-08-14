@@ -1,0 +1,40 @@
+name: Lampent
+
+origin: lost-origin-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flickering Glow
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

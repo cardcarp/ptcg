@@ -1,0 +1,47 @@
+name: Feraligatr
+
+origin: heartgold-soulsilver-108
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Prime
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: ability
+    name: Rain Dance
+    text: As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Water Pokémon. This power can't be used if Feraligatr is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Hydro Crunch
+    text: Does 60 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

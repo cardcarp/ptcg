@@ -1,0 +1,47 @@
+name: Zubat
+
+origin: paradox-rift-110
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 41
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Supersonic
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Razor Wing
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

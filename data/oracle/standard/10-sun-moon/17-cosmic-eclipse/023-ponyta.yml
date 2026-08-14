@@ -1,0 +1,40 @@
+name: Ponyta
+
+origin: cosmic-eclipse-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 77
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Minor Errand-Running
+    text: Search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Slaking
+
+origin: detective-pikachu-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 180
+
+preevolution:
+  - Vigoroth
+
+dex: 289
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Pitch
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

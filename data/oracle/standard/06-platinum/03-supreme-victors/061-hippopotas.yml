@@ -1,0 +1,45 @@
+name: Hippopotas
+
+origin: supreme-victors-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 449
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Headbutt
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mud Shot
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

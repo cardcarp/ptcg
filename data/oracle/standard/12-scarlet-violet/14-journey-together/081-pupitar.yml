@@ -1,0 +1,38 @@
+name: Pupitar
+
+origin: journey-together-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 247
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: This Pokémon also does 20 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

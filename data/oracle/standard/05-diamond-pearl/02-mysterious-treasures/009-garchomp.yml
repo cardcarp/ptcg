@@ -1,0 +1,41 @@
+name: Garchomp
+
+origin: mysterious-treasures-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Gabite
+
+dex: 445
+
+rule:
+  - type: ability
+    name: Rainbow Scale
+    text: If an Active Pokémon has Weakness to any of the types of Energy attached to Garchomp, Garchomp's attacks do 40 more damage to that Pokémon (before applying Weakness and Resistance). Rainbow Scale Poké-Body can't be used if Garchomp has any Special Energy cards attached to it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Fang
+    damage: 70
+
+weakness:
+  - type: Colorless
+    delta: 30
+    operator: +
+
+regulation:
+
+errata: []

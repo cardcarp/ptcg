@@ -1,0 +1,37 @@
+name: Mow Rotom
+
+origin: stellar-crown-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 479
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Reaping Dash
+    text: Before doing damage, discard all Pokémon Tools and Special Energy from your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

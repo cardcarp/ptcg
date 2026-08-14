@@ -1,0 +1,49 @@
+name: Mewtwo
+
+origin: brilliant-stars-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Life Sucker
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psyburn
+    damage: 110
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

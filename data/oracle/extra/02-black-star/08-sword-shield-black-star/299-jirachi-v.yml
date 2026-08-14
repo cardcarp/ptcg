@@ -1,0 +1,50 @@
+name: Jirachi V
+
+origin: sword-shield-black-star-299
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 385
+
+rule:
+  - type: ability
+    name: Wish Connector
+    text: When 1 of your Basic Pokémon V is Knocked Out by damage from an attack from your opponent's Pokémon, you may move a basic Energy card from that Pokémon to another of your Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Hypnostrike
+    text: Both Active Pokémon are now Asleep.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

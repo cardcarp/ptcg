@@ -1,0 +1,43 @@
+name: Crobat G
+
+origin: platinum-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 169
+
+rule:
+  - type: ability
+    name: Flash Bite
+    text: Once during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Toxic Fang
+    text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

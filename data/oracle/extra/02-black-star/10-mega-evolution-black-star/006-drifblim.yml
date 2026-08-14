@@ -1,0 +1,51 @@
+name: Drifblim
+
+origin: mega-evolution-black-star-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Drifloon
+
+dex: 426
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Creepy Wind
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Balloon Return
+    text: Put this Pokémon and all attached cards into your hand.
+    damage: 110
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

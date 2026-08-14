@@ -1,0 +1,46 @@
+name: Galvantula
+
+origin: black-white-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Joltik
+
+dex: 596
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Electroweb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Leech Life
+    text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

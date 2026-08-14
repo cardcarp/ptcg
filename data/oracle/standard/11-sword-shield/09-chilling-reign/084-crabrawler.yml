@@ -1,0 +1,44 @@
+name: Crabrawler
+
+origin: chilling-reign-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 739
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Light Punch
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Double Lariat
+    text: Flip 2 coins. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

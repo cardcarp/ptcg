@@ -1,0 +1,51 @@
+name: Yanma
+
+origin: skyridge-116
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 193
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Yanma.
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Triple Smash
+    text: Flip 3 coins. This attack does 20 damage plus 10 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Shiftry
+
+origin: steam-siege-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Wicked Wind
+    text: Until the end of your opponent's next turn, each Stadium or Pokémon Tool card in play has no effect. (This includes cards that come into play on that turn.)
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Extrasensory
+    text: If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

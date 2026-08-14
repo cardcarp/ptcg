@@ -1,0 +1,40 @@
+name: Hisuian Growlithe
+
+origin: astral-radiance-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 58
+
+rule:
+  - type: attack
+    name: Defensive Posture
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bite
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

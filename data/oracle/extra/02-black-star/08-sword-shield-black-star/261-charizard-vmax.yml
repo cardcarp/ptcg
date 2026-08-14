@@ -1,0 +1,54 @@
+name: Charizard VMAX
+
+origin: sword-shield-black-star-261
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Fire
+
+hp: 330
+
+preevolution:
+  - Charizard V
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 100
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: G-Max Wildfire
+    text: Discard 2 Energy from this Pokémon.
+    damage: 300
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

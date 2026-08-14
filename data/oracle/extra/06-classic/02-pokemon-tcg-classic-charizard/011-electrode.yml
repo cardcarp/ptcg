@@ -1,0 +1,39 @@
+name: Electrode
+
+origin: pokemon-tcg-classic-charizard-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: ability
+    name: Buzzap
+    text: Once during your turn, you may Knock Out this Pokémon and attach it to 1 of your other Pokémon as a Special Energy card. While this card is attached to a Pokémon, it provides every type of Energy but provides only 2 Energy at a time. This Pokémon Power can't be used if this Pokémon is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunder Jolt
+    text: Flip a coin. If tails, this Pokémon also does 10 damage to itself.
+    damage: 50
+
+retreat: 1
+
+regulation:
+
+errata: []

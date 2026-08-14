@@ -1,0 +1,44 @@
+name: Arbok
+
+origin: shining-legends-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Ekans
+
+dex: 24
+
+rule:
+  - type: ability
+    name: Intimidating Pattern
+    text: As long as this Pokémon is your Active Pokémon, your opponent's Active Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Venomous Fang
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

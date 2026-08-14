@@ -1,0 +1,40 @@
+name: Spheal
+
+origin: mysterious-treasures-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 363
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+    name: Willpower
+    text: Flip a coin. If heads, during your next turn, Spheal's Rollout attack's base damage is 40.
+
+weakness:
+  - type: Metal
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

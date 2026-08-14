@@ -1,0 +1,46 @@
+name: Beheeyem
+
+origin: temporal-forces-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Elgyem
+
+dex: 606
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Cosmic Beatdown
+    text: This attack does 20 damage for each of your Pokémon in play.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

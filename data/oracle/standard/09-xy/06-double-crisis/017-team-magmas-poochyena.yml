@@ -1,0 +1,46 @@
+name: Team Magma's Poochyena
+
+origin: double-crisis-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 261
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Infiltrate
+    text: Your opponent reveals his or her hand.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

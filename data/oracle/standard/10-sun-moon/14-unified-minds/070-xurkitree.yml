@@ -1,0 +1,50 @@
+name: Xurkitree
+
+origin: unified-minds-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 796
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Three Mirrors
+    text: If your opponent has exactly 3 Prize cards remaining, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Signal Beam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

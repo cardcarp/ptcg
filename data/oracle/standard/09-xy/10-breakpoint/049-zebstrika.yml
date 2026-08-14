@@ -1,0 +1,49 @@
+name: Zebstrika
+
+origin: breakpoint-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: ability
+    name: Zap Zone
+    text: Damage from the attacks of your Lightning Pokémon isn't affected by any effects on your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crashing Bolt
+    text: If your opponent's Active Pokémon has Fighting Resistance, this attack does 60 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

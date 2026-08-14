@@ -1,0 +1,17 @@
+name:
+  type: string
+  required: true
+
+type:
+  type: string
+  required: true
+  allowed: ['standard', 'starter', 'extra']
+
+index:
+  type: string
+  nullable: true
+  coerce: str
+
+publisher:
+  type: string
+  allowed: ['official']

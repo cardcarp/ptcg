@@ -1,0 +1,47 @@
+name: Excadrill
+
+origin: temporal-forces-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mud Shot
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Wild Tackle
+    text: This Pokémon also does 50 damage to itself.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

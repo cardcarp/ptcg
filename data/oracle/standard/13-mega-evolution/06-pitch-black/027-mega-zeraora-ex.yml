@@ -1,0 +1,51 @@
+name: Mega Zeraora ex
+
+origin: pitch-black-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Lightning
+
+hp: 270
+
+dex: 807
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Thunderous Fist
+    text: This attack does 60 damage for each Lightning Energy attached to this Pokémon.
+    damage: 60
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Zepto Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

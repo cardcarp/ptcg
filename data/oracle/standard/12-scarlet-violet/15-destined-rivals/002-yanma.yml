@@ -1,0 +1,47 @@
+name: Yanma
+
+origin: destined-rivals-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 193
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Whirlwind
+    text: Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Wing
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

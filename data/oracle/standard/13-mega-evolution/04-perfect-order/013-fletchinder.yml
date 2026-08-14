@@ -1,0 +1,45 @@
+name: Fletchinder
+
+origin: perfect-order-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Fletchling
+
+dex: 662
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

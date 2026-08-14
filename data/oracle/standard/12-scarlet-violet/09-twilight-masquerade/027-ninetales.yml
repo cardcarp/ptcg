@@ -1,0 +1,41 @@
+name: Ninetales
+
+origin: twilight-masquerade-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Eerie Glow
+    text: Your opponent's Active Pokémon is now Burned and Confused.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

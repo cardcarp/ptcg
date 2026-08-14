@@ -1,0 +1,37 @@
+name: Numel
+
+origin: crystal-guardians-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 322
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Numel does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

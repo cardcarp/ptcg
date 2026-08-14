@@ -1,0 +1,47 @@
+name: Turtwig GL
+
+origin: rising-rivals-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 387
+
+rule:
+  - type: ability
+    name: Overgrow
+    text: As long as Turtwig GL's remaining HP is 60 or less, each of Turtwig GL's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Giga Drain
+    text: After your attack, remove from Turtwig GL the number of damage counters equal to the damage you did to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

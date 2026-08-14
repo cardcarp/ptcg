@@ -1,0 +1,52 @@
+name: Mismagius
+
+origin: undaunted-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Sleeping Spell
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poltergeist
+    text: Look at your opponent's hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent's hand.]
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

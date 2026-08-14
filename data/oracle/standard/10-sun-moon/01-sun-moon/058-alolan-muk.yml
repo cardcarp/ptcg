@@ -1,0 +1,45 @@
+name: Alolan Muk
+
+origin: sun-moon-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Alolan Grimer
+
+dex: 89
+
+rule:
+  - type: ability
+    name: Power of Alchemy
+    text: Each Basic Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Grimer
+
+origin: team-rocket-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 88
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Poison Gas
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Sticky Hands
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

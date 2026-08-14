@@ -1,0 +1,47 @@
+name: Vespiquen
+
+origin: paldea-evolved-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Combee
+
+dex: 416
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Stab
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+    name: Order a Raid
+    text: Choose 1 of your Benched Combee and shuffle that Pokémon and all attached cards into your deck. If you can't shuffle a Combee into your deck, this attack does nothing.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,48 @@
+name: Swalot
+
+origin: crystal-guardians-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Gulpin
+
+dex: 317
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pick and Choose
+    text: Choose either Burned or Poisoned, and either Asleep or Confused. The Defending Pokémon is now affected by both Special Conditions.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Reactive Poison
+    text: Does 50 damage plus 20 more damage for each Special Condition affecting the Defending Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

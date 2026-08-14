@@ -1,0 +1,38 @@
+name: Bunnelby
+
+origin: primal-clash-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 659
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

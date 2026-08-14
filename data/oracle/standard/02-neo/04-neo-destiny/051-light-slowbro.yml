@@ -1,0 +1,46 @@
+name: Light Slowbro
+
+origin: neo-destiny-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Fish Out
+    text: Your opponent may choose up to 3 Baby Pokémon, Basic Pokémon, and/or Evolution cards from his or her discard pile and shuffle them into his or her deck. Either way, you may do the same.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Splash About
+    text: If there are more Energy attached to the Defending Pokémon than to Light Slowbro, this attack does 20 damage plus 20 more damage. If not, this attack does 20 damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

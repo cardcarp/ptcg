@@ -1,0 +1,45 @@
+name: Mothim
+
+origin: arceus-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Burmy
+
+dex: 414
+
+rule:
+  - type: attack
+    name: Cloak Party
+    text: Search your deck for up to 3 in any combination of Burmy and Wormadam, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Assist
+    text: Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

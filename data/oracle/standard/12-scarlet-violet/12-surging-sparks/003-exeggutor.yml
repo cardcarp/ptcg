@@ -1,0 +1,41 @@
+name: Exeggutor
+
+origin: surging-sparks-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Barrage O'Clock
+    text: Flip a coin for each Energy attached to both Active Pokémon. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

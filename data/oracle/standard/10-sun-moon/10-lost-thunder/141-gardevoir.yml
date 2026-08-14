@@ -1,0 +1,52 @@
+name: Gardevoir
+
+origin: lost-thunder-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fairy
+
+hp: 130
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Brilliant Search
+    text: Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Sensitive Ray
+    text: If you played a Supporter card from your hand during this turn, this attack does 90 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

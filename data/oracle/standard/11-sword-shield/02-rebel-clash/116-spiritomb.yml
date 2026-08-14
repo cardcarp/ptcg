@@ -1,0 +1,42 @@
+name: Spiritomb
+
+origin: rebel-clash-116
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 442
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Splitting Spite
+    text: Discard the top card of each player's deck.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dripping Grudge
+    text: Put 1 damage counter on your opponent's Active Pokémon for each Pokémon in your discard pile.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

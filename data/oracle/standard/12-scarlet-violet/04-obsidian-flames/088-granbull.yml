@@ -1,0 +1,48 @@
+name: Granbull
+
+origin: obsidian-flames-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Snubbull
+
+dex: 210
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Confront
+    damage: 50
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Wild Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

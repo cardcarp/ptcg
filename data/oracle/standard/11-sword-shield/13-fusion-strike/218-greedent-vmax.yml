@@ -1,0 +1,52 @@
+name: Greedent VMAX
+
+origin: fusion-strike-218
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Colorless
+
+hp: 320
+
+preevolution:
+  - Greedent V
+
+dex: 820
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Turn a Profit
+    text: If your opponent's Basic Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Max Gimme Gimme
+    text: Draw 3 cards.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,49 @@
+name: Swanna
+
+origin: darkness-ablaze-149
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Ducklett
+
+dex: 581
+
+rule:
+  - type: ability
+    name: Sky Circus
+    text: If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Feather Slice
+    text: You may discard a card from your hand. If you do, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - D
+
+errata: []

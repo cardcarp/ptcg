@@ -1,0 +1,53 @@
+name: Krokorok
+
+origin: flashfire-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Sandile
+
+dex: 552
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Dark Clamp
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Double Swing
+    text: Flip 2 coins. This attack does 60 damage times the number of heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

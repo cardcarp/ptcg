@@ -1,0 +1,40 @@
+name: Gabite
+
+origin: paradox-rift-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Gible
+
+dex: 444
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Power Blast
+    text: Discard an Energy from this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

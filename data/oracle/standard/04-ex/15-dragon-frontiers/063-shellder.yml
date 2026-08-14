@@ -1,0 +1,37 @@
+name: Shellder δ
+
+origin: dragon-frontiers-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 90
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Shell Grab
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Iron Moth
+
+origin: paradox-rift-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Future
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 994
+
+rule:
+  - type: ability
+    name: Thermal Reactor
+    text: Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may move any amount of Fire Energy from your other Pokémon to it.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Ray
+    text: During your next turn, this Pokémon can't use Heat Ray.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

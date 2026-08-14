@@ -1,0 +1,36 @@
+name: Popplio
+
+origin: lost-thunder-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 728
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Blot
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Mienshao
+
+origin: next-destinies-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Mienfoo
+
+dex: 620
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Haul In
+    text: Search your deck for 2 Pokémon Tool cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Meditate
+    text: Does 10 more damage for each damage counter on the Defending Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

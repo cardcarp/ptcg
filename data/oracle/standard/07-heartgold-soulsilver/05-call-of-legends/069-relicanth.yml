@@ -1,0 +1,43 @@
+name: Relicanth
+
+origin: call-of-legends-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 369
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Prehistoric Wisdom
+    text: Choose a card from your hand and put it in the Lost Zone. Then, draw 3 cards.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Granite Head
+    text: During your opponent's next turn, any damage done to Relicanth by attacks is reduced by 30 (after applying Weakness and Resistance).
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

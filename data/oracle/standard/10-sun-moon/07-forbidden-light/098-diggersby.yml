@@ -1,0 +1,52 @@
+name: Diggersby
+
+origin: forbidden-light-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Bunnelby
+
+dex: 660
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mountaintop Mining
+    text: You may do 40 more damage. If you do, discard the top 2 cards of your deck.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rock Cannon
+    text: Flip a coin until you get tails. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

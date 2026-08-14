@@ -1,0 +1,42 @@
+name: Relicanth
+
+origin: unified-minds-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 369
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Deep Sea Boring
+    text: Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

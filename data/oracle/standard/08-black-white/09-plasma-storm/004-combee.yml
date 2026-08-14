@@ -1,0 +1,36 @@
+name: Combee
+
+origin: plasma-storm-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 30
+
+dex: 415
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Sting Missile
+    text: Shuffle this Pokémon and all cards attached to it into your deck.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

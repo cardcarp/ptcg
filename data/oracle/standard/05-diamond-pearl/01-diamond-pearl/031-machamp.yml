@@ -1,0 +1,49 @@
+name: Machamp
+
+origin: diamond-pearl-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Revenge
+    text: If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 20 damage plus 50 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Dynamic Punch
+    text: Flip a coin. If heads, this attack does 60 damage plus 30 more damage and the Defending Pokémon is now Confused.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

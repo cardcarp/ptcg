@@ -1,0 +1,53 @@
+name: Slowbro
+
+origin: mega-evolution-black-star-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: All Out
+    text: If you have no cards in your hand, this attack does 160 more damage.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Zen Headbutt
+    damage: 110
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,41 @@
+name: Larvitar
+
+origin: celestial-storm-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 246
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Leer
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

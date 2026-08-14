@@ -1,0 +1,49 @@
+name: Heliolisk
+
+origin: xy-black-star-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: ability
+    name: Dry Skin
+    text: Any damage done to this Pokémon by an attack from 1 of your opponent's Water Pokémon is reduced by 30 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

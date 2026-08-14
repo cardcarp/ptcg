@@ -1,0 +1,47 @@
+name: Phantump
+
+origin: xy-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 708
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Astonish
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Hook
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

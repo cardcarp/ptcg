@@ -1,0 +1,44 @@
+name: Lapras
+
+origin: breakpoint-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 131
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Errand-Running
+    text: Search your deck for a Trainer card, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Water Splash
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Glimmet
+
+origin: obsidian-flames-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 969
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Poison Shard
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

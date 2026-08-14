@@ -1,0 +1,46 @@
+name: Gligar
+
+origin: legends-awakened-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 207
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Poison Sting
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

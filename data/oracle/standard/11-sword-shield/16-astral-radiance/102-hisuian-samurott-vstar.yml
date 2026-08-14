@@ -1,0 +1,48 @@
+name: Hisuian Samurott VSTAR
+
+origin: astral-radiance-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VSTAR
+
+type:
+  - Darkness
+
+hp: 270
+
+preevolution:
+  - Hisuian Samurott V
+
+dex: 503
+
+rule:
+  - type: ability
+    name: Moon Cleave Star
+    text: During your turn, you may put 4 damage counters on 1 of your opponent's Pokémon. (You can't use more than 1 VSTAR Power in a game.)
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Merciless Blade
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 110 more damage.
+    damage: 110
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

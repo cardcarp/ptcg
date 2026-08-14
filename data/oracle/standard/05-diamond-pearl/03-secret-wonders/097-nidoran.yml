@@ -1,0 +1,40 @@
+name: Nidoran ♂
+
+origin: secret-wonders-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 32
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Psychic
+    name: Poison Skin
+    text: Flip 2 coins. If either of them is heads, the Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Lileep
+
+origin: legends-awakened-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Root Fossil
+
+dex: 345
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Astonish
+    text: Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Absorb
+    text: Remove 2 damage counters from Lileep.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

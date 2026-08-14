@@ -1,0 +1,52 @@
+name: Mamoswine
+
+origin: plasma-storm-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Piloswine
+
+dex: 473
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Stone
+    text: Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Paralyzed.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Continuous Headbutt
+    text: Flip a coin until you get tails. This attack does 90 damage times the number of heads.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

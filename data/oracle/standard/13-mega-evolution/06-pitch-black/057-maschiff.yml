@@ -1,0 +1,37 @@
+name: Maschiff
+
+origin: pitch-black-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 942
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Bite
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

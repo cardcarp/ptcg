@@ -1,0 +1,52 @@
+name: Gengar
+
+origin: stormfront-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: ability
+    name: Fainting Spell
+    text: Once during your opponent's turn, if Gengar would be Knocked Out by damage from an attack, you may flip a coin. If heads, the Defending Pokémon is Knocked Out.
+  - type: attack
+    cost:
+      - Psychic
+    name: Shadow Room
+    text: Put 3 damage counters on 1 of your opponent's Pokémon. If that Pokémon has any Poké-Powers, put 6 damage counters on that Pokémon instead.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poltergeist
+    text: Look at your opponent's hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent's hand.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

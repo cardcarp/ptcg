@@ -1,0 +1,48 @@
+name: Ivysaur
+
+origin: pokemon-tcg-classic-venusaur-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Bulbasaur
+
+dex: 2
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Vine Whip
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Poison Powder
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

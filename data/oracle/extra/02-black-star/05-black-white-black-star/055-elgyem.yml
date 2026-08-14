@@ -1,0 +1,41 @@
+name: Elgyem
+
+origin: black-white-black-star-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 605
+
+rule:
+  - type: ability
+    name: Weak Barrier
+    text: If this Pokémon has any Psychic Energy attached to it, this Pokémon has no Weakness.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Blow
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

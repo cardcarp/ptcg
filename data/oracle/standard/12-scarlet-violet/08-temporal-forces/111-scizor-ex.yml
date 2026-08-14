@@ -1,0 +1,58 @@
+name: Scizor ex
+
+origin: temporal-forces-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Metal
+
+hp: 270
+
+preevolution:
+  - Scyther
+
+dex: 212
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Steel Wing
+    text: During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).
+    damage: 70
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+    name: Cross Breaker
+    text: Discard up to 2 Metal Energy from this Pokémon. This attack does 120 damage for each card you discarded in this way.
+    damage: 120
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

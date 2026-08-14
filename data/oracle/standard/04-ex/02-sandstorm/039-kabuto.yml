@@ -1,0 +1,47 @@
+name: Kabuto
+
+origin: sandstorm-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 140
+
+rule:
+  - type: ability
+    name: Exoskeleton
+    text: Any damage done to Kabuto by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Team Assembly
+    text: Search your deck for Omanyte, Kabuto, or any Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward. Treat the new Benched Pokémon as Basic Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Pierce
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

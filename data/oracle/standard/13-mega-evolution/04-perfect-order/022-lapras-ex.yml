@@ -1,0 +1,49 @@
+name: Lapras ex
+
+origin: perfect-order-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 210
+
+dex: 131
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Hydro Turn
+    text: This attack does 30 damage for each Water Energy attached to this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Surf
+    damage: 140
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

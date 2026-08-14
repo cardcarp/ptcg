@@ -1,0 +1,38 @@
+name: Koffing
+
+origin: 151-109
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 109
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Suspicious Gas
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

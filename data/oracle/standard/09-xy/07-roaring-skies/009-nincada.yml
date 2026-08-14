@@ -1,0 +1,36 @@
+name: Nincada
+
+origin: roaring-skies-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 290
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slight Intrusion
+    text: This Pokémon does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

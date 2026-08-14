@@ -1,0 +1,49 @@
+name: Vileplume
+
+origin: lost-origin-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Mega Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Allergy Storm
+    text: Flip a coin. If heads, during your opponent's next turn, they can't play any Supporter cards from their hand. If tails, during your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

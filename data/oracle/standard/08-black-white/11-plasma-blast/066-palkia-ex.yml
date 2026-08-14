@@ -1,0 +1,52 @@
+name: Palkia-EX
+
+origin: plasma-blast-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+  - Team Plasma
+
+type:
+  - Dragon
+
+hp: 180
+
+dex: 484
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Water
+      - Colorless
+      - Colorless
+    name: Dimension Heal
+    text: Heal from this Pokémon 20 damage for each Plasma Energy attached to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

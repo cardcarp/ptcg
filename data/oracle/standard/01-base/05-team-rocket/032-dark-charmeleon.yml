@@ -1,0 +1,47 @@
+name: Dark Charmeleon
+
+origin: team-rocket-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 50
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Slap
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Fireball
+    text: Use this attack only if there are any Fire Energy cards attached to Dark Charmeleon. Flip a coin. If heads, discard 1 of those Energy cards. If tails, this attack does nothing (not even damage).
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

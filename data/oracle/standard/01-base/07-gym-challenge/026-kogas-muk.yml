@@ -1,0 +1,43 @@
+name: Koga's Muk
+
+origin: gym-challenge-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Koga's Grimer
+
+dex: 89
+
+rule:
+  - type: ability
+    name: Energy Drain
+    text: If an opponent's attack does damage to Koga's Muk (even if Koga's Muk is Knocked Out), flip a coin. If heads and if it has any, choose 1 Energy card attached to the attacking Pokémon and discard it. This power can't be used if Koga's Muk is already Asleep, Confused, or Paralyzed when your opponent attacks.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Sludge Whirlpool
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

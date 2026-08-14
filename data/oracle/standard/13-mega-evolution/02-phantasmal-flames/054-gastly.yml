@@ -1,0 +1,36 @@
+name: Gastly
+
+origin: phantasmal-flames-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 92
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Petty Grudge
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

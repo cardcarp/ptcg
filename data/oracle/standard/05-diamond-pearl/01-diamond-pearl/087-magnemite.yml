@@ -1,0 +1,48 @@
+name: Magnemite
+
+origin: diamond-pearl-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 81
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Metal Sound
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Resonance
+    text: If the Defending Pokémon is Confused, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

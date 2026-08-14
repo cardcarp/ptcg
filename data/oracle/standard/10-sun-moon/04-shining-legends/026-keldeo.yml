@@ -1,0 +1,43 @@
+name: Keldeo
+
+origin: shining-legends-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 647
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bail Out
+    text: Put a Water Pokémon from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Resolute Blade
+    text: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

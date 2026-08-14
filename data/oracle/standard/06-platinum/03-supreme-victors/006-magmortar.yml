@@ -1,0 +1,50 @@
+name: Magmortar
+
+origin: supreme-victors-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Magmar
+
+dex: 467
+
+rule:
+  - type: ability
+    name: Evolutionary Flame
+    text: Once during your turn, when you play Magmortar from your hand to evolve 1 of your Pokémon, you may use this power. Your opponent's Active Pokémon is now Burned and Confused.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Arrow
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flame Ball
+    text: You may move a Fire Energy card attached to Magmortar to 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

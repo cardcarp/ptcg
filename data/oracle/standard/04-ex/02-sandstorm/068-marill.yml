@@ -1,0 +1,38 @@
+name: Marill
+
+origin: sandstorm-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 183
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Double Bubble
+    text: Flip 2 coins. This attack does 10 damage times the number of heads. If either of the coins is heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

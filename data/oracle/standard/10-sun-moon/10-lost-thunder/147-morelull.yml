@@ -1,0 +1,40 @@
+name: Morelull
+
+origin: lost-thunder-147
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 755
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

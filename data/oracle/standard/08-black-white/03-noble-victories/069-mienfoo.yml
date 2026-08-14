@@ -1,0 +1,41 @@
+name: Mienfoo
+
+origin: noble-victories-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 619
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: High Jump Kick
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

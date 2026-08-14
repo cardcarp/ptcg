@@ -1,0 +1,45 @@
+name: Delphox
+
+origin: mega-evolution-black-star-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 160
+
+preevolution:
+  - Braixen
+
+dex: 655
+
+rule:
+  - type: ability
+    name: Flaring Magic
+    text: Once during your turn, you may discard a Basic Fire Energy card from your hand in order to use this Ability. Draw cards until you have 7 cards in your hand.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Energized Storm
+    text: This attack does 30 damage for each Energy attached to all Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

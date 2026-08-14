@@ -1,0 +1,51 @@
+name: Sandaconda VMAX
+
+origin: chilling-reign-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Fighting
+
+hp: 320
+
+preevolution:
+  - Sandaconda V
+
+dex: 844
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Sand Pulse
+    text: This attack also does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: G-Max Cyclone
+    text: Move any amount of Energy from your Pokémon to your other Pokémon in any way you like.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,52 @@
+name: Gliscor
+
+origin: legends-awakened-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Poison Jab
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sharp Tail
+    text: Flip a coin. If heads, this attack does 30 damage plus 40 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Charmander
+
+origin: sword-shield-black-star-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 4
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

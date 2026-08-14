@@ -1,0 +1,45 @@
+name: Charmeleon
+
+origin: generations-004rc
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call for Support
+    text: Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Slash
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

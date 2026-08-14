@@ -1,0 +1,40 @@
+name: Shuckle
+
+origin: mega-evolution-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 213
+
+rule:
+  - type: ability
+    name: Fermented Juice
+    text: Once during your turn, if this Pokémon has any Grass Energy attached, you may use this Ability. Heal 30 damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Rollout
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

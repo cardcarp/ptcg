@@ -1,0 +1,43 @@
+name: Dark Kadabra
+
+origin: team-rocket-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 50
+
+preevolution:
+  - Abra
+
+dex: 64
+
+rule:
+  - type: ability
+    name: Matter Exchange
+    text: Once during your turn (before your attack), you may discard a card from your hand in order to draw a card. This power can't be used if Dark Kadabra is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Mind Shock
+    text: Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

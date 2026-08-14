@@ -1,0 +1,47 @@
+name: Victreebel
+
+origin: guardians-rising-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Weepinbell
+
+dex: 71
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Pollen Hazard
+    text: Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Stick and Absorb
+    text: Heal 20 damage from this Pokémon. The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

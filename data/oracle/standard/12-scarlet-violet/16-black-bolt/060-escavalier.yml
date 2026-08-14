@@ -1,0 +1,45 @@
+name: Escavalier
+
+origin: black-bolt-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Karrablast
+
+dex: 589
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Wild Lances
+    text: This Pokémon also does 30 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

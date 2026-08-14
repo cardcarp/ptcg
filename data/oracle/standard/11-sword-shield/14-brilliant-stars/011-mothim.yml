@@ -1,0 +1,52 @@
+name: Mothim
+
+origin: brilliant-stars-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Burmy
+
+dex: 414
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Raid
+    text: If this Pokémon evolved from Burmy during this turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - F
+
+errata: []

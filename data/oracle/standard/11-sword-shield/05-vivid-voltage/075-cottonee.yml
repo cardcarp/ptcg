@@ -1,0 +1,36 @@
+name: Cottonee
+
+origin: vivid-voltage-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 546
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Rolling Tackle
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

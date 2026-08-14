@@ -1,0 +1,47 @@
+name: Salazzle
+
+origin: sword-shield-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Salandit
+
+dex: 758
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Bright Flame
+    text: Discard 2 Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

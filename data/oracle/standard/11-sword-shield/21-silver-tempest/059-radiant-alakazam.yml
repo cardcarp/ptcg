@@ -1,0 +1,51 @@
+name: Radiant Alakazam
+
+origin: silver-tempest-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Radiant
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 65
+
+rule:
+  - type: ability
+    name: Painful Spoons
+    text: Once during your turn, you may move up to 2 damage counters from 1 of your opponent's Pokémon to another of their Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Mind Ruler
+    text: This attack does 20 damage for each card in your opponent's hand.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+regulation:
+  - F
+
+errata: []

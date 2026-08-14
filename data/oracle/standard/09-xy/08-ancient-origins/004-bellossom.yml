@@ -1,0 +1,46 @@
+name: Bellossom
+
+origin: ancient-origins-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Gloom
+
+dex: 182
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Windmill
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Flower Tornado
+    text: Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

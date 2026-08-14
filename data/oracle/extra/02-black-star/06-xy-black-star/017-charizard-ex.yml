@@ -1,0 +1,49 @@
+name: Charizard-EX
+
+origin: xy-black-star-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 180
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Mega Ascension
+    text: Search your deck for M Charizard-EX, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Brave Fire
+    text: This Pokémon does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

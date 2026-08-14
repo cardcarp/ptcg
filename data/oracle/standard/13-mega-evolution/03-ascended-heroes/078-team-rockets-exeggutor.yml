@@ -1,0 +1,53 @@
+name: Team Rocket's Exeggutor
+
+origin: ascended-heroes-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Team Rocket's Exeggcute
+
+dex: 103
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tri Kinesis
+    text: Flip 3 coins. If all of them are heads, Knock Out 1 of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Double-Edge
+    text: This Pokémon also does 30 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

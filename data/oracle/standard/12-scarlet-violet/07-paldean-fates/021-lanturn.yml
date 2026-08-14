@@ -1,0 +1,49 @@
+name: Lanturn
+
+origin: paldean-fates-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lightning Ball
+    damage: 50
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Aqua Spark
+    text: If this Pokémon has any Water Energy attached, this attack does 120 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

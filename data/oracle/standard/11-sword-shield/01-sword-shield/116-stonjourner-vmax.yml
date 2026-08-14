@@ -1,0 +1,49 @@
+name: Stonjourner VMAX
+
+origin: sword-shield-116
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Fighting
+
+hp: 330
+
+preevolution:
+  - Stonjourner V
+
+dex: 874
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Stone Gift
+    text: Attach a Fighting Energy card from your hand to 1 of your Pokémon. If you do, heal 120 damage from that Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Max Rockfall
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

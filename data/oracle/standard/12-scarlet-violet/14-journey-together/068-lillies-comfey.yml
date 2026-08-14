@@ -1,0 +1,42 @@
+name: Lillie's Comfey
+
+origin: journey-together-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 764
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Inviting Flowers
+    text: You may search your deck for any number of Basic Lillie's Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+    name: Fade Out
+    text: Put this Pokémon and all attached cards into your hand.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

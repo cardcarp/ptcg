@@ -1,0 +1,42 @@
+name: Chimecho
+
+origin: emerald-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 358
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Warp Sounds
+    text: If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

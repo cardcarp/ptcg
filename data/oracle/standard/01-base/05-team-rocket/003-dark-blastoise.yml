@@ -1,0 +1,49 @@
+name: Dark Blastoise
+
+origin: team-rocket-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Dark Wartortle
+
+dex: 9
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Hydrocannon
+    text: Does 30 damage plus 20 more damage for each Water Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Rocket Tackle
+    text: Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen.)
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

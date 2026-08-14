@@ -1,0 +1,43 @@
+name: Azelf
+
+origin: xy-black-star-142
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 482
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Shining Eyes
+    text: Put 2 damage counters on each of your opponent's Pokémon that has any damage counters on it.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mind Bend
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

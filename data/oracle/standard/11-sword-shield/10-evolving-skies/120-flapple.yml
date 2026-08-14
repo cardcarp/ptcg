@@ -1,0 +1,44 @@
+name: Flapple
+
+origin: evolving-skies-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Applin
+
+dex: 841
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Acidic Mucus
+    text: This attack does 50 damage for each of your opponent's Pokémon in play that has an Ability.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Fire
+    name: Fighting Tackle
+    text: If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,56 @@
+name: Steelix
+
+origin: plasma-freeze-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Defender
+    text: During your opponent's next turn, this Pokémon has no Weakness.
+    damage: 50
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

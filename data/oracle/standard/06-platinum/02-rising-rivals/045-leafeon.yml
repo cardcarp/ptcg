@@ -1,0 +1,56 @@
+name: Leafeon
+
+origin: rising-rivals-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 470
+
+rule:
+  - type: ability
+    name: Energy Refresh
+    text: As long as Leafeon is your Active Pokémon, whenever you attach an Energy card from your hand to 1 of your Pokémon, remove 2 damage counters from that Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Plus Energy
+    text: Attach a basic Energy card from your hand to 1 of your Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Soothing Scent
+    text: The Defending Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Cynthia's Gabite
+
+origin: destined-rivals-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Cynthia's Gible
+
+dex: 444
+
+rule:
+  - type: ability
+    name: Champion's Call
+    text: Once during your turn, you may search your deck for a Cynthia's Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fighting
+    name: Dragonslice
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

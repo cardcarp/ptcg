@@ -1,0 +1,41 @@
+name: Sinistea
+
+origin: darkness-ablaze-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 854
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Furtive Drop
+    text: Put 2 damage counters on your opponent's Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

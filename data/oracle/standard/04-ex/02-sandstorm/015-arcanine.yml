@@ -1,0 +1,44 @@
+name: Arcanine
+
+origin: sandstorm-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: ability
+    name: Fire Veil
+    text: If Arcanine is your Active Pokémon and is damaged by an opponent's attack (even if Arcanine is Knocked Out), the Attacking Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Burn Up
+    text: Flip a coin. If tails, discard all Fire Energy cards attached to Arcanine.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

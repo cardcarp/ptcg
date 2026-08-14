@@ -1,0 +1,51 @@
+name: Lucario
+
+origin: unbroken-bonds-126
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Low Sweep
+    damage: 40
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+    name: Rush Up
+    text: If you attached a Pokémon Tool card from your hand to this Pokémon during this turn, this attack does 70 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

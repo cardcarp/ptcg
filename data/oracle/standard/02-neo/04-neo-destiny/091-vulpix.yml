@@ -1,0 +1,37 @@
+name: Vulpix
+
+origin: neo-destiny-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 37
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    text: Discard 1 Fire Energy card attached to Vulpix in order to use this attack.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

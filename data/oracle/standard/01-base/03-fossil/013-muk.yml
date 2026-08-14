@@ -1,0 +1,44 @@
+name: Muk
+
+origin: fossil-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: ability
+    name: Toxic Gas
+    text: Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Sludge
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

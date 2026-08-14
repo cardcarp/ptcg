@@ -1,0 +1,37 @@
+name: Pineco
+
+origin: scarlet-violet-black-star-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 204
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Rollout
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

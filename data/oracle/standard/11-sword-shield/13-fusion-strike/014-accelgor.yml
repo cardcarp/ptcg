@@ -1,0 +1,43 @@
+name: Accelgor
+
+origin: fusion-strike-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Fusion Strike
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Shelmet
+
+dex: 617
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Ninja Tornado
+    text: If this Pokémon moved from your Bench to the Active Spot this turn, this attack can be used for Grass.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

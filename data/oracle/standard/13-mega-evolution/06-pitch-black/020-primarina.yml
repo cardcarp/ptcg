@@ -1,0 +1,44 @@
+name: Primarina
+
+origin: pitch-black-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Brionne
+
+dex: 730
+
+rule:
+  - type: ability
+    name: Enriching Melody
+    text: Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Heal all damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Return
+    text: Shuffle this Pokémon and all attached cards into your deck.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

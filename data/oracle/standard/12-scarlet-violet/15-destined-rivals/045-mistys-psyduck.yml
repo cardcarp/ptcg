@@ -1,0 +1,39 @@
+name: Misty's Psyduck
+
+origin: destined-rivals-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 54
+
+rule:
+  - type: ability
+    name: Flustered Leap
+    text: Once during your turn, if this Pokémon is on your Bench, you may discard the bottom card of your deck. If you do, discard all cards from this Pokémon and put this Pokémon on top of your deck.
+  - type: attack
+    cost:
+      - Water
+    name: Sprinkle Water
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

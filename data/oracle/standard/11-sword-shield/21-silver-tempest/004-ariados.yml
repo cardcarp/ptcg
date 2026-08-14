@@ -1,0 +1,43 @@
+name: Ariados
+
+origin: silver-tempest-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: ability
+    name: Hidden Threads
+    text: Your opponent's Pokémon VSTAR's attacks cost Colorless more. You can't apply more than 1 Hidden Threads Ability at a time.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Pierce
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

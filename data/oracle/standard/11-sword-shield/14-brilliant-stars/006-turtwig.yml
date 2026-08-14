@@ -1,0 +1,42 @@
+name: Turtwig
+
+origin: brilliant-stars-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 387
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bite
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Headbutt Bounce
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

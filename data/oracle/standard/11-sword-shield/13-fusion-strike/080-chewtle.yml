@@ -1,0 +1,37 @@
+name: Chewtle
+
+origin: fusion-strike-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 833
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Bite
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

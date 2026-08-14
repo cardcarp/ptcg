@@ -1,0 +1,42 @@
+name: Slowking
+
+origin: prismatic-evolutions-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Wash the Slate Clean
+    text: You may put 2 Energy attached to your opponent's Active Pokémon into their hand.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

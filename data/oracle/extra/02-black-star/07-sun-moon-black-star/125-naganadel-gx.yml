@@ -1,0 +1,60 @@
+name: Naganadel-GX
+
+origin: sun-moon-black-star-125
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+  - Ultra Beast
+
+type:
+  - Psychic
+
+hp: 210
+
+preevolution:
+  - Poipole
+
+dex: 804
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Beast Raid
+    text: This attack does 20 damage for each of your Ultra Beasts in play.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Jet Needle
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 110
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Stinger-GX
+    text: Both players shuffle their Prize cards into their decks. Then, each player puts the top 3 cards of their deck face down as their Prize cards. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

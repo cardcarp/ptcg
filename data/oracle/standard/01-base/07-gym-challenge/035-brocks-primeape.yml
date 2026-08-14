@@ -1,0 +1,44 @@
+name: Brock's Primeape
+
+origin: gym-challenge-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Brock's Mankey
+
+dex: 57
+
+rule:
+  - type: ability
+    name: Scram
+    text: If Brock's Primeape ever has exactly 10 HP left, shuffle it and all cards attached to it into your deck. This power stops working while Brock's Primeape is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Mega Thrash
+    text: Brock's Primeape does 20 damage to itself. If there is a Stadium card in play, discard it.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

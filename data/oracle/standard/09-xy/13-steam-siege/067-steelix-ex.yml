@@ -1,0 +1,60 @@
+name: Steelix-EX
+
+origin: steam-siege-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Metal
+
+hp: 180
+
+dex: 208
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wild Edge
+    text: You may do 50 more damage. If you do, this Pokémon does 20 damage to itself.
+    damage: 80
+    modifier: +
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Iron Tail
+    text: Flip a coin until you get tails. This attack does 100 damage times the number of heads.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Growlithe
+
+origin: next-destinies-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 58
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

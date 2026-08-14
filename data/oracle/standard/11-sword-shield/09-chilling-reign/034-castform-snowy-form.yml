@@ -1,0 +1,40 @@
+name: Castform Snowy Form
+
+origin: chilling-reign-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 351
+
+rule:
+  - type: ability
+    name: Weather Reading
+    text: If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon's attack costs.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Frosty Typhoon
+    text: During your next turn, this Pokémon can't use Frosty Typhoon.
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,43 @@
+name: Sandygast
+
+origin: sun-moon-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 769
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shore Up
+    text: Attach a Fighting Energy card from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sand Tomb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

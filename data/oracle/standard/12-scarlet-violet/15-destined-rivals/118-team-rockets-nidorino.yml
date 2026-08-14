@@ -1,0 +1,49 @@
+name: Team Rocket's Nidorino
+
+origin: destined-rivals-118
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Team Rocket's Nidoran♂
+
+dex: 33
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Hammer In
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Horn Rend
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

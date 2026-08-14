@@ -1,0 +1,41 @@
+name: Goomy
+
+origin: flashfire-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 50
+
+dex: 704
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gooey
+    text: Heal 10 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Fairy
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

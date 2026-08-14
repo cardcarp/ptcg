@@ -1,0 +1,53 @@
+name: Marowak
+
+origin: dragons-exalted-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Bone Lock
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Vortex Chop
+    text: If the Defending Pokémon has any Resistance, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

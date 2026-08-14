@@ -1,0 +1,54 @@
+name: Carnivine
+
+origin: platinum-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 455
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Stretch Vine
+    text: Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Absorb
+    text: Remove 2 damage counters from Carnivine.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Vine Extract
+    text: If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned and Poisoned.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

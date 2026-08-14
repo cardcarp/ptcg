@@ -1,0 +1,48 @@
+name: Mabosstiff
+
+origin: pitch-black-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Maschiff
+
+dex: 943
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Bite
+    damage: 60
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Plunging Headbutt
+    text: During your opponent's next turn, this Pokémon takes 100 more damage from attacks (after applying Weakness and Resistance).
+    damage: 210
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

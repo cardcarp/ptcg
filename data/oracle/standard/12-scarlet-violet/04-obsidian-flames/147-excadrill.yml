@@ -1,0 +1,44 @@
+name: Excadrill
+
+origin: obsidian-flames-147
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Pierce
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

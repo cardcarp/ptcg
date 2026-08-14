@@ -1,0 +1,58 @@
+name: Mightyena δ
+
+origin: delta-species-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Darkness
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Delta Fang
+    text: If the Defending Pokémon is Pokémon-ex, that Pokémon can't attack during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Gang Up
+    text: Does 10 damage times the number of Darkness Pokémon and Metal Pokémon you have in play.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Darkness Metal type.
+
+regulation:
+
+errata: []

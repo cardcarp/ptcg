@@ -1,0 +1,48 @@
+name: Lopunny
+
+origin: pop-series-9-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Buneary
+
+dex: 428
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jump Kick
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Jazzed
+    text: If Lopunny evolved from Buneary during this turn, remove all damage counters from Lopunny.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

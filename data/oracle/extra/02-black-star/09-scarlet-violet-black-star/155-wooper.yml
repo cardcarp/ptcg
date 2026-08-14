@@ -1,0 +1,41 @@
+name: Wooper
+
+origin: scarlet-violet-black-star-155
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 194
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Scoop Water
+    text: Shuffle up to 3 Basic Water Energy cards from your discard pile into your deck.
+  - type: attack
+    cost:
+      - Water
+    name: Headbutt
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

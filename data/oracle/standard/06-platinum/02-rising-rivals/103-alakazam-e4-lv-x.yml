@@ -1,0 +1,48 @@
+name: Alakazam E4 LV.X
+
+origin: rising-rivals-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+  - SP
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Alakazam E4
+
+dex: 65
+
+rule:
+  - type: ability
+    name: Damage Switch
+    text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon SP to another of your Pokémon SP. This power can't be used if Alakazam E4 is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Mind Shock
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - Put this card onto your Active Alakazam E4. Alakazam E4 LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

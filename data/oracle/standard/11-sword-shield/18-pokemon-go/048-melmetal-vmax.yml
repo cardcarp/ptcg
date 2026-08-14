@@ -1,0 +1,51 @@
+name: Melmetal VMAX
+
+origin: pokemon-go-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Metal
+
+hp: 330
+
+preevolution:
+  - Melmetal V
+
+dex: 809
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+    name: G-Max Juggernaut
+    text: This attack does 60 more damage for each extra Metal Energy attached to this Pokémon (in addition to this attack's cost). You can't add more than 120 damage in this way.
+    damage: 160
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,39 @@
+name: Chespin
+
+origin: mega-evolution-black-star-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 650
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Pin Missile
+    text: Flip 4 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,51 @@
+name: Aromatisse
+
+origin: breakpoint-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Spritzee
+
+dex: 683
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dizzying Cologne
+    text: If your opponent's Active Pokémon is a Pokémon-EX, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Fairy Wind
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

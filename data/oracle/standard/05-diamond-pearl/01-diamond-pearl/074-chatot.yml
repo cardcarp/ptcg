@@ -1,0 +1,46 @@
+name: Chatot
+
+origin: diamond-pearl-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 441
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Me First
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tone-Deaf
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

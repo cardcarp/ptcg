@@ -1,0 +1,43 @@
+name: Fraxure
+
+origin: dragon-vault-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 70
+
+preevolution:
+  - Axew
+
+dex: 611
+
+rule:
+  - type: ability
+    name: Grit
+    text: If this Pokémon is affected by a Special Condition, each of its attacks does 40 more damage (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Metal
+      - Colorless
+    name: Dragon Claw
+    damage: 60
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

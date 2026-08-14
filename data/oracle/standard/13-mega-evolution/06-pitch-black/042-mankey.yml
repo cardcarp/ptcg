@@ -1,0 +1,33 @@
+name: Mankey
+
+origin: pitch-black-042
+
+layout: standard
+
+category: Pokémon
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 56
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Low Kick
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

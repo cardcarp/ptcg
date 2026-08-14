@@ -1,0 +1,46 @@
+name: Froslass
+
+origin: unified-minds-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Snorunt
+
+dex: 478
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Spiteful Sigh
+    text: Put up to 7 damage counters on this Pokémon. This attack does 20 damage for each damage counter you placed in this way.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

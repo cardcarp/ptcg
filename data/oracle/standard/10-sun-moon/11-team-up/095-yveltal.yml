@@ -1,0 +1,46 @@
+name: Yveltal
+
+origin: team-up-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 717
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Derail
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Clutch
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

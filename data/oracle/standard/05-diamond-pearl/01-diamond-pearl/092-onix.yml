@@ -1,0 +1,41 @@
+name: Onix
+
+origin: diamond-pearl-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 95
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Tunneling
+    text: Choose up to 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Onix can't attack during your next turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

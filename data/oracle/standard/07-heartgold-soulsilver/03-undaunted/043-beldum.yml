@@ -1,0 +1,48 @@
+name: Beldum
+
+origin: undaunted-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 374
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Lunge Out
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Single Smash
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

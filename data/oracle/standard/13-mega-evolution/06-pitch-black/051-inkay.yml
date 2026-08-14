@@ -1,0 +1,42 @@
+name: Inkay
+
+origin: pitch-black-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 686
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Procurement
+    text: Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Spinning Attack
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

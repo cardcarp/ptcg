@@ -1,0 +1,37 @@
+name: Tentacool
+
+origin: unbroken-bonds-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 72
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bubble Jutsu
+    text: If you played Janine from your hand during this turn, this attack does 50 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

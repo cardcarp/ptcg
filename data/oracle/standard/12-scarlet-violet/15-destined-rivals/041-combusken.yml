@@ -1,0 +1,47 @@
+name: Combusken
+
+origin: destined-rivals-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Torchic
+
+dex: 256
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Combustion
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

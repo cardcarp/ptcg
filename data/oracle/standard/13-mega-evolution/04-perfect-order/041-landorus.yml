@@ -1,0 +1,46 @@
+name: Landorus
+
+origin: perfect-order-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 645
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rock Tumble
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Screw Knuckle
+    text: Put an Energy attached to this Pokémon into your hand.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

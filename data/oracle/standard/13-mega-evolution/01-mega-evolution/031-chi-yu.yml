@@ -1,0 +1,37 @@
+name: Chi-Yu
+
+origin: mega-evolution-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 1004
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Scorching Earth
+    text: If your opponent has a Stadium in play, discard it. If you do, your opponent can't play any Stadium cards from their hand during their next turn.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,38 @@
+name: Cyndaquil δ
+
+origin: dragon-frontiers-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 155
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

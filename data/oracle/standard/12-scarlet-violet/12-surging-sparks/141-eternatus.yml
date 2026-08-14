@@ -1,0 +1,41 @@
+name: Eternatus
+
+origin: surging-sparks-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 150
+
+dex: 890
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Dyna-Blast
+    text: If your opponent's Active Pokémon is a Pokémon ex, this attack does 80 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Darkness
+      - Darkness
+    name: World Ender
+    text: Discard a Stadium in play. If you can't, this attack does nothing.
+    damage: 230
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

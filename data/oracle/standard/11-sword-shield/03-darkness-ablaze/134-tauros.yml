@@ -1,0 +1,37 @@
+name: Tauros
+
+origin: darkness-ablaze-134
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Horn Attack
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

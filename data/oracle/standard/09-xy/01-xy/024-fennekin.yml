@@ -1,0 +1,35 @@
+name: Fennekin
+
+origin: xy-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 653
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Will-O-Wisp
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

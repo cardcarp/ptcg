@@ -1,0 +1,37 @@
+name: Helioptile
+
+origin: rebel-clash-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 694
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Thunder Jolt
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

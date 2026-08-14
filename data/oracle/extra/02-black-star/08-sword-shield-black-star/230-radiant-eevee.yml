@@ -1,0 +1,47 @@
+name: Radiant Eevee
+
+origin: sword-shield-black-star-230
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Radiant
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 133
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Twinkle Gathering
+    text: Search your deck for a number of cards up to the number of different types of Pokémon you have in play and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boost Dash
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+regulation:
+  - F
+
+errata: []

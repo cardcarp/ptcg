@@ -1,0 +1,51 @@
+name: Heatran V
+
+origin: astral-radiance-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 485
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Heat Burn
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Magma Fall
+    text: If you have a Stadium in play, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

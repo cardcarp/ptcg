@@ -1,0 +1,48 @@
+name: Beedrill δ
+
+origin: delta-species-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Grass
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Kakuna
+
+dex: 15
+
+rule:
+  - type: ability
+    name: Final Sting
+    text: Once during your turn (before your attack), you may Knock Out Beedrill. If you do, choose 1 of your opponent's Defending Pokémon. That Pokémon is now Paralyzed and Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns. This power can't be used if Beedrill is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Grass
+      - Metal
+      - Colorless
+    name: Super Slash
+    text: If the Defending Pokémon is an Evolved Pokémon, this attack does 50 damage plus 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+rulebox:
+  - This Pokémon is both Grass Metal type.
+
+regulation:
+
+errata: []

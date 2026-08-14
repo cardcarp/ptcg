@@ -1,0 +1,41 @@
+name: Entei
+
+origin: neo-revelation-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 244
+
+rule:
+  - type: ability
+    name: Howl
+    text: When you play Entei from your hand, you may discard the top 5 cards of your deck. (If you have fewer cards in your deck than that, discard all of them.) If any of those are Fire Energy cards, attach them to any of your Fire Pokémon of your choice. Using this power ends your turn.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Searing Flames
+    text: Discard 2 Fire Energy cards attached to Entei or this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

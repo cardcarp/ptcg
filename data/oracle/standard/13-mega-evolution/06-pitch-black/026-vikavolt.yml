@@ -1,0 +1,46 @@
+name: Vikavolt
+
+origin: pitch-black-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 160
+
+preevolution:
+  - Charjabug
+
+dex: 738
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Quick Dive
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Giga Railgun
+    text: If this Pokémon has no Voltaic Lightning Energy attached, this attack does nothing.
+    damage: 260
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

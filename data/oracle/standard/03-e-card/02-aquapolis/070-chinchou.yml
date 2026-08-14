@@ -1,0 +1,41 @@
+name: Chinchou
+
+origin: aquapolis-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 170
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Float
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Chinchou.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

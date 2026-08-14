@@ -1,0 +1,35 @@
+name: Spinarak
+
+origin: ancient-origins-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 167
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: String Shot
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

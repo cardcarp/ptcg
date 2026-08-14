@@ -1,0 +1,45 @@
+name: Gloom
+
+origin: jungle-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Poisonpowder
+    text: The Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Foul Odor
+    text: Both the Defending Pokémon and Gloom are now Confused (after doing damage).
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

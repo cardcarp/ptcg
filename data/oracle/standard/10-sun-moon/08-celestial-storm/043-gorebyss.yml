@@ -1,0 +1,37 @@
+name: Gorebyss
+
+origin: celestial-storm-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Clamperl
+
+dex: 368
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Deflecting Splash
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

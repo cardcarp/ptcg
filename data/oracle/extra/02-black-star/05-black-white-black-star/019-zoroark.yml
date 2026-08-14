@@ -1,0 +1,53 @@
+name: Zoroark
+
+origin: black-white-black-star-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Punishment
+    text: If the Defending Pokémon is a Stage 2 Pokémon, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Snarl
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

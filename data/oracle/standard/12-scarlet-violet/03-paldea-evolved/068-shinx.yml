@@ -1,0 +1,39 @@
+name: Shinx
+
+origin: paldea-evolved-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 403
+
+rule:
+  - type: ability
+    name: Big Roar
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+  - type: attack
+    cost:
+      - Lightning
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

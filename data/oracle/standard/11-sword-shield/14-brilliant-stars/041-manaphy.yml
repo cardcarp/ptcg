@@ -1,0 +1,39 @@
+name: Manaphy
+
+origin: brilliant-stars-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 490
+
+rule:
+  - type: ability
+    name: Wave Veil
+    text: Prevent all damage done to your Benched Pokémon by attacks from your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

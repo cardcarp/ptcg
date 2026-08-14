@@ -1,0 +1,52 @@
+name: Talonflame
+
+origin: paldea-evolved-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Fletchinder
+
+dex: 663
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Clutch
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+    name: Fiery Breeze
+    text: If this Pokémon has any damage counters on it, this attack does 90 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

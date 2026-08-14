@@ -1,0 +1,44 @@
+name: Hoopa
+
+origin: ascended-heroes-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 720
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Filch
+    text: Draw 2 cards.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Knuckle Impact
+    text: During your next turn, this Pokémon can't use attacks.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

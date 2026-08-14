@@ -1,0 +1,43 @@
+name: Haunter
+
+origin: crimson-invasion-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Pain Amplifier
+    text: Put 2 damage counters on each of your opponent's Pokémon that has any damage counters on it.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

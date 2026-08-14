@@ -1,0 +1,47 @@
+name: Leafeon
+
+origin: sun-moon-black-star-237
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 470
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Aromax
+    text: Heal all damage from 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Leaf Blade
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,44 @@
+name: Gorebyss
+
+origin: primal-clash-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Clamperl
+
+dex: 368
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Captivate
+    text: Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Psychic
+    text: This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

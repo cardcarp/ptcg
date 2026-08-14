@@ -1,0 +1,36 @@
+name: Gossifleur
+
+origin: sword-shield-black-star-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 829
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sing
+    text: Your opponent's Active Pokémon is now Asleep.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

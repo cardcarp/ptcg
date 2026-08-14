@@ -1,0 +1,44 @@
+name: Haunter
+
+origin: chilling-reign-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Will-O-Wisp
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

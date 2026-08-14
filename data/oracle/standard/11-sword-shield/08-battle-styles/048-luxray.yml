@@ -1,0 +1,48 @@
+name: Luxray
+
+origin: battle-styles-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Rapid Strike
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Electrostep
+    text: This attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Scar Strikes
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

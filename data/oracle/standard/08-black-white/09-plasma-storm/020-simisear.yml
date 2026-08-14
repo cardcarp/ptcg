@@ -1,0 +1,48 @@
+name: Simisear
+
+origin: plasma-storm-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Pansear
+
+dex: 514
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Searing Flame
+    text: The Defending Pokémon is now Burned.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Flame Blast
+    text: Does 20 more damage for each Fire Energy attached to this Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

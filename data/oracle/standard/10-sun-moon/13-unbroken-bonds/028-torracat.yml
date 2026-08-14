@@ -1,0 +1,39 @@
+name: Torracat
+
+origin: unbroken-bonds-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Litten
+
+dex: 726
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Fire Fang
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

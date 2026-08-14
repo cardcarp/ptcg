@@ -1,0 +1,36 @@
+name: Poliwag
+
+origin: evolutions-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 60
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Water Gun
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

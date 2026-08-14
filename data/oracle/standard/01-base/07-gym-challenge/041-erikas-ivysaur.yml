@@ -1,0 +1,45 @@
+name: Erika's Ivysaur
+
+origin: gym-challenge-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Erika's Bulbasaur
+
+dex: 2
+
+rule:
+  - type: ability
+    name: Relaxing Scent
+    text: As long as Erika's Ivysaur is your Active Pokémon, whenever an attack (even your own) does damage to any Pokémon (after applying Weakness and Resistance), that attack only does half the damage to that Pokémon (rounded up to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Erika's Ivysaur is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Double Razor Leaf
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

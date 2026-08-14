@@ -1,0 +1,46 @@
+name: Pawniard
+
+origin: cosmic-eclipse-134
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 624
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bag Slash
+    text: Your opponent reveals their hand. Discard an Item card you find there.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Sting
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

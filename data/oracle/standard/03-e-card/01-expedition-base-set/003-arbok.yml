@@ -1,0 +1,46 @@
+name: Arbok
+
+origin: expedition-base-set-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Ekans
+
+dex: 24
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Poison Spray
+    text: The Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poison Reaction
+    text: If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

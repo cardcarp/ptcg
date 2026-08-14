@@ -1,0 +1,51 @@
+name: Gengar V
+
+origin: fusion-strike-156
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 94
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Dark Slumber
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 40
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Pain Explosion
+    text: Put 3 damage counters on this Pokémon.
+    damage: 190
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

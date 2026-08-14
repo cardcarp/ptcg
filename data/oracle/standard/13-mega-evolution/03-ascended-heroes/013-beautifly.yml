@@ -1,0 +1,47 @@
+name: Beautifly
+
+origin: ascended-heroes-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Silcoon
+
+dex: 267
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Stun Spore
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 40
+  - type: attack
+    cost:
+      - Grass
+    name: Energy Straw
+    text: Your opponent reveals their hand, and this attack does 80 damage for each Energy card you find there.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

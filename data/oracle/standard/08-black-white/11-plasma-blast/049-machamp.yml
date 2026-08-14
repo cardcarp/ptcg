@@ -1,0 +1,45 @@
+name: Machamp
+
+origin: plasma-blast-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: ability
+    name: Badge of Discipline
+    text: The damage of each of your Fighting Pokémon's attacks isn't affected by Resistance.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Close Combat
+    text: Flip a coin. If tails, during your opponent's next turn, any damage done to this Pokémon by attacks is increased by 30 (after applying Weakness and Resistance).
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

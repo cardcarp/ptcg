@@ -1,0 +1,41 @@
+name: Spiritomb
+
+origin: brilliant-stars-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 442
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ticking Terror
+    text: Until the end of your next turn, the Defending Pokémon's Weakness is now Darkness. (The amount of Weakness doesn't change.)
+  - type: attack
+    cost:
+      - Darkness
+    name: Cursed Drop
+    text: Put 2 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

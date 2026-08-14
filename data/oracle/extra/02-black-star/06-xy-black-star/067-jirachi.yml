@@ -1,0 +1,48 @@
+name: Jirachi
+
+origin: xy-black-star-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 385
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Stardust
+    text: Discard a Special Energy attached to your opponent's Active Pokémon. If you do, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 10
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Dream Dance
+    text: Both Active Pokémon are now Asleep.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

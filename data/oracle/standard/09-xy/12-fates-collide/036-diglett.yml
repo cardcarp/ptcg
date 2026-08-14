@@ -1,0 +1,33 @@
+name: Diglett
+
+origin: fates-collide-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 50
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

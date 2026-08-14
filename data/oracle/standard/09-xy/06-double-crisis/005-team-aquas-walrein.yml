@@ -1,0 +1,48 @@
+name: Team Aqua's Walrein
+
+origin: double-crisis-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Team Aqua's Sealeo
+
+dex: 365
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Power Blow
+    text: This attack does 30 damage times the amount of Energy attached to this Pokémon.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Dual Blizzard
+    text: Discard 2 Water Energy attached to this Pokémon. This attack does 80 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

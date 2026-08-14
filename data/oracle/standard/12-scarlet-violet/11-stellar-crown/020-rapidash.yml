@@ -1,0 +1,42 @@
+name: Rapidash
+
+origin: stellar-crown-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Burning Run
+    text: Flip a coin. If heads, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

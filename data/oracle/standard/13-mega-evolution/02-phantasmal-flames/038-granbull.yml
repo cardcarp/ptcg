@@ -1,0 +1,49 @@
+name: Granbull
+
+origin: phantasmal-flames-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Snubbull
+
+dex: 210
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Bite
+    damage: 50
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Finishing Blow
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,46 @@
+name: Claydol
+
+origin: supreme-victors-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Antique Magic
+    text: Put 3 damage counters on any Pokémon (both yours and your opponent's) in any way you like.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Synchro Attack
+    text: If the Defending Pokémon has the same remaining HP as Claydol, this attack's base damage is 90 instead of 30.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

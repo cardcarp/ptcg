@@ -1,0 +1,46 @@
+name: Milotic
+
+origin: evolving-skies-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: ability
+    name: Dew Guard
+    text: Whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to you or your hand.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Double Smash
+    text: Flip 2 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

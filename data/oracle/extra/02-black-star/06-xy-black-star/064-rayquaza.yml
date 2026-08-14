@@ -1,0 +1,42 @@
+name: Rayquaza
+
+origin: xy-black-star-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 384
+
+rule:
+  - type: ability
+    name: Ozone Wall
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's.)
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Lightning
+      - Colorless
+    name: Dragon Pulse
+    text: Discard the top 3 cards of your deck.
+    damage: 130
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

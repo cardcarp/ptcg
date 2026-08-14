@@ -1,0 +1,42 @@
+name: Togepi
+
+origin: obsidian-flames-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 175
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Whiny Voice
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rolling Tackle
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

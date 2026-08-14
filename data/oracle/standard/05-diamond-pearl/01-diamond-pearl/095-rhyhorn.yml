@@ -1,0 +1,47 @@
+name: Rhyhorn
+
+origin: diamond-pearl-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 111
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Horn Attack
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Take Down
+    text: Rhyhorn does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

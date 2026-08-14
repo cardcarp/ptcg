@@ -1,0 +1,45 @@
+name: Pidove
+
+origin: mcdonalds-collection-2011-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 519
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Growl
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Gust
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

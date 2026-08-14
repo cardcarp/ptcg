@@ -1,0 +1,37 @@
+name: Cubchoo
+
+origin: black-bolt-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 613
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Snotted Up
+    text: During your opponent's next turn, the Defending Pokémon can't use attacks.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

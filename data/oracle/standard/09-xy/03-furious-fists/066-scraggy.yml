@@ -1,0 +1,41 @@
+name: Scraggy
+
+origin: furious-fists-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 559
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Corkscrew Punch
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

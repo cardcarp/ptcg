@@ -1,0 +1,42 @@
+name: Volcarona
+
+origin: shining-legends-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Larvesta
+
+dex: 637
+
+rule:
+  - type: ability
+    name: Heat Cyclone
+    text: Once during your turn (before your attack), you may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Heat Blast
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

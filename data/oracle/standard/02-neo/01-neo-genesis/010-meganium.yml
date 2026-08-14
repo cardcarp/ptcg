@@ -1,0 +1,45 @@
+name: Meganium
+
+origin: neo-genesis-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: ability
+    name: Herbal Scent
+    text: When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all Grass Pokémon in play.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

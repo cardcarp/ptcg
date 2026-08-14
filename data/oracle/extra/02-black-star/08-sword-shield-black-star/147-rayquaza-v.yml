@@ -1,0 +1,45 @@
+name: Rayquaza V
+
+origin: sword-shield-black-star-147
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+  - Rapid Strike
+
+type:
+  - Dragon
+
+hp: 210
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Dragon Pulse
+    text: Discard the top 2 cards of your deck.
+    damage: 40
+  - type: attack
+    cost:
+      - Fire
+      - Lightning
+    name: Spiral Burst
+    text: You may discard up to 2 basic Fire Energy or up to 2 basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.
+    damage: 20
+    modifier: +
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

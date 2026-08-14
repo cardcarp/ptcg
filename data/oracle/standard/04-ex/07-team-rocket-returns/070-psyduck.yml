@@ -1,0 +1,40 @@
+name: Psyduck
+
+origin: team-rocket-returns-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gentle Slap
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+    name: Headache
+    text: Flip a coin. If heads, your opponent can't play a Trainer card from his or her hand until the end of your opponent's next turn.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Toxel
+
+origin: sword-shield-black-star-209
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Fusion Strike
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 848
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Growl
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Lightning
+    name: Tiny Bolt
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

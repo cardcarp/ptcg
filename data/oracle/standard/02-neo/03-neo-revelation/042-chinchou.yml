@@ -1,0 +1,43 @@
+name: Chinchou
+
+origin: neo-revelation-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 170
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Positive Ion
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+    name: Negative Ion
+    text: If the Defending Pokémon attacks Chinchou during your opponent's next turn, any damage done to Chinchou is reduced by 10 (before applying Weakness and Resistance). (Benching or evolving either Pokémon ends this effect.)
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

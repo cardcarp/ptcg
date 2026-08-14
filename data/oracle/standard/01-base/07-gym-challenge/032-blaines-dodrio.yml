@@ -1,0 +1,45 @@
+name: Blaine's Dodrio
+
+origin: gym-challenge-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Blaine's Doduo
+
+dex: 85
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mega Peck
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

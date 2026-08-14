@@ -1,0 +1,47 @@
+name: Tropius
+
+origin: journey-together-123
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 357
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fruit Bearing
+    text: Discard a card from your hand. If you do, draw 3 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

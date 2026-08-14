@@ -1,0 +1,46 @@
+name: Hitmonchan
+
+origin: evolving-skies-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 107
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Clean Hit
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bullet Straight Punch
+    text: This attack's damage isn't affected by Resistance.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

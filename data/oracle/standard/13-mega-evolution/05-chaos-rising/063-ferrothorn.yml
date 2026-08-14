@@ -1,0 +1,50 @@
+name: Ferrothorn
+
+origin: chaos-rising-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Ferroseed
+
+dex: 598
+
+rule:
+  - type: ability
+    name: Startling Drop
+    text: During your opponent's turn, if this Pokémon is discarded from your deck by an effect of an attack or Ability from your opponent's Pokémon, or by an effect of your opponent's Item or Supporter cards, discard the top 8 cards of your opponent's deck.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+    name: Special Whip
+    text: If this Pokémon has any Special Energy attached, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

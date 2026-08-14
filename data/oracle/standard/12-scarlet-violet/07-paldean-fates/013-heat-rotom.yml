@@ -1,0 +1,38 @@
+name: Heat Rotom
+
+origin: paldean-fates-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 479
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Heat Tackle
+    text: This Pokémon also does 40 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,49 @@
+name: Magearna
+
+origin: vivid-voltage-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 801
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Overhaul
+    text: Shuffle your hand into your deck. Then, draw 6 cards.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Windup Cannon
+    text: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

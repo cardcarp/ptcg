@@ -1,0 +1,38 @@
+name: Castform Rainy Form
+
+origin: chilling-reign-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 351
+
+rule:
+  - type: ability
+    name: Weather Reading
+    text: If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon's attack costs.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Rainfall
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+  - E
+
+errata: []

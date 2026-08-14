@@ -1,0 +1,48 @@
+name: Dondozo
+
+origin: scarlet-violet-black-star-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 150
+
+dex: 977
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 60
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dangerous Wave
+    text: Flip 2 coins. If both of them are heads, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - G
+
+errata: []

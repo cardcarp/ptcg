@@ -1,0 +1,50 @@
+name: Glaceon-EX
+
+origin: fates-collide-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Water
+
+hp: 170
+
+dex: 471
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Second Bite
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Crystal Ray
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

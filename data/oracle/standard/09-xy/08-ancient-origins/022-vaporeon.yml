@@ -1,0 +1,43 @@
+name: Vaporeon
+
+origin: ancient-origins-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: ability
+    name: Aqua Effect
+    text: Each of your Stage 1 Pokémon in play is now a Water Pokémon in addition to its existing types.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Splash
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

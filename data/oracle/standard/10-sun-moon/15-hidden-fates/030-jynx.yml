@@ -1,0 +1,41 @@
+name: Jynx
+
+origin: hidden-fates-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 124
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Slap
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Lovely Kiss
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

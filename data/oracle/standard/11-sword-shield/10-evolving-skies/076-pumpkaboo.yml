@@ -1,0 +1,45 @@
+name: Pumpkaboo
+
+origin: evolving-skies-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 710
+
+rule:
+  - type: ability
+    name: Pumpkin Pit
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Stadium in play.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stampede
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

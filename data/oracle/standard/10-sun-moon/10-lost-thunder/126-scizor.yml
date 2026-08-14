@@ -1,0 +1,49 @@
+name: Scizor
+
+origin: lost-thunder-126
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Scyther
+
+dex: 212
+
+rule:
+  - type: ability
+    name: Exoskeleton
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Special Blow
+    text: If your opponent's Active Pokémon has any Special Energy attached to it, this attack does 70 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,35 @@
+name: Psyduck
+
+origin: sandstorm-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Confusion Wave
+    text: Both Psyduck and the Defending Pokémon are now Confused.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

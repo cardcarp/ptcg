@@ -1,0 +1,44 @@
+name: Rayquaza VMAX
+
+origin: evolving-skies-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+  - Rapid Strike
+
+type:
+  - Dragon
+
+hp: 320
+
+preevolution:
+  - Rayquaza V
+
+dex: 384
+
+rule:
+  - type: ability
+    name: Azure Pulse
+    text: Once during your turn, you may discard your hand and draw 3 cards.
+  - type: attack
+    cost:
+      - Fire
+      - Lightning
+    name: Max Burst
+    text: You may discard any amount of basic Fire Energy or any amount of basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.
+    damage: 20
+    modifier: +
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

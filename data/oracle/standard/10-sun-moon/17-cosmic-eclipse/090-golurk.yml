@@ -1,0 +1,51 @@
+name: Golurk
+
+origin: cosmic-eclipse-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Golett
+
+dex: 623
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Rock Tumble
+    text: This attack's damage isn't affected by Resistance.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fist of Antiquity
+    text: If you have any Supporter cards in your discard pile, this attack does nothing.
+    damage: 160
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

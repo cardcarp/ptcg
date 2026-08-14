@@ -1,0 +1,36 @@
+name: Riolu
+
+origin: unbroken-bonds-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 447
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Feint
+    text: This attack's damage isn't affected by Resistance.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

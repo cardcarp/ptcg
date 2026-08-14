@@ -1,0 +1,44 @@
+name: Porygon-Z
+
+origin: paradox-rift-144
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Porygon2
+
+dex: 474
+
+rule:
+  - type: ability
+    name: Buggy Turbo
+    text: Once during your turn, you may flip a coin. If heads, attach up to 4 Basic Energy cards from your discard pile to this Pokémon. If tails, discard an Energy from this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Energized Attack
+    text: This attack does 40 damage for each Energy attached to this Pokémon.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,37 @@
+name: Mudkip
+
+origin: pop-series-4-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 258
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Super Hypno Wave
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

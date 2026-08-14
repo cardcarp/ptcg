@@ -1,0 +1,45 @@
+name: Liepard
+
+origin: paradox-rift-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Purrloin
+
+dex: 510
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Dishonest Swap
+    text: Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

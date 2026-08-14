@@ -1,0 +1,40 @@
+name: Clefairy
+
+origin: heartgold-soulsilver-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 35
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Minimize
+    text: During your opponent's next turn, any damage done to Clefairy by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Slap
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

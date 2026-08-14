@@ -1,0 +1,50 @@
+name: Kilowattrel
+
+origin: paldea-evolved-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Wattrel
+
+dex: 941
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Jet Wing
+    text: During your next turn, this Pokémon can't attack.
+    damage: 150
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - G
+
+errata: []

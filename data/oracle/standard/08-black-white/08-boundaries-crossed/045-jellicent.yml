@@ -1,0 +1,44 @@
+name: Jellicent
+
+origin: boundaries-crossed-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Frillish
+
+dex: 593
+
+rule:
+  - type: ability
+    name: Stickiness
+    text: The Retreat Cost of each of your opponent's Pokémon in play is Colorless more.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Eerie Light
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

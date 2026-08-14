@@ -1,0 +1,42 @@
+name: Scrafty
+
+origin: white-flare-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Ruffians Attack
+    text: Flip a coin for each Darkness Pokémon you have in play. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

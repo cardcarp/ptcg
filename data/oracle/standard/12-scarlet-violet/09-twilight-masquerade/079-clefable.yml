@@ -1,0 +1,47 @@
+name: Clefable
+
+origin: twilight-masquerade-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Metronome
+    text: Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Magical Shot
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

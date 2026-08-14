@@ -1,0 +1,47 @@
+name: Galvantula
+
+origin: team-up-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Joltik
+
+dex: 596
+
+rule:
+  - type: ability
+    name: Unnerve
+    text: Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+    name: Spider Thread
+    text: Put a card from your discard pile into your hand.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

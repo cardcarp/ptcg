@@ -1,0 +1,47 @@
+name: Rocket's Scyther
+
+origin: gym-heroes-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 123
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Shadow Images
+    text: Whenever Rocket's Scyther is attacked, your opponent flips a coin. If tails, that attack does no damage to Rocket's Scyther. (Any other effects of the attack still happen.) This effect lasts until Rocket's Scyther takes damage (or is Benched or is evolved).
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Blinding Scythe
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

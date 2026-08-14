@@ -1,0 +1,50 @@
+name: Slurpuff
+
+origin: generations-020rc
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Swirlix
+
+dex: 685
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Lap Up
+    text: Draw 3 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fairy Wind
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

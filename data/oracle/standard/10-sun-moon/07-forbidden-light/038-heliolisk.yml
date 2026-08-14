@@ -1,0 +1,51 @@
+name: Heliolisk
+
+origin: forbidden-light-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Volt Wave
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

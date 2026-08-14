@@ -1,0 +1,41 @@
+name: Gorebyss
+
+origin: destined-rivals-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Clamperl
+
+dex: 368
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Crescendo Wave
+    text: This attack does 30 damage for each Water Energy attached to this Pokémon. Before doing damage, you may attach any number of Basic Water Energy cards from your hand to this Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

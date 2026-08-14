@@ -1,0 +1,41 @@
+name: Porygon
+
+origin: heartgold-soulsilver-black-star-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 137
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Stiffen
+    text: During your opponent's next turn, any damage done to Porygon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Version Update
+    text: Search your deck for Porygon2, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Mew
+
+origin: expedition-base-set-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 151
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Super Psywave
+    text: Choose 1 of your opponent's Pokémon. Count the number of Energy cards attached to that Pokémon. Put that many damage counters on the Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

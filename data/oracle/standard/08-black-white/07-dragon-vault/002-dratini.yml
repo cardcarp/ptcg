@@ -1,0 +1,40 @@
+name: Dratini
+
+origin: dragon-vault-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 40
+
+dex: 147
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Hypnotic Gaze
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Lightning
+    name: Tail Whap
+    damage: 10
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

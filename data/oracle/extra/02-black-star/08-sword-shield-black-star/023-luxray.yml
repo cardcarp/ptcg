@@ -1,0 +1,47 @@
+name: Luxray
+
+origin: sword-shield-black-star-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 160
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Raid
+    text: If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Head Bolt
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

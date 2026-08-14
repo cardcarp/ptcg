@@ -1,0 +1,53 @@
+name: Pidgeot
+
+origin: flashfire-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Pidgeotto
+
+dex: 18
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Clutch
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strong Gust
+    text: During your next turn, this Pokémon's Strong Gust attack does 60 more damage (before applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

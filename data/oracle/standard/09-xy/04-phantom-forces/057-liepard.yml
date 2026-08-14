@@ -1,0 +1,51 @@
+name: Liepard
+
+origin: phantom-forces-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Purrloin
+
+dex: 510
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Gentle Bite
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 60 (before applying Weakness and Resistance).
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Mach Claw
+    text: This attack's damage isn't affected by Resistance.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

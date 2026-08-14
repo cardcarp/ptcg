@@ -1,0 +1,50 @@
+name: Skarmory
+
+origin: sun-moon-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 110
+
+dex: 227
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Metallic Sound
+    text: Discard all Special Energy from each Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Aerial Ace
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

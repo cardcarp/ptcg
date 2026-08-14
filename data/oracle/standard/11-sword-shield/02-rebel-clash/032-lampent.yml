@@ -1,0 +1,43 @@
+name: Lampent
+
+origin: rebel-clash-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: ability
+    name: Top Entry
+    text: Once during your turn, if you drew this Pokémon from your deck at the beginning of your turn and your Bench isn't full, before you put it into your hand, you may put it onto your Bench.
+  - type: attack
+    cost:
+      - Fire
+    name: Reignite
+    text: Attach a Fire Energy card from your discard pile to 1 of your Pokémon.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

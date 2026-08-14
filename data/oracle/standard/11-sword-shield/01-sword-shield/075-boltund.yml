@@ -1,0 +1,50 @@
+name: Boltund
+
+origin: sword-shield-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Yamper
+
+dex: 836
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Big Bite
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 50
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Fighting Fangs
+    text: If your opponent's Active Pokémon is a Pokémon V or Pokémon-GX, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

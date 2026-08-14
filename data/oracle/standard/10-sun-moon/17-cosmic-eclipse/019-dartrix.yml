@@ -1,0 +1,45 @@
+name: Dartrix
+
+origin: cosmic-eclipse-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Rowlet
+
+dex: 723
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Leafage
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Flick
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

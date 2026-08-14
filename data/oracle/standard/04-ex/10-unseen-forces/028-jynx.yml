@@ -1,0 +1,45 @@
+name: Jynx
+
+origin: unseen-forces-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 124
+
+rule:
+  - type: ability
+    name: Stages of Evolution
+    text: As long as Jynx is an Evolved Pokémon, prevent all effects of opponent's attacks, except damage, done to Jynx, and Jynx has no Weakness.
+  - type: attack
+    cost:
+      - Colorless
+    name: Freeze Light
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Burned.
+  - type: attack
+    cost:
+      - Water
+      - Psychic
+      - Colorless
+    name: Pure Power
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Crobat V
+
+origin: sword-shield-black-star-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 180
+
+dex: 169
+
+rule:
+  - type: ability
+    name: Dark Asset
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may draw cards until you have 6 cards in your hand. You can't use more than 1 Dark Asset Ability each turn.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Venomous Fang
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

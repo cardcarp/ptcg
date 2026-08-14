@@ -1,0 +1,46 @@
+name: Blitzle
+
+origin: lost-thunder-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 522
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Flop
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Zap Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

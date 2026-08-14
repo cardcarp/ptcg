@@ -1,0 +1,36 @@
+name: Feebas
+
+origin: primal-clash-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 349
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Float On
+    text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

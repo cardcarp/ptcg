@@ -1,0 +1,49 @@
+name: Whimsicott
+
+origin: cosmic-eclipse-148
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 70
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Sneaky Pocket
+    text: Put a card from your hand in the Lost Zone. If you do, draw 3 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lost March
+    text: This attack does 20 damage for each of your Pokémon, except p (Prism Star) Pokémon, in the Lost Zone.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

@@ -1,0 +1,58 @@
+name: Aerodactyl ex
+
+origin: sandstorm-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 142
+
+rule:
+  - type: ability
+    name: Primal Lock
+    text: As long as Aerodactyl ex is in play, your opponent can't play Pokémon Tool cards. Remove any Pokémon Tool cards attached to your opponent's Pokémon and put them into his or her discard pile.
+  - type: attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: The Defending Pokémon is now Confused.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Feraligatr
+
+origin: expedition-base-set-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Double Claw
+    text: Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

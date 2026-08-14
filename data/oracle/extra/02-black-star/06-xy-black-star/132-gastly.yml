@@ -1,0 +1,40 @@
+name: Gastly
+
+origin: xy-black-star-132
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 92
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Sleep Poison
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and Poisoned.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,55 @@
+name: Radiant Steelix
+
+origin: lost-origin-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Radiant
+
+type:
+  - Metal
+
+hp: 170
+
+dex: 208
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Stream
+    text: Attach up to 2 Metal Energy cards from your discard pile to this Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Destructive Finish
+    text: Discard cards from the top of your deck until only 1 card remains. This attack does 30 more damage for each Energy card you discarded in this way.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+regulation:
+  - F
+
+errata: []

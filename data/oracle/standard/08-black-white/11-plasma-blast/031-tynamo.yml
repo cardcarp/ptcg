@@ -1,0 +1,35 @@
+name: Tynamo
+
+origin: plasma-blast-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 30
+
+dex: 602
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Razor Fin
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

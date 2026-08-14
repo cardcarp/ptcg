@@ -1,0 +1,49 @@
+name: Regigigas
+
+origin: stormfront-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 486
+
+rule:
+  - type: ability
+    name: Regi Form
+    text: If you have Regirock, Regice, and Registeel in play, the attack cost of Regigigas's attacks is Colorless less.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mega Punch
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Fighting
+      - Metal
+      - Colorless
+    name: Giga Power
+    text: You may do 60 damage plus 40 more damage. If you do, Regigigas does 40 damage to itself.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

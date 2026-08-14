@@ -1,0 +1,46 @@
+name: Manectric
+
+origin: dragons-exalted-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Energy Crush
+    text: Does 20 damage times the amount of Energy attached to all of your opponent's Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Flash Impact
+    text: Does 20 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

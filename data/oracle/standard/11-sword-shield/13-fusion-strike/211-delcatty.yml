@@ -1,0 +1,47 @@
+name: Delcatty
+
+origin: fusion-strike-211
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Skitty
+
+dex: 301
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Willful Busybody
+    text: Your opponent reveals their hand. Choose a card you find there and put it on the bottom of their deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 50 damage for each heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

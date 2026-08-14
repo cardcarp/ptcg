@@ -1,0 +1,42 @@
+name: Drampa
+
+origin: journey-together-130
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 780
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dragon Claw
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

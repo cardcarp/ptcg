@@ -1,0 +1,38 @@
+name: Mudkip
+
+origin: crystal-guardians-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 258
+
+rule:
+  - type: ability
+    name: Submerge
+    text: As long as Mudkip is on your Bench, prevent all damage done to Mudkip by attacks (both yours and your opponent's).
+  - type: attack
+    cost:
+      - Colorless
+    name: Mud Slap
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

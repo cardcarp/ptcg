@@ -1,0 +1,48 @@
+name: Simipour
+
+origin: emerging-powers-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Panpour
+
+dex: 516
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Grass' Power
+    text: If this Pokémon has any Grass Energy attached to it, heal 20 damage from this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Rushing Water
+    text: Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

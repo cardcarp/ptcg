@@ -1,0 +1,54 @@
+name: Sceptile ex δ
+
+origin: crystal-guardians-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+  - Delta Species
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Grovyle
+
+dex: 254
+
+rule:
+  - type: ability
+    name: Extra Liquid
+    text: Each player's Pokémon-ex can't use any Poké-Powers and pays Colorless more Energy to use its attacks. Each Pokémon can't be affected by more than 1 Extra Liquid Poké-Body.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Power Revenge
+    text: Does 60 damage plus 10 more damage for each Prize card your opponent has taken.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

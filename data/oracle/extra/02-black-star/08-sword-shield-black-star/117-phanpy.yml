@@ -1,0 +1,44 @@
+name: Phanpy
+
+origin: sword-shield-black-star-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 231
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Stampede
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Strike Back
+    text: This attack does 30 damage for each damage counter on this Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

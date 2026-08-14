@@ -1,0 +1,42 @@
+name: Victini
+
+origin: roaring-skies-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 494
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Me First
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Psy Bolt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

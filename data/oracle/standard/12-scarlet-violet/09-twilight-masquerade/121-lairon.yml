@@ -1,0 +1,52 @@
+name: Lairon
+
+origin: twilight-masquerade-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Aron
+
+dex: 305
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Steel Tackle
+    text: This Pokémon also does 20 damage to itself.
+    damage: 40
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Claw
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

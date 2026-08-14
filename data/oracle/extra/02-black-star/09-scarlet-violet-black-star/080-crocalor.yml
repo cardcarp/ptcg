@@ -1,0 +1,45 @@
+name: Crocalor
+
+origin: scarlet-violet-black-star-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Fuecoco
+
+dex: 910
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Steady Firebreathing
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Hyper Voice
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

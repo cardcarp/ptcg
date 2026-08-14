@@ -1,0 +1,49 @@
+name: Nidoqueen
+
+origin: jungle-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Nidorina
+
+dex: 31
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Boyfriends
+    text: Does 20 damage plus 20 more damage for each Nidoking you have in play.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Mega Punch
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

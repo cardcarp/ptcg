@@ -1,0 +1,41 @@
+name: Stufful
+
+origin: burning-shadows-110
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 759
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Baby-Doll Eyes
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

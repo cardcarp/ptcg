@@ -1,0 +1,50 @@
+name: Sinistcha ex
+
+origin: twilight-masquerade-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 240
+
+preevolution:
+  - Poltchageist
+
+dex: 1013
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Re-Brew
+    text: Put 2 damage counters on 1 of your opponent's Pokémon for each Basic Grass Energy card in your discard pile. Then, shuffle those Energy cards into your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Matcha Splash
+    text: Heal 30 damage from each of your Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

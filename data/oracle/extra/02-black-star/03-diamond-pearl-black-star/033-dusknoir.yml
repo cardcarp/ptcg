@@ -1,0 +1,49 @@
+name: Dusknoir
+
+origin: diamond-pearl-black-star-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Dusclops
+
+dex: 477
+
+rule:
+  - type: ability
+    name: Dark Hide
+    text: Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand, choose a Pokémon you find there, and put it on the bottom of his or her deck. This power can't be used if Dusknoir is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Reaper Pulse
+    text: Move up to 2 damage counters from Dusknoir to 1 of your opponent's Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

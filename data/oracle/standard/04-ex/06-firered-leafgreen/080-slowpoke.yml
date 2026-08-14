@@ -1,0 +1,35 @@
+name: Slowpoke
+
+origin: firered-leafgreen-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 79
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Confusion Wave
+    text: Both Slowpoke and the Defending Pokémon are now Confused.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

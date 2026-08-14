@@ -1,0 +1,48 @@
+name: Scream Tail
+
+origin: temporal-forces-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ancient
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 985
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Supportive Singing
+    text: Heal 100 damage from 1 of your Benched Ancient Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

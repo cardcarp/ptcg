@@ -1,0 +1,51 @@
+name: Aegislash
+
+origin: forbidden-light-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Doublade
+
+dex: 681
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ticking Knock Out
+    text: During your next turn, if the Defending Pokémon is damaged by an attack, it will be Knocked Out.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Draining Blade
+    text: Heal 30 damage from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

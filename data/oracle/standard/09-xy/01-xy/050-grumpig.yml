@@ -1,0 +1,48 @@
+name: Grumpig
+
+origin: xy-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Spoink
+
+dex: 326
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Tricky Steps
+    text: You may move an Energy attached to your opponent's Active Pokémon to 1 of your opponent's Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

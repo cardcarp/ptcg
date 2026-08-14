@@ -1,0 +1,51 @@
+name: Clefable
+
+origin: hidden-fates-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 120
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Pound
+    damage: 40
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Moon Impact
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

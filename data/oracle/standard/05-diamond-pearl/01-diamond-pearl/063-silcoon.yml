@@ -1,0 +1,45 @@
+name: Silcoon
+
+origin: diamond-pearl-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Wurmple
+
+dex: 266
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Harden
+    text: During your opponent's next turn, If Silcoon would be damaged by an attack, prevent that attack's damage done to Silcoon if that damage is 30 or less.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Entangling String
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 3
+
+regulation:
+
+errata: []

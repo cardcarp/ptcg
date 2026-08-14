@@ -1,0 +1,42 @@
+name: Toedscool
+
+origin: paradox-rift-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 948
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Clinging Spore
+    text: Attach a Basic Grass Energy card from your hand to 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Vine Slap
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

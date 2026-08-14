@@ -1,0 +1,44 @@
+name: Zarude
+
+origin: crown-zenith-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 893
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Drag Off
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 20 damage to the new Active Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Triple Whip
+    text: Flip 3 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,46 @@
+name: Pikachu VMAX
+
+origin: sword-shield-black-star-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Lightning
+
+hp: 310
+
+preevolution:
+  - Pikachu V
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: G-Max Volt Tackle
+    text: You may discard all Energy from this Pokémon. If you do, this attack does 150 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,36 @@
+name: Tympole
+
+origin: rebel-clash-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 535
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spiral Attack
+    text: Your opponent's Active Pokémon is now Confused.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

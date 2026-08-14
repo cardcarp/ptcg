@@ -1,0 +1,51 @@
+name: Galvantula
+
+origin: phantom-forces-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Joltik
+
+dex: 596
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Cobweb Trip
+    text: Switch 1 of your opponent's Benched Pokémon with your opponent's Active Pokémon. The new Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electroweb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

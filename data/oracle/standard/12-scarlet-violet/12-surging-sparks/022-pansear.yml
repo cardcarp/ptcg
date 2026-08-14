@@ -1,0 +1,36 @@
+name: Pansear
+
+origin: surging-sparks-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 513
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

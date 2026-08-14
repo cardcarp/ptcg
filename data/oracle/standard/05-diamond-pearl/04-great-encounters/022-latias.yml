@@ -1,0 +1,49 @@
+name: Latias
+
+origin: great-encounters-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 380
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Miraculous Light
+    text: Remove 2 damage counters and all Special Conditions from Latias.
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Mist Ball
+    text: Discard a Fire Energy and a Water Energy attached to Latias.
+    damage: 80
+
+weakness:
+  - type: Colorless
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

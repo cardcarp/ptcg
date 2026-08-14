@@ -1,0 +1,52 @@
+name: Grovyle
+
+origin: ruby-sapphire-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Treecko
+
+dex: 253
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poison Breath
+    text: The Defending Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

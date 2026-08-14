@@ -1,0 +1,48 @@
+name: Slowking
+
+origin: dark-explorers-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psy Bolt
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Hand Press
+    text: If you have more cards in your hand than your opponent, this attack does 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

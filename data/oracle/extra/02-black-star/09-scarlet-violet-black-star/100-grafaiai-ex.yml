@@ -1,0 +1,52 @@
+name: Grafaiai ex
+
+origin: scarlet-violet-black-star-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 250
+
+preevolution:
+  - Shroodle
+
+dex: 945
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Numbing Saliva
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Toxic Throw
+    text: Your opponent's Active Pokémon is now Poisoned. During your next turn, this Pokémon can't use Toxic Throw.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

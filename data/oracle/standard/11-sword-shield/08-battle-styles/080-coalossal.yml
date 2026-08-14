@@ -1,0 +1,50 @@
+name: Coalossal
+
+origin: battle-styles-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Carkol
+
+dex: 839
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Coal Cannon
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 90 damage for each heads.
+    damage: 90
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wild Tackle
+    text: This Pokémon also does 50 damage to itself.
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,42 @@
+name: Electrike
+
+origin: emerald-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 309
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

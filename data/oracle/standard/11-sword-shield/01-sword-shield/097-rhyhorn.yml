@@ -1,0 +1,44 @@
+name: Rhyhorn
+
+origin: sword-shield-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 111
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Stomp Off
+    text: Discard the top 2 cards of your opponent's deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Land Crush
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

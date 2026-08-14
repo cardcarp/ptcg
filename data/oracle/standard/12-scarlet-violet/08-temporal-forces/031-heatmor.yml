@@ -1,0 +1,44 @@
+name: Heatmor
+
+origin: temporal-forces-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 631
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Licking Flames
+    text: Flip 3 coins. For each tails, discard an Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

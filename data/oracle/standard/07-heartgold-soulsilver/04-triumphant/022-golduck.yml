@@ -1,0 +1,44 @@
+name: Golduck
+
+origin: triumphant-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: ability
+    name: Natural Remedy
+    text: Whenever you attach a Water Energy card from your hand to Golduck, remove 2 damage counters from Golduck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Powerful Splash
+    text: Does 30 damage plus 10 more damage for each Water Energy attached to all of your Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

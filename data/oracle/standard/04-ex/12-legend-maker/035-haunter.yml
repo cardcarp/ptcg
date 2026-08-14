@@ -1,0 +1,50 @@
+name: Haunter
+
+origin: legend-maker-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Time Spiral
+    text: If your opponent has any Evolved Pokémon in play, choose 1 of them and flip a coin. If heads, remove the highest Stage Evolution card on that Pokémon and have your opponent shuffle it into his or her deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Haunt
+    text: Put 2 damage counters on the Defending Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

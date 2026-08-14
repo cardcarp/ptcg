@@ -1,0 +1,39 @@
+name: Morpeko
+
+origin: fusion-strike-179
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 877
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Explosive Discontent
+    text: This attack does 30 damage for each damage counter on this Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

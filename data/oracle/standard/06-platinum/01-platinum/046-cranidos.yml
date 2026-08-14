@@ -1,0 +1,47 @@
+name: Cranidos
+
+origin: platinum-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Skull Fossil
+
+dex: 408
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Rock Smash
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Knock Over
+    text: You may discard any Stadium card in play.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

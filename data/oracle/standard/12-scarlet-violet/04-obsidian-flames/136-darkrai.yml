@@ -1,0 +1,45 @@
+name: Darkrai
+
+origin: obsidian-flames-136
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 130
+
+dex: 491
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Dark Slumber
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Night Cyclone
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you like.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

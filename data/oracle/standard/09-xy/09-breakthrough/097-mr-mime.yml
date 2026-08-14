@@ -1,0 +1,46 @@
+name: Mr. Mime
+
+origin: breakthrough-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 122
+
+rule:
+  - type: ability
+    name: Bench Barrier
+    text: Prevent all damage done to your Benched Pokémon by attacks.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Juggling
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

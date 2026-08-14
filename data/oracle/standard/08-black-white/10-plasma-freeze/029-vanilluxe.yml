@@ -1,0 +1,48 @@
+name: Vanilluxe
+
+origin: plasma-freeze-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Vanillish
+
+dex: 584
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: ChillMAX
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Cold Breath
+    text: The Defending Pokémon is now Asleep.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

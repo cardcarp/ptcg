@@ -1,0 +1,40 @@
+name: Farfetch'd
+
+origin: kalos-starter-set-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 83
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Duosion
+
+origin: black-bolt-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Solosis
+
+dex: 578
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cellular Evolution
+    text: Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Spray Fluid
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

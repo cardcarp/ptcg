@@ -1,0 +1,47 @@
+name: Nuzleaf
+
+origin: deoxys-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Eerie Light
+    text: The Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: One-Two Strike
+    text: Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

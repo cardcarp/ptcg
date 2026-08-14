@@ -1,0 +1,44 @@
+name: Kakuna
+
+origin: vivid-voltage-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Weedle
+
+dex: 14
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shed Skin
+    text: Heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Grass
+    name: Bug Bite
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

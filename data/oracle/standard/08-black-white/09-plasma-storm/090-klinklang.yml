@@ -1,0 +1,50 @@
+name: Klinklang
+
+origin: plasma-storm-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Team Plasma
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Klang
+
+dex: 601
+
+rule:
+  - type: ability
+    name: Plasma Steel
+    text: Prevent all damage done to your Metal Pokémon by attacks from your opponent's Pokémon-EX.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Heavy Bullet
+    text: Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

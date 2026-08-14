@@ -1,0 +1,45 @@
+name: Marshadow
+
+origin: unbroken-bonds-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 802
+
+rule:
+  - type: ability
+    name: Resetting Hole
+    text: Once during your turn (before your attack), if this Pokémon is on your Bench, you may discard any Stadium card in play. If you do, discard this Pokémon and all cards attached to it.
+  - type: attack
+    cost:
+      - Colorless
+    name: Red Knuckles
+    text: If your opponent's Active Pokémon is an Ultra Beast, this attack does 60 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

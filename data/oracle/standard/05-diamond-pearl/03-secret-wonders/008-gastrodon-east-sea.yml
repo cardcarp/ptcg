@@ -1,0 +1,50 @@
+name: Gastrodon East Sea
+
+origin: secret-wonders-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Shellos East Sea
+
+dex: 423
+
+rule:
+  - type: ability
+    name: Osmotic Pressure
+    text: Once during your turn (before your attack), if you have Gastrodon West Sea in play, you may move up to 3 damage counters from Gastrodon East Sea to 1 of your Gastrodon West Sea.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Dwindling Wave
+    text: Does 80 damage minus 10 damage for each damage counter on Gastrodon East Sea.
+    damage: 80
+    modifier: '-'
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

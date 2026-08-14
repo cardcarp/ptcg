@@ -1,0 +1,44 @@
+name: Golduck
+
+origin: sandstorm-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: ability
+    name: Chaos Flash
+    text: Once during your turn (before your attack), if Golduck is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Confused. This power can't be used if Golduck is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Water
+      - Psychic
+    name: Special Blow
+    text: If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 40 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

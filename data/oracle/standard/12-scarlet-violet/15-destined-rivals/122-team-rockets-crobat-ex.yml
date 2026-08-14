@@ -1,0 +1,53 @@
+name: Team Rocket's Crobat ex
+
+origin: destined-rivals-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Darkness
+
+hp: 310
+
+preevolution:
+  - Team Rocket's Golbat
+
+dex: 169
+
+rule:
+  - type: ability
+    name: Biting Spree
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 2 of your opponent's Pokémon and put 2 damage counters on each of them.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Assassin's Return
+    text: You may put this Pokémon into your hand. (Discard all cards attached to this Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

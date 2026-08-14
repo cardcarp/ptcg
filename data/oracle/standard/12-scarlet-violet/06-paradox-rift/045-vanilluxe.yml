@@ -1,0 +1,43 @@
+name: Vanilluxe
+
+origin: paradox-rift-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Vanillish
+
+dex: 584
+
+rule:
+  - type: ability
+    name: Frigid Room
+    text: Your opponent's Pokémon that have 40 HP or less remaining can't attack.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Icicle Missile
+    damage: 110
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

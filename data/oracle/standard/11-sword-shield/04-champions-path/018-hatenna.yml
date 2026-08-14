@@ -1,0 +1,47 @@
+name: Hatenna
+
+origin: champions-path-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 856
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Stampede
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Magical Shot
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

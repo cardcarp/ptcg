@@ -1,0 +1,45 @@
+name: Dark Electrode
+
+origin: team-rocket-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 60
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rolling Tackle
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Energy Bomb
+    text: Take all Energy cards attached to Dark Electrode and attach them to your Benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

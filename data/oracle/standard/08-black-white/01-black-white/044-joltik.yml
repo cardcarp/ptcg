@@ -1,0 +1,36 @@
+name: Joltik
+
+origin: black-white-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 595
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Stun Needle
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

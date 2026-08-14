@@ -1,0 +1,48 @@
+name: Doduo
+
+origin: firered-leafgreen-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 84
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Run Around
+    text: Switch Doduo with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Random Peck
+    text: Flip 2 coins. This attack does 10 damage plus 10 more damage for each heads.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

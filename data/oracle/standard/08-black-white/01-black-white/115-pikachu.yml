@@ -1,0 +1,43 @@
+name: Pikachu
+
+origin: black-white-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Energize
+    text: Attach a Lightning Energy from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunderbolt
+    text: Discard all Energy attached to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

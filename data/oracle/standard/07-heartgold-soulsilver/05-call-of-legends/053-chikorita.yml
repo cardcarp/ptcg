@@ -1,0 +1,47 @@
+name: Chikorita
+
+origin: call-of-legends-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 152
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Remove 1 damage counter from Chikorita.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Reckless Charge
+    text: Chikorita does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

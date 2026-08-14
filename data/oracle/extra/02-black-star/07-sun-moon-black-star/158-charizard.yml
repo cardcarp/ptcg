@@ -1,0 +1,44 @@
+name: Charizard
+
+origin: sun-moon-black-star-158
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: ability
+    name: Roaring Resolve
+    text: Once during your turn (before your attack), you may put 2 damage counters on this Pokémon. If you do, search your deck for up to 2 Fire Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Continuous Blaze Ball
+    text: Discard all Fire Energy from this Pokémon. This attack does 50 more damage for each card you discarded in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

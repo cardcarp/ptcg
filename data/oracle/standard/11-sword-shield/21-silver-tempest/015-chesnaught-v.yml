@@ -1,0 +1,46 @@
+name: Chesnaught V
+
+origin: silver-tempest-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 230
+
+dex: 652
+
+rule:
+  - type: ability
+    name: Needle Line
+    text: If your Active Chesnaught V is damaged by an attack from your opponent's Pokémon (even if it is Knocked Out), put 3 damage counters on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Touchdown
+    text: Heal 30 damage from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

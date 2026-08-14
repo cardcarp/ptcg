@@ -1,0 +1,42 @@
+name: Naclstack
+
+origin: paldea-evolved-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Nacli
+
+dex: 933
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Salt Cannon
+    text: Flip 3 coins. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

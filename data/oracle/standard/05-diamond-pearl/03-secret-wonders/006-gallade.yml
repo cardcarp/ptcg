@@ -1,0 +1,48 @@
+name: Gallade
+
+origin: secret-wonders-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Kirlia
+
+dex: 475
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Sonic Blade
+    text: Put damage counters on the Defending Pokémon until it is 50 HP away from being Knocked Out. If you do, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Cut
+    text: You may choose as many of your face-down Prize cards as you like and put them face up. If you do, this attack does 60 damage plus 20 more damage for each Prize card you chose. (These cards remain face up for the rest of the game.)
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Togepi
+
+origin: southern-islands-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 175
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bawl
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

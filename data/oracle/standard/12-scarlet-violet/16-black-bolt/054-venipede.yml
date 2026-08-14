@@ -1,0 +1,36 @@
+name: Venipede
+
+origin: black-bolt-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 543
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Poison Spray
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

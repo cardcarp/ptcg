@@ -1,0 +1,36 @@
+name: Scatterbug
+
+origin: perfect-order-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 664
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

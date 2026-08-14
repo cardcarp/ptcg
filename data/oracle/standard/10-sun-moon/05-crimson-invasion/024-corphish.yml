@@ -1,0 +1,36 @@
+name: Corphish
+
+origin: crimson-invasion-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 341
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Crabhammer
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

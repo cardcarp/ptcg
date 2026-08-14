@@ -1,0 +1,47 @@
+name: Skarmory
+
+origin: destined-rivals-141
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 110
+
+dex: 227
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Roost
+    text: Heal 50 damage from this Pokémon. During your next turn, this Pokémon can't retreat.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

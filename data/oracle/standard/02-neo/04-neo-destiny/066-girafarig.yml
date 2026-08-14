@@ -1,0 +1,41 @@
+name: Girafarig
+
+origin: neo-destiny-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 203
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Bite
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Psychic
+    text: Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+    damage: 10
+    modifier: +
+
+retreat: 1
+
+regulation:
+
+errata: []

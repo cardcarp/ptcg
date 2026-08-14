@@ -1,0 +1,41 @@
+name: Numel
+
+origin: ruby-sapphire-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 322
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Burn Off
+    text: Flip a coin. If heads, each Defending Pokémon is now Burned.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

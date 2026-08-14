@@ -1,0 +1,45 @@
+name: Mew ☆ δ
+
+origin: dragon-frontiers-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+  - Delta Species
+
+type:
+  - Water
+
+hp: 70
+
+dex: 151
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Mimicry
+    text: Choose an attack on 1 of your opponent's Pokémon in play. Mimicry copies that attack. This attack does nothing if Mew Star doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Mew Star performs that attack.
+  - type: attack
+    cost:
+      - Water
+    name: Rainbow Wave
+    text: Choose 1 basic Energy card attached to Mew Star. This attack does 20 damage to each of your opponent's Pokémon that is the same type as the basic Energy card that you chose. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

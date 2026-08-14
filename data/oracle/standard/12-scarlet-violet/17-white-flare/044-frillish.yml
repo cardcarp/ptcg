@@ -1,0 +1,42 @@
+name: Frillish
+
+origin: white-flare-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 592
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Oceanic Gloom
+    text: During your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

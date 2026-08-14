@@ -1,0 +1,44 @@
+name: Nidorina
+
+origin: firered-leafgreen-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Nidoran ♀
+
+dex: 30
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fast Evolution
+    text: Search your deck for up to 2 Evolution cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

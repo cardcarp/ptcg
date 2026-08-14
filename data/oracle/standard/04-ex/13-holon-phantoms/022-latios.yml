@@ -1,0 +1,55 @@
+name: Latios δ
+
+origin: holon-phantoms-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Water
+
+hp: 80
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aqua Wave
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Dragonbreath
+    text: Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 50
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

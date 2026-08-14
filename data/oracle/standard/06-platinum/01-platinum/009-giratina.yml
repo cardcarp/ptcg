@@ -1,0 +1,46 @@
+name: Giratina
+
+origin: platinum-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 487
+
+rule:
+  - type: ability
+    name: Let Loose
+    text: Once during your turn, when you put Giratina from your hand onto your Bench, you may use this power. Each player shuffles his or her hand into his or her deck and draws up to 4 cards. (You draw your cards first.)
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Earth Power
+    text: Flip 2 coins. This attack does 10 damage times the number of heads to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

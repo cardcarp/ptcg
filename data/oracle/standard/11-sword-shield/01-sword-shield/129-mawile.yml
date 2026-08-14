@@ -1,0 +1,48 @@
+name: Mawile
+
+origin: sword-shield-129
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 303
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Find a Friend
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Crunch
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,44 @@
+name: Sudowoodo
+
+origin: lost-origin-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 185
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Joust
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Impound
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

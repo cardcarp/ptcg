@@ -1,0 +1,41 @@
+name: Deoxys
+
+origin: sun-moon-black-star-164
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 386
+
+rule:
+  - type: ability
+    name: Power Suction
+    text: Once during your turn (before your attack), you may move an Energy from 1 of your Pokémon to 1 of your Deoxys.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psycho Boost
+    text: During your next turn, this Pokémon's Psycho Boost attack's base damage is 50.
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

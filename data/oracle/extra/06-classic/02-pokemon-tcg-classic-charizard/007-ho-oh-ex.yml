@@ -1,0 +1,45 @@
+name: Ho-Oh ex
+
+origin: pokemon-tcg-classic-charizard-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 250
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Phoenix Breath
+    text: Attach up to 2 Basic Energy cards from your discard pile to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Eternal Blaze
+    text: During your next turn, this Pokémon can't attack.
+    damage: 180
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

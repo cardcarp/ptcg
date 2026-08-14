@@ -1,0 +1,44 @@
+name: Exeggcute
+
+origin: plasma-freeze-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 30
+
+dex: 102
+
+rule:
+  - type: ability
+    name: Propagation
+    text: Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put this Pokémon into your hand.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Seed Bomb
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

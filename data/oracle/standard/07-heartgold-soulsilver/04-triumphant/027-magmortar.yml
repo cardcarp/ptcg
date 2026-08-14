@@ -1,0 +1,46 @@
+name: Magmortar
+
+origin: triumphant-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Magmar
+
+dex: 467
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Top Burner
+    text: For each Fire Energy attached to Magmortar, discard the top card from your opponent's deck. Then, flip a coin. If tail, discard all Fire Energy attached to Magmortar.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Burst Punch
+    text: The Defending Pokémon is now Burned.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

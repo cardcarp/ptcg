@@ -1,0 +1,44 @@
+name: Swablu
+
+origin: platinum-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 333
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sing
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Colorless
+    name: Run Around
+    text: You may switch Swablu with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

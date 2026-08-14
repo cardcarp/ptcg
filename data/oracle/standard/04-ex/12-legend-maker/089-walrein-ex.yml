@@ -1,0 +1,58 @@
+name: Walrein ex
+
+origin: legend-maker-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Sealeo
+
+dex: 365
+
+rule:
+  - type: ability
+    name: Icy Aura
+    text: As long as Walrein ex is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent's) between turns, excluding Water Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Arrow
+    text: Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Ice Throw
+    text: If the Defending Pokémon is a Fighting Pokémon, this attack's base damage is 120 instead of 80.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

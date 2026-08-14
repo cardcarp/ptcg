@@ -1,0 +1,46 @@
+name: Greninja
+
+origin: kalos-starter-set-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Frogadier
+
+dex: 658
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Mat Block
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Edge
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

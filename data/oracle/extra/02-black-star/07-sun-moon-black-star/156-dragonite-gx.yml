@@ -1,0 +1,58 @@
+name: Dragonite-GX
+
+origin: sun-moon-black-star-156
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Dragon
+
+hp: 250
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Dragon Claw
+    damage: 70
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Giga Impact
+    text: This Pokémon can't attack during your next turn.
+    damage: 200
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragonporter-GX
+    text: Put 3 Dragon Pokémon from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

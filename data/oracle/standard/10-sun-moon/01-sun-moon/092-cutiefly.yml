@@ -1,0 +1,41 @@
+name: Cutiefly
+
+origin: sun-moon-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 30
+
+dex: 742
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Fly Around
+    text: If any damage is done to this Pokémon by attacks during your opponent's next turn, flip a coin. If heads, prevent that damage.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

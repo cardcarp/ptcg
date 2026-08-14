@@ -1,0 +1,43 @@
+name: Raticate
+
+origin: boundaries-crossed-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gnaw Through
+    text: Discard a Pokémon Tool card attached to the Defending Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Super Fang
+    text: Put damage counters on the Defending Pokémon until its remaining HP is 10.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

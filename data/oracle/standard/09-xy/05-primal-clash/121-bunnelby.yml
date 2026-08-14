@@ -1,0 +1,40 @@
+name: Bunnelby
+
+origin: primal-clash-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 659
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Burrow
+    text: Discard the top card of your opponent's deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Rototiller
+    text: Shuffle a card from your discard pile into your deck.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

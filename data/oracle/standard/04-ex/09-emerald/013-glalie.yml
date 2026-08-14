@@ -1,0 +1,47 @@
+name: Glalie
+
+origin: emerald-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Snorunt
+
+dex: 362
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hailstone
+    text: Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Super Slash
+    text: If the Defending Pokémon is an Evolved Pokémon, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

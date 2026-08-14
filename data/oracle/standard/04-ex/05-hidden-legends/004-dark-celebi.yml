@@ -1,0 +1,46 @@
+name: Dark Celebi
+
+origin: hidden-legends-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+  - Darkness
+
+hp: 70
+
+dex: 251
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dark Provide
+    text: Attach up to 1 Grass or Darkness Energy card from your hand to your Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Darkness
+    name: Leaf Poison
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both GrassDarkness type.
+
+regulation:
+
+errata: []

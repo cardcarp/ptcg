@@ -1,0 +1,48 @@
+name: Iron Hands
+
+origin: temporal-forces-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Future
+
+type:
+  - Lightning
+
+hp: 140
+
+dex: 992
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Volt Wave
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Superalloy Hands
+    text: If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

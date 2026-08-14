@@ -1,0 +1,37 @@
+name: Surskit
+
+origin: hidden-legends-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 283
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Splash About
+    text: If Surskit has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

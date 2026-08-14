@@ -1,0 +1,44 @@
+name: Whimsicott
+
+origin: unified-minds-144
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 80
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: ability
+    name: Prowl
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Gust
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

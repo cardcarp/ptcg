@@ -1,0 +1,51 @@
+name: Giratina-EX
+
+origin: dragons-exalted-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 180
+
+dex: 487
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Psychic
+      - Colorless
+    name: Shred
+    text: This attack's damage isn't affected by any effects on the Defending Pokémon.
+    damage: 90
+  - type: attack
+    cost:
+      - Grass
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Dragon Pulse
+    text: Discard the top 3 cards of your deck.
+    damage: 130
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

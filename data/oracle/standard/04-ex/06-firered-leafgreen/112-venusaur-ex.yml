@@ -1,0 +1,60 @@
+name: Venusaur ex
+
+origin: firered-leafgreen-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Ivysaur
+
+dex: 3
+
+rule:
+  - type: ability
+    name: Energy Trans
+    text: As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Venusaur ex is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Pollen Hazard
+    text: The Defending Pokémon is now Poisoned, Burned, and Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solarbeam
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

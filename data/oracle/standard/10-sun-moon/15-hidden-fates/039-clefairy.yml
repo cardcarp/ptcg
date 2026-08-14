@@ -1,0 +1,46 @@
+name: Clefairy
+
+origin: hidden-fates-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 35
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Pound
+    damage: 10
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Moon Dance
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

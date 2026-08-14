@@ -1,0 +1,43 @@
+name: Dunsparce
+
+origin: legend-maker-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 206
+
+rule:
+  - type: ability
+    name: Deadlock
+    text: As long as Dunsparce is your Active Pokémon, your opponent's Dunsparce can't attack.
+  - type: attack
+    cost:
+      - Colorless
+    name: Down Draw
+    text: Draw 2 cards from the bottom of your deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tripping Turn
+    text: The Defending Pokémon is now Confused. You may switch Dunsparce with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

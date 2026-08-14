@@ -1,0 +1,52 @@
+name: Ferrothorn
+
+origin: silver-tempest-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Ferroseed
+
+dex: 598
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Spinning Attack
+    damage: 50
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Whip Smash
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

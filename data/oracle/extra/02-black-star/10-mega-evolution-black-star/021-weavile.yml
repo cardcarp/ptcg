@@ -1,0 +1,48 @@
+name: Weavile
+
+origin: mega-evolution-black-star-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Retaliatory Claw
+    text: If this Pokémon's remaining HP is 50 or less, this attack does 170 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Cut
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

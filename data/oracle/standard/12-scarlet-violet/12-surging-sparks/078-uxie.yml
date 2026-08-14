@@ -1,0 +1,41 @@
+name: Uxie
+
+origin: surging-sparks-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 480
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Painful Memories
+    text: Put 2 damage counters on each of your opponent's Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

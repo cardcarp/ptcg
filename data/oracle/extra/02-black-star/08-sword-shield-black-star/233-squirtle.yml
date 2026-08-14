@@ -1,0 +1,36 @@
+name: Squirtle
+
+origin: sword-shield-black-star-233
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 7
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

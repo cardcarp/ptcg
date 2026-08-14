@@ -1,0 +1,38 @@
+name: Aipom
+
+origin: phantasmal-flames-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 190
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Astonish
+    text: Choose a random card from your opponent's hand, and your opponent reveals that card and shuffles it into their deck.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

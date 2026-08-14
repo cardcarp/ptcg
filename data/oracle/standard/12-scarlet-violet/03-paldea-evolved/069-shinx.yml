@@ -1,0 +1,37 @@
+name: Shinx
+
+origin: paldea-evolved-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 403
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Wild Kick
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,53 @@
+name: Staraptor
+
+origin: breakthrough-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Staravia
+
+dex: 398
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cyclone Slash
+    text: Before doing damage, have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 70
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Brave Bird
+    text: This Pokémon does 20 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

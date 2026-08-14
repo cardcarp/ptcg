@@ -1,0 +1,43 @@
+name: Wimpod
+
+origin: paradox-rift-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 767
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sneaky Snacking
+    text: Flip a coin. If heads, discard a random card from your opponent's hand.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

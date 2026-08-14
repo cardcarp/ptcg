@@ -1,0 +1,48 @@
+name: Galarian Runerigus
+
+origin: rebel-clash-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Galarian Yamask
+
+dex: 867
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spreading Spite
+    text: For each damage counter on this Galarian Runerigus, put 2 damage counters on your opponent's Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mad Hammer
+    text: This Pokémon also does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

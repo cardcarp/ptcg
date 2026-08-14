@@ -1,0 +1,46 @@
+name: Tatsugiri ex
+
+origin: surging-sparks-142
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Dragon
+
+hp: 160
+
+dex: 978
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Water
+    name: Surprise Pump
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 100
+  - type: attack
+    cost:
+      - Fire
+      - Water
+      - Darkness
+    name: Cinnabar Lure
+    text: Look at the top 10 cards of your deck. You may put any number of Pokémon you find there onto your Bench. Shuffle the other cards back into your deck.
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - H
+
+errata: []

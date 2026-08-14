@@ -1,0 +1,42 @@
+name: Muk
+
+origin: team-up-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: ability
+    name: Poison Sacs
+    text: The Special Condition Poisoned is not removed when your opponent's Pokémon evolve or devolve.
+  - type: attack
+    cost:
+      - Psychic
+    name: Toxic Secretion
+    text: Your opponent's Active Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Delcatty
+
+origin: boundaries-crossed-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Skitty
+
+dex: 301
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gather Energy
+    text: Search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

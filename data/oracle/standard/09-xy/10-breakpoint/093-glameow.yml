@@ -1,0 +1,41 @@
+name: Glameow
+
+origin: breakpoint-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 431
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Act Cute
+    text: Your opponent puts a card from his or her hand on the bottom of his or her deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

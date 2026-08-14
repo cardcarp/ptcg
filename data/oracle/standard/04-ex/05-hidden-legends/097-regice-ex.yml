@@ -1,0 +1,45 @@
+name: Regice ex
+
+origin: hidden-legends-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 90
+
+dex: 378
+
+rule:
+  - type: ability
+    name: Crystal Body
+    text: Prevent all effects of attacks, except damage, done to Regice ex by the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Freeze Lock
+    text: Flip a coin. If heads, your opponent can't attach Energy cards from his or her hand to the Defending Pokémon during his or her next turn.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

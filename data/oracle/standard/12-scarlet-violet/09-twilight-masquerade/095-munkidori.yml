@@ -1,0 +1,46 @@
+name: Munkidori
+
+origin: twilight-masquerade-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 1015
+
+rule:
+  - type: ability
+    name: Adrena-Brain
+    text: Once during your turn, if this Pokémon has any Darkness Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Mind Bend
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

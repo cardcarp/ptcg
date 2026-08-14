@@ -1,0 +1,54 @@
+name: Togetic
+
+origin: team-rocket-returns-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: ability
+    name: Holy Shield
+    text: Prevent all effects of attacks, including damage, done to Togetic by your opponent's Pokémon that has Dark in its name.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dive
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rainbow Moves
+    text: Choose 1 of your opponent's Benched Pokémon's attacks. Rainbow Moves copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togetic's type is still Colorless.) Togetic performs that attack.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

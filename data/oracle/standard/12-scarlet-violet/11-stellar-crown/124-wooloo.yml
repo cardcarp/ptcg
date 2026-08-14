@@ -1,0 +1,38 @@
+name: Wooloo
+
+origin: stellar-crown-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 831
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Knock Over
+    text: You may discard a Stadium in play.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

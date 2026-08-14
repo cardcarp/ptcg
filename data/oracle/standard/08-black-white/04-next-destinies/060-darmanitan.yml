@@ -1,0 +1,46 @@
+name: Darmanitan
+
+origin: next-destinies-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Darumaka
+
+dex: 555
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Synchrodraw
+    text: Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: DarMAXitan
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

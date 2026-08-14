@@ -1,0 +1,42 @@
+name: Croagunk
+
+origin: mysterious-treasures-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 453
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ghastly Sound
+    text: Flip a coin. If heads, your opponent can't play any Supporter cards from his or her hand during his or her next turn.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Finger Poke
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,43 @@
+name: Iron Bundle
+
+origin: scarlet-violet-black-star-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Future
+
+type:
+  - Water
+
+hp: 100
+
+dex: 991
+
+rule:
+  - type: ability
+    name: Hyper Blower
+    text: Once during your turn, if this Pokémon is on your Bench, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.) If you do, discard this Pokémon and all attached cards.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Refrigerated Stream
+    text: If the Defending Pokémon is an Evolution Pokémon, it can't attack during your opponent's next turn.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

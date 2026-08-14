@@ -1,0 +1,47 @@
+name: Frosmoth
+
+origin: fusion-strike-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Snom
+
+dex: 873
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Blizzard Loop
+    text: Put all Energy attached to this Pokémon into your hand.
+    damage: 160
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,38 @@
+name: Audino
+
+origin: noble-victories-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 531
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Do the Wave
+    text: Does 10 damage times the number of your Benched Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

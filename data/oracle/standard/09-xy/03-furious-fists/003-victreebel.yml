@@ -1,0 +1,44 @@
+name: Victreebel
+
+origin: furious-fists-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Weepinbell
+
+dex: 71
+
+rule:
+  - type: ability
+    name: Wafting Scent
+    text: Once during your turn (before your attack), you may discard a Grass Energy attached to this Pokémon. If you do, your opponent's Active Pokémon is now Confused and Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Spiral Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

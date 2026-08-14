@@ -1,0 +1,35 @@
+name: Dratini
+
+origin: base-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 147
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 10
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

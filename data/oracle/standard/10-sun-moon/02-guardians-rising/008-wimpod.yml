@@ -1,0 +1,40 @@
+name: Wimpod
+
+origin: guardians-rising-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 767
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scamper Away
+    text: Shuffle this Pokémon and all cards attached to it into your deck.
+  - type: attack
+    cost:
+      - Grass
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

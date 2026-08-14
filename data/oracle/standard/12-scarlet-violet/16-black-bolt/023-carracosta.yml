@@ -1,0 +1,45 @@
+name: Carracosta
+
+origin: black-bolt-023
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Tirtouga
+
+dex: 565
+
+rule:
+  - type: ability
+    name: Mighty Shell
+    text: Prevent all damage from and effects of attacks done to this Pokémon by your opponent's Pokémon that have any Special Energy attached.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Big Bite
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 150
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

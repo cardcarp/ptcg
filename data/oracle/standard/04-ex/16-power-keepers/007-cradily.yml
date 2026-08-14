@@ -1,0 +1,44 @@
+name: Cradily
+
+origin: power-keepers-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Lileep
+
+dex: 346
+
+rule:
+  - type: ability
+    name: Evolutionary Call
+    text: Once during your turn, when you play Cradily from your hand to evolve 1 of your Pokémon, you may search your deck for up to 3 in any combination of Basic Pokémon or Evolution cards. Show them to your opponent and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Poison Ring
+    text: The Defending Pokémon is now Poisoned. The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

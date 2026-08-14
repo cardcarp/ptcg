@@ -1,0 +1,41 @@
+name: Farfetch'd
+
+origin: hidden-fates-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 83
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Leek Slap
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

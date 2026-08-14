@@ -1,0 +1,52 @@
+name: Mow Rotom
+
+origin: rising-rivals-004rt
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 479
+
+rule:
+  - type: ability
+    name: Mow Shift
+    text: Once during your turn (before your attack), you may use this power. Mow Rotom's type is Grass until the end of your turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Mow Down
+    text: Flip a coin. If heads, discard an Energy card attached to each of your opponent's Pokémon.
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

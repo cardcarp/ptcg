@@ -1,0 +1,52 @@
+name: Dodrio
+
+origin: plasma-storm-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Doduo
+
+dex: 85
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Raging Pecks
+    text: Flip 3 coins. This attack does 30 damage times the number of heads. This Pokémon is now Confused.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Drill Peck
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

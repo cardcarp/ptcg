@@ -1,0 +1,48 @@
+name: Darkrai ex
+
+origin: scarlet-violet-black-star-110
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 491
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Wind of Darkness
+    damage: 40
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Night Impact
+    damage: 110
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

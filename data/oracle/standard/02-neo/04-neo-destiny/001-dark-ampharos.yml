@@ -1,0 +1,44 @@
+name: Dark Ampharos
+
+origin: neo-destiny-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Dark Flaaffy
+
+dex: 181
+
+rule:
+  - type: ability
+    name: Conductivity
+    text: Whenever your opponent attaches an Energy card from his or her hand to a Pokémon, this power does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.) This power stops working if you have more than 1 Dark Ampharos in play or while Dark Ampharos is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Shock Bolt
+    text: Discard all Lightning Energy cards attached to Dark Ampharos or this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

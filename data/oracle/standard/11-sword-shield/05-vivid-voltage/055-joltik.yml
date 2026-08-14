@@ -1,0 +1,36 @@
+name: Joltik
+
+origin: vivid-voltage-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 595
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Bug Bite
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,46 @@
+name: Pignite
+
+origin: white-flare-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Tepig
+
+dex: 499
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Crash
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

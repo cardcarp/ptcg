@@ -1,0 +1,46 @@
+name: Yanmega
+
+origin: crown-zenith-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Yanma
+
+dex: 469
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shoot Through
+    text: This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Jet Wing
+    text: During your next turn, this Pokémon can't attack.
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+  - F
+
+errata: []

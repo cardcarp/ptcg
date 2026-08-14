@@ -1,0 +1,40 @@
+name: Weepinbell
+
+origin: guardians-rising-002
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Bellsprout
+
+dex: 70
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Muddy Acid
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

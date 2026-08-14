@@ -1,0 +1,47 @@
+name: Palkia
+
+origin: paradox-rift-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 484
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Teleportation Burst
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Prize Count
+    text: If you have more Prize cards remaining than your opponent, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

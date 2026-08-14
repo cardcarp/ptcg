@@ -1,0 +1,45 @@
+name: Nuzleaf
+
+origin: mega-evolution-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Pound
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Low Kick
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

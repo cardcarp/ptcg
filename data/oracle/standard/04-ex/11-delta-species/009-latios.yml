@@ -1,0 +1,62 @@
+name: Latios δ
+
+origin: delta-species-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Lightning
+  - Metal
+
+hp: 80
+
+dex: 381
+
+rule:
+  - type: ability
+    name: Delta Aura
+    text: If you have Latias or Latias ex in play, the attack cost of Latios's Psychic Force is now Lightning MetalColorless.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dragon Claw
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psychic Force
+    text: If your opponent has no Stage 2 Evolved Pokémon in play, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Lightning Metal type.
+
+regulation:
+
+errata: []

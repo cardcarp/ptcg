@@ -1,0 +1,46 @@
+name: Talonflame
+
+origin: silver-tempest-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Fletchinder
+
+dex: 663
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Quick Dive
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Fire
+    name: Merciless Strike
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,42 @@
+name: Team Rocket's Drowzee
+
+origin: destined-rivals-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 96
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Hypnotic Ray
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

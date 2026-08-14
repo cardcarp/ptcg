@@ -1,0 +1,42 @@
+name: Togepi
+
+origin: neo-destiny-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 175
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Charm
+    text: If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spike Ball Tackle
+    text: Togepi does 10 damage to itself.
+    damage: 20
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

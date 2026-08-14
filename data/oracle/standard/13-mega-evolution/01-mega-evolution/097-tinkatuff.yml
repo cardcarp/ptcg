@@ -1,0 +1,47 @@
+name: Tinkatuff
+
+origin: mega-evolution-097
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Tinkatink
+
+dex: 958
+
+rule:
+  - type: ability
+    name: Haphazard Hammer
+    text: Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Metal
+    name: Light Punch
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

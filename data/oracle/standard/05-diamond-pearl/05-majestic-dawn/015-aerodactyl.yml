@@ -1,0 +1,48 @@
+name: Aerodactyl
+
+origin: majestic-dawn-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Old Amber
+
+dex: 142
+
+rule:
+  - type: ability
+    name: Primal Claw
+    text: After your opponent's Pokémon uses a Poké-Power, put 2 damage counters on that Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

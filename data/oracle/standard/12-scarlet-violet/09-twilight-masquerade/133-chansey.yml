@@ -1,0 +1,44 @@
+name: Chansey
+
+origin: twilight-masquerade-133
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 113
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Lucky Attachment
+    text: Attach a Basic Energy card from your hand to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boundless Power
+    text: During your next turn, this Pokémon can't attack.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

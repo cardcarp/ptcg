@@ -1,0 +1,41 @@
+name: Purugly
+
+origin: stellar-crown-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Glameow
+
+dex: 432
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nyan Roll
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

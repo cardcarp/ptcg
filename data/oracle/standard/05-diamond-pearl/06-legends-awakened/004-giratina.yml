@@ -1,0 +1,51 @@
+name: Giratina
+
+origin: legends-awakened-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 487
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Shadow Force
+    text: Choose 1 of your opponent's Benched Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If heads, prevent all effects of an attack, including damage, done to Giratina during your opponent's next turn.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Brutal Edge
+    text: Does 50 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

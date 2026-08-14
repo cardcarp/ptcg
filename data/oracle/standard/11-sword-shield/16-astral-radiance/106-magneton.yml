@@ -1,0 +1,46 @@
+name: Magneton
+
+origin: astral-radiance-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Bounce Back
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

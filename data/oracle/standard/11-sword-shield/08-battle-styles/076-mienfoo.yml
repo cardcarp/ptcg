@@ -1,0 +1,40 @@
+name: Mienfoo
+
+origin: battle-styles-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 619
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Double Stab
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

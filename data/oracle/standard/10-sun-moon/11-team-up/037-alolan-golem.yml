@@ -1,0 +1,53 @@
+name: Alolan Golem
+
+origin: team-up-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 180
+
+preevolution:
+  - Alolan Graveler
+
+dex: 76
+
+rule:
+  - type: attack
+    name: Electromagnetic Bomb
+    text: Move any number of Lightning Energy from your Benched Pokémon to this Pokémon. This attack does 20 damage for each Energy card you moved in this way.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Super Zap Cannon
+    text: Discard 2 Energy from this Pokémon.
+    damage: 190
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,54 @@
+name: Team Rocket's Nidoking ex
+
+origin: scarlet-violet-black-star-217
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Darkness
+
+hp: 330
+
+preevolution:
+  - Team Rocket's Nidorino
+
+dex: 34
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Tainted Horn
+    text: Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 8 damage counters on that Pokémon instead of 1.
+    damage: 100
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Kingly Impact
+    damage: 240
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

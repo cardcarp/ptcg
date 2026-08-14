@@ -1,0 +1,50 @@
+name: Magnezone
+
+origin: diamond-pearl-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: ability
+    name: Magnetize
+    text: If you have any Metal Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Blast
+    text: Does 50 damage plus 10 more damage for each Metal Energy attached to Magnezone.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

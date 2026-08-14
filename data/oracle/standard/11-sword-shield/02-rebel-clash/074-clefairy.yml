@@ -1,0 +1,41 @@
+name: Clefairy
+
+origin: rebel-clash-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 35
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shining Fingers
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+    name: Magical Shot
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

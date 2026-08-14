@@ -1,0 +1,54 @@
+name: Banette
+
+origin: platinum-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: ability
+    name: Temper Tantrum
+    text: Once during your turn (before your attack), you may discard as many cards as you like from your hand. If you do, put that many damage counters on Banette. This power can't be used if Banette is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+    name: Darkness Switch
+    text: Discard an Energy card attached to Banette, and then switch all damage counters on Banette with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Loneliness
+    text: You may show your hand to your opponent. If you do and if you don't have any Pokémon in your hand, this attack does 30 damage plus 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

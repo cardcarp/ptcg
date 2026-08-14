@@ -1,0 +1,45 @@
+name: Cyclizar
+
+origin: paradox-rift-157
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 967
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Driving Buddy
+    text: If you played a Supporter card from your hand during this turn, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

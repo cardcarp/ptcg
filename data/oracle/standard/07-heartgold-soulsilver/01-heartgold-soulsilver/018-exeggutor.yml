@@ -1,0 +1,45 @@
+name: Exeggutor
+
+origin: heartgold-soulsilver-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Absorption
+    text: Search your discard pile for up to 2 Energy cards and attach them to Exeggutor.
+  - type: attack
+    cost:
+      - Psychic
+    name: Big Eggsplosion
+    text: Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

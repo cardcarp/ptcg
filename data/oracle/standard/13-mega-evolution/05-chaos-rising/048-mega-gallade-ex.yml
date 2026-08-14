@@ -1,0 +1,53 @@
+name: Mega Gallade ex
+
+origin: chaos-rising-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - MEGA
+  - ex
+
+type:
+  - Fighting
+
+hp: 350
+
+preevolution:
+  - Kirlia
+
+dex: 475
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Gale Slash
+    text: If this Pokémon has no damage counters on it, this attack does 150 more damage.
+    damage: 50
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Marvelous Edge
+    damage: 240
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

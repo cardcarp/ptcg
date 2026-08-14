@@ -1,0 +1,37 @@
+name: Tentacool
+
+origin: evolving-skies-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 72
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Gentle Slap
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

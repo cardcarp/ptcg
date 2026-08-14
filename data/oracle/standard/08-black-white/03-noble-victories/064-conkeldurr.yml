@@ -1,0 +1,45 @@
+name: Conkeldurr
+
+origin: noble-victories-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Gurdurr
+
+dex: 534
+
+rule:
+  - type: ability
+    name: Craftsmanship
+    text: This Pokémon gets +20 HP for each Fighting Energy attached to it.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Top Down
+    text: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

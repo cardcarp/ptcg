@@ -1,0 +1,42 @@
+name: Geodude
+
+origin: supreme-victors-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 74
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Knuckle Punch
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Focus Fist
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

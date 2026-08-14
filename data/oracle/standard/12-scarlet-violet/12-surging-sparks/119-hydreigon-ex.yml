@@ -1,0 +1,56 @@
+name: Hydreigon ex
+
+origin: surging-sparks-119
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Tera
+  - ex
+
+type:
+  - Darkness
+
+hp: 330
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Crashing Headbutt
+    text: Discard the top 3 cards of your opponent's deck.
+    damage: 200
+  - type: attack
+    cost:
+      - Psychic
+      - Darkness
+      - Metal
+      - Colorless
+    name: Obsidian
+    text: This attack also does 130 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+regulation:
+  - H
+
+errata: []

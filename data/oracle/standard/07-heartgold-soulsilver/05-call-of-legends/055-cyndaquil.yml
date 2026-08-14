@@ -1,0 +1,36 @@
+name: Cyndaquil
+
+origin: call-of-legends-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 155
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Fireworks
+    text: Flip a coin. If tails, discard a Fire Energy attached to Cyndaquil.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

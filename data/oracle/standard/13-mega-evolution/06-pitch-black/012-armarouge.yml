@@ -1,0 +1,41 @@
+name: Armarouge
+
+origin: pitch-black-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Charcadet
+
+dex: 936
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Flame Legion
+    text: This attack does 40 more damage for each of your Benched Pokémon that has any Fire Energy attached.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

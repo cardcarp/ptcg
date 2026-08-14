@@ -1,0 +1,43 @@
+name: Wailord
+
+origin: celestial-storm-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 220
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Dwindling Wave
+    text: This attack does 40 less damage for each damage counter on this Pokémon.
+    damage: 200
+    modifier: '-'
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

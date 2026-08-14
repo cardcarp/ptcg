@@ -1,0 +1,45 @@
+name: Talonflame
+
+origin: steam-siege-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Fletchinder
+
+dex: 663
+
+rule:
+  - type: ability
+    name: Gale Wings
+    text: If this Pokémon is in your hand when you are setting up to play, you may put it face down as your Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Aero Blitz
+    text: Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

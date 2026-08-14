@@ -1,0 +1,46 @@
+name: Glaceon
+
+origin: scarlet-violet-black-star-171
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Eevee
+
+dex: 471
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Permeating Chill
+    text: At the end of your opponent's next turn, put 9 damage counters on the Defending Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Icicle Missile
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

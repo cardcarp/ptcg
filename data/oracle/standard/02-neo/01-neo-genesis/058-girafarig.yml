@@ -1,0 +1,39 @@
+name: Girafarig
+
+origin: neo-genesis-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 203
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig.
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Psybeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+retreat: 1
+
+regulation:
+
+errata: []

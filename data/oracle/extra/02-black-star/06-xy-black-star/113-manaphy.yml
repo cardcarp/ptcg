@@ -1,0 +1,42 @@
+name: Manaphy
+
+origin: xy-black-star-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 490
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Marine Guidance
+    text: Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Aqua Ring
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

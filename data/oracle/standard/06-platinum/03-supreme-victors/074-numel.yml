@@ -1,0 +1,42 @@
+name: Numel
+
+origin: supreme-victors-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 322
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Draw In
+    text: Search your discard pile for up to 2 Fire Energy cards and attach them to Numel.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Combustion
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

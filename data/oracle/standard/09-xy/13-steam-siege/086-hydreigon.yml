@@ -1,0 +1,49 @@
+name: Hydreigon
+
+origin: steam-siege-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cruel Fang
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 40 (before applying Weakness and Resistance).
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Darkness
+      - Colorless
+    name: Dark Burn
+    text: Discard as many Darkness Energy attached to your Pokémon as you like. This attack does 50 damage times the amount of Darkness Energy you discarded in this way.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

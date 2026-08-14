@@ -1,0 +1,40 @@
+name: Meowth
+
+origin: delta-species-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 52
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pickup Power
+    text: Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.
+  - type: attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

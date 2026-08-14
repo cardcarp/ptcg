@@ -1,0 +1,49 @@
+name: Scovillain ex
+
+origin: surging-sparks-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Fire
+
+hp: 260
+
+preevolution:
+  - Capsakid
+
+dex: 952
+
+rule:
+  - type: ability
+    name: Double Type
+    text: As long as this Pokémon is in play, it is Grass and Fire type.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Spicy Rage
+    text: This attack does 70 more damage for each damage counter on this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

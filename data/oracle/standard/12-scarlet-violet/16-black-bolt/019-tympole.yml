@@ -1,0 +1,39 @@
+name: Tympole
+
+origin: black-bolt-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 535
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Round
+    text: This attack does 20 damage for each of your Pokémon in play that has the Round attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,46 @@
+name: Illumise
+
+origin: sandstorm-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 314
+
+rule:
+  - type: ability
+    name: Glowing Screen
+    text: As long as Volbeat is in play, any damage done to Illumise by attacks from Fighting Pokémon and Darkness Pokémon is reduced by 30. You can't reduce more than 30 damage even if there is more than 1 Volbeat in play.
+  - type: attack
+    cost:
+      - Colorless
+    name: Chaotic Noise
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Pester
+    text: If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

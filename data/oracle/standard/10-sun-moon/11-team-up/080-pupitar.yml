@@ -1,0 +1,41 @@
+name: Pupitar
+
+origin: team-up-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Payback
+    text: If your opponent has exactly 1 Prize card remaining, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

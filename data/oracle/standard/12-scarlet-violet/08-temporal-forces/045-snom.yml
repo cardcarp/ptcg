@@ -1,0 +1,37 @@
+name: Snom
+
+origin: temporal-forces-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 872
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Powder Snow
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

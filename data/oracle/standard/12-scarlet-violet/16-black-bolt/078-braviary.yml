@@ -1,0 +1,54 @@
+name: Braviary
+
+origin: black-bolt-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Rufflet
+
+dex: 628
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Aerial Ace
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Speed Wing
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

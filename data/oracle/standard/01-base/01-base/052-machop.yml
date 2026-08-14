@@ -1,0 +1,35 @@
+name: Machop
+
+origin: base-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 66
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Low Kick
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

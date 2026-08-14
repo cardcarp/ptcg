@@ -1,0 +1,44 @@
+name: Garbodor
+
+origin: chaos-rising-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: ability
+    name: Gloomy Garbage
+    text: Attacks used by your opponent's Active Pokémon that has a Pokémon Tool attached do 20 less damage (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Sludge Bomb
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - J
+
+errata: []

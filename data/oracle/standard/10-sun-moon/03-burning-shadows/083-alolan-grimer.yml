@@ -1,0 +1,44 @@
+name: Alolan Grimer
+
+origin: burning-shadows-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 88
+
+rule:
+  - type: attack
+    name: Division
+    text: Search your deck for Alolan Grimer and put it onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slippery Sludge
+    text: Your opponent's Active Pokémon is now Confused.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Spiritomb
+
+origin: mega-evolution-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 442
+
+rule:
+  - type: ability
+    name: Spiteful Swirl
+    text: If your Active Darkness Pokémon is damaged by an attack from your opponent's Pokémon (even if your Active Darkness Pokémon is Knocked Out), place 1 damage counter on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+    name: Mountain Breaker
+    text: Discard the top card of your opponent's deck.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

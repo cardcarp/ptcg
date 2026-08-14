@@ -1,0 +1,45 @@
+name: Mantine
+
+origin: mysterious-treasures-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 226
+
+rule:
+  - type: ability
+    name: Jumbo Fin
+    text: If Mantyke is anywhere under Mantine, the Retreat Cost for each of your Water Pokémon is ColorlessColorless less.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Giant Wave
+    text: Mantine can't use Giant Wave during your next turn.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Sliggoo
+
+origin: flashfire-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Goomy
+
+dex: 705
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gooey
+    text: Heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Fairy
+      - Colorless
+    name: Gentle Slap
+    damage: 40
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

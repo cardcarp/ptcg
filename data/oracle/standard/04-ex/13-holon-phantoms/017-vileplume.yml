@@ -1,0 +1,49 @@
+name: Vileplume δ
+
+origin: holon-phantoms-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Psychic
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: ability
+    name: Poison Pollen
+    text: Once during your turn (before your attack), you may flip a coin. If heads, choose 1 of the Defending Pokémon. That Pokémon is now Poisoned. This power can't be used if Vileplume is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Psychic
+      - Metal
+    name: Poltergeist
+    text: Look at your opponent's hand. This attack does 30 damage plus 10 more damage for each Trainer card in your opponent's hand.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Psychic Metal type.
+
+regulation:
+
+errata: []

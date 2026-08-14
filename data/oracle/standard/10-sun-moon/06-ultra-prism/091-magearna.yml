@@ -1,0 +1,45 @@
+name: Magearna
+
+origin: ultra-prism-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 801
+
+rule:
+  - type: ability
+    name: Change Clothes
+    text: Once during your turn (before your attack), you may put a Pokémon Tool card attached to 1 of your Pokémon into your hand.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Rolling Attack
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Drifloon
+
+origin: diamond-pearl-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 425
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Blowing Wind
+    text: Flip a coin. If heads, put 1 of your Benched Pokémon and all cards attached to on top of your deck. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Ominous Wind
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused and can't retreat during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

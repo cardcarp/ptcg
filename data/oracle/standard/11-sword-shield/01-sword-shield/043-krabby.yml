@@ -1,0 +1,38 @@
+name: Krabby
+
+origin: sword-shield-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 98
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Super Slice
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

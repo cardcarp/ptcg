@@ -1,0 +1,44 @@
+name: Chandelure
+
+origin: rebel-clash-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Lampent
+
+dex: 609
+
+rule:
+  - type: ability
+    name: Protective Glow
+    text: All of your Pokémon that have Energy attached have no Weakness.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Mirage Flare
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 110
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

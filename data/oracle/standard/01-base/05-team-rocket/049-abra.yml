@@ -1,0 +1,41 @@
+name: Abra
+
+origin: team-rocket-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 63
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Vanish
+    text: Shuffle Abra into your deck. (Discard all cards attached to Abra.)
+  - type: attack
+    cost:
+      - Psychic
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

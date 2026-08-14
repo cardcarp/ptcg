@@ -1,0 +1,53 @@
+name: Bronzong
+
+origin: obsidian-flames-145
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Oracle Press
+    text: During your opponent's next turn, prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+    name: Extrasensory
+    text: If you have the same number of cards in your hand as your opponent, this attack does 90 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

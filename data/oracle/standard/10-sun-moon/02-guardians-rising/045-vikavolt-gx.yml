@@ -1,0 +1,65 @@
+name: Vikavolt-GX
+
+origin: guardians-rising-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Lightning
+
+hp: 240
+
+preevolution:
+  - Charjabug
+
+dex: 738
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Charge Beam
+    text: Attach an Energy card from your discard pile to this Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Super Zap Cannon
+    text: Discard 2 Energy from this Pokémon.
+    damage: 180
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gigatron-GX
+    text: This attack does 60 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

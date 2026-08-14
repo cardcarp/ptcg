@@ -1,0 +1,50 @@
+name: Cobalion
+
+origin: emerging-powers-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 110
+
+dex: 638
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Horns
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Sacred Sword
+    text: This Pokémon can't use Sacred Sword during your next turn.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

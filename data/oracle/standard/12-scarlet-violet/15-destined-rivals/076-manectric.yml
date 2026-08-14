@@ -1,0 +1,46 @@
+name: Manectric
+
+origin: destined-rivals-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Zap Kick
+    damage: 30
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Flash Impact
+    text: This attack also does 40 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,46 @@
+name: Magnemite
+
+origin: stormfront-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 81
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Magnetic Bomb
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Magnemite does 10 damage to itself.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - "Magnet: Magnemite's Retreat Cost is Colorless less for each Magnemite on your Bench."
+
+regulation:
+
+errata: []

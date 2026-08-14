@@ -1,0 +1,52 @@
+name: Mewtwo-EX
+
+origin: evolutions-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Absorption
+    text: Attach an Energy card from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+    name: Regeneration
+    text: Heal 60 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psyburn
+    damage: 110
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

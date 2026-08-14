@@ -1,0 +1,39 @@
+name: Buneary
+
+origin: majestic-dawn-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 427
+
+rule:
+  - type: attack
+    name: Drawup Power
+    text: Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+    name: Extend Ears
+    text: Remove 1 damage counter from each of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

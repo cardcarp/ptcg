@@ -1,0 +1,55 @@
+name: Cacturne
+
+origin: great-encounters-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Cacnea
+
+dex: 332
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pin Missile
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Needle Arm
+    text: If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

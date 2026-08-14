@@ -1,0 +1,56 @@
+name: Tauros-GX
+
+origin: sun-moon-100
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Colorless
+
+hp: 180
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rage
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Horn Attack
+    damage: 60
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mad Bull-GX
+    text: This attack does 30 damage for each damage counter on this Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

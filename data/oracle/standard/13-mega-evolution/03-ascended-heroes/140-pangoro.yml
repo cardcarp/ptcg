@@ -1,0 +1,48 @@
+name: Pangoro
+
+origin: ascended-heroes-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Pancham
+
+dex: 675
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Corkscrew Punch
+    damage: 40
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Master's Punch
+    text: If any of your Benched Pancham have any damage counters on them, this attack does 120 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

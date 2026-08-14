@@ -1,0 +1,40 @@
+name: Sentret
+
+origin: heartgold-soulsilver-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 161
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scout
+    text: Look at your opponent's hand.
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Lunatone
+
+origin: deoxys-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 337
+
+rule:
+  - type: ability
+    name: Moonglow
+    text: The Retreat Cost for each Solrock you have in play is 0.
+  - type: attack
+    cost:
+      - Colorless
+    name: Foresight
+    text: Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Target Beam
+    text: Does 20 damage plus 10 more damage for each Solrock you have in play.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

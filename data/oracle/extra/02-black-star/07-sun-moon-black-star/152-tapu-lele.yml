@@ -1,0 +1,45 @@
+name: Tapu Lele
+
+origin: sun-moon-black-star-152
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 110
+
+dex: 786
+
+rule:
+  - type: ability
+    name: Charmed Charm
+    text: Whenever you attach a Pokémon Tool card that has "Fairy Charm" in its name from your hand to this Pokémon during your turn, you may leave your opponent's Active Pokémon Confused.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Magical Shot
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

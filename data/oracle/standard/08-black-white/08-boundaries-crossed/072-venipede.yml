@@ -1,0 +1,39 @@
+name: Venipede
+
+origin: boundaries-crossed-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 543
+
+rule:
+  - type: ability
+    name: Poison Point
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Bug Bite
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

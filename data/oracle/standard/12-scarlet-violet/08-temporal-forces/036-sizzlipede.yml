@@ -1,0 +1,37 @@
+name: Sizzlipede
+
+origin: temporal-forces-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 850
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Heat Dive
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

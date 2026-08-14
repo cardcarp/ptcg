@@ -1,0 +1,35 @@
+name: Bellsprout
+
+origin: firered-leafgreen-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 69
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Vine Whip
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

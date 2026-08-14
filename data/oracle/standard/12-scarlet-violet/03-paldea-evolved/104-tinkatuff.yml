@@ -1,0 +1,50 @@
+name: Tinkatuff
+
+origin: paldea-evolved-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Tinkatink
+
+dex: 958
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Play Rough
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Pulverizing Press
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

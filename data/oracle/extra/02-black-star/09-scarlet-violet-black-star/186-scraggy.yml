@@ -1,0 +1,37 @@
+name: Scraggy
+
+origin: scarlet-violet-black-star-186
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 559
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Kick Shot
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

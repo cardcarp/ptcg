@@ -1,0 +1,45 @@
+name: Heracross
+
+origin: paldea-evolved-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 214
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Tackle
+    damage: 50
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Smashing Horn
+    text: This attack's damage isn't affected by Resistance.
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

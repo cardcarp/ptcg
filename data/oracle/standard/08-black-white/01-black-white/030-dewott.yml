@@ -1,0 +1,41 @@
+name: Dewott
+
+origin: black-white-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Oshawott
+
+dex: 502
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aqua Tail
+    text: Flip a coin for each Water Energy attached to this Pokémon. This attack does 10 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

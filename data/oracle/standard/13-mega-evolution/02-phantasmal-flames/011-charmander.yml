@@ -1,0 +1,39 @@
+name: Charmander
+
+origin: phantasmal-flames-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 4
+
+rule:
+  - type: ability
+    name: Agile
+    text: If this Pokémon has no Energy attached, it has no Retreat Cost.
+  - type: attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

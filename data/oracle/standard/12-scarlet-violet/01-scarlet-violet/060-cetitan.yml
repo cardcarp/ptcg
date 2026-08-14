@@ -1,0 +1,49 @@
+name: Cetitan
+
+origin: scarlet-violet-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Cetoddle
+
+dex: 975
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 50
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Sweeping Tackle
+    text: This attack does 20 less damage for each damage counter on this Pokémon.
+    damage: 200
+    modifier: '-'
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

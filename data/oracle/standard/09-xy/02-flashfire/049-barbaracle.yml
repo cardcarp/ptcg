@@ -1,0 +1,48 @@
+name: Barbaracle
+
+origin: flashfire-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Binacle
+
+dex: 689
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rock Rush
+    text: Discard as many Fighting Energy cards as you like from your hand. This attack does 30 damage times the number of Energy cards you discarded.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Boulder Crush
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Honedge
+
+origin: primal-clash-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 679
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Metal Sound
+    text: Your opponent's Active Pokémon is now Confused.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

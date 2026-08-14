@@ -1,0 +1,52 @@
+name: Shieldon
+
+origin: ultra-prism-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 410
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Take Down
+    text: This Pokémon does 10 damage to itself.
+    damage: 50
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Confront
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

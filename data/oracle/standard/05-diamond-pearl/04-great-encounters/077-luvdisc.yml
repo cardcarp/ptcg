@@ -1,0 +1,42 @@
+name: Luvdisc
+
+origin: great-encounters-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 370
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rendezvous
+    text: Reveal the top card of your deck and put it into your hand. If that card is a Pokémon, draw 2 cards.
+  - type: attack
+    cost:
+      - Water
+    name: Synchro Dance
+    text: If Luvdisc and the Defending Pokémon have the same amount of Energy attached to them, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

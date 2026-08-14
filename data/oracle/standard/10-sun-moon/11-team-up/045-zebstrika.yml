@@ -1,0 +1,53 @@
+name: Zebstrika
+
+origin: team-up-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Raid
+    text: If this Pokémon evolved from Blitzle during this turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Mach Bolt
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

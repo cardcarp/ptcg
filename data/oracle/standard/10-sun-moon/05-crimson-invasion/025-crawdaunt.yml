@@ -1,0 +1,42 @@
+name: Crawdaunt
+
+origin: crimson-invasion-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Corphish
+
+dex: 342
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Double Claws
+    text: Discard 2 Energy from your opponent's Active Pokémon.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

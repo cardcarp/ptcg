@@ -1,0 +1,44 @@
+name: Maschiff
+
+origin: paldea-evolved-142
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 942
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

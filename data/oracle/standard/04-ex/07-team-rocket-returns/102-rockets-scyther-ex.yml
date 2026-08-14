@@ -1,0 +1,56 @@
+name: Rocket's Scyther ex
+
+origin: team-rocket-returns-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 123
+
+rule:
+  - type: ability
+    name: Dual Armor
+    text: As long as Rocket's Scyther ex has any Grass Energy attached to it, Rocket's Scyther ex is both Grass and Darkness type.
+  - type: attack
+    cost:
+      - Colorless
+    name: Bounce
+    text: After your attack, you may switch Rocket's Scyther ex with 1 of your Benched Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slashing Strike
+    text: Rocket's Scyther ex can't use Slashing Strike during your next turn.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

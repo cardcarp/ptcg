@@ -1,0 +1,42 @@
+name: Fearow
+
+origin: battle-styles-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Spearow
+
+dex: 22
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Drill Peck
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - E
+
+errata: []

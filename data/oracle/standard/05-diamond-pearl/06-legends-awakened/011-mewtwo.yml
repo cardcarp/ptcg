@@ -1,0 +1,45 @@
+name: Mewtwo
+
+origin: legends-awakened-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hypnoblast
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: Does 40 damage plus 10 more damage for each Energy attached to the Defending Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

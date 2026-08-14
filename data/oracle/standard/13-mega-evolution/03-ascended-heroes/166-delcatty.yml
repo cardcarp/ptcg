@@ -1,0 +1,47 @@
+name: Delcatty
+
+origin: ascended-heroes-166
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Skitty
+
+dex: 301
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cat Kick
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Energy Crush
+    text: This attack does 40 damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

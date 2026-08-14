@@ -1,0 +1,41 @@
+name: Floatzel GL
+
+origin: rising-rivals-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Water
+
+hp: 80
+
+dex: 419
+
+rule:
+  - type: attack
+    name: Incite
+    text: Search your discard pile for up to 2 Supporter cards, show them to your opponent, and put them into your hand.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Giant Wave
+    text: Floatzel GL can't use Giant Wave during your next turn.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

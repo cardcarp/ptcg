@@ -1,0 +1,49 @@
+name: Rhyperior
+
+origin: diamond-pearl-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Rhydon
+
+dex: 464
+
+rule:
+  - type: ability
+    name: Earth Fissure
+    text: Once during your turn, when you play Rhyperior from your hand to evolve 1 of your Pokémon, you may discard the top 3 cards from your opponent's deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Rock Wrecker
+    text: This attack's damage isn't affected by Weakness or Resistance. Rhyperior can't attack during your next turn.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

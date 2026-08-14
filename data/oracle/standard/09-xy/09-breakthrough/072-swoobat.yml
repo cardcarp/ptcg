@@ -1,0 +1,49 @@
+name: Swoobat
+
+origin: breakthrough-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Woobat
+
+dex: 528
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Wave Amplification
+    text: During your next turn, this Pokémon's Returning Echo attack does 60 more damage (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Psychic
+    name: Returning Echo
+    text: Flip a coin. If tails, return this Pokémon and all cards attached to it to your hand.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

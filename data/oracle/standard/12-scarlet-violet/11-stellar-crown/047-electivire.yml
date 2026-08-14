@@ -1,0 +1,46 @@
+name: Electivire
+
+origin: stellar-crown-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Electabuzz
+
+dex: 466
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Electroslug
+    damage: 40
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Unleash Lightning
+    text: During your next turn, your Pokémon can't attack. (This includes new Pokémon that come into play.)
+    damage: 220
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

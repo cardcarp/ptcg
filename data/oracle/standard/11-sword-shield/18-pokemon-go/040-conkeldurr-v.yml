@@ -1,0 +1,51 @@
+name: Conkeldurr V
+
+origin: pokemon-go-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 230
+
+dex: 534
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Counter
+    text: If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Dynamic Punch
+    text: Flip a coin. If heads, this attack does 90 more damage, and your opponent's Active Pokémon is now Confused.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

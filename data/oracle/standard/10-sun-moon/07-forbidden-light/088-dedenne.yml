@@ -1,0 +1,48 @@
+name: Dedenne
+
+origin: forbidden-light-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 702
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Find a Friend
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Electrichain
+    text: If you have any Lightning Pokémon on your Bench, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

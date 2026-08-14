@@ -1,0 +1,47 @@
+name: Alolan Vulpix V
+
+origin: silver-tempest-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 190
+
+dex: 37
+
+rule:
+  - type: attack
+    name: White Drop
+    text: If your opponent's Active Pokémon is a Pokémon V, this attack does 50 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Smash
+    damage: 110
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

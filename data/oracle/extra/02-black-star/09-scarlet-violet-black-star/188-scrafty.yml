@@ -1,0 +1,46 @@
+name: Scrafty
+
+origin: scarlet-violet-black-star-188
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nab 'n' Dash
+    text: Search your deck for a number of cards up to the number of your Benched Pokémon and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: High Jump Kick
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

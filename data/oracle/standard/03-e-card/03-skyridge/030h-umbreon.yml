@@ -1,0 +1,49 @@
+name: Umbreon
+
+origin: skyridge-030h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: ability
+    name: Dark Gaze
+    text: As long as Umbreon is your Active Pokémon, Benched Pokémon (yours and your opponent's) can't use Poké-Powers.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Sharp Claws
+    text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

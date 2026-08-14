@@ -1,0 +1,46 @@
+name: Jumpluff
+
+origin: team-rocket-returns-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Skiploom
+
+dex: 189
+
+rule:
+  - type: ability
+    name: Buffer
+    text: If Jumpluff would be Knocked Out by an opponent's attack, flip a coin. If heads, Jumpluff is not Knocked Out and its remaining HP becomes 10 instead.
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Crush
+    text: Does 10 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

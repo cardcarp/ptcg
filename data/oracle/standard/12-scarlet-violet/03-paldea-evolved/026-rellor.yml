@@ -1,0 +1,39 @@
+name: Rellor
+
+origin: paldea-evolved-026
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 953
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ball Roll
+    text: Flip a coin until you get tails. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

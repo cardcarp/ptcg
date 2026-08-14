@@ -1,0 +1,44 @@
+name: Miltank
+
+origin: mega-evolution-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 241
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bellyful of Milk
+    text: Flip 2 coins. If both of them are heads, heal all damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

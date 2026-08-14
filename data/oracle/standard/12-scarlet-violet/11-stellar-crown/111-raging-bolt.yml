@@ -1,0 +1,39 @@
+name: Raging Bolt
+
+origin: stellar-crown-111
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 1021
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Fighting
+    name: Thunderburst Storm
+    text: This attack does 30 damage to 1 of your opponent's Pokémon for each Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Lightning
+      - Fighting
+      - Colorless
+    name: Dragon Headbutt
+    damage: 130
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

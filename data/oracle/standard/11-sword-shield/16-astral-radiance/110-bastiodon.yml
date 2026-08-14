@@ -1,0 +1,50 @@
+name: Bastiodon
+
+origin: astral-radiance-110
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 160
+
+preevolution:
+  - Shieldon
+
+dex: 411
+
+rule:
+  - type: ability
+    name: Primal Fortress
+    text: Your Pokémon take 30 less damage from attacks from your opponent's Pokémon V (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Iron Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 180
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+  - F
+
+errata: []

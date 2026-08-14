@@ -1,0 +1,48 @@
+name: Cofagrigus
+
+origin: plasma-freeze-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Yamask
+
+dex: 563
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Elongating Arms
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Crazy Slap
+    text: Flip 4 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

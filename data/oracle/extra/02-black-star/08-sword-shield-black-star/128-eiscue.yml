@@ -1,0 +1,43 @@
+name: Eiscue
+
+origin: sword-shield-black-star-128
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 875
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Ice Bonus
+    text: Discard a Water Energy card from your hand. If you do, draw 3 cards.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Headbutt Bounce
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

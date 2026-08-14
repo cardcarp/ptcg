@@ -1,0 +1,48 @@
+name: Light Dewgong
+
+origin: neo-destiny-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Seel
+
+dex: 87
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Freezing Breath
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Ice Pillar
+    text: Until the end of your opponent's next turn, as long as Light Dewgong is your Active Pokémon, prevent all damage done by attacks to your Benched Pokémon. (Any other effects of attacks still happen.)
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

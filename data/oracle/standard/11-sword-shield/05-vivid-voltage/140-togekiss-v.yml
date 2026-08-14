@@ -1,0 +1,54 @@
+name: Togekiss V
+
+origin: vivid-voltage-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 200
+
+dex: 468
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: White Wind
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 70 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Speed Wing
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

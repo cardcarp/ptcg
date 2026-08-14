@@ -1,0 +1,49 @@
+name: Cyclizar ex
+
+origin: scarlet-violet-black-star-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 210
+
+dex: 967
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Power Run
+    text: Search your deck for a Basic Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Full Throttle
+    text: During your next turn, this Pokémon can't attack.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

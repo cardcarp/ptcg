@@ -1,0 +1,43 @@
+name: Quaquaval
+
+origin: surging-sparks-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Quaxwell
+
+dex: 914
+
+rule:
+  - type: ability
+    name: Up-Tempo
+    text: You must put a card from your hand on the bottom of your deck in order to use this Ability. Once during your turn, you may draw cards until you have 5 cards in your hand.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hydro Splash
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

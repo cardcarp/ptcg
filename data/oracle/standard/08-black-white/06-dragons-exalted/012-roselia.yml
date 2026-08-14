@@ -1,0 +1,47 @@
+name: Roselia
+
+origin: dragons-exalted-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 315
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Whip
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+    name: Relaxing Fragrance
+    text: Heal 30 damage and remove all Special Conditions from this Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

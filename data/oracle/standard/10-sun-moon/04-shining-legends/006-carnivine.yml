@@ -1,0 +1,42 @@
+name: Carnivine
+
+origin: shining-legends-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 455
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Flick Poison
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Crunch
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Vulpix
+
+origin: champions-path-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

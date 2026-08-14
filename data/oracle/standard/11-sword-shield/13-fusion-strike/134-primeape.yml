@@ -1,0 +1,41 @@
+name: Primeape
+
+origin: fusion-strike-134
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Gut Punch
+    text: If your opponent's Active Pokémon is a Pokémon V, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

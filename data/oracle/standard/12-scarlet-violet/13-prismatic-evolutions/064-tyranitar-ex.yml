@@ -1,0 +1,53 @@
+name: Tyranitar ex
+
+origin: prismatic-evolutions-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Darkness
+
+hp: 340
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Grind
+    text: This attack does 50 damage for each Energy attached to this Pokémon.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Tyrannical Crush
+    text: Discard a random card from your opponent's hand.
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

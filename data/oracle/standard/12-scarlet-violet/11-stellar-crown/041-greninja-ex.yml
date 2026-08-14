@@ -1,0 +1,46 @@
+name: Greninja ex
+
+origin: stellar-crown-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Water
+
+hp: 300
+
+preevolution:
+  - Frogadier
+
+dex: 658
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Shifting Shuriken
+    text: Flip a coin. If heads, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

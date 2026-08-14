@@ -1,0 +1,45 @@
+name: Inteleon
+
+origin: mega-evolution-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Drizzile
+
+dex: 818
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Bring Down
+    text: Choose a Pokémon in play (yours or your opponent's) that has the least HP remaining, except for this Pokémon, and it is Knocked Out.
+  - type: attack
+    cost:
+      - Water
+    name: Water Shot
+    text: Discard an Energy from this Pokémon.
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

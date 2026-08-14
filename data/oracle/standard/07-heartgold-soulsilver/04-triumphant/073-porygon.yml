@@ -1,0 +1,41 @@
+name: Porygon
+
+origin: triumphant-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 137
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Sharpen
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Recover
+    text: Discard an Energy attached to Porygon and remove 4 damage counters from Porygon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

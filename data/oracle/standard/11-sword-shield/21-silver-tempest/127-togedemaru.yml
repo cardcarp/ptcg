@@ -1,0 +1,42 @@
+name: Togedemaru
+
+origin: silver-tempest-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 777
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Toge Dash
+    text: Flip a coin. If heads, during your opponent's next turn, if this Pokémon is Knocked Out, your opponent can't take any Prize cards for it.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

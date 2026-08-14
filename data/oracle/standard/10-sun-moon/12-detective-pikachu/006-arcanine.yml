@@ -1,0 +1,43 @@
+name: Arcanine
+
+origin: detective-pikachu-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: ability
+    name: Security Guard
+    text: As long as this Pokémon is your Active Pokémon, all of your Pokémon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

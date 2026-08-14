@@ -1,0 +1,63 @@
+name: Aggron
+
+origin: ruby-sapphire-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Lairon
+
+dex: 306
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Retaliate
+    text: Flip a coin. If heads, this attack does 10 damage times the number of damage counters on Aggron.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mega Punch
+    damage: 40
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Lariat
+    text: Flip 2 coins. This attack does 70 damage times the number of heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Hitmonchan
+
+origin: legends-awakened-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 107
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Counter Punch
+    text: During your opponent's next turn, if Hitmonchan is damaged by an opponent's attack (even if Hitmonchan is Knocked Out), put 4 damage counters on the Attacking Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Gut Strike
+    text: If Tyrogue is anywhere under Hitmonchan, this attack's base damage is 60 instead of 30.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

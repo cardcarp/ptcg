@@ -1,0 +1,48 @@
+name: Skarmory
+
+origin: boundaries-crossed-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 227
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Claw
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Drill Peck
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

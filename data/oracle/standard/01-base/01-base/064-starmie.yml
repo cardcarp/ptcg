@@ -1,0 +1,47 @@
+name: Starmie
+
+origin: base-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Recover
+    text: Discard 1 Water Energy card attached to Starmie in order to use this attack. Remove all damage counters from Starmie.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Star Freeze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

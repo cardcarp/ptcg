@@ -1,0 +1,40 @@
+name: Phanpy
+
+origin: holon-phantoms-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 231
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Yawn
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Fighting
+    name: Mud Slap
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

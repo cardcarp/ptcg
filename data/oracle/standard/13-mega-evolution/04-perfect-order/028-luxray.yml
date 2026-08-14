@@ -1,0 +1,48 @@
+name: Luxray
+
+origin: perfect-order-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Incessant Onslaught
+    text: This attack does 70 damage for each Prize card you have taken.
+    damage: 70
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Strong Volt
+    text: Discard 2 Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+  - J
+
+errata: []

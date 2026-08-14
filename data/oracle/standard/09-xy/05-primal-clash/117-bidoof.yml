@@ -1,0 +1,38 @@
+name: Bidoof
+
+origin: primal-clash-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 399
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drench
+    text: If this Pokémon has any Water Energy attached to it, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Victreebel
+
+origin: unbroken-bonds-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Weepinbell
+
+dex: 71
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Reactive Poison
+    text: This attack does 60 more damage for each Special Condition affecting your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Gastro Acid
+    text: The Defending Pokémon has no Abilities until the end of your next turn.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

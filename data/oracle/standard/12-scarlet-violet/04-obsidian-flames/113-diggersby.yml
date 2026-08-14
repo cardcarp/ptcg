@@ -1,0 +1,48 @@
+name: Diggersby
+
+origin: obsidian-flames-113
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Bunnelby
+
+dex: 660
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mud-Slap
+    damage: 50
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Knocking Hammer
+    text: Discard the top card of your opponent's deck.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,48 @@
+name: Electrode G
+
+origin: rising-rivals-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 101
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Reckless Bomb
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Electrode G does 100 damage to itself.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reflect Energy
+    text: Move an Energy card attached to Electrode G to 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

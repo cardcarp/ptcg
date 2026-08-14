@@ -1,0 +1,40 @@
+name: Venonat
+
+origin: firered-leafgreen-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 48
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Psycho Waves
+    text: Discard an Energy card attached to Venonat. The Defending Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Grass
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

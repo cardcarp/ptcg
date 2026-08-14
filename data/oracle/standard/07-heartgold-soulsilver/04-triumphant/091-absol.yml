@@ -1,0 +1,46 @@
+name: Absol
+
+origin: triumphant-091
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Prime
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 359
+
+rule:
+  - type: ability
+    name: Eye of Disaster
+    text: As long as Absol is your Active Pokémon, whenever your opponent puts a Basic Pokémon from his or her hand onto his or her Bench, put 2 damage counters on that Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Vicious Claw
+    text: Choose 1 Pokémon from your hand and put it in the Lost Zone. (If you can't put a Pokémon in the Lost Zone, this attack does nothing.)
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

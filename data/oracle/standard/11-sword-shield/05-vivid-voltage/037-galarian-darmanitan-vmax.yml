@@ -1,0 +1,46 @@
+name: Galarian Darmanitan VMAX
+
+origin: vivid-voltage-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Water
+
+hp: 320
+
+preevolution:
+  - Galarian Darmanitan V
+
+dex: 555
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Max Whiteout
+    text: This attack also does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 200
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

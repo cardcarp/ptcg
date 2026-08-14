@@ -1,0 +1,40 @@
+name: Clefairy
+
+origin: secret-wonders-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 35
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+rulebox:
+  - 'Moon Stone: Clefairy can evolve during the turn you play it.'
+
+regulation:
+
+errata: []

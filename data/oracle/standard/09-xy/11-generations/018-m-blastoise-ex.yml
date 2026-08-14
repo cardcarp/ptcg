@@ -1,0 +1,47 @@
+name: M Blastoise-EX
+
+origin: generations-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Water
+
+hp: 220
+
+preevolution:
+  - Blastoise-EX
+
+dex: 9
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Dread Launcher
+    text: Flip a coin. If tails, discard 2 Water Energy attached to this Pokémon.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

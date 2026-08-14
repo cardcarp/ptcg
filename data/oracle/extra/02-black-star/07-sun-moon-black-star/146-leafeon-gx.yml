@@ -1,0 +1,52 @@
+name: Leafeon-GX
+
+origin: sun-moon-black-star-146
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Grass
+
+hp: 200
+
+preevolution:
+  - Eevee
+
+dex: 470
+
+rule:
+  - type: ability
+    name: Breath of the Leaves
+    text: If this Pokémon is your Active Pokémon, once during your turn (before your attack), you may heal 50 damage from 1 of your Pokémon that has any Energy attached to it.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 110
+  - type: attack
+    cost:
+      - Grass
+    name: Grand Bloom-GX
+    text: For each of your Benched Basic Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,36 @@
+name: Litwick
+
+origin: noble-victories-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 607
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Teleportation Burst
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

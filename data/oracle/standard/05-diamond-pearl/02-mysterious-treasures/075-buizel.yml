@@ -1,0 +1,41 @@
+name: Buizel
+
+origin: mysterious-treasures-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 418
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+rulebox:
+  - "Chesto Berry: If Buizel is Asleep, remove the Special Condition Asleep from Buizel at the end of each player's turn."
+
+regulation:
+
+errata: []

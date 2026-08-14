@@ -1,0 +1,37 @@
+name: Growlithe
+
+origin: aquapolis-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 58
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    text: Discard a Fire Energy card attached to Growlithe.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

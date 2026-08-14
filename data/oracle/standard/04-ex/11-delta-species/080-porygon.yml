@@ -1,0 +1,36 @@
+name: Porygon
+
+origin: delta-species-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 137
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sharpen
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

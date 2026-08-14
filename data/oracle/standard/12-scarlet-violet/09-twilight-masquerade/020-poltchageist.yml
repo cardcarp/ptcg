@@ -1,0 +1,39 @@
+name: Poltchageist
+
+origin: twilight-masquerade-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 30
+
+dex: 1012
+
+rule:
+  - type: ability
+    name: Storehouse Hideaway
+    text: As long as this Pokémon is on your Bench, prevent all damage from and effects of attacks from your opponent's Pokémon done to this Pokémon.
+  - type: attack
+    cost:
+      - Grass
+    name: Hook
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

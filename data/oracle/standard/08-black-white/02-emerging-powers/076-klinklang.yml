@@ -1,0 +1,52 @@
+name: Klinklang
+
+origin: emerging-powers-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Klang
+
+dex: 601
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Charge Beam
+    text: Attach an Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Zap Cannon
+    text: Flip a coin. If tails, this Pokémon can't use Zap Cannon during your next turn.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

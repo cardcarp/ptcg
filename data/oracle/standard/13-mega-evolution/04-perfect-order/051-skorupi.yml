@@ -1,0 +1,38 @@
+name: Skorupi
+
+origin: perfect-order-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 451
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Poison Jab
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

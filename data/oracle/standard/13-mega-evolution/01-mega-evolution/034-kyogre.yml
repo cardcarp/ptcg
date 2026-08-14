@@ -1,0 +1,46 @@
+name: Kyogre
+
+origin: mega-evolution-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 150
+
+dex: 382
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Riptide
+    text: This attack does 20 damage for each Basic Water Energy card in your discard pile. Then, shuffle those cards into your deck.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Swirling Waves
+    text: Discard 2 Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

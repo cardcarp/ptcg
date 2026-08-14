@@ -1,0 +1,43 @@
+name: Regigigas
+
+origin: crimson-invasion-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 180
+
+dex: 486
+
+rule:
+  - type: ability
+    name: Seal of Antiquity
+    text: This Pokémon can't attack unless Regirock, Regice, and Registeel are on your Bench.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giant Stomp
+    text: Discard any Stadium card in play.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Paldean Tauros
+
+origin: phantasmal-flames-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Raging Charge
+    text: This attack does 40 damage for each of your Pokémon that has "Tauros" in its name that has any damage counters on it.
+    damage: 40
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Double-Edge
+    text: This Pokémon also does 20 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

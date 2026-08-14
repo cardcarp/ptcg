@@ -1,0 +1,37 @@
+name: Chikorita
+
+origin: mega-evolution-black-star-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 152
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

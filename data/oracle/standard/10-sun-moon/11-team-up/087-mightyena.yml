@@ -1,0 +1,50 @@
+name: Mightyena
+
+origin: team-up-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dark Fang
+    text: Discard a random card from your opponent's hand.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

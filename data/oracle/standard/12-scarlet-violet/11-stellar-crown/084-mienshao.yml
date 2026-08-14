@@ -1,0 +1,41 @@
+name: Mienshao
+
+origin: stellar-crown-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Mienfoo
+
+dex: 620
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Gale Roundhouse
+    text: If your opponent has 5 or fewer cards in their hand, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

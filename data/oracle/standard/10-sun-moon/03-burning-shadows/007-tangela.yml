@@ -1,0 +1,36 @@
+name: Tangela
+
+origin: burning-shadows-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 114
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bind Down
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Magearna
+
+origin: journey-together-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 801
+
+rule:
+  - type: ability
+    name: Auto Heal
+    text: As long as this Pokémon is in the Active Spot, whenever you attach an Energy card from your hand to 1 of your Pokémon, heal 90 damage from that Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Spike Draw
+    text: Draw 2 cards.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,46 @@
+name: Grapploct
+
+origin: chilling-reign-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Clobbopus
+
+dex: 853
+
+rule:
+  - type: ability
+    name: Stranglehold Master
+    text: As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Synchro Buster
+    text: If you have the same number of cards in your hand as your opponent, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

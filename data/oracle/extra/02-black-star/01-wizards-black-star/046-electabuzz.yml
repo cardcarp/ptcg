@@ -1,0 +1,42 @@
+name: Electabuzz
+
+origin: wizards-black-star-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 125
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Lightning Rod
+    text: Choose 1 of your opponent's Pokémon and put a Lightning Rod marker on it. (A Pokémon can have only 1 Lightning Rod marker on it at a time.)
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Lightning Bolt
+    text: This attack does 20 damage to any Pokémon with a Lightning Rod marker on it. Apply Weakness and Resistance.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

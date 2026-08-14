@@ -1,0 +1,53 @@
+name: Mega Lopunny ex
+
+origin: phantasmal-flames-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - MEGA
+  - ex
+
+type:
+  - Colorless
+
+hp: 330
+
+preevolution:
+  - Buneary
+
+dex: 428
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gale Thrust
+    text: If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 170 more damage.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spiky Hopper
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

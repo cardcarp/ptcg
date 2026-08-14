@@ -1,0 +1,54 @@
+name: Zacian ex
+
+origin: scarlet-violet-black-star-198
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Metal
+
+hp: 220
+
+dex: 888
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Steel Armament
+    text: Search your deck for a Basic Metal Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Slashing Strike
+    text: During your next turn, this Pokémon can't use Slashing Strike.
+    damage: 210
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,46 @@
+name: Omastar
+
+origin: sandstorm-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Omanyte
+
+dex: 139
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pull Down
+    text: If your opponent has any Evolved Pokémon in play, remove the highest Stage Evolution card from each of them and put those cards back into his or her hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hydrocannon
+    text: Does 30 damage plus 20 more damage for each Water Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

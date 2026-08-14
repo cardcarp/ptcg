@@ -1,0 +1,42 @@
+name: Drizzile
+
+origin: chilling-reign-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Sobble
+
+dex: 817
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bounce
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

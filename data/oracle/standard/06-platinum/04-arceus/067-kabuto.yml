@@ -1,0 +1,44 @@
+name: Kabuto
+
+origin: arceus-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Dome Fossil
+
+dex: 140
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fast Evolution
+    text: Search your deck for up to 2 Evolution cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Speed Attack
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

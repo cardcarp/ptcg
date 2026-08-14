@@ -1,0 +1,41 @@
+name: Tropius
+
+origin: brilliant-stars-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 357
+
+rule:
+  - type: ability
+    name: Curative Bower
+    text: All of your Pokémon that have Grass Energy attached can't be Confused, and if they are already Confused, they recover from that Special Condition.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Slicing Blade
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

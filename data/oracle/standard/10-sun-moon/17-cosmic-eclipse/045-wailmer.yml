@@ -1,0 +1,36 @@
+name: Wailmer
+
+origin: cosmic-eclipse-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 320
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wave Splash
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

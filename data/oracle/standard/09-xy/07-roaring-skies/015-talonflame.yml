@@ -1,0 +1,43 @@
+name: Talonflame
+
+origin: roaring-skies-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Fletchinder
+
+dex: 663
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Grand Loop
+    text: Draw 3 cards. You may switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Brave Bird
+    text: This Pokémon does 20 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

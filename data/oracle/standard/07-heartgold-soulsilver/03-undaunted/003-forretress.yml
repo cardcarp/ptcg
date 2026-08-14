@@ -1,0 +1,54 @@
+name: Forretress
+
+origin: undaunted-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Pineco
+
+dex: 205
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Mirror Shot
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, this attack does nothing.
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Everyone Explode Now
+    text: Does 30 damage times the number of Pineco and Forretress you have in play. This attack does 30 damage to each of your Pineco and Forretress in play.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

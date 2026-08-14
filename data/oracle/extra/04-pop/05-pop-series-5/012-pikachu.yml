@@ -1,0 +1,43 @@
+name: Pikachu
+
+origin: pop-series-5-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Lightning Ball
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunderbolt
+    text: Discard all Energy cards attached to Pikachu.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

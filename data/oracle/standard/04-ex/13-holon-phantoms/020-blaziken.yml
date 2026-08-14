@@ -1,0 +1,47 @@
+name: Blaziken
+
+origin: holon-phantoms-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Blaze Kick
+    text: Flip a coin. If heads, this attack does 40 damage plus 20 more damage. If tails, the Defending Pokémon is now Burned.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

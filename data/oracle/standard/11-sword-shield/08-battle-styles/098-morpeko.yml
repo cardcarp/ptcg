@@ -1,0 +1,43 @@
+name: Morpeko
+
+origin: battle-styles-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 877
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gather Food
+    text: Put an Item card from your discard pile into your hand.
+  - type: attack
+    cost:
+      - Darkness
+    name: Hangry Tackle
+    text: If you have no cards in your hand, this attack does 90 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

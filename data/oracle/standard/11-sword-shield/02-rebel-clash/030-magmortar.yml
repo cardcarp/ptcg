@@ -1,0 +1,50 @@
+name: Magmortar
+
+origin: rebel-clash-030
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Magmar
+
+dex: 467
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Burst Punch
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Ground Burn
+    text: Each player discards the top card of their deck. This attack does 100 more damage for each Energy card discarded in this way.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

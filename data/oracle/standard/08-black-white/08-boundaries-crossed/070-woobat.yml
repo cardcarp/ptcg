@@ -1,0 +1,46 @@
+name: Woobat
+
+origin: boundaries-crossed-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 527
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Scout
+    text: Your opponent reveals his or her hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Heart Stamp
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

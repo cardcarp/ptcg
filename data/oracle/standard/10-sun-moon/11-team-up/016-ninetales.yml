@@ -1,0 +1,43 @@
+name: Ninetales
+
+origin: team-up-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: ability
+    name: Nine Temptations
+    text: Once during your turn (before your attack), you may discard 2 Fire Energy cards from your hand. If you do, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flame Tail
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Misdreavus
+
+origin: crimson-invasion-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 200
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

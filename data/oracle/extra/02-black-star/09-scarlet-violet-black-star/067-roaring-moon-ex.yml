@@ -1,0 +1,52 @@
+name: Roaring Moon ex
+
+origin: scarlet-violet-black-star-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+  - Ancient
+
+type:
+  - Darkness
+
+hp: 230
+
+dex: 1005
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Frenzied Gouging
+    text: Knock Out your opponent's Active Pokémon. If your opponent's Active Pokémon is Knocked Out in this way, this Pokémon does 200 damage to itself.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Calamity Storm
+    text: You may discard a Stadium in play. If you do, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

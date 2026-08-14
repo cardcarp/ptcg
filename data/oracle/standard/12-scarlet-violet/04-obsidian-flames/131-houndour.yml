@@ -1,0 +1,43 @@
+name: Houndour
+
+origin: obsidian-flames-131
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Coordinated Pack
+    text: For each of your Benched Houndour, search your deck for a Basic Darkness Energy card and attach it to that Houndour. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Focus Fangs
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,46 @@
+name: Genesect
+
+origin: shrouded-fable-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 110
+
+dex: 649
+
+rule:
+  - type: ability
+    name: ACE Nullifier
+    text: If this Pokémon has a Pokémon Tool attached, your opponent can't play any ACE SPEC cards from their hand.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Magnetic Blast
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

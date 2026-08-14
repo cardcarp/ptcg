@@ -1,0 +1,34 @@
+name: Horsea
+
+origin: shining-fates-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 116
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,36 @@
+name: Paldean Wooper
+
+origin: obsidian-flames-126
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 194
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Spit Poison
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

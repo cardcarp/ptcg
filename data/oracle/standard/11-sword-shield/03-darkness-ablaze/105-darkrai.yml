@@ -1,0 +1,43 @@
+name: Darkrai
+
+origin: darkness-ablaze-105
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 491
+
+rule:
+  - type: ability
+    name: Darkness Guard
+    text: If this Pokémon has any Darkness Energy attached, it takes 20 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Vortex of Darkness
+    text: This attack does 20 more damage for each Darkness Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

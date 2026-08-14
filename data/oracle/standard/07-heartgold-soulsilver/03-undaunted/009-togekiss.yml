@@ -1,0 +1,52 @@
+name: Togekiss
+
+origin: undaunted-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Togetic
+
+dex: 468
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Blessed Wings
+    text: Remove all damage counters from each of your Pokémon. Shuffle Togekiss and all cards attached to it back into your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Air Cutter
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,153 @@
+name: # name
+  type: string
+  required: true
+
+origin: # the printing this oracle first appeared in, as '{set}-{index}'. Name
+        # alone cannot identify an oracle (hundreds of Pikachu), so the id is
+        # derived from name + origin. Anchored to the earliest printing so it
+        # stays stable as reprints are added.
+  type: string
+  required: true
+
+layout: # doesn't exist, use 'standard'
+  type: string
+  required: true
+
+category: # supertype
+  type: string
+  required: true
+  allowed: ['Pokémon', 'Trainer', 'Energy']
+  nullable: true
+
+facet: # subtype
+  type: list
+  required: false
+  schema:
+    type: string
+
+type: # types
+  type: list
+  required: false
+  schema:
+    type: string
+    allowed: ['Grass', 'Fire', 'Water', 'Lightning', 'Fighting', 'Psychic', 'Colorless', 'Darkness', 'Metal', 'Dragon', 'Fairy']
+
+hp: # hp
+  type: integer
+  required: false
+  min: 0
+  coerce: int
+
+preevolution: # evolves_from
+  type: list
+  required: false
+  schema:
+    type: string
+
+dex: # national_pokedex_numbers: source is an array, just use first value
+  type: integer
+  required: false
+  min: 0
+  coerce: int
+
+rule: # this is a combination of 'abilities' and 'attacks'
+  type: list
+  required: false
+  schema:
+    type: dict
+    schema:
+      type: # deterministic from the source, whether it was originally an 'abilities' or an 'attacks'
+        type: string
+        required: false
+        allowed: ['ability', 'attack']
+      position: # This is for whether it is a unique layout and the rule is on the reverse or flip. Can be ignored as only a few cards need this and I will manually edit.
+        type: string
+        required: false
+      cost: # cost
+        type: list
+        required: false
+        schema:
+          type: string
+          allowed: ['Grass', 'Fire', 'Water', 'Lightning', 'Fighting', 'Psychic', 'Colorless', 'Darkness', 'Metal', 'Dragon', 'Fairy']
+      name: # name
+        type: string
+        required: false
+      text: # text
+        type: string
+        required: false
+      damage: # damage: will need to be split in many cases as '30x' or '30+' is common. We want just the integer.
+        type: integer
+        required: false
+        min: 0
+      modifier: # continuation of damage, splitting the cases which use symbols such as '+' and 'x'
+        type: string
+        required: false
+
+weakness: # weaknesses
+  type: list
+  required: false
+  schema:
+    type: dict
+    schema:
+      type: # type
+        type: string
+        required: false
+        allowed: ['Grass', 'Fire', 'Water', 'Lightning', 'Fighting', 'Psychic', 'Colorless', 'Darkness', 'Metal', 'Dragon', 'Fairy']
+      delta: # value: will need to be split as 'x30' or '-30' is common. We want just the integer.
+        type: integer
+        required: false
+        min: 0
+      operator: # continuation of value: splitting the symbol out such as '-' and 'x'
+        type: string
+        required: false
+
+resistance: # resistances
+  type: list
+  required: false
+  schema:
+    type: dict
+    schema:
+      type: # type
+        type: string
+        required: false
+        allowed: ['Grass', 'Fire', 'Water', 'Lightning', 'Fighting', 'Psychic', 'Colorless', 'Darkness', 'Metal', 'Dragon', 'Fairy']
+      delta: # value: will need to be split as 'x30' or '-30' is common. We want just the integer.
+        type: integer
+        required: false
+        min: 0
+      operator: # continuation of value: splitting the symbol out such as '-' and 'x'
+        type: string
+        required: false
+
+retreat: # converted_retreat_cost
+  type: integer
+  required: false
+  min: 0
+  coerce: int
+
+rulebox: # rules: (something I will want to eventually clean up as relational values, like "VSTAR rule: When your Pokémon VSTAR is..." should just be "vstar-01")
+  type: list
+  required: false
+  schema:
+    type: string
+
+regulation: # regulation_mark
+  type: list
+  required: true
+  nullable: true
+  schema:
+    type: string
+
+errata: # no data yet
+  type: list
+  required: false
+  nullable: true
+  schema:
+    type: dict
+    schema:
+      date:
+        type: string
+        required: false
+      text:
+        type: string
+        required: false

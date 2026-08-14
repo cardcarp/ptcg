@@ -1,0 +1,37 @@
+name: Dratini
+
+origin: dragon-vault-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 40
+
+dex: 147
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+    name: Wrap
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

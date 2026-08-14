@@ -1,0 +1,46 @@
+name: Simisear
+
+origin: paradox-rift-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Pansear
+
+dex: 514
+
+rule:
+  - type: ability
+    name: Monkey Trio
+    text: If you have Simisage, Simisear, and Simipour in play, ignore all Colorless Energy in the costs of attacks used by this Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heat Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 190
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

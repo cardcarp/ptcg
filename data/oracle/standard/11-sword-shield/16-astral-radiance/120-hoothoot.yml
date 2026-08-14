@@ -1,0 +1,45 @@
+name: Hoothoot
+
+origin: astral-radiance-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 163
+
+rule:
+  - type: ability
+    name: Stand Sentry
+    text: Basic Energy attached to your Benched Pokémon can't be discarded by an effect of your opponent's Item or Supporter cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flap
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

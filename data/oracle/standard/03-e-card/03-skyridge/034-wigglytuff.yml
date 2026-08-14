@@ -1,0 +1,44 @@
+name: Wigglytuff
+
+origin: skyridge-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: ability
+    name: Good Neighbor
+    text: Once during your turn (before your attack), if Wigglytuff is on your bench, you may flip a coin. If heads, each player removes up to 2 damage counters from his or her Active Pokémon. This power can't be used if you have already used another Wigglytuff's Good Neighbor Poké-Power this turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Do the Wave
+    text: Flip a coin. If heads, this attack does 10 damage times the number of Pokémon you have in play.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

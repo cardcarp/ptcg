@@ -1,0 +1,47 @@
+name: Armaldo
+
+origin: steam-siege-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Anorith
+
+dex: 348
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rushing Water
+    text: Move an Energy from your opponent's Active Pokémon to 1 of his or her Benched Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Guard Claw
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

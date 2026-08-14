@@ -1,0 +1,39 @@
+name: Dunsparce
+
+origin: darkness-ablaze-137
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 206
+
+rule:
+  - type: ability
+    name: Final Dig
+    text: If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, discard the top 2 cards of your opponent's deck.
+  - type: attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

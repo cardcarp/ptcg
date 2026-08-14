@@ -1,0 +1,44 @@
+name: Raticate
+
+origin: southern-islands-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sharp Teeth
+    text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

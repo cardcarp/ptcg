@@ -1,0 +1,43 @@
+name: Chatot
+
+origin: majestic-dawn-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 441
+
+rule:
+  - type: attack
+    name: Mimic
+    text: Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Chatter
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

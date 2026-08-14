@@ -1,0 +1,36 @@
+name: Shroomish
+
+origin: generations-002rc
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 285
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Worry Seed
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Mawile
+
+origin: plasma-freeze-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 303
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Astonish
+    text: Flip a coin. If heads, choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Big Ol' Bite
+    text: Heal 30 damage from this Pokémon. The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

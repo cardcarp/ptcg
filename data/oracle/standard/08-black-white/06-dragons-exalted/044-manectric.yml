@@ -1,0 +1,46 @@
+name: Manectric
+
+origin: dragons-exalted-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Energy Assist
+    text: Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

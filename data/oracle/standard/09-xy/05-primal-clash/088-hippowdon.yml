@@ -1,0 +1,50 @@
+name: Hippowdon
+
+origin: primal-clash-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Hippopotas
+
+dex: 450
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Resistance Desert
+    text: During your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.
+    damage: 60
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Double-Edge
+    text: This Pokémon does 20 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

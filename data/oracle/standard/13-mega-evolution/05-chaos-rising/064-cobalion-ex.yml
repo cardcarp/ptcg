@@ -1,0 +1,51 @@
+name: Cobalion ex
+
+origin: chaos-rising-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Metal
+
+hp: 210
+
+dex: 638
+
+rule:
+  - type: ability
+    name: Metal Road
+    text: Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may use this Ability. Move any amount of Metal Energy from your other Pokémon to this Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Power Tackle
+    text: During your next turn, this Pokémon can't use attacks.
+    damage: 200
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

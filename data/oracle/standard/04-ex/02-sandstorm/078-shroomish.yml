@@ -1,0 +1,47 @@
+name: Shroomish
+
+origin: sandstorm-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 285
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Growth Spurt
+    text: Attach a Grass Energy card from your hand to Shroomish.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Poisonpowder
+    text: The Defending Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

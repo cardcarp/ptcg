@@ -1,0 +1,36 @@
+name: Mareanie
+
+origin: silver-tempest-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 747
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

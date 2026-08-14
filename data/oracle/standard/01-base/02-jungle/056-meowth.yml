@@ -1,0 +1,42 @@
+name: Meowth
+
+origin: jungle-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 52
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pay Day
+    text: Flip a coin. If heads, draw a card.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

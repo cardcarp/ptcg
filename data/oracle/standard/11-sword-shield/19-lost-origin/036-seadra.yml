@@ -1,0 +1,45 @@
+name: Seadra
+
+origin: lost-origin-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Horsea
+
+dex: 117
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Swim Freely
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+    name: Hydro Jet
+    text: This attack does 20 damage to 1 of your opponent's Pokémon for each Water Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

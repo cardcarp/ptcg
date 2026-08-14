@@ -1,0 +1,40 @@
+name: Uxie
+
+origin: mysterious-treasures-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 480
+
+rule:
+  - type: ability
+    name: Memory Out
+    text: Once during your opponent's turn, if Uxie is damaged by an opponent's attack (even if Uxie is Knocked Out), you may use this power. The Attacking Pokémon can't use that attack during your opponent's next turn.
+  - type: attack
+    cost:
+      - Psychic
+    name: Mind Off
+    text: If you have Mesprit and Azelf in play, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Asleep.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

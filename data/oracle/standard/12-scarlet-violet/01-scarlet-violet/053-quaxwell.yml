@@ -1,0 +1,46 @@
+name: Quaxwell
+
+origin: scarlet-violet-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Quaxly
+
+dex: 913
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Spiral Kick
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

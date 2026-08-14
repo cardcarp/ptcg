@@ -1,0 +1,43 @@
+name: Meowth
+
+origin: black-white-black-star-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 52
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Heal 20 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jump On
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

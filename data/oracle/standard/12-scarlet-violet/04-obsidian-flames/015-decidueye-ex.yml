@@ -1,0 +1,48 @@
+name: Decidueye ex
+
+origin: obsidian-flames-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Grass
+
+hp: 320
+
+preevolution:
+  - Dartrix
+
+dex: 724
+
+rule:
+  - type: ability
+    name: Total Freedom
+    text: Once during your turn, you may use this Ability. If this Pokémon is on the Bench, switch it with your Active Pokémon. Or, if this Pokémon is in the Active Spot, switch it with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Hunting Arrow
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

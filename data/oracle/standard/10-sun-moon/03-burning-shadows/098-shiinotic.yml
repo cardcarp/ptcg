@@ -1,0 +1,53 @@
+name: Shiinotic
+
+origin: burning-shadows-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 100
+
+preevolution:
+  - Morelull
+
+dex: 756
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Strength Sap
+    text: Heal from this Pokémon 30 damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Sleep Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

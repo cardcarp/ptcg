@@ -1,0 +1,53 @@
+name: Zeraora VMAX
+
+origin: sword-shield-black-star-264
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Lightning
+
+hp: 320
+
+preevolution:
+  - Zeraora V
+
+dex: 807
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Reactive Pulse
+    text: This attack does 60 damage for each of your opponent's Pokémon in play that has an Ability.
+    damage: 60
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Max Fist
+    text: Discard 2 Energy from this Pokémon.
+    damage: 240
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,43 @@
+name: Kyurem
+
+origin: unbroken-bonds-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 646
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Call Forth Cold
+    text: Search your deck for a Water Energy card and attach it to this Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hail Prison
+    text: Discard 2 Water Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.
+    damage: 110
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

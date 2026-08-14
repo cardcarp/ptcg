@@ -1,0 +1,36 @@
+name: Squirtle
+
+origin: team-rocket-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 7
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Shell Attack
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

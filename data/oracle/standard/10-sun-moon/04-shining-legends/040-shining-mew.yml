@@ -1,0 +1,38 @@
+name: Shining Mew
+
+origin: shining-legends-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 151
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Legendary Guidance
+    text: Search your deck for up to 2 Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+    name: Beam
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+regulation:
+
+errata: []

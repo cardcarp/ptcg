@@ -1,0 +1,51 @@
+name: Rayquaza
+
+origin: sword-shield-black-star-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jaw Lock
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Blast
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

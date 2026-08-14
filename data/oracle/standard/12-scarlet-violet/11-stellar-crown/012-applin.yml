@@ -1,0 +1,36 @@
+name: Applin
+
+origin: stellar-crown-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 840
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Spray Fluid
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

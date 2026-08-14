@@ -1,0 +1,51 @@
+name: Vikavolt
+
+origin: unbroken-bonds-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Charjabug
+
+dex: 738
+
+rule:
+  - type: ability
+    name: Stealthy Body
+    text: If there is any Stadium card in play, this Pokémon has no Weakness.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electricannon
+    text: You may discard all Lightning Energy from this Pokémon. If you do, this attack does 100 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

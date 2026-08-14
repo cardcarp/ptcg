@@ -1,0 +1,49 @@
+name: Beartic
+
+origin: next-destinies-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Cubchoo
+
+dex: 614
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Daunt
+    text: During your opponent's next turn, any damage done by attack from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,48 @@
+name: Tyranitar
+
+origin: paldea-evolved-135
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 180
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Rout
+    text: This attack does 30 more damage for each of your opponent's Benched Pokémon.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Dread Mountain
+    text: Discard the top 4 cards of your deck.
+    damage: 230
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

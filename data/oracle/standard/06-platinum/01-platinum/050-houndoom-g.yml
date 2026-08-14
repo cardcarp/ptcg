@@ -1,0 +1,52 @@
+name: Houndoom G
+
+origin: platinum-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 229
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Black Cry
+    text: The Defending Pokémon can't retreat or use any Poké-Powers during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Slash
+    text: You may discard a Darkness Energy attached to Houndoom G. If you do, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

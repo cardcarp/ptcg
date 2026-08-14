@@ -1,0 +1,44 @@
+name: Diancie
+
+origin: stellar-crown-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 719
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Diffuse Reflection
+    text: This attack does 40 damage for each Special Energy attached to all of your opponent's Pokémon.
+    damage: 40
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Power Gem
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

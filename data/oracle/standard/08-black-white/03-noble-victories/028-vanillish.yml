@@ -1,0 +1,46 @@
+name: Vanillish
+
+origin: noble-victories-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Vanillite
+
+dex: 583
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Frost Breath
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

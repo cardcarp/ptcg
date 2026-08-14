@@ -1,0 +1,40 @@
+name: Falinks
+
+origin: battle-styles-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 870
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rapid Strike Squad
+    text: This attack does 20 damage for each of your Rapid Strike Pokémon in play.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

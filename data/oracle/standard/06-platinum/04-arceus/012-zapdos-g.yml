@@ -1,0 +1,50 @@
+name: Zapdos G
+
+origin: arceus-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 145
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Charge Beam
+    text: Flip a coin. If heads, search your discard pile for an Energy card and attach it to Zapdos G.
+    damage: 10
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Strike
+    text: You may discard all Lightning attached to Zapdos G. If you do, this attack's base damage is 80 instead of 40.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

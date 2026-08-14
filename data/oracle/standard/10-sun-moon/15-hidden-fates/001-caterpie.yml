@@ -1,0 +1,35 @@
+name: Caterpie
+
+origin: hidden-fates-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 10
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Tackle
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

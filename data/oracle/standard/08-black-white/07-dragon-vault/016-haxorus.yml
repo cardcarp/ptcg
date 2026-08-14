@@ -1,0 +1,50 @@
+name: Haxorus
+
+origin: dragon-vault-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 140
+
+preevolution:
+  - Fraxure
+
+dex: 612
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Axe Slugger
+    text: If the Defending Pokémon is a Colorless Pokémon, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Metal
+      - Colorless
+      - Colorless
+    name: Dragon Pulse
+    text: Discard the top card of your deck.
+    damage: 100
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

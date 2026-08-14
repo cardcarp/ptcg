@@ -1,0 +1,45 @@
+name: Dark Vileplume
+
+origin: team-rocket-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Dark Gloom
+
+dex: 45
+
+rule:
+  - type: ability
+    name: Hay Fever
+    text: No Trainer cards can be played. This power stops working while Dark Vileplume is Asleep, Confused, or Paralyzed.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Petal Whirlwind
+    text: Flip a coins. This attack does 30 damage times the number of heads. If you get 2 or more heads, Dark Vileplume is now Confused (after doing damage).
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

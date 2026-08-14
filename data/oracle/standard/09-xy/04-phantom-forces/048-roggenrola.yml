@@ -1,0 +1,36 @@
+name: Roggenrola
+
+origin: phantom-forces-048
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 524
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

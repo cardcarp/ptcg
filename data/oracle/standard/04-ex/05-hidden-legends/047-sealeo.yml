@@ -1,0 +1,45 @@
+name: Sealeo
+
+origin: hidden-legends-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Spheal
+
+dex: 364
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Super Icy Wind
+    text: Does 10 damage to each of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Skull Bash
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

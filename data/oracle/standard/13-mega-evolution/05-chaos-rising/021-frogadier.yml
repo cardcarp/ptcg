@@ -1,0 +1,45 @@
+name: Frogadier
+
+origin: chaos-rising-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Froakie
+
+dex: 657
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Summoning Jutsu
+    text: Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Aqua Edge
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

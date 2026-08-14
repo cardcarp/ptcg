@@ -1,0 +1,48 @@
+name: Nidoqueen
+
+origin: triumphant-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Nidorina
+
+dex: 31
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Return
+    text: Draw cards until you have 6 cards in your hand.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Prize Count
+    text: If you have more Prize cards left than your opponent, this attack does 50 damage plus 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

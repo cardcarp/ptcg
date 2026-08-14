@@ -1,0 +1,41 @@
+name: Braixen
+
+origin: chaos-rising-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Fennekin
+
+dex: 654
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

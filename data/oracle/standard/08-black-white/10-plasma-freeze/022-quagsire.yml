@@ -1,0 +1,45 @@
+name: Quagsire
+
+origin: plasma-freeze-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Wooper
+
+dex: 195
+
+rule:
+  - type: ability
+    name: Laid-Back
+    text: Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Mud Gun
+    text: If this Pokémon has any Fighting Energy attached to it, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

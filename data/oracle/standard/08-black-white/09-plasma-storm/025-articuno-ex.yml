@@ -1,0 +1,57 @@
+name: Articuno-EX
+
+origin: plasma-storm-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 170
+
+dex: 144
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Blizzard
+    text: Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Prison
+    text: If this Pokémon has any Plasma Energy attached to it, the Defending Pokémon is now Paralyzed.
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

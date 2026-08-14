@@ -1,0 +1,50 @@
+name: Jynx ex
+
+origin: 151-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 200
+
+dex: 124
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Heart-Stopping Kiss
+    text: If your opponent's Active Pokémon is Asleep, it is Knocked Out.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

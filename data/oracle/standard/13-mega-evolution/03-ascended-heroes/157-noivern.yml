@@ -1,0 +1,42 @@
+name: Noivern
+
+origin: ascended-heroes-157
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 120
+
+preevolution:
+  - Noibat
+
+dex: 715
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 40
+  - type: attack
+    cost:
+      - Psychic
+      - Darkness
+    name: Enhanced Blade
+    text: If this Pokémon has a Pokémon Tool attached, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+regulation:
+  - I
+
+errata: []

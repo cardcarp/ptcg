@@ -1,0 +1,48 @@
+name: Magcargo
+
+origin: xy-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Magma Mantle
+    text: You may discard the top card of your deck. If that card is a Fire Energy card, this attack does 50 more damage.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Blast
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

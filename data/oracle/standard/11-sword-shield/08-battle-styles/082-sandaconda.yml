@@ -1,0 +1,48 @@
+name: Sandaconda
+
+origin: battle-styles-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Silicobra
+
+dex: 844
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Big Sand Cannon
+    text: Discard the top 6 cards of your deck. This attack does 60 damage for each Fighting Energy card you discarded in this way.
+    damage: 60
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Skull Bash
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

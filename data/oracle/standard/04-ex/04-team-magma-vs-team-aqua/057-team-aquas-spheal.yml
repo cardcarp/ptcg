@@ -1,0 +1,42 @@
+name: Team Aqua's Spheal
+
+origin: team-magma-vs-team-aqua-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 363
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Rollout
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Trance
+    text: At the end of your opponent's next turn, the Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

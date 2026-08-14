@@ -1,0 +1,54 @@
+name: Noctowl
+
+origin: astral-radiance-121
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Hoothoot
+
+dex: 164
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Silent Wing
+    text: Your opponent reveals their hand.
+    damage: 50
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

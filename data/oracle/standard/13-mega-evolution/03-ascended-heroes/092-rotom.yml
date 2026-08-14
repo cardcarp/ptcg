@@ -1,0 +1,49 @@
+name: Rotom
+
+origin: ascended-heroes-092
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 479
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Roto Call
+    text: You may search your deck for any number of Pokémon that have "Rotom" in their name and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gadget Show
+    text: This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

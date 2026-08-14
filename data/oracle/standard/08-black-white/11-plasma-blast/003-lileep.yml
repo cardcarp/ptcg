@@ -1,0 +1,51 @@
+name: Lileep
+
+origin: plasma-blast-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Restored
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Root Fossil Lileep
+
+dex: 345
+
+rule:
+  - type: ability
+    name: Prehistoric Call
+    text: Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put this Pokémon on the bottom of your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Spiral Drain
+    text: Heal 10 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Root Fossil Lileep
+
+regulation:
+
+errata: []

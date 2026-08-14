@@ -1,0 +1,57 @@
+name: Dark Steelix
+
+origin: team-rocket-returns-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Energy Link
+    text: Search your discard pile for an Energy card and attach it to Dark Steelix.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - This Pokémon is both Darkness Metal type.
+
+regulation:
+
+errata: []

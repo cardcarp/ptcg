@@ -1,0 +1,47 @@
+name: Marshtomp
+
+origin: crystal-guardians-038
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Mudkip
+
+dex: 259
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hug
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mud Shot
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Keldeo
+
+origin: xy-black-star-118
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 647
+
+rule:
+  - type: ability
+    name: Justified
+    text: This Pokémon's attacks do 50 more damage to your opponent's Darkness Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Sacred Sword
+    text: This Pokémon can't use Sacred Sword during your next turn.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

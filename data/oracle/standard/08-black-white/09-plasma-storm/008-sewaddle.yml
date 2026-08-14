@@ -1,0 +1,35 @@
+name: Sewaddle
+
+origin: plasma-storm-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 540
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Bug Bite
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

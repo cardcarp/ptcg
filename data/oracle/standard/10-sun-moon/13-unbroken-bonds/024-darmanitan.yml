@@ -1,0 +1,45 @@
+name: Darmanitan
+
+origin: unbroken-bonds-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Darumaka
+
+dex: 555
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Find Wildfire
+    text: Search your deck for up to 3 Fire Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare Blitz
+    text: Discard all Fire Energy from this Pokémon.
+    damage: 110
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

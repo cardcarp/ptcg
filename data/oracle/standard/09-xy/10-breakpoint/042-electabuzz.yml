@@ -1,0 +1,36 @@
+name: Electabuzz
+
+origin: breakpoint-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 125
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Knuckle Punch
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

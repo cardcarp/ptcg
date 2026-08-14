@@ -1,0 +1,36 @@
+name: Erika's Oddish
+
+origin: gym-challenge-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 43
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Strange Powder
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused; if tails, the Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

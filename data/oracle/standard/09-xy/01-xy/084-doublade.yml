@@ -1,0 +1,46 @@
+name: Doublade
+
+origin: xy-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Honedge
+
+dex: 680
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Dual Blades
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

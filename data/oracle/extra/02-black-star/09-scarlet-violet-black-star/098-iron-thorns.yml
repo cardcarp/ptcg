@@ -1,0 +1,48 @@
+name: Iron Thorns
+
+origin: scarlet-violet-black-star-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Future
+
+type:
+  - Lightning
+
+hp: 140
+
+dex: 995
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Destructo-Press
+    text: Reveal the top 5 cards of your deck. This attack does 70 damage for each Future card you find there. Then, discard those Future cards and shuffle the other cards back into your deck.
+    damage: 70
+    modifier: x
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Megaton Lariat
+    damage: 140
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - H
+
+errata: []

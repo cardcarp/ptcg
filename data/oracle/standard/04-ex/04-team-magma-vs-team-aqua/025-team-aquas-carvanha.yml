@@ -1,0 +1,40 @@
+name: Team Aqua's Carvanha
+
+origin: team-magma-vs-team-aqua-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 318
+
+rule:
+  - type: ability
+    name: Dark Lift
+    text: If Team Aqua's Carvanha has any Darkness Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slow-Acting Poison
+    text: At the end of your opponent's next turn, the Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

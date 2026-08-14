@@ -1,0 +1,49 @@
+name: Steelix
+
+origin: unified-minds-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 170
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Ground Stream
+    text: Attach 2 Fighting Energy cards from your discard pile to this Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gigaton Shake
+    text: During your next turn, your Pokémon can't attack. (This includes Pokémon that come into play on that turn.)
+    damage: 220
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

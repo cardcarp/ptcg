@@ -1,0 +1,52 @@
+name: Alolan Muk
+
+origin: cosmic-eclipse-131
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Alolan Grimer
+
+dex: 89
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Panic Poison
+    text: Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Sludge Bomb
+    damage: 110
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

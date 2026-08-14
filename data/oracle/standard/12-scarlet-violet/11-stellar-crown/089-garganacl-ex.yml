@@ -1,0 +1,49 @@
+name: Garganacl ex
+
+origin: stellar-crown-089
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Fighting
+
+hp: 340
+
+preevolution:
+  - Naclstack
+
+dex: 934
+
+rule:
+  - type: ability
+    name: Salty Body
+    text: This Pokémon can't be affected by any Special Conditions.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Block Hammer
+    text: During your opponent's next turn, this Pokémon takes 60 less damage from attacks (after applying Weakness and Resistance).
+    damage: 170
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,35 @@
+name: Psyduck
+
+origin: sun-moon-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 54
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Confusion Wave
+    text: Both Active Pokémon are now Confused.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

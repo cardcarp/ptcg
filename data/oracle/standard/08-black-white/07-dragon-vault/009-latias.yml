@@ -1,0 +1,42 @@
+name: Latias
+
+origin: dragon-vault-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 100
+
+dex: 380
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Energy Assist
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Psychic
+    name: Sky Heal
+    text: If Latios is on your Bench, heal 20 damage from this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Carbink
+
+origin: fates-collide-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 703
+
+rule:
+  - type: ability
+    name: Safeguard
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon-EX.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Power Gem
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

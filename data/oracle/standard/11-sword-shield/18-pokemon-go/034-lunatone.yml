@@ -1,0 +1,50 @@
+name: Lunatone
+
+origin: pokemon-go-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 337
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Cycle Draw
+    text: Discard a card from your hand. If you do, draw 3 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Moon Kinesis
+    text: This attack does 30 more damage for each Psychic Energy attached to this Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

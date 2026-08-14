@@ -1,0 +1,43 @@
+name: Tapu Lele
+
+origin: sun-moon-black-star-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 786
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Psywave
+    text: This attack does 20 damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Magical Swap
+    text: Move any number of damage counters on your opponent's Pokémon to their other Pokémon in any way you like.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

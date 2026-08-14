@@ -1,0 +1,49 @@
+name: Rayquaza-EX
+
+origin: xy-black-star-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 180
+
+dex: 384
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dragon Claw
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Lightning
+      - Colorless
+    name: Dragon Strike
+    text: Flip a coin. If tails, this Pokémon can't use Dragon Strike during your next turn.
+    damage: 130
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

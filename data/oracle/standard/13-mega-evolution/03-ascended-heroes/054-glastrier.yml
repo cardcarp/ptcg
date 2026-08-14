@@ -1,0 +1,45 @@
+name: Glastrier
+
+origin: ascended-heroes-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 896
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Ice Shot
+    text: This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Frosty Typhoon
+    text: During your next turn, this Pokémon can't use Frosty Typhoon.
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

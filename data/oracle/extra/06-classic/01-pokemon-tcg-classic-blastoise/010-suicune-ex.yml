@@ -1,0 +1,42 @@
+name: Suicune ex
+
+origin: pokemon-tcg-classic-blastoise-010
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 220
+
+dex: 245
+
+rule:
+  - type: ability
+    name: Aqua Lift
+    text: If this Pokémon has any Water Energy attached, it has no Retreat Cost.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Crystal Blast
+    text: This attack does 30 more damage for each Water Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,39 @@
+name: Scorbunny
+
+origin: mega-evolution-black-star-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 813
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

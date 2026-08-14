@@ -1,0 +1,48 @@
+name: Galarian Stunfisk
+
+origin: lost-origin-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 100
+
+dex: 618
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Field Trap
+    text: If your opponent has a Stadium in play, discard it. If you discarded a Stadium in this way, discard 2 Energy from your opponent's Active Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Tackle
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

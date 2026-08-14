@@ -1,0 +1,41 @@
+name: Tapu Koko ex
+
+origin: journey-together-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Lightning
+
+hp: 200
+
+dex: 785
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Linked Lightning
+    text: This attack does 20 more damage for each of your Benched Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

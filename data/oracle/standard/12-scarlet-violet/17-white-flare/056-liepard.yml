@@ -1,0 +1,40 @@
+name: Liepard
+
+origin: white-flare-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Purrloin
+
+dex: 510
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

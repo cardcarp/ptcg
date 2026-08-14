@@ -1,0 +1,51 @@
+name: Banette
+
+origin: hidden-legends-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Shadow Steal
+    text: Does 10 damage plus 20 more damage for each Special Energy card in your opponent's discard pile.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Darkness Chant
+    text: Count the number of Basic Pokémon or Evolution cards in your discard pile. Put that many damage counters on the Defending Pokémon. You can't put more than 6 damage counters on the Defending Pokémon in this way.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

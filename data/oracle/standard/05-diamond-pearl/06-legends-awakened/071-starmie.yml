@@ -1,0 +1,42 @@
+name: Starmie
+
+origin: legends-awakened-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Star Boomerang
+    text: You may return Starmie and all cards attached to it to your hand.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+    name: Core Flash
+    text: Choose 1 of your opponent's Pokémon that has any Poké-Powers or Poké-Bodies. This attack does 50 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+regulation:
+
+errata: []

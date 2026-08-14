@@ -1,0 +1,53 @@
+name: Crawdaunt
+
+origin: legends-awakened-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Corphish
+
+dex: 342
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Gripthrow
+    text: Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Prop-up Pinchers
+    text: If Crawdaunt has a Technical Machine card attached to it, this attack does 50 damage plus 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

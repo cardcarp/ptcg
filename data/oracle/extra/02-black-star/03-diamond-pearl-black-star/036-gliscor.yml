@@ -1,0 +1,50 @@
+name: Gliscor
+
+origin: diamond-pearl-black-star-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: ability
+    name: Bind Eye
+    text: As long as Gliscor is your Active Pokémon, your opponent can't remove any Special Conditions by evolving or devolving his or her Pokémon. (This also includes putting a Pokémon Level-Up card onto that Pokémon.)
+  - type: attack
+    cost:
+      - Colorless
+    name: Cutting Turn
+    text: Flip a coin. If heads, put damage counters on the Defending Pokémon until it is 10HP away from being Knocked Out. If you do, shuffle Gliscor and all cards attached to it back into your deck.
+  - type: attack
+    cost:
+      - Fighting
+    name: Friction Heat
+    text: The Defending Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

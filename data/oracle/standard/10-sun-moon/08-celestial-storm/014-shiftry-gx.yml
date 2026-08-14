@@ -1,0 +1,59 @@
+name: Shiftry-GX
+
+origin: celestial-storm-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Grass
+
+hp: 240
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 40
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Extrasensory
+    text: If you have the same number of cards in your hand as your opponent, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Den of Iniquity-GX
+    text: Choose 1 of your opponent's Pokémon. Your opponent shuffles that Pokémon and all cards attached to it into their deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Sandslash
+
+origin: pokemon-tcg-classic-venusaur-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+hp: 110
+
+preevolution:
+  - Sandshrew
+
+dex: 28
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Continuous Scratch
+    text: Flip 4 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sand Tomb
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

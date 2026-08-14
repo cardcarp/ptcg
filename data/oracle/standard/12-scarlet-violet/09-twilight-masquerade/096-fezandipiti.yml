@@ -1,0 +1,41 @@
+name: Fezandipiti
+
+origin: twilight-masquerade-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 1016
+
+rule:
+  - type: ability
+    name: Adrena-Pheromone
+    text: If this Pokémon has any Darkness Energy attached and is damaged by an attack, flip a coin. If heads, prevent that damage.
+  - type: attack
+    cost:
+      - Psychic
+    name: Energy Feather
+    text: This attack does 30 damage for each Energy attached to this Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

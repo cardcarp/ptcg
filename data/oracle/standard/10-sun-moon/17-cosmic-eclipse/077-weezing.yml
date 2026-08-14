@@ -1,0 +1,43 @@
+name: Weezing
+
+origin: cosmic-eclipse-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: ability
+    name: Blow-Away Bomb
+    text: Once during your turn, when you discard this Pokémon with the effect of Roxie, you may put 1 damage counter on each of your opponent's Pokémon. (Place damage counters after the effect of Roxie.)
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Balloon Burst
+    text: Discard this Pokémon and all cards attached to it.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

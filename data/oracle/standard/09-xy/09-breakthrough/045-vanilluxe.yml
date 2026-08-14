@@ -1,0 +1,48 @@
+name: Vanilluxe
+
+origin: breakthrough-045
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Vanillish
+
+dex: 584
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Frigid Breath
+    text: Until the end of your next turn, each player can't play any Supporter or Stadium cards from his or her hand.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Deep Freeze
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed. If tails, your opponent's Active Pokémon is now Confused.
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

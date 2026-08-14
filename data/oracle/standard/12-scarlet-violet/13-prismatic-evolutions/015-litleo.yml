@@ -1,0 +1,43 @@
+name: Litleo
+
+origin: prismatic-evolutions-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 667
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Headbutt
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

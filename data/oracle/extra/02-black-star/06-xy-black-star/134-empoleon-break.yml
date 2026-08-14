@@ -1,0 +1,37 @@
+name: Empoleon BREAK
+
+origin: xy-black-star-134
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - BREAK
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Empoleon
+
+dex: 395
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Emperor's Command
+    text: This attack does 30 damage times the number of Pokémon your opponent has in play.
+    damage: 30
+    modifier: x
+
+rulebox:
+  - 'BREAK Evolution Rule: Empoleon BREAK retains the attacks, Abilities, Weakness, Resistance, and Retreat Cost of its previous Evolution.'
+
+regulation:
+
+errata: []

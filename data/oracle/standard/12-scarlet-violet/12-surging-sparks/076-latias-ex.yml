@@ -1,0 +1,51 @@
+name: Latias ex
+
+origin: surging-sparks-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 210
+
+dex: 380
+
+rule:
+  - type: ability
+    name: Skyliner
+    text: Your Basic Pokémon in play have no Retreat Cost.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Eon Blade
+    text: During your next turn, this Pokémon can't attack.
+    damage: 200
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - H
+
+errata: []

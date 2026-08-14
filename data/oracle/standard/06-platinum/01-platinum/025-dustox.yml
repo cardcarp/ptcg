@@ -1,0 +1,49 @@
+name: Dustox
+
+origin: platinum-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Cascoon
+
+dex: 269
+
+rule:
+  - type: ability
+    name: Camouflage Pattern
+    text: Prevent all effects of attacks, including damage, done to Dustox by your opponent's Pokémon that is affected by 2 or more Special Conditions.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Smogscreen
+    text: The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Chemical Scale
+    text: If the Defending Pokémon has any Poké-Powers or Poké-Bodies, the Defending Pokémon is now Burned and Confused.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+regulation:
+
+errata: []

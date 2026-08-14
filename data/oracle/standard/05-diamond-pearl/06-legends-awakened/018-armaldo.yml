@@ -1,0 +1,44 @@
+name: Armaldo
+
+origin: legends-awakened-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Anorith
+
+dex: 348
+
+rule:
+  - type: ability
+    name: Fossil Armor
+    text: If Armaldo would be damaged by an attack, prevent that attack's damage done to Armaldo if that damage is 60 or less.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Crush Claw
+    text: During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

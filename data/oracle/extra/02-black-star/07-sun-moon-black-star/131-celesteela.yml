@@ -1,0 +1,46 @@
+name: Celesteela
+
+origin: sun-moon-black-star-131
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Metal
+
+hp: 140
+
+dex: 797
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Moon Raker
+    text: If the total of both players' remaining Prize cards is exactly 6, this attack can be used for Metal.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

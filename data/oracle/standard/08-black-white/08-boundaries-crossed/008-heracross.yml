@@ -1,0 +1,43 @@
+name: Heracross
+
+origin: boundaries-crossed-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 214
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Horn Attack
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Giga Horn
+    text: Flip 2 coins. If both of them are tails, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

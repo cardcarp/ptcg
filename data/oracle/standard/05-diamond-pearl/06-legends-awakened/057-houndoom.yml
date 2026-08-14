@@ -1,0 +1,49 @@
+name: Houndoom
+
+origin: legends-awakened-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: ability
+    name: Revenge Fang
+    text: If you have less Benched Pokémon than your opponent, each of Houndoom's attacks does 40 more damage to the Active Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+    name: Burning Sensation
+    text: If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Bright Flame
+    text: Flip a coin. If tails, discard 2 Fire Energy attached to Houndoom.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

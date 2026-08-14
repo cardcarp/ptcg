@@ -1,0 +1,37 @@
+name: Bulbasaur
+
+origin: pokemon-tcg-classic-venusaur-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 1
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Leech Seed
+    text: Heal 10 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

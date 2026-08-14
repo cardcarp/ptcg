@@ -1,0 +1,41 @@
+name: Sneasel
+
+origin: neo-revelation-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 215
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Swipe
+    text: Flip a coin. If heads, discard all Trainer cards attached to your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

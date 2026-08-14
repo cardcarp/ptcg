@@ -1,0 +1,42 @@
+name: Metapod
+
+origin: great-encounters-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Caterpie
+
+dex: 11
+
+rule:
+  - type: ability
+    name: Emerge
+    text: Once during your turn (before your attack), if Metapod is your Active Pokémon, you may flip a coin. If heads, search your deck for a card that evolves from Metapod and put it onto Metapod. (This counts as evolving Metapod.) Shuffle your deck afterward. This power can't be used if Metapod is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

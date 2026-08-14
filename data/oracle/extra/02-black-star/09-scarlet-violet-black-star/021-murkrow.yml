@@ -1,0 +1,49 @@
+name: Murkrow
+
+origin: scarlet-violet-black-star-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 198
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spin Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+    name: United Wings
+    text: This attack does 20 damage for each Pokémon in your discard pile that has the United Wings attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

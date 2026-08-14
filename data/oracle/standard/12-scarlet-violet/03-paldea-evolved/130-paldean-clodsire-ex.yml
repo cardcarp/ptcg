@@ -1,0 +1,49 @@
+name: Paldean Clodsire ex
+
+origin: paldea-evolved-130
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Darkness
+
+hp: 280
+
+preevolution:
+  - Paldean Wooper
+
+dex: 980
+
+rule:
+  - type: ability
+    name: Toxic Wetland
+    text: Once during your turn, if a Stadium is in play, you may make your opponent's Active Pokémon Poisoned.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Needle Bone
+    text: Flip a coin. If tails, during your next turn, this Pokémon can't attack.
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

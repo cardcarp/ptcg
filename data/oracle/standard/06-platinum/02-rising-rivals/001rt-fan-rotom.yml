@@ -1,0 +1,50 @@
+name: Fan Rotom
+
+origin: rising-rivals-001rt
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 479
+
+rule:
+  - type: ability
+    name: Fan Shift
+    text: Once during your turn (before your attack), you may use this power. Fan Rotom's type is Colorless until the end of your turn.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spin Storm
+    text: Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Flip a coin. If tails, discard an Energy attached to Fan Rotom.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Ting-Lu ex
+
+origin: paldea-evolved-127
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 240
+
+dex: 1003
+
+rule:
+  - type: ability
+    name: Cursed Land
+    text: As long as this Pokémon is in the Active Spot, your opponent's Pokémon in play that have any damage counters on them have no Abilities, except for Pokémon ex.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Land Scoop
+    text: Put 2 damage counters on 1 of your opponent's Benched Pokémon.
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,46 @@
+name: Aerodactyl
+
+origin: dark-explorers-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Restored
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Old Amber Aerodactyl
+
+dex: 142
+
+rule:
+  - type: ability
+    name: Ancient Scream
+    text: Your Pokémon's attacks do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Old Amber Aerodactyl
+
+regulation:
+
+errata: []

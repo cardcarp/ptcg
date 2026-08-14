@@ -1,0 +1,50 @@
+name: Team Rocket's Muk
+
+origin: destined-rivals-124
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 150
+
+preevolution:
+  - Team Rocket's Grimer
+
+dex: 89
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Gooped Up
+    text: Your opponent's Active Pokémon is now Confused. During your opponent's next turn, that Pokémon can't retreat.
+    damage: 40
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Hazardous Venom
+    text: This attack does 100 damage for each Special Condition affecting your opponent's Active Pokémon.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - I
+
+errata: []

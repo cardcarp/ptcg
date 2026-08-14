@@ -1,0 +1,45 @@
+name: Dark Omastar
+
+origin: neo-destiny-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Dark Omanyte
+
+dex: 139
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Prehistoric Water
+    text: If your opponent has any evolved Pokémon in play, choose 1 of them and flip a coin. If heads, your opponent takes the highest Stage Evolution card on that Pokémon and shuffles it into his or her deck.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Dark Tentacle
+    text: During your opponent's next turn, the Defending Pokémon can't evolve except from effects of attacks or Pokémon Powers. (Benching that Pokémon ends this effect.)
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

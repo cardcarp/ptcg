@@ -1,0 +1,48 @@
+name: Medicham
+
+origin: celestial-storm-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Strike of Enlightenment
+    text: If this Pokémon's remaining HP is 30 or less, this attack does 160 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Spinning Kick
+    text: This Pokémon does 30 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

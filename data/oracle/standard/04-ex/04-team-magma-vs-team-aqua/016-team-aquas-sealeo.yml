@@ -1,0 +1,47 @@
+name: Team Aqua's Sealeo
+
+origin: team-magma-vs-team-aqua-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Team Aqua's Spheal
+
+dex: 364
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Aqua Trance
+    text: At the end of your opponent's next turn, the Defending Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Super Hypnoblast
+    text: If the Defending Pokémon is Asleep, this attack does 30 damage plus 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

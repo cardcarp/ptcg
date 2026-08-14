@@ -1,0 +1,46 @@
+name: Delibird
+
+origin: heartgold-soulsilver-039
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 225
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Snowy Present
+    text: Draw a card for each Water Energy attached to all of your Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Hail
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

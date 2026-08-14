@@ -1,0 +1,43 @@
+name: Frosmoth
+
+origin: sword-shield-black-star-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Snom
+
+dex: 873
+
+rule:
+  - type: ability
+    name: Ice Dance
+    text: As often as you like during your turn, you may attach a Water Energy card from your hand to 1 of your Benched Water Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aurora Beam
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

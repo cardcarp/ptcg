@@ -1,0 +1,45 @@
+name: Magmar
+
+origin: 151-126
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 126
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flare Combo
+    text: If Electabuzz is on your Bench, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

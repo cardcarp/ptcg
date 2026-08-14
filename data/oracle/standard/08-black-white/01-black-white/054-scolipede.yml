@@ -1,0 +1,50 @@
+name: Scolipede
+
+origin: black-white-054
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Whirlipede
+
+dex: 545
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Steamroller
+    text: This attack's damage isn't affected by Resistance.
+    damage: 60
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Poison Claws
+    text: The Defending Pokémon is now Poisoned.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

@@ -1,0 +1,51 @@
+name: Klinklang
+
+origin: brilliant-stars-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Klang
+
+dex: 601
+
+rule:
+  - type: ability
+    name: Gear Wall
+    text: Your Basic Pokémon take 20 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Tumbling Attack
+    text: Flip a coin. If heads, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

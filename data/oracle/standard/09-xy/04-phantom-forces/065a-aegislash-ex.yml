@@ -1,0 +1,51 @@
+name: Aegislash-EX
+
+origin: phantom-forces-065a
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Metal
+
+hp: 170
+
+dex: 681
+
+rule:
+  - type: ability
+    name: Mighty Shield
+    text: Prevent all damage done to this Pokémon by attacks from each of your opponent's Pokémon that has Special Energy attached to it.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slash Blast
+    text: This attack does 20 more damage for each Metal Energy attached to this Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Dark Houndoom
+
+origin: neo-destiny-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 60
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Eerie Howl
+    text: If your opponent's Bench isn't full, look at his or her hand. If your opponent has any Baby Pokémon or Basic Pokémon there, choose 1 of them and put it on his or her Bench. Then, switch it with the Defending Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Dark Fire
+    text: If there are any Darkness Energy cards attached to Dark Houndoom, discard 1 of them and this attack does 30 damage plus 20 more damage (plus 10 more damage for the Darkness Energy you discarded). If there aren't any, this attack does 30 damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

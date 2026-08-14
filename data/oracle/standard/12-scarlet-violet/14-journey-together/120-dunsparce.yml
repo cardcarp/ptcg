@@ -1,0 +1,42 @@
+name: Dunsparce
+
+origin: journey-together-120
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 206
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Trading Places
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

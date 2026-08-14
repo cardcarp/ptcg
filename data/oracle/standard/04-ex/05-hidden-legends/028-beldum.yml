@@ -1,0 +1,43 @@
+name: Beldum
+
+origin: hidden-legends-028
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 374
+
+rule:
+  - type: ability
+    name: Levitate
+    text: If Beldum has any Energy attached to it, Beldum's Retreat Cost is 0.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

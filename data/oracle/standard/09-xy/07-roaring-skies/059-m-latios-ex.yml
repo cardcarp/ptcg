@@ -1,0 +1,43 @@
+name: M Latios-EX
+
+origin: roaring-skies-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Dragon
+
+hp: 220
+
+preevolution:
+  - Latios-EX
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Psychic
+      - Colorless
+    name: Sonic Ace
+    text: Discard 2 Energy attached to this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

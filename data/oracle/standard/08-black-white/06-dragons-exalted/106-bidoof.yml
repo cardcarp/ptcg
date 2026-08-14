@@ -1,0 +1,37 @@
+name: Bidoof
+
+origin: dragons-exalted-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 399
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bang Heads
+    text: Both this Pokémon and the Defending Pokémon are now Confused.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

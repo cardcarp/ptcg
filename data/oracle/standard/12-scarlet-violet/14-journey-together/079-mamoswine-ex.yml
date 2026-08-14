@@ -1,0 +1,46 @@
+name: Mamoswine ex
+
+origin: journey-together-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+
+type:
+  - Fighting
+
+hp: 340
+
+dex: 473
+
+rule:
+  - type: ability
+    name: Mammoth Hauler
+    text: Once during your turn, you may search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rumbling March
+    text: This attack does 40 more damage for each Stage 2 Pokémon on your Bench.
+    damage: 180
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

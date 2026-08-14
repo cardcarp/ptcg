@@ -1,0 +1,51 @@
+name: Reuniclus
+
+origin: temporal-forces-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Duosion
+
+dex: 579
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Summoning Gate
+    text: Look at the top 8 cards of your deck. You may put any number of Pokémon you find there onto your Bench. Shuffle the other cards back into your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Brain Shake
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

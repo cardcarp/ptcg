@@ -1,0 +1,43 @@
+name: Electrode
+
+origin: plasma-freeze-033
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: ability
+    name: Magnetic Draw
+    text: Once during your turn (before your attack), you may draw cards until you have 4 cards in your hand.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electro Ball
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

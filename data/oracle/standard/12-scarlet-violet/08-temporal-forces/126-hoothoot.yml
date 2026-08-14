@@ -1,0 +1,43 @@
+name: Hoothoot
+
+origin: temporal-forces-126
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 163
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Silent Wing
+    text: Your opponent reveals their hand.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

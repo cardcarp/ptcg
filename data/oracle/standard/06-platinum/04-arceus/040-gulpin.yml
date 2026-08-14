@@ -1,0 +1,40 @@
+name: Gulpin
+
+origin: arceus-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 316
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Endure
+    text: Flip a coin. If heads, during your opponent's next turn, if Gulpin would be Knocked Out by damage from an attack, Gulpin is not Knocked Out and its remaining HP becomes 10 instead.
+  - type: attack
+    cost:
+      - Psychic
+    name: Pound
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

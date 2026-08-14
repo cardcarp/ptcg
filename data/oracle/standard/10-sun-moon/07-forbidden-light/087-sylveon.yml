@@ -1,0 +1,49 @@
+name: Sylveon
+
+origin: forbidden-light-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 700
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Wink Wink
+    text: Your opponent reveals their hand. You may discard a Supporter card you find there and use the effect of that card as the effect of this attack.
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Magical Shot
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

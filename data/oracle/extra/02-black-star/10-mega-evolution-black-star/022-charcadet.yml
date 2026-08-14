@@ -1,0 +1,41 @@
+name: Charcadet
+
+origin: mega-evolution-black-star-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 935
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Gather Strength
+    text: Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+    name: Chop
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,42 @@
+name: Alolan Geodude
+
+origin: team-up-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 74
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Self-Destruct
+    text: This Pokémon does 60 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

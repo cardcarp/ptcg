@@ -1,0 +1,51 @@
+name: Tyranitar
+
+origin: darkness-ablaze-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Bedrock Breaker
+    text: Discard a Stadium in play.
+    damage: 120
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mountain Swing
+    text: Discard the top 5 cards of your deck.
+    damage: 250
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,38 @@
+name: Tadbulb
+
+origin: obsidian-flames-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 938
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder Jolt
+    text: This Pokémon also does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

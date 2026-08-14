@@ -1,0 +1,38 @@
+name: Tepig
+
+origin: mega-evolution-black-star-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 498
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Ember
+    text: Discard an Energy from this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

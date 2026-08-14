@@ -1,0 +1,37 @@
+name: Lotad
+
+origin: phantasmal-flames-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 270
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Headbutt
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

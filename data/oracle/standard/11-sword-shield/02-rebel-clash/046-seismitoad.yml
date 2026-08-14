@@ -1,0 +1,50 @@
+name: Seismitoad
+
+origin: rebel-clash-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Palpitoad
+
+dex: 537
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Split Spiral Punch
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Resonance
+    text: If your opponent's Active Pokémon is Confused, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

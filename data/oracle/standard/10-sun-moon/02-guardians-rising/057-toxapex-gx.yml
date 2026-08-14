@@ -1,0 +1,59 @@
+name: Toxapex-GX
+
+origin: guardians-rising-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Psychic
+
+hp: 210
+
+preevolution:
+  - Mareanie
+
+dex: 748
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Spike Cannon
+    text: Flip 4 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Super Intense Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 10 damage counters instead of 1 on that Pokémon between turns.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Total Shelter-GX
+    text: Prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)
+    damage: 150
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

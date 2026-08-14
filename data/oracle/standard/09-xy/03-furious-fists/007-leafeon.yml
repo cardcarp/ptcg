@@ -1,0 +1,48 @@
+name: Leafeon
+
+origin: furious-fists-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 470
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Soothing Scent
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Magical Leaf
+    text: Flip a coin. If heads, this attack does 30 more damage and heal 30 damage from this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

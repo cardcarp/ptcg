@@ -1,0 +1,44 @@
+name: Weepinbell
+
+origin: unbroken-bonds-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Bellsprout
+
+dex: 70
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Burning Venom
+    text: Your opponent's Active Pokémon is now Burned and Poisoned.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

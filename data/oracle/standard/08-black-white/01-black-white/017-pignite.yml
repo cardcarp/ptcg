@@ -1,0 +1,45 @@
+name: Pignite
+
+origin: black-white-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Tepig
+
+dex: 499
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flame Charge
+    text: Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Crash
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

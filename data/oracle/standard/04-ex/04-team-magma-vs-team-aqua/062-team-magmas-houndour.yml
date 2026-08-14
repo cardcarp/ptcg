@@ -1,0 +1,42 @@
+name: Team Magma's Houndour
+
+origin: team-magma-vs-team-aqua-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Super Singe
+    text: The Defending Pokémon is now Burned.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

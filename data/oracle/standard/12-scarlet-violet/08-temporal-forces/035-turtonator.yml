@@ -1,0 +1,44 @@
+name: Turtonator
+
+origin: temporal-forces-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 776
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Spit-Out Shot
+    text: This attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Steam Artillery
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - H
+
+errata: []

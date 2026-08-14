@@ -1,0 +1,36 @@
+name: Glimmet
+
+origin: paldea-evolved-125
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 969
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Rock Throw
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

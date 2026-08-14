@@ -1,0 +1,49 @@
+name: Exploud
+
+origin: vivid-voltage-137
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 160
+
+preevolution:
+  - Loudred
+
+dex: 295
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Round
+    text: This attack does 50 damage for each of your Pokémon in play that has the Round attack.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,41 @@
+name: Charmander
+
+origin: hidden-fates-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 4
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Gnaw
+    damage: 10
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,46 @@
+name: Gumshoos
+
+origin: obsidian-flames-177
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Yungoos
+
+dex: 735
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Headbang
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,44 @@
+name: Tauros
+
+origin: unleashed-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 128
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crimson Bull
+    text: Flip 3 coins. This attack does 30 damage times the number of heads. Tauros is now Confused.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

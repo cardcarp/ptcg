@@ -1,0 +1,43 @@
+name: Sawsbuck
+
+origin: cosmic-eclipse-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Deerling
+
+dex: 586
+
+rule:
+  - type: ability
+    name: Seasonal Blessings
+    text: Once during your turn (before your attack), you may draw a card.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Bounce
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

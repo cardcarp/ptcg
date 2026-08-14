@@ -1,0 +1,52 @@
+name: M Gardevoir-EX
+
+origin: primal-clash-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Fairy
+
+hp: 210
+
+preevolution:
+  - Gardevoir-EX
+
+dex: 282
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Brilliant Arrow
+    text: This attack does 30 damage times the amount of Fairy Energy attached to all of your Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

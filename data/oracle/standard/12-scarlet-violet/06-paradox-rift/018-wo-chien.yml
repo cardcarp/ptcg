@@ -1,0 +1,45 @@
+name: Wo-Chien
+
+origin: paradox-rift-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 1001
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Leaf Bringer
+    text: Attach up to 2 Basic Grass Energy cards from your discard pile to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Colorless
+    name: Binding Greed
+    text: During your opponent's next turn, attacks used by the Defending Pokémon cost ColorlessColorless more.
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

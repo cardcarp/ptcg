@@ -1,0 +1,58 @@
+name: Tsareena-GX
+
+origin: sun-moon-black-star-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - GX
+
+type:
+  - Grass
+
+hp: 230
+
+preevolution:
+  - Steenee
+
+dex: 763
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Side Eye
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Confused.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Jumping Side Kick
+    text: If your opponent's Active Pokémon is Confused, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Queen's Command-GX
+    text: Your opponent discards 4 cards from their hand. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,50 @@
+name: Aegislash
+
+origin: battle-styles-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Doublade
+
+dex: 681
+
+rule:
+  - type: ability
+    name: Stance Change
+    text: Once during your turn, you may switch this Pokémon with an Aegislash in your hand. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Full Metal Blade
+    text: Discard 2 Metal Energy from this Pokémon.
+    damage: 210
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,47 @@
+name: Swellow δ
+
+origin: dragon-frontiers-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Taillow
+
+dex: 277
+
+rule:
+  - type: ability
+    name: Extra Wing
+    text: The Retreat Cost for each of your Stage 2 Pokémon-ex is 0.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

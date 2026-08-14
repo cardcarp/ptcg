@@ -1,0 +1,52 @@
+name: Solgaleo
+
+origin: guardians-rising-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 160
+
+preevolution:
+  - Cosmoem
+
+dex: 791
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Shining Arrow
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Fangs of the Sunne
+    text: This Pokémon can't use Fangs of the Sunne during your next turn.
+    damage: 170
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

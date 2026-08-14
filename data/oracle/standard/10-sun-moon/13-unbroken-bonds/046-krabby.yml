@@ -1,0 +1,41 @@
+name: Krabby
+
+origin: unbroken-bonds-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 98
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Stampede
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Vice Grip
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Dragonite
+
+origin: silver-tempest-131
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 160
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Claw
+    damage: 80
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Energy Hurricane
+    text: Search your deck for up to 3 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+    damage: 180
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

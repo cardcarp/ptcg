@@ -1,0 +1,49 @@
+name: Klinklang
+
+origin: silver-tempest-125
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 160
+
+preevolution:
+  - Klang
+
+dex: 601
+
+rule:
+  - type: ability
+    name: Triple Gears
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 3 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Power Beam
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,51 @@
+name: Beartic
+
+origin: furious-fists-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Cubchoo
+
+dex: 614
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Igloo Hold
+    text: This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Mountain Drop
+    text: If there is any Stadium card in play, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

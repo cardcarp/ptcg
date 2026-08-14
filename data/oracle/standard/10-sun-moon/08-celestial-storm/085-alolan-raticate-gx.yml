@@ -1,0 +1,58 @@
+name: Alolan Raticate-GX
+
+origin: celestial-storm-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - GX
+
+type:
+  - Darkness
+
+hp: 200
+
+preevolution:
+  - Alolan Rattata
+
+dex: 20
+
+rule:
+  - type: attack
+    name: Chuck Away
+    text: Discard up to 2 cards from your hand. This attack does 40 damage for each card you discarded in this way.
+    damage: 40
+    modifier: x
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hyper Fang
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 150
+  - type: attack
+    name: Item Maniac-GX
+    text: Search your deck for up to 6 Item cards, reveal them, and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

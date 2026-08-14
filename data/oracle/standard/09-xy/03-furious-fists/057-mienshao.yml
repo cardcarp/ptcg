@@ -1,0 +1,45 @@
+name: Mienshao
+
+origin: furious-fists-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Mienfoo
+
+dex: 620
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Aero Turn
+    text: Return this Pokémon and all cards attached to it to your hand.
+    damage: 40
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: High Jump Kick
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

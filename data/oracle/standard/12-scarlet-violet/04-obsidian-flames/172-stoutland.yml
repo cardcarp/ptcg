@@ -1,0 +1,48 @@
+name: Stoutland
+
+origin: obsidian-flames-172
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 160
+
+preevolution:
+  - Herdier
+
+dex: 508
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Chomp Chomp Panic
+    text: This attack does 50 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 50
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 140
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

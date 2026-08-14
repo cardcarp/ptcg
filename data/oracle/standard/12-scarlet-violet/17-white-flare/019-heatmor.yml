@@ -1,0 +1,42 @@
+name: Heatmor
+
+origin: white-flare-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 631
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Licking Catch
+    text: Search your deck for up to 3 in any combination of Fire Pokémon and Basic Fire Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Fire Claws
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

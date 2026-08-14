@@ -1,0 +1,44 @@
+name: Arceus
+
+origin: xy-black-star-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 493
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Gather Light
+    text: Move as many Energy as you like from your Benched Pokémon to this Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Judgment Blast
+    text: This attack does 30 more damage for each different type of basic Energy attached to this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

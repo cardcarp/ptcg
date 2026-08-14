@@ -1,0 +1,37 @@
+name: Solrock
+
+origin: mega-evolution-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 338
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Cosmic Beam
+    text: If you don't have Lunatone on your Bench, this attack does nothing. This attack's damage isn't affected by Weakness or Resistance.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,53 @@
+name: Mothim
+
+origin: majestic-dawn-042
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Burmy
+
+dex: 414
+
+rule:
+  - type: ability
+    name: Disturbance Scales
+    text: Any damage done by attacks from your Pokémon to the Defending Pokémon isn't affected by Resistance.
+  - type: attack
+    cost:
+      - Grass
+    name: Get Help
+    text: Does 30 damage times the number of different types of Wormadam on your Bench.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Quick Touch
+    text: You may switch Mothim with 1 of your Benched Pokémon. If you do, move as many Energy cards attached to Mothim as you like to the new Active Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

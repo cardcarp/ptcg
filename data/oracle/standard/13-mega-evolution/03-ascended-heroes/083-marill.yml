@@ -1,0 +1,42 @@
+name: Marill
+
+origin: ascended-heroes-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 183
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hide
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Flop
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

@@ -1,0 +1,44 @@
+name: Maractus
+
+origin: sword-shield-007
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 556
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Zzzt
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Powerful Needles
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

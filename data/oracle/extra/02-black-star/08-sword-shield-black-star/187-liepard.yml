@@ -1,0 +1,43 @@
+name: Liepard
+
+origin: sword-shield-black-star-187
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Purrloin
+
+dex: 510
+
+rule:
+  - type: ability
+    name: Trade
+    text: You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

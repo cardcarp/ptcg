@@ -1,0 +1,52 @@
+name: Pidgeot
+
+origin: triumphant-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Pidgeotto
+
+dex: 18
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headwind
+    text: During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is ColorlessColorless more.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 40 damage plus 30 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

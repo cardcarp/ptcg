@@ -1,0 +1,48 @@
+name: Shining Charizard
+
+origin: neo-destiny-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 6
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Lightning
+      - Lightning
+    name: White-hot Flame
+    text: Discard 1 Fire Energy card and 1 Lightning Energy card attached to Shining Charizard or this attack does nothing. Flip a coin. If tails, Shining Charizard does 30 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - You can't have more than 1 Shining Charizard in your deck.
+
+regulation:
+
+errata: []

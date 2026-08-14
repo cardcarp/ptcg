@@ -1,0 +1,54 @@
+name: Milotic ex
+
+origin: emerald-096
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: ability
+    name: Mystic Scale
+    text: As long as Milotic ex is in play, each player can't play any Technical Machine cards from his or her hand. Discard all Technical Machine cards in play (both yours and your opponent's).
+  - type: attack
+    cost:
+      - Water
+    name: Gentle Wrap
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Reflect Energy
+    text: Move 1 basic Energy card attached to Milotic ex to 1 of your Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

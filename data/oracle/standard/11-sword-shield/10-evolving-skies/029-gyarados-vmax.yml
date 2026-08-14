@@ -1,0 +1,53 @@
+name: Gyarados VMAX
+
+origin: evolving-skies-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Water
+
+hp: 330
+
+preevolution:
+  - Gyarados V
+
+dex: 130
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hyper Beam
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 120
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Max Tyrant
+    damage: 240
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

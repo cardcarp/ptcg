@@ -1,0 +1,44 @@
+name: Throh
+
+origin: brilliant-stars-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 538
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lunge Out
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Seismic Toss
+    damage: 110
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,45 @@
+name: Leavanny
+
+origin: noble-victories-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Swadloon
+
+dex: 542
+
+rule:
+  - type: ability
+    name: Leaf Tailor
+    text: Each of your Pokémon that has any Energy attached to it has no Weakness.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Cutting Arm
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

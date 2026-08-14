@@ -1,0 +1,35 @@
+name: Spoink
+
+origin: triumphant-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 325
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Sleep Pearl
+    text: The Defending Pokémon is now Asleep. Switch Spoink with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

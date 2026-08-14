@@ -1,0 +1,41 @@
+name: Litleo
+
+origin: paldea-evolved-031
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 667
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Blazing Destruction
+    text: Discard a Stadium in play.
+  - type: attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

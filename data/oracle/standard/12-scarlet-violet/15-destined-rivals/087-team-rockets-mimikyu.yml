@@ -1,0 +1,40 @@
+name: Team Rocket's Mimikyu
+
+origin: destined-rivals-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 778
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Gemstone Mimicry
+    text: Choose 1 of your opponent's Active Tera Pokémon's attacks and use it as this attack.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - I
+
+errata: []

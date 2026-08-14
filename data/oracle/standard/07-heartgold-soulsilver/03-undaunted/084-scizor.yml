@@ -1,0 +1,50 @@
+name: Scizor
+
+origin: undaunted-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Prime
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Scyther
+
+dex: 212
+
+rule:
+  - type: ability
+    name: Red Armor
+    text: Prevent all damage done to Scizor by attacks from your opponent's Pokémon that have any Special Energy cards attached to them.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Scissors
+    text: Does 30 damage plus 20 more damage for each Metal Energy attached to Scizor.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

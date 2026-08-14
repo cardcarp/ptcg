@@ -1,0 +1,56 @@
+name: Gardevoir δ
+
+origin: delta-species-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Psychic
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: ability
+    name: Energy Jump
+    text: Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Gardevoir is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Psychic Rage
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage for each damage counter on Gardevoir to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Black Magic
+    text: Does 10 damage plus 20 more damage times the number of your opponent's Benched Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Psychic Metal type.
+
+regulation:
+
+errata: []

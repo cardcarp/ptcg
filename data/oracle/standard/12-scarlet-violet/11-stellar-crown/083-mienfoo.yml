@@ -1,0 +1,37 @@
+name: Mienfoo
+
+origin: stellar-crown-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 619
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

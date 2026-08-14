@@ -1,0 +1,46 @@
+name: Combee
+
+origin: supreme-victors-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 415
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Nap
+    text: Remove 2 damage counters from Combee.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Zzzt
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

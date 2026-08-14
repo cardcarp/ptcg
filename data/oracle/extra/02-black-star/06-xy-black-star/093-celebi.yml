@@ -1,0 +1,38 @@
+name: Celebi
+
+origin: xy-black-star-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 251
+
+rule:
+  - type: ability
+    name: Leap Through Time
+    text: When this Pokémon is Knocked Out, flip a coin. If heads, shuffle this Pokémon and all cards attached to it into your deck, and your opponent can't take any Prize cards for it.
+  - type: attack
+    cost:
+      - Grass
+    name: Sparkle Motion
+    text: Put 1 damage counter on each of your opponent's Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

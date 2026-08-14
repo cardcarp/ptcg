@@ -1,0 +1,45 @@
+name: Pangoro
+
+origin: xy-black-star-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Pancham
+
+dex: 675
+
+rule:
+  - type: ability
+    name: Benevolent Boss
+    text: If this Pokémon is your Active Pokémon, it gets +20 HP for each of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Crazy Knuckle
+    text: If this Pokémon is affected by a Special Condition, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

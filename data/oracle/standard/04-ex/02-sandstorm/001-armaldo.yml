@@ -1,0 +1,43 @@
+name: Armaldo
+
+origin: sandstorm-001
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Anorith
+
+dex: 348
+
+rule:
+  - type: ability
+    name: Primal Veil
+    text: As long as Armaldo is your Active Pokémon, each player can't play any Supporter Cards.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Blade Arms
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

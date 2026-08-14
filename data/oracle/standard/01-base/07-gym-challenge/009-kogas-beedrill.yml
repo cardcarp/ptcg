@@ -1,0 +1,51 @@
+name: Koga's Beedrill
+
+origin: gym-challenge-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Koga's Kakuna
+
+dex: 15
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Nerve Poison
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Needle
+    text: Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Koga's Beedrill stays in play (even putting Koga's Beedrill on the Bench won't let you use it again).
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+
+errata: []

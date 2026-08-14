@@ -1,0 +1,35 @@
+name: Rowlet
+
+origin: cosmic-eclipse-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 722
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Skill Dive
+    text: This attack does 10 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,52 @@
+name: Lugia ex
+
+origin: pokemon-tcg-classic-venusaur-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 230
+
+dex: 249
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rising Wind
+    text: Search your deck for a Basic Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 30
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Aero Break
+    text: This Pokémon also does 30 damage to itself.
+    damage: 200
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

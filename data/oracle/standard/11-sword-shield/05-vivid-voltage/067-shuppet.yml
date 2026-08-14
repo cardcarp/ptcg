@@ -1,0 +1,41 @@
+name: Shuppet
+
+origin: vivid-voltage-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 353
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Haunt
+    text: Put 1 damage counter on your opponent's Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

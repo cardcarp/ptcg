@@ -1,0 +1,45 @@
+name: Rotom
+
+origin: majestic-dawn-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 479
+
+rule:
+  - type: attack
+    name: Dual Trans
+    text: Search your discard pile for up to 2 basic Energy cards and attach them to 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Reflect Energy
+    text: Move an Energy card attached to Rotom to 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

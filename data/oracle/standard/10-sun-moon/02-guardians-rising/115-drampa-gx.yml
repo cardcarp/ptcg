@@ -1,0 +1,54 @@
+name: Drampa-GX
+
+origin: guardians-rising-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Colorless
+
+hp: 180
+
+dex: 780
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Righteous Edge
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Berserk
+    text: If your Benched Pokémon have any damage counters on them, this attack does 70 more damage.
+    damage: 80
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+    name: Big Wheel-GX
+    text: Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

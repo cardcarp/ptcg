@@ -1,0 +1,53 @@
+name: Swanna
+
+origin: lost-origin-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Ducklett
+
+dex: 581
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

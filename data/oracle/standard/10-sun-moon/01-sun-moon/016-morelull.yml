@@ -1,0 +1,40 @@
+name: Morelull
+
+origin: sun-moon-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 755
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flickering Spores
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Grass
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

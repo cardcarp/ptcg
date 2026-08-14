@@ -1,0 +1,45 @@
+name: Cetoddle
+
+origin: destined-rivals-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 974
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Gentle Slap
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Frost Smash
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - I
+
+errata: []

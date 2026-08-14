@@ -1,0 +1,48 @@
+name: Durant
+
+origin: dragons-exalted-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 632
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pull Out
+    text: Put a card from your discard pile on top of your deck.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+    name: Iron Head
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

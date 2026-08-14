@@ -1,0 +1,48 @@
+name: Machoke
+
+origin: diamond-pearl-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Karate Chop
+    text: Does 40 damage minus 10 damage for each damage counter on Machoke.
+    damage: 40
+    modifier: '-'
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Seismic Toss
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Quagsire GL
+
+origin: rising-rivals-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Water
+
+hp: 90
+
+dex: 195
+
+rule:
+  - type: ability
+    name: Submerge
+    text: As long as Quagsire GL is on your Bench, prevent all damage done to Quagsire GL by attacks (both yours and your opponent's).
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Punch and Run
+    text: You may switch Quagsire GL with 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Rhyperior
+
+origin: stellar-crown-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 200
+
+preevolution:
+  - Rhydon
+
+dex: 464
+
+rule:
+  - type: ability
+    name: Wide Wall
+    text: As long as this Pokémon is in the Active Spot, whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to all of your Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Drill Run
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - H
+
+errata: []

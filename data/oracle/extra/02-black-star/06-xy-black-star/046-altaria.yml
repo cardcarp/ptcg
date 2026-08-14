@@ -1,0 +1,47 @@
+name: Altaria
+
+origin: xy-black-star-046
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: ability
+    name: Clear Humming
+    text: Each of your Colorless Pokémon has no Weakness.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

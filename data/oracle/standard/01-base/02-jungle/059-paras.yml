@@ -1,0 +1,42 @@
+name: Paras
+
+origin: jungle-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 46
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Spore
+    text: The Defending Pokémon is now Asleep.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

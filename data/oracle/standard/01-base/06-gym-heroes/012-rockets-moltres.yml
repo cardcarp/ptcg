@@ -1,0 +1,41 @@
+name: Rocket's Moltres
+
+origin: gym-heroes-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 146
+
+rule:
+  - type: ability
+    name: Rebirth
+    text: When Rocket's Moltres is Knocked Out, you may return it to your hand after discarding it. This power can't be used if Rocket's Moltres is Asleep, Confused, or Paralyzed when it is Knocked Out.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Fire Wall
+    text: If an attack does damage to Rocket's Moltres during your opponent's next turn (even if Rocket's Moltres is Knocked Out), Rocket's Moltres attacks your opponent's Active Pokémon for 10 damage. (Apply Weakness and Resistance.)
+    damage: 40
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

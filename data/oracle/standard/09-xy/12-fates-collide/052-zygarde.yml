@@ -1,0 +1,43 @@
+name: Zygarde
+
+origin: fates-collide-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 718
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Lookout
+    text: Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Aura Break
+    text: If the Defending Pokémon is a Darkness or Fairy Pokémon, it can't attack during your opponent's next turn.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

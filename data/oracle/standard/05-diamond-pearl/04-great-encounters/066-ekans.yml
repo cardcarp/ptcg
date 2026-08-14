@@ -1,0 +1,41 @@
+name: Ekans
+
+origin: great-encounters-066
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 23
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shed Skin
+    text: Remove 2 damage counters from Ekans.
+  - type: attack
+    cost:
+      - Psychic
+    name: Poison Fang
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

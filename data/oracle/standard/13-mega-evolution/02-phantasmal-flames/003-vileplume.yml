@@ -1,0 +1,47 @@
+name: Vileplume
+
+origin: phantasmal-flames-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Pollen Bomb
+    text: Your opponent's Active Pokémon is now Asleep and Poisoned.
+    damage: 30
+  - type: attack
+    cost:
+      - Grass
+    name: Lively Flower
+    text: If this Pokémon was healed during this turn, this attack does 120 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

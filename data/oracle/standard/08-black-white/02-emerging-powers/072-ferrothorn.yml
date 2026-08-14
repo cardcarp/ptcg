@@ -1,0 +1,53 @@
+name: Ferrothorn
+
+origin: emerging-powers-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Ferroseed
+
+dex: 598
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Steel Feelers
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Gyro Ball
+    text: Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

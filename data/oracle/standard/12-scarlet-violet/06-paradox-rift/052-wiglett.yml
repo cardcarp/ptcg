@@ -1,0 +1,37 @@
+name: Wiglett
+
+origin: paradox-rift-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 960
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Vibration
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,45 @@
+name: Malamar VMAX
+
+origin: rebel-clash-122
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Darkness
+
+hp: 310
+
+preevolution:
+  - Malamar V
+
+dex: 687
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Max Jammer
+    text: Your opponent reveals their hand. Choose a card you find there and put it on the bottom of their deck.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

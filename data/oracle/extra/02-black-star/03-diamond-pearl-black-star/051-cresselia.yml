@@ -1,0 +1,42 @@
+name: Cresselia
+
+origin: diamond-pearl-black-star-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 488
+
+rule:
+  - type: ability
+    name: Lunar Aura
+    text: If you have Darkrai in play, remove 1 damage counter from Cresselia between turns.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Lunar Flight
+    text: Does 80 damage minus 10 damage for each damage counter on Cresselia.
+    damage: 80
+    modifier: '-'
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

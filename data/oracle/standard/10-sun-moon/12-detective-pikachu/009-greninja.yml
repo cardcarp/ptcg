@@ -1,0 +1,42 @@
+name: Greninja
+
+origin: detective-pikachu-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Frogadier
+
+dex: 658
+
+rule:
+  - type: ability
+    name: Evasion Jutsu
+    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Furious Shurikens
+    text: This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

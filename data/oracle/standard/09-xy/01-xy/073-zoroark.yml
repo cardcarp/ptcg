@@ -1,0 +1,52 @@
+name: Zoroark
+
+origin: xy-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Corner
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Night Claw
+    text: Flip a coin. If tails, discard 2 Energy attached to this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

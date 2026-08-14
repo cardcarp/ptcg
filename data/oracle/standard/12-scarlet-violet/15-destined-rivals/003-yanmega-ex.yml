@@ -1,0 +1,55 @@
+name: Yanmega ex
+
+origin: destined-rivals-003
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 280
+
+preevolution:
+  - Yanma
+
+dex: 469
+
+rule:
+  - type: ability
+    name: Buzzing Boost
+    text: Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may search your deck for up to 3 Basic Grass Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Colorless
+    name: Jet Cyclone
+    text: Move 3 Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 210
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

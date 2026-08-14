@@ -1,0 +1,50 @@
+name: Kyogre ☆
+
+origin: delta-species-112
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+
+type:
+  - Water
+
+hp: 90
+
+dex: 382
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Critical Collection
+    text: Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many Water Energy cards and attach them to Kyogre Star.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Sheer Cold
+    text: Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Brock's Onix
+
+origin: gym-heroes-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 95
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bellow
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

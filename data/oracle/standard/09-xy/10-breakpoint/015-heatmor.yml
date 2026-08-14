@@ -1,0 +1,44 @@
+name: Heatmor
+
+origin: breakpoint-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 631
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Reinforced Flame
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

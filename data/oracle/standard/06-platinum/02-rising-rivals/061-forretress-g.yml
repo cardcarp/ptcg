@@ -1,0 +1,49 @@
+name: Forretress G
+
+origin: rising-rivals-061
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - SP
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 205
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shell Scatter
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Forretress G can't use Shell Scatter during your next turn.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Bomb Risk
+    text: Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If tails, Forretress G does 80 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

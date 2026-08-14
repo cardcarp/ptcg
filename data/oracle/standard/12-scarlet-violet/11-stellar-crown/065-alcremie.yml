@@ -1,0 +1,45 @@
+name: Alcremie
+
+origin: stellar-crown-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Milcery
+
+dex: 869
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Colorful Confection
+    text: Search your deck for up to 5 Pokémon that are the same type as any Basic Energy attached to this Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Magical Shot
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

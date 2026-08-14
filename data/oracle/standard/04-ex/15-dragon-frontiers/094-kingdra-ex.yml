@@ -1,0 +1,56 @@
+name: Kingdra ex δ
+
+origin: dragon-frontiers-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - ex
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: ability
+    name: Extra Smoke
+    text: Any damage done to your Stage 2 Pokémon-ex by your opponent's attacks is reduced by 10 (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Energy Link
+    text: Search your discard pile for an Energy card and attach it to Kingdra ex.
+    damage: 40
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Protective Swirl
+    text: Kingdra ex has no Weakness during your opponent's next turn.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

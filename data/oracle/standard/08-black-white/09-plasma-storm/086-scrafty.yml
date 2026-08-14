@@ -1,0 +1,55 @@
+name: Scrafty
+
+origin: plasma-storm-086
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Kick Away
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Reinforced Headbutt
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

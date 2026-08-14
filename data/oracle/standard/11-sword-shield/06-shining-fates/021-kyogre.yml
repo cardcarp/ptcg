@@ -1,0 +1,39 @@
+name: Kyogre
+
+origin: shining-fates-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 382
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Metal
+      - Colorless
+    name: Amazing Surge
+    text: This attack does 80 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - D
+
+errata: []

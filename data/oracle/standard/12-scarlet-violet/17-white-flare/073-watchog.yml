@@ -1,0 +1,45 @@
+name: Watchog
+
+origin: white-flare-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Patrat
+
+dex: 505
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Focus Energy
+    text: During your next turn, this Pokémon's Hyper Fang attack's base damage is 240.
+  - type: attack
+    cost:
+      - Colorless
+    name: Hyper Fang
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

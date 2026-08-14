@@ -1,0 +1,50 @@
+name: Kingler
+
+origin: 151-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Krabby
+
+dex: 99
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Hammer Arm
+    text: Discard the top card of your opponent's deck.
+    damage: 90
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Guillotine
+    damage: 220
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

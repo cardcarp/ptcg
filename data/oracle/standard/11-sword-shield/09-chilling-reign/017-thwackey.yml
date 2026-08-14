@@ -1,0 +1,42 @@
+name: Thwackey
+
+origin: chilling-reign-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Rapid Strike
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Grookey
+
+dex: 811
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - E
+
+errata: []

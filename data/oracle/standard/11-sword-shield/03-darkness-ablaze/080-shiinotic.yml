@@ -1,0 +1,48 @@
+name: Shiinotic
+
+origin: darkness-ablaze-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Morelull
+
+dex: 756
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Flickering Light
+    text: Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Fear the Forest
+    text: If Glimwood Tangle is in play, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

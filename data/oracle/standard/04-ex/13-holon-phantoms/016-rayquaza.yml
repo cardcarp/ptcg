@@ -1,0 +1,59 @@
+name: Rayquaza δ
+
+origin: holon-phantoms-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Water
+  - Metal
+
+hp: 80
+
+dex: 384
+
+rule:
+  - type: ability
+    name: Hydro Barrier
+    text: As long as Rayquaza has any Holon Energy cards attached to it, each of your Water Pokémon has no Weakness.
+  - type: attack
+    cost:
+      - Colorless
+    name: Delta Search
+    text: Search your deck for a Holon Energy card and attach it to Rayquaza. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Water
+      - Metal
+      - Colorless
+      - Colorless
+    name: Ozone Flare
+    damage: 60
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Water Metal type.
+
+regulation:
+
+errata: []

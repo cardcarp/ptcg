@@ -1,0 +1,59 @@
+name: Jolteon ex
+
+origin: delta-species-109
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: ability
+    name: Evolutionary Thunder
+    text: Once during your turn, when you play Jolteon ex from your hand to evolve 1 of your Pokémon, you may put 1 damage counter on each of your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Second Bite
+    text: Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder Blast
+    text: Discard a Lightning Energy card attached to Jolteon ex.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Tirtouga
+
+origin: unified-minds-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 564
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Shell Attack
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Boulder Crush
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

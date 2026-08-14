@@ -1,0 +1,43 @@
+name: Sableye
+
+origin: secret-wonders-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 302
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rummage
+    text: Look at the top 5 cards of your deck. Choose as many Trainer cards as you like, show them to your opponent, and put them into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Shadow Sneak
+    text: If you and your opponent have a different number of Prize cards left, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

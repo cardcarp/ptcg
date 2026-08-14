@@ -1,0 +1,57 @@
+name: Team Aqua's Walrein
+
+origin: team-magma-vs-team-aqua-006
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Team Aqua's Sealeo
+
+dex: 365
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Power Blow
+    text: Does 10 damage plus 10 more damage for each Energy attached to Team Aqua's Walrein.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Reverse
+    text: You may return any number of basic Water Energy cards attached to all of your Pokémon to your hand. If you do, this attack does 50 damage plus 10 more damage for each Energy you returned.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Water Darkness type.
+
+regulation:
+
+errata: []

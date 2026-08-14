@@ -1,0 +1,42 @@
+name: Phantump
+
+origin: rebel-clash-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 708
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Dark Guidance
+    text: Put a Basic Pokémon from your discard pile onto your Bench.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Seed Bomb
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

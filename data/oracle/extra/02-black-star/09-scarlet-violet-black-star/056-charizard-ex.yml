@@ -1,0 +1,51 @@
+name: Charizard ex
+
+origin: scarlet-violet-black-star-056
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Tera
+  - ex
+
+type:
+  - Darkness
+
+hp: 330
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: ability
+    name: Infernal Reign
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 3 Basic Fire Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+    name: Burning Darkness
+    text: This attack does 30 more damage for each Prize card your opponent has taken.
+    damage: 180
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - G
+
+errata: []

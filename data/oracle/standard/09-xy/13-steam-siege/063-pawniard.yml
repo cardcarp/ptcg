@@ -1,0 +1,42 @@
+name: Pawniard
+
+origin: steam-siege-063
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 624
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Charge Order
+    text: This attack does 10 damage times the number of your Pawniard.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

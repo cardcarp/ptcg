@@ -1,0 +1,40 @@
+name: Team Rocket's Raticate
+
+origin: destined-rivals-148
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Team Rocket's Rattata
+
+dex: 20
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Reckless Abandon
+    text: Flip 2 coins. If both of them are tails, this Pokémon also does 90 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

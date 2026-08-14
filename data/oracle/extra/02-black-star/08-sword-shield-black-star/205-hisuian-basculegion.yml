@@ -1,0 +1,48 @@
+name: Hisuian Basculegion
+
+origin: sword-shield-black-star-205
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Hisuian Basculin
+
+dex: 902
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Grudge Dive
+    text: If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 90 more damage, and your opponent's Active Pokémon is now Confused.
+    damage: 30
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Jet Headbutt
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - F
+
+errata: []

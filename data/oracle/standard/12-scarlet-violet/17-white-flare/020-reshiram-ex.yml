@@ -1,0 +1,50 @@
+name: Reshiram ex
+
+origin: white-flare-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fire
+
+hp: 230
+
+dex: 643
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Blazing Burst
+    text: This attack does 50 more damage for each Prize card your opponent has taken. Discard an Energy from this Pokémon.
+    damage: 130
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,53 @@
+name: Mismagius
+
+origin: crimson-invasion-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Chaos Wheel
+    text: Your opponent can't play any Pokémon Tool, Special Energy, or Stadium cards from their hand during their next turn.
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Dark Arts
+    text: This attack does 20 damage for each card in your opponent's hand.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,45 @@
+name: Mimikyu
+
+origin: darkness-ablaze-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 778
+
+rule:
+  - type: ability
+    name: Heal Jamming
+    text: Your opponent's Benched Pokémon can't be healed.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Claw Slash
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

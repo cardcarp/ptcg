@@ -1,0 +1,54 @@
+name: Latias δ
+
+origin: holon-phantoms-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 380
+
+rule:
+  - type: ability
+    name: Dual Aura
+    text: As long as you have Latios or Latios ex in play, each player's Evolved Pokémon (excluding Pokémon-ex) can't use any Poké-Bodies.
+  - type: attack
+    cost:
+      - Colorless
+    name: Spearhead
+    text: Draw a card.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Dragon Claw
+    damage: 40
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

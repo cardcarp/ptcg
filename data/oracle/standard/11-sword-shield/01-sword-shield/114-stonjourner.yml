@@ -1,0 +1,38 @@
+name: Stonjourner
+
+origin: sword-shield-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 874
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Wild Tackle
+    text: This Pokémon also does 10 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

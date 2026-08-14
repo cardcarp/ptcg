@@ -1,0 +1,43 @@
+name: Holon's Magnemite
+
+origin: delta-species-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 40
+
+dex: 81
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+    name: Linear Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - You may attach this as an Energy card from your hand to 1 of your Pokémon. While attached, this card is a Special Energy card and provides Colorless Energy.
+
+regulation:
+
+errata: []

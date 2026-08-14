@@ -1,0 +1,54 @@
+name: Dark Tyranitar
+
+origin: neo-destiny-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Dark Pupitar
+
+dex: 248
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Mountain Smasher
+    text: Flip a number of coins equal to the number of Fighting Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Fling Away
+    text: If your opponent has any Benched Pokémon, this attack does 30 damage instead of 50 and choose 1 of those Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

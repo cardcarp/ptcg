@@ -1,0 +1,42 @@
+name: Weezing
+
+origin: xy-black-star-163
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: ability
+    name: Levitate
+    text: If this Pokémon has any Energy attached to it, this Pokémon has no Retreat Cost.
+  - type: attack
+    cost:
+      - Psychic
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

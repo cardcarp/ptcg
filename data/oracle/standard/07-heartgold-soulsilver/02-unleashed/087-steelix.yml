@@ -1,0 +1,59 @@
+name: Steelix
+
+origin: unleashed-087
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - Prime
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: ability
+    name: Perfect Metal
+    text: Steelix can't be affected by any Special Conditions
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Energy Stream
+    text: Search your discard pile for an Energy card and attach it to Steelix.
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gaia Crush
+    text: You may discard any Stadium card in play.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Entei
+
+origin: aquapolis-008h
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 244
+
+rule:
+  - type: ability
+    name: Pure Body
+    text: To attach a Fire Energy card from your hand to Entei, you must discard an Energy card attached to Entei. (Attach the Fire Energy, and then discard an Energy from Entei.)
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Burning Fang
+    text: You may flip a coin. If heads, discard a Fire Energy card attached to Entei and the Defending Pokémon is now Burned.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,41 @@
+name: Glameow
+
+origin: great-encounters-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 431
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Captivate
+    text: Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

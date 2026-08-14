@@ -1,0 +1,42 @@
+name: Snorlax
+
+origin: flashfire-080
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 143
+
+rule:
+  - type: ability
+    name: Stir and Snooze
+    text: If this Pokémon is Asleep, flip 2 coins instead of 1 between turns. If either of them is tails, this Pokémon is still Asleep.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sleepy Press
+    text: Heal 20 damage from this Pokémon. This Pokémon is now Asleep.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

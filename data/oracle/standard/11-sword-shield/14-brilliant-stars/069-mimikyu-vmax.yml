@@ -1,0 +1,55 @@
+name: Mimikyu VMAX
+
+origin: brilliant-stars-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Psychic
+
+hp: 300
+
+preevolution:
+  - Mimikyu V
+
+dex: 778
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ominous Numbers
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like. If you played Acerola's Premonition from your hand during this turn, place 13 damage counters instead.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Max Shadow
+    text: Discard a random card from your opponent's hand.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

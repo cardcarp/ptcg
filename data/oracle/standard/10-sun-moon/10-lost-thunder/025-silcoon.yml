@@ -1,0 +1,43 @@
+name: Silcoon
+
+origin: lost-thunder-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Wurmple
+
+dex: 266
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cocoon Collector
+    text: Search your deck for up to 4 in any combination of Silcoon and Cascoon and put them onto your Bench. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Grass
+    name: Rolling Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

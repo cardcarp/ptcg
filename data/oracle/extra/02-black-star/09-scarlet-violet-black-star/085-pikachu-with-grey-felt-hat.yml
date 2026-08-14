@@ -1,0 +1,36 @@
+name: Pikachu with Grey Felt Hat
+
+origin: scarlet-violet-black-star-085
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Pika-Portrait
+    text: Search your deck for a Pikachu and put it onto your Bench. Then, shuffle your deck.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

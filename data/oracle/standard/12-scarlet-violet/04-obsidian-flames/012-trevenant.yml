@@ -1,0 +1,45 @@
+name: Trevenant
+
+origin: obsidian-flames-012
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: ability
+    name: Forest Miasma
+    text: During Pokémon Checkup, if this Pokémon is in the Active Spot, put 1 damage counter on your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Lock Up
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

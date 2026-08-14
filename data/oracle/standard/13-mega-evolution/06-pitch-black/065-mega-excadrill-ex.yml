@@ -1,0 +1,60 @@
+name: Mega Excadrill ex
+
+origin: pitch-black-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - MEGA
+  - ex
+
+type:
+  - Metal
+
+hp: 340
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+    name: Undermine
+    text: Discard the top 2 cards of your opponent's deck.
+    damage: 90
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+    name: Maximum Drilling
+    text: If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack does 130 more damage.
+    damage: 200
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - J
+
+errata: []

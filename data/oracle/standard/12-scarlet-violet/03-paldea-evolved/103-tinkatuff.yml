@@ -1,0 +1,46 @@
+name: Tinkatuff
+
+origin: paldea-evolved-103
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Tinkatink
+
+dex: 958
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Boundless Power
+    text: During your next turn, this Pokémon can't attack.
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

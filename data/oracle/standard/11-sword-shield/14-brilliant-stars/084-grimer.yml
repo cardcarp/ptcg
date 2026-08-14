@@ -1,0 +1,36 @@
+name: Grimer
+
+origin: brilliant-stars-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 88
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Poison Gas
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

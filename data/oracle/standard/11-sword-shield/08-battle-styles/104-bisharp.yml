@@ -1,0 +1,53 @@
+name: Bisharp
+
+origin: battle-styles-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Pawniard
+
+dex: 625
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 30
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Steel Slice
+    text: If your opponent's Active Pokémon is a Metal Pokémon, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

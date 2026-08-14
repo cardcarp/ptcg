@@ -1,0 +1,45 @@
+name: Beldum
+
+origin: supreme-victors-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 374
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Pit Search
+    text: Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: attack
+    cost:
+      - Metal
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

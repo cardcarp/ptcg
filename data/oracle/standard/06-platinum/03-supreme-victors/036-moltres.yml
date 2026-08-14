@@ -1,0 +1,50 @@
+name: Moltres
+
+origin: supreme-victors-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 146
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Wing Attack
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Sky Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

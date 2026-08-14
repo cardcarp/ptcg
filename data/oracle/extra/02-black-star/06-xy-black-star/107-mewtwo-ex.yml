@@ -1,0 +1,48 @@
+name: Mewtwo-EX
+
+origin: xy-black-star-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 150
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Shatter Shot
+    text: This attack does 30 damage times the amount of Psychic Energy attached to this Pokémon.
+    damage: 30
+    modifier: x
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Damage Change
+    text: Switch all damage counters on this Pokémon with those on your opponent's Active Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

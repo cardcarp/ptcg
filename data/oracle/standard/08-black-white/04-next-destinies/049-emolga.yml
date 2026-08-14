@@ -1,0 +1,37 @@
+name: Emolga
+
+origin: next-destinies-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 587
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Bounce
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

@@ -1,0 +1,47 @@
+name: Musharna
+
+origin: boundaries-crossed-069
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Munna
+
+dex: 518
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Telekinesis
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Dream Waltz
+    text: This attack can be used even if this Pokémon is Asleep. If this Pokémon is Asleep, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

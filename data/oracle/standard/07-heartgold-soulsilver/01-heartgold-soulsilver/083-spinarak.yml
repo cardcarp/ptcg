@@ -1,0 +1,40 @@
+name: Spinarak
+
+origin: heartgold-soulsilver-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 167
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hang Down
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+    name: Spider Web
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

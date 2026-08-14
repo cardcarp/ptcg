@@ -1,0 +1,50 @@
+name: Vaporeon-EX
+
+origin: generations-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Water
+
+hp: 180
+
+dex: 134
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Bubble Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Deep Squall
+    text: This attack does 130 damage minus 10 damage for each damage counter on this Pokémon.
+    damage: 130
+    modifier: '-'
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

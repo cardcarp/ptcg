@@ -1,0 +1,38 @@
+name: Sableye
+
+origin: phantasmal-flames-059
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 302
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Cocky Claw
+    text: If you have any Stage 2 Darkness Pokémon on your Bench, this attack does 70 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

@@ -1,0 +1,48 @@
+name: Snorlax
+
+origin: firered-leafgreen-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 143
+
+rule:
+  - type: ability
+    name: Rest Up
+    text: If Snorlax remains Asleep between turns, remove 2 damage counters from Snorlax (remove 1 if there is only 1).
+  - type: attack
+    cost:
+      - Colorless
+    name: Collapse
+    text: Snorlax is now Asleep.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Toss and Turn
+    text: If Snorlax is Asleep, this attack does 30 damage plus 30 more damage. (This attack can be used even if Snorlax is Asleep.)
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

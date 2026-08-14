@@ -1,0 +1,47 @@
+name: Reuniclus
+
+origin: plasma-blast-044
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Duosion
+
+dex: 579
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Barrier Attack
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).
+    damage: 30
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Telekinesis of Nobility
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

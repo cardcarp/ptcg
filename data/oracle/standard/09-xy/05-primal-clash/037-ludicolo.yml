@@ -1,0 +1,47 @@
+name: Ludicolo
+
+origin: primal-clash-037
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Lombre
+
+dex: 272
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Astonish
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Splash Dance
+    text: During your next turn, this Pokémon's Splash Dance attack does 60 more damage (before applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

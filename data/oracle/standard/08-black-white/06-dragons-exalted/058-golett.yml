@@ -1,0 +1,43 @@
+name: Golett
+
+origin: dragons-exalted-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 622
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nap
+    text: Heal 40 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Pound
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

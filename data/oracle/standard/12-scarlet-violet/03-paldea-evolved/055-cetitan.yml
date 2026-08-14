@@ -1,0 +1,49 @@
+name: Cetitan
+
+origin: paldea-evolved-055
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Cetoddle
+
+dex: 975
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Icicle Missile
+    damage: 50
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Special Horn
+    text: If this Pokémon has any Special Energy attached, this attack does 140 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

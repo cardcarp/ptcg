@@ -1,0 +1,46 @@
+name: Regirock ex
+
+origin: hidden-legends-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 377
+
+rule:
+  - type: ability
+    name: Healing Stone
+    text: At any time between turns, remove 1 damage counter from Regirock ex.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Tonnage
+    text: You may do 60 damage plus 20 more damage. If you do, Regirock ex does 30 damage to itself.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

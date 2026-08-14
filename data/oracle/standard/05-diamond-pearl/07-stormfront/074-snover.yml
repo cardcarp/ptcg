@@ -1,0 +1,41 @@
+name: Snover
+
+origin: stormfront-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 459
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Hide
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Snover during your opponent's next turn.
+  - type: attack
+    cost:
+      - Water
+    name: Powder Snow
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

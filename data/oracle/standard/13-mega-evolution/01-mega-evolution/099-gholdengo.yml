@@ -1,0 +1,51 @@
+name: Gholdengo
+
+origin: mega-evolution-099
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Gimmighoul
+
+dex: 1000
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: All-You-Can-Grab
+    text: Flip a coin until you get tails. Search your deck for a number of cards up to the number of heads and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Speed Attack
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

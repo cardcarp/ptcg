@@ -1,0 +1,41 @@
+name: Arceus
+
+origin: arceus-007ar
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 493
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mind Bend
+    text: The Defending Pokémon is now Confused.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You may have as many of this card in your deck as you like.
+
+regulation:
+
+errata: []

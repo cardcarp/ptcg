@@ -1,0 +1,43 @@
+name: Deoxys
+
+origin: celestial-storm-068
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 386
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Reflect
+    text: During your opponent's next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Corkscrew
+    text: This attack's damage isn't affected by Resistance.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

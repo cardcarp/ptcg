@@ -1,0 +1,42 @@
+name: Sneasel
+
+origin: mega-evolution-black-star-020
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 215
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Dig Claws
+    damage: 10
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

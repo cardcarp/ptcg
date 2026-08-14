@@ -1,0 +1,38 @@
+name: Paras
+
+origin: lost-origin-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 46
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Absorb
+    text: Heal 10 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

@@ -1,0 +1,42 @@
+name: Slugma
+
+origin: great-encounters-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 218
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Steady Firebreathing
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

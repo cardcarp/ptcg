@@ -1,0 +1,45 @@
+name: Milotic
+
+origin: supreme-victors-007sh
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: ability
+    name: Aqua Mirage
+    text: If you have no cards in your hand, prevent all damage done to Milotic by attacks from your opponent's Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Dwindling Wave
+    text: Does 80 damage minus 10 damage for each damage counter on Milotic.
+    damage: 80
+    modifier: '-'
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

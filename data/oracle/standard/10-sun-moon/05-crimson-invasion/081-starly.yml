@@ -1,0 +1,46 @@
+name: Starly
+
+origin: crimson-invasion-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 396
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Bug Search
+    text: Your opponent reveals their hand.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flap
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

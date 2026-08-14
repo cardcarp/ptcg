@@ -1,0 +1,46 @@
+name: Sharpedo
+
+origin: evolving-skies-036
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Taunt
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Jet Bite
+    text: During your next turn, this Pokémon can't attack.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

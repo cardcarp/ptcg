@@ -1,0 +1,48 @@
+name: Ledian
+
+origin: chilling-reign-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Ledyba
+
+dex: 166
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Rapid Draw
+    text: Draw 2 cards.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - E
+
+errata: []

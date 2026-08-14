@@ -1,0 +1,41 @@
+name: Piplup
+
+origin: pop-series-6-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 393
+
+rule:
+  - type: attack
+    name: Peck
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Spash
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

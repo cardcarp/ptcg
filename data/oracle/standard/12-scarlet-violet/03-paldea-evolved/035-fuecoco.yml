@@ -1,0 +1,42 @@
+name: Fuecoco
+
+origin: paldea-evolved-035
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 909
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spacing Out
+    text: Flip a coin. If heads, heal 30 damage from this Pokémon.
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

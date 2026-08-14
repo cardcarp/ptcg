@@ -1,0 +1,51 @@
+name: Black Kyurem-EX
+
+origin: black-white-black-star-062
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 180
+
+dex: 646
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Dragon Fang
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 60
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Freeze Shock
+    text: This Pokémon can't attack during your next turn.
+    damage: 150
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

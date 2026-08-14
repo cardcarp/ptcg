@@ -1,0 +1,43 @@
+name: Seviper
+
+origin: sandstorm-011
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 336
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Deadly Poison
+    text: You may discard a Grass Energy card attached to Seviper. If you do, the Defending Pokémon is now Poisoned.
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Extra Poison
+    text: If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Asleep and Poisoned.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

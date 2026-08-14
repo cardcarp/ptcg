@@ -1,0 +1,42 @@
+name: Chespin
+
+origin: chaos-rising-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 650
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Beat
+    damage: 10
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+    name: Spike Sting
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

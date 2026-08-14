@@ -1,0 +1,39 @@
+name: Morpeko
+
+origin: twilight-masquerade-072
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 877
+
+rule:
+  - type: ability
+    name: Snack Seek
+    text: Once during your turn, you may look at the top card of your deck. You may discard that card.
+  - type: attack
+    cost:
+      - Lightning
+    name: Pick and Stick
+    text: Attach up to 2 Basic Energy cards from your discard pile to your Pokémon in any way you like.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

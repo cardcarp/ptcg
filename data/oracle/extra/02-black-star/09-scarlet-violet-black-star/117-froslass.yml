@@ -1,0 +1,43 @@
+name: Froslass
+
+origin: scarlet-violet-black-star-117
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Snorunt
+
+dex: 478
+
+rule:
+  - type: ability
+    name: Freezing Shroud
+    text: During Pokémon Checkup, put 1 damage counter on each Pokémon that has an Ability (both yours and your opponent's), except any Froslass.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Frost Smash
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

@@ -1,0 +1,42 @@
+name: Buneary
+
+origin: phantasmal-flames-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 427
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Run Around
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

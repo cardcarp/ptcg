@@ -1,0 +1,44 @@
+name: Maractus
+
+origin: black-bolt-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 556
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Lively Needles
+    text: If this Pokémon was healed during this turn, this attack does 100 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Pierce
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

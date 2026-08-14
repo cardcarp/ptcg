@@ -1,0 +1,44 @@
+name: Chansey
+
+origin: guardians-rising-101
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 113
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bind Wound
+    text: Flip a coin. If heads, heal 30 damage from 1 of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

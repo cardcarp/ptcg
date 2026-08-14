@@ -1,0 +1,42 @@
+name: Mudkip
+
+origin: nintendo-black-star-018
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 258
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Surf
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Whirlpool
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

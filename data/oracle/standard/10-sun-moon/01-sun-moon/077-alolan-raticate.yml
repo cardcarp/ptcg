@@ -1,0 +1,53 @@
+name: Alolan Raticate
+
+origin: sun-moon-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Alolan Rattata
+
+dex: 20
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Evil Orders
+    text: Search your deck for a number of cards up to the number of your Benched Pokémon and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Endeavor
+    text: Flip 2 coins. This attack does 30 more damage for each heads.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

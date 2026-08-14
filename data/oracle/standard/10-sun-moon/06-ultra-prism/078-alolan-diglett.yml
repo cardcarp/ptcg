@@ -1,0 +1,40 @@
+name: Alolan Diglett
+
+origin: ultra-prism-078
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 50
+
+rule:
+  - type: attack
+    name: Iron Head
+    text: Flip a coin until you get tails. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

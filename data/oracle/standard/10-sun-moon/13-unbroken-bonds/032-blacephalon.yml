@@ -1,0 +1,47 @@
+name: Blacephalon
+
+origin: unbroken-bonds-032
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 806
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Blazer
+    text: Turn 1 of your face-down Prize cards face up. If it's a Fire Energy card, this attack does 50 more damage. (That Prize card remains face up for the rest of the game.)
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Fireball Circus
+    text: Discard any number of Fire Energy cards from your hand. This attack does 50 damage for each card you discarded in this way.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

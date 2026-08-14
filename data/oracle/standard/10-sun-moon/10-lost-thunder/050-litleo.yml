@@ -1,0 +1,40 @@
+name: Litleo
+
+origin: lost-thunder-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 667
+
+rule:
+  - type: ability
+    name: Wild Dash
+    text: If your opponent has any Pokémon-GX or Pokémon-EX in play, this Pokémon has no Retreat Cost.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: This Pokémon does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

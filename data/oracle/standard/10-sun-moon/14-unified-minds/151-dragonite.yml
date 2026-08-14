@@ -1,0 +1,45 @@
+name: Dragonite
+
+origin: unified-minds-151
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 160
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: ability
+    name: Hurricane Charge
+    text: Once during your turn (before your attack), you may attach a Water Energy card, a Lightning Energy card, or 1 of each from your hand to your Pokémon in any way you like.
+  - type: attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Dragon Impact
+    text: Discard 3 Energy from this Pokémon.
+    damage: 170
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,49 @@
+name: Tranquill
+
+origin: temporal-forces-134
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Pidove
+
+dex: 520
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Speed Dive
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jet Wing
+    text: During your next turn, this Pokémon can't attack.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+regulation:
+  - H
+
+errata: []

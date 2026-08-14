@@ -1,0 +1,41 @@
+name: Electabuzz δ
+
+origin: dragon-frontiers-029
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 125
+
+rule:
+  - type: ability
+    name: Power of Evolution
+    text: Once during your turn (before your attack), if Electabuzz is an Evolved Pokémon, you may draw a card from the bottom of your deck. This power can't be used if Electabuzz is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

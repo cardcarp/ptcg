@@ -1,0 +1,44 @@
+name: Solrock
+
+origin: xy-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 338
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Cosmic Spin
+    text: If Lunatone is on your Bench, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Solar Beam
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

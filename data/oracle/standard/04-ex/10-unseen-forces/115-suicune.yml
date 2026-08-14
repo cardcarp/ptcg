@@ -1,0 +1,49 @@
+name: Suicune ☆
+
+origin: unseen-forces-115
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+
+type:
+  - Water
+
+hp: 80
+
+dex: 245
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Splashing Turn
+    text: Switch Suicune Star with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Cross Wind
+    text: If you have less Prize cards left than your opponent, discard all Energy cards attached to all of your Pokémon.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

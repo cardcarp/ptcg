@@ -1,0 +1,38 @@
+name: Sableye
+
+origin: plasma-freeze-049
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Team Plasma
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 302
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Shadow Cage
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+retreat: 1
+
+regulation:
+
+errata: []

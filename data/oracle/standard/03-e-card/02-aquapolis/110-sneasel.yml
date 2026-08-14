@@ -1,0 +1,47 @@
+name: Sneasel
+
+origin: aquapolis-110
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 215
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Rob
+    text: Look at your opponent's hand. Choose all Technical Machine and Pokémon Tool cards there and put them into his or her deck. Your opponent shuffles the deck afterward.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Claw
+    text: Flip a coin. If tails this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

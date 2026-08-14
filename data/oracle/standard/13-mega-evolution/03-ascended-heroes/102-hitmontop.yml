@@ -1,0 +1,42 @@
+name: Hitmontop
+
+origin: ascended-heroes-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 237
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spin and Draw
+    text: Shuffle your hand into your deck. Then, draw 6 cards.
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Low Kick
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

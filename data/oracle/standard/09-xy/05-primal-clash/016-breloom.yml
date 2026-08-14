@@ -1,0 +1,48 @@
+name: Breloom
+
+origin: primal-clash-016
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Shroomish
+
+dex: 286
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dynamic Punch
+    text: Flip a coin. If heads, this attack does 20 more damage and your opponent's Active Pokémon is now Confused.
+    damage: 40
+    modifier: +
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mega Kick
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Lunatone
+
+origin: mega-evolution-074
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 337
+
+rule:
+  - type: ability
+    name: Lunar Cycle
+    text: Once during your turn, if you have Solrock in play, you may discard a Basic Fighting Energy card from your hand in order to use this Ability. Draw 3 cards. You can't use more than 1 Lunar Cycle Ability each turn.
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Power Gem
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

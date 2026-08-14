@@ -1,0 +1,51 @@
+name: Typhlosion
+
+origin: nintendo-black-star-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Quilava
+
+dex: 157
+
+rule:
+  - type: ability
+    name: Burning Aura
+    text: As long as Typhlosion is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent's) between turns.
+  - type: attack
+    cost:
+      - Fire
+    name: Flickering Flames
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 50 damage plus 10 more damage for each damage counter on Typhlosion.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

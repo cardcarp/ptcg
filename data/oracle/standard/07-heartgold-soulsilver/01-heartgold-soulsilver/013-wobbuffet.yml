@@ -1,0 +1,38 @@
+name: Wobbuffet
+
+origin: heartgold-soulsilver-013
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 202
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Double Return
+    text: Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Wobbuffet.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

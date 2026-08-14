@@ -1,0 +1,55 @@
+name: Ceruledge
+
+origin: paldea-evolved-098
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Charcadet
+
+dex: 937
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Life Sucker
+    text: Heal 30 damage from this Pokémon.
+    damage: 50
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Fighting Sword
+    text: If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

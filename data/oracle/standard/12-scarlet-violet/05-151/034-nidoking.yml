@@ -1,0 +1,46 @@
+name: Nidoking
+
+origin: 151-034
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Nidorino
+
+dex: 34
+
+rule:
+  - type: ability
+    name: Enthusiastic King
+    text: If you have Nidoqueen in play, ignore all Energy in the costs of attacks used by this Pokémon.
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Venomous Impact
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 190
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

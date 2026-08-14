@@ -1,0 +1,45 @@
+name: Seaking
+
+origin: sword-shield-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Ripping Horn
+    text: Flip 3 coins. For each heads, discard an Energy from your opponent's Active Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pierce
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - D
+
+errata: []

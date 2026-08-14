@@ -1,0 +1,50 @@
+name: Dark Octillery
+
+origin: team-rocket-returns-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Black Suction Cups
+    text: Does 10 damage to each Defending Pokémon. Flip a coin. If heads, each Defending Pokémon is now Paralyzed.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ink Blast
+    text: Does 30 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Water Darkness type.
+
+regulation:
+
+errata: []

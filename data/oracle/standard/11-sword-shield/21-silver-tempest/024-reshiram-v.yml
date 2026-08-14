@@ -1,0 +1,48 @@
+name: Reshiram V
+
+origin: silver-tempest-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 643
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Sparkling Wing
+    text: Search your deck for up to 2 basic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: White Blaze
+    text: Flip a coin. If tails, during your next turn, this Pokémon can't attack.
+    damage: 200
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - F
+
+errata: []

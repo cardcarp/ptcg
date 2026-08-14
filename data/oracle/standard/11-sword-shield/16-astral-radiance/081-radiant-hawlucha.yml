@@ -1,0 +1,44 @@
+name: Radiant Hawlucha
+
+origin: astral-radiance-081
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Radiant
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 701
+
+rule:
+  - type: ability
+    name: Big Match
+    text: As long as this Pokémon is on your Bench, your Pokémon's attacks do 30 more damage to your opponent's Active Pokémon VMAX (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Spiral Kick
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+regulation:
+  - F
+
+errata: []

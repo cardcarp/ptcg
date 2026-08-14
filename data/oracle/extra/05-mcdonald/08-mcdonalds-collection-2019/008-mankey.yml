@@ -1,0 +1,36 @@
+name: Mankey
+
+origin: mcdonalds-collection-2019-008
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 56
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Three-Step Strike
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

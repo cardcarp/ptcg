@@ -1,0 +1,41 @@
+name: Bulbasaur
+
+origin: secret-wonders-077
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 1
+
+rule:
+  - type: attack
+    name: Shake Vine
+    text: The Defending Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Bullet Seed
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

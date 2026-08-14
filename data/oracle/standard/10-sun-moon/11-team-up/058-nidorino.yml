@@ -1,0 +1,45 @@
+name: Nidorino
+
+origin: team-up-058
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Nidoran ♂
+
+dex: 33
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Horn Drill
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

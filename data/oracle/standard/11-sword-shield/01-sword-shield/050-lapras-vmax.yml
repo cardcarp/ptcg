@@ -1,0 +1,46 @@
+name: Lapras VMAX
+
+origin: sword-shield-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+
+type:
+  - Water
+
+hp: 320
+
+preevolution:
+  - Lapras V
+
+dex: 131
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: G-Max Pump
+    text: This attack does 30 more damage for each Water Energy attached to this Pokémon.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,47 @@
+name: Houndstone
+
+origin: scarlet-violet-106
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Greavard
+
+dex: 972
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Last Respects
+    text: This attack does 10 more damage for each Psychic Pokémon in your discard pile.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+regulation:
+  - G
+
+errata: []

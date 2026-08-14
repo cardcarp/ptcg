@@ -1,0 +1,49 @@
+name: Omastar
+
+origin: fossil-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Omanyte
+
+dex: 139
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    text: Does 20 damage plus 10 more damage for each Water Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Spike Cannon
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

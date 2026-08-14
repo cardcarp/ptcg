@@ -1,0 +1,50 @@
+name: Galarian Rapidash
+
+origin: sword-shield-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Galarian Ponyta
+
+dex: 78
+
+rule:
+  - type: ability
+    name: Pastel Veil
+    text: Your Pokémon recover from all Special Conditions and can't be affected by any Special Conditions.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - D
+
+errata: []

@@ -1,0 +1,45 @@
+name: Zeraora
+
+origin: temporal-forces-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 807
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Shocking Knuckle
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Strong Volt
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

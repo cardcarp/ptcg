@@ -1,0 +1,43 @@
+name: Drowzee
+
+origin: breakpoint-050
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 96
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Mumble
+    damage: 10
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Focused Wish
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,38 @@
+name: Timburr
+
+origin: xy-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 532
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Pummel
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

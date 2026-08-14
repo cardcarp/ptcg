@@ -1,0 +1,50 @@
+name: Giratina
+
+origin: platinum-027
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 487
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Strafe
+    text: You may switch Giratina with 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Broken-space Blow
+    text: If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to in the Lost Zone instead of the discard pile.
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

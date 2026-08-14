@@ -1,0 +1,40 @@
+name: Skitty
+
+origin: xy-104
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 300
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Heal Bell
+    text: Heal 10 damage from each of your Pokémon.
+  - type: attack
+    cost:
+      - Colorless
+    name: Tail Whap
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

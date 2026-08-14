@@ -1,0 +1,36 @@
+name: Misty's Seel
+
+origin: gym-heroes-088
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 86
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Aurora Beam
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

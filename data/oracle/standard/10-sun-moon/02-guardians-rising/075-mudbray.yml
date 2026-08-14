@@ -1,0 +1,38 @@
+name: Mudbray
+
+origin: guardians-rising-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 749
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Double Kick
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

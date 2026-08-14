@@ -1,0 +1,44 @@
+name: Magnemite
+
+origin: team-rocket-060
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 81
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Magnetism
+    text: Does 10 damage plus 10 more damage for each Magnemite, Magneton, and Dark Magneton on your Bench.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

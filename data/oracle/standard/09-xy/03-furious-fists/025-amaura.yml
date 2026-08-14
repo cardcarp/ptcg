@@ -1,0 +1,48 @@
+name: Amaura
+
+origin: furious-fists-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Restored
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Sail Fossil
+
+dex: 698
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Stampede
+    damage: 20
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aurora Beam
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Sail Fossil
+
+regulation:
+
+errata: []

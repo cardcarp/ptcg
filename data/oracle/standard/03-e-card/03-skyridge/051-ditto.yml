@@ -1,0 +1,38 @@
+name: Ditto
+
+origin: skyridge-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 132
+
+rule:
+  - type: ability
+    name: Prismatic Body
+    text: Each basic Energy card attached to Ditto provides every type of Energy but provides only 1 Energy at a time.
+  - type: attack
+    cost:
+      - Colorless
+    name: Copy
+    text: Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Ditto doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

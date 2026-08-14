@@ -1,0 +1,42 @@
+name: Yamask
+
+origin: paradox-rift-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 562
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Ominous Eyes
+    text: Put 3 damage counters on 1 of your opponent's Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,42 @@
+name: Hypno
+
+origin: breakpoint-051
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: ability
+    name: Goodnight, Babies
+    text: Once during your turn (before your attack), you may leave both Active Pokémon Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Zen Headbutt
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

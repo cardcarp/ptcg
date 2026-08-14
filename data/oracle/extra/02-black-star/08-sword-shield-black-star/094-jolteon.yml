@@ -1,0 +1,42 @@
+name: Jolteon
+
+origin: sword-shield-black-star-094
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+dex: 135
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+    name: Energize
+    text: Attach a Lightning Energy card from your discard pile to this Pokémon.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+regulation:
+  - D
+
+errata: []

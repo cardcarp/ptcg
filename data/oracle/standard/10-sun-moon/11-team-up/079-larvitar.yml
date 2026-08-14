@@ -1,0 +1,37 @@
+name: Larvitar
+
+origin: team-up-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 246
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Chip Away
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

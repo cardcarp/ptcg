@@ -1,0 +1,39 @@
+name: Doduo
+
+origin: supreme-victors-102
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 84
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Take Down
+    text: Doduo does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+regulation:
+
+errata: []

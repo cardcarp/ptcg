@@ -1,0 +1,52 @@
+name: Swanna
+
+origin: twilight-masquerade-140
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Ducklett
+
+dex: 581
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Fighting Wings
+    text: If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

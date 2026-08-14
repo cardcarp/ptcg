@@ -1,0 +1,38 @@
+name: Helioptile
+
+origin: mega-evolution-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 694
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

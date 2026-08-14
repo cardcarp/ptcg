@@ -1,0 +1,45 @@
+name: Reuniclus
+
+origin: noble-victories-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Duosion
+
+dex: 579
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Future Sight
+    text: Look at the top 5 cards of your deck and put them back on top of your deck in any order.
+  - type: attack
+    cost:
+      - Psychic
+    name: Net Force
+    text: Does 40 damage times the number of Reuniclus you have in play.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

@@ -1,0 +1,42 @@
+name: Terrakion
+
+origin: black-white-black-star-071
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 639
+
+rule:
+  - type: ability
+    name: Justified
+    text: Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Crushing Blow
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

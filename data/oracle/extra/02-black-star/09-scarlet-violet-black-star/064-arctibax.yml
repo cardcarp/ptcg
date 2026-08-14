@@ -1,0 +1,47 @@
+name: Arctibax
+
+origin: scarlet-violet-black-star-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Frigibax
+
+dex: 997
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Sharp Fin
+    damage: 40
+  - type: attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Frost Smash
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,51 @@
+name: Houndstone ex
+
+origin: scarlet-violet-black-star-162
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 260
+
+preevolution:
+  - Greavard
+
+dex: 972
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Horrifying Fang
+    text: Flip a coin until you get tails. This attack does 20 more damage for each heads.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

@@ -1,0 +1,40 @@
+name: Purrloin
+
+origin: boundaries-crossed-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 509
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Captivate
+    text: Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

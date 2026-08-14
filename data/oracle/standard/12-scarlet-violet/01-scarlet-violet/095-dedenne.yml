@@ -1,0 +1,39 @@
+name: Dedenne
+
+origin: scarlet-violet-095
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 702
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Second Bite
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

@@ -1,0 +1,49 @@
+name: Aegislash
+
+origin: team-up-109
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Doublade
+
+dex: 681
+
+rule:
+  - type: ability
+    name: Royal Guard
+    text: This Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).
+  - type: attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Shield Bash
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+regulation:
+
+errata: []

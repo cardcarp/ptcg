@@ -1,0 +1,41 @@
+name: Misty's Starmie
+
+origin: destined-rivals-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Misty's Staryu
+
+dex: 121
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Abrupt Flash
+    text: If this Pokémon evolved from Misty's Staryu during this turn, this attack does 80 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

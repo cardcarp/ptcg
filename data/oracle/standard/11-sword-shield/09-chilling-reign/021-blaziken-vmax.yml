@@ -1,0 +1,51 @@
+name: Blaziken VMAX
+
+origin: chilling-reign-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+  - Rapid Strike
+
+type:
+  - Fire
+
+hp: 320
+
+preevolution:
+  - Blaziken V
+
+dex: 257
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+    name: Clutch
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 60
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Max Blaze
+    text: Choose up to 2 of your Benched Rapid Strike Pokémon and attach an Energy card from your discard pile to each of them.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

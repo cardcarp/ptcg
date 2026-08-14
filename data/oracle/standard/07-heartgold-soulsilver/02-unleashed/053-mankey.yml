@@ -1,0 +1,43 @@
+name: Mankey
+
+origin: unleashed-053
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 56
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Punch
+    damage: 10
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Karate Chop
+    text: Does 40 damage minus 10 damage for each damage counter on Mankey.
+    damage: 40
+    modifier: '-'
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

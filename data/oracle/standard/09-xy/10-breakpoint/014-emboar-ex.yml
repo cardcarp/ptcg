@@ -1,0 +1,51 @@
+name: Emboar-EX
+
+origin: breakpoint-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 180
+
+dex: 500
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Spiral Punch
+    text: Flip a coin until you get tails. This attack does 20 more damage for each heads.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Strong Flare
+    text: Discard 2 Energy attached to this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

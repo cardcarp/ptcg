@@ -1,0 +1,52 @@
+name: Mamoswine
+
+origin: phantasmal-flames-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Piloswine
+
+dex: 473
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wreck
+    text: If a Stadium is in play, this attack does 120 more damage. Then, discard that Stadium.
+    damage: 120
+    modifier: +
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blizzard Edge
+    text: Discard 2 Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+  - I
+
+errata: []

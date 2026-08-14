@@ -1,0 +1,49 @@
+name: Inteleon VMAX
+
+origin: fusion-strike-079
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 320
+
+preevolution:
+  - Inteleon V
+
+dex: 818
+
+rule:
+  - type: ability
+    name: Double Gunner
+    text: You must discard a Water Energy card from your hand in order to use this Ability. Once during your turn, you may choose 2 of your opponent's Benched Pokémon and put 2 damage counters on each of them.
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: G-Max Spiral
+    text: You may put an Energy attached to this Pokémon into your hand. If you do, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

@@ -1,0 +1,45 @@
+name: Sudowoodo
+
+origin: unleashed-009
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 185
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Push Over
+    text: Does 20 damage times the amount of Fighting Energy attached to Sudowoodo.
+    damage: 20
+    modifier: x
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rumble
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

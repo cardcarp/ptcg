@@ -1,0 +1,42 @@
+name: Palafin
+
+origin: pitch-black-022
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Finizen
+
+dex: 964
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Knuckle Justice
+    text: If your opponent has exactly 1 Prize card remaining, this attack does 200 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - J
+
+errata: []

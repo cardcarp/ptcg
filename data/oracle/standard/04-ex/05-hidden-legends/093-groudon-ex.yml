@@ -1,0 +1,53 @@
+name: Groudon ex
+
+origin: hidden-legends-093
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 383
+
+rule:
+  - type: ability
+    name: Mark of Antiquity
+    text: As long as Groudon ex is your Active Pokémon, each player's Kyogre ex and Rayquaza ex can't attack.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rock Tumble
+    text: This attack's damage is not affected by Resistance.
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Crushing Mantle
+    text: You may discard from your hand as many Energy cards as you like. If you do, this attack does 50 damage plus 10 more damage for each Energy card you discarded.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+regulation:
+
+errata: []

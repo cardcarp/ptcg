@@ -1,0 +1,53 @@
+name: M Tyranitar-EX
+
+origin: ancient-origins-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Darkness
+
+hp: 240
+
+preevolution:
+  - Tyranitar-EX
+
+dex: 248
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Destroyer King
+    text: This attack does 60 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 110
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

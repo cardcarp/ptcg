@@ -1,0 +1,35 @@
+name: Staryu
+
+origin: crimson-invasion-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 120
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Spinning Attack
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

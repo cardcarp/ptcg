@@ -1,0 +1,54 @@
+name: Mew VMAX
+
+origin: fusion-strike-114
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - VMAX
+  - Fusion Strike
+
+type:
+  - Psychic
+
+hp: 310
+
+preevolution:
+  - Mew V
+
+dex: 151
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cross Fusion Strike
+    text: Choose 1 of your Benched Fusion Strike Pokémon's attacks and use it as this attack.
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Max Miracle
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 130
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

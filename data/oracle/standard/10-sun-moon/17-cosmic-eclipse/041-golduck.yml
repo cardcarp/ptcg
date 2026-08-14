@@ -1,0 +1,45 @@
+name: Golduck
+
+origin: cosmic-eclipse-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 30
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Energy Loop
+    text: Put an Energy attached to this Pokémon into your hand.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

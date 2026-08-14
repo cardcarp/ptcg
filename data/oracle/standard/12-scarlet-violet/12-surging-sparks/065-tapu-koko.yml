@@ -1,0 +1,45 @@
+name: Tapu Koko
+
+origin: surging-sparks-065
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 785
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Summon Lightning
+    text: Search your deck for up to 2 Lightning Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Prize Count
+    text: If you have more Prize cards remaining than your opponent, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - H
+
+errata: []

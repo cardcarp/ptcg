@@ -1,0 +1,57 @@
+name: Kangaskhan-GX
+
+origin: sun-moon-black-star-188
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - GX
+
+type:
+  - Colorless
+
+hp: 180
+
+dex: 115
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Split Spiral Punch
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Enraged Strike
+    text: If your opponent's Active Pokémon is Confused, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Familial Combo-GX
+    text: Draw 5 cards. (You can't use more than 1 GX attack in a game.)
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

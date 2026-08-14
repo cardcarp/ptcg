@@ -1,0 +1,37 @@
+name: Iono's Tadbulb
+
+origin: journey-together-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 938
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Tiny Charge
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

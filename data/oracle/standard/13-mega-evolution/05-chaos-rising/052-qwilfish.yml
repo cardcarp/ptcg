@@ -1,0 +1,41 @@
+name: Qwilfish
+
+origin: chaos-rising-052
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 90
+
+dex: 211
+
+rule:
+  - type: ability
+    name: Poison Point
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.
+  - type: attack
+    cost:
+      - Darkness
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - J
+
+errata: []

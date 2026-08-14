@@ -1,0 +1,48 @@
+name: Mr. Mime
+
+origin: hidden-fates-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 90
+
+dex: 122
+
+rule:
+  - type: attack
+    cost:
+      - Fairy
+    name: Happy Mime
+    text: Each player draws a card.
+  - type: attack
+    cost:
+      - Fairy
+      - Fairy
+    name: Double Slap
+    text: Flip 2 coins. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

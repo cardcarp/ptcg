@@ -1,0 +1,46 @@
+name: Carbink
+
+origin: roaring-skies-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 703
+
+rule:
+  - type: ability
+    name: Jewel Armor
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - type: attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Spin Tackle
+    text: Flip a coin. If tails, this Pokémon does 20 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

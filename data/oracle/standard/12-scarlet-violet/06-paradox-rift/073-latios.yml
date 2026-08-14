@@ -1,0 +1,49 @@
+name: Latios
+
+origin: paradox-rift-073
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 381
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Glide
+    damage: 20
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Luster Purge
+    text: Discard 3 Energy from this Pokémon.
+    damage: 180
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+  - G
+
+errata: []

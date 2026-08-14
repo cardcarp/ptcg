@@ -1,0 +1,46 @@
+name: Deoxys
+
+origin: celestial-storm-067
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 386
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 20 more damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Power Blast
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

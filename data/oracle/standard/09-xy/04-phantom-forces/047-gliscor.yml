@@ -1,0 +1,47 @@
+name: Gliscor
+
+origin: phantom-forces-047
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Submission Hold
+    text: Your opponent can't attach Energy from his or her hand to the Defending Pokémon during his or her next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Poison Jab
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

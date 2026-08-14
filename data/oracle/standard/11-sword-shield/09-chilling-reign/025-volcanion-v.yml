@@ -1,0 +1,51 @@
+name: Volcanion V
+
+origin: chilling-reign-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - V
+  - Single Strike
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 721
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Heat Blast
+    damage: 50
+  - type: attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Dynamite Tackle
+    text: If this Pokémon has 10 or more damage counters on it, this attack does 150 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+  - E
+
+errata: []

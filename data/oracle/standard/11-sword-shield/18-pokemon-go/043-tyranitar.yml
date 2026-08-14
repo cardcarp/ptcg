@@ -1,0 +1,51 @@
+name: Tyranitar
+
+origin: pokemon-go-043
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 180
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Raging Crash
+    text: This attack does 10 damage for each damage counter on all of your Benched Pokémon.
+    damage: 10
+    modifier: x
+  - type: attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Earthquake
+    text: This attack also does 20 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+  - F
+
+errata: []

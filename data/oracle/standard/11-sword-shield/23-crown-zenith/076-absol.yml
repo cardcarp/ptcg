@@ -1,0 +1,44 @@
+name: Absol
+
+origin: crown-zenith-076
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 359
+
+rule:
+  - type: attack
+    cost:
+      - Darkness
+    name: Slash
+    damage: 30
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Lost Claw
+    text: Put a random card from your opponent's hand in the Lost Zone.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - F
+
+errata: []

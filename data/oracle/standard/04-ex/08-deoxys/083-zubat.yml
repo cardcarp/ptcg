@@ -1,0 +1,38 @@
+name: Zubat
+
+origin: deoxys-083
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 41
+
+rule:
+  - type: ability
+    name: Self-control
+    text: Zubat can't be Paralyzed.
+  - type: attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

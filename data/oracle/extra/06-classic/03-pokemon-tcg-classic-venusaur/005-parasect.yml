@@ -1,0 +1,38 @@
+name: Parasect
+
+origin: pokemon-tcg-classic-venusaur-005
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Paras
+
+dex: 47
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Nutritional Support
+    text: Search your deck for up to 2 Basic Grass Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

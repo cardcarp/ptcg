@@ -1,0 +1,42 @@
+name: Scyther
+
+origin: 151-123
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 123
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Helpful Slash
+    text: Attach a Basic Grass Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Slicing Blade
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+regulation:
+  - G
+
+errata: []

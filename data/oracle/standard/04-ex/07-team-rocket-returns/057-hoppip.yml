@@ -1,0 +1,43 @@
+name: Hoppip
+
+origin: team-rocket-returns-057
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 30
+
+dex: 187
+
+rule:
+  - type: ability
+    name: Buffer
+    text: If Hoppip would be Knocked Out by an opponent's attack, flip a coin. If heads, Hoppip is not Knocked Out and its remaining HP becomes 10 instead.
+  - type: attack
+    cost:
+      - Colorless
+    name: Miracle Powder
+    text: Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

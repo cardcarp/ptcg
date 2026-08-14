@@ -1,0 +1,47 @@
+name: Boldore
+
+origin: sun-moon-070
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Roggenrola
+
+dex: 525
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Headbutt
+    damage: 30
+  - type: attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Hurl
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

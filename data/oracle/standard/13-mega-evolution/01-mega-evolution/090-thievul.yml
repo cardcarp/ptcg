@@ -1,0 +1,46 @@
+name: Thievul
+
+origin: mega-evolution-090
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Nickit
+
+dex: 828
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Greedy Hunt
+    text: You may draw cards until you have 6 cards in your hand.
+    damage: 20
+  - type: attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Pitch-Black Fangs
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+  - I
+
+errata: []

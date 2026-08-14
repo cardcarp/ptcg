@@ -1,0 +1,62 @@
+name: Salamence δ
+
+origin: delta-species-014
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Fire
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Dance
+    text: Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.
+    damage: 30
+  - type: attack
+    cost:
+      - Fire
+      - Metal
+      - Colorless
+      - Colorless
+    name: Delta Blast
+    text: Discard a Metal Energy card attached to Salamence.
+    damage: 100
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fire
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Fire Metal type.
+
+regulation:
+
+errata: []

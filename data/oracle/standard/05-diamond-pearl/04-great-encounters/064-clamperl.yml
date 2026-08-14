@@ -1,0 +1,42 @@
+name: Clamperl
+
+origin: great-encounters-064
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 366
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+    name: Clamp
+    text: Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: attack
+    cost:
+      - Water
+      - Colorless
+    name: Sparkling Pearl
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+regulation:
+
+errata: []

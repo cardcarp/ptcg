@@ -1,0 +1,53 @@
+name: Dialga LV.X
+
+origin: diamond-pearl-black-star-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Level-Up
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Dialga
+
+dex: 483
+
+rule:
+  - type: ability
+    name: Time Skip
+    text: Once during your turn (before your attack), you may have your opponent flip 2 coins. If both of them are heads, your turn ends. If both of them are tails, after your opponent draws a card at the beginning of his or her next turn, his or her turn ends. This power can't be used if Dialga is affected by a Special Condition.
+  - type: attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Flash
+    text: During your next turn, Dialga can't use Metal Flash.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - Put this card onto your Active Dialga. Dialga LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+regulation:
+
+errata: []

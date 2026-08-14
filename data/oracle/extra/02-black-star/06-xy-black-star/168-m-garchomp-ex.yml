@@ -1,0 +1,45 @@
+name: M Garchomp-EX
+
+origin: xy-black-star-168
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - MEGA
+  - EX
+
+type:
+  - Dragon
+
+hp: 210
+
+preevolution:
+  - Garchomp-EX
+
+dex: 445
+
+rule:
+  - type: attack
+    cost:
+      - Water
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Crimson Edge
+    text: This Pokémon does 10 damage to itself for each damage counter on it.
+    damage: 180
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

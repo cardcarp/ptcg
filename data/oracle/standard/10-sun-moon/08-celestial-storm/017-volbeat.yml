@@ -1,0 +1,37 @@
+name: Volbeat
+
+origin: celestial-storm-017
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 313
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Pheromone Catch
+    text: If your Illumise used Pheromone Signals during your last turn, this attack does 100 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

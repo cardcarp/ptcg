@@ -1,0 +1,50 @@
+name: Gothitelle
+
+origin: scarlet-violet-black-star-211
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Gothorita
+
+dex: 576
+
+rule:
+  - type: ability
+    name: Distorted Future
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may have your opponent shuffle their hand into their deck and draw 3 cards.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Synchro Shot
+    text: If you have the same number of cards in your hand as your opponent, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+  - I
+
+errata: []

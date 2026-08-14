@@ -1,0 +1,45 @@
+name: Heracross
+
+origin: neo-destiny-041
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 214
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+    name: Tackle
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Charging Horn
+    text: Flip a coin. If heads, this attack does 30 damage plus 30 more damage. If tails, this attack does 30 damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+regulation:
+
+errata: []

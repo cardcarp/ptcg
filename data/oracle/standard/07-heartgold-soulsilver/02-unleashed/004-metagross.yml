@@ -1,0 +1,49 @@
+name: Metagross
+
+origin: unleashed-004
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Metang
+
+dex: 376
+
+rule:
+  - type: ability
+    name: Psychic Float
+    text: If you have any Psychic Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pulse Blast
+    damage: 60
+  - type: attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Double Leg Hammer
+    text: Choose 2 of your opponent's Benched Pokémon. This attack does 40 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+regulation:
+
+errata: []

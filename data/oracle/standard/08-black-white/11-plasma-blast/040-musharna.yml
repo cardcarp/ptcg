@@ -1,0 +1,46 @@
+name: Musharna
+
+origin: plasma-blast-040
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Munna
+
+dex: 518
+
+rule:
+  - type: attack
+    cost:
+      - Psychic
+    name: Precognitive Dream
+    text: Draw 3 cards. This Pokémon is now Asleep.
+  - type: attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psybeam
+    text: The Defending Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+regulation:
+
+errata: []

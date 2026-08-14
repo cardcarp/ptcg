@@ -1,0 +1,39 @@
+name: Froakie
+
+origin: forbidden-light-021
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 656
+
+rule:
+  - type: ability
+    name: Frubbles
+    text: If this Pokémon has any Water Energy attached to it, it has no Retreat Cost.
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flop
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

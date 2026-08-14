@@ -1,0 +1,49 @@
+name: Trevenant-EX
+
+origin: primal-clash-019
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - EX
+
+type:
+  - Grass
+
+hp: 180
+
+dex: 709
+
+rule:
+  - type: attack
+    cost:
+      - Grass
+    name: Dark Forest
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wood Blast
+    text: This attack does 20 more damage for each Grass Energy attached to this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+regulation:
+
+errata: []

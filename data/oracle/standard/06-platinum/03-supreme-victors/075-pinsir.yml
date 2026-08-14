@@ -1,0 +1,45 @@
+name: Pinsir
+
+origin: supreme-victors-075
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 127
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gripthrow
+    text: Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand.
+  - type: attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Sever
+    text: If the Defending Pokémon is a Stage 2 Pokémon, this attack does 50 damage plus 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 2
+
+regulation:
+
+errata: []

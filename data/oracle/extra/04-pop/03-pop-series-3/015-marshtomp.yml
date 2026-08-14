@@ -1,0 +1,46 @@
+name: Marshtomp
+
+origin: pop-series-3-015
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Mudkip
+
+dex: 259
+
+rule:
+  - type: attack
+    cost:
+      - Fighting
+    name: Mud Slap
+    damage: 20
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Marshtomp does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []

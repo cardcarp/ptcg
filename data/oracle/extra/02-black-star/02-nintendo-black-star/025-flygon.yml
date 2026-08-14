@@ -1,0 +1,54 @@
+name: Flygon
+
+origin: nintendo-black-star-025
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sand Pit
+    text: The Defending Pokémon can't retreat until the end of your opponent's next turn.
+    damage: 20
+  - type: attack
+    cost:
+      - Grass
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Dragonbreath
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+regulation:
+
+errata: []

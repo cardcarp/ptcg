@@ -1,0 +1,47 @@
+name: Zebstrika
+
+origin: lost-thunder-082
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: ability
+    name: Sprint
+    text: Once during your turn (before your attack), you may discard your hand and draw 4 cards.
+  - type: attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Head Bolt
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+regulation:
+
+errata: []

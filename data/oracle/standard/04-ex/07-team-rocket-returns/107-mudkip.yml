@@ -1,0 +1,47 @@
+name: Mudkip ☆
+
+origin: team-rocket-returns-107
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+  - Star
+
+type:
+  - Water
+
+hp: 70
+
+dex: 258
+
+rule:
+  - type: attack
+    cost:
+      - Water
+    name: Whirlpool
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+  - type: attack
+    cost:
+      - Water
+      - Water
+    name: Spring Back
+    text: If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Asleep.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+regulation:
+
+errata: []

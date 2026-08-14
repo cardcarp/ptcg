@@ -1,0 +1,37 @@
+name: Buneary
+
+origin: flashfire-084
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 427
+
+rule:
+  - type: attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bounce
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []
