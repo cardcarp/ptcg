@@ -10,6 +10,8 @@ facet:
   - Technical Machine
 
 rule:
+  - type: effect
+    text: Attach this card to 1 of your Fighting Pokémon in play. That Pokémon my use this card's attack instead of its own. At the end of your turn, discard Fighting Cube 01.
   - type: attack
     cost:
       - Fighting
@@ -17,9 +19,6 @@ rule:
     text: Flip a number of coins equal to the number of damage counters on this Pokémon. This attack does 10 damage times the number of heads.
     damage: 10
     modifier: x
-
-rulebox:
-  - Attach this card to 1 of your Fighting Pokémon in play. That Pokémon my use this card's attack instead of its own. At the end of your turn, discard Fighting Cube 01.
 
 regulation:
 

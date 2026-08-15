@@ -59,7 +59,7 @@ rule: # this is a combination of 'abilities' and 'attacks'
       type: # deterministic from the source, whether it was originally an 'abilities' or an 'attacks'
         type: string
         required: false
-        allowed: ['ability', 'attack']
+        allowed: ['ability', 'attack', 'effect']
       position: # This is for whether it is a unique layout and the rule is on the reverse or flip. Can be ignored as only a few cards need this and I will manually edit.
         type: string
         required: false

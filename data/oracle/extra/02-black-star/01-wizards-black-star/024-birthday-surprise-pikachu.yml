@@ -1,0 +1,38 @@
+name: Birthday Surprise Pikachu
+
+origin: wizards-black-star-024
+
+layout: standard
+
+category: Pokémon
+
+facet:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 25
+
+rule:
+  - type: attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Birthday Surprise
+    text: If it's not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+regulation:
+
+errata: []
