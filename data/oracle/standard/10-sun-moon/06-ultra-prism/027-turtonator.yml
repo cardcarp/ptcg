@@ -1,0 +1,43 @@
+name: Turtonator
+
+origin: ultra-prism-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 776
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Steam Artillery
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

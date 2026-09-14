@@ -1,0 +1,46 @@
+name: Golisopod
+
+origin: chaos-rising-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Wimpod
+
+dex: 768
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Critical Slash
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boundless Power
+    text: During your next turn, this Pokémon can't use attacks.
+    damage: 150
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

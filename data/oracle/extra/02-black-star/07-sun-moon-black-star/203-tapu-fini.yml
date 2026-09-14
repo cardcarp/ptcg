@@ -1,0 +1,42 @@
+name: Tapu Fini
+
+origin: sun-moon-black-star-203
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 788
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Razor Fin
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Nature Wave
+    text: If your opponent has any Ultra Beasts in play, this attack can be used for Colorless.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Araquanid
+
+origin: silver-tempest-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Dewpider
+
+dex: 752
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Drowning Ball
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed, and discard an Energy from that Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Headbutt Bounce
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

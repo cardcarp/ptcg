@@ -1,0 +1,50 @@
+name: Revavroom
+
+origin: scarlet-violet-black-star-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Varoom
+
+dex: 966
+
+rule:
+  - type: Ability
+    name: Rumbling Engine
+    text: You must discard an Energy card from your hand in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

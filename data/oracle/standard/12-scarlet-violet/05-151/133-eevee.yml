@@ -1,0 +1,39 @@
+name: Eevee
+
+origin: 151-133
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 133
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Colorful Friends
+    text: Search your deck for up to 3 Pokémon of different types, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Skip
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

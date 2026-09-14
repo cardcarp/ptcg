@@ -1,0 +1,47 @@
+name: Floatzel
+
+origin: great-encounters-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Buizel
+
+dex: 419
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Floatzel during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Jet
+    text: Flip a coin. If heads, this attack does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

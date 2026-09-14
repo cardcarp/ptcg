@@ -1,0 +1,36 @@
+name: Koffing
+
+origin: base-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 109
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Foul Gas
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, it is now Confused.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

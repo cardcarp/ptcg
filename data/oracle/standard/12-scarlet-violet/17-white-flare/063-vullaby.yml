@@ -1,0 +1,39 @@
+name: Vullaby
+
+origin: white-flare-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 629
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Playful Kick
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

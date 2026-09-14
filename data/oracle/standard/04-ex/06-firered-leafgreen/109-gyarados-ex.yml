@@ -1,0 +1,52 @@
+name: Gyarados ex
+
+origin: firered-leafgreen-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Twister
+    text: Flip 2 coins. For each heads, choose 1 Energy attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing.
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Rage
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

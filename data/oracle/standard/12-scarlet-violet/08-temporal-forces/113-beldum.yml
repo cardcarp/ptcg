@@ -1,0 +1,47 @@
+name: Beldum
+
+origin: temporal-forces-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 374
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Dig Claws
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Iron Tackle
+    text: This Pokémon also does 10 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,38 @@
+name: Gloom
+
+origin: cosmic-eclipse-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Sleep Powder
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

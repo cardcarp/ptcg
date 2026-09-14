@@ -1,0 +1,35 @@
+name: Litwick
+
+origin: plasma-storm-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 607
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

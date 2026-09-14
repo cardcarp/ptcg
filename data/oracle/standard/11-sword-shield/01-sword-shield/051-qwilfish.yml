@@ -1,0 +1,39 @@
+name: Qwilfish
+
+origin: sword-shield-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 211
+
+rule:
+  - type: Ability
+    name: Poison Point
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,53 @@
+name: Deoxys V
+
+origin: sword-shield-black-star-266
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 210
+
+dex: 386
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Power Edge
+    damage: 140
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

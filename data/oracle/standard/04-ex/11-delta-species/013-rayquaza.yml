@@ -1,0 +1,61 @@
+name: Rayquaza δ
+
+origin: delta-species-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Lightning
+  - Metal
+
+hp: 90
+
+dex: 384
+
+rule:
+  - type: Ability
+    name: Delta Guard
+    text: As long as Rayquaza has any Holon Energy cards attached to it, ignore the effect of Rayquaza's Lightning Storm attack.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Power Blow
+    text: Does 10 damage times the amount of Energy attached to Rayquaza.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Lightning
+      - Metal
+      - Colorless
+      - Colorless
+    name: Lightning Storm
+    text: Put 7 damage counters on Rayquaza.
+    damage: 70
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - This Pokémon is both Lightning Metal type.
+
+errata: []

@@ -1,0 +1,44 @@
+name: Munkidori ex
+
+origin: shrouded-fable-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 1015
+
+rule:
+  - type: Ability
+    name: Oh No You Don't
+    text: If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, and if you have any Pecharunt ex in play, your opponent takes 1 fewer Prize card.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dirty Headbutt
+    text: During your next turn, this Pokémon can't use Dirty Headbutt.
+    damage: 190
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

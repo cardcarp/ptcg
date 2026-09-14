@@ -1,0 +1,49 @@
+name: Bronzong
+
+origin: triumphant-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Legend Ceremony
+    text: Search your deck for both halves of a Pokémon LEGEND, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reflect Energy
+    text: Move an Energy card attached to Bronzong to 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

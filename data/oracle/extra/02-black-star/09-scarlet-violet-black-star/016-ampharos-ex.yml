@@ -1,0 +1,50 @@
+name: Ampharos ex
+
+origin: scarlet-violet-black-star-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Lightning
+
+hp: 330
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electro Ball
+    damage: 60
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunderstrike Tail
+    text: You may discard 2 Energy from this Pokémon to have this attack do 100 more damage.
+    damage: 140
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

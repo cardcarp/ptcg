@@ -1,0 +1,47 @@
+name: Sceptile-EX
+
+origin: xy-black-star-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Grass
+
+hp: 170
+
+dex: 254
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Strong Slash
+    text: This Pokémon can't use Strong Slash during your next turn.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

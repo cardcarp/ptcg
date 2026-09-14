@@ -1,0 +1,42 @@
+name: Crabrawler
+
+origin: stellar-crown-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 739
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Vise Grip
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Crabhammer
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,57 @@
+name: Lurantis-GX
+
+origin: sun-moon-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Grass
+
+hp: 210
+
+preevolution:
+  - Fomantis
+
+dex: 754
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Flower Supply
+    text: Attach 2 basic Energy cards from your discard pile to your Pokémon in any way you like.
+    damage: 40
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Solar Blade
+    text: Heal 30 damage from this Pokémon.
+    damage: 120
+  - type: Attack
+    cost:
+      - Grass
+    name: Chloroscythe-GX
+    text: This attack does 50 damage times the amount of Grass Energy attached to this Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

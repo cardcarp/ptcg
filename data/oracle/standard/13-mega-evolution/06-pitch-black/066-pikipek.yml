@@ -1,0 +1,41 @@
+name: Pikipek
+
+origin: pitch-black-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 731
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Stab
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

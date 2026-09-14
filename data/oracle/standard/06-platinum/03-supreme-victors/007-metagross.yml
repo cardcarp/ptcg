@@ -1,0 +1,48 @@
+name: Metagross
+
+origin: supreme-victors-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Metang
+
+dex: 376
+
+rule:
+  - type: Ability
+    name: Gravitation
+    text: Each Pokémon in play (both yours and your opponent's) gets -20 HP. No more than 20 HP can be reduced by all Gravitation Poké-Bodies.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Geo Impact
+    text: If you have a Stadium card in play, this attack does 20 damage to each of your opponent's Benched Pokémon that is the same type as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

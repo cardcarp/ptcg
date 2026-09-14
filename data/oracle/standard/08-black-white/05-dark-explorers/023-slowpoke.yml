@@ -1,0 +1,41 @@
+name: Slowpoke
+
+origin: dark-explorers-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 79
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Big Yawn
+    text: Both this Pokémon and the Defending Pokémon are now Asleep.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Shot in the Dark
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

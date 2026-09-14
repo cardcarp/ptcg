@@ -1,0 +1,50 @@
+name: Chansey
+
+origin: neo-destiny-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 113
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Doubleslap
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Egg Toss
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

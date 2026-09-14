@@ -1,0 +1,41 @@
+name: Lapras
+
+origin: heartgold-soulsilver-black-star-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 131
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Ferry
+    text: Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Surf
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Baltoy
+
+origin: ancient-origins-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Slap
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spinning Attack
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

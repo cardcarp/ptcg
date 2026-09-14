@@ -1,0 +1,50 @@
+name: Vikavolt
+
+origin: rebel-clash-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Charjabug
+
+dex: 738
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Powerful Storm
+    text: This attack does 20 more damage for each Energy attached to all of your Pokémon.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Thunder Jolt Beam
+    text: This Pokémon also does 30 damage to itself.
+    damage: 170
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

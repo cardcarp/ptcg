@@ -1,0 +1,49 @@
+name: Luxray GL
+
+origin: rising-rivals-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 405
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Trash Bolt
+    text: Discard an Energy card from your hand. (If you can't discard a card from your hand, this attack does nothing.)
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

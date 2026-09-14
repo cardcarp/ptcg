@@ -1,0 +1,48 @@
+name: Dark Flaaffy
+
+origin: team-rocket-returns-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Mareep
+
+dex: 180
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Thunder Slash
+    text: If the Defending Pokémon is a Basic Pokémon, the Defending Pokémon is now Paralyzed. Dark Flaaffy can't use Thunder Slash during your next turn.
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Lightning Darkness type.
+
+errata: []

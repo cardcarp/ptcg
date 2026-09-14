@@ -1,0 +1,46 @@
+name: Charizard
+
+origin: generations-005rc
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 160
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Recall
+    text: Choose 1 of this Pokémon's attacks from its previous Evolutions and use it as this attack.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Combustion Blast
+    text: This Pokémon can't use Combustion Blast during your next turn.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Ribombee
+
+origin: burning-shadows-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 70
+
+preevolution:
+  - Cutiefly
+
+dex: 743
+
+rule:
+  - type: Ability
+    name: Honey Gather
+    text: Once during your turn (before your attack), you may search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pollen Shot
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Persian
+
+origin: firered-leafgreen-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: Ability
+    name: Thick Skin
+    text: Persian can't be affected by any Special Conditions.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Poison Claws
+    text: The Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Shining Claws
+    text: The Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

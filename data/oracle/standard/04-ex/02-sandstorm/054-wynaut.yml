@@ -1,0 +1,37 @@
+name: Wynaut
+
+origin: sandstorm-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 360
+
+rule:
+  - type: Ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Wobbuffet from your hand onto Wynaut (this counts as evolving Wynaut), and remove all damage counters from Wynaut.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Alluring Smile
+    text: Search your deck for a Basic Pokémon card or Evolution card for each Energy attached to Wynaut, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

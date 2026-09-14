@@ -1,0 +1,41 @@
+name: Chespin
+
+origin: breakthrough-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 650
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nosh
+    text: Heal 20 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Seed Bomb
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

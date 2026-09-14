@@ -1,0 +1,43 @@
+name: Ninetales
+
+origin: chaos-rising-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Nine-Tailed Transfer
+    text: Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Will-O-Wisp
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

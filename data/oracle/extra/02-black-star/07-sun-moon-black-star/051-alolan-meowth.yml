@@ -1,0 +1,42 @@
+name: Alolan Meowth
+
+origin: sun-moon-black-star-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 52
+
+rule:
+  - type: Attack
+    name: Nasty Plot
+    text: Flip a coin. If heads, search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,49 @@
+name: Togetic
+
+origin: undaunted-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Chase Up
+    text: Search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fly
+    text: Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage done to Togetic during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

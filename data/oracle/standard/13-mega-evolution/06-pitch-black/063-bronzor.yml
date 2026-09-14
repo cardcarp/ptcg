@@ -1,0 +1,41 @@
+name: Bronzor
+
+origin: pitch-black-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 436
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Mirror Attack
+    text: If your opponent's Active Pokémon is a Metal Pokémon, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

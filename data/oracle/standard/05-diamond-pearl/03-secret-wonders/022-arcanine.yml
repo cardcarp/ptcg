@@ -1,0 +1,44 @@
+name: Arcanine
+
+origin: secret-wonders-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: Ability
+    name: Flame Dash
+    text: Once during your turn, when you play Arcanine from your hand to evolve 1 of your Benched Pokémon, you may switch Arcanine with 1 of your Active Pokémon. If you do, you may move any number of Energy cards attached to that Pokémon to Arcanine.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Inferno Onrush
+    text: Arcanine does 40 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+retreat: 2
+
+errata: []

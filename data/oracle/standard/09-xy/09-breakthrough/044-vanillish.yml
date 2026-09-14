@@ -1,0 +1,46 @@
+name: Vanillish
+
+origin: breakthrough-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Vanillite
+
+dex: 583
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Ice Edge
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

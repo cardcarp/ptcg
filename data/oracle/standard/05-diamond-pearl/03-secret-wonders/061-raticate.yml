@@ -1,0 +1,44 @@
+name: Raticate
+
+origin: secret-wonders-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gnaw Off
+    text: Flip a coin. If heads, this attack does 10 damage plus 60 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sneaky Attack
+    text: If Raticate has any Darkness Energy attached to it, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+errata: []

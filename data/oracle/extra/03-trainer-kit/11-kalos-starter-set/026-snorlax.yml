@@ -1,0 +1,46 @@
+name: Snorlax
+
+origin: kalos-starter-set-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 143
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rock Smash
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strength
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

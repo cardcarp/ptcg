@@ -1,0 +1,39 @@
+name: Oddish
+
+origin: undaunted-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 43
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+    name: Find a Friend
+    text: Flip a coin. If heads, search your deck for a Grass Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

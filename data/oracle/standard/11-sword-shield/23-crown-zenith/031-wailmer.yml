@@ -1,0 +1,41 @@
+name: Wailmer
+
+origin: crown-zenith-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 320
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Heal 30 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Water Gun
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

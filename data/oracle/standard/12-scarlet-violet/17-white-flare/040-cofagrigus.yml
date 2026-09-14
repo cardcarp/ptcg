@@ -1,0 +1,51 @@
+name: Cofagrigus
+
+origin: white-flare-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Yamask
+
+dex: 563
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Extended Damagriiigus
+    text: Move all damage counters from 1 of your Benched Pokémon to 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,33 @@
+name: Gastly
+
+origin: neo-destiny-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 92
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Nightmare
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

@@ -1,0 +1,52 @@
+name: Team Aqua's Manectric
+
+origin: team-magma-vs-team-aqua-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Team Aqua's Electrike
+
+dex: 310
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Aqua Beam
+    text: If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Chaos Crush
+    text: If the Defending Pokémon is Confused, discard an Energy card attached to the Defending Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

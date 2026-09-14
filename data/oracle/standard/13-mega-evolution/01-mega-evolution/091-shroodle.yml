@@ -1,0 +1,36 @@
+name: Shroodle
+
+origin: mega-evolution-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 944
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Poison Jab
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

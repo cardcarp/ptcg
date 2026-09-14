@@ -1,0 +1,47 @@
+name: Vanilluxe
+
+origin: white-flare-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Vanillish
+
+dex: 584
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 60
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Double Freeze
+    text: Flip 2 coins. This attack does 90 damage for each heads. If either of them is heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

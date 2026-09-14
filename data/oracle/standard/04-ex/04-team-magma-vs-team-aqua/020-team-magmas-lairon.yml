@@ -1,0 +1,45 @@
+name: Team Magma's Lairon
+
+origin: team-magma-vs-team-aqua-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Team Magma's Aron
+
+dex: 305
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Tackle
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

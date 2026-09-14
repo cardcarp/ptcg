@@ -1,0 +1,41 @@
+name: Growlithe
+
+origin: scarlet-violet-black-star-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 58
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stoke
+    text: Search your deck for up to 2 Basic Fire Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Fire Claws
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

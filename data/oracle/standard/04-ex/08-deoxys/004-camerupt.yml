@@ -1,0 +1,44 @@
+name: Camerupt
+
+origin: deoxys-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Back Burner
+    text: Search your discard pile for up to 2 basic Energy cards and attach them to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Split Bomb
+    text: Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

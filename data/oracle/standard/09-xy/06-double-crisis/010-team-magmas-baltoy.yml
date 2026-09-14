@@ -1,0 +1,35 @@
+name: Team Magma's Baltoy
+
+origin: double-crisis-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Telekinesis
+    text: This attack does 20 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,36 @@
+name: Joltik
+
+origin: paradox-rift-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 595
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Flail Around
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

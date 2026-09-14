@@ -1,0 +1,51 @@
+name: Zapdos
+
+origin: next-destinies-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 145
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Random Spark
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Thundering Hurricane
+    text: Flip 4 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

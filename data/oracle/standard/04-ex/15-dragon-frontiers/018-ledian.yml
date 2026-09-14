@@ -1,0 +1,41 @@
+name: Ledian δ
+
+origin: dragon-frontiers-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Ledyba
+
+dex: 166
+
+rule:
+  - type: Ability
+    name: Prowl
+    text: Once during your turn, when you play Ledian from your hand to evolve 1 of your Pokémon, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Star
+    text: If Ledian has a Pokémon Tool card attached to it, draw 3 cards.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

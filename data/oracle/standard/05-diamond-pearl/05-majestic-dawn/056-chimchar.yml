@@ -1,0 +1,41 @@
+name: Chimchar
+
+origin: majestic-dawn-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 390
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

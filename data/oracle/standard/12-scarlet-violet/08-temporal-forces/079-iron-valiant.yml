@@ -1,0 +1,44 @@
+name: Iron Valiant
+
+origin: temporal-forces-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Future
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 1006
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gemini Laser
+    text: This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Zen Blade
+    text: During your next turn, this Pokémon can't use Zen Blade.
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

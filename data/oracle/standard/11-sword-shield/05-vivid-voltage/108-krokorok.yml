@@ -1,0 +1,44 @@
+name: Krokorok
+
+origin: vivid-voltage-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Sandile
+
+dex: 552
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dredge Up
+    text: Discard the top 3 cards of your opponent's deck.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

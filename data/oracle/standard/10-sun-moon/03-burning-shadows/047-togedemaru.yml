@@ -1,0 +1,47 @@
+name: Togedemaru
+
+origin: burning-shadows-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 777
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Rollout
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electrosmash
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

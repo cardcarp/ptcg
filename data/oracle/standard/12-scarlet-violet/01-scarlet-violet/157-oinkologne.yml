@@ -1,0 +1,46 @@
+name: Oinkologne
+
+origin: scarlet-violet-157
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Lechonk
+
+dex: 916
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Leg Stomp
+    text: Flip a coin. If tails, during your next turn, this Pokémon can't attack.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

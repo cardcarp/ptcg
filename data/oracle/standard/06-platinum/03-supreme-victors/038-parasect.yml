@@ -1,0 +1,45 @@
+name: Parasect
+
+origin: supreme-victors-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Paras
+
+dex: 47
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nutritional Support
+    text: Search your deck for up to 2 Grass Energy cards and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Hibernation Spore
+    text: The Defending Pokémon is now Asleep. Flip 2 coins instead of 1 between turns. If either of them is tails, the Defending Pokémon is still Asleep.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

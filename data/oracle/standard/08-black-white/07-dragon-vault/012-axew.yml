@@ -1,0 +1,39 @@
+name: Axew
+
+origin: dragon-vault-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 40
+
+dex: 610
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Signs of Evolution
+    text: Flip a coin. If heads, search your deck for Fraxure, reveal it, and put it into your hand, Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Metal
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

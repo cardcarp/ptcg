@@ -1,0 +1,43 @@
+name: Flying Pikachu
+
+origin: evolutions-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fly
+    text: Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 30
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

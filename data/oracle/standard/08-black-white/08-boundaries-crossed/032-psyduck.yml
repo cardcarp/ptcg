@@ -1,0 +1,34 @@
+name: Psyduck
+
+origin: boundaries-crossed-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 54
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dazzle Dance
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

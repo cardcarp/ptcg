@@ -1,0 +1,40 @@
+name: Sabrina's Mr. Mime
+
+origin: gym-heroes-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 122
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sleight of Hand
+    text: Choose up to 3 cards from your hand and put them on top of your deck. Then search your deck for that many basic Energy cards. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Slap
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

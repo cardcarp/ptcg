@@ -1,0 +1,46 @@
+name: Nidorino
+
+origin: evolutions-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Nidoran ♂
+
+dex: 33
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Horn Attack
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fury Attack
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

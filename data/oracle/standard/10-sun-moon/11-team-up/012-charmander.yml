@@ -1,0 +1,35 @@
+name: Charmander
+
+origin: team-up-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Ember
+    text: Discard an Energy from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

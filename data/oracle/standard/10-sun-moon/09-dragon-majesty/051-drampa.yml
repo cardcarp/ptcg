@@ -1,0 +1,42 @@
+name: Drampa
+
+origin: dragon-majesty-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 780
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dragon Wisdom
+    text: Attach a basic Energy card from your discard pile to 1 of your Dragon Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 80
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Rotom ex
+
+origin: phantasmal-flames-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Lightning
+
+hp: 190
+
+dex: 479
+
+rule:
+  - type: Ability
+    name: Multi Adapter
+    text: Each of your Pokémon that has "Rotom" in its name may have up to 2 Pokémon Tool cards attached. If this Ability goes away, discard Pokémon Tools from those Pokémon until only 1 remains on each.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunderbolt
+    text: Discard all Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

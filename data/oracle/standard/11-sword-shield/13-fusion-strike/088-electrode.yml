@@ -1,0 +1,45 @@
+name: Electrode
+
+origin: fusion-strike-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sonic Boom
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+    name: Explosion
+    text: This Pokémon also does 90 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

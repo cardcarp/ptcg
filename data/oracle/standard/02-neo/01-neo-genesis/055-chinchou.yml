@@ -1,0 +1,41 @@
+name: Chinchou
+
+origin: neo-genesis-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 170
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Water
+    name: Flail
+    text: Does 10 damage times the number of damage counters on Chinchou.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

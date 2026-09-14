@@ -1,0 +1,40 @@
+name: Totodile
+
+origin: heartgold-soulsilver-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 158
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Gnaw
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

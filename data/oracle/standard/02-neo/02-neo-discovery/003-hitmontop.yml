@@ -1,0 +1,43 @@
+name: Hitmontop
+
+origin: neo-discovery-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 237
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Detect
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Triple Kick
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

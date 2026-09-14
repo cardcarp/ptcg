@@ -1,0 +1,43 @@
+name: Shuckle
+
+origin: legendary-treasures-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 213
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Share
+    text: Heal 40 damage from 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Double Stab
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

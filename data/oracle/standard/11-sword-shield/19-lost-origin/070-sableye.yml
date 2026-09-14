@@ -1,0 +1,44 @@
+name: Sableye
+
+origin: lost-origin-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 302
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+    name: Lost Mine
+    text: You can use this attack only if you have 10 or more cards in the Lost Zone. Put 12 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

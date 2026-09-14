@@ -1,0 +1,45 @@
+name: Metang
+
+origin: silver-tempest-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Beldum
+
+dex: 375
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Bullet Punch
+    text: Flip 2 coins. This attack does 30 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Shuppet
+
+origin: crystal-guardians-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 353
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ascension
+    text: Search your deck for a card that evolves from Shuppet and put it onto Shuppet. (This counts as evolving Shuppet.) Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

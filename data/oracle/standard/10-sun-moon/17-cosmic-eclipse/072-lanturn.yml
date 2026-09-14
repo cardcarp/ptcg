@@ -1,0 +1,47 @@
+name: Lanturn
+
+origin: cosmic-eclipse-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: Ability
+    name: Blinking Lights
+    text: As often as you like during your turn (before your attack), you may look at the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Swirling Flow
+    text: You may have your opponent shuffle their deck.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

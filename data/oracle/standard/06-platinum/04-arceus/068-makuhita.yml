@@ -1,0 +1,40 @@
+name: Makuhita
+
+origin: arceus-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 296
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sand Attack
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Magnum Punch
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 2
+
+errata: []

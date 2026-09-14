@@ -1,0 +1,44 @@
+name: Shaymin
+
+origin: xy-black-star-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aromatherapy
+    text: Heal 30 damage from each of your Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Magical Leaf
+    text: Flip a coin. If heads, this attack does 20 more damage and heal 20 damage from this Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Prinplup
+
+origin: legendary-treasures-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Piplup
+
+dex: 394
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Splash
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

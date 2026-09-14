@@ -1,0 +1,40 @@
+name: Staryu
+
+origin: delta-species-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 120
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+    name: Recover
+    text: Discard a Water Energy card attached to Staryu and remove 4 damage counters from Staryu (all if there are less than 4).
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

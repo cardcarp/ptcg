@@ -1,0 +1,52 @@
+name: Rocket's Snorlax ex
+
+origin: team-rocket-returns-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 143
+
+rule:
+  - type: Ability
+    name: Dark Healer
+    text: As long as Rocket's Snorlax ex has any Darkness Energy attached to it, remove 1 damage counter from Rocket's Snorlax ex between turns.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poison Claws
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Collapse
+    text: Rocket's Snorlax ex is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

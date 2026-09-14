@@ -1,0 +1,42 @@
+name: Houndour
+
+origin: skyridge-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Retaliate
+    text: This attack does 10 damage times the number of damage counters on Houndour.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+    name: Fireworks
+    text: Flip a coin. If tails, discard a Fire Energy card attached to Houndour.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

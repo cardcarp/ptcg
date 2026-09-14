@@ -1,0 +1,42 @@
+name: Magmar
+
+origin: rebel-clash-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Heat Breath
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

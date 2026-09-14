@@ -1,0 +1,42 @@
+name: Porygon2
+
+origin: aquapolis-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Porygon
+
+dex: 233
+
+rule:
+  - type: Ability
+    name: Backup
+    text: Once during each of your turns (before your attack), if you have 2 or fewer cards in your hand, you may draw cards from your deck until you have 3 cards in your hand. This power can't be used if Porygon2 is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hypnotic Ray
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Ralts
+
+origin: ruby-sapphire-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 280
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Hypnoblast
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

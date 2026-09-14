@@ -1,0 +1,40 @@
+name: Pancham
+
+origin: stellar-crown-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 674
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Leer
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Low Kick
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

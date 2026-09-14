@@ -1,0 +1,42 @@
+name: Zubat
+
+origin: team-rocket-returns-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 41
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dark Streak
+    text: Flip a coin. If heads, each Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

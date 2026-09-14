@@ -1,0 +1,42 @@
+name: Feraligatr
+
+origin: scarlet-violet-black-star-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: Ability
+    name: Torrential Heart
+    text: Once during your turn, you may put 5 damage counters on this Pokémon. If you do, during this turn, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Giant Wave
+    text: During your next turn, this Pokémon can't use Giant Wave.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

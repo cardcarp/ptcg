@@ -1,0 +1,50 @@
+name: Gardevoir
+
+origin: platinum-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: Ability
+    name: Psychic Connect
+    text: As often as you like during your turn (before your attack), you may move a Psychic Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Gardevoir is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Energy Burst
+    text: Does 20 damage plus 10 more damage for each Energy attached to Gardevoir and the Defending Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Protection
+    text: Gardevoir has no Weakness during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+retreat: 1
+
+errata: []

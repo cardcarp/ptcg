@@ -1,0 +1,46 @@
+name: Indeedee
+
+origin: rebel-clash-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 876
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Replenish Time
+    text: Heal 30 damage from each of your Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Blaziken
+
+origin: great-encounters-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fire Dance
+    text: Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flame Kick
+    text: Discard 2 Fire Energy attached to Blaziken. This attack does 80 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+retreat: 1
+
+errata: []

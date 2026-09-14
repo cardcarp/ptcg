@@ -1,0 +1,39 @@
+name: Fletchling
+
+origin: unified-minds-179
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 661
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

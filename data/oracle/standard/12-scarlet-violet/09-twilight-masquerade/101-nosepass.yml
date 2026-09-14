@@ -1,0 +1,37 @@
+name: Nosepass
+
+origin: twilight-masquerade-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 299
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Rush
+    text: Flip a coin. If tails, during your next turn, this Pokémon can't attack.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,43 @@
+name: Genesect
+
+origin: plasma-blast-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 649
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for 2 Grass Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Jet Impact
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

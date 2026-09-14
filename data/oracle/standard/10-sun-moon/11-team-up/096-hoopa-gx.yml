@@ -1,0 +1,58 @@
+name: Hoopa-GX
+
+origin: team-up-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Darkness
+
+hp: 190
+
+dex: 720
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Rogue Ring
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Dark Strike
+    text: This Pokémon can't use Dark Strike during your next turn.
+    damage: 160
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Devilish Hands-GX
+    text: Choose 1 of your opponent's Pokémon-GX or Pokémon-EX 6 times. (You can choose the same Pokémon more than once.) For each time you chose a Pokémon, do 30 damage to it. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

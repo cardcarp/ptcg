@@ -1,0 +1,36 @@
+name: Litleo
+
+origin: flashfire-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 667
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

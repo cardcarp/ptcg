@@ -1,0 +1,52 @@
+name: Marowak
+
+origin: jungle-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 60
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Bonemerang
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Call for Friend
+    text: Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,51 @@
+name: Malamar
+
+origin: burning-shadows-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Inkay
+
+dex: 687
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Energy Slosh
+    text: You may move all Energy attached to this Pokémon to 1 of your Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

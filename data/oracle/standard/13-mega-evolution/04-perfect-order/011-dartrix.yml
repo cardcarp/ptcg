@@ -1,0 +1,44 @@
+name: Dartrix
+
+origin: perfect-order-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Rowlet
+
+dex: 723
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Leafage
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Feather Shot
+    text: Discard all Energy from this Pokémon, and this attack does 90 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

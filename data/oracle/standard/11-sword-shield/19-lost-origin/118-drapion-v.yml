@@ -1,0 +1,45 @@
+name: Drapion V
+
+origin: lost-origin-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 452
+
+rule:
+  - type: Ability
+    name: Wild Style
+    text: This Pokémon's attacks cost Colorless less for each of your opponent's Single Strike, Rapid Strike, and Fusion Strike Pokémon in play.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dynamic Tail
+    text: This attack also does 60 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 190
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

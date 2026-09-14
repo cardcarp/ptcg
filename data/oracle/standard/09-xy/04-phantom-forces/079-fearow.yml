@@ -1,0 +1,51 @@
+name: Fearow
+
+origin: phantom-forces-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Spearow
+
+dex: 22
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fly
+    text: Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Drill Peck
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Iron Moth
+
+origin: shrouded-fable-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Future
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 994
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Suction
+    text: Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Anachronism Repulsor
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Ancient Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

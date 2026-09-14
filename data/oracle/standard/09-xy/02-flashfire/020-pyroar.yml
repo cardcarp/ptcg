@@ -1,0 +1,44 @@
+name: Pyroar
+
+origin: flashfire-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Litleo
+
+dex: 668
+
+rule:
+  - type: Ability
+    name: Intimidating Mane
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Basic Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Scorching Fang
+    text: You may discard a Fire Energy attached to this Pokémon. If you do, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

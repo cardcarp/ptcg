@@ -1,0 +1,45 @@
+name: Trevenant
+
+origin: fusion-strike-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Gentle Slap
+    damage: 40
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Wood Hammer
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

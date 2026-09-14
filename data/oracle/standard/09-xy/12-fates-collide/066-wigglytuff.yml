@@ -1,0 +1,53 @@
+name: Wigglytuff
+
+origin: fates-collide-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 100
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Expand
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 60 damage times the number of heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

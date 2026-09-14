@@ -1,0 +1,34 @@
+name: Diglett
+
+origin: sword-shield-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 50
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Pyroar
+
+origin: prismatic-evolutions-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Litleo
+
+dex: 668
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Mane
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flame Tackle
+    text: During your next turn, this Pokémon can't attack.
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

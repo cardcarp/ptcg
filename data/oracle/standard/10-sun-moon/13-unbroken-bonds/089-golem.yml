@@ -1,0 +1,50 @@
+name: Golem
+
+origin: unbroken-bonds-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Graveler
+
+dex: 76
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Steamroller
+    text: This attack's damage isn't affected by Resistance.
+    damage: 100
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Slam
+    text: This attack does 20 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 180
+    modifier: '-'
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

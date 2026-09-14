@@ -1,0 +1,41 @@
+name: Chimecho
+
+origin: hidden-legends-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 358
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Chime
+    text: Search your opponent's discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your opponent's discard pile.)
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psychic Boom
+    text: Does 10 damage times the amount of Energy attached to the Defending Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

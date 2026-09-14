@@ -1,0 +1,40 @@
+name: Wooper
+
+origin: unseen-forces-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 194
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mud Shot
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Whap
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

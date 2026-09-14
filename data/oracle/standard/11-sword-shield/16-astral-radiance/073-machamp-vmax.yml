@@ -1,0 +1,51 @@
+name: Machamp VMAX
+
+origin: astral-radiance-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Fighting
+
+hp: 330
+
+preevolution:
+  - Machamp V
+
+dex: 68
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Revenge Buster
+    text: If your Benched Pokémon have any damage counters on them, this attack does 140 more damage.
+    damage: 80
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: G-Max Chi Strike
+    text: During your next turn, this Pokémon can't use G-Max Chi Strike.
+    damage: 240
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

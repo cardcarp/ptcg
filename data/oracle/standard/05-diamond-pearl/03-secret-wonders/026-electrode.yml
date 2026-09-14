@@ -1,0 +1,46 @@
+name: Electrode
+
+origin: secret-wonders-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Ability
+    name: Energy Shift
+    text: Once during your turn, if Electrode would be Knocked Out by damage from an attack, you may use this power. Electrode isn't discarded. Instead, attach it as an Energy card to 1 of your Pokémon. While attached, this card is a Special Energy card and provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Ion Blast
+    text: You may do 40 damage plus 60 more damage. If you do, Electrode does 100 damage to itself.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+errata: []

@@ -1,0 +1,51 @@
+name: Raichu
+
+origin: furious-fists-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

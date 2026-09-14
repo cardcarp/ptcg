@@ -1,0 +1,40 @@
+name: Clefairy
+
+origin: firered-leafgreen-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 35
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gesture
+    text: Choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Moon Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

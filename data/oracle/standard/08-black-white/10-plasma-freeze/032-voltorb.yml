@@ -1,0 +1,35 @@
+name: Voltorb
+
+origin: plasma-freeze-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Rollout
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

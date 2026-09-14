@@ -1,0 +1,41 @@
+name: Durant
+
+origin: breakpoint-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 632
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Mountain Munch
+    text: Discard the top card of your opponent's deck.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Scrape Down
+    text: If this Pokémon has any damage counters on it, discard the top 4 cards of your opponent's deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

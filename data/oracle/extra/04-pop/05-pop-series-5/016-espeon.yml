@@ -1,0 +1,45 @@
+name: Espeon ☆
+
+origin: pop-series-5-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Star
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 196
+
+rule:
+  - type: Ability
+    name: Purple Ray
+    text: Once during your turn, when you put Espeon Star from your hand onto your Bench, you may use this power. Each Active Pokémon (both yours and your opponent's) is now Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic Boom
+    text: Does 30 damage plus 10 more damage for each Energy attached to the Defending Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+errata: []

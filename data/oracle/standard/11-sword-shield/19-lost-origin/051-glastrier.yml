@@ -1,0 +1,44 @@
+name: Glastrier
+
+origin: lost-origin-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 896
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Freeze Down
+    text: If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Wild Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,35 @@
+name: Snover
+
+origin: paldea-evolved-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 459
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Corkscrew Punch
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

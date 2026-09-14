@@ -1,0 +1,48 @@
+name: Mewtwo-EX
+
+origin: xy-black-star-125
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Photon Wave
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psyburn
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

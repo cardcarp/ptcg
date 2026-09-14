@@ -1,0 +1,42 @@
+name: Ampharos
+
+origin: mega-evolution-black-star-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 160
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: Ability
+    name: Synchro Pulse
+    text: If you have the same number of cards in your hand as your opponent, attacks used by this Pokémon do 80 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Flashing Bolt
+    text: During your next turn, this Pokémon can't use Flashing Bolt.
+    damage: 140
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

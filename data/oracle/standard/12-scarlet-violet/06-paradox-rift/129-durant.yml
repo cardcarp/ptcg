@@ -1,0 +1,50 @@
+name: Durant
+
+origin: paradox-rift-129
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 632
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Swarming Rage
+    text: This attack does 20 damage for each damage counter on all of your Durant.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Hard Scissors
+    text: During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

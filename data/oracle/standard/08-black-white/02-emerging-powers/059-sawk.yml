@@ -1,0 +1,37 @@
+name: Sawk
+
+origin: emerging-powers-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 539
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Five Fierce Chops
+    text: Flip 5 coins. This attack does 20 damage times the number of heads. This Pokémon can't attack during your next turn.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Sandy Shocks
+
+origin: temporal-forces-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ancient
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 989
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Magnetic Burst
+    text: If you have 3 or more Energy in play, this attack does 70 more damage. This attack's damage isn't affected by Weakness.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Power Gem
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

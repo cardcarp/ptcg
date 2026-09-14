@@ -1,0 +1,43 @@
+name: Hippopotas
+
+origin: astral-radiance-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 449
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Mud-Slap
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rolling Tackle
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

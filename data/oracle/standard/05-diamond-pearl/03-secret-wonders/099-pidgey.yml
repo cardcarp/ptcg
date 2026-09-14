@@ -1,0 +1,45 @@
+name: Pidgey
+
+origin: secret-wonders-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 16
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Growl
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

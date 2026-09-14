@@ -1,0 +1,40 @@
+name: Deoxys Normal Forme
+
+origin: legends-awakened-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 386
+
+rule:
+  - type: Ability
+    name: Form Change
+    text: Once during your turn (before your attack), you may search your deck for any Deoxys and switch it with Deoxys Normal Forme. (Any cards attached to Deoxys Normal Forme, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Deoxys Normal Forme on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poké-Power each turn.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Energy Crush
+    text: Does 20 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

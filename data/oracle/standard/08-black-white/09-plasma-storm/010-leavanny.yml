@@ -1,0 +1,48 @@
+name: Leavanny
+
+origin: plasma-storm-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Swadloon
+
+dex: 542
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cleave
+    text: Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Leaf Blade
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,51 @@
+name: Lilligant
+
+origin: black-white-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Petilil
+
+dex: 549
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Petal Dance
+    text: Flip 3 coins. This attack does 30 damage times the number of heads. This Pokémon is now confused.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Storm
+    text: Heal 20 damage from each of your Grass Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

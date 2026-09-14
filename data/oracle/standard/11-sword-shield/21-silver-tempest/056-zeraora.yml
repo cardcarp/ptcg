@@ -1,0 +1,41 @@
+name: Zeraora
+
+origin: silver-tempest-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 807
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Battle Claw
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Mach Bolt
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

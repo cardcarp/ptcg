@@ -1,0 +1,47 @@
+name: Milotic ex
+
+origin: surging-sparks-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Water
+
+hp: 270
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: Ability
+    name: Sparkling Scales
+    text: Prevent all damage from and effects of attacks from your opponent's Tera Pokémon done to this Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hypno Splash
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

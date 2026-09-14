@@ -1,0 +1,41 @@
+name: Magmar
+
+origin: team-rocket-returns-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dump and Draw
+    text: Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flame Tail
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

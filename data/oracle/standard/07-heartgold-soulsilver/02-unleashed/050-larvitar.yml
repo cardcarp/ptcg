@@ -1,0 +1,45 @@
+name: Larvitar
+
+origin: unleashed-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 246
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mountain Eater
+    text: Discard the top card of your opponent's deck. Then, remove 2 damage counters from Larvitar.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Reckless Charge
+    text: Larvitar does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Gardevoir
+
+origin: legendary-treasures-010rc
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psybeam
+    text: The Defending Pokémon is now Confused.
+    damage: 40
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Eternal Radiance
+    text: Move all damage counters from this Pokémon to the Defending Pokémon. This Pokémon can't use Eternal Radiance during your next turn.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Lapras
+
+origin: xy-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 131
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Seafaring
+    text: Flip 3 coins. For each heads, attach a Water Energy card from your discard pile to your Benched Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 20 more damage for each Water Energy attached to this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Carnivine
+
+origin: legendary-treasures-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 455
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ambush Bite
+    text: Flip a coin. If heads, this attack does 20 more damage and discard an Energy attached to the Defending Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

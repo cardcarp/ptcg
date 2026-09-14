@@ -1,0 +1,40 @@
+name: Croagunk
+
+origin: sword-shield-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 453
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Lunge Out
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

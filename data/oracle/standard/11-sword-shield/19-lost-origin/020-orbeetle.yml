@@ -1,0 +1,43 @@
+name: Orbeetle
+
+origin: lost-origin-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Dottler
+
+dex: 826
+
+rule:
+  - type: Ability
+    name: Jamming Attachment
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 3 Energy cards from your opponent's discard pile to your opponent's Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mysterious Wave
+    text: This attack does 50 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

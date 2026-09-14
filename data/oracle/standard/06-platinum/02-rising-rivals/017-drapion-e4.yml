@@ -1,0 +1,50 @@
+name: Drapion E4
+
+origin: rising-rivals-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 452
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mega Impact
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

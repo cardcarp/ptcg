@@ -1,0 +1,47 @@
+name: Gyarados
+
+origin: dragon-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Dragon Crush
+    text: Flip a coin. If heads, this attack does 10 damage to each Defending Pokémon. Discard an Energy card from each Defending Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Aqua Sonic
+    text: This attack's damage is not affected by Resistance.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

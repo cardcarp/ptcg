@@ -1,0 +1,35 @@
+name: Nacli
+
+origin: paradox-rift-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 932
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Corner
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,40 @@
+name: Sabrina's Gastly
+
+origin: gym-challenge-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 92
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Lick
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Fade Out
+    text: Return Sabrina's Gastly and all Energy cards attached to it to your hand. (Discard all other cards attached to Sabrina's Gastly.)
+    damage: 30
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

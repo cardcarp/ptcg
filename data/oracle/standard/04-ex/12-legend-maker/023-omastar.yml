@@ -1,0 +1,48 @@
+name: Omastar
+
+origin: legend-maker-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Omanyte
+
+dex: 139
+
+rule:
+  - type: Ability
+    name: Ancient Fang
+    text: As long as you have Kabuto, Kabutops, or Kabutops ex in play, Omastar's attacks do 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Drag Off
+    text: Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Splash
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

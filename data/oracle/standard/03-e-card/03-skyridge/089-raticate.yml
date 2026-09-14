@@ -1,0 +1,45 @@
+name: Raticate
+
+origin: skyridge-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Continuous Bite
+    text: Flip 3 coins. If you get 1 heads, this attack does 10 damage plus 10 more damage. If you get 2 heads, this attack does 10 damage plus 30 more damage. If you get 3 heads, this attack does 10 damage plus 60 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

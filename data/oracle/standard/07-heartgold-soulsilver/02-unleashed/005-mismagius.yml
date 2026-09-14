@@ -1,0 +1,46 @@
+name: Mismagius
+
+origin: unleashed-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: Ability
+    name: Magical Trans
+    text: Once during your turn (before your attack), you may move a Psychic Energy attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Mismagius is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psychic Pulse
+    text: Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

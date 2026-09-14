@@ -1,0 +1,50 @@
+name: Umbreon
+
+origin: sandstorm-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Moon Impact
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

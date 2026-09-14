@@ -1,0 +1,42 @@
+name: Durant
+
+origin: fusion-strike-184
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 632
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Adversity Jaws
+    text: If your opponent's Active Pokémon is a Fire Pokémon, it is now Paralyzed.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,55 @@
+name: Darkrai-EX
+
+origin: breakpoint-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Darkness
+
+hp: 180
+
+dex: 491
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dark Pulse
+    text: This attack does 20 more damage for each Darkness Energy attached to all of your Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Head
+    text: If your opponent's Active Pokémon is Asleep, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

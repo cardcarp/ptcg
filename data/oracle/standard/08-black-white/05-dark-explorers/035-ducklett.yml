@@ -1,0 +1,41 @@
+name: Ducklett
+
+origin: dark-explorers-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 580
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Pulse
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

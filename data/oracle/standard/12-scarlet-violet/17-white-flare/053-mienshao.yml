@@ -1,0 +1,44 @@
+name: Mienshao
+
+origin: white-flare-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Mienfoo
+
+dex: 620
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Low Sweep
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Smash Uppercut
+    text: This attack's damage isn't affected by Resistance.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

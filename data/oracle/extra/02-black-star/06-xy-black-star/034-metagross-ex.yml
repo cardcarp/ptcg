@@ -1,0 +1,55 @@
+name: Metagross-EX
+
+origin: xy-black-star-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Metal
+
+hp: 180
+
+dex: 376
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Magnetic Laser
+    text: You may move a Metal Energy from 1 of your Benched Pokémon to this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Squared Attack
+    text: Flip 4 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

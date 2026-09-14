@@ -1,0 +1,45 @@
+name: Bagon
+
+origin: stormfront-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 371
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scary Face
+    text: Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 30
+
+weakness:
+  - type: Colorless
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

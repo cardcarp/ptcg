@@ -1,0 +1,45 @@
+name: Delibird
+
+origin: mega-evolution-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 225
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Quick Gift
+    text: If you go first, you can use this attack during your first turn. Search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gentle Slap
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

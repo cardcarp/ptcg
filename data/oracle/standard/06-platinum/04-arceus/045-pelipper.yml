@@ -1,0 +1,49 @@
+name: Pelipper
+
+origin: arceus-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Wingull
+
+dex: 279
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Water Ball
+    text: Does 20 damage plus 10 more damage for each Water Energy attached to Pelipper.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

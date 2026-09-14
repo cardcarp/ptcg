@@ -1,0 +1,45 @@
+name: Galarian Meowth
+
+origin: fusion-strike-180
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 52
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Growl
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

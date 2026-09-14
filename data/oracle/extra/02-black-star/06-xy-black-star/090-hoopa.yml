@@ -1,0 +1,43 @@
+name: Hoopa
+
+origin: xy-black-star-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 720
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Summoning Draw
+    text: If Pikachu is on your Bench, draw 3 cards.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

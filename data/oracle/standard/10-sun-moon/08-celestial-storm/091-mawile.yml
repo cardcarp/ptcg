@@ -1,0 +1,47 @@
+name: Mawile
+
+origin: celestial-storm-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 303
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mining
+    text: Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck. If that card is a Pokémon Tool card, instead of putting it into your hand, you may attach it to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Bite Off
+    text: If your opponent's Active Pokémon is a Pokémon-GX or a Pokémon-EX, this attack does 30 more damage (before applying Weakness and Resistance).
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

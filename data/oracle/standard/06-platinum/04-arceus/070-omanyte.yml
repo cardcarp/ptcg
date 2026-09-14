@@ -1,0 +1,44 @@
+name: Omanyte
+
+origin: arceus-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Helix Fossil
+
+dex: 138
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Collect
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tickle
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

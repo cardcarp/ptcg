@@ -1,0 +1,58 @@
+name: Onix-GX
+
+origin: hidden-fates-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Fighting
+
+hp: 200
+
+dex: 95
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Bind
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 150
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rocky Avalanche-GX
+    text: During your opponent's next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance). (You can't use more than 1 GX attack in a game.)
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

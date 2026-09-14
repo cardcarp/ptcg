@@ -1,0 +1,44 @@
+name: Ludicolo
+
+origin: sandstorm-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Lombre
+
+dex: 272
+
+rule:
+  - type: Ability
+    name: Rain Dish
+    text: At any time between turns, remove 1 damage counter from Ludicolo.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Punch
+    text: Does 50 damage plus 10 more damage for each Water Energy attached to Ludicolo but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

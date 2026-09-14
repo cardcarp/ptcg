@@ -1,0 +1,41 @@
+name: Arctozolt
+
+origin: sword-shield-black-star-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Rare Fossil
+
+dex: 881
+
+rule:
+  - type: Ability
+    name: Biting Whirlpool
+    text: Whenever your opponent attaches an Energy card from their hand to 1 of their Pokémon, put 2 damage counters on that Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

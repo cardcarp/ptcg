@@ -1,0 +1,45 @@
+name: Flareon-EX
+
+origin: generations-006rc
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 170
+
+dex: 136
+
+rule:
+  - type: Ability
+    name: Flash Fire
+    text: Once during your turn (before your attack), you may move a Fire Energy from 1 of your Pokémon to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blaze Ball
+    text: This attack does 20 more damage for each Fire Energy attached to this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,34 @@
+name: Foongus
+
+origin: unified-minds-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 590
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spore
+    text: Your opponent's Active Pokémon is now Asleep.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

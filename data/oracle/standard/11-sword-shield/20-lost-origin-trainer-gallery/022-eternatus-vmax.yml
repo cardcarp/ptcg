@@ -1,0 +1,47 @@
+name: Eternatus VMAX
+
+origin: lost-origin-trainer-gallery-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+  - Eternamax
+
+type:
+  - Darkness
+
+hp: 340
+
+preevolution:
+  - Eternatus V
+
+dex: 890
+
+rule:
+  - type: Ability
+    name: Eternal Zone
+    text: If all of your Pokémon in play are Darkness type, you can have up to 8 Pokémon on your Bench, and you can't put non-Darkness Pokémon into play. (If this Ability stops working, discard Pokémon from your Bench until you have 5.)
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dread End
+    text: This attack does 30 damage for each of your Darkness Pokémon in play.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

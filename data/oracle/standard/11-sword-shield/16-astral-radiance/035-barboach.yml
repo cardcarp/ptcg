@@ -1,0 +1,36 @@
+name: Barboach
+
+origin: astral-radiance-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 339
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Rain Splash
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

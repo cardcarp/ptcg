@@ -1,0 +1,49 @@
+name: Gyarados
+
+origin: mysterious-treasures-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Ability
+    name: Dragon DNA
+    text: Gyarados can use any attack from its Basic Pokémon. (You still have to pay for that attack's Energy cost.) If Gyarados uses any attack from its Basic Pokémon, that attack does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Enrage
+    text: Flip a coin until you get tails. For each heads, choose 1 card from your opponent's hand without looking and discard it. If the first coin is tails, Gyarados is now Confused.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

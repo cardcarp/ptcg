@@ -1,0 +1,49 @@
+name: Aurorus
+
+origin: forbidden-light-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Amaura
+
+dex: 699
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Wall
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Blizzard Burn
+    text: This Pokémon can't attack during your next turn.
+    damage: 150
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

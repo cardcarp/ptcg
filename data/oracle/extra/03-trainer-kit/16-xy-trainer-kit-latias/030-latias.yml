@@ -1,0 +1,41 @@
+name: Latias
+
+origin: xy-trainer-kit-latias-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 380
+
+rule:
+  - type: Attack
+    name: Psychic Sphere
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic Prism
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

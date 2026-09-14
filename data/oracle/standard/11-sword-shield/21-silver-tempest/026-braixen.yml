@@ -1,0 +1,45 @@
+name: Braixen
+
+origin: silver-tempest-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Fennekin
+
+dex: 654
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flare Parade
+    text: This attack does 60 damage for each Serena card in your discard pile.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

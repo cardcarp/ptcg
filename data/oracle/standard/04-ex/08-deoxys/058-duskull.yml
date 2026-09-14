@@ -1,0 +1,45 @@
+name: Duskull
+
+origin: deoxys-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 355
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Will-o'-the-wisp
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

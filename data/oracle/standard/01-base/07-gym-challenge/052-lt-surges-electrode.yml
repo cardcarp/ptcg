@@ -1,0 +1,44 @@
+name: Lt. Surge's Electrode
+
+origin: gym-challenge-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Lt. Surge's Voltorb
+
+dex: 101
+
+rule:
+  - type: Ability
+    name: Shock Blast
+    text: If Lt. Surge's Electrode is your Active Pokémon and gets damaged (even if it's Knocked Out), flip a coin. If tails, this power does 20 damage to each Active Pokémon. This power works even if Lt. Surge's Electrode is already Asleep, Confused, or Paralyzed when it takes damage.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Power Ball
+    text: Flip 3 coins. This attack does 30 damage plus 10 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

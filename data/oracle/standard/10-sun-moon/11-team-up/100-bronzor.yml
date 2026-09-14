@@ -1,0 +1,43 @@
+name: Bronzor
+
+origin: team-up-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 436
+
+rule:
+  - type: Ability
+    name: Evolutionary Advantage
+    text: If you go second, this Pokémon can evolve during your first turn.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

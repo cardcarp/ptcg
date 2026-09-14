@@ -1,0 +1,46 @@
+name: Sigilyph
+
+origin: silver-tempest-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 561
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Warning
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck. If your opponent's Active Pokémon is a Pokémon V, you may put up to 5 Basic Pokémon onto your Bench in this way instead.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Cutting Wind
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Chi-Yu
+
+origin: scarlet-violet-black-star-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 1004
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flare Bringer
+    text: Attach up to 2 Basic Fire Energy cards from your discard pile to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Megafire of Envy
+    text: If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 90 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

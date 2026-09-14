@@ -1,0 +1,41 @@
+name: Magmar
+
+origin: dragons-exalted-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Beat
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Magma Punch
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

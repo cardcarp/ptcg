@@ -1,0 +1,43 @@
+name: Octillery
+
+origin: aquapolis-020h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: Ability
+    name: Suction Cups
+    text: As long as Octillery is your Active Pokémon, whenever the Defending Pokémon retreats, discard all Energy cards attached to the Defending Pokémon when it goes to the Bench.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

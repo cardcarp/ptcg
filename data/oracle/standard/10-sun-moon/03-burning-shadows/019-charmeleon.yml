@@ -1,0 +1,45 @@
+name: Charmeleon
+
+origin: burning-shadows-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Heat Blast
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

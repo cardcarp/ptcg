@@ -1,0 +1,47 @@
+name: Manectric
+
+origin: lost-origin-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 50
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Assault Laser
+    text: If your opponent's Active Pokémon has a Pokémon Tool attached, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

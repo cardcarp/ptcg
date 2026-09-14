@@ -1,0 +1,38 @@
+name: Luxray BREAK
+
+origin: breakpoint-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - BREAK
+
+type:
+  - Lightning
+
+hp: 170
+
+preevolution:
+  - Luxray
+
+dex: 405
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Wild Fury
+    text: Flip a coin until you get tails. This attack does 40 more damage for each heads.
+    damage: 130
+    modifier: +
+
+rulebox:
+  - 'BREAK Evolution Rule: Luxray BREAK retains the attacks, Abilities, Weakness, Resistance, and Retreat Cost of its previous Evolution.'
+
+errata: []

@@ -1,0 +1,40 @@
+name: Murkrow
+
+origin: neo-revelation-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 40
+
+dex: 198
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon card named Murkrow and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flock Attack
+    text: Flip a number of coins equal to the number of Murkrows on your Bench. This attack does 10 damage plus 10 more damage for each heads.
+    damage: 10
+    modifier: +
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+errata: []

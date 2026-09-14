@@ -1,0 +1,40 @@
+name: Voltorb
+
+origin: hidden-legends-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Recharge
+    text: Search your deck for a Lightning Energy card and attach it to Voltorb. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Rolling Attack
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

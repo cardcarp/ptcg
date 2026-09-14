@@ -1,0 +1,44 @@
+name: Togedemaru
+
+origin: phantasmal-flames-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 777
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Find a Friend
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Metal
+    name: Gnaw
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

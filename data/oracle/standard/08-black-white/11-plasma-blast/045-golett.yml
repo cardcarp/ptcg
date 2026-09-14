@@ -1,0 +1,41 @@
+name: Golett
+
+origin: plasma-blast-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 622
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Beat
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Mega Punch
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

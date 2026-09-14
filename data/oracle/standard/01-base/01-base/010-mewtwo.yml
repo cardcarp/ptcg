@@ -1,0 +1,43 @@
+name: Mewtwo
+
+origin: base-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Barrier
+    text: Discard 1 Psychic Energy card attached to Mewtwo in order to prevent all effects of attacks, including damage, done to Mewtwo during your opponent's next turn.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

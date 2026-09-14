@@ -1,0 +1,44 @@
+name: Flaaffy
+
+origin: lost-thunder-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Mareep
+
+dex: 180
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Signal Beam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

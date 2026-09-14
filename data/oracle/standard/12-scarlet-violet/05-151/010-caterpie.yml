@@ -1,0 +1,36 @@
+name: Caterpie
+
+origin: 151-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 10
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Leaf Munch
+    text: If your opponent's Active Pokémon is a Grass Pokémon, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

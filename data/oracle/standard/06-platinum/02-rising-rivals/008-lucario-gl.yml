@@ -1,0 +1,42 @@
+name: Lucario GL
+
+origin: rising-rivals-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 448
+
+rule:
+  - type: Ability
+    name: Boundary Aura
+    text: Apply Weakness for each Pokémon (both yours and your opponent's) as x2 instead.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Combo Throw
+    text: Does 30 damage plus 10 more damage for each Energy attached to the Defending Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,34 @@
+name: Mimikyu
+
+origin: cosmic-eclipse-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 778
+
+rule:
+  - type: Ability
+    name: Shadow Box
+    text: Pokémon-GX that have any damage counters on them (both yours and your opponent's) have no Abilities.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Trickery
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+retreat: 1
+
+errata: []

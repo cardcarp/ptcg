@@ -1,0 +1,44 @@
+name: Primeape
+
+origin: surging-sparks-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sweep the Leg
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Mega Punch
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

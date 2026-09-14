@@ -1,0 +1,50 @@
+name: Honchkrow
+
+origin: paldea-evolved-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Murkrow
+
+dex: 430
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Flap
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dirty Throw
+    text: Discard a card from your hand. If you can't, this attack does nothing.
+    damage: 140
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

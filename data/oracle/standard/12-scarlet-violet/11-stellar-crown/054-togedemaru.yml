@@ -1,0 +1,35 @@
+name: Togedemaru
+
+origin: stellar-crown-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 777
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electrifying Chance
+    text: If you have exactly 1 Prize card remaining, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

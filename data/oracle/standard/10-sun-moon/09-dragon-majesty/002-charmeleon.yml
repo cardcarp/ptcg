@@ -1,0 +1,43 @@
+name: Charmeleon
+
+origin: dragon-majesty-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: Ability
+    name: Burning Fighter
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may discard the top 5 cards of your deck. If any of those cards are Fire Energy cards, attach them to this Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

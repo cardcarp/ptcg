@@ -1,0 +1,47 @@
+name: Stoutland
+
+origin: black-white-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Herdier
+
+dex: 508
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Odor Sleuth
+    text: Flip 3 coins. For each heads, put a card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giga Impact
+    text: This Pokémon can't attack during your next turn.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

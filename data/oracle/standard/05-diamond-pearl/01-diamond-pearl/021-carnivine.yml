@@ -1,0 +1,48 @@
+name: Carnivine
+
+origin: diamond-pearl-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 455
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Swallow Up
+    text: Before doing damage, count the remaining HP of the Defending Pokémon and Carnivine. If the Defending Pokémon has fewer remaining HP than Carnivine's, this attack does 60 damage instead.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Wring Out
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

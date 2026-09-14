@@ -1,0 +1,36 @@
+name: Mankey
+
+origin: supreme-victors-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 56
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Extra Punch
+    text: If the Defending Pokémon is a Pokémon LV.X, this attack does 10 damage plus 50 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

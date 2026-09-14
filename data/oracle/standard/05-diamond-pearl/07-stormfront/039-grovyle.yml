@@ -1,0 +1,52 @@
+name: Grovyle
+
+origin: stormfront-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Treecko
+
+dex: 253
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Tail Shake
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 60 damage times the number of heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

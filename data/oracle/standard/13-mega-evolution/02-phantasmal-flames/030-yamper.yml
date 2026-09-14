@@ -1,0 +1,37 @@
+name: Yamper
+
+origin: phantasmal-flames-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 835
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Play Rough
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

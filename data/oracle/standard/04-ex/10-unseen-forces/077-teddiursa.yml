@@ -1,0 +1,39 @@
+name: Teddiursa
+
+origin: unseen-forces-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 216
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Teary Eyes
+    text: During your opponent's next turn, any damage done to Teddiursa by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

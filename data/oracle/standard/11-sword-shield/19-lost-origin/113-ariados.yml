@@ -1,0 +1,47 @@
+name: Ariados
+
+origin: lost-origin-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: String Bind
+    text: This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Venomous Fang
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

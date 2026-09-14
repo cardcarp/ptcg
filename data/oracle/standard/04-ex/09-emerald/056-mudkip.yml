@@ -1,0 +1,36 @@
+name: Mudkip
+
+origin: emerald-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 258
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Tail Strike
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

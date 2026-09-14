@@ -1,0 +1,47 @@
+name: Bombirdier
+
+origin: paldea-evolved-147
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 962
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Delivery Pocket
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Edge
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

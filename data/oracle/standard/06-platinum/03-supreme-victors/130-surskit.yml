@@ -1,0 +1,36 @@
+name: Surskit
+
+origin: supreme-victors-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 283
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

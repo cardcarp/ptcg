@@ -1,0 +1,37 @@
+name: Unown
+
+origin: heartgold-soulsilver-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 201
+
+rule:
+  - type: Ability
+    name: FLASH
+    text: Once during your turn, when you put Unown from your hand onto your Bench, you may look at the top 5 cards of your deck and put them back on top of your deck in any order.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hidden Power
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

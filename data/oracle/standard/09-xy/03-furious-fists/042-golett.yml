@@ -1,0 +1,49 @@
+name: Golett
+
+origin: furious-fists-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 622
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Pound
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Rock Smash
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

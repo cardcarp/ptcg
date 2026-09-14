@@ -1,0 +1,49 @@
+name: Mega Chandelure ex
+
+origin: pitch-black-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - ex
+
+type:
+  - Psychic
+
+hp: 350
+
+preevolution:
+  - Lampent
+
+dex: 609
+
+rule:
+  - type: Ability
+    name: Binding Flame
+    text: Your opponent's Active Pokémon's Retreat Cost is Colorless more.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Phantom Maze
+    text: This attack does 50 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 130
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

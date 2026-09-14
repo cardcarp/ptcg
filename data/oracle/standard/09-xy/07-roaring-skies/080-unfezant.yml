@@ -1,0 +1,51 @@
+name: Unfezant
+
+origin: roaring-skies-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Tranquill
+
+dex: 521
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strong Winds
+    text: Shuffle all cards attached to each player's Pokémon into that player's deck.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

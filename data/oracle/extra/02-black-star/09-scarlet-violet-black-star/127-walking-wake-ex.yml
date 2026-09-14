@@ -1,0 +1,46 @@
+name: Walking Wake ex
+
+origin: scarlet-violet-black-star-127
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+  - Ancient
+
+type:
+  - Water
+
+hp: 220
+
+dex: 1009
+
+rule:
+  - type: Ability
+    name: Azure Seas
+    text: Damage from attacks used by this Pokémon isn't affected by any effects on your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Catharsis Roar
+    text: If your opponent's Active Pokémon is affected by a Special Condition, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,35 @@
+name: Blitzle
+
+origin: noble-victories-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 522
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

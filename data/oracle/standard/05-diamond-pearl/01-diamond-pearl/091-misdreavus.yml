@@ -1,0 +1,46 @@
+name: Misdreavus
+
+origin: diamond-pearl-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 200
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Astonish
+    text: Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

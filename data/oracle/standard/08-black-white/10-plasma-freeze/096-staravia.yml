@@ -1,0 +1,44 @@
+name: Staravia
+
+origin: plasma-freeze-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Starly
+
+dex: 397
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

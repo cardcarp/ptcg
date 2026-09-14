@@ -1,0 +1,44 @@
+name: Mega Skarmory ex
+
+origin: perfect-order-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Metal
+
+hp: 260
+
+dex: 227
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Sonic Ripper
+    text: Shuffle all Energy attached to this Pokémon into your deck, and this attack does 220 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

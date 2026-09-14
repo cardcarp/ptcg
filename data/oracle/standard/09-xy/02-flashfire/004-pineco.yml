@@ -1,0 +1,35 @@
+name: Pineco
+
+origin: flashfire-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 204
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

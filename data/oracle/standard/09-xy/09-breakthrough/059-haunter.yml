@@ -1,0 +1,46 @@
+name: Haunter
+
+origin: breakthrough-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: Ability
+    name: Gothic Fear
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may leave both Active Pokémon Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poison Ring
+    text: Your opponent's Active Pokémon is now Poisoned. That Pokémon can't retreat during your opponent's next turn.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Herdier
+
+origin: cosmic-eclipse-175
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Lillipup
+
+dex: 507
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Work Up
+    text: During your next turn, this Pokémon's attacks do 60 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Headbutt Bounce
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

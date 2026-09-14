@@ -1,0 +1,39 @@
+name: Wingull
+
+origin: roaring-skies-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 278
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Durant
+
+origin: noble-victories-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 632
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Devour
+    text: For each of your Durant in play, discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Vice Grip
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

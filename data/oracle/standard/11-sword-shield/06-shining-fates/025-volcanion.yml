@@ -1,0 +1,45 @@
+name: Volcanion
+
+origin: shining-fates-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 721
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Hammer In
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Dynamite Steam
+    text: Flip 2 coins. This attack does 120 damage for each heads.
+    damage: 120
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

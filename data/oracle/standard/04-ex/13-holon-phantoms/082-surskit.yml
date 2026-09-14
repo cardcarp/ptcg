@@ -1,0 +1,35 @@
+name: Surskit
+
+origin: holon-phantoms-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 283
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Super Hypno Wave
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

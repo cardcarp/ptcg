@@ -1,0 +1,45 @@
+name: Beldum
+
+origin: vivid-voltage-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 374
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

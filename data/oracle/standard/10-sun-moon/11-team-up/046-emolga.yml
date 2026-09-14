@@ -1,0 +1,40 @@
+name: Emolga
+
+origin: team-up-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 587
+
+rule:
+  - type: Ability
+    name: Nuzzly Gathering
+    text: Once during your turn (before your attack), you may search your deck for a Pokémon that has the Nuzzle attack, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Nuzzle
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

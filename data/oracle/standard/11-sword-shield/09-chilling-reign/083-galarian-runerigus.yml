@@ -1,0 +1,44 @@
+name: Galarian Runerigus
+
+origin: chilling-reign-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Galarian Yamask
+
+dex: 867
+
+rule:
+  - type: Ability
+    name: Spiteful Slate
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon VMAX (even if this Pokémon is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Energy Press
+    text: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

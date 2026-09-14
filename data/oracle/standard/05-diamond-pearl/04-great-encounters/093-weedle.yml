@@ -1,0 +1,39 @@
+name: Weedle
+
+origin: great-encounters-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 13
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+    name: String Shot
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

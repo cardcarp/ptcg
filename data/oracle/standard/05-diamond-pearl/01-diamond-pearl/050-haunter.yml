@@ -1,0 +1,47 @@
+name: Haunter
+
+origin: diamond-pearl-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Dream Eater
+    text: If the Defending Pokémon is not Asleep, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+errata: []

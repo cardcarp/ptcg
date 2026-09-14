@@ -1,0 +1,44 @@
+name: Heracross
+
+origin: scarlet-violet-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 214
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Superpowered Throw
+    text: This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Horn Attack
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

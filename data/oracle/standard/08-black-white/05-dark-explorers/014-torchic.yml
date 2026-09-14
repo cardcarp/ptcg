@@ -1,0 +1,36 @@
+name: Torchic
+
+origin: dark-explorers-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 255
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

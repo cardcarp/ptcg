@@ -1,0 +1,52 @@
+name: Honchkrow LV.X
+
+origin: secret-wonders-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Level-Up
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Honchkrow
+
+dex: 430
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Darkness Wing
+    text: If the Defending Pokémon would be Knocked Out by damage from this attack, you may search your discard pile for any 1 card, show it to your opponent, and put it into your hand.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+rulebox:
+  - Put this card onto your Active Honchkrow. Honchkrow LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+errata: []

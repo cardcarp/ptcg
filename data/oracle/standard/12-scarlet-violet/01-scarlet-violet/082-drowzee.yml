@@ -1,0 +1,46 @@
+name: Drowzee
+
+origin: scarlet-violet-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 96
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Forced Sleep
+    text: Your opponent chooses 1 of their Benched Pokémon and switches it with their Active Pokémon. The new Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Gentle Slap
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

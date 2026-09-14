@@ -1,0 +1,45 @@
+name: Galarian Ponyta
+
+origin: sword-shield-black-star-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 77
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Heal Pulse
+    text: Heal 30 damage from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Flop
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Salamence
+
+origin: plasma-blast-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: Ability
+    name: Breakwing
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may discard all Pokémon Tool cards attached to each of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+      - Colorless
+    name: Gaia Crush
+    text: Discard any Stadium card in play.
+    damage: 100
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

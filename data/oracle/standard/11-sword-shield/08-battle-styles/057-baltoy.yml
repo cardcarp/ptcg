@@ -1,0 +1,41 @@
+name: Baltoy
+
+origin: battle-styles-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Self-Destruct
+    text: This Pokémon also does 60 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

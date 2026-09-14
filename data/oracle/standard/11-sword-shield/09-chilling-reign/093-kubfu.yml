@@ -1,0 +1,41 @@
+name: Kubfu
+
+origin: chilling-reign-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 891
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Training
+    text: Search your deck for a basic Energy card and attach it to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Elbow Strike
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

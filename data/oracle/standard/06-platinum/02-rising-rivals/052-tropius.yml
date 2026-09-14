@@ -1,0 +1,54 @@
+name: Tropius
+
+origin: rising-rivals-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 357
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fly
+    text: Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Tropius during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Blessed Fruit
+    text: Remove all damage counters from 1 of your Benched Grass Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Solarbeam
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

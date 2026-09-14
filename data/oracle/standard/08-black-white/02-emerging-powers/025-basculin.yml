@@ -1,0 +1,40 @@
+name: Basculin
+
+origin: emerging-powers-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 550
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Splatter
+    text: Does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

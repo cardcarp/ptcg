@@ -1,0 +1,43 @@
+name: Flygon
+
+origin: primal-clash-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 140
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: Ability
+    name: Sand Flap
+    text: Once during your turn (before your attack), you may choose either player. That player shuffles his or her hand into his or her deck and draws 4 cards.
+  - type: Attack
+    cost:
+      - Grass
+      - Fighting
+      - Colorless
+    name: Sand Tomb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 80
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

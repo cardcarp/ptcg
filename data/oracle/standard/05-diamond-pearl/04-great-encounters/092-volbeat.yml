@@ -1,0 +1,39 @@
+name: Volbeat
+
+origin: great-encounters-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 313
+
+rule:
+  - type: Ability
+    name: Light Conduct
+    text: Once during your turn (before your attack), if you have Illumise in play, you may search your discard pile for a Supporter card, show it to your opponent, and put it on top of your deck. This power can't be used if Volbeat is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Firefly Light
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

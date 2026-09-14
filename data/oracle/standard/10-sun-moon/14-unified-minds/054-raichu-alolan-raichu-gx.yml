@@ -1,0 +1,57 @@
+name: Raichu & Alolan Raichu-GX
+
+origin: unified-minds-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Lightning
+
+hp: 260
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Tandem Shock
+    text: If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 80 more damage, and your opponent's Active Pokémon is now Paralyzed.
+    damage: 80
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Lightning Ride-GX
+    text: Switch this Pokémon with 1 of your Benched Pokémon. If this Pokémon has at least 2 extra Lightning Energy attached to it (in addition to this attack's cost), this attack does 100 more damage. (You can't use more than 1 GX attack in a game.)
+    damage: 150
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

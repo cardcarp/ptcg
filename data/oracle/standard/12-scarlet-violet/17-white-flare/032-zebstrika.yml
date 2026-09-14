@@ -1,0 +1,45 @@
+name: Zebstrika
+
+origin: white-flare-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smash Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electrobullet
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

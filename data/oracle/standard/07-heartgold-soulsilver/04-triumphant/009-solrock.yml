@@ -1,0 +1,38 @@
+name: Solrock
+
+origin: triumphant-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 338
+
+rule:
+  - type: Ability
+    name: Heal Block
+    text: If you have Lunatone in play, damage counters can't be removed from any Pokémon (both yours and your opponent's). (Damage counters can still be moved.)
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sun Flash
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

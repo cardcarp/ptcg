@@ -1,0 +1,41 @@
+name: Oranguru
+
+origin: unified-minds-182
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 765
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sage's Riddle
+    text: Put a Pokémon from your hand face down in front of you. Your opponent guesses the type of that Pokémon, and then you reveal it. If your opponent guessed right, they draw 4 cards. If they guessed wrong, you draw 4 cards. Return the Pokémon to your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gentle Slap
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

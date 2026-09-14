@@ -1,0 +1,41 @@
+name: Rayquaza
+
+origin: pop-series-1-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 384
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fly
+    text: Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Rayquaza during your opponent's next turn.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Lightning
+    name: Dragon Claw
+    damage: 30
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

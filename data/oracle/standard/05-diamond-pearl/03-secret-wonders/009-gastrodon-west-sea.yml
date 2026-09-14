@@ -1,0 +1,54 @@
+name: Gastrodon West Sea
+
+origin: secret-wonders-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Shellos West Sea
+
+dex: 423
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Raging Flood
+    text: Does 20 damage plus 10 more damage for each damage counter on Gastrodon West Sea. Then, remove 2 damage counters from Gastrodon West Sea.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wild Waves
+    text: Put 1 damage counter on each Benched Pokémon (both yours and your opponent's).
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

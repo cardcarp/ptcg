@@ -1,0 +1,49 @@
+name: Electrode
+
+origin: stormfront-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Flash
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Electro Diffusion
+    text: Does 40 damage plus 10 more damage for each Lightning Energy attached to Electrode. Flip a coin. If tails, discard all Lightning Energy attached to Electrode.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+errata: []

@@ -1,0 +1,42 @@
+name: Ariados
+
+origin: darkness-ablaze-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: Ability
+    name: Spider Net
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent's Benched Evolution Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,47 @@
+name: Hisuian Lilligant VSTAR
+
+origin: astral-radiance-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Grass
+
+hp: 260
+
+preevolution:
+  - Hisuian Lilligant V
+
+dex: 549
+
+rule:
+  - type: Ability
+    name: Star Perfume
+    text: During your turn, you may search your deck for up to 5 in any combination of Grass Pokémon and Grass Energy cards, reveal them, and put them into your hand. Then, shuffle your deck. (You can't use more than 1 VSTAR Power in a game.)
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Parallel Spin
+    text: You may put an Energy attached to this Pokémon into your hand. If you do, this attack does 100 more damage.
+    damage: 130
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

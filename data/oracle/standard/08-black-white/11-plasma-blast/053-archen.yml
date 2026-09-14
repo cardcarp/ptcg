@@ -1,0 +1,44 @@
+name: Archen
+
+origin: plasma-blast-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Restored
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Plume Fossil
+
+dex: 566
+
+rule:
+  - type: Ability
+    name: Prehistoric Call
+    text: Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put this Pokémon on the bottom of your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Plume Fossil
+
+errata: []

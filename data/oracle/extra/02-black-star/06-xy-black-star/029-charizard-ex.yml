@@ -1,0 +1,47 @@
+name: Charizard-EX
+
+origin: xy-black-star-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 180
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stoke
+    text: Flip a coin. If heads, search your deck for up to 3 basic Energy cards and attach them to this Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fire Blast
+    text: Discard an Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

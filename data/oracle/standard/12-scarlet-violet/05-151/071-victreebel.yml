@@ -1,0 +1,44 @@
+name: Victreebel
+
+origin: 151-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Weepinbell
+
+dex: 71
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Spit Up
+    damage: 50
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Slow-Acting Acid
+    text: At the end of your opponent's next turn, put 12 damage counters on the Defending Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Teddiursa
+
+origin: neo-discovery-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 216
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nap Time
+    text: Remove all damage counters from Teddiursa. Teddiursa is now Asleep.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

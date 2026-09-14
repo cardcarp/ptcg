@@ -1,0 +1,36 @@
+name: Magikarp
+
+origin: dragons-exalted-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Soggy Rush
+    text: Flip a coin until you get tails. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

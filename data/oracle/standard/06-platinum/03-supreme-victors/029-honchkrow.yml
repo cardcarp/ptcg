@@ -1,0 +1,49 @@
+name: Honchkrow
+
+origin: supreme-victors-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Murkrow
+
+dex: 430
+
+rule:
+  - type: Ability
+    name: Darkness Restore
+    text: Once during your turn (before your attack), if Honchkrow is your Active Pokémon and your opponent's Bench isn't full, you may use this power. Search your opponent's discard pile for a Basic Pokémon and put it onto his or her bench. This power can't be used if Honchkrow is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Riot
+    text: Does 30 damage plus 10 more damage for each Pokémon that isn't an evolved Pokémon in play (both yours and your opponent's).
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

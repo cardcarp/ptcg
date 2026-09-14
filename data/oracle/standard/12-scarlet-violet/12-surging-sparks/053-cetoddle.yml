@@ -1,0 +1,36 @@
+name: Cetoddle
+
+origin: surging-sparks-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 974
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Draining Fin
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

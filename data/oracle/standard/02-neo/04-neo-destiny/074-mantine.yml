@@ -1,0 +1,41 @@
+name: Mantine
+
+origin: neo-destiny-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 226
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Giant Wave
+    text: Mantine can't attack during your next turn.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

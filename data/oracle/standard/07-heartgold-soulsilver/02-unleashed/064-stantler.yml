@@ -1,0 +1,42 @@
+name: Stantler
+
+origin: unleashed-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 234
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mystifying Horns
+    text: The Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

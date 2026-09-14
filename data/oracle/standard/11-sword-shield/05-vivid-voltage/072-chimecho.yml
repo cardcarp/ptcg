@@ -1,0 +1,46 @@
+name: Chimecho
+
+origin: vivid-voltage-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 358
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Auspicious Tone
+    text: Search your deck for a Pokémon and a Supporter card, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Hypnoblast
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Clefable
+
+origin: diamond-pearl-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Metronome
+    text: Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) Clefable performs that attack.
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

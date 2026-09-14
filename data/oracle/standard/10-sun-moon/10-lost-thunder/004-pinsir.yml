@@ -1,0 +1,42 @@
+name: Pinsir
+
+origin: lost-thunder-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 127
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Grip and Squeeze
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

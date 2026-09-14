@@ -1,0 +1,50 @@
+name: Honchkrow
+
+origin: lost-origin-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Murkrow
+
+dex: 430
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Night Cyclone
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you like.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

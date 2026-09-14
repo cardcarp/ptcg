@@ -1,0 +1,43 @@
+name: Gastly
+
+origin: stormfront-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 92
+
+rule:
+  - type: Attack
+    name: Pitch-Dark
+    text: You opponent can't play any Trainer cards from his or her hand during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Trick Gas
+    text: You may switch Gastly with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

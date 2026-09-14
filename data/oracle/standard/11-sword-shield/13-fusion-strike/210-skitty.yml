@@ -1,0 +1,35 @@
+name: Skitty
+
+origin: fusion-strike-210
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 300
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Whimsy Tackle
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

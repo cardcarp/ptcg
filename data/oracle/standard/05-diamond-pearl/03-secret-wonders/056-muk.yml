@@ -1,0 +1,43 @@
+name: Muk
+
+origin: secret-wonders-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: Ability
+    name: Toxic Sludge
+    text: At the end of each player's turn, each of your opponent's Active Pokémon that has any Grass Energy attached to it is now Poisoned. If that Pokémon is already Poisoned, Toxic Sludge Poké-Body does nothing to that Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Panic Liquid
+    text: The Defending Pokémon is now Confused and can't retreat during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

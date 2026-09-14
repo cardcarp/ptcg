@@ -1,0 +1,47 @@
+name: Electabuzz
+
+origin: triumphant-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 125
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Shock Bolt
+    text: Flip a coin. If tails, discard all Lightning Energy attached to Electabuzz.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

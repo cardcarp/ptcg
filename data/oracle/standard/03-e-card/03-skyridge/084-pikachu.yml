@@ -1,0 +1,37 @@
+name: Pikachu
+
+origin: skyridge-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Max Voltage
+    text: Discard all Lightning Energy cards attached to Pikachu. This attack does 20 damage plus 10 more damage for each Energy card discarded in this way.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

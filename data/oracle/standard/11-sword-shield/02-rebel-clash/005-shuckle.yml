@@ -1,0 +1,42 @@
+name: Shuckle
+
+origin: rebel-clash-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 213
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Berry Picking
+    text: Shuffle up to 5 basic Energy cards from your discard pile into your deck.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Bind
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

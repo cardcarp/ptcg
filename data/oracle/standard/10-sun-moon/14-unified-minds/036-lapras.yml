@@ -1,0 +1,39 @@
+name: Lapras
+
+origin: unified-minds-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 131
+
+rule:
+  - type: Ability
+    name: Mermaid's Call
+    text: Once during your turn (before your attack), you may put a Misty's Favor card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Surf
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

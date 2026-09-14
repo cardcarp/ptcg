@@ -1,0 +1,42 @@
+name: Pidgeotto
+
+origin: expedition-base-set-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Pidgey
+
+dex: 17
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Whirlwind
+    text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches the Defending Pokémon with it. (Do the damage before switching the Pokémon.)
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

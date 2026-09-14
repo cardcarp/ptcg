@@ -1,0 +1,44 @@
+name: Regirock-EX
+
+origin: fates-collide-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fighting
+
+hp: 180
+
+dex: 377
+
+rule:
+  - type: Ability
+    name: Regi Power
+    text: The attacks of your Fighting Pokémon (excluding Regirock-EX) do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Bedrock Press
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

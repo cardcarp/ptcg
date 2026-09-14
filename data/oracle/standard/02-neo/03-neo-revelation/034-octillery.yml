@@ -1,0 +1,46 @@
+name: Octillery
+
+origin: neo-revelation-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Constrict
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Octazooka
+    text: Flip a coin. If heads, whenever the Defending Pokémon attacks, your opponent flips a coin. If tails, that attack does nothing. (Benching or evolving that Pokémon ends this effect.)
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

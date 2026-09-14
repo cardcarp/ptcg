@@ -1,0 +1,48 @@
+name: Alolan Muk
+
+origin: team-up-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Alolan Grimer
+
+dex: 89
+
+rule:
+  - type: Ability
+    name: Adventurous Appetite
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may look at the top 6 cards of your opponent's deck and discard any number of Item cards you find there. Your opponent shuffles the other cards back into their deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Gunk Shot
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,44 @@
+name: Misty's Cloyster
+
+origin: gym-heroes-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Misty's Shellder
+
+dex: 91
+
+rule:
+  - type: Ability
+    name: Shell Armor
+    text: You may reduce all damage done by attacks to Misty's Cloyster by 10 (after applying Weakness and Resistance). (Any other effects of attacks still happen). This power can't be used if Misty's Cloyster is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Triple Cannon
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Kleavor VSTAR
+
+origin: sword-shield-black-star-249
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Fighting
+
+hp: 270
+
+preevolution:
+  - Kleavor V
+
+dex: 900
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Axe Break
+    text: This attack also does 60 damage to 1 of your opponent's Benched Pokémon V. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rampaging Star
+    text: This attack does 30 damage for each Pokémon in your discard pile. (You can't use more than 1 VSTAR Power in a game.)
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

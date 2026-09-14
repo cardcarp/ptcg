@@ -1,0 +1,35 @@
+name: Vulpix
+
+origin: twilight-masquerade-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 37
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Live Coal
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

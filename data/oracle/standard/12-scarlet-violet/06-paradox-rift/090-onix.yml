@@ -1,0 +1,42 @@
+name: Onix
+
+origin: paradox-rift-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 95
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hard Headbutt
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Land Crush
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

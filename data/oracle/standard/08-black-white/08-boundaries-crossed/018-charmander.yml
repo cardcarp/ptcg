@@ -1,0 +1,40 @@
+name: Charmander
+
+origin: boundaries-crossed-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Draw In
+    text: Attach 2 Fire Energy cards from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

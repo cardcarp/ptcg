@@ -1,0 +1,40 @@
+name: Shuckle
+
+origin: vivid-voltage-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 213
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Deck Distiller
+    text: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

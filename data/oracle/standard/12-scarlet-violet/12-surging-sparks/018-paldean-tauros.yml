@@ -1,0 +1,43 @@
+name: Paldean Tauros
+
+origin: surging-sparks-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 128
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Rear Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Spirited Tackle
+    text: If your opponent's Active Pokémon is a Stage 1 Pokémon, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

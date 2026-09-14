@@ -1,0 +1,49 @@
+name: Galarian Cursola
+
+origin: fusion-strike-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Galarian Corsola
+
+dex: 864
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Force Regeneration
+    text: Put a Basic Pokémon V from your opponent's discard pile onto their Bench. If you do, put damage counters on that Pokémon until its remaining HP is 30.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Spooky Shot
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

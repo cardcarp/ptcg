@@ -1,0 +1,45 @@
+name: Marowak
+
+origin: stellar-crown-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Growl
+    text: During your opponent's next turn, attacks used by the Defending Pokémon do 40 less damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bone Vengeance
+    text: If any of your Benched Cubone have any damage counters on them, this attack does 120 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

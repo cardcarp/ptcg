@@ -1,0 +1,35 @@
+name: Feebas
+
+origin: flashfire-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 349
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

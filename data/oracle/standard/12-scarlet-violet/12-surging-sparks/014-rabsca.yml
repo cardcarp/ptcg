@@ -1,0 +1,44 @@
+name: Rabsca
+
+origin: surging-sparks-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Rellor
+
+dex: 954
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Triple Draw
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Grass
+    name: Counterturn
+    text: If there are 3 or fewer cards in your deck, this attack does 200 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

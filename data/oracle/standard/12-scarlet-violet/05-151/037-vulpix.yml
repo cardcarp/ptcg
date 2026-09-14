@@ -1,0 +1,36 @@
+name: Vulpix
+
+origin: 151-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 37
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Super Singe
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

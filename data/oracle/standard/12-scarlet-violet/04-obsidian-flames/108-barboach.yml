@@ -1,0 +1,40 @@
+name: Barboach
+
+origin: obsidian-flames-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 339
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Hide
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Mud-Slap
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

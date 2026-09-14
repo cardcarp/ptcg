@@ -1,0 +1,42 @@
+name: Sceptile
+
+origin: celestial-storm-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Grovyle
+
+dex: 254
+
+rule:
+  - type: Ability
+    name: Power of Nature
+    text: Prevent all damage done to your Pokémon that have any Grass Energy attached to them by attacks from your opponent's Ultra Beasts.
+  - type: Attack
+    cost:
+      - Grass
+    name: Powerful Storm
+    text: This attack does 20 damage times the amount of Energy attached to all of your Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

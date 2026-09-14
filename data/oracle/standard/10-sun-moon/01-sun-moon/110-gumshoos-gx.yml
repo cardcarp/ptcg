@@ -1,0 +1,53 @@
+name: Gumshoos-GX
+
+origin: sun-moon-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Colorless
+
+hp: 210
+
+preevolution:
+  - Yungoos
+
+dex: 735
+
+rule:
+  - type: Ability
+    name: Search the Premises
+    text: Once during your turn (before your attack), you may have your opponent reveal their hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Headbutt Bounce
+    damage: 100
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gumshoe Chance-GX
+    text: This attack does 50 damage times the amount of Energy attached to your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

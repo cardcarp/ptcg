@@ -1,0 +1,36 @@
+name: Mareep
+
+origin: neo-discovery-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 179
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder Jolt
+    text: Flip a coin. If tails, Mareep does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

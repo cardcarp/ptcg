@@ -1,0 +1,42 @@
+name: Dipplin
+
+origin: twilight-masquerade-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Applin
+
+dex: 1011
+
+rule:
+  - type: Ability
+    name: Festival Lead
+    text: If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+    name: Do the Wave
+    text: This attack does 20 damage for each of your Benched Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Dragapult
+
+origin: fusion-strike-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Fusion Strike
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Drakloak
+
+dex: 887
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Fusion Strike Assault
+    text: This attack does 30 damage for each of your Fusion Strike Pokémon in play.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Speed Attack
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

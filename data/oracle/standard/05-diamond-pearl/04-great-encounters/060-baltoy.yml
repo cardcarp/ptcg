@@ -1,0 +1,41 @@
+name: Baltoy
+
+origin: great-encounters-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Psychic Balance
+    text: If you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent. (If you have more or the same number of cards in your hand as your opponent, this attack does nothing.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Spin Turn
+    text: Switch Baltoy with 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

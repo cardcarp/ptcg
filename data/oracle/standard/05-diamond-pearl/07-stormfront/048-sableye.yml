@@ -1,0 +1,41 @@
+name: Sableye
+
+origin: stormfront-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 302
+
+rule:
+  - type: Ability
+    name: Overeager
+    text: If Sableye is your Active Pokémon at the beginning of the game, you go first. (If each player's Active Pokémon has the Overeager Poké-Body, this power does nothing.)
+  - type: Attack
+    name: Impersonate
+    text: Search your deck for a Supporter card and discard it. Shuffle your deck afterward. Then, use the effect of that card as the effect of this attack.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Overconfident
+    text: If the Defending Pokémon has fewer remaining HP than Sableye, this attack's base damage is 40.
+    damage: 10
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

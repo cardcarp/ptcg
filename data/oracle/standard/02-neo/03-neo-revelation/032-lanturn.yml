@@ -1,0 +1,43 @@
+name: Lanturn
+
+origin: neo-revelation-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: Ability
+    name: Submerge
+    text: Once during your turn (before your attack), you may change Lanturn's type to Water until the end of your turn. This power can't be used if Lanturn is Asleep, Confused, or Paralyzed. If Lanturn becomes Asleep, Confused, or Paralyzed after you have used this power, its type changes back to Lightning.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Blinding Light
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

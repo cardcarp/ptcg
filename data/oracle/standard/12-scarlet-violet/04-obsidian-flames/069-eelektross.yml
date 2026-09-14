@@ -1,0 +1,44 @@
+name: Eelektross
+
+origin: obsidian-flames-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 160
+
+preevolution:
+  - Eelektrik
+
+dex: 604
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Suction Shock
+    text: Switch in 1 of your opponent's Benched Pokémon to the Active Spot. If you do, this attack does 60 damage to the new Active Pokémon, and then flip a coin. If heads, that Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Head Bolt
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

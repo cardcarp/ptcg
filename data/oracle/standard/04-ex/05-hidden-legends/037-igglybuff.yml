@@ -1,0 +1,37 @@
+name: Igglybuff
+
+origin: hidden-legends-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 174
+
+rule:
+  - type: Ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Jigglypuff from your hand onto Igglybuff (this counts as evolving Igglybuff), and remove all damage counters from Igglybuff.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Set Song
+    text: Search your deck for a Basic Pokémon and a basic Energy card, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,49 @@
+name: Rotom
+
+origin: great-encounters-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 479
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Astonish
+    text: Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Telebeam
+    text: Flip a coin. If heads, this attack does 30 damage plus 30 more damage and the Defending Pokémon is now Paralyzed.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

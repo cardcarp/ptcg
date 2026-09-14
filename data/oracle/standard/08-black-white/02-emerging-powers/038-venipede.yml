@@ -1,0 +1,40 @@
+name: Venipede
+
+origin: emerging-powers-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 543
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Poison Sting
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

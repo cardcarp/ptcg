@@ -1,0 +1,45 @@
+name: Munna
+
+origin: sword-shield-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 517
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Moonlight
+    text: Heal 30 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic Sphere
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

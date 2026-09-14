@@ -1,0 +1,45 @@
+name: Flaaffy
+
+origin: scarlet-violet-black-star-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Mareep
+
+dex: 180
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Static Shock
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Extreme Current
+    text: Discard an Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

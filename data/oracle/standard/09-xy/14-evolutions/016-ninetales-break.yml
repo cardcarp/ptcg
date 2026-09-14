@@ -1,0 +1,36 @@
+name: Ninetales BREAK
+
+origin: evolutions-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - BREAK
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Ninetales
+
+dex: 38
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Explosive Fireball
+    text: Discard all Fire Energy attached to this Pokémon. This attack does 60 more damage for each Energy card discarded in this way.
+    damage: 10
+    modifier: +
+
+rulebox:
+  - 'BREAK Evolution Rule: Ninetales BREAK retains the attacks, Abilities, Weakness, Resistance, and Retreat Cost of its previous Evolution.'
+
+errata: []

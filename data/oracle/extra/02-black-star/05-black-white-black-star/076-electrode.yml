@@ -1,0 +1,45 @@
+name: Electrode
+
+origin: black-white-black-star-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electribeam
+    text: Flip a coin. If heads, the Defending Pokémon is Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Self Destruct
+    text: This Pokémon does 100 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

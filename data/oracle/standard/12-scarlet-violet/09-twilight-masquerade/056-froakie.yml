@@ -1,0 +1,39 @@
+name: Froakie
+
+origin: twilight-masquerade-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 656
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Flock
+    text: Search your deck for up to 2 Froakie and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+    name: Flop
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

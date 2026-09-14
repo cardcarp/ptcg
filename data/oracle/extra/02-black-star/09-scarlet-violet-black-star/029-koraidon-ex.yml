@@ -1,0 +1,44 @@
+name: Koraidon ex
+
+origin: scarlet-violet-black-star-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 230
+
+dex: 1007
+
+rule:
+  - type: Ability
+    name: Dino Cry
+    text: Once during your turn, you may attach up to 2 Basic Fighting Energy cards from your discard pile to your Basic Fighting Pokémon in any way you like. If you use this Ability, your turn ends.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Wild Impact
+    text: During your next turn, this Pokémon can't attack.
+    damage: 220
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

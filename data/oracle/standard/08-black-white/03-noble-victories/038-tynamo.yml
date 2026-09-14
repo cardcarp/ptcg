@@ -1,0 +1,35 @@
+name: Tynamo
+
+origin: noble-victories-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 602
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Wave
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

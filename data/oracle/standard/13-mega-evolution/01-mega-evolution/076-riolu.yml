@@ -1,0 +1,35 @@
+name: Riolu
+
+origin: mega-evolution-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 447
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Accelerating Stab
+    text: During your next turn, this Pokémon can't use Accelerating Stab.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,47 @@
+name: Dhelmise
+
+origin: cosmic-eclipse-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 781
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Seaweed Grab
+    text: Put a Trainer card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Buster Swing
+    text: This attack's damage isn't affected by Resistance.
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,42 @@
+name: Team Aqua's Seviper
+
+origin: double-crisis-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 336
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Venomous Fang
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Venom Tail
+    text: If your opponent's Active Pokémon is affected by a Special Condition, discard an Energy attached to that Pokémon.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

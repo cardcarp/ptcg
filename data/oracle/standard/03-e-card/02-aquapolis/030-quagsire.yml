@@ -1,0 +1,49 @@
+name: Quagsire
+
+origin: aquapolis-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Wooper
+
+dex: 195
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    text: This attack does 20 damage plus 10 more damage for each Water Energy attached to Quagsire but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

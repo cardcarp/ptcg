@@ -1,0 +1,40 @@
+name: Clefairy
+
+origin: perfect-order-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 35
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Follow Me
+    text: Switch in 1 of your opponent's Benched Pokémon to the Active Spot.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Flop
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

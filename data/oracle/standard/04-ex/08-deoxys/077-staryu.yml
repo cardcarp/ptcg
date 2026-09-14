@@ -1,0 +1,35 @@
+name: Staryu
+
+origin: deoxys-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 120
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rapid Spin
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Staryu with 1 of your Benched Pokémon, if any.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

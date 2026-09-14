@@ -1,0 +1,48 @@
+name: Galarian Obstagoon
+
+origin: ascended-heroes-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Galarian Linoone
+
+dex: 862
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Scarring Shout
+    text: This attack does 70 damage for each damage counter on your opponent's Active Pokémon.
+    damage: 70
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Punk Smash
+    text: Discard an Energy from this Pokémon.
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

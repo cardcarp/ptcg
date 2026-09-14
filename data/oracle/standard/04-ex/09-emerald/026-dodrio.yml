@@ -1,0 +1,51 @@
+name: Dodrio
+
+origin: emerald-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Doduo
+
+dex: 85
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Smash Turn
+    text: After your attack, you may switch Dodrio with 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

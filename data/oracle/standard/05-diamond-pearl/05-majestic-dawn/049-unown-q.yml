@@ -1,0 +1,35 @@
+name: Unown [Q]
+
+origin: majestic-dawn-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 201
+
+rule:
+  - type: Ability
+    name: QUICK
+    text: Once during your turn (before your attack), if Unown Q is on your Bench, you may discard all cards attached to Unown Q and attach Unown Q to 1 of your Pokémon as a Pokémon Tool card. As long as Unown Q is attached to a Pokémon, you pay Colorless less to retreat that Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hidden Power
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+errata: []

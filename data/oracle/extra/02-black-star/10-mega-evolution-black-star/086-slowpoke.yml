@@ -1,0 +1,44 @@
+name: Slowpoke
+
+origin: mega-evolution-black-star-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 79
+
+rule:
+  - type: Ability
+    name: Dopey Face
+    text: This Pokémon can't be Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

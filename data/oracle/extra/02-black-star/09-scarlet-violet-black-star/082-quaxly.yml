@@ -1,0 +1,35 @@
+name: Quaxly
+
+origin: scarlet-violet-black-star-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 912
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Reckless Charge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

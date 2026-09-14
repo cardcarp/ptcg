@@ -1,0 +1,41 @@
+name: Voltorb
+
+origin: aquapolis-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Kakuna
+
+origin: delta-species-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Weedle
+
+dex: 14
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Fast Evolution
+    text: Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

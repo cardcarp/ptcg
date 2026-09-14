@@ -1,0 +1,54 @@
+name: Arcanine ex
+
+origin: legend-maker-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: Ability
+    name: Fire Remedy
+    text: Whenever you attach a Fire Energy from your hand to Arcanine ex, remove 1 damage counter and all Special Conditions from Arcanine ex.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Overrun
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flame Swirl
+    text: Discard 2 Fire Energy or 1 React Energy card attached to Arcanine ex.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

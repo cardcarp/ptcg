@@ -1,0 +1,38 @@
+name: Ivysaur
+
+origin: mega-evolution-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Bulbasaur
+
+dex: 2
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Razor Leaf
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

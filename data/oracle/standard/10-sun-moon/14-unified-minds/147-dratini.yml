@@ -1,0 +1,35 @@
+name: Dratini
+
+origin: unified-minds-147
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 147
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

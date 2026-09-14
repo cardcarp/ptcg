@@ -1,0 +1,43 @@
+name: Doublade
+
+origin: breakpoint-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Honedge
+
+dex: 680
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Stab Deeply
+    text: Put 3 damage counters on your opponent's Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

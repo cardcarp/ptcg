@@ -1,0 +1,42 @@
+name: Electrike
+
+origin: dragons-exalted-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 309
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

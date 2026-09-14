@@ -1,0 +1,41 @@
+name: Shaymin
+
+origin: prismatic-evolutions-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reflect Energy
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

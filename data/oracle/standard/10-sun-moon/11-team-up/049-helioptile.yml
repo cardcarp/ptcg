@@ -1,0 +1,46 @@
+name: Helioptile
+
+origin: team-up-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 694
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Static Shock
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Paldean Tauros
+
+origin: surging-sparks-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 128
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Upthrusting Horns
+    text: You may put 2 Energy attached to your opponent's Active Stage 2 Pokémon into their hand.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Jet Headbutt
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

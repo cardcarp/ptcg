@@ -1,0 +1,44 @@
+name: Sinistcha
+
+origin: twilight-masquerade-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Poltchageist
+
+dex: 1013
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Cursed Drop
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Grass
+    name: Spill the Tea
+    text: Discard up to 3 Grass Energy cards from your Pokémon. This attack does 70 damage for each card you discarded in this way.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

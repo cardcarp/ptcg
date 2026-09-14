@@ -1,0 +1,52 @@
+name: Altaria
+
+origin: deoxys-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: Ability
+    name: Safeguard
+    text: Prevent all effects of attacks, including damage, done to Altaria by your opponent's Pokémon-ex.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Double Wing Attack
+    text: Does 20 Damage to each Defending Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Dive
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

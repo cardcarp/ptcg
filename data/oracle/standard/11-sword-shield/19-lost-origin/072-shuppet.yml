@@ -1,0 +1,40 @@
+name: Shuppet
+
+origin: lost-origin-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 353
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Tongue Slap
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

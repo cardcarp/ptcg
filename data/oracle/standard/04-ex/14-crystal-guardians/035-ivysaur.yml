@@ -1,0 +1,47 @@
+name: Ivysaur
+
+origin: crystal-guardians-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Bulbasaur
+
+dex: 2
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stretch Vine
+    text: Choose 1 of your opponent's Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Sharp Leaf
+    text: Flip a coin. If heads, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

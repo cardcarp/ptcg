@@ -1,0 +1,49 @@
+name: Haunter
+
+origin: sword-shield-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nightmare
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spooky Shot
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

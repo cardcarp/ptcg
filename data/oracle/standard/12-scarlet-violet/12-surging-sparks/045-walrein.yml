@@ -1,0 +1,45 @@
+name: Walrein
+
+origin: surging-sparks-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Sealeo
+
+dex: 365
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Frigid Fangs
+    text: During your opponent's next turn, Pokémon that have 2 or less Energy attached can't attack. (This includes new Pokémon that come into play.)
+    damage: 60
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Megaton Fall
+    text: This Pokémon also does 50 damage to itself.
+    damage: 170
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

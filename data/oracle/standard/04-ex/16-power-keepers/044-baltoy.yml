@@ -1,0 +1,41 @@
+name: Baltoy
+
+origin: power-keepers-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psybeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spinning Attack
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

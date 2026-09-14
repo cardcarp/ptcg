@@ -1,0 +1,43 @@
+name: Alolan Rattata
+
+origin: celestial-storm-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 40
+
+dex: 19
+
+rule:
+  - type: Attack
+    name: Call for the Boss
+    text: Search your deck for Alolan Raticate or Alolan Raticate-GX, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

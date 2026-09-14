@@ -1,0 +1,38 @@
+name: Lunatone
+
+origin: burning-shadows-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 337
+
+rule:
+  - type: Ability
+    name: Heal Block
+    text: If you have Solrock in play, Pokémon (both yours and your opponent's) can't be healed.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Lunar Blast
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

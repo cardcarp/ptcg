@@ -1,0 +1,39 @@
+name: Bounsweet
+
+origin: sun-moon-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 761
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Sweet Scent
+    text: Heal 30 damage from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Splash
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

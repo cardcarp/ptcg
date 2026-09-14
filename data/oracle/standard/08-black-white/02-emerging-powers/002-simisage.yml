@@ -1,0 +1,51 @@
+name: Simisage
+
+origin: emerging-powers-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Pansage
+
+dex: 512
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fire's Power
+    text: If this Pokémon has any Fire Energy attached to it, the Defending Pokémon is now Burned.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Seed Bomb
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

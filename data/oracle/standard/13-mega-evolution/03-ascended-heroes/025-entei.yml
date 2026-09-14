@@ -1,0 +1,37 @@
+name: Entei
+
+origin: ascended-heroes-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 140
+
+dex: 244
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare Fall
+    text: If you have at least 4 Fire Energy in play, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,47 @@
+name: Magneton
+
+origin: dragon-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Triple Smash
+    text: Flip 3 coins. This attack does 20 damage plus 20 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

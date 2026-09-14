@@ -1,0 +1,47 @@
+name: Seadra δ
+
+origin: dragon-frontiers-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Horsea
+
+dex: 117
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Razor Wing
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

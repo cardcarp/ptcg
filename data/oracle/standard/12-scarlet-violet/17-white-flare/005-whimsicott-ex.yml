@@ -1,0 +1,46 @@
+name: Whimsicott ex
+
+origin: white-flare-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 230
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Energy Gift
+    text: Search your deck for up to 3 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Grass
+    name: Wondrous Cotton
+    text: Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

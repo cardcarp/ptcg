@@ -1,0 +1,42 @@
+name: Shinx
+
+origin: ultra-prism-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 403
+
+rule:
+  - type: Ability
+    name: Evolutionary Advantage
+    text: If you go second, this Pokémon can evolve during your first turn.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Static Shock
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

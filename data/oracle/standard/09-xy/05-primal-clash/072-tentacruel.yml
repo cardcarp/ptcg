@@ -1,0 +1,44 @@
+name: Tentacruel
+
+origin: primal-clash-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Tentacool
+
+dex: 73
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dancing Tentacles
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Stick and Absorb
+    text: Heal 30 damage from this Pokémon. The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Pikachu
+
+origin: roaring-skies-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Whip
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

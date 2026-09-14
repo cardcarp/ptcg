@@ -1,0 +1,46 @@
+name: Mightyena
+
+origin: twilight-masquerade-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Hunting Pack
+    text: If Mightyena is on your Bench, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Corner
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,52 @@
+name: Roserade
+
+origin: dragons-exalted-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Roselia
+
+dex: 407
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Crosswise Whip
+    text: Flip 4 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Poison Point
+    text: The Defending Pokémon is now Poisoned.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

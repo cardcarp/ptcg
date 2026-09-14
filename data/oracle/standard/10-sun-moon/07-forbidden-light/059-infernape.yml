@@ -1,0 +1,42 @@
+name: Infernape
+
+origin: forbidden-light-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Monferno
+
+dex: 392
+
+rule:
+  - type: Ability
+    name: Flaming Fighter
+    text: Put 6 damage counters instead of 2 on your opponent's Burned Pokémon between turns.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Burst Punch
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

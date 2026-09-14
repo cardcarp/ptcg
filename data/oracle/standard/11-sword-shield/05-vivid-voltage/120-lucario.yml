@@ -1,0 +1,51 @@
+name: Lucario
+
+origin: vivid-voltage-120
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Spike Draw
+    text: Draw a card.
+    damage: 40
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Knuckle Impact
+    text: During your next turn, this Pokémon can't attack.
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

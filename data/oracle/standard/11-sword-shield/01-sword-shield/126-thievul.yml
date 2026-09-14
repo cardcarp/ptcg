@@ -1,0 +1,45 @@
+name: Thievul
+
+origin: sword-shield-126
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Nickit
+
+dex: 828
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Thief
+    text: Your opponent reveals their hand. Choose a card you find there and put it on the bottom of their deck.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Darkness Fang
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

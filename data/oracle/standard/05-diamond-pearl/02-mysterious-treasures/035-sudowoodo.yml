@@ -1,0 +1,42 @@
+name: Sudowoodo
+
+origin: mysterious-treasures-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 185
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sidestep
+    text: If Bonsly is anywhere under Sudowoodo, flip a coin. If heads, prevent all effects of an attack, including damage, done to Sudowoodo during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Persuade
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon. The new Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

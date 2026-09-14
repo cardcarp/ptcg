@@ -1,0 +1,34 @@
+name: Scatterbug
+
+origin: forbidden-light-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 664
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Ultra Evolution
+    text: Flip a coin. If heads, search your deck for Vivillon and put it onto this Scatterbug to evolve it. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

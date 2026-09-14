@@ -1,0 +1,39 @@
+name: Slugma
+
+origin: deoxys-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 218
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

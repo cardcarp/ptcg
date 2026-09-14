@@ -1,0 +1,48 @@
+name: Golisopod
+
+origin: darkness-ablaze-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Wimpod
+
+dex: 768
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hard Times Slash
+    text: This attack does 50 more damage for each of your opponent's Pokémon V and Pokémon-GX in play.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Smash Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

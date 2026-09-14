@@ -1,0 +1,52 @@
+name: Larry's Staraptor
+
+origin: ascended-heroes-170
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Larry's Staravia
+
+dex: 398
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Facade
+    text: If this Pokémon is Burned or Poisoned, this attack does 100 more damage.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Feathery Strike
+    text: Discard 2 Energy from this Pokémon, and this attack also does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 150
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

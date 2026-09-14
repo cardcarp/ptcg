@@ -1,0 +1,48 @@
+name: Pikachu
+
+origin: stormfront-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pika Punch
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Speed Bolt
+    text: If Pikachu evolved from Pichu during this turn, prevent all effects of an attack, including damage, done to Pikachu during your opponent's next turn.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

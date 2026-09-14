@@ -1,0 +1,46 @@
+name: Loudred
+
+origin: hidden-legends-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Whismur
+
+dex: 294
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cracking Voice
+    text: Flip a coin. If heads, each Defending Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Light Punch
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

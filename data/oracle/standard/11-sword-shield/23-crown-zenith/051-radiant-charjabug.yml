@@ -1,0 +1,41 @@
+name: Radiant Charjabug
+
+origin: crown-zenith-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Radiant
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 737
+
+rule:
+  - type: Ability
+    name: Shocking Block
+    text: Whenever any player attaches an Energy card from their hand to 1 of their Pokémon V, put 2 damage counters on that Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Linear Attack
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+errata: []

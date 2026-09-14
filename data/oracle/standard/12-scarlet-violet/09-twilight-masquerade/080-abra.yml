@@ -1,0 +1,42 @@
+name: Abra
+
+origin: twilight-masquerade-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 63
+
+rule:
+  - type: Ability
+    name: Teleporter
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may shuffle it and all attached cards into your deck.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Beam
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

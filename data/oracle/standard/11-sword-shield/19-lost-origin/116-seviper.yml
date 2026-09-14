@@ -1,0 +1,36 @@
+name: Seviper
+
+origin: lost-origin-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 336
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Sucker Punch and Turn
+    text: Switch this Pokémon with 1 of your Benched Darkness Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

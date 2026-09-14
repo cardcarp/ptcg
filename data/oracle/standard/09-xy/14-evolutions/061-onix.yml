@@ -1,0 +1,40 @@
+name: Onix
+
+origin: evolutions-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 95
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Harden
+    text: During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rock Throw
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

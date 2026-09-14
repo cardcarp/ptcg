@@ -1,0 +1,41 @@
+name: Eevee
+
+origin: sword-shield-black-star-127
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 133
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Be Prepared
+    text: Attach a basic Energy card from your hand to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

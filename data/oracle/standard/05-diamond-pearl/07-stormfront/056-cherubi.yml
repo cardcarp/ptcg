@@ -1,0 +1,44 @@
+name: Cherubi
+
+origin: stormfront-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 420
+
+rule:
+  - type: Attack
+    name: Nap
+    text: Remove 2 damage counters from Cherubi.
+  - type: Attack
+    cost:
+      - Grass
+    name: Bullet Seed
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

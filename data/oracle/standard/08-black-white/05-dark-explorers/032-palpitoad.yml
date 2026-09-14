@@ -1,0 +1,39 @@
+name: Palpitoad
+
+origin: dark-explorers-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Tympole
+
+dex: 536
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Bubble Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

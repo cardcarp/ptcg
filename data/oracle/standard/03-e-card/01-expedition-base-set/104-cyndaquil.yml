@@ -1,0 +1,42 @@
+name: Cyndaquil
+
+origin: expedition-base-set-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 155
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

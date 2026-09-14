@@ -1,0 +1,45 @@
+name: Tauros
+
+origin: pop-series-2-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 128
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Tauros.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Tauros does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

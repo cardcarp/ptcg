@@ -1,0 +1,46 @@
+name: Raichu
+
+origin: holon-phantoms-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Pika Bolt
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

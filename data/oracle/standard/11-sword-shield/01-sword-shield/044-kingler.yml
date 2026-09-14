@@ -1,0 +1,47 @@
+name: Kingler
+
+origin: sword-shield-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Krabby
+
+dex: 99
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Heavy Pincers
+    text: Discard the top card of your opponent's deck.
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Claw Rend
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

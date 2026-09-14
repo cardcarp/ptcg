@@ -1,0 +1,43 @@
+name: Galarian Slowking VMAX
+
+origin: chilling-reign-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 320
+
+preevolution:
+  - Galarian Slowking V
+
+dex: 199
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Max Toxify
+    text: Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 12 damage counters on that Pokémon instead of 1.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

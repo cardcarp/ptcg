@@ -1,0 +1,45 @@
+name: Spoink
+
+origin: battle-styles-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 325
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Headbutt Bounce
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Power Gem
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

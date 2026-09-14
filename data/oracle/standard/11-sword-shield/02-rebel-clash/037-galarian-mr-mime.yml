@@ -1,0 +1,43 @@
+name: Galarian Mr. Mime
+
+origin: rebel-clash-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 122
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Triple Spin
+    text: Flip 3 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

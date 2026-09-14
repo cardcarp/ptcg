@@ -1,0 +1,51 @@
+name: Steelix GL
+
+origin: rising-rivals-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Metal
+
+hp: 110
+
+dex: 208
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mend
+    text: Search your discard pile for a Metal Energy card and attach it to Steelix GL. If you do, remove 1 damage counter from Steelix GL.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Squeeze
+    text: Flip a coin. If heads, this attack does 30 damage plus 50 more damage and the Defending Pokémon is now Paralyzed.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

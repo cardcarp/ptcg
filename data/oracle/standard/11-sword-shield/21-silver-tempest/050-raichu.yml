@@ -1,0 +1,46 @@
+name: Raichu
+
+origin: silver-tempest-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ambushing Spark
+    text: If your opponent has used their VSTAR Power during this game, this attack does 100 more damage.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electric Ball
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

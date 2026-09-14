@@ -1,0 +1,41 @@
+name: Pancham
+
+origin: fusion-strike-149
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 674
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Raised Bad
+    text: Search your deck for up to 2 Darkness Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

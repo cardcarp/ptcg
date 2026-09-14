@@ -1,0 +1,46 @@
+name: Persian
+
+origin: ancient-origins-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fake Out
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,50 @@
+name: Pidgeot
+
+origin: southern-islands-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Pidgeotto
+
+dex: 18
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Supersonic Flight
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slicing Wind
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

@@ -1,0 +1,44 @@
+name: Wailord
+
+origin: great-encounters-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 200
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: Ability
+    name: Sleeping Pulse
+    text: As long as Wailord remains Asleep between turns, remove 1 damage counter from Wailord.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Sink Deep
+    text: If Wailord has any damage counters on it, Wailord is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

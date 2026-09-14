@@ -1,0 +1,44 @@
+name: Mew V
+
+origin: darkness-ablaze-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 151
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: X Ball
+    text: This attack does 30 damage for each Energy attached to both Active Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,36 @@
+name: Voltorb
+
+origin: fusion-strike-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Single Strike
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Single Shot Blast
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

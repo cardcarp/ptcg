@@ -1,0 +1,42 @@
+name: Weavile
+
+origin: cosmic-eclipse-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Nasty Plot
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Slashing Claw
+    damage: 110
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+errata: []

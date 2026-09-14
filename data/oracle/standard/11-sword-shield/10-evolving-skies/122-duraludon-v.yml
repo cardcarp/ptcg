@@ -1,0 +1,43 @@
+name: Duraludon V
+
+origin: evolving-skies-122
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Single Strike
+
+type:
+  - Dragon
+
+hp: 220
+
+dex: 884
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Metal
+    name: Metal Claw
+    damage: 70
+  - type: Attack
+    cost:
+      - Fighting
+      - Metal
+      - Metal
+    name: Breaking Swipe
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).
+    damage: 140
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

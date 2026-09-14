@@ -1,0 +1,46 @@
+name: Vaporeon
+
+origin: majestic-dawn-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Cleanse Away
+    text: Remove 2 damage counters from each of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hyper Whirlpool
+    text: Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

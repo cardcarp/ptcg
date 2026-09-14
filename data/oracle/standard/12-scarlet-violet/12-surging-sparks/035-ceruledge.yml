@@ -1,0 +1,45 @@
+name: Ceruledge
+
+origin: surging-sparks-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Charcadet
+
+dex: 937
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cursed Edge
+    text: Discard all Special Energy from all of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Black Blaze Slash
+    text: During your next turn, this Pokémon can't attack.
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

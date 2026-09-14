@@ -1,0 +1,50 @@
+name: Dusclops
+
+origin: deoxys-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Duskull
+
+dex: 356
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psychic Removal
+    text: Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Powerful Hand
+    text: Count the number of cards in your hand. Put that many damage counters on the Defending Pokémon. You can't put more than 7 damage counters in this way.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

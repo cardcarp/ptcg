@@ -1,0 +1,47 @@
+name: Blissey ex
+
+origin: twilight-masquerade-134
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 300
+
+preevolution:
+  - Chansey
+
+dex: 242
+
+rule:
+  - type: Ability
+    name: Happy Switch
+    text: Once during your turn, you may move a Basic Energy from 1 of your Pokémon to another of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Return
+    text: You may draw cards until you have 6 cards in your hand.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

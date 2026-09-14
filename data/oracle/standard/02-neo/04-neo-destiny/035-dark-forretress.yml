@@ -1,0 +1,44 @@
+name: Dark Forretress
+
+origin: neo-destiny-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Pineco
+
+dex: 205
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Armor Up
+    text: Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Explosion
+    text: Dark Forretress does 60 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,38 @@
+name: Victini
+
+origin: cosmic-eclipse-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 494
+
+rule:
+  - type: Ability
+    name: Victory Heal
+    text: Once during your turn (before your attack), you may heal 20 damage from 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

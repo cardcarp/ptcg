@@ -1,0 +1,47 @@
+name: Yveltal
+
+origin: celebrations-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 717
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cry of Destruction
+    text: Discard up to 3 Special Energy from your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Feather
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

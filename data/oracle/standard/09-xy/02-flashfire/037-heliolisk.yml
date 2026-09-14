@@ -1,0 +1,51 @@
+name: Heliolisk
+
+origin: flashfire-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Parabolic Charge
+    text: Search your deck for up to 2 Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

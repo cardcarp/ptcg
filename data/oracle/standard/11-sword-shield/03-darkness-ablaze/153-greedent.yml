@@ -1,0 +1,45 @@
+name: Greedent
+
+origin: darkness-ablaze-153
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Skwovet
+
+dex: 820
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scrape Off
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smack and Run
+    text: Put this Pokémon and all attached cards into your hand.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

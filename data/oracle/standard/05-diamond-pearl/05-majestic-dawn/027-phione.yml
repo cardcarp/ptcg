@@ -1,0 +1,41 @@
+name: Phione
+
+origin: majestic-dawn-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 489
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Charm
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Whirlpool
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

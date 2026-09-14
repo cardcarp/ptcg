@@ -1,0 +1,44 @@
+name: Beedrill
+
+origin: unleashed-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Kakuna
+
+dex: 15
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Twineedle
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Paralyze Poison
+    text: The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

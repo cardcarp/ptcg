@@ -1,0 +1,47 @@
+name: Magnezone
+
+origin: plasma-storm-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Double Assist
+    text: Attach 2 basic Energy cards from your discard pile to 1 of your Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Tumbling Attack
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

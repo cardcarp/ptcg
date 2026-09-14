@@ -1,0 +1,43 @@
+name: Ludicolo
+
+origin: plasma-storm-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Lombre
+
+dex: 272
+
+rule:
+  - type: Ability
+    name: Rain Dish
+    text: At any times between turns, heal 20 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Groovy Dance
+    text: You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Confused.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

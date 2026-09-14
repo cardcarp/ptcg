@@ -1,0 +1,41 @@
+name: Oricorio
+
+origin: paradox-rift-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 741
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pep Up
+    text: Shuffle your hand into your deck. Then, draw a card for each Benched Pokémon (both yours and your opponent's).
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Volt Wave
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

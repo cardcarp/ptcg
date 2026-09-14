@@ -1,0 +1,46 @@
+name: Lopunny
+
+origin: ultra-prism-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Buneary
+
+dex: 428
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stompy Stomp
+    text: Flip 2 coins. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Happy Turn
+    text: You may shuffle this Pokémon and all cards attached to it into your deck.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

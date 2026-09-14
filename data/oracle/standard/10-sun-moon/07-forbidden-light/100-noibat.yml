@@ -1,0 +1,45 @@
+name: Noibat
+
+origin: forbidden-light-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 714
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Destructive Sound
+    text: Your opponent reveals their hand. Discard all Item cards you find there.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

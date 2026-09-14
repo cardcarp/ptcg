@@ -1,0 +1,39 @@
+name: Celebi
+
+origin: stellar-crown-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 251
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Grass
+    name: Leaf Step
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

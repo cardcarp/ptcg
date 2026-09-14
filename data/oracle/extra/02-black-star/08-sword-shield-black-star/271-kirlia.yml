@@ -1,0 +1,41 @@
+name: Kirlia
+
+origin: sword-shield-black-star-271
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Ralts
+
+dex: 281
+
+rule:
+  - type: Ability
+    name: Refinement
+    text: You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Slap
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

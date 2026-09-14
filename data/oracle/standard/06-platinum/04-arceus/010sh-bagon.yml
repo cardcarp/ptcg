@@ -1,0 +1,38 @@
+name: Bagon
+
+origin: arceus-010sh
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 371
+
+rule:
+  - type: Ability
+    name: Star Barrier
+    text: As long as Bagon has any Energy attached to it, Bagon has no Weakness.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dragon Rage
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Colorless
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

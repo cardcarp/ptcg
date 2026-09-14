@@ -1,0 +1,41 @@
+name: Venonat
+
+origin: 151-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 48
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Beam
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

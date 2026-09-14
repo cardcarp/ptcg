@@ -1,0 +1,36 @@
+name: Rowlet
+
+origin: sun-moon-black-star-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 722
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Fury Attack
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

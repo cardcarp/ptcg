@@ -1,0 +1,40 @@
+name: Roselia
+
+origin: sword-shield-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 315
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sweet Scent
+    text: Heal 30 damage from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Sting
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

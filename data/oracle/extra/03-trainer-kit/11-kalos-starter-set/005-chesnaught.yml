@@ -1,0 +1,49 @@
+name: Chesnaught
+
+origin: kalos-starter-set-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Quilladin
+
+dex: 652
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Needle Arm
+    damage: 50
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Tumbling Attack
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

@@ -1,0 +1,42 @@
+name: Team Rocket's Meowth
+
+origin: destined-rivals-149
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 52
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Paw-cket Pilfer
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

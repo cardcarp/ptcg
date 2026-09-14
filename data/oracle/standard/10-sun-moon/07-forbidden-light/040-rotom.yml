@@ -1,0 +1,45 @@
+name: Rotom
+
+origin: forbidden-light-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 479
+
+rule:
+  - type: Ability
+    name: Roto Motor
+    text: If you have 9 or more Pokémon Tool cards in your discard pile, ignore all Energy in the attack cost of each of this Pokémon's attacks.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Plasma Slice
+    text: This Pokémon can't attack during your next turn.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

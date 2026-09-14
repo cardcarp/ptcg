@@ -1,0 +1,37 @@
+name: Audino
+
+origin: black-white-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 531
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Doubleslap
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

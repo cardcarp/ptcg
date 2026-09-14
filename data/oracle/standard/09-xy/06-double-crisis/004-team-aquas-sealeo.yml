@@ -1,0 +1,47 @@
+name: Team Aqua's Sealeo
+
+origin: double-crisis-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Team Aqua's Spheal
+
+dex: 364
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Splatter
+    text: This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hail Storm
+    text: If your opponent's Active Pokémon is a Team Magma Pokémon, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

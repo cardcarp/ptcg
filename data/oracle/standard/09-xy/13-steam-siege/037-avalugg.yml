@@ -1,0 +1,46 @@
+name: Avalugg
+
+origin: steam-siege-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Bergmite
+
+dex: 713
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Melting Floe
+    text: Discard the top 3 cards of your deck. For each Water Energy card you discarded in this way, discard the top 3 cards of your opponent's deck.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

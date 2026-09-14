@@ -1,0 +1,40 @@
+name: Sobble on the Ball
+
+origin: pokemon-futsal-collection-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 816
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Spectacular Save
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Rain Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

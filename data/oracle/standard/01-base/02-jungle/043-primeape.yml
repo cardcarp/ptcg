@@ -1,0 +1,48 @@
+name: Primeape
+
+origin: jungle-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Tantrum
+    text: Flip a coin. If tails, Primeape is now Confused (after doing damage).
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

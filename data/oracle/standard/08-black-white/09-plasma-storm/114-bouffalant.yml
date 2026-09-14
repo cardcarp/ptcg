@@ -1,0 +1,43 @@
+name: Bouffalant
+
+origin: plasma-storm-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Team Plasma
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 626
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tool Breaker
+    text: Discard a Pokémon Tool card attached to the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Fuecoco
+
+origin: paradox-rift-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 909
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

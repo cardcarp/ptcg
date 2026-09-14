@@ -1,0 +1,40 @@
+name: Bouffalant
+
+origin: primal-clash-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 626
+
+rule:
+  - type: Ability
+    name: Sap Sipper
+    text: This Pokémon's attacks do 40 more damage to your opponent's Grass Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Derail
+    text: Discard a Special Energy attached to your opponent's Active Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

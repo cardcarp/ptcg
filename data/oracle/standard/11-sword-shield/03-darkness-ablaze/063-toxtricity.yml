@@ -1,0 +1,46 @@
+name: Toxtricity
+
+origin: darkness-ablaze-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Toxel
+
+dex: 849
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Risk Taker
+    text: Flip a coin. If heads, discard the top 5 cards of your opponent's deck. If tails, discard the top 5 cards of your deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder Jolt
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

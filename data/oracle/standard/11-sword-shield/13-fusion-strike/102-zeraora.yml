@@ -1,0 +1,36 @@
+name: Zeraora
+
+origin: fusion-strike-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 807
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Wild Charge
+    text: This Pokémon also does 20 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

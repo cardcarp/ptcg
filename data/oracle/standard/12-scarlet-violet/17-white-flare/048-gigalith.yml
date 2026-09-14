@@ -1,0 +1,46 @@
+name: Gigalith
+
+origin: white-flare-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 170
+
+preevolution:
+  - Boldore
+
+dex: 526
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Vengeful Cannon
+    text: This attack does 20 damage for each damage counter on all of your Benched Fighting Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Heavy Impact
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

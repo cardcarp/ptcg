@@ -1,0 +1,40 @@
+name: Poliwag
+
+origin: firered-leafgreen-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 60
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spiral Attack
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Whap
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

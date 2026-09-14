@@ -1,0 +1,56 @@
+name: Dragonair δ
+
+origin: delta-species-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coin. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Dragon Rage
+    damage: 40
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

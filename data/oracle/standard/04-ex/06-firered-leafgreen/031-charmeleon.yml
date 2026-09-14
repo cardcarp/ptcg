@@ -1,0 +1,47 @@
+name: Charmeleon
+
+origin: firered-leafgreen-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Damage Burn
+    text: If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

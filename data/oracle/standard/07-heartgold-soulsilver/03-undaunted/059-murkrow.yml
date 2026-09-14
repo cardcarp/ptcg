@@ -1,0 +1,46 @@
+name: Murkrow
+
+origin: undaunted-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 198
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Glide
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Cutter
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

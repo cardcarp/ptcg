@@ -1,0 +1,39 @@
+name: Burmy Plant Cloak
+
+origin: secret-wonders-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 412
+
+rule:
+  - type: Ability
+    name: Wear Cloak
+    text: Once during your turn (before your attack), if Burmy Plant Cloak is your Active Pokémon, you may search your discard pile for a basic Grass Energy card and attach it to Burmy Plant Cloak.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Plant Cloak Tackle
+    text: If Burmy Plant Cloak has any Grass Energy attached to it, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Plusle
+
+origin: emerald-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 311
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

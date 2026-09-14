@@ -1,0 +1,47 @@
+name: Nidoking
+
+origin: team-up-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 160
+
+preevolution:
+  - Nidorino
+
+dex: 34
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drag Off
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 50 damage to the new Active Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: King's Drum
+    text: If Nidoqueen is on your Bench, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

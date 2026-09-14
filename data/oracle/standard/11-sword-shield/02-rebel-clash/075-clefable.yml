@@ -1,0 +1,41 @@
+name: Clefable
+
+origin: rebel-clash-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: Ability
+    name: Prankish
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put an Energy attached to your opponent's Active Pokémon on top of their deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Moon Kick
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

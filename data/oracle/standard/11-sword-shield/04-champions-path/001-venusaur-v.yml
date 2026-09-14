@@ -1,0 +1,50 @@
+name: Venusaur V
+
+origin: champions-path-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 220
+
+dex: 3
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Pollen Bomb
+    text: Your opponent's Active Pokémon is now Asleep and Poisoned.
+    damage: 80
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Colorless
+    name: Solar Typhoon
+    text: During your next turn, this Pokémon can't use Solar Typhoon.
+    damage: 220
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

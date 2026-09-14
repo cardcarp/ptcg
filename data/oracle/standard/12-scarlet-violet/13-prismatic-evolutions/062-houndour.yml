@@ -1,0 +1,34 @@
+name: Houndour
+
+origin: prismatic-evolutions-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 228
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Playful Kick
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

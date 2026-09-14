@@ -1,0 +1,42 @@
+name: Clawitzer
+
+origin: forbidden-light-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Clauncher
+
+dex: 693
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Standing By
+    text: During your next turn, this Pokémon's Sharpshooting attack does 120 damage instead of 40.
+  - type: Attack
+    cost:
+      - Water
+    name: Sharpshooting
+    text: This attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,47 @@
+name: Volcanion
+
+origin: xy-black-star-164
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 721
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Concentrated Fire
+    text: Flip a coin for each Fire Energy attached to this Pokémon. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Combustion Impact
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

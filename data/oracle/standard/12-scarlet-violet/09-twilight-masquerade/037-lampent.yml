@@ -1,0 +1,44 @@
+name: Lampent
+
+origin: twilight-masquerade-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Burn It All Up
+    text: Discard all Energy from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Wartortle
+
+origin: team-up-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Squirtle
+
+dex: 8
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

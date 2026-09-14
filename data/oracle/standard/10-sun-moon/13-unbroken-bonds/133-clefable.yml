@@ -1,0 +1,44 @@
+name: Clefable
+
+origin: unbroken-bonds-133
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 110
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Moon-Watching Dance
+    text: This attack does 30 more damage for each of your Pokémon that has any Fairy Energy attached to it.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

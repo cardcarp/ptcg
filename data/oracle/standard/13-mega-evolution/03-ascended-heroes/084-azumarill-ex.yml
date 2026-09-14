@@ -1,0 +1,48 @@
+name: Azumarill ex
+
+origin: ascended-heroes-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 270
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: Ability
+    name: Bubble Gathering
+    text: As often as you like during your turn, you may use this Ability. Move an Energy from 1 of your other Pokémon to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Energized Balloon
+    text: This attack does 40 more damage for each Psychic Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

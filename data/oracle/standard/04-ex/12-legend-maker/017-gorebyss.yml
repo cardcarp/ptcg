@@ -1,0 +1,41 @@
+name: Gorebyss
+
+origin: legend-maker-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Clamperl
+
+dex: 368
+
+rule:
+  - type: Ability
+    name: Reactive Booster
+    text: Each React Energy card attached to all of your Huntail and Gorebyss provides 2 Energy of every type but has no effect other than providing Energy.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Hydro Pump
+    text: Does 30 damage plus 20 more damage for each Water Energy attached to Gorebyss but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

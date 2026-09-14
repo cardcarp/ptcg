@@ -1,0 +1,45 @@
+name: Hitmonchan
+
+origin: aquapolis-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 107
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rush
+    text: Flip 5 coins. This attack does 10 damage times the number of heads. Hitmonchan can't attack during your next turn.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Smash Punch
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

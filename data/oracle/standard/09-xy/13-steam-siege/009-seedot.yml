@@ -1,0 +1,34 @@
+name: Seedot
+
+origin: steam-siege-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 273
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Bide
+    text: Flip a coin. If heads, if this Pokémon would be Knocked Out by damage from an attack during your opponent's next turn, it is not Knocked Out and its remaining HP becomes 10 instead.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

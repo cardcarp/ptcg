@@ -1,0 +1,64 @@
+name: Gengar ex
+
+origin: firered-leafgreen-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poltergeist
+    text: Look at your opponent's hand. This attack does 40 damage plus 10 more damage for each Trainer card in your opponent's hand.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Prize Count
+    text: If you have more Prize cards left than your opponent, this attack does 60 damage plus 40 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+  - type: Colorless
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

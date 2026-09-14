@@ -1,0 +1,45 @@
+name: Grafaiai
+
+origin: surging-sparks-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Shroodle
+
+dex: 945
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mischievous Painting
+    text: Attach up to 3 Energy cards from your opponent's discard pile to their Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Energized Graffiti
+    text: This attack does 40 damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

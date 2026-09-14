@@ -1,0 +1,46 @@
+name: Alolan Marowak
+
+origin: unified-minds-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: Attack
+    name: Spirit Smash
+    text: Discard the top card of your opponent's deck. If the card you discarded is a Pokémon, this attack does damage equal to that Pokémon's HP to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Bone Beatdown
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

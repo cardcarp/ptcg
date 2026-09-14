@@ -1,0 +1,43 @@
+name: Kadabra
+
+origin: 151-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Abra
+
+dex: 64
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Teleportation Attack
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

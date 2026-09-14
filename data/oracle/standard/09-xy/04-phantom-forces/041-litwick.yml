@@ -1,0 +1,41 @@
+name: Litwick
+
+origin: phantom-forces-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 607
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,39 @@
+name: Flaaffy
+
+origin: chaos-rising-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Mareep
+
+dex: 180
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Disconnect
+    text: During your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

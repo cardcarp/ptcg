@@ -1,0 +1,35 @@
+name: Cubone
+
+origin: stellar-crown-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 104
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Reckless Charge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

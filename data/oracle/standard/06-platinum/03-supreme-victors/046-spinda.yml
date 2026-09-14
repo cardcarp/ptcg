@@ -1,0 +1,40 @@
+name: Spinda
+
+origin: supreme-victors-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 327
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Synchro Removal
+    text: If any Energy card attached to Spinda is the same type as any Energy card attached to the Defending Pokémon, discard 1 of those Energy cards from the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pulled Punch
+    text: If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 30.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

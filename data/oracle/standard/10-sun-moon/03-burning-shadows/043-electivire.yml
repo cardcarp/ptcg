@@ -1,0 +1,55 @@
+name: Electivire
+
+origin: burning-shadows-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Electabuzz
+
+dex: 466
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder Punch
+    text: Flip a coin. If heads, this attack does 60 more damage. If tails, this Pokémon does 20 damage to itself.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Giga Impact
+    text: This Pokémon can't attack during your next turn.
+    damage: 170
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

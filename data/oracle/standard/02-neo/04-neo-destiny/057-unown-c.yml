@@ -1,0 +1,40 @@
+name: Unown [C]
+
+origin: neo-destiny-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 201
+
+rule:
+  - type: Ability
+    name: '[Chase]'
+    text: As long as Unown [C] is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hidden Power
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You may have up to 4 Basic Pokémon cards in your deck with Unown in their names.
+
+errata: []

@@ -1,0 +1,40 @@
+name: Skuntank G
+
+origin: platinum-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 435
+
+rule:
+  - type: Ability
+    name: Poison Structure
+    text: Once during your turn (before your attack), if you have a Stadium card in play, you may use this power. Each Active Pokémon (both yours and your opponent's) (excluding Pokémon SP) is now Poisoned. This power can't be used if Skuntank is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

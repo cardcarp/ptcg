@@ -1,0 +1,57 @@
+name: Tornadus VMAX
+
+origin: chilling-reign-125
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+  - Single Strike
+
+type:
+  - Colorless
+
+hp: 320
+
+preevolution:
+  - Tornadus V
+
+dex: 641
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Blasting Wind
+    damage: 60
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Max Wind Spirit
+    text: If a Stadium is in play, this attack does 120 more damage. Then, discard that Stadium.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

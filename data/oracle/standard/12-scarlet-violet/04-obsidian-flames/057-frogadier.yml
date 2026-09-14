@@ -1,0 +1,39 @@
+name: Frogadier
+
+origin: obsidian-flames-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Froakie
+
+dex: 657
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

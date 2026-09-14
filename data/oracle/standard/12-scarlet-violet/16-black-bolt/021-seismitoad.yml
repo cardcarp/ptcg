@@ -1,0 +1,49 @@
+name: Seismitoad
+
+origin: black-bolt-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Palpitoad
+
+dex: 537
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Round
+    text: This attack does 70 damage for each of your Pokémon in play that has the Round attack.
+    damage: 70
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

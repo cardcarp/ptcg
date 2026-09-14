@@ -1,0 +1,47 @@
+name: Toxicroak
+
+origin: shrouded-fable-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Corkscrew Punch
+    damage: 50
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Clean Hit
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

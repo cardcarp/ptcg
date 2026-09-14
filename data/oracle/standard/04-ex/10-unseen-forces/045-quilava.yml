@@ -1,0 +1,46 @@
+name: Quilava
+
+origin: unseen-forces-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Cyndaquil
+
+dex: 156
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

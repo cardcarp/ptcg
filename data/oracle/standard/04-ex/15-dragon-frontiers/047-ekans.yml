@@ -1,0 +1,41 @@
+name: Ekans δ
+
+origin: dragon-frontiers-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 23
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Tail Snap
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

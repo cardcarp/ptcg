@@ -1,0 +1,45 @@
+name: Kakuna
+
+origin: evolutions-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Weedle
+
+dex: 14
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stiffen
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Poison Powder
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

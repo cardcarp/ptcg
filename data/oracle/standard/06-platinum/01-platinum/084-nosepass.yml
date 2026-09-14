@@ -1,0 +1,40 @@
+name: Nosepass
+
+origin: platinum-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 299
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pull
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rollout
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

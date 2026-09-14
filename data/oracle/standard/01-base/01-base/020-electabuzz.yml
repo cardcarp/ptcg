@@ -1,0 +1,43 @@
+name: Electabuzz
+
+origin: base-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 125
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunderpunch
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage plus Electabuzz does 10 damage to itself.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

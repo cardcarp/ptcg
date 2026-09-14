@@ -1,0 +1,36 @@
+name: Karrablast
+
+origin: darkness-ablaze-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 588
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Continuous Headbutt
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

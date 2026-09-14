@@ -1,0 +1,42 @@
+name: Kyogre
+
+origin: emerald-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 382
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aqua Sonic
+    text: This attack's damage isn't affected by Resistance.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

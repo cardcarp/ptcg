@@ -1,0 +1,37 @@
+name: Machop
+
+origin: evolutions-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 66
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Dual Chop
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,57 @@
+name: Alolan Ninetales-GX
+
+origin: lost-thunder-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Fairy
+
+hp: 200
+
+preevolution:
+  - Alolan Vulpix
+
+dex: 38
+
+rule:
+  - type: Ability
+    name: Mysterious Guidance
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Snowy Wind
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 70
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Sublimation-GX
+    text: If your opponent's Active Pokémon is an Ultra Beast, it is Knocked Out. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

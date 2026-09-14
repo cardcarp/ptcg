@@ -1,0 +1,46 @@
+name: Charmeleon δ
+
+origin: pop-series-5-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder Jolt
+    text: Flip a coin. If tails, Charmeleon does 10 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

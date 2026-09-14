@@ -1,0 +1,40 @@
+name: Koga's Grimer
+
+origin: gym-challenge-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 88
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Sludge Grip
+    text: If your opponent has any Benched Pokémon, flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. The new Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Sludge Toss
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

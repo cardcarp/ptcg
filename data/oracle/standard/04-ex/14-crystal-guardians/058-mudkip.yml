@@ -1,0 +1,40 @@
+name: Mudkip
+
+origin: crystal-guardians-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 258
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Remove 2 damage counters from Mudkip.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

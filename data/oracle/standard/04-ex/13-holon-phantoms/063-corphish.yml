@@ -1,0 +1,41 @@
+name: Corphish
+
+origin: holon-phantoms-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 341
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flail
+    text: Does 10 damage times the number of damage counters on Corphish.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+    name: Crabhammer
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Minun
+
+origin: fusion-strike-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 312
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Static Shock
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

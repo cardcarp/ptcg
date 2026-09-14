@@ -1,0 +1,43 @@
+name: Lugia
+
+origin: pop-series-5-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 249
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Aerowing
+    text: Before doing damage, you may flip a coin. If tails, this attack does nothing. If heads, this attack does 60 damage instead.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

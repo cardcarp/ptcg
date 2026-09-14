@@ -1,0 +1,44 @@
+name: Espeon
+
+origin: lost-thunder-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Allure
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Energy Crush
+    text: This attack does 20 more damage times the amount of Energy attached to all of your opponent's Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

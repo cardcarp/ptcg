@@ -1,0 +1,46 @@
+name: Silvally
+
+origin: sun-moon-black-star-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - 'Type: Null'
+
+dex: 773
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gear Scan
+    text: Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,35 @@
+name: Wishiwashi
+
+origin: guardians-rising-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 746
+
+rule:
+  - type: Ability
+    name: Schooling
+    text: Once during your turn (before your attack), you may switch this Pokémon with a Wishiwashi-GX in your hand. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.
+  - type: Attack
+    cost:
+      - Water
+    name: Sharpshooting
+    text: This attack does 10 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

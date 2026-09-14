@@ -1,0 +1,42 @@
+name: Slowbro
+
+origin: firered-leafgreen-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: Ability
+    name: Strange Behavior
+    text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to Slowbro as long as you don't Knock Out Slowbro. This power can't be used if Slowbro is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Aron
+
+origin: undaunted-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 304
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Metal Sound
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Frosmoth
+
+origin: ascended-heroes-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Snom
+
+dex: 873
+
+rule:
+  - type: Ability
+    name: Alluring Wings
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Each player draws a card.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Cold Cyclone
+    text: Move a Water Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

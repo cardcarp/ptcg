@@ -1,0 +1,40 @@
+name: Chikorita
+
+origin: ascended-heroes-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 152
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Growl
+    text: During your opponent's next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Seed Bomb
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

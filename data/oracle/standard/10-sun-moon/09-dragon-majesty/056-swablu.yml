@@ -1,0 +1,45 @@
+name: Swablu
+
+origin: dragon-majesty-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 333
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

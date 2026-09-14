@@ -1,0 +1,40 @@
+name: Inkay
+
+origin: lost-origin-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 686
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Fickle Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

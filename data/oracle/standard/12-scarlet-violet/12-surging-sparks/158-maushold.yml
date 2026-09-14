@@ -1,0 +1,44 @@
+name: Maushold
+
+origin: surging-sparks-158
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Tandemaus
+
+dex: 925
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Familial March
+    text: Search your deck for up to 2 in any combination of Maushold and Maushold ex and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Incessant Incisors
+    text: Flip 4 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

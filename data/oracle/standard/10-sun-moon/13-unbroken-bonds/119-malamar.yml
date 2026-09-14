@@ -1,0 +1,50 @@
+name: Malamar
+
+origin: unbroken-bonds-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Inkay
+
+dex: 687
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Hypnotic Reign
+    text: Your opponent reveals their hand. You may discard a Pokémon you find there and use one of that Pokémon's non-GX attacks as this attack.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Pressure
+    text: Discard the top card of your opponent's deck.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

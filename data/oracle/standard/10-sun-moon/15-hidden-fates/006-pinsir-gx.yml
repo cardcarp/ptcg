@@ -1,0 +1,48 @@
+name: Pinsir-GX
+
+origin: hidden-fates-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Grass
+
+hp: 180
+
+dex: 127
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Superpowered Horns
+    damage: 110
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Guillotine-GX
+    text: (You can't use more than 1 GX attack in a game.)
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

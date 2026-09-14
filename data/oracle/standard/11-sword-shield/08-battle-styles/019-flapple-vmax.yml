@@ -1,0 +1,44 @@
+name: Flapple VMAX
+
+origin: battle-styles-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Grass
+
+hp: 320
+
+preevolution:
+  - Flapple V
+
+dex: 841
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: G-Max Rolling
+    text: This attack does 10 less damage for each damage counter on this Pokémon.
+    damage: 250
+    modifier: '-'
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

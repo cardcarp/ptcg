@@ -1,0 +1,39 @@
+name: Wingull
+
+origin: sandstorm-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 278
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

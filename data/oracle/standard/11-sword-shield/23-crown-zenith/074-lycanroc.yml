@@ -1,0 +1,40 @@
+name: Lycanroc
+
+origin: crown-zenith-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Midnight Fang
+    text: This attack does 80 less damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 240
+    modifier: '-'
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,39 @@
+name: Zapdos
+
+origin: pokemon-go-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 145
+
+rule:
+  - type: Ability
+    name: Lightning Symbol
+    text: Your Basic Lightning Pokémon's attacks, except any Zapdos, do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electric Ball
+    damage: 110
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

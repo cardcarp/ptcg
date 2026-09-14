@@ -1,0 +1,49 @@
+name: Skarmory
+
+origin: neo-revelation-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 227
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fury Attack
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Skarmory.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

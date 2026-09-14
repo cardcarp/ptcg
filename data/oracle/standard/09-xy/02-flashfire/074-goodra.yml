@@ -1,0 +1,44 @@
+name: Goodra
+
+origin: flashfire-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Sliggoo
+
+dex: 706
+
+rule:
+  - type: Ability
+    name: Gooey Regeneration
+    text: As often as you like during your turn (before your attack), you may discard an Energy attached to this Pokémon. If you do, heal 60 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Fairy
+      - Colorless
+    name: Heavy Whip
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

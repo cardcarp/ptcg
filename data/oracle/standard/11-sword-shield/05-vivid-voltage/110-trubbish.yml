@@ -1,0 +1,42 @@
+name: Trubbish
+
+origin: vivid-voltage-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 568
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lucky Find
+    text: Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Sludge Toss
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

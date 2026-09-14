@@ -1,0 +1,46 @@
+name: Camerupt
+
+origin: paldean-fates-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Super Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Cinder Cannon
+    text: You may discard a Fighting Energy from this Pokémon. If you do, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

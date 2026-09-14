@@ -1,0 +1,42 @@
+name: Seismitoad
+
+origin: obsidian-flames-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Palpitoad
+
+dex: 537
+
+rule:
+  - type: Ability
+    name: Quaking Zone
+    text: As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost Colorless more.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Echoed Voice
+    text: During your next turn, this Pokémon's Echoed Voice attack does 100 more damage (before applying Weakness and Resistance).
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

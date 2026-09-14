@@ -1,0 +1,44 @@
+name: Koga's Ditto
+
+origin: gym-challenge-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 132
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Giant Growth
+    text: Flip a coin. If heads, Koga's Ditto's maximum HP is now 80 and Koga's Ditto's Pound attack's base damage is 30 instead of 10. (Benching Koga's Ditto ends this effect.)
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

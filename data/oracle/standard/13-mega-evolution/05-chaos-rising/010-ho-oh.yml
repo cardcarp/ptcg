@@ -1,0 +1,42 @@
+name: Ho-Oh
+
+origin: chaos-rising-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 250
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flames of Revival
+    text: Put up to 3 Basic Pokémon from your discard pile onto your Bench.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Bright Wing
+    text: Discard a Fire Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,59 @@
+name: Melmetal-GX
+
+origin: sun-moon-black-star-178
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Metal
+
+hp: 220
+
+preevolution:
+  - Meltan
+
+dex: 809
+
+rule:
+  - type: Ability
+    name: Hard Coat
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Metal Blast
+    text: This attack does 20 more damage times the amount of Metal Energy attached to this Pokémon.
+    damage: 110
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+    name: Iron Force-GX
+    text: Attach any number of Metal Energy cards from your discard pile to this Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

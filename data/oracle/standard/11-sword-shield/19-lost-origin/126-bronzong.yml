@@ -1,0 +1,52 @@
+name: Bronzong
+
+origin: lost-origin-126
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Gravitational Drop
+    text: This attack does 40 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

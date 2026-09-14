@@ -1,0 +1,36 @@
+name: Croagunk
+
+origin: boundaries-crossed-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 453
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Paralyzing Jab
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

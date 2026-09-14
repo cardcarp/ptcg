@@ -1,0 +1,45 @@
+name: Seismitoad
+
+origin: cosmic-eclipse-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Palpitoad
+
+dex: 537
+
+rule:
+  - type: Ability
+    name: Bulldoze
+    text: Once during your turn (before your attack), you may search your deck for a card, shuffle your deck, then put that card on top of it.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tremulous Fist
+    text: This attack does 30 more damage for each of your Benched Pokémon that has any damage counters on it.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

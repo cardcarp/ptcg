@@ -1,0 +1,42 @@
+name: Onix
+
+origin: stormfront-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 95
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Harden
+    text: During your opponent's next turn, if Onix would be damaged by an attack, prevent that attack's damage done to Onix if that damage is 40 or less.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Bind
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 3
+
+errata: []

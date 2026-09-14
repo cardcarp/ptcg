@@ -1,0 +1,46 @@
+name: Wattrel
+
+origin: paldea-evolved-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 940
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Devastating Wind
+    text: Your opponent shuffles their hand into their deck and draws 4 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Flap
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

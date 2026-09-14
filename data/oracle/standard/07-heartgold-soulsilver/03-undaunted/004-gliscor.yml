@@ -1,0 +1,51 @@
+name: Gliscor
+
+origin: undaunted-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Ninja Fang
+    text: If, before Gliscor does damage, the Defending Pokémon has no damage counters on it and is then damaged by this attack (after applying Weakness and Resistance), the Defending Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Poison Jab
+    text: The Defending Pokémon is now Poisoned.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

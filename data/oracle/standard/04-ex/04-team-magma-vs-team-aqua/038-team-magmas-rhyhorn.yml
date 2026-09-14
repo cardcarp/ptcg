@@ -1,0 +1,42 @@
+name: Team Magma's Rhyhorn
+
+origin: team-magma-vs-team-aqua-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 111
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Damage
+    text: Does 10 damage to each Defending Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Horn Rush
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

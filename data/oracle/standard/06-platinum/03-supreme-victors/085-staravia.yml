@@ -1,0 +1,53 @@
+name: Staravia
+
+origin: supreme-victors-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Starly
+
+dex: 397
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Peck
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Air Crash
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

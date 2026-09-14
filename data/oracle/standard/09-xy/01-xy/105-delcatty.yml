@@ -1,0 +1,44 @@
+name: Delcatty
+
+origin: xy-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Skitty
+
+dex: 301
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Salon
+    text: Search your deck for 3 different types of basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fake Out
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

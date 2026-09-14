@@ -1,0 +1,45 @@
+name: Slowpoke
+
+origin: stellar-crown-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 79
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dangle Tail
+    text: Put a Pokémon from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

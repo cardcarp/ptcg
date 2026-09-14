@@ -1,0 +1,43 @@
+name: Slakoth
+
+origin: unified-minds-168
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 287
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boundless Power
+    text: This Pokémon can't attack during your next turn.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

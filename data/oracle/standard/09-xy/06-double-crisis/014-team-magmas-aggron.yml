@@ -1,0 +1,49 @@
+name: Team Magma's Aggron
+
+origin: double-crisis-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Team Magma's Lairon
+
+dex: 306
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Stomp
+    text: Discard as many Fighting Energy attached to your Pokémon as you like. This attack does 40 damage times the amount of Fighting Energy you discarded.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Boulder Storm
+    text: This attack does 20 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

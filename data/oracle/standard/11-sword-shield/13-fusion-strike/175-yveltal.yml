@@ -1,0 +1,48 @@
+name: Yveltal
+
+origin: fusion-strike-175
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 130
+
+dex: 717
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Dark Cutter
+    damage: 50
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Single Strike Wings
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

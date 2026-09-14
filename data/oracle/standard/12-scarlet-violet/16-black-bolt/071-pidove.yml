@@ -1,0 +1,44 @@
+name: Pidove
+
+origin: black-bolt-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 519
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scout
+    text: Your opponent reveals their hand.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stampede
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

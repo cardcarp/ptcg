@@ -1,0 +1,49 @@
+name: Tapu Koko ex
+
+origin: paradox-rift-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Lightning
+
+hp: 210
+
+dex: 785
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Vengeful Shock
+    text: If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 90 more damage, and your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Extreme Current
+    text: Discard an Energy from this Pokémon.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

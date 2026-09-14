@@ -1,0 +1,38 @@
+name: Gligar
+
+origin: unseen-forces-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 207
+
+rule:
+  - type: Ability
+    name: Free Flight
+    text: If Gligar has no Energy cards attached to it, Gligar's Retreat Cost is 0.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Toxic Grip
+    text: The Defending Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

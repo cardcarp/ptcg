@@ -1,0 +1,45 @@
+name: Dragonair
+
+origin: plasma-freeze-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 70
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Wrap
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Tail Smack
+    damage: 50
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

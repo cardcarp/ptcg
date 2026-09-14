@@ -1,0 +1,52 @@
+name: Rhyperior E4
+
+origin: rising-rivals-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 464
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Double Lariat
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Tumble
+    text: This attack's damage isn't affected by Resistance.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

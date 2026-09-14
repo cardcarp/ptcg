@@ -1,0 +1,47 @@
+name: Raichu
+
+origin: lost-origin-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Ace Spark
+    text: If you have used your VSTAR Power, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

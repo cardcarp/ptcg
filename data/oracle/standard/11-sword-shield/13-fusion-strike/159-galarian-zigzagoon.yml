@@ -1,0 +1,35 @@
+name: Galarian Zigzagoon
+
+origin: fusion-strike-159
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 263
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Lick
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

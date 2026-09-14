@@ -1,0 +1,43 @@
+name: Goldeen
+
+origin: supreme-victors-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 118
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flail
+    text: Does 10 damage times the number of damage counters on Goldeen.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+    name: Fury Attack
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

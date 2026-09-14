@@ -1,0 +1,42 @@
+name: Helioptile
+
+origin: phantom-forces-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 694
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Tail Rap
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Lombre
+
+origin: plasma-storm-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jump On
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Wave Splash
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

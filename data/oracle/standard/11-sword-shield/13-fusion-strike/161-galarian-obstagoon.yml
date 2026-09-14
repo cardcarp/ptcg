@@ -1,0 +1,45 @@
+name: Galarian Obstagoon
+
+origin: fusion-strike-161
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Galarian Linoone
+
+dex: 862
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Silence
+    text: Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+    name: Merciless Strike
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 90 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

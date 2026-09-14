@@ -1,0 +1,41 @@
+name: Horsea
+
+origin: team-rocket-returns-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 116
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Water Plant
+    text: Search your discard pile for up to 2 Water Energy cards, show them to your opponent, and put them into your hand.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

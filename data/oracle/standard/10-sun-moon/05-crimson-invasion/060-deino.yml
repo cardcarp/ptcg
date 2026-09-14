@@ -1,0 +1,48 @@
+name: Deino
+
+origin: crimson-invasion-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 633
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Headbutt
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

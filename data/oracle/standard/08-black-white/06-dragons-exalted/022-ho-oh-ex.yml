@@ -1,0 +1,50 @@
+name: Ho-Oh-EX
+
+origin: dragons-exalted-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 160
+
+dex: 250
+
+rule:
+  - type: Ability
+    name: Rebirth
+    text: Once during your turn (before your attack), if this Pokémon is in your discard pile, you may flip a coin. If heads, put this Pokémon onto your Bench and attach 3 different types of basic Energy cards from the discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rainbow Burn
+    text: Does 20 more damage for each different type of basic Energy attached to this Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

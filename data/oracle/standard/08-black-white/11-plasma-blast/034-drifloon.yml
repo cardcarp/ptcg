@@ -1,0 +1,41 @@
+name: Drifloon
+
+origin: plasma-blast-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 425
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Creepy Wind
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wind Blast
+    text: This attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Mankey
+
+origin: paldea-evolved-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 56
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Low Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Hang Down
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

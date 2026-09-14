@@ -1,0 +1,36 @@
+name: Mewtwo
+
+origin: pokemon-rumble-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

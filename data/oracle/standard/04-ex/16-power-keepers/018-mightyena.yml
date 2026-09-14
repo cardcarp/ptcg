@@ -1,0 +1,51 @@
+name: Mightyena
+
+origin: power-keepers-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Plunder
+    text: Before doing damage, discard all Trainer cards attached to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Burst
+    text: If Sidney's Stadium is in play, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+errata: []

@@ -1,0 +1,42 @@
+name: Cresselia
+
+origin: majestic-dawn-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 488
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Future Sight
+    text: Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Healing Light
+    text: Remove 1 damage counter from each of your Pokémon.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

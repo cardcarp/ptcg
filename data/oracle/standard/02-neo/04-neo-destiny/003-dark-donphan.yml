@@ -1,0 +1,50 @@
+name: Dark Donphan
+
+origin: neo-destiny-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 60
+
+preevolution:
+  - Phanpy
+
+dex: 232
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Tusk Toss
+    text: If your opponent has any Benched Pokémon, flip a coin. If heads, return the Defending Pokémon and all cards attached to it to your opponent's hand. If tails, your opponent chooses 1 of his or her Benched Pokémon and switches it with the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Giant Tusk
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

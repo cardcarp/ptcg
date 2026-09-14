@@ -1,0 +1,55 @@
+name: Garchomp & Giratina-GX
+
+origin: sun-moon-black-star-193
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Dragon
+
+hp: 270
+
+dex: 445
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Linear Attack
+    text: This attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Fighting
+      - Colorless
+    name: Calamitous Slash
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage.
+    damage: 160
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Fighting
+    name: GG End-GX
+    text: Discard 1 of your opponent's Pokémon and all cards attached to it. If this Pokémon has at least 3 extra Fighting Energy attached to it (in addition to this attack's cost), discard 2 of your opponent's Pokémon instead. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

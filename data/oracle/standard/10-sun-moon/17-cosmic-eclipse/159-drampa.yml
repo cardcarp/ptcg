@@ -1,0 +1,43 @@
+name: Drampa
+
+origin: cosmic-eclipse-159
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 780
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dragon Claw
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Arcana
+    text: If this Pokémon has 2 or more different types of basic Energy attached to it, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

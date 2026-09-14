@@ -1,0 +1,48 @@
+name: Nidorino δ
+
+origin: dragon-frontiers-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Nidoran ♂
+
+dex: 33
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Nidorino.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Horn Drill
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

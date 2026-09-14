@@ -1,0 +1,43 @@
+name: Anorith
+
+origin: power-keepers-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Claw Fossil
+
+dex: 347
+
+rule:
+  - type: Ability
+    name: Solid Shell
+    text: Any damage done to Anorith by attacks is reduced by 10 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Fury Cutter
+    text: Flip 3 coins. If 1 of them is heads, this attack does 10 damage plus 10 more damage. If 2 of them are heads, this attack does 10 damage plus 30 more damage. If all of them are heads, this attack does 10 damage plus 50 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

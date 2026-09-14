@@ -1,0 +1,52 @@
+name: Houndoom
+
+origin: crimson-invasion-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Fire Fang
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Puncturing Fangs
+    text: This attack's damage isn't affected by Resistance.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

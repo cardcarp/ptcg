@@ -1,0 +1,56 @@
+name: Zygarde-GX
+
+origin: sun-moon-black-star-122
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Fighting
+
+hp: 180
+
+dex: 718
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Vibration
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Cell Storm
+    text: Heal 30 damage from this Pokémon.
+    damage: 80
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Liberation-GX
+    text: Your opponent reveals their hand. This attack does 120 damage for each Energy card you find there. (You can't use more than 1 GX attack in a game.)
+    damage: 120
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

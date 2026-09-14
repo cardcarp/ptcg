@@ -1,0 +1,54 @@
+name: Drapion
+
+origin: unified-minds-134
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Skorupi
+
+dex: 452
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Cross Poison
+    text: Flip 4 coins. This attack does 50 damage for each heads. If at least 2 of them are heads, your opponent's Active Pokémon is now Poisoned.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Slicing Blade
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

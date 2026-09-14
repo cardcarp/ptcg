@@ -1,0 +1,48 @@
+name: Starmie
+
+origin: skyridge-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    text: This attack does 10 damage plus 20 more damage for each Water Energy attached to Starmie but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Core Blast
+    text: This attack does 30 damage plus 20 more damage for each Special Energy card attached to the Defending Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

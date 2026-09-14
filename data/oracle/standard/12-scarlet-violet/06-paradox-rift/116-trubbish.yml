@@ -1,0 +1,42 @@
+name: Trubbish
+
+origin: paradox-rift-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 568
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Suffocating Gas
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Venomous Hit
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,46 @@
+name: Vikavolt
+
+origin: stellar-crown-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 160
+
+preevolution:
+  - Charjabug
+
+dex: 738
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Volt Switch
+    text: Switch this Pokémon with 1 of your Benched Lightning Pokémon.
+    damage: 90
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Sparking Strike
+    damage: 240
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

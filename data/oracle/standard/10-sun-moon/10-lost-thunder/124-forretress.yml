@@ -1,0 +1,50 @@
+name: Forretress
+
+origin: lost-thunder-124
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Pineco
+
+dex: 205
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Thorny Eruption
+    text: Flip 3 coins. This attack does 10 damage for each heads to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Lost Blast
+    text: Put this Pokémon and all cards attached to it in the Lost Zone.
+    damage: 190
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

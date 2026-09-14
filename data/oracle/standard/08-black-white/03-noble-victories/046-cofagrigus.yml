@@ -1,0 +1,46 @@
+name: Cofagrigus
+
+origin: noble-victories-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Yamask
+
+dex: 563
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Damagriiigus
+    text: Move all damage counters from 1 of your Benched Pokémon to the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Perplex
+    text: The Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

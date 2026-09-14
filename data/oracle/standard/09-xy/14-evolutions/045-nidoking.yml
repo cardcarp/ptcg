@@ -1,0 +1,47 @@
+name: Nidoking
+
+origin: evolutions-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Nidorino
+
+dex: 34
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Rumble
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 40
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Tail Swing
+    text: This attack does 20 damage to each of your opponent's Benched Basic Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

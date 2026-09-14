@@ -1,0 +1,48 @@
+name: Drifloon
+
+origin: scarlet-violet-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 425
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Balloon Blast
+    text: This attack does 30 damage for each damage counter on this Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,58 @@
+name: Eevee & Snorlax-GX
+
+origin: sun-moon-black-star-169
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Colorless
+
+hp: 270
+
+dex: 133
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cheer Up
+    text: Attach an Energy card from your hand to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dump Truck Press
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Megaton Friends-GX
+    text: If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack's cost), draw cards until you have 10 cards in your hand. (You can't use more than 1 GX attack in a game.)
+    damage: 210
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

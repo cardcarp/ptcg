@@ -1,0 +1,44 @@
+name: Vileplume
+
+origin: undaunted-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: Ability
+    name: Allergy Flower
+    text: Each player can't play any Trainer cards from his or her hand.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Dazzling Pollen
+    text: Flip a coin. If heads, this attack does 50 damage plus 20 more damage. If tails, the Defending Pokémon is now Confused.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,50 @@
+name: Mudsdale
+
+origin: sun-moon-black-star-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Mudbray
+
+dex: 750
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Enhanced Stomp
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: High Horsepower
+    text: This Pokémon does 40 damage to itself.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

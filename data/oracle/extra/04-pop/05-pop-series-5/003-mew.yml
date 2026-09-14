@@ -1,0 +1,39 @@
+name: Mew δ
+
+origin: pop-series-5-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 151
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Copy
+    text: Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Mew doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Mew performs that attack.
+  - type: Attack
+    cost:
+      - Fire
+    name: Extra Draw
+    text: If your opponent has any Pokémon-ex in play, search your deck for up to 2 basic Energy cards and attach them to Mew. Shuffle your deck afterward.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

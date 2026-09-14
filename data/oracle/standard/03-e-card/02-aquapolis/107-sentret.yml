@@ -1,0 +1,41 @@
+name: Sentret
+
+origin: aquapolis-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 161
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spy
+    text: Look at the top 3 cards of your opponent's deck. Put them back in the same order.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

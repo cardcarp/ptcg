@@ -1,0 +1,47 @@
+name: Bayleef
+
+origin: neo-genesis-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Chikorita
+
+dex: 153
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Poisonpowder
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Pollen Shield
+    text: During your opponent's next turn, Bayleef can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers and Trainer cards still happen.)
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

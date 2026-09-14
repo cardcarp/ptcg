@@ -1,0 +1,44 @@
+name: Cubone
+
+origin: aquapolis-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 104
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Teary Eyes
+    text: During your opponent's next turn, any damage done to Cubone by attacks is reduced by 20.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Tackle
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

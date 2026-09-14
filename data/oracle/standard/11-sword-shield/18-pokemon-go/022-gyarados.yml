@@ -1,0 +1,46 @@
+name: Gyarados
+
+origin: pokemon-go-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Wreak Havoc
+    text: Flip a coin until you get tails. For each heads, discard the top 2 cards of your opponent's deck.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Wild Splash
+    text: Discard the top 5 cards of your deck.
+    damage: 230
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

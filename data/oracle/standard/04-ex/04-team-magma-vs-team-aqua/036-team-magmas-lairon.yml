@@ -1,0 +1,45 @@
+name: Team Magma's Lairon
+
+origin: team-magma-vs-team-aqua-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Team Magma's Aron
+
+dex: 305
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Land Sonic
+    text: If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

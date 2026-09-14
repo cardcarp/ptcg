@@ -1,0 +1,45 @@
+name: Zweilous
+
+origin: darkness-ablaze-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Deino
+
+dex: 634
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Corkscrew Punch
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Darkness Fang
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

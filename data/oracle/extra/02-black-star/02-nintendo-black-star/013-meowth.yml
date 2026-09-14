@@ -1,0 +1,41 @@
+name: Meowth
+
+origin: nintendo-black-star-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 52
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Plunder
+    text: Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage.).
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

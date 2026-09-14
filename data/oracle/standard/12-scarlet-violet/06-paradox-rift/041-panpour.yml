@@ -1,0 +1,42 @@
+name: Panpour
+
+origin: paradox-rift-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 515
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

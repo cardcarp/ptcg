@@ -1,0 +1,40 @@
+name: Diglett
+
+origin: 151-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 50
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Headbutt Bounce
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Mud-Slap
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

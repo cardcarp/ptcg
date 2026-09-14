@@ -1,0 +1,43 @@
+name: Vespiquen
+
+origin: undaunted-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Combee
+
+dex: 416
+
+rule:
+  - type: Ability
+    name: Defense Sign
+    text: Prevent all damage done to your Benched Grass Pokémon by attacks.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Mach Wind
+    text: During your next turn, Vespiquen's Retreat Cost is 0.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

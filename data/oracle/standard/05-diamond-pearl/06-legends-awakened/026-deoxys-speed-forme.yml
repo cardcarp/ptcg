@@ -1,0 +1,36 @@
+name: Deoxys Speed Forme
+
+origin: legends-awakened-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 386
+
+rule:
+  - type: Ability
+    name: Form Change
+    text: Once during your turn (before your attack), you may search your deck for any Deoxys and switch it with Deoxys Speed Forme. (Any cards attached to Deoxys Speed Forme, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Deoxys Speed Forme on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poké-Power each turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Speed Shot
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+errata: []

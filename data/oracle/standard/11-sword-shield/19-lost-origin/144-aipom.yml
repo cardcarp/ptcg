@@ -1,0 +1,39 @@
+name: Aipom
+
+origin: lost-origin-144
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 190
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mischievous Tail
+    text: Look at the top card of your opponent's deck. You may have your opponent shuffle their deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

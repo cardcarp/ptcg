@@ -1,0 +1,56 @@
+name: Raichu-GX
+
+origin: sun-moon-black-star-213
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Lightning
+
+hp: 210
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunderbolt
+    damage: 120
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Spark Ball-GX
+    text: (You can't use more than 1 GX attack in a game.)
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

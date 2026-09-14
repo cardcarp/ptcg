@@ -1,0 +1,47 @@
+name: Donphan
+
+origin: holon-phantoms-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Phanpy
+
+dex: 232
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Hurl
+    text: This attack's damage isn't affected by Resistance.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

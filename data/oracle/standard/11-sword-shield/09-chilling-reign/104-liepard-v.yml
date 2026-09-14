@@ -1,0 +1,44 @@
+name: Liepard V
+
+origin: chilling-reign-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 190
+
+dex: 510
+
+rule:
+  - type: Ability
+    name: Hidden Claw
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Pokémon Tool from a Pokémon (yours or your opponent's).
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Shadow Ripper
+    text: You may put this Pokémon and all attached cards into your hand.
+    damage: 110
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

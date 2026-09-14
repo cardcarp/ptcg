@@ -1,0 +1,39 @@
+name: Gumshoos
+
+origin: unified-minds-181
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Yungoos
+
+dex: 735
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Alert Headbutt
+    text: If your opponent's Active Pokémon is a Pokémon-GX or Pokémon-EX, this attack's base damage is 30.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

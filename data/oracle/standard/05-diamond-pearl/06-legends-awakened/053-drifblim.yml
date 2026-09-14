@@ -1,0 +1,49 @@
+name: Drifblim
+
+origin: legends-awakened-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Drifloon
+
+dex: 426
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Expand
+    text: During your opponent's next turn, any damage done to Drifblim by attacks is reduced by 10 (after applying Weakness and Resistance).
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Whirlwind
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+errata: []

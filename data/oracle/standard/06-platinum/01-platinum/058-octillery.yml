@@ -1,0 +1,44 @@
+name: Octillery
+
+origin: platinum-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: Attack
+    name: Water Vein
+    text: Reveal the top 5 cards of your deck. Flip a coin for each Energy card you find there. This attack does 50 damage times the number of heads. Shuffle the revealed cards back into your deck.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Octazooka
+    text: Any time the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack does nothing. (If the Defending Pokémon is no longer your opponent's Active Pokémon, this effect ends.)
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

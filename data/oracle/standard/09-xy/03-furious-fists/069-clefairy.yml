@@ -1,0 +1,45 @@
+name: Clefairy
+
+origin: furious-fists-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 35
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Moonlight
+    text: Heal 30 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Pound
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

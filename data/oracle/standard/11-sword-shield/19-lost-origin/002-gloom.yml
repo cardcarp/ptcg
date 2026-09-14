@@ -1,0 +1,39 @@
+name: Gloom
+
+origin: lost-origin-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Absorb
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

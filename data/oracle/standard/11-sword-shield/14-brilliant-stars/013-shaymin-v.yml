@@ -1,0 +1,46 @@
+name: Shaymin V
+
+origin: brilliant-stars-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 190
+
+dex: 492
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Flap
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Revenge Blast
+    text: This attack does 40 more damage for each Prize card your opponent has taken.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

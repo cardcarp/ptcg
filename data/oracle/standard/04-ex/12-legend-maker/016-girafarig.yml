@@ -1,0 +1,44 @@
+name: Girafarig
+
+origin: legend-maker-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 203
+
+rule:
+  - type: Ability
+    name: Rear Sensor
+    text: Each player's Active Basic Pokémon (excluding Pokémon-ex) can't use any Poké-Powers.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Foresight
+    text: Look at the top 5 cards on either player's deck and put them back on top of that player's deck in any order you like.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Disorder
+    text: If the Defending Pokémon has any Special Energy cards attached to it, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

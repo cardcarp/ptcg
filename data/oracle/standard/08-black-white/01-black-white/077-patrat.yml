@@ -1,0 +1,40 @@
+name: Patrat
+
+origin: black-white-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 504
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

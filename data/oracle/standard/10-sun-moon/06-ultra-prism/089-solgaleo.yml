@@ -1,0 +1,52 @@
+name: Solgaleo ◇
+
+origin: ultra-prism-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Prism Star
+
+type:
+  - Metal
+
+hp: 160
+
+dex: 791
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Radiant Star
+    text: For each of your opponent's Pokémon in play, attach a Metal Energy card from your discard pile to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Metal
+    name: Corona Impact
+    text: This Pokémon can't attack during your next turn.
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+errata: []

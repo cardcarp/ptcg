@@ -1,0 +1,45 @@
+name: Slaking
+
+origin: evolving-skies-131
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Single Strike
+
+type:
+  - Colorless
+
+hp: 180
+
+preevolution:
+  - Vigoroth
+
+dex: 289
+
+rule:
+  - type: Ability
+    name: Act Freely
+    text: If a Stadium is in play, this Pokémon can't attack.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rout
+    text: This attack does 30 more damage for each of your opponent's Benched Pokémon.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

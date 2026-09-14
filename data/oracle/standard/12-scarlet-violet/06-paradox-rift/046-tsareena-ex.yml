@@ -1,0 +1,50 @@
+name: Tsareena ex
+
+origin: paradox-rift-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Tera
+  - ex
+
+type:
+  - Water
+
+hp: 310
+
+preevolution:
+  - Steenee
+
+dex: 763
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Icicle Sole
+    text: Put damage counters on 1 of your opponent's Pokémon until its remaining HP is 30.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Trop Kick
+    text: Heal 30 damage from this Pokémon, and it recovers from all Special Conditions.
+    damage: 180
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

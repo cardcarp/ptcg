@@ -1,0 +1,41 @@
+name: Wooper
+
+origin: aquapolis-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 194
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Bubble
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

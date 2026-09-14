@@ -1,0 +1,58 @@
+name: Wigglytuff-GX
+
+origin: hidden-fates-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Fairy
+
+hp: 210
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Rolling Rush
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 100
+    modifier: +
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Lovely Star-GX
+    text: Heal all damage from this Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

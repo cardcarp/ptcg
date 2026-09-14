@@ -1,0 +1,45 @@
+name: Dewgong
+
+origin: evolutions-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Seel
+
+dex: 87
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Super Deep Dive
+    text: Heal 40 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: This Pokémon does 20 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

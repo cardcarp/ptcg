@@ -1,0 +1,42 @@
+name: Kingdra
+
+origin: battle-styles-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: Ability
+    name: Deep Sea King
+    text: When your Active Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, you may move any amount of Water Energy from that Pokémon to this Pokémon.
+  - type: Attack
+    cost:
+      - Water
+    name: Aqua Burst
+    text: This attack does 40 damage for each Water Energy attached to this Pokémon.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

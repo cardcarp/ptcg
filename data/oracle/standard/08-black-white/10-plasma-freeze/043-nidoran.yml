@@ -1,0 +1,35 @@
+name: Nidoran ♂
+
+origin: plasma-freeze-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 32
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hit Back
+    text: If this Pokémon has no damage counters on it, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

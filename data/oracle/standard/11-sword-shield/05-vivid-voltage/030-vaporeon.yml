@@ -1,0 +1,41 @@
+name: Vaporeon
+
+origin: vivid-voltage-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: Ability
+    name: Torrential Awakening
+    text: If this Pokémon has a Memory Capsule attached, Fire Pokémon in play (both yours and your opponent's) have no Abilities.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Aurora Beam
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

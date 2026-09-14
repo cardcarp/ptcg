@@ -1,0 +1,46 @@
+name: Vanillish
+
+origin: dark-explorers-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Vanillite
+
+dex: 583
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Triple Spin
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Breath
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

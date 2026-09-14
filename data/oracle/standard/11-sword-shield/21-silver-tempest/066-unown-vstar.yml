@@ -1,0 +1,54 @@
+name: Unown VSTAR
+
+origin: silver-tempest-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Psychic
+
+hp: 250
+
+preevolution:
+  - Unown V
+
+dex: 201
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Tri Power
+    text: Flip 3 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Star Cipher
+    text: Until this Pokémon leaves play, it gains an Ability that has the effect "The Weakness of each of your opponent's Pokémon in play is now Psychic. (The amount of Weakness doesn't change.)" (You can't use more than 1 VSTAR Power in a game.)
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

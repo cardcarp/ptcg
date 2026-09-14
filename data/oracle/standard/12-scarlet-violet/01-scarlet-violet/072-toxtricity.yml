@@ -1,0 +1,46 @@
+name: Toxtricity
+
+origin: scarlet-violet-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Toxel
+
+dex: 849
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Yank Away
+    text: Choose 2 random cards from your opponent's hand. Your opponent reveals those cards and shuffles them into their deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder
+    text: This Pokémon also does 20 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

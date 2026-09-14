@@ -1,0 +1,51 @@
+name: Lampent
+
+origin: phantom-forces-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Cursed Drop
+    text: Put 3 damage counters on your opponent's Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Night March
+    text: This attack does 20 damage times the number of Pokémon in your discard pile that have the Night March attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

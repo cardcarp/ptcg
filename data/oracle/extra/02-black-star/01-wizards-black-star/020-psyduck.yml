@@ -1,0 +1,41 @@
+name: Psyduck
+
+origin: wizards-black-star-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 54
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Headache
+    text: Your opponent can't play Trainer cards during his or her next turn.
+  - type: Attack
+    cost:
+      - Water
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

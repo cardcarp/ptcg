@@ -1,0 +1,48 @@
+name: Hariyama
+
+origin: emerald-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Makuhita
+
+dex: 297
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Cross-Cut
+    text: If the Defending Pokémon is an Evolved Pokémon, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Shove
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Carvanha
+
+origin: cosmic-eclipse-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 318
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

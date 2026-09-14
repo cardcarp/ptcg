@@ -1,0 +1,47 @@
+name: Ursaring
+
+origin: cosmic-eclipse-172
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Teddiursa
+
+dex: 217
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Hold
+    text: The Defending Pokémon can't attack during your opponent's next turn.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

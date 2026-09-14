@@ -1,0 +1,51 @@
+name: Dondozo ex
+
+origin: destined-rivals-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 260
+
+dex: 977
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Avenging Billow
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Dynamic Dive
+    text: You may do 120 more damage. If you do, this Pokémon also does 50 damage to itself.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

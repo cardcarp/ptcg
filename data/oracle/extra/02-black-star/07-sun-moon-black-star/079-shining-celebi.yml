@@ -1,0 +1,38 @@
+name: Shining Celebi
+
+origin: sun-moon-black-star-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 251
+
+rule:
+  - type: Ability
+    name: Time Recall
+    text: Each of your evolved Pokémon can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Step
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

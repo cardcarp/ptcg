@@ -1,0 +1,37 @@
+name: Reshiram
+
+origin: shining-fates-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 643
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Lightning
+      - Darkness
+    name: Amazing Blaze
+    text: This Pokémon also does 60 damage to itself.
+    damage: 270
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

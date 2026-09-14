@@ -1,0 +1,45 @@
+name: Koraidon ex
+
+origin: temporal-forces-120
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+  - Ancient
+
+type:
+  - Dragon
+
+hp: 230
+
+dex: 1007
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Retribution Strike
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fighting
+      - Fighting
+    name: Kaiser Tackle
+    text: This Pokémon also does 60 damage to itself.
+    damage: 280
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

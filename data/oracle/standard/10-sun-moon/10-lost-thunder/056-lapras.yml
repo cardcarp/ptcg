@@ -1,0 +1,39 @@
+name: Lapras
+
+origin: lost-thunder-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 131
+
+rule:
+  - type: Ability
+    name: Go for a Swim
+    text: Once during your turn (before your attack), you may look at the top 2 cards of your deck and put them back in any order.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Beam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

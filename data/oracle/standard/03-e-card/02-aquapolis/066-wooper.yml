@@ -1,0 +1,39 @@
+name: Wooper
+
+origin: aquapolis-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 194
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Whap
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+    name: Deep Dive
+    text: Flip 3 coins. For each heads, remove 1 damage counter on Wooper.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

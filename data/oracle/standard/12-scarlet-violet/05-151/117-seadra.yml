@@ -1,0 +1,40 @@
+name: Seadra
+
+origin: 151-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Horsea
+
+dex: 117
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Blinding Ink
+    text: During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips 2 coins. If either of them is tails, that attack doesn't happen.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

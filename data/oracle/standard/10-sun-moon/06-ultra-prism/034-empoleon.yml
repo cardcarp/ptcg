@@ -1,0 +1,48 @@
+name: Empoleon
+
+origin: ultra-prism-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Prinplup
+
+dex: 395
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Total Command
+    text: This attack does 20 damage for each Benched Pokémon (both yours and your opponent's).
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Whirlpool
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

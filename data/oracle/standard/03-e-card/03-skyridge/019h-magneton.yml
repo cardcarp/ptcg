@@ -1,0 +1,53 @@
+name: Magneton
+
+origin: skyridge-019h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bounce Off
+    text: If Magneton and the Defending Pokémon don't have the same number of Energy cards attached to them, the player controlling the Active Pokémon with the fewest number of Energy cards attached to it switches 1 of his or her Benched Pokémon with his or her Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Magnetic Wave
+    text: This attack does 30 damage plus 10 damage times the number of your Benched Pokémon minus the number of your opponent's Benched Pokémon. (For example, if your opponent has 1 Benched Pokémon and you have 3, this attack will do 30 damage plus 20 more damage.)
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

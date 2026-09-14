@@ -1,0 +1,43 @@
+name: Starly
+
+origin: darkness-ablaze-145
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 396
+
+rule:
+  - type: Ability
+    name: Sky Circus
+    text: If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Keen Eye
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

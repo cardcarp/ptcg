@@ -1,0 +1,45 @@
+name: Armarouge
+
+origin: surging-sparks-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Charcadet
+
+dex: 936
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Combustion
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Crimson Blaster
+    text: Discard all Fire Energy from this Pokémon, and this attack does 180 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

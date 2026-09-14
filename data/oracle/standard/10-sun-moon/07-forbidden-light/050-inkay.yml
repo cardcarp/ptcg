@@ -1,0 +1,34 @@
+name: Inkay
+
+origin: forbidden-light-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 686
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hypnosis
+    text: Your opponent's Active Pokémon is now Asleep.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

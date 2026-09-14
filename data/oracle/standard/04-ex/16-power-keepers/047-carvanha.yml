@@ -1,0 +1,43 @@
+name: Carvanha
+
+origin: power-keepers-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 40
+
+dex: 318
+
+rule:
+  - type: Ability
+    name: Rough Skin
+    text: If Carvanha is your Active Pokémon and is damaged by an opponent's attack (even if Carvanha is Knocked Out), put 1 damage counter on the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

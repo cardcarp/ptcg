@@ -1,0 +1,50 @@
+name: Slowking
+
+origin: stellar-crown-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Seek Inspiration
+    text: Discard the top card of your deck, and if that card is a Pokémon that doesn't have a Rule Box, choose 1 of its attacks and use it as this attack. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

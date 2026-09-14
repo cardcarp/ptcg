@@ -1,0 +1,36 @@
+name: Pancham
+
+origin: team-up-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 674
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Arm Thrust
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

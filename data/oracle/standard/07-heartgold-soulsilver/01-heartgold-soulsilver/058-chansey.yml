@@ -1,0 +1,43 @@
+name: Chansey
+
+origin: heartgold-soulsilver-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 113
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pound
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Happy Punch
+    text: Flip a coin. If heads, remove 3 damage counters from Chansey.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

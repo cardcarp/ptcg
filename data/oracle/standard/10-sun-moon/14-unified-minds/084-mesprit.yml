@@ -1,0 +1,39 @@
+name: Mesprit
+
+origin: unified-minds-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 481
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: First Contact
+    text: Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mumble
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

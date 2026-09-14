@@ -1,0 +1,42 @@
+name: Mew ex
+
+origin: legend-maker-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 151
+
+rule:
+  - type: Ability
+    name: Versatile
+    text: Mew ex can use the attacks of all Pokémon in play as its own. (You still need the necessary Energy to use each attack.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Power Move
+    text: Search your deck for an Energy card and attach it to Mew ex. Shuffle your deck afterward. Then, you may switch Mew ex with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

@@ -1,0 +1,48 @@
+name: Camerupt
+
+origin: supreme-victors-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Moving Fire
+    text: You may move a Fire Energy card attached to 1 of your Benched Pokémon to Camerupt.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Volcanic Crash
+    text: Flip 3 coins. For each tails, discard the top card of your deck. Ignore this effect if your opponent has any Water Pokémon in play.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+retreat: 4
+
+errata: []

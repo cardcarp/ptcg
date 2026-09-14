@@ -1,0 +1,40 @@
+name: Swinub
+
+origin: team-rocket-returns-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 220
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rest
+    text: Remove all Special Conditions and all damage counters from Swinub. Swinub is now Asleep.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

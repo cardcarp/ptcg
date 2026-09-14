@@ -1,0 +1,41 @@
+name: Manaphy
+
+origin: diamond-pearl-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 490
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Aqua Ring
+    text: Switch Manaphy with 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

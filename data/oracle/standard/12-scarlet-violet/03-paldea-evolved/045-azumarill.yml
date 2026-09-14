@@ -1,0 +1,48 @@
+name: Azumarill
+
+origin: paldea-evolved-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Bubble Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 100 damage for each heads.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

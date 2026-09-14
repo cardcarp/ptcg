@@ -1,0 +1,45 @@
+name: Vikavolt
+
+origin: fusion-strike-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Charjabug
+
+dex: 738
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 70
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electro Blaster
+    text: Discard 2 Lightning Energy from this Pokémon. This attack does 200 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

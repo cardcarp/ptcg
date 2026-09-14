@@ -1,0 +1,39 @@
+name: Phione
+
+origin: silver-tempest-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 489
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Sea Feast
+    text: Search your deck for up to 3 Basic Water Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

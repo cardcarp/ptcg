@@ -1,0 +1,35 @@
+name: Cubone
+
+origin: team-magma-vs-team-aqua-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 104
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Bone Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

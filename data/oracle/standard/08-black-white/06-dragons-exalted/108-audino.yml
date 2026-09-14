@@ -1,0 +1,44 @@
+name: Audino
+
+origin: dragons-exalted-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 531
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wake-up Beam
+    text: Remove all Special Conditions from the Defending Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Drain Slap
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

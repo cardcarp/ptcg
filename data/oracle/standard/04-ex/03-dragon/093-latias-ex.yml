@@ -1,0 +1,55 @@
+name: Latias ex
+
+origin: dragon-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 380
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnoblast
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Mist Ball
+    text: Discard a Fire Energy and a Water Energy attached to Latias ex.
+    damage: 100
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

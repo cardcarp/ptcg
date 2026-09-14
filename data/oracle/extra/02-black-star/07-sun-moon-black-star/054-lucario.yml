@@ -1,0 +1,42 @@
+name: Lucario
+
+origin: sun-moon-black-star-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: Ability
+    name: Stance
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may prevent all effects of your opponent's attacks, including damage, done to this Pokémon until the end of your opponent's next turn.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Submarine Blow
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

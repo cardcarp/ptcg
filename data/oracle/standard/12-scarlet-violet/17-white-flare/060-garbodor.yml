@@ -1,0 +1,45 @@
+name: Garbodor
+
+origin: white-flare-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Suffocating Gas
+    damage: 40
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Gunk Shot
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

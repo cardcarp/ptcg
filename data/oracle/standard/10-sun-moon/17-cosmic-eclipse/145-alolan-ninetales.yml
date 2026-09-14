@@ -1,0 +1,42 @@
+name: Alolan Ninetales
+
+origin: cosmic-eclipse-145
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 110
+
+preevolution:
+  - Alolan Vulpix
+
+dex: 38
+
+rule:
+  - type: Attack
+    name: Rubbish Blizzard
+    text: This attack does 10 damage for each Pokémon Tool card in your discard pile.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

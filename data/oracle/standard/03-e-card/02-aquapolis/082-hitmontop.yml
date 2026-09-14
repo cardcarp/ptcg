@@ -1,0 +1,46 @@
+name: Hitmontop
+
+origin: aquapolis-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 237
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Triple Spin
+    text: Flip 3 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, switch Hitmontop with 1 of your Benched Pokémon, if any.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

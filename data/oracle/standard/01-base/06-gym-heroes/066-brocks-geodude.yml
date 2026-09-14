@@ -1,0 +1,41 @@
+name: Brock's Geodude
+
+origin: gym-heroes-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 74
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Call for Friend
+    text: Flip a coin. If heads, you may search your deck for a Basic Pokémon card with Brock in its name and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Hook Shot
+    text: Don't apply Resistance for this attack. (Any other effects that would happen after applying Resistance still happen.)
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

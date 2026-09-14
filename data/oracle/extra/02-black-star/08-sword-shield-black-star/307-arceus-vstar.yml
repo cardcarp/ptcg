@@ -1,0 +1,46 @@
+name: Arceus VSTAR
+
+origin: sword-shield-black-star-307
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Colorless
+
+hp: 280
+
+preevolution:
+  - Arceus V
+
+dex: 493
+
+rule:
+  - type: Ability
+    name: Starbirth
+    text: During your turn, you may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 VSTAR Power in a game.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Trinity Nova
+    text: Search your deck for up to 3 basic Energy cards and attach them to your Pokémon V in any way you like. Then, shuffle your deck.
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

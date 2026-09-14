@@ -1,0 +1,42 @@
+name: Emolga
+
+origin: dragons-exalted-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 587
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Static Shock
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

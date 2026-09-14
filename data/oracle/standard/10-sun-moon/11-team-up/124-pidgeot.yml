@@ -1,0 +1,49 @@
+name: Pidgeot
+
+origin: team-up-124
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Pidgeotto
+
+dex: 18
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Whirlwind
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 60
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Spin Storm
+    text: Your opponent puts their Active Pokémon and all cards attached to it into their hand.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

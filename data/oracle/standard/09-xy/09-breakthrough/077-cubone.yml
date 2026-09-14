@@ -1,0 +1,36 @@
+name: Cubone
+
+origin: breakthrough-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 104
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Whimsy Tackle
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

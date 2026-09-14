@@ -1,0 +1,40 @@
+name: Tentacruel
+
+origin: aquapolis-026h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Tentacool
+
+dex: 73
+
+rule:
+  - type: Ability
+    name: Strange Tentacles
+    text: Once during your turn (before your attack), as long as the number of Energy cards attached to the Defending Pokémon is less than the number of Energy cards attached to your Active Pokémon, you may choose an Energy card, if any, in your opponent's discard pile and attach it to the Defending Pokémon. This power can't be used if Tentacruel is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Poison Sting
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,52 @@
+name: Bisharp
+
+origin: noble-victories-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Pawniard
+
+dex: 625
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Stream
+    text: Attach a Metal Energy card from your discard pile to this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Metal Scissors
+    text: Does 20 more damage for each Metal Energy attached to this Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

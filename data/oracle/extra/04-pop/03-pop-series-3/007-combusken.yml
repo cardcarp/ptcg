@@ -1,0 +1,45 @@
+name: Combusken
+
+origin: pop-series-3-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Torchic
+
+dex: 256
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard a Fire Energy attached to Combusken.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

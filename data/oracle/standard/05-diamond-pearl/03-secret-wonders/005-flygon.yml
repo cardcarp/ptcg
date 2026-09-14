@@ -1,0 +1,49 @@
+name: Flygon
+
+origin: secret-wonders-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: Ability
+    name: Irritating Buzz
+    text: As long as Flygon is your Active Pokémon, put 1 damage counter on each of your opponent's Active Pokémon between turns, excluding Fighting Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sand Sonic
+    text: If you attach a Fighting Energy card from your hand to Flygon during this turn, this attack does 60 damage plus 20 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

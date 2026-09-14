@@ -1,0 +1,40 @@
+name: Ninjask
+
+origin: mega-evolution-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Nincada
+
+dex: 291
+
+rule:
+  - type: Ability
+    name: Cast-Off Shell
+    text: Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Search your deck for a Shedinja and put it onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: U-turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,48 @@
+name: Holon's Magneton
+
+origin: delta-species-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Holon's Magnemite
+
+dex: 82
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Extra Ball
+    text: If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - You may attach this as an Energy card from your hand to 1 of your Pokémon that already has an Energy card attached to it. When you attach this card, return an Energy card attached to that Pokémon to your hand. While attached, this card is a Special Energy card and provides every type of Energy but 2 Energy at a time. (Has no effect other than providing Energy.)
+
+errata: []

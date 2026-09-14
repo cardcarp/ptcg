@@ -1,0 +1,36 @@
+name: Mienfoo
+
+origin: next-destinies-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 619
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Triple Smash
+    text: Flip 3 coins. This attack does 10 times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

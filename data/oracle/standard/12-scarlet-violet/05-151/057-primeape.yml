@@ -1,0 +1,46 @@
+name: Primeape
+
+origin: 151-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rant and Rave
+    text: This Pokémon is now Confused.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Raging Smash
+    text: If this Pokémon isn't Confused, this attack does nothing.
+    damage: 150
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

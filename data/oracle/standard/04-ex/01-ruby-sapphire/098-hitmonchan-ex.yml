@@ -1,0 +1,48 @@
+name: Hitmonchan ex
+
+origin: ruby-sapphire-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 107
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Steady Punch
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Sky Uppercut
+    text: This attack's damage is not affected by Resistance.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

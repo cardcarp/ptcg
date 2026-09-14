@@ -1,0 +1,49 @@
+name: Darkrai
+
+origin: great-encounters-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 491
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Darkness Roar
+    text: You may have your opponent switch the Defending Pokémon with 1 or his or her Benched Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Sleep Hole
+    text: If the Defending Pokémon is Asleep, this attack does 40 damage plus 40 more damage. If the Defending Pokémon is not Asleep, that Pokémon is now Asleep.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

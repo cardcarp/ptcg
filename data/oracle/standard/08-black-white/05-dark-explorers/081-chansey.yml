@@ -1,0 +1,37 @@
+name: Chansey
+
+origin: dark-explorers-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 113
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Continuous Tumble
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,52 @@
+name: Armaldo δ
+
+origin: holon-phantoms-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Fighting
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Anorith
+
+dex: 348
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Delta Edge
+    text: If you have any Supporter cards in play, this attack's base damage is 20 instead of 70.
+    damage: 70
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Fossil Charge
+    text: You may discard a Claw Fossil, Mysterious Fossil, Root Fossil, or Holon Fossil from your hand. If you do, choose 1 of your opponent's Benched Pokémon and do 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - This Pokémon is both Fighting Metal type.
+
+errata: []

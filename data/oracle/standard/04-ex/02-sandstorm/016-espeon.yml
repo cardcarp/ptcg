@@ -1,0 +1,47 @@
+name: Espeon
+
+origin: sandstorm-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Energy Crush
+    text: Does 20 more damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

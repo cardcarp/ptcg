@@ -1,0 +1,56 @@
+name: Mamoswine
+
+origin: stormfront-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Piloswine
+
+dex: 473
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Ramming Strike
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads or you may start again. Each time you start again, put 2 damage counters on Mamoswine. (If Mamoswine would be Knocked Out, you can't start again.)
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Parade
+    text: Does 60 damage plus 10 more damage for each Swinub on your Bench, plus 20 more damage for each Piloswine on your Bench, and 40 more damage for each Mamoswine on your Bench.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 5
+
+errata: []

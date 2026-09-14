@@ -1,0 +1,47 @@
+name: Mewtwo ☆
+
+origin: holon-phantoms-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Star
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Absorption
+    text: Search your discard pile for an Energy card and attached it to Mewtwo Star.
+  - type: Attack
+    cost:
+      - Fire
+      - Lightning
+      - Psychic
+    name: Psychic Star
+    text: If the Defending Pokémon is an Evolved Pokémon, discard all Energy attached to Mewtwo Star and this attack does 50 damage plus 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+errata: []

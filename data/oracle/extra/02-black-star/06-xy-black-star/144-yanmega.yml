@@ -1,0 +1,47 @@
+name: Yanmega
+
+origin: xy-black-star-144
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Yanma
+
+dex: 469
+
+rule:
+  - type: Ability
+    name: Sonic Vision
+    text: If you have exactly 4 cards in your hand, ignore all Energy in the attack cost of each of this Pokémon's attacks.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Assault Boom
+    text: If your opponent's Active Pokémon has a Pokémon Tool card attached to it, this attack does 70 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

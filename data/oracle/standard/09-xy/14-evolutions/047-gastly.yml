@@ -1,0 +1,46 @@
+name: Gastly
+
+origin: evolutions-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 92
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Little Grudge
+    text: During your opponent's next turn, if this Pokémon is Knocked Out by damage from an attack, discard an Energy attached to the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Nightmare
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

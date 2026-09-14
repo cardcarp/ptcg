@@ -1,0 +1,39 @@
+name: Flittle
+
+origin: scarlet-violet-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 955
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spinning Attack
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

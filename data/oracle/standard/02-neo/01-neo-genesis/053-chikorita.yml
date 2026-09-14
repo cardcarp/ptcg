@@ -1,0 +1,39 @@
+name: Chikorita
+
+origin: neo-genesis-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 152
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+    name: Deflector
+    text: During your opponent's next turn, whenever Chikorita takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

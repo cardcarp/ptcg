@@ -1,0 +1,42 @@
+name: Mantine
+
+origin: fusion-strike-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 226
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Bounce
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wave Splash
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

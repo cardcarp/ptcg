@@ -1,0 +1,42 @@
+name: Magmar
+
+origin: brilliant-stars-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Low Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fiery Punch
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

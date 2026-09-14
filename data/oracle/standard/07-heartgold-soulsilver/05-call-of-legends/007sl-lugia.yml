@@ -1,0 +1,50 @@
+name: Lugia
+
+origin: call-of-legends-007sl
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 249
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Linear Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Splash
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

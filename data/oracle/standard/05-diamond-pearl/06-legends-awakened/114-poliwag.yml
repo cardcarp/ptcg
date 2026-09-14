@@ -1,0 +1,39 @@
+name: Poliwag
+
+origin: legends-awakened-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 60
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+    name: Twiddle
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Asleep.
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

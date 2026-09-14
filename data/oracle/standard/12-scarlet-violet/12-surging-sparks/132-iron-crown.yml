@@ -1,0 +1,50 @@
+name: Iron Crown
+
+origin: surging-sparks-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Future
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 1023
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Deleting Slash
+    text: If your opponent has 3 or more Benched Pokémon, this attack does 80 more damage.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Slicing Blade
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

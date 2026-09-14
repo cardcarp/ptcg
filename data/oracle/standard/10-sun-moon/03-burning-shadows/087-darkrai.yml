@@ -1,0 +1,50 @@
+name: Darkrai
+
+origin: burning-shadows-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 491
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Hypnoblast
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Raid
+    text: If your opponent has already used their GX attack, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

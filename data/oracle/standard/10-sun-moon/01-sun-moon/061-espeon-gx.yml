@@ -1,0 +1,58 @@
+name: Espeon-GX
+
+origin: sun-moon-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Psychic
+
+hp: 200
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 30 more damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Divide-GX
+    text: Put 10 damage counters on your opponent's Pokémon in any way you like. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

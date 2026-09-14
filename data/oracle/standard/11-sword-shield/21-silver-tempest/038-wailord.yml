@@ -1,0 +1,45 @@
+name: Wailord
+
+origin: silver-tempest-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 200
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: Ability
+    name: Jumbo-Sized
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Special Wave
+    text: If this Pokémon has any Special Energy attached, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

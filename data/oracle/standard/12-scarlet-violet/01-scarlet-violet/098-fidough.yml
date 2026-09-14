@@ -1,0 +1,41 @@
+name: Fidough
+
+origin: scarlet-violet-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 926
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Springy
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Flop
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

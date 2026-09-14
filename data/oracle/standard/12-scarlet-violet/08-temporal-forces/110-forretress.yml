@@ -1,0 +1,52 @@
+name: Forretress
+
+origin: temporal-forces-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Pineco
+
+dex: 205
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Spike Cannon
+    text: Flip 3 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Steel Tackle
+    text: This Pokémon also does 40 damage to itself.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

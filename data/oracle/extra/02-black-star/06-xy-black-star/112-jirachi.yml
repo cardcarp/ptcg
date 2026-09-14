@@ -1,0 +1,45 @@
+name: Jirachi
+
+origin: xy-black-star-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 385
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Precognitive Dream
+    text: Draw 3 cards. This Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Iron Head
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

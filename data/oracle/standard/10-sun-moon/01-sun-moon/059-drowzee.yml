@@ -1,0 +1,42 @@
+name: Drowzee
+
+origin: sun-moon-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 96
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psychic Boom
+    text: This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

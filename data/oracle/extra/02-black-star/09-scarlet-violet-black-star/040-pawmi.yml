@@ -1,0 +1,36 @@
+name: Pawmi
+
+origin: scarlet-violet-black-star-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 921
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Static Slap
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

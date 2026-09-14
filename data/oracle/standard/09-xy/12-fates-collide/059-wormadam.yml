@@ -1,0 +1,53 @@
+name: Wormadam
+
+origin: fates-collide-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Burmy
+
+dex: 413
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Strike Back
+    text: This attack does 20 damage times the number of damage counters on this Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Iron Head
+    text: Flip a coin until you get tails. This attack does 20 more damage for each heads.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

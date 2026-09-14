@@ -1,0 +1,55 @@
+name: Deoxys VSTAR
+
+origin: sword-shield-black-star-268
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Psychic
+
+hp: 270
+
+preevolution:
+  - Deoxys V
+
+dex: 386
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic Javelin
+    text: This attack also does 60 damage to 1 of your opponent's Benched Pokémon V. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 190
+  - type: Attack
+    cost:
+      - Psychic
+    name: Star Force
+    text: This attack does 60 damage for each Energy attached to both Active Pokémon. (You can't use more than 1 VSTAR Power in a game.)
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

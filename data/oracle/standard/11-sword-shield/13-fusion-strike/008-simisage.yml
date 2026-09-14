@@ -1,0 +1,44 @@
+name: Simisage
+
+origin: fusion-strike-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Pansage
+
+dex: 512
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Return
+    text: You may draw cards until you have 6 cards in your hand.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Whip Smash
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

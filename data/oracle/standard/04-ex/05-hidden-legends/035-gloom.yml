@@ -1,0 +1,48 @@
+name: Gloom
+
+origin: hidden-legends-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Cling
+    text: After your attack, remove from Gloom the number of damage counters equal to the damage you did to the Defending Pokémon. If Gloom has fewer damage counters than that, remove all of them.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Double Razor Leaf
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

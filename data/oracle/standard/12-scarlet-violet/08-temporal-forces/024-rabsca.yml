@@ -1,0 +1,42 @@
+name: Rabsca
+
+origin: temporal-forces-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Rellor
+
+dex: 954
+
+rule:
+  - type: Ability
+    name: Spherical Shield
+    text: Prevent all damage from and effects of attacks from your opponent's Pokémon done to your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+    name: Psychic
+    text: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

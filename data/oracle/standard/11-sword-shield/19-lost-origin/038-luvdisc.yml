@@ -1,0 +1,40 @@
+name: Luvdisc
+
+origin: lost-origin-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 370
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Matching Look
+    text: Each player reveals the top 2 cards of their deck, then draws those cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

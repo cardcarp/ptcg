@@ -1,0 +1,54 @@
+name: Muk ex
+
+origin: dragon-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: Ability
+    name: Toxic Gas
+    text: As long as Muk ex is your Active Pokémon, ignore all Poké-Powers and Poké-Bodies other than Toxic Gas.
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Breath
+    text: The Defending Pokémon is now Poisoned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Slimy Water
+    text: Does 40 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

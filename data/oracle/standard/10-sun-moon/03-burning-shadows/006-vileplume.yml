@@ -1,0 +1,43 @@
+name: Vileplume
+
+origin: burning-shadows-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Gloom
+
+dex: 45
+
+rule:
+  - type: Ability
+    name: Disgusting Pollen
+    text: As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon can't attack.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Downer Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Asleep. If tails, your opponent's Active Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

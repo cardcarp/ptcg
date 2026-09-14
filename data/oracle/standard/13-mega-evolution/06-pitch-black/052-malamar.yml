@@ -1,0 +1,43 @@
+name: Malamar
+
+origin: pitch-black-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Inkay
+
+dex: 687
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Brain Crush
+    text: If your opponent's Active Pokémon isn't Confused, this attack does nothing.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

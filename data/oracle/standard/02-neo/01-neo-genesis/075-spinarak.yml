@@ -1,0 +1,40 @@
+name: Spinarak
+
+origin: neo-genesis-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 167
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scary Face
+    text: Flip a coin. If heads, until the end of your opponent's next turn, the Defending Pokémon can't attack or retreat.
+  - type: Attack
+    cost:
+      - Grass
+    name: String Shot
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

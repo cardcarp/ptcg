@@ -1,0 +1,41 @@
+name: Luvdisc
+
+origin: celestial-storm-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 370
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Even Game
+    text: Search your deck for a number of Basic Pokémon up to the number of your opponent's Benched Pokémon and put those Pokémon onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

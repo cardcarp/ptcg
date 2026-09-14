@@ -1,0 +1,36 @@
+name: Ponyta
+
+origin: silver-tempest-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 77
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Take Down
+    text: This Pokémon also does 10 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

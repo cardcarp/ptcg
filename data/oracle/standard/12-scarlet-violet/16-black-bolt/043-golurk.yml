@@ -1,0 +1,55 @@
+name: Golurk
+
+origin: black-bolt-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 160
+
+preevolution:
+  - Golett
+
+dex: 623
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Smash
+    text: Flip 2 coins. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Golurk Hammer
+    damage: 200
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

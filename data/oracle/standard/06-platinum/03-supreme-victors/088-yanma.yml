@@ -1,0 +1,45 @@
+name: Yanma
+
+origin: supreme-victors-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 193
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Grass
+    name: Air Slash
+    text: Flip a coin. If tails, discard an Energy attached to Yanma.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

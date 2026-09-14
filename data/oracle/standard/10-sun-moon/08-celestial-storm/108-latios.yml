@@ -1,0 +1,41 @@
+name: Latios ◇
+
+origin: celestial-storm-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Prism Star
+
+type:
+  - Dragon
+
+hp: 140
+
+dex: 381
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dragon Fleet
+    text: This attack does 50 damage for each of your Evolution Dragon Pokémon in play.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+errata: []

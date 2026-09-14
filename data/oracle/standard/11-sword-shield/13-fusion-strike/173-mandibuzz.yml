@@ -1,0 +1,49 @@
+name: Mandibuzz
+
+origin: fusion-strike-173
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Vullaby
+
+dex: 630
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bone Block
+    text: During your opponent's next turn, Pokémon can't be played from your opponent's hand to evolve the Defending Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Cutter
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

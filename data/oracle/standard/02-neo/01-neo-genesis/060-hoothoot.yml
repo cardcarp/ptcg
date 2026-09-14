@@ -1,0 +1,45 @@
+name: Hoothoot
+
+origin: neo-genesis-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 163
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

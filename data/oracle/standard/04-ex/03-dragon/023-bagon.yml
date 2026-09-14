@@ -1,0 +1,48 @@
+name: Bagon
+
+origin: dragon-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 371
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 20
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+  - type: Fire
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

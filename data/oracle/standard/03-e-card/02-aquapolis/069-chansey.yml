@@ -1,0 +1,42 @@
+name: Chansey
+
+origin: aquapolis-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 113
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Chansey does 40 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

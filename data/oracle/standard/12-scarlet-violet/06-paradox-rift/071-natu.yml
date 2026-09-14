@@ -1,0 +1,41 @@
+name: Natu
+
+origin: paradox-rift-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 177
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Triple Strike
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

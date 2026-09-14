@@ -1,0 +1,46 @@
+name: Magnemite
+
+origin: triumphant-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 81
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Magnetic Switch
+    text: Switch Magnemite with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

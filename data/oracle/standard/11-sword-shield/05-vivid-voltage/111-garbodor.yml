@@ -1,0 +1,48 @@
+name: Garbodor
+
+origin: vivid-voltage-111
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Trash Cyclone
+    text: This attack does 30 damage for each Pokémon Tool card in your discard pile. Then, shuffle those cards into your deck.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Poison Spray
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

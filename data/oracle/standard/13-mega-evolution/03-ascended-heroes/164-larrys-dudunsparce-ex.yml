@@ -1,0 +1,45 @@
+name: Larry's Dudunsparce ex
+
+origin: ascended-heroes-164
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 270
+
+preevolution:
+  - Larry's Dunsparce
+
+dex: 982
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Work Rush
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

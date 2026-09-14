@@ -1,0 +1,48 @@
+name: Machamp
+
+origin: sword-shield-black-star-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 170
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Macho Revenge
+    text: This attack does 20 damage for each Fighting Pokémon in your discard pile.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Dynamite Punch
+    text: This Pokémon also does 50 damage to itself.
+    damage: 200
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

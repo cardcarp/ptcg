@@ -1,0 +1,37 @@
+name: Pincurchin
+
+origin: paldea-evolved-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 871
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Needle Crush
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

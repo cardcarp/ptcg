@@ -1,0 +1,41 @@
+name: Veluza
+
+origin: stellar-crown-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 976
+
+rule:
+  - type: Ability
+    name: Food Prep
+    text: Attacks used by this Pokémon cost Colorless less for each Kofu card in your discard pile.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sonic Edge
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

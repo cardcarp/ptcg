@@ -1,0 +1,48 @@
+name: Espathra
+
+origin: paradox-rift-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Flittle
+
+dex: 956
+
+rule:
+  - type: Ability
+    name: Stance
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may prevent all damage from and effects of attacks from your opponent's Pokémon done to this Pokémon until the end of your opponent's next turn.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Glittering Eyes
+    text: If Tulip is in your discard pile, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

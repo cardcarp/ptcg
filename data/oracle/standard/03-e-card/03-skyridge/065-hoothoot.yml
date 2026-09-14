@@ -1,0 +1,44 @@
+name: Hoothoot
+
+origin: skyridge-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 163
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Eerie Light
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

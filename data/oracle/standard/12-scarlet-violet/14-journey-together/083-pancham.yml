@@ -1,0 +1,42 @@
+name: Pancham
+
+origin: journey-together-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 674
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Corkscrew Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Focus Fist
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

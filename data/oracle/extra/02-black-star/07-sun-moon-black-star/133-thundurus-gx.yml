@@ -1,0 +1,59 @@
+name: Thundurus-GX
+
+origin: sun-moon-black-star-133
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Lightning
+
+hp: 180
+
+dex: 642
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Charge
+    text: Search your deck for a Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Electric Ball
+    damage: 140
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thundering Hurricane-GX
+    text: Flip 4 coins. This attack does 100 damage for each heads. (You can't use more than 1 GX attack in a game.)
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

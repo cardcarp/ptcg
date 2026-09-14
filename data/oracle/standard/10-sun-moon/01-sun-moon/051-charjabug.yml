@@ -1,0 +1,51 @@
+name: Charjabug
+
+origin: sun-moon-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Grubbin
+
+dex: 737
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Shocking Jaws
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electric Ball
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,36 @@
+name: Vanillite
+
+origin: dark-explorers-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 582
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

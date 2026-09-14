@@ -1,0 +1,46 @@
+name: Nidorina
+
+origin: triumphant-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Nidoran ♀
+
+dex: 30
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Quick Blow
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Tail Slap
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

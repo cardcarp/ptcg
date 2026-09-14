@@ -1,0 +1,51 @@
+name: Kilowattrel
+
+origin: scarlet-violet-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Wattrel
+
+dex: 941
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Skill Dive
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder Blast
+    text: Discard a Lightning Energy from this Pokémon.
+    damage: 140
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

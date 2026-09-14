@@ -1,0 +1,44 @@
+name: Marowak
+
+origin: breakthrough-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sharpshooting
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bone Windmill
+    text: If your opponent's Active Pokémon is a Pokémon-EX, switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

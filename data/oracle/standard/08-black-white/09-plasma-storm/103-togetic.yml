@@ -1,0 +1,43 @@
+name: Togetic
+
+origin: plasma-storm-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sweet Kiss
+    text: Your opponent draws a card.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

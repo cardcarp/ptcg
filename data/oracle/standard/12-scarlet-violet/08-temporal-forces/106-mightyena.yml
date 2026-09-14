@@ -1,0 +1,46 @@
+name: Mightyena
+
+origin: temporal-forces-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Kick Away
+    text: Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    damage: 50
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Sharp Fang
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

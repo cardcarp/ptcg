@@ -1,0 +1,51 @@
+name: Ho-Oh V
+
+origin: silver-tempest-140
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 230
+
+dex: 250
+
+rule:
+  - type: Ability
+    name: Reviving Flame
+    text: Once during your turn, if this Pokémon is in your discard pile, you may put it onto your Bench. If you do, attach up to 4 basic Energy cards from your discard pile to this Pokémon. If you use this Ability, your turn ends.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rainbow Burn
+    text: This attack does 30 more damage for each type of basic Energy attached to this Pokémon.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

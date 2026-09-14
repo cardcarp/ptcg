@@ -1,0 +1,34 @@
+name: Wiglett
+
+origin: obsidian-flames-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 960
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

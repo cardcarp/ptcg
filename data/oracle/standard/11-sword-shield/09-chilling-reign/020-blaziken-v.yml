@@ -1,0 +1,49 @@
+name: Blaziken V
+
+origin: chilling-reign-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Rapid Strike
+
+type:
+  - Fire
+
+hp: 210
+
+dex: 257
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: High Jump Kick
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Spin
+    text: Discard 2 Energy from this Pokémon.
+    damage: 210
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

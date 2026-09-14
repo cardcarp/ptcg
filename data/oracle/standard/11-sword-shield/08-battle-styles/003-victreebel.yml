@@ -1,0 +1,45 @@
+name: Victreebel
+
+origin: battle-styles-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Weepinbell
+
+dex: 71
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Panic Vine
+    text: Your opponent's Active Pokémon is now Confused. During your opponent's next turn, that Pokémon can't retreat.
+    damage: 40
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

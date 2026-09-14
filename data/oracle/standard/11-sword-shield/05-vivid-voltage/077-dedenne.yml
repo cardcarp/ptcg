@@ -1,0 +1,35 @@
+name: Dedenne
+
+origin: vivid-voltage-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 702
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Tail Trickery
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

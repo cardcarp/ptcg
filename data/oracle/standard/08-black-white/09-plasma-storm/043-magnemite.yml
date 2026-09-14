@@ -1,0 +1,34 @@
+name: Magnemite
+
+origin: plasma-storm-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 81
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electro Ball
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

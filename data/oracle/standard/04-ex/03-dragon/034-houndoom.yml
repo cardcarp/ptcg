@@ -1,0 +1,51 @@
+name: Houndoom
+
+origin: dragon-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard a Fire Energy card attached to Houndoom.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

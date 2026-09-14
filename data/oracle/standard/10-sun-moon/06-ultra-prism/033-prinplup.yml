@@ -1,0 +1,44 @@
+name: Prinplup
+
+origin: ultra-prism-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Piplup
+
+dex: 394
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Bubble Beam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

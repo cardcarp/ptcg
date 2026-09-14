@@ -1,0 +1,37 @@
+name: Trubbish
+
+origin: rebel-clash-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 568
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Pupitar
+
+origin: pop-series-1-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Smash
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

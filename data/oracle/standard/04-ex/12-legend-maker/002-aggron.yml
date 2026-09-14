@@ -1,0 +1,54 @@
+name: Aggron
+
+origin: legend-maker-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Lairon
+
+dex: 306
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Heavy Blow
+    text: Does 70 damage minus 10 damage for each damage counter on Aggron. If Aggron has any React Energy cards attached to it, this attack does 70 damage instead.
+    damage: 70
+    modifier: '-'
+  - type: Attack
+    cost:
+      - Fighting
+      - Metal
+      - Colorless
+      - Colorless
+    name: Bound Crush
+    text: Choose 1 of your opponent's Pokémon. This attack does 60 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) During your next turn, Aggron can't use Bound Crush.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

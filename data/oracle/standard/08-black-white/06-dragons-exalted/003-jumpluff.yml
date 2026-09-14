@@ -1,0 +1,45 @@
+name: Jumpluff
+
+origin: dragons-exalted-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Skiploom
+
+dex: 189
+
+rule:
+  - type: Ability
+    name: Leave It to the Wind
+    text: Once during your turn (before your attack), you may return this Pokémon and all cards attached to it to your hand.
+  - type: Attack
+    cost:
+      - Grass
+    name: Acrobatics
+    text: Flip 2 coins. This attack does 30 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+errata: []

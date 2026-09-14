@@ -1,0 +1,44 @@
+name: Wugtrio
+
+origin: scarlet-violet-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Wiglett
+
+dex: 961
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Headbutt
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Undersea Tunnel
+    text: Flip 3 coins. For each heads, discard the top 3 cards of your opponent's deck.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

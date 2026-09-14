@@ -1,0 +1,42 @@
+name: Gastrodon
+
+origin: surging-sparks-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Shellos
+
+dex: 423
+
+rule:
+  - type: Ability
+    name: Sticky Bind
+    text: As long as this Pokémon is on your Bench, Benched Stage 2 Pokémon (both yours and your opponent's) have no Abilities.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mud Shot
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

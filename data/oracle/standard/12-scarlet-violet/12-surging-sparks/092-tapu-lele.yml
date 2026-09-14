@@ -1,0 +1,45 @@
+name: Tapu Lele
+
+origin: surging-sparks-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 786
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mental Crush
+    text: If your opponent's Active Pokémon is Confused, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

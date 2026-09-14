@@ -1,0 +1,44 @@
+name: Girafarig
+
+origin: phantom-forces-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 203
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psybite
+    text: If this Pokémon has any Psychic Energy attached to it, this attack does 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

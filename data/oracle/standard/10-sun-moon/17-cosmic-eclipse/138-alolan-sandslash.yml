@@ -1,0 +1,50 @@
+name: Alolan Sandslash
+
+origin: cosmic-eclipse-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Alolan Sandshrew
+
+dex: 28
+
+rule:
+  - type: Attack
+    name: Curve Strike
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Reinforced Needle
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

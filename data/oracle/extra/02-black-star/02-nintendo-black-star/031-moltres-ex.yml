@@ -1,0 +1,50 @@
+name: Moltres ex
+
+origin: nintendo-black-star-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 146
+
+rule:
+  - type: Ability
+    name: Synchronized Lift
+    text: As long as you have Articuno ex and Zapdos ex in play, the Retreat Cost for Moltres ex is 0.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flame Gift
+    text: You may move a Fire Energy card attached to Moltres ex to 1 of your Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Scorching Wing
+    text: Discard all Fire Energy attached to Moltres ex.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

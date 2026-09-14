@@ -1,0 +1,40 @@
+name: Illumise
+
+origin: primal-clash-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 314
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Helping Hand
+    text: Search your deck for a basic Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Twirling Sign
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

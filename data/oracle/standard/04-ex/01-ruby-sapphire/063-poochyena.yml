@@ -1,0 +1,39 @@
+name: Poochyena
+
+origin: ruby-sapphire-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 40
+
+dex: 261
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

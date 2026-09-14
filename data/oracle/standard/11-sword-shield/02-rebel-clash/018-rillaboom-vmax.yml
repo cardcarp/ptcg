@@ -1,0 +1,50 @@
+name: Rillaboom VMAX
+
+origin: rebel-clash-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Grass
+
+hp: 330
+
+preevolution:
+  - Rillaboom V
+
+dex: 812
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 50
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+      - Colorless
+    name: Max Beating
+    text: You may discard up to 3 Grass Energy from this Pokémon. If you do, this attack does 50 more damage for each card you discarded in this way.
+    damage: 130
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

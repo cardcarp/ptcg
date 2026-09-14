@@ -1,0 +1,45 @@
+name: Weezing
+
+origin: chilling-reign-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Mixin' Toxin
+    text: Your opponent's Active Pokémon is now Confused. Attach a Darkness Energy card from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Smog Burst
+    text: This attack does 20 more damage for each Darkness Energy attached to all of your Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

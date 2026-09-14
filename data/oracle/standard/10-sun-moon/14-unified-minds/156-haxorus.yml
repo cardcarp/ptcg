@@ -1,0 +1,43 @@
+name: Haxorus
+
+origin: unified-minds-156
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Fraxure
+
+dex: 612
+
+rule:
+  - type: Ability
+    name: Grind Up
+    text: Once during your turn (before your attack), you may discard any Stadium card in play. If you do, attach up to 3 in any combination of Fire and Metal Energy cards from your hand to this Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Metal
+    name: Powerful Axe
+    text: This attack does 40 more damage times the amount of basic Energy attached to this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

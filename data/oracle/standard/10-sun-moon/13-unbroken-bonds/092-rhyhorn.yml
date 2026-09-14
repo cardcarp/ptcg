@@ -1,0 +1,35 @@
+name: Rhyhorn
+
+origin: unbroken-bonds-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 111
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Push Down
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

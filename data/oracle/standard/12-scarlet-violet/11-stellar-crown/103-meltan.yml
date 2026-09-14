@@ -1,0 +1,45 @@
+name: Meltan
+
+origin: stellar-crown-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 808
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Knickknack Carrying
+    text: Search your deck for a Pokémon Tool card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

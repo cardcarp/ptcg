@@ -1,0 +1,41 @@
+name: Mudsdale
+
+origin: sword-shield-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Mudbray
+
+dex: 750
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Double Impact
+    text: Flip 2 coins. This attack does 120 damage for each heads.
+    damage: 120
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

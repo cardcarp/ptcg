@@ -1,0 +1,43 @@
+name: Tepig
+
+origin: sword-shield-black-star-172
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Single Strike
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 498
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

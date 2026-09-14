@@ -1,0 +1,56 @@
+name: Machamp
+
+origin: stormfront-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Take Out
+    text: If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon is Knocked Out instead of damaged by this attack.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hurricane Punch
+    text: Flip 4 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 60 damage plus 10 more damage for each damage counter on Machamp.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+retreat: 2
+
+errata: []

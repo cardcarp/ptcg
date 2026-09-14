@@ -1,0 +1,39 @@
+name: Finizen
+
+origin: obsidian-flames-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 963
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Valiant Evolution
+    text: Switch this Pokémon with 1 of your Benched Pokémon. If you do, search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+    name: Razor Fin
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

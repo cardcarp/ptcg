@@ -1,0 +1,42 @@
+name: Volcanion
+
+origin: sun-moon-black-star-179
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 721
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flare Starter
+    text: Search your deck for a Fire Energy card and attach it to 1 of your Pokémon. If you go second and it's your first turn, instead search for up to 3 Fire Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: High-Heat Blast
+    text: If you have at least 4 Fire Energy in play, this attack does 60 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

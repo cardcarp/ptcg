@@ -1,0 +1,42 @@
+name: Inkay
+
+origin: champions-path-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 686
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Attack from Behind
+    text: If your opponent's Active Pokémon is Confused, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

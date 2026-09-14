@@ -1,0 +1,45 @@
+name: Mothim
+
+origin: fates-collide-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Burmy
+
+dex: 414
+
+rule:
+  - type: Ability
+    name: Wormadam First
+    text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Wormadam to another of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

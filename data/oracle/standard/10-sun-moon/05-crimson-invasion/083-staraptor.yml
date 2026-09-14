@@ -1,0 +1,53 @@
+name: Staraptor
+
+origin: crimson-invasion-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Staravia
+
+dex: 398
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Clutch
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sky Hunting
+    text: If your opponent's Pokémon is Knocked Out by the damage from this attack, switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Armarouge
+
+origin: scarlet-violet-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Charcadet
+
+dex: 936
+
+rule:
+  - type: Ability
+    name: Fire Off
+    text: As often as you like during your turn, you may move a Fire Energy from 1 of your Benched Pokémon to your Active Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flame Cannon
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

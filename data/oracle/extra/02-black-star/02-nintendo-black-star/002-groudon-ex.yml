@@ -1,0 +1,42 @@
+name: Groudon ex
+
+origin: nintendo-black-star-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Major Earthquake
+    text: Discard a Fighting Energy card attached to Groudon ex. Does 10 damage to your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

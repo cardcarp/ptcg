@@ -1,0 +1,45 @@
+name: Scraggy
+
+origin: shining-legends-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 559
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Mudkip
+
+origin: ruby-sapphire-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 258
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

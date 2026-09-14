@@ -1,0 +1,47 @@
+name: Entei ex
+
+origin: team-magma-vs-team-aqua-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 244
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Searing Flame
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Bright Flame
+    text: Discard 2 Energy attached to Entei ex.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

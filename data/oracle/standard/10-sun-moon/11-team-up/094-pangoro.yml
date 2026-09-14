@@ -1,0 +1,54 @@
+name: Pangoro
+
+origin: team-up-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Pancham
+
+dex: 675
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Tighten Up
+    text: Your opponent discards 2 cards from their hand.
+    damage: 60
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Tantrum
+    text: This Pokémon is now Confused.
+    damage: 170
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

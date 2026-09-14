@@ -1,0 +1,49 @@
+name: Rocket's Mewtwo
+
+origin: gym-challenge-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Juxtapose
+    text: Flip a coin. If heads, switch the number of damage counters on Rocket's Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It's okay if 1 of the Pokémon has no damage counters on it.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Hypnoblast
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psyburn
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

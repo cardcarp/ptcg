@@ -1,0 +1,51 @@
+name: Luxio
+
+origin: flashfire-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Bite
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electricounter
+    text: This attack does 40 damage times the number of Prize cards your opponent has taken.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

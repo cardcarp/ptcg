@@ -1,0 +1,44 @@
+name: Crabrawler
+
+origin: unbroken-bonds-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 739
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Corkscrew Punch
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Knuckle Blast
+    text: If you have more Prize cards remaining than your opponent, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

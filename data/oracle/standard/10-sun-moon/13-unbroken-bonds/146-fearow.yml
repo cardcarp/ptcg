@@ -1,0 +1,44 @@
+name: Fearow
+
+origin: unbroken-bonds-146
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Spearow
+
+dex: 22
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drill Run Double
+    text: Flip a coin. If heads, discard 2 Energy from your opponent's Active Pokémon.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

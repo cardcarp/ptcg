@@ -1,0 +1,51 @@
+name: Magneton
+
+origin: unified-minds-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Lightning Ball
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tri Attack
+    text: Flip 3 coins. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

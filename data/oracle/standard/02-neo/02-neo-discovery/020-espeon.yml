@@ -1,0 +1,48 @@
+name: Espeon
+
+origin: neo-discovery-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psybeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

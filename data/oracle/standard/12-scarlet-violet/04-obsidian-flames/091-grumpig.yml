@@ -1,0 +1,49 @@
+name: Grumpig
+
+origin: obsidian-flames-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Spoink
+
+dex: 326
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Powerful Steps
+    text: Search your deck for up to 2 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Zen Headbutt
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

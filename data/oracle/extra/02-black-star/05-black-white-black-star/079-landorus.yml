@@ -1,0 +1,52 @@
+name: Landorus
+
+origin: black-white-black-star-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Team Plasma
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 645
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Extrasensory
+    text: If you have the same number of cards in your hand as your opponent, this attack does 30 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Tomb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

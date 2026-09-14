@@ -1,0 +1,39 @@
+name: Cyndaquil
+
+origin: sword-shield-black-star-221
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 155
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Charge Energy
+    text: Search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Live Coal
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

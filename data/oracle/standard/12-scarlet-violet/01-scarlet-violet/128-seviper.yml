@@ -1,0 +1,43 @@
+name: Seviper
+
+origin: scarlet-violet-128
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 336
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Spit Poison
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 120 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

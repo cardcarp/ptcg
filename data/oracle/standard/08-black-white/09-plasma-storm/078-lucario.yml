@@ -1,0 +1,44 @@
+name: Lucario
+
+origin: plasma-storm-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: Ability
+    name: Dual Armor
+    text: If this Pokémon has any Metal Energy attached to it, this Pokémon's type is both Fighting and Metal.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hurricane Kick
+    text: Does 30 more damage for each Prize card your opponent has taken.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

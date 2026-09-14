@@ -1,0 +1,48 @@
+name: Blaine's Rhyhorn
+
+origin: gym-challenge-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 111
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Horn Charge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Overrun
+    text: Flip a coin. If heads and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

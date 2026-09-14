@@ -1,0 +1,48 @@
+name: Maractus
+
+origin: plasma-storm-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 556
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Dazzle Dance
+    text: The Defending Pokémon is now Confused.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

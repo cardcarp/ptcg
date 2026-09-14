@@ -1,0 +1,41 @@
+name: Cyndaquil
+
+origin: unseen-forces-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 155
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fireworks
+    text: Flip a coin. If tails, discard a Fire Energy card attached to Cyndaquil.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

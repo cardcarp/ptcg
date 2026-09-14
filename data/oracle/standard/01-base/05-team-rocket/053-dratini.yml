@@ -1,0 +1,36 @@
+name: Dratini
+
+origin: team-rocket-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 147
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wrap
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

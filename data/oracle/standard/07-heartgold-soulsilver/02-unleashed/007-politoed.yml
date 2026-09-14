@@ -1,0 +1,44 @@
+name: Politoed
+
+origin: unleashed-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Poliwhirl
+
+dex: 186
+
+rule:
+  - type: Ability
+    name: Leap Frog
+    text: Once during your turn (before your attack), you may choose a Water Pokémon on your Bench and switch it with your Active Pokémon. This power can't be used if Politoed is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Big Chorus
+    text: Flip a coin for each Water Pokémon you have in play. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

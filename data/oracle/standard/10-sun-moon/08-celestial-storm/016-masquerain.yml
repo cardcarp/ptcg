@@ -1,0 +1,46 @@
+name: Masquerain
+
+origin: celestial-storm-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Surskit
+
+dex: 284
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Surprising Pattern
+    text: Discard all Special Energy from each of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hurricane Wing
+    text: Flip 4 coins. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

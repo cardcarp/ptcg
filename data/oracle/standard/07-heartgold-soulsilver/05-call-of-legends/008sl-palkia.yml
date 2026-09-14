@@ -1,0 +1,38 @@
+name: Palkia
+
+origin: call-of-legends-008sl
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 484
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Wormhole
+    text: Switch Palkia with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

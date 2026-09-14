@@ -1,0 +1,48 @@
+name: Swalot
+
+origin: phantom-forces-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Gulpin
+
+dex: 317
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poison Gas
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Swallow Up
+    text: If, before doing damage, your opponent's Active Pokémon has fewer remaining HP than this Pokémon, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,49 @@
+name: Lt. Surge's Raticate
+
+origin: gym-challenge-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Lt. Surge's Rattata
+
+dex: 20
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Focus Energy
+    text: During your next turn, Lt. Surge's Raticate's Double-edge attack's damage (base damage and damage to itself) is doubled.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Lt. Surge's Raticate does 20 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

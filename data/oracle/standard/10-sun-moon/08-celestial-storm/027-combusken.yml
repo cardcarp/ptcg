@@ -1,0 +1,48 @@
+name: Combusken
+
+origin: celestial-storm-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Torchic
+
+dex: 256
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

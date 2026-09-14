@@ -1,0 +1,39 @@
+name: Wattrel
+
+origin: scarlet-violet-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 940
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Static Shock
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

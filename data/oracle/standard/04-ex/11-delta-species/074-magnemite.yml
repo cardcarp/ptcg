@@ -1,0 +1,44 @@
+name: Magnemite
+
+origin: delta-species-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 81
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Magnetic Blast
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

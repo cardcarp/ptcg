@@ -1,0 +1,47 @@
+name: Duraludon
+
+origin: sword-shield-black-star-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 884
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Metal Sharpener
+    text: Attach a Metal Energy card from your discard pile to 1 of your Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Power Beam
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

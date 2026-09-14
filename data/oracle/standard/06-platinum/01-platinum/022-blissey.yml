@@ -1,0 +1,50 @@
+name: Blissey
+
+origin: platinum-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Chansey
+
+dex: 242
+
+rule:
+  - type: Ability
+    name: Nurse Call
+    text: Once during your turn (before your attack), you may discard a card from your hand. If you do, remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Nurse Call Poké-Power each turn. This power can't be used if Blissey is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Return
+    text: Draw cards until you have 6 cards in your hand.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Blissey does 60 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+retreat: 2
+
+errata: []

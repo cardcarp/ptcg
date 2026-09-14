@@ -1,0 +1,60 @@
+name: Lunala-GX
+
+origin: sun-moon-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - GX
+
+type:
+  - Psychic
+
+hp: 250
+
+preevolution:
+  - Cosmoem
+
+dex: 792
+
+rule:
+  - type: Ability
+    name: Psychic Transfer
+    text: As often as you like during your turn (before your attack), you may move a Psychic Energy from 1 of your Pokémon to another of your Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Moongeist Beam
+    text: The Defending Pokémon can't be healed during your opponent's next turn.
+    damage: 120
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Lunar Fall-GX
+    text: Knock Out 1 of your opponent's Basic Pokémon that isn't a Pokémon-GX. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

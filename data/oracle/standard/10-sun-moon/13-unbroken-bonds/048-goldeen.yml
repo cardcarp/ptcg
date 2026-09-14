@@ -1,0 +1,35 @@
+name: Goldeen
+
+origin: unbroken-bonds-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 118
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Elegant Swim
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

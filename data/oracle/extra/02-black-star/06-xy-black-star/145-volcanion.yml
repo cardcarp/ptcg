@@ -1,0 +1,42 @@
+name: Volcanion
+
+origin: xy-black-star-145
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 721
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Power Heater
+    text: Choose 2 of your Benched Pokémon. Attach a Fire Energy card from your discard pile to each of those Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Steam Artillery
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

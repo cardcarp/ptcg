@@ -1,0 +1,38 @@
+name: Munna
+
+origin: boundaries-crossed-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 517
+
+rule:
+  - type: Ability
+    name: Long-Distance Hypnosis
+    text: Once during your turn (before your attack), you may flip a coin. If heads, your opponent's Active Pokémon is now Asleep. If tails, your Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psyshot
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

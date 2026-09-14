@@ -1,0 +1,44 @@
+name: Milotic
+
+origin: silver-tempest-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Arrow
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Mellow Wave
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

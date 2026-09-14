@@ -1,0 +1,38 @@
+name: Claydol
+
+origin: chaos-rising-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Devolution Ray
+    text: If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

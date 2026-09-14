@@ -1,0 +1,50 @@
+name: Lickilicky
+
+origin: furious-fists-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Lickitung
+
+dex: 463
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Lickichop
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

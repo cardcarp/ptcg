@@ -1,0 +1,49 @@
+name: Avalugg
+
+origin: flashfire-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Bergmite
+
+dex: 713
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Barrier
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Shatter
+    text: Discard any Stadium card in play.
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

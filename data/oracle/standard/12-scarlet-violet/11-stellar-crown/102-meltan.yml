@@ -1,0 +1,46 @@
+name: Meltan
+
+origin: stellar-crown-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 808
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Beam
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

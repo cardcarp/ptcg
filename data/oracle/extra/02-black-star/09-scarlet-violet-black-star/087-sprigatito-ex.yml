@@ -1,0 +1,46 @@
+name: Sprigatito ex
+
+origin: scarlet-violet-black-star-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Grass
+
+hp: 200
+
+dex: 906
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Magical Leaf
+    text: Heal 30 damage from this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

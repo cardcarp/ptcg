@@ -1,0 +1,42 @@
+name: Hitmontop
+
+origin: brilliant-stars-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 237
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spinning Draw
+    text: Draw a card.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Cyclone Kick
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

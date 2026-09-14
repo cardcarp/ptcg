@@ -1,0 +1,44 @@
+name: Heliolisk
+
+origin: fusion-strike-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electrobullet
+    text: This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

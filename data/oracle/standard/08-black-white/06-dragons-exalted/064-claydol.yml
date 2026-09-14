@@ -1,0 +1,47 @@
+name: Claydol
+
+origin: dragons-exalted-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rapid Spin
+    text: Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Smash
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

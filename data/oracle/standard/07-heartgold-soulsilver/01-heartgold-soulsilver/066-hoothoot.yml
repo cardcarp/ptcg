@@ -1,0 +1,45 @@
+name: Hoothoot
+
+origin: heartgold-soulsilver-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 163
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

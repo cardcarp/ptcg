@@ -1,0 +1,43 @@
+name: Dewgong
+
+origin: mysterious-treasures-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Seel
+
+dex: 87
+
+rule:
+  - type: Ability
+    name: Cold Fat
+    text: As long as Dewgong is Asleep, any damage done to Dewgong by attacks is reduced by 40 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Collapse
+    text: Dewgong is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

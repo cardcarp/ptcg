@@ -1,0 +1,48 @@
+name: Arcanine
+
+origin: wizards-black-star-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flames of Rage
+    text: Discard 2 Fire Energy cards attached to Arcanine in order to use this attack. This attack does 40 damage plus 10 more damage for each damage counter on Arcanine.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Kyogre ex
+
+origin: crystal-guardians-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 100
+
+dex: 382
+
+rule:
+  - type: Ability
+    name: Flotation
+    text: As long as Kyogre ex has 1 Energy or less attached to it, the Retreat Cost for each of your Kyogre ex is 0.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hydro Shot
+    text: Discard 2 Energy attached to Kyogre ex. Choose 1 of your opponent's Pokémon. This attack does 70 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

@@ -1,0 +1,41 @@
+name: Whimsicott
+
+origin: fates-collide-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Light Steps
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+errata: []

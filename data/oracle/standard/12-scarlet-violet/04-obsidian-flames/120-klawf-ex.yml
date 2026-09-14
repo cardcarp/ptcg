@@ -1,0 +1,45 @@
+name: Klawf ex
+
+origin: obsidian-flames-120
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 220
+
+dex: 950
+
+rule:
+  - type: Ability
+    name: Counterattacking Pincer
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), discard an Energy from the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Falling Press
+    text: Flip a coin. If heads, this attack does 80 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

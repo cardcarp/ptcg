@@ -1,0 +1,35 @@
+name: Dragonair
+
+origin: expedition-base-set-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Water
+    name: Spiral Wave
+    text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+retreat: 2
+
+errata: []

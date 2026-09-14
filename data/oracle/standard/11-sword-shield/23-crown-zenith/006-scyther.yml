@@ -1,0 +1,35 @@
+name: Scyther
+
+origin: crown-zenith-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 123
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mach Cut
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

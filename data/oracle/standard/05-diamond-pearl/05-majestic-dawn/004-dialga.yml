@@ -1,0 +1,52 @@
+name: Dialga
+
+origin: majestic-dawn-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 100
+
+dex: 483
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Time Shift
+    text: Draw cards until you have 6 cards in your hand.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Diamond Blast
+    text: Flip a coin. If heads, this attack does 60 damage plus 20 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - "Adamant Orb: If an Active Pokémon has Weakness to Metal type, Dialga's attacks do 20 more damage to that Pokémon (before applying Weakness and Resistance)."
+
+errata: []

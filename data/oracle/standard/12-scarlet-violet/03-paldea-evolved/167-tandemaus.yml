@@ -1,0 +1,40 @@
+name: Tandemaus
+
+origin: paldea-evolved-167
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 924
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Attach
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

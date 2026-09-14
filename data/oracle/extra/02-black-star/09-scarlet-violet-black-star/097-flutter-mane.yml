@@ -1,0 +1,41 @@
+name: Flutter Mane
+
+origin: scarlet-violet-black-star-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ancient
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 987
+
+rule:
+  - type: Ability
+    name: Midnight Fluttering
+    text: As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon has no Abilities, except for Midnight Fluttering.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hex Hurl
+    text: Put 2 damage counters on your opponent's Benched Pokémon in any way you like.
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

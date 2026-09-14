@@ -1,0 +1,39 @@
+name: Tinkatink
+
+origin: mega-evolution-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 957
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Beat
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

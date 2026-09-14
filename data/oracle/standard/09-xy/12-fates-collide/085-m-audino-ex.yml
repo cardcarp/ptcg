@@ -1,0 +1,45 @@
+name: M Audino-EX
+
+origin: fates-collide-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Colorless
+
+hp: 220
+
+preevolution:
+  - Audino-EX
+
+dex: 531
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Magical Symphony
+    text: If you played a Supporter card from your hand during this turn, this attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 110
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

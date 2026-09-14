@@ -1,0 +1,40 @@
+name: Corphish
+
+origin: primal-clash-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 341
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Vice Grip
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

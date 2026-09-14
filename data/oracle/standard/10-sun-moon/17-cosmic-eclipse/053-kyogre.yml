@@ -1,0 +1,43 @@
+name: Kyogre
+
+origin: cosmic-eclipse-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 382
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: High Water
+    text: Attach 2 Water Energy cards from your discard pile to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Swirling Waves
+    text: Discard an Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

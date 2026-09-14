@@ -1,0 +1,49 @@
+name: Orbeetle
+
+origin: battle-styles-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Dottler
+
+dex: 826
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Evomancy
+    text: For each Energy attached to this Pokémon, search your deck for a Stage 2 Pokémon, except Orbeetle, and put it onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Zen Headbutt
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

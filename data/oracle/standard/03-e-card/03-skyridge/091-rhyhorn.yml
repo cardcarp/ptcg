@@ -1,0 +1,47 @@
+name: Rhyhorn
+
+origin: skyridge-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 111
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Horn Attack
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Retaliate
+    text: This attack does 10 damage times the number of damage counters on Rhyhorn.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

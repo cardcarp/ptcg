@@ -1,0 +1,36 @@
+name: Cacnea
+
+origin: emerald-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 331
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spike Cannon
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

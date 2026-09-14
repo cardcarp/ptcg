@@ -1,0 +1,42 @@
+name: Delcatty
+
+origin: ruby-sapphire-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Skitty
+
+dex: 301
+
+rule:
+  - type: Ability
+    name: Energy Draw
+    text: Once during your turn (before your attack), you may discard 1 Energy card from your hand. Then draw up to 3 cards from your deck. This power can't be used if Delcatty is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Max Energy Source
+    text: Does 10 damage times the amount of Energy attached to all of your Active Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

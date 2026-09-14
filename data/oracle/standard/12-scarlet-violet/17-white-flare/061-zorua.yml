@@ -1,0 +1,35 @@
+name: Zorua
+
+origin: white-flare-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 570
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Take Down
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

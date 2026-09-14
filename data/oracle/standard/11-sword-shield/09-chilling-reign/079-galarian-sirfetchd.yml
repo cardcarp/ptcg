@@ -1,0 +1,47 @@
+name: Galarian Sirfetch'd
+
+origin: chilling-reign-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Galarian Farfetch'd
+
+dex: 865
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Peck
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Leek Strike
+    text: If this Pokémon has a Pokémon Tool attached, this attack does 90 more damage, and this attack's damage isn't affected by Resistance.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,46 @@
+name: Prinplup
+
+origin: dark-explorers-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Piplup
+
+dex: 394
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Razor Wing
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Fury Attack
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

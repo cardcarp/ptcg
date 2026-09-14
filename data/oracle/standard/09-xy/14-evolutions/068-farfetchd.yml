@@ -1,0 +1,47 @@
+name: Farfetch'd
+
+origin: evolutions-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 83
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Leek Slap
+    text: This Pokémon can't use Leek Slap during your next turn.
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Pot Smash
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

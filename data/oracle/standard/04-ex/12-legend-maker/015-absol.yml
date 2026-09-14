@@ -1,0 +1,48 @@
+name: Absol
+
+origin: legend-maker-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 359
+
+rule:
+  - type: Ability
+    name: Shining Horn
+    text: As long as Absol is the only Pokémon you have in play, your opponent's Basic Pokémon can't attack.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Extra Call
+    text: Search your deck for a Pokémon-ex, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

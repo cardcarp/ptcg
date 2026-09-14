@@ -1,0 +1,41 @@
+name: Comfey
+
+origin: stellar-crown-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 764
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Flower Shower
+    text: Each player draws 3 cards.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Play Rough
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

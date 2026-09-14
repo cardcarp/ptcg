@@ -1,0 +1,35 @@
+name: Shinx
+
+origin: crown-zenith-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 403
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Jolt
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

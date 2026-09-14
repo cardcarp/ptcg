@@ -1,0 +1,42 @@
+name: Magmar
+
+origin: neo-genesis-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Slap
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Magma Punch
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,48 @@
+name: Froslass ex
+
+origin: paradox-rift-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Grass
+
+hp: 250
+
+preevolution:
+  - Snorunt
+
+dex: 478
+
+rule:
+  - type: Ability
+    name: Evanescent
+    text: If this Pokémon is in the Active Spot and is Knocked Out, flip a coin. If heads, your opponent takes 1 fewer Prize card.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Frost Bullet
+    text: This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

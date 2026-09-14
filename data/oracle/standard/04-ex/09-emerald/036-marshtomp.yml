@@ -1,0 +1,45 @@
+name: Marshtomp
+
+origin: emerald-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Mudkip
+
+dex: 259
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Super Hypno Wave
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Surf
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

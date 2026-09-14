@@ -1,0 +1,47 @@
+name: Xerneas
+
+origin: crimson-invasion-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 130
+
+dex: 716
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Lead
+    text: Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Fairy
+    name: Bright Horns
+    text: This Pokémon can't use Bright Horns during your next turn.
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

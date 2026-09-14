@@ -1,0 +1,48 @@
+name: Misty's Gyarados
+
+origin: gym-challenge-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Misty's Magikarp
+
+dex: 130
+
+rule:
+  - type: Ability
+    name: Rebellion
+    text: Whenever Misty's Gyarados attacks, flip 2 coins. If both of them are tails, that attack does nothing. Instead, shuffle Misty's Gyarados and all cards attached to it into your deck. (This power works even if Misty's Gyarados is Confused.)
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Tidal Wave
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

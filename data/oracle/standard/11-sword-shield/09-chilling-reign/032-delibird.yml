@@ -1,0 +1,40 @@
+name: Delibird
+
+origin: chilling-reign-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 225
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Icy Snow
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Package Delivery
+    text: Put this Pokémon and all attached cards into your deck. If you do, search your deck for a card and put it into your hand. Then, shuffle your deck.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

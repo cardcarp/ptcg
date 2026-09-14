@@ -1,0 +1,46 @@
+name: Ursaring
+
+origin: unleashed-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Teddiursa
+
+dex: 217
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Confront
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Cross Chop
+    text: Flip a coin. If heads, this attack does 50 damage plus 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

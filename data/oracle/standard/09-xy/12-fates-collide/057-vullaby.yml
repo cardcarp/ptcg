@@ -1,0 +1,46 @@
+name: Vullaby
+
+origin: fates-collide-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 629
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Leer
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Cutting Wind
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Paras
+
+origin: 151-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 46
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Spore Ball
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

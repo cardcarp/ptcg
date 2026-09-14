@@ -1,0 +1,49 @@
+name: Cramorant
+
+origin: rebel-clash-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 845
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Dive
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 20 more damage for each Water Energy attached to this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

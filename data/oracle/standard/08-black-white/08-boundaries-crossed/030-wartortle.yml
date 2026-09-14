@@ -1,0 +1,44 @@
+name: Wartortle
+
+origin: boundaries-crossed-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Squirtle
+
+dex: 8
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Withdraw
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

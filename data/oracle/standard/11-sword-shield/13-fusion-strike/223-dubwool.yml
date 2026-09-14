@@ -1,0 +1,44 @@
+name: Dubwool
+
+origin: fusion-strike-223
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Wooloo
+
+dex: 832
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bounce
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rolling Tackle
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

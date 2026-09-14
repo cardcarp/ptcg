@@ -1,0 +1,41 @@
+name: Tadbulb
+
+origin: obsidian-flames-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 938
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Energize
+    text: Attach a Basic Lightning Energy card from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Lightning Ball
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

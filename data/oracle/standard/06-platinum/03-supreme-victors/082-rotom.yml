@@ -1,0 +1,47 @@
+name: Rotom
+
+origin: supreme-victors-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 479
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Discharge
+    text: Discard all Lightning Energy attached to Rotom. Flip a coin for each Energy card you discarded. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Uproar
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

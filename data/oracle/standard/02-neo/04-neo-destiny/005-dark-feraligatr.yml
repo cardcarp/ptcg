@@ -1,0 +1,43 @@
+name: Dark Feraligatr
+
+origin: neo-destiny-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Dark Croconaw
+
+dex: 160
+
+rule:
+  - type: Ability
+    name: Scare
+    text: As long as Dark Feraligatr is your Active Pokémon, all of your opponent's Baby Pokémon Powers stop working and your opponent's Baby Pokémon can't attack. This power stops working while Dark Feraligatr is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Crushing Blow
+    text: If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those cards and discard it.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

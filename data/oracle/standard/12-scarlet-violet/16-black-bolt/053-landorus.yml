@@ -1,0 +1,42 @@
+name: Landorus
+
+origin: black-bolt-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 645
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Abundant Harvest
+    text: Attach a Basic Fighting Energy card from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Earthquake
+    text: This attack also does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 110
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

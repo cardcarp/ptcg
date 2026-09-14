@@ -1,0 +1,44 @@
+name: Hawlucha
+
+origin: rebel-clash-148
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 701
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Windfall
+    text: Shuffle your hand into your deck. Then, draw 5 cards.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Speed Attack
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

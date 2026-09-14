@@ -1,0 +1,48 @@
+name: Magcargo
+
+origin: vivid-voltage-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 60
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Bright Flame
+    text: Discard 2 Energy from this Pokémon.
+    damage: 180
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

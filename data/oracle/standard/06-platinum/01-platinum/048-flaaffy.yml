@@ -1,0 +1,50 @@
+name: Flaaffy
+
+origin: platinum-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Flaaffy
+
+dex: 180
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Spark
+    text: Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Tail Code
+    text: Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

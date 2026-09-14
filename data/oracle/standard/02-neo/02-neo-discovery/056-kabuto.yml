@@ -1,0 +1,43 @@
+name: Kabuto
+
+origin: neo-discovery-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 50
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 140
+
+rule:
+  - type: Ability
+    name: Revive Friends
+    text: Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full).
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Work Together
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,60 @@
+name: Gardevoir & Sylveon-GX
+
+origin: unbroken-bonds-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Fairy
+
+hp: 260
+
+dex: 282
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fairy Song
+    text: Search your deck for up to 2 Fairy Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Kaleidostorm
+    text: Move any number of Energy from your Pokémon to your other Pokémon in any way you like.
+    damage: 150
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Fairy
+    name: Magical Miracle-GX
+    text: If this Pokémon has at least 3 extra Fairy Energy attached to it (in addition to this attack's cost), your opponent shuffles their hand into their deck. (You can't use more than 1 GX attack in a game.)
+    damage: 200
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

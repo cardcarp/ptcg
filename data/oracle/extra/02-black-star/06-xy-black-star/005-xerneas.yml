@@ -1,0 +1,47 @@
+name: Xerneas
+
+origin: xy-black-star-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 130
+
+dex: 716
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Geomancy
+    text: Choose 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a Fairy Energy card and attach it to that Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Rainbow Spear
+    text: Discard an Energy attached to this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

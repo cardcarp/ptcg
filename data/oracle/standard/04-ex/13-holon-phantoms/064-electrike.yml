@@ -1,0 +1,40 @@
+name: Electrike
+
+origin: holon-phantoms-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 309
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

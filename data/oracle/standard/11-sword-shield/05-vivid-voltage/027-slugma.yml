@@ -1,0 +1,41 @@
+name: Slugma
+
+origin: vivid-voltage-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 218
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Yawn
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flare
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

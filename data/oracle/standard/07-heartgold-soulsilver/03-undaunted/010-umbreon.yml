@@ -1,0 +1,51 @@
+name: Umbreon
+
+origin: undaunted-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Moonlight Fang
+    text: During your opponent's next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent's Pokémon that has any Poké-Powers or Poké-Bodies.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Quick Blow
+    text: Flip a coin. If heads, this attack does 30 damage plus 30 damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

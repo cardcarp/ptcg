@@ -1,0 +1,44 @@
+name: Ampharos
+
+origin: darkness-ablaze-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Dazzle Blast
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 50
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Electric Ball
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Beldum
+
+origin: guardians-rising-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 374
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Core Beam
+    text: Discard a Metal Energy from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

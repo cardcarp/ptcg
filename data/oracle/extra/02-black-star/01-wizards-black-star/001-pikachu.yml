@@ -1,0 +1,41 @@
+name: Pikachu
+
+origin: wizards-black-star-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Growl
+    text: If the Defending Pokémon attacks Pikachu during your opponent's next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

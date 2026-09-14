@@ -1,0 +1,40 @@
+name: Growlithe
+
+origin: silver-tempest-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 58
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flare
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

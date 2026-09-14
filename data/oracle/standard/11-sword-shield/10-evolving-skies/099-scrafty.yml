@@ -1,0 +1,46 @@
+name: Scrafty
+
+origin: evolving-skies-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 40
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Shakedown
+    text: Discard a random card from your opponent's hand.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

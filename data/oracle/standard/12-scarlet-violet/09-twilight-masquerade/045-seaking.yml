@@ -1,0 +1,45 @@
+name: Seaking
+
+origin: twilight-masquerade-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Peck Off
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Horn Drill
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

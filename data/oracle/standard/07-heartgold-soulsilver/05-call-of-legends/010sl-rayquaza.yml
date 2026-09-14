@@ -1,0 +1,43 @@
+name: Rayquaza
+
+origin: call-of-legends-010sl
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 384
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Lightning
+      - Lightning
+    name: Inferno Spear
+    text: Discard a Fire Energy and a Lightning Energy attached to Rayquaza.
+    damage: 100
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

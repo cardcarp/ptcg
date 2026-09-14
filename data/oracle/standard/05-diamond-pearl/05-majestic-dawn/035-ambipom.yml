@@ -1,0 +1,46 @@
+name: Ambipom
+
+origin: majestic-dawn-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Aipom
+
+dex: 424
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Astonish
+    text: Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hang High
+    text: Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

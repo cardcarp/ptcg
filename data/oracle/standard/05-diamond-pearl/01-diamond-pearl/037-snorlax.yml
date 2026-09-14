@@ -1,0 +1,44 @@
+name: Snorlax
+
+origin: diamond-pearl-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 143
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Block
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Ease Up
+    text: Snorlax is now Asleep. If Snorlax is evolved from Munchlax, this attack does 40 damage plus 30 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 4
+
+errata: []

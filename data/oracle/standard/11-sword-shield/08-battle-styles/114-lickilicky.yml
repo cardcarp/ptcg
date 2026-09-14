@@ -1,0 +1,48 @@
+name: Lickilicky
+
+origin: battle-styles-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Lickitung
+
+dex: 463
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Selickt
+    text: Your opponent chooses to discard the top 3 cards of their deck or to discard 3 cards from their hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Pitch
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

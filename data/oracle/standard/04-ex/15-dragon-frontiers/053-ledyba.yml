@@ -1,0 +1,40 @@
+name: Ledyba δ
+
+origin: dragon-frontiers-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Metal
+
+hp: 40
+
+dex: 165
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

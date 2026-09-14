@@ -1,0 +1,42 @@
+name: Meloetta
+
+origin: unified-minds-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 648
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tag Cheer
+    text: Attach an Energy card from your hand to 1 of your TAG TEAM Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Shooting Star Pirouette
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

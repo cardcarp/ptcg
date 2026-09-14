@@ -1,0 +1,56 @@
+name: Dark Crobat
+
+origin: team-rocket-returns-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Dark Golbat
+
+dex: 169
+
+rule:
+  - type: Ability
+    name: Black Beam
+    text: Once during your turn (before your attack), if Dark Crobat is your Active Pokémon, you may choose 1 of the Defending Pokémon. That Pokémon is now Poisoned. This power can't be used if Dark Crobat is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Dark Drain
+    text: Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Remove from Dark Crobat a number of damage counters equal to the number of your opponent's Pokémon in play.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Skill Dive
+    text: Does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Grass Darkness type.
+
+errata: []

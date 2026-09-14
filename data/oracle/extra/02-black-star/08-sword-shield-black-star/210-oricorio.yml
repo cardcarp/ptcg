@@ -1,0 +1,47 @@
+name: Oricorio
+
+origin: sword-shield-black-star-210
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Fusion Strike
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 741
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mixed Call
+    text: Search your deck for a Pokémon and a Supporter card, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Razor Wing
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

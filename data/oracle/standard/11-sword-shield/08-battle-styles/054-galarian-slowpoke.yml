@@ -1,0 +1,39 @@
+name: Galarian Slowpoke
+
+origin: battle-styles-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 79
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tantailizing
+    text: Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

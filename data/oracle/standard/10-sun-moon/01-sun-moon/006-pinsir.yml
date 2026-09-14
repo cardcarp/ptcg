@@ -1,0 +1,41 @@
+name: Pinsir
+
+origin: sun-moon-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 127
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Roof Fling
+    text: Flip a coin. If heads, put your opponent's Active Pokémon and all cards attached to it into your opponent's hand.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Guillotine
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

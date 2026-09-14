@@ -1,0 +1,49 @@
+name: Cobalion
+
+origin: black-bolt-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 120
+
+dex: 638
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Righteous Edge
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Metal Arms
+    text: If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

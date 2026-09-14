@@ -1,0 +1,48 @@
+name: Grumpig
+
+origin: triumphant-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Spoink
+
+dex: 326
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psychic Lock
+    text: Your opponent can't use any Poké-Powers on his or her Pokémon during his or her next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Bench Manipulation
+    text: Your opponent flips a coin for each of his or her Benched Pokémon. This attack does 40 damage times the number of tails. This attack's damage isn't affected by Weakness or Resistance.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

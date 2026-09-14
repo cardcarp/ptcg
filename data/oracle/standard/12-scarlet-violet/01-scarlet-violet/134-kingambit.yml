@@ -1,0 +1,42 @@
+name: Kingambit
+
+origin: scarlet-violet-134
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Bisharp
+
+dex: 983
+
+rule:
+  - type: Ability
+    name: Leadership
+    text: Your Basic Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hack At
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

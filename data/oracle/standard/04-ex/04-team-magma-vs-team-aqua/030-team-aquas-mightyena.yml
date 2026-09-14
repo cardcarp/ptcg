@@ -1,0 +1,48 @@
+name: Team Aqua's Mightyena
+
+origin: team-magma-vs-team-aqua-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Team Aqua's Poochyena
+
+dex: 262
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Aqua Call
+    text: Search your deck for Pokémon that has Team Aqua in its name, show up to 3 of them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

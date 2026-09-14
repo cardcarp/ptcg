@@ -1,0 +1,40 @@
+name: Trubbish
+
+origin: noble-victories-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 568
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Garbage Collection
+    text: Put a card from your discard pile on top of your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Sludge Bomb
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

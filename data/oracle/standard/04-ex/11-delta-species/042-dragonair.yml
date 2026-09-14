@@ -1,0 +1,48 @@
+name: Dragonair δ
+
+origin: delta-species-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Twister
+    text: Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.
+    damage: 20
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

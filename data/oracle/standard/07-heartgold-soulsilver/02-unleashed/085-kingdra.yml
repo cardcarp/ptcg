@@ -1,0 +1,42 @@
+name: Kingdra
+
+origin: unleashed-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Prime
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: Ability
+    name: Spray Splash
+    text: Once during your turn (before your attack), you may put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Kingdra is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+    name: Dragon Steam
+    text: If your opponent has any Fire Pokémon in play, this attack's base damage is 20 instead of 60.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

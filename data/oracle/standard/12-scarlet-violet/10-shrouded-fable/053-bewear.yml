@@ -1,0 +1,45 @@
+name: Bewear
+
+origin: shrouded-fable-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Stufful
+
+dex: 760
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Power Charger
+    text: Search your deck for a Basic Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

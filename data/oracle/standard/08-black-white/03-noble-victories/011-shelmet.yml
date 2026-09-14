@@ -1,0 +1,39 @@
+name: Shelmet
+
+origin: noble-victories-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 616
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mysterious Evolution
+    text: If Karrablast is in play, search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

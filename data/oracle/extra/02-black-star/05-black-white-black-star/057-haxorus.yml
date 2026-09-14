@@ -1,0 +1,48 @@
+name: Haxorus
+
+origin: black-white-black-star-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 140
+
+preevolution:
+  - Fraxure
+
+dex: 612
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Armor Press
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Metal
+      - Colorless
+    name: Dual Chop
+    text: Flip 2 coins. This attack does 90 damage times the number of heads.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

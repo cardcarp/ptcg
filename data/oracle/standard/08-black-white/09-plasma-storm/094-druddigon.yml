@@ -1,0 +1,45 @@
+name: Druddigon
+
+origin: plasma-storm-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Team Plasma
+
+type:
+  - Dragon
+
+hp: 110
+
+dex: 621
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Guard Press
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Water
+      - Colorless
+    name: Dragon Claw
+    damage: 90
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

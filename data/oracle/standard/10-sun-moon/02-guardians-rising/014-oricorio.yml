@@ -1,0 +1,41 @@
+name: Oricorio
+
+origin: guardians-rising-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 741
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Passionate Dance
+    text: Search your deck for up to 3 Basic Fire Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Kindle
+    text: Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

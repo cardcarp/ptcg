@@ -1,0 +1,41 @@
+name: Gumshoos
+
+origin: mega-evolution-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Yungoos
+
+dex: 735
+
+rule:
+  - type: Ability
+    name: Evidence Gathering
+    text: Once during your turn, you may use this Ability. Switch a card from your hand with the top card of your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

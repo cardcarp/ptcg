@@ -1,0 +1,39 @@
+name: Hoppip
+
+origin: lost-thunder-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 187
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

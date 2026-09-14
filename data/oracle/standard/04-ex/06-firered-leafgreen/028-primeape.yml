@@ -1,0 +1,44 @@
+name: Primeape
+
+origin: firered-leafgreen-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Toss
+    text: You may discard from your hand as many Technical Machine and Pokémon Tool cards as you like. This attack does 30 damage times the number of cards you discarded.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Low Kick
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,35 @@
+name: Sandshrew
+
+origin: sandstorm-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 27
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Poison Needle
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

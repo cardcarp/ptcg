@@ -1,0 +1,44 @@
+name: Croconaw
+
+origin: fusion-strike-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

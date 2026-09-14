@@ -1,0 +1,46 @@
+name: Skuntank
+
+origin: rebel-clash-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Stunky
+
+dex: 435
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 50
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Poison Ring
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

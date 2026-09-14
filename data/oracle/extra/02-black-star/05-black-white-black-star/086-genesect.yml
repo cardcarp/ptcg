@@ -1,0 +1,46 @@
+name: Genesect
+
+origin: black-white-black-star-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Team Plasma
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 649
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Signal Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Overdrive Smash
+    text: During your next turn, this Pokémon's Overdrive Smash attack does 60 more damage (before applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

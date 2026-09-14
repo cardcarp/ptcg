@@ -1,0 +1,53 @@
+name: Mega Pyroar ex
+
+origin: chaos-rising-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - MEGA
+  - ex
+
+type:
+  - Fire
+
+hp: 340
+
+preevolution:
+  - Litleo
+
+dex: 668
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ferocious Bellow
+    text: During your opponent's next turn, attacks used by the Defending Pokémon do 50 less damage (before applying Weakness and Resistance).
+    damage: 80
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fiery Big Bang
+    text: This attack does 10 less damage for each damage counter on this Pokémon.
+    damage: 290
+    modifier: '-'
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

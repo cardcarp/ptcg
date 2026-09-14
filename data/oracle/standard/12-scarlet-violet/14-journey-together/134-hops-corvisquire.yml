@@ -1,0 +1,46 @@
+name: Hop's Corvisquire
+
+origin: journey-together-134
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 822
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Speed Dive
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Razor Wing
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

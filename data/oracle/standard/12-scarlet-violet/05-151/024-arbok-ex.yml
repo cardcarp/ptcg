@@ -1,0 +1,51 @@
+name: Arbok ex
+
+origin: 151-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Darkness
+
+hp: 270
+
+preevolution:
+  - Ekans
+
+dex: 24
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Bind Down
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 70
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Menacing Fangs
+    text: Your opponent discards 2 cards from their hand.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

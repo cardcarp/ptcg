@@ -1,0 +1,46 @@
+name: Turtonator
+
+origin: stellar-crown-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 776
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Ring of Fire
+    text: Your opponent's Active Pokémon is now Burned. During your opponent's next turn, that Pokémon can't retreat.
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Inferno Onrush
+    text: This Pokémon also does 60 damage to itself.
+    damage: 180
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

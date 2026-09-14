@@ -1,0 +1,46 @@
+name: Arbok
+
+origin: xy-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Ekans
+
+dex: 24
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gastro Acid
+    text: The Defending Pokémon has no Abilities until the end of your next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Poison Jab
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

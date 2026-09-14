@@ -1,0 +1,42 @@
+name: Haxorus
+
+origin: black-bolt-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 170
+
+preevolution:
+  - Fraxure
+
+dex: 612
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cross-Cut
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Metal
+      - Colorless
+    name: Axe Blast
+    text: If your opponent's Active Pokémon is a Basic Pokémon, it is Knocked Out.
+
+retreat: 3
+
+errata: []

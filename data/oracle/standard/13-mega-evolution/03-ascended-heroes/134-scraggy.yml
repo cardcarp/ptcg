@@ -1,0 +1,36 @@
+name: Scraggy
+
+origin: ascended-heroes-134
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 559
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

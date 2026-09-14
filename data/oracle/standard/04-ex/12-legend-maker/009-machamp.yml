@@ -1,0 +1,48 @@
+name: Machamp
+
+origin: legend-maker-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Derail
+    text: Discard a Special Energy card, if any, attached to the Defending Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Swift Blow
+    text: Does 60 damage plus 20 damage for each React Energy card attached to Machamp.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,43 @@
+name: Alomomola
+
+origin: scarlet-violet-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 594
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Surf
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Slash
+    text: During your next turn, this Pokémon can't attack.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,37 @@
+name: Cacnea
+
+origin: sandstorm-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 331
+
+rule:
+  - type: Ability
+    name: Poison Payback
+    text: If Cacnea is your Active Pokémon and is damaged by an opponent's attack (even if Cacnea is Knocked Out), the Attacking Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

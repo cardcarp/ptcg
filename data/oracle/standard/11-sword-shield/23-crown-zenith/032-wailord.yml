@@ -1,0 +1,49 @@
+name: Wailord
+
+origin: crown-zenith-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 220
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bubble Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 80
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 180
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

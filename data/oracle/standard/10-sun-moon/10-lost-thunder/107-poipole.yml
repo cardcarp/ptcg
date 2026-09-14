@@ -1,0 +1,41 @@
+name: Poipole
+
+origin: lost-thunder-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 803
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Eye Opener
+    text: Look at your face-down Prize cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

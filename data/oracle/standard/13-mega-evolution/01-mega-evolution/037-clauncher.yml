@@ -1,0 +1,35 @@
+name: Clauncher
+
+origin: mega-evolution-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 692
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Wave Splash
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Duskull
+
+origin: secret-wonders-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 355
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Astonish
+    text: Flip a coin. If heads, choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Reaper Cloth: Duskull can evolve during the turn you play it.'
+
+errata: []

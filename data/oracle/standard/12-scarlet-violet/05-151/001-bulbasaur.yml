@@ -1,0 +1,36 @@
+name: Bulbasaur
+
+origin: 151-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 1
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leech Seed
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,44 @@
+name: Dolliv
+
+origin: scarlet-violet-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Smoliv
+
+dex: 929
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slap
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Apply Oil
+    text: During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn't happen.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

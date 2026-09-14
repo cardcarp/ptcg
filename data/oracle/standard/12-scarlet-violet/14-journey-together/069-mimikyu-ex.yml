@@ -1,0 +1,52 @@
+name: Mimikyu ex
+
+origin: journey-together-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 190
+
+dex: 778
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Mischievous Hands
+    text: Choose 2 of your opponent's Pokémon and put 3 damage counters on each of them.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Ghostly Trip
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

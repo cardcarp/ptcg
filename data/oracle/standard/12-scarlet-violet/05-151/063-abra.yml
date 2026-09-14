@@ -1,0 +1,39 @@
+name: Abra
+
+origin: 151-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 63
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psyshot
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,39 @@
+name: Wingull
+
+origin: sun-moon-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 278
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Roost
+    text: Heal 30 damage from this Pokémon. It can't retreat during your next turn.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

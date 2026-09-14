@@ -1,0 +1,46 @@
+name: Gengar
+
+origin: unbroken-bonds-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: Ability
+    name: Shadow Pain
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 6 damage counters on your opponent's Pokémon-GX and Pokémon-EX in any way you like.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Twilight Poison
+    text: Your opponent's Active Pokémon is now Asleep and Poisoned.
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

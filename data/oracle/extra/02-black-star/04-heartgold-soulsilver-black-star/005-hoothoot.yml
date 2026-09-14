@@ -1,0 +1,42 @@
+name: Hoothoot
+
+origin: heartgold-soulsilver-black-star-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 163
+
+rule:
+  - type: Ability
+    name: Insomnia
+    text: Hoothoot can't be Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

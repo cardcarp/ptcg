@@ -1,0 +1,56 @@
+name: Melmetal ex
+
+origin: scarlet-violet-black-star-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Metal
+
+hp: 300
+
+preevolution:
+  - Meltan
+
+dex: 809
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Metal-bolize
+    text: Search your deck for up to 2 Basic Metal Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Full Metal Knuckle
+    text: This attack does 30 more damage for each Metal Energy attached to this Pokémon.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

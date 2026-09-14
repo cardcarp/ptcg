@@ -1,0 +1,43 @@
+name: Pinsir
+
+origin: secret-wonders-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 127
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Grip and Squeeze
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Power Guillotine
+    text: Flip 2 coins. If either of them is tails, this attack's base damage is 10 instead of 100.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

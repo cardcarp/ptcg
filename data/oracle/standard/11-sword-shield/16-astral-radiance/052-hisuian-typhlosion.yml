@@ -1,0 +1,47 @@
+name: Hisuian Typhlosion
+
+origin: astral-radiance-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Quilava
+
+dex: 157
+
+rule:
+  - type: Ability
+    name: Supernatural Orb
+    text: You must discard a Psychic Energy card from your hand in order to use this Ability. Once during your turn, you may make your opponent's Active Pokémon Burned and Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Shadow Bind
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

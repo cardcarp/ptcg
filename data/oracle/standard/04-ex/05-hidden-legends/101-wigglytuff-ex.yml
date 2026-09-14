@@ -1,0 +1,52 @@
+name: Wigglytuff ex
+
+origin: hidden-legends-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sleepy Song
+    text: Each Defending Pokémon is now Asleep.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Do the Wave
+    text: Does 30 damage plus 10 more damage for each of your Benched Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

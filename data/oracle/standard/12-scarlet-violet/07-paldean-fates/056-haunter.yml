@@ -1,0 +1,39 @@
+name: Haunter
+
+origin: paldean-fates-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Slumber
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,50 @@
+name: Bayleef
+
+origin: mysterious-treasures-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Chikorita
+
+dex: 153
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Evolution Impulse
+    text: Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Boomerang
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

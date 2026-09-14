@@ -1,0 +1,48 @@
+name: Feraligatr
+
+origin: mysterious-treasures-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Energy Cyclone
+    text: Choose as many Energy cards from your hand as you like and show them to your opponent. This attack does 20 damage times the number of Energy cards you chose. Put those Energy cards on top of your deck. Shuffle your deck afterward.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Breaking Tail
+    text: Choose 1 card from your opponent's hand without looking and discard it.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+retreat: 2
+
+errata: []

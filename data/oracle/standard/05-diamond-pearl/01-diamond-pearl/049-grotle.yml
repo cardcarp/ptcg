@@ -1,0 +1,49 @@
+name: Grotle
+
+origin: diamond-pearl-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Turtwig
+
+dex: 388
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Synthesis
+    text: Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Cut
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

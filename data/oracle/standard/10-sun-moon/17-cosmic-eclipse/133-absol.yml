@@ -1,0 +1,46 @@
+name: Absol
+
+origin: cosmic-eclipse-133
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 359
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ominous News
+    text: Discard a Special Energy from 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dirty Throw
+    text: Discard a card from your hand. If you can't discard a card, this attack does nothing.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

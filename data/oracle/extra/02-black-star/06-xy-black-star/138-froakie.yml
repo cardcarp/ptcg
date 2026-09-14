@@ -1,0 +1,34 @@
+name: Froakie
+
+origin: xy-black-star-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 656
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Bubble
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

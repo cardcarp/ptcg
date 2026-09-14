@@ -1,0 +1,36 @@
+name: Oddish
+
+origin: ancient-origins-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 43
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

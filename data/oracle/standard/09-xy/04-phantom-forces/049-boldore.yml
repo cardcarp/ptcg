@@ -1,0 +1,44 @@
+name: Boldore
+
+origin: phantom-forces-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Roggenrola
+
+dex: 525
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Core Heal
+    text: Discard a Fighting Energy attached to this Pokémon and heal 50 damage from it.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Power Gem
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

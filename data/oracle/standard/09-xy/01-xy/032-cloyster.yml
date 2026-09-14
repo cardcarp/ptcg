@@ -1,0 +1,48 @@
+name: Cloyster
+
+origin: xy-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Shellder
+
+dex: 91
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Clamp Crush
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed and discard an Energy attached to that Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Spike Cannon
+    text: Flip 5 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

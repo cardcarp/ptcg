@@ -1,0 +1,56 @@
+name: Crawdaunt
+
+origin: deoxys-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Corphish
+
+dex: 342
+
+rule:
+  - type: Ability
+    name: Dark Protection
+    text: Any damage done to Crawdaunt by your opponent's attacks is reduced by 10 for each Darkness Energy attached to Crawdaunt (after applying Weakness and Resistance). You can't reduce more than 20 damage in this way.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bubblebeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Cross-Cut
+    text: If the Defending Pokémon is an Evolved Pokémon, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

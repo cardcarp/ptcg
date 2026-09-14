@@ -1,0 +1,46 @@
+name: Servine
+
+origin: legendary-treasures-002rc
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Snivy
+
+dex: 496
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Leaf Blade
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Vine Whip
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

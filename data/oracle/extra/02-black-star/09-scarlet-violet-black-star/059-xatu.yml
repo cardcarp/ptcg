@@ -1,0 +1,47 @@
+name: Xatu
+
+origin: scarlet-violet-black-star-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: Ability
+    name: Clairvoyant Sense
+    text: Once during your turn, you may attach a Basic Psychic Energy card from your hand to 1 of your Benched Pokémon. If you attached Energy to a Pokémon in this way, draw 2 cards.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Super Psy Bolt
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

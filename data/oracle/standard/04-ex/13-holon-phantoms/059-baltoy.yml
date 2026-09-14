@@ -1,0 +1,42 @@
+name: Baltoy
+
+origin: holon-phantoms-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Doubleslap
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

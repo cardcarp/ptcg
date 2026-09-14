@@ -1,0 +1,48 @@
+name: Malamar
+
+origin: champions-path-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Inkay
+
+dex: 687
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Eerie Wave
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 50
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Random Peck
+    text: Flip 2 coins. This attack does 40 more damage for each heads.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

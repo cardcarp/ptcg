@@ -1,0 +1,49 @@
+name: Zebstrika
+
+origin: chilling-reign-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Rapid Strike
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Coordinated Bolt
+    text: If 1 of your other Rapid Strike Pokémon used an attack during your last turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Spark Rush
+    text: Flip a coin until you get tails. This attack does 90 damage for each heads.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,35 @@
+name: Poltchageist
+
+origin: pitch-black-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 30
+
+dex: 1012
+
+rule:
+  - type: Ability
+    name: Hide 'n' Sneak
+    text: Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)
+  - type: Attack
+    cost:
+      - Colorless
+    name: Furtive Drop
+    text: Place 1 damage counter on your opponent's Active Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

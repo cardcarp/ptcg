@@ -1,0 +1,40 @@
+name: Horsea
+
+origin: shrouded-fable-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 116
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Hold Still
+    text: Heal 30 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Razor Fin
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

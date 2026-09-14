@@ -1,0 +1,55 @@
+name: Xerneas-EX
+
+origin: xy-black-star-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fairy
+
+hp: 170
+
+dex: 716
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Break Through
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+      - Colorless
+    name: X Blast
+    text: This Pokémon can't use X Blast during your next turn.
+    damage: 140
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

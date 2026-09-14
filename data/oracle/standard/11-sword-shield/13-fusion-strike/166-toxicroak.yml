@@ -1,0 +1,44 @@
+name: Toxicroak
+
+origin: fusion-strike-166
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Severe Poison
+    text: Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 4 damage counters on that Pokémon instead of 1.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Magnum Punch
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

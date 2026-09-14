@@ -1,0 +1,40 @@
+name: Impidimp
+
+origin: rebel-clash-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 859
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Beat
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Stampede
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

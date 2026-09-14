@@ -1,0 +1,41 @@
+name: Aron
+
+origin: dragons-exalted-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 304
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Take Down
+    text: This Pokémon does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

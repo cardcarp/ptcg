@@ -1,0 +1,40 @@
+name: Vanillite
+
+origin: next-destinies-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 582
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Beat
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Snow
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

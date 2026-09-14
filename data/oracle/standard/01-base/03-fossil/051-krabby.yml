@@ -1,0 +1,40 @@
+name: Krabby
+
+origin: fossil-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 98
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench if full.)
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Irongrip
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

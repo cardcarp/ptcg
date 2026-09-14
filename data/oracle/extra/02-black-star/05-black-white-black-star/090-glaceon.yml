@@ -1,0 +1,46 @@
+name: Glaceon
+
+origin: black-white-black-star-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 471
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Reflect Energy
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

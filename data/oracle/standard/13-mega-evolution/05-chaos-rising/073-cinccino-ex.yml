@@ -1,0 +1,46 @@
+name: Cinccino ex
+
+origin: chaos-rising-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 240
+
+preevolution:
+  - Minccino
+
+dex: 573
+
+rule:
+  - type: Ability
+    name: Smooth Coat
+    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energized Slap
+    text: This attack does 40 damage for each Energy attached to this Pokémon.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

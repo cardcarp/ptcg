@@ -1,0 +1,43 @@
+name: Infernape
+
+origin: scarlet-violet-black-star-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Monferno
+
+dex: 392
+
+rule:
+  - type: Ability
+    name: Pyro Dance
+    text: Once during your turn, you may attach a Basic Fire Energy card, a Basic Fighting Energy card, or 1 of each from your hand to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Scorching Fire
+    text: Discard an Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

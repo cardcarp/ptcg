@@ -1,0 +1,67 @@
+name: Sceptile ex
+
+origin: team-magma-vs-team-aqua-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Grovyle
+
+dex: 254
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Green Heal
+    text: Remove 4 damage counters from each of your Pokémon that has Grass Energy attached. If that Pokémon has less than 4 damage counters, remove all of them.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Poison Ring
+    text: The Defending Pokémon is now Poisoned. The Defending Pokémon can't retreat until the end of your opponent's next turn.
+    damage: 40
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slashing Strike
+    text: Sceptile ex can't use Slashing Strike during your next turn.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

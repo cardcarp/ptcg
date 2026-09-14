@@ -1,0 +1,44 @@
+name: Mimikyu δ
+
+origin: sword-shield-black-star-136
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 778
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Filch
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wet Claw
+    text: Put an Energy attached to your opponent's Active Pokémon into their hand.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - (This card cannot be used at official tournaments.)
+
+errata: []

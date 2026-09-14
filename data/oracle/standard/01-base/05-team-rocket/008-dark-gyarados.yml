@@ -1,0 +1,48 @@
+name: Dark Gyarados
+
+origin: team-rocket-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Ability
+    name: Final Beam
+    text: When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each Water Energy attached to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn't work if Dark Gyarados is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Ice Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

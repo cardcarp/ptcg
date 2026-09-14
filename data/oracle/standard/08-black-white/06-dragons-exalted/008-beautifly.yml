@@ -1,0 +1,45 @@
+name: Beautifly
+
+origin: dragons-exalted-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Silcoon
+
+dex: 267
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Triple Energy
+    text: Search your deck for 3 different types of basic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Drainpour
+    text: Heal 40 damage from each of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

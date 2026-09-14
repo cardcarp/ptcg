@@ -1,0 +1,43 @@
+name: Darumaka
+
+origin: obsidian-flames-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 554
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

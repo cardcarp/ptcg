@@ -1,0 +1,45 @@
+name: Poliwhirl
+
+origin: 151-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Poliwag
+
+dex: 61
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Frog Hop
+    text: Flip a coin. If heads, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Boldore
+
+origin: dragons-exalted-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Roggenrola
+
+dex: 525
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Cannon
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Earthquake
+    text: Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

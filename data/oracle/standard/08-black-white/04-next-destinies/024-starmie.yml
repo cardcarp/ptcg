@@ -1,0 +1,43 @@
+name: Starmie
+
+origin: next-destinies-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Confuse Ray
+    text: The Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Water
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 0
+
+errata: []

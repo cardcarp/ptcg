@@ -1,0 +1,40 @@
+name: Squirtle
+
+origin: platinum-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 7
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Skull Bash
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

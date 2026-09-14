@@ -1,0 +1,43 @@
+name: Masquerain
+
+origin: holon-phantoms-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Surskit
+
+dex: 284
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sweet Scent
+    text: Remove 2 damage counters from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,51 @@
+name: Lugia-EX
+
+origin: black-white-black-star-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+  - Team Plasma
+
+type:
+  - Colorless
+
+hp: 180
+
+dex: 249
+
+rule:
+  - type: Ability
+    name: Overflow
+    text: If your opponent's Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Plasma Gale
+    text: Discard a Plasma Energy attached to this Pokémon. If you can't discard a Plasma Energy, this attack does nothing.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

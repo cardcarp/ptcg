@@ -1,0 +1,47 @@
+name: Tangela
+
+origin: call-of-legends-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 114
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Nutritional Support
+    text: Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Poisonpowder
+    text: The Defending Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

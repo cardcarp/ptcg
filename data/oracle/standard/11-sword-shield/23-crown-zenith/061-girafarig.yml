@@ -1,0 +1,46 @@
+name: Girafarig
+
+origin: crown-zenith-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 203
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

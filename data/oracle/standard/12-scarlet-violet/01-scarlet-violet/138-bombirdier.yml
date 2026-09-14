@@ -1,0 +1,46 @@
+name: Bombirdier
+
+origin: scarlet-violet-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 962
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Knickknack Carrying
+    text: Search your deck for up to 3 Pokémon Tool cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Clutch
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

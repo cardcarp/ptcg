@@ -1,0 +1,49 @@
+name: Blaine's Kangaskhan
+
+origin: gym-heroes-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 115
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Child's Punch
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: One-Two Punch
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

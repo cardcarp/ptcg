@@ -1,0 +1,39 @@
+name: Clefairy
+
+origin: expedition-base-set-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 35
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Shining Fingers
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slap
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

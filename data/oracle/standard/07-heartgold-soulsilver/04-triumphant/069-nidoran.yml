@@ -1,0 +1,42 @@
+name: Nidoran ♀
+
+origin: triumphant-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 29
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Friend Search
+    text: Look at the top 5 cards of your deck, choose 1 Pokémon you find there, show it to your opponent, and put it into your hand. Shuffle the other cards back into your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Koga's Weedle
+
+origin: gym-challenge-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 13
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sting
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Sharp Stinger
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

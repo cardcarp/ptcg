@@ -1,0 +1,49 @@
+name: Single Strike Urshifu
+
+origin: chilling-reign-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Kubfu
+
+dex: 892
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Field Crush
+    text: If your opponent has a Stadium in play, discard it.
+    damage: 50
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Fists of Strife
+    text: If this Pokémon has any damage counters on it, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

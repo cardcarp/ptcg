@@ -1,0 +1,38 @@
+name: Torkoal
+
+origin: unleashed-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 324
+
+rule:
+  - type: Ability
+    name: Hot Snort
+    text: Once during your turn, when you put Torkoal from your hand onto your Bench, you may flip a coin. If heads, the Defending Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,47 @@
+name: Pawniard
+
+origin: dark-explorers-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 624
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

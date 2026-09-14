@@ -1,0 +1,49 @@
+name: Mega Darkrai ex
+
+origin: pitch-black-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Darkness
+
+hp: 280
+
+dex: 491
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Dusk Raid
+    text: If your Benched Pokémon have any damage counters on them, this attack does 110 more damage.
+    damage: 110
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Abyss Eye
+    text: If your opponent's Active Pokémon is affected by a Special Condition, it is Knocked Out.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

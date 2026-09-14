@@ -1,0 +1,51 @@
+name: Venusaur
+
+origin: supreme-victors-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Ivysaur
+
+dex: 3
+
+rule:
+  - type: Ability
+    name: Green Aroma
+    text: Remove all Special Conditions from each of your Grass Pokémon. Each of your Grass Pokémon can't be affected by any Special Conditions.
+  - type: Attack
+    cost:
+      - Grass
+    name: Desperate Pollen
+    text: If Venusaur already has 8 or more damage counters on it, the Defending Pokémon is now Burned, Confused, and Poisoned.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Special Reaction
+    text: If the Defending Pokémon is affected by any Special Conditions, this attack does 40 damage plus 40 more damage for each of those Special Conditions.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 40
+    operator: +
+
+retreat: 4
+
+errata: []

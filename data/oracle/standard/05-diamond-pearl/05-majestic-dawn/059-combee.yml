@@ -1,0 +1,45 @@
+name: Combee
+
+origin: majestic-dawn-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 415
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Honey Scent
+    text: Remove 2 damage counters from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Flitter
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

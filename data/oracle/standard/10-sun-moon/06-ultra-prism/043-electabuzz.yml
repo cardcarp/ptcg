@@ -1,0 +1,48 @@
+name: Electabuzz
+
+origin: ultra-prism-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 125
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Low Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder
+    text: This Pokémon does 30 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

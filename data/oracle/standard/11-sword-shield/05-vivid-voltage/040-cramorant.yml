@@ -1,0 +1,42 @@
+name: Cramorant
+
+origin: vivid-voltage-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 845
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Continuous Gulp Missile
+    text: Discard any number of Arrokuda from your Bench. This attack does 60 damage for each Arrokuda you discarded in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Erika's Weepinbell
+
+origin: gym-heroes-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Erika's Bellsprout
+
+dex: 70
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Drool
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Flytrap
+    text: Before doing damage, choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon. This attack can't be used if your opponent has no Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

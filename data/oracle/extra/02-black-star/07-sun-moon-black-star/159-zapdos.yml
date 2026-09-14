@@ -1,0 +1,41 @@
+name: Zapdos
+
+origin: sun-moon-black-star-159
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 145
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunderous Assault
+    text: If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 70 more damage. This attack's damage isn't affected by Weakness.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,51 @@
+name: Metang
+
+origin: legends-awakened-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Beldum
+
+dex: 375
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Metang during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Claw
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

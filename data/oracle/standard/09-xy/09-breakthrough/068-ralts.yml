@@ -1,0 +1,40 @@
+name: Ralts
+
+origin: breakthrough-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 280
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Nap
+    text: Heal 30 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smack
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

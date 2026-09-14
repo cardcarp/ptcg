@@ -1,0 +1,44 @@
+name: Wartortle
+
+origin: crystal-guardians-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Squirtle
+
+dex: 8
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Whip
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

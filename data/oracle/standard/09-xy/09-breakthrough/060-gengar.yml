@@ -1,0 +1,46 @@
+name: Gengar
+
+origin: breakthrough-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Sinister Fog
+    text: Your opponent's Active Pokémon is now Poisoned. Put 1 damage counter on each of your opponent's Benched Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Creep Show
+    text: If your opponent's Active Pokémon has 3 or more damage counters on it, that Pokémon is Knocked Out.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

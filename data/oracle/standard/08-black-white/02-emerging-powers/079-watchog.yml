@@ -1,0 +1,45 @@
+name: Watchog
+
+origin: emerging-powers-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Patrat
+
+dex: 505
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Watcheck
+    text: Look at the top 5 cards of your opponent's deck and put them back on top of his or her deck in any order.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Tail Smash
+    text: Before doing damage, you may flip a coin. If heads, this attack does 60 more damage. If tails, this attack does nothing.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

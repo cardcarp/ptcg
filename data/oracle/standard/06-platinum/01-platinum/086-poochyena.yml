@@ -1,0 +1,43 @@
+name: Poochyena
+
+origin: platinum-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 261
+
+rule:
+  - type: Attack
+    name: Howl
+    text: Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

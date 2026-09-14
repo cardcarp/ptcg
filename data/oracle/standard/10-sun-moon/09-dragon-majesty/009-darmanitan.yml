@@ -1,0 +1,46 @@
+name: Darmanitan
+
+origin: dragon-majesty-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Darumaka
+
+dex: 555
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Heat Assist
+    text: Attach up to 3 Fire Energy cards from your hand to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Darmani-Hands
+    text: Flip 4 coins. This attack does 50 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

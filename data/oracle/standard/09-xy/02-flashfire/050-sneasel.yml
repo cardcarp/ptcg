@@ -1,0 +1,45 @@
+name: Sneasel
+
+origin: flashfire-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 215
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Flash Claw
+    text: Your opponent discards a card from his or her hand.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Vaporeon
+
+origin: pop-series-3-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    text: Does 30 damage plus 20 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

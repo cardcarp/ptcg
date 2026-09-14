@@ -1,0 +1,42 @@
+name: Xerneas
+
+origin: celebrations-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 716
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Breath of Life
+    text: Search your deck for up to 3 basic Energy cards of different types and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Aurora Horns
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

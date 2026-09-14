@@ -1,0 +1,46 @@
+name: Lombre
+
+origin: platinum-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Interrupt
+    text: Flip a coin. If heads, look at your opponent's hand and choose 1 card, then have your opponent shuffle that card into his or her deck.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Gentle Slap
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

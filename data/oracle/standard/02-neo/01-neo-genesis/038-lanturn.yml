@@ -1,0 +1,42 @@
+name: Lanturn
+
+origin: neo-genesis-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: Ability
+    name: Hydroelectric Power
+    text: You may make Floodlight do 10 more damage for each Water Energy attached to Lanturn, but not used to pay for Floodlight's Energy cost. This power can't be used if Lanturn is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Floodlight
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

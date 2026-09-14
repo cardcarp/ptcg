@@ -1,0 +1,39 @@
+name: Sabrina's Abra
+
+origin: wizards-black-star-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 63
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Synchronize
+    text: This attack can't be used unless Sabrina's Abra and the Defending Pokémon have the same number of Energy cards attached to them.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+errata: []

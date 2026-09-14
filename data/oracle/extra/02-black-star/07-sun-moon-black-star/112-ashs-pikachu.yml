@@ -1,0 +1,48 @@
+name: Ash's Pikachu
+
+origin: sun-moon-black-star-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electro Ball
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

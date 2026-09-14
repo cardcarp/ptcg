@@ -1,0 +1,43 @@
+name: Maractus
+
+origin: paldean-fates-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 556
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Pin Missile
+    text: Flip 4 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

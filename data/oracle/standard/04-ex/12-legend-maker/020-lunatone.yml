@@ -1,0 +1,43 @@
+name: Lunatone
+
+origin: legend-maker-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 337
+
+rule:
+  - type: Ability
+    name: Sol Shade
+    text: As long as you have Solrock in play, each player's Fire Pokémon (excluding Pokémon-ex) can't use any Poké-Powers.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Moon Guidance
+    text: Search your deck for a Trainer card (excluding Supporter cards), show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

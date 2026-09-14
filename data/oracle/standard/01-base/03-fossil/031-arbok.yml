@@ -1,0 +1,46 @@
+name: Arbok
+
+origin: fossil-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Ekans
+
+dex: 24
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Terror Strike
+    text: Flip a coin. If heads and if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Poison Fang
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

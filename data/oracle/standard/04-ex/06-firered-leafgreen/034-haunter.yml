@@ -1,0 +1,47 @@
+name: Haunter
+
+origin: firered-leafgreen-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: Ability
+    name: Head Trip
+    text: Once during your turn (before your attack), if Haunter is on your Bench, you may use this power. One of your Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

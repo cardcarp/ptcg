@@ -1,0 +1,40 @@
+name: Beldum
+
+origin: power-keepers-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 374
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Magnetic Lines
+    text: Flip a coin. If heads, move a basic Energy card from the Defending Pokémon to another of your opponent's Pokémon. (Ignore this effect if your opponent has only 1 Pokémon.)
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

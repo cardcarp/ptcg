@@ -1,0 +1,48 @@
+name: Torterra
+
+origin: majestic-dawn-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Grotle
+
+dex: 389
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Earthquake
+    text: Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Frenzy Plant
+    text: Torterra can't use Frenzy Plant during your next turn.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+retreat: 4
+
+errata: []

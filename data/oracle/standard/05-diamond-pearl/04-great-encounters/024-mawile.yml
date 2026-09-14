@@ -1,0 +1,44 @@
+name: Mawile
+
+origin: great-encounters-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 303
+
+rule:
+  - type: Attack
+    name: Pick Out
+    text: Choose 1 face-down Prize card (yours or your opponent's) and put it face up. If that card is a Supporter card, use the effect of that card as the effect of this attack. (That card remains face up for the rest of the game.)
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Jaw Bite
+    text: During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

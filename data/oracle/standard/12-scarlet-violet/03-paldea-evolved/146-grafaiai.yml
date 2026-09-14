@@ -1,0 +1,44 @@
+name: Grafaiai
+
+origin: paldea-evolved-146
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Shroodle
+
+dex: 945
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Spit Poison
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Colorful Graffiti
+    text: You may discard as many Basic Energy cards as you like from your hand. This attack does 40 damage for each type of Basic Energy you discarded in this way.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

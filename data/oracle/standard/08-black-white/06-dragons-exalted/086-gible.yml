@@ -1,0 +1,40 @@
+name: Gible
+
+origin: dragons-exalted-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 50
+
+dex: 443
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Fighting
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

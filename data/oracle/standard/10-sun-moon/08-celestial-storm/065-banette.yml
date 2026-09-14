@@ -1,0 +1,46 @@
+name: Banette
+
+origin: celestial-storm-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: Ability
+    name: Red Eyes
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put a Basic Pokémon from your opponent's discard pile onto their Bench.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Enemy Show
+    text: For each of your opponent's Pokémon in play, put 1 damage counter on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

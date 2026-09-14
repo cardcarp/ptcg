@@ -1,0 +1,47 @@
+name: Zoroark
+
+origin: shrouded-fable-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Illusory Hijacking
+    text: This attack does 60 damage for each of your opponent's Pokémon ex and Pokémon V in play.
+    damage: 60
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 110
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Makuhita
+
+origin: ruby-sapphire-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 296
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fling
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Low Kick
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

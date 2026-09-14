@@ -1,0 +1,40 @@
+name: Binacle
+
+origin: mega-evolution-black-star-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 688
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

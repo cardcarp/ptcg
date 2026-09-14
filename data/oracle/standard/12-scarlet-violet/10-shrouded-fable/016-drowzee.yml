@@ -1,0 +1,40 @@
+name: Drowzee
+
+origin: shrouded-fable-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 96
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Eerie Gaze
+    text: Your opponent reveals their hand.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

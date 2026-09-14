@@ -1,0 +1,48 @@
+name: Dragonair
+
+origin: legends-awakened-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wrap
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Colorless
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

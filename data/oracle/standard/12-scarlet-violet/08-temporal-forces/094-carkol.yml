@@ -1,0 +1,47 @@
+name: Carkol
+
+origin: temporal-forces-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Rolycoly
+
+dex: 838
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boulder Crush
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

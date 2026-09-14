@@ -1,0 +1,39 @@
+name: Lombre
+
+origin: phantasmal-flames-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Mega Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,50 @@
+name: Forretress
+
+origin: skyridge-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Pineco
+
+dex: 205
+
+rule:
+  - type: Ability
+    name: Exoskeleton
+    text: All damage done by attacks to Forretress is reduced by 10 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Shell Rupture
+    text: This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

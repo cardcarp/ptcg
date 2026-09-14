@@ -1,0 +1,43 @@
+name: Cinccino
+
+origin: fates-collide-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Minccino
+
+dex: 573
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Covet
+    text: Your opponent reveals his or her hand. Choose a card you find there and put it on the bottom of your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Last Resort
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

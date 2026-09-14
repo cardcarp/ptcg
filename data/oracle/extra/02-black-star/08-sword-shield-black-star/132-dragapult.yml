@@ -1,0 +1,50 @@
+name: Dragapult
+
+origin: sword-shield-black-star-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Prime
+
+type:
+  - Psychic
+
+hp: 150
+
+dex: 887
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mach Turn
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 60
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Diving Swipe
+    text: Discard a random card from your opponent's hand.
+    damage: 150
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - (This card cannot be used at official tournaments.)
+
+errata: []

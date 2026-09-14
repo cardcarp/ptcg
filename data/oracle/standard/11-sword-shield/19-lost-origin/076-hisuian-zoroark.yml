@@ -1,0 +1,45 @@
+name: Hisuian Zoroark
+
+origin: lost-origin-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Hisuian Zorua
+
+dex: 571
+
+rule:
+  - type: Attack
+    name: Doom Curse
+    text: At the end of your opponent's next turn, the Defending Pokémon will be Knocked Out.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Call Back
+    text: Put a card from your discard pile into your hand.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

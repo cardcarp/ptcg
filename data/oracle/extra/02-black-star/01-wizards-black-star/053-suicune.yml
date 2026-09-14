@@ -1,0 +1,41 @@
+name: Suicune
+
+origin: wizards-black-star-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 245
+
+rule:
+  - type: Ability
+    name: Pure Body
+    text: To attach a Water Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the Water Energy, and then discard an Energy card from Suicune.)
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hypno Wave
+    text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

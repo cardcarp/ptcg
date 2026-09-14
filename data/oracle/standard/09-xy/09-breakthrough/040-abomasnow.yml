@@ -1,0 +1,48 @@
+name: Abomasnow
+
+origin: breakthrough-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Snover
+
+dex: 460
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Ice Age
+    text: If your opponent's Active Pokémon is a Dragon Pokémon, it is now Paralyzed.
+    damage: 80
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Breath
+    damage: 110
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

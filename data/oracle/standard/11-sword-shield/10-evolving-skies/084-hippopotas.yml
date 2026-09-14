@@ -1,0 +1,42 @@
+name: Hippopotas
+
+origin: evolving-skies-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 449
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Tackle
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mud Shot
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

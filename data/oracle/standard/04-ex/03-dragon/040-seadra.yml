@@ -1,0 +1,46 @@
+name: Seadra
+
+origin: dragon-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Horsea
+
+dex: 117
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Seadra during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Waterfall
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,36 @@
+name: Relicanth
+
+origin: pitch-black-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 369
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fossil Beatdown
+    text: This attack does 30 more damage for each of your Benched Pokémon that has "Antique" in its name.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

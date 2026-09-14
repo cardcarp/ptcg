@@ -1,0 +1,45 @@
+name: Kangaskhan
+
+origin: triumphant-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 115
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Split Spiral Punch
+    text: The Defending Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dizzy Punch
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

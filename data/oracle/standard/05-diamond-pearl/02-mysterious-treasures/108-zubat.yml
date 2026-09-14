@@ -1,0 +1,45 @@
+name: Zubat
+
+origin: mysterious-treasures-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 41
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Croconaw
+
+origin: heartgold-soulsilver-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Big Bite
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

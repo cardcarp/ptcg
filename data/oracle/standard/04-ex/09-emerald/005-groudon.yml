@@ -1,0 +1,42 @@
+name: Groudon
+
+origin: emerald-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Slash
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Tumble
+    text: This attack's damage isn't affected by Resistance.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

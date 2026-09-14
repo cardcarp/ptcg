@@ -1,0 +1,52 @@
+name: Team Aqua's Manectric
+
+origin: team-magma-vs-team-aqua-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Team Aqua's Electrike
+
+dex: 310
+
+rule:
+  - type: Ability
+    name: Power Shift
+    text: Once during your turn (before your attack), you may move any number of basic Energy cards attached to 1 of your Pokémon with Team Aqua in its name to another of your Pokémon. This power can't be used if Team Aqua's Manectric is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunderspark
+    text: Does 10 damage to each Benched Pokémon (both yours and your opponent's) that has Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Lightning Darkness type.
+
+errata: []

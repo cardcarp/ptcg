@@ -1,0 +1,47 @@
+name: Swalot
+
+origin: celestial-storm-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Gulpin
+
+dex: 317
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Amnesia
+    text: Choose 1 of your opponent's Active Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Swallow Up
+    text: If, before doing damage, your opponent's Active Pokémon has less remaining HP than this Pokémon, this attack does 80 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,41 @@
+name: Deino
+
+origin: dragons-exalted-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 633
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Deep Growl
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Power Breath
+    text: Discard an Energy attached to this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,44 @@
+name: Weavile
+
+origin: undaunted-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: Ability
+    name: Claw Snag
+    text: Once during your turn, when you play Weavile from your hand to evolve 1 of your Pokémon, you may look at your opponent's hand. Choose a card from your opponent's hand and discard it.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+errata: []

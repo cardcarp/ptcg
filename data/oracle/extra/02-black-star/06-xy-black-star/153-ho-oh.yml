@@ -1,0 +1,47 @@
+name: Ho-Oh
+
+origin: xy-black-star-153
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 250
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stoke
+    text: Flip a coin. If heads, search your deck for up to 2 Fire Energy cards and attach them to this Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Wing
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

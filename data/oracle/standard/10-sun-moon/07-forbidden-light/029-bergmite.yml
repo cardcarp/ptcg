@@ -1,0 +1,35 @@
+name: Bergmite
+
+origin: forbidden-light-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 712
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Break Open
+    text: If your opponent has a Stadium card in play, discard it. If you do, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

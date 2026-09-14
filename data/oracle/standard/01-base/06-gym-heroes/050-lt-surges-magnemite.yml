@@ -1,0 +1,40 @@
+name: Lt. Surge's Magnemite
+
+origin: gym-heroes-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 30
+
+dex: 81
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Removal Pulse
+    text: If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it.
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Confusion Pulse
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

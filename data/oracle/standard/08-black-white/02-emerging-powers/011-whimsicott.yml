@@ -1,0 +1,46 @@
+name: Whimsicott
+
+origin: emerging-powers-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Helping Hand
+    text: Search your deck for a basic Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+    name: Cotton Guard
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+errata: []

@@ -1,0 +1,45 @@
+name: Araquanid
+
+origin: unified-minds-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Dewpider
+
+dex: 752
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tangle Drag
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Sticky Web
+    text: During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

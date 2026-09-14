@@ -1,0 +1,38 @@
+name: Lampent
+
+origin: unified-minds-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Fireworks
+    text: Discard an Energy from this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

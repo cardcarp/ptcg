@@ -1,0 +1,46 @@
+name: Klink
+
+origin: mcdonalds-collection-2011-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 599
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Charge Beam
+    text: Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Irongrip
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

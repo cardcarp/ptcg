@@ -1,0 +1,39 @@
+name: Qwilfish
+
+origin: secret-wonders-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 211
+
+rule:
+  - type: Ability
+    name: Balloon Sting
+    text: Once during your opponent's turn, if Qwilfish is your Active Pokémon and is damage by an attack (even if Qwilfish is Knocked Out), you may flip a coin. If heads, the Attacking Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Nerve Shot
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

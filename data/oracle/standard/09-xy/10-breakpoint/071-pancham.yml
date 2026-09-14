@@ -1,0 +1,40 @@
+name: Pancham
+
+origin: breakpoint-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 674
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Confront
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

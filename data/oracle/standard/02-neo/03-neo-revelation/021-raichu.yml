@@ -1,0 +1,47 @@
+name: Raichu
+
+origin: neo-revelation-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Lightning Strike
+    text: You may discard all Lightning Energy cards attached to Raichu. If you do, this attack does 80 damage.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

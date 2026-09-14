@@ -1,0 +1,36 @@
+name: Noibat
+
+origin: unified-minds-158
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 714
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Darkness
+    name: Air Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

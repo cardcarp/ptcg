@@ -1,0 +1,43 @@
+name: Roserade GL
+
+origin: rising-rivals-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 407
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Poison Bind
+    text: The Defending Pokémon is now Poisoned and can't retreat during your opponent's next turn.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Long Whip
+    text: If the Defending Pokémon is affected by any Special Conditions, you may do 30 damage to any 1 Benched Pokémon instead. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

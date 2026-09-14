@@ -1,0 +1,35 @@
+name: Croagunk
+
+origin: ultra-prism-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 453
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Swagger
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

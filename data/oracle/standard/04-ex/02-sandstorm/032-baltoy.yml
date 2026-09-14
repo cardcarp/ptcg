@@ -1,0 +1,35 @@
+name: Baltoy
+
+origin: sandstorm-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rapid Spin
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Baltoy with 1 of your Benched Pokémon, if any.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

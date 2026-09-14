@@ -1,0 +1,44 @@
+name: Mawile
+
+origin: scarlet-violet-black-star-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 303
+
+rule:
+  - type: Ability
+    name: Special Eater
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Special Energy from your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

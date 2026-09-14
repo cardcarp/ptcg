@@ -1,0 +1,52 @@
+name: Sceptile
+
+origin: arceus-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Grovyle
+
+dex: 254
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Leaf Supply
+    text: You may attach a basic Energy card from your hand to 1 of your Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Dual Cut
+    text: Flip 2 coins. This attack does 70 damage times the number of heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

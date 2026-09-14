@@ -1,0 +1,43 @@
+name: Exeggcute
+
+origin: firered-leafgreen-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 102
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psybeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

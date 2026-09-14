@@ -1,0 +1,42 @@
+name: Vibrava
+
+origin: dragon-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Trapinch
+
+dex: 329
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Dive
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Quick Turn
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+retreat: 1
+
+errata: []

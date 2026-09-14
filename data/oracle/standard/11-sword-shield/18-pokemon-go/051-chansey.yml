@@ -1,0 +1,40 @@
+name: Chansey
+
+origin: pokemon-go-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 113
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Delicious Egg
+    text: Heal 30 damage from 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gentle Slap
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

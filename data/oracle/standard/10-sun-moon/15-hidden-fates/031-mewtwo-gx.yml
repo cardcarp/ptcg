@@ -1,0 +1,48 @@
+name: Mewtwo-GX
+
+origin: hidden-fates-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 110
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psycrush-GX
+    text: Discard all Energy from your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,45 @@
+name: Togekiss VMAX
+
+origin: vivid-voltage-141
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Colorless
+
+hp: 310
+
+preevolution:
+  - Togekiss V
+
+dex: 468
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Max Glide
+    text: You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

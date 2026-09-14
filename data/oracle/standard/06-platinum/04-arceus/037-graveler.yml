@@ -1,0 +1,51 @@
+name: Graveler
+
+origin: arceus-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Geodude
+
+dex: 75
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Double-edge
+    text: Graveler does 10 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

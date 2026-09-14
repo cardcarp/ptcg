@@ -1,0 +1,46 @@
+name: Electrike
+
+origin: crystal-guardians-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 309
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sniff Out
+    text: Put any 1 card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Quick Blow
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

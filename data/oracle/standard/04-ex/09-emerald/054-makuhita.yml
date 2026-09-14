@@ -1,0 +1,36 @@
+name: Makuhita
+
+origin: emerald-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 296
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Cross Chop
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

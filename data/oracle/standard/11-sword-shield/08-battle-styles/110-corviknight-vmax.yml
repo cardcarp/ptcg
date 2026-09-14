@@ -1,0 +1,49 @@
+name: Corviknight VMAX
+
+origin: battle-styles-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Metal
+
+hp: 320
+
+preevolution:
+  - Corviknight V
+
+dex: 823
+
+rule:
+  - type: Ability
+    name: Lustrous Body
+    text: Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: G-Max Hurricane
+    text: During your next turn, this Pokémon can't use G-Max Hurricane.
+    damage: 240
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

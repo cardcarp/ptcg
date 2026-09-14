@@ -1,0 +1,42 @@
+name: Spearow
+
+origin: 151-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 21
+
+rule:
+  - type: Ability
+    name: Evolutionary Advantage
+    text: If you go second, this Pokémon can evolve during your first turn.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Speed Dive
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

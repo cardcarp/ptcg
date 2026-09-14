@@ -1,0 +1,43 @@
+name: Espeon
+
+origin: majestic-dawn-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: Ability
+    name: Sunlight Veil
+    text: Each of your Pokémon that evolves from Eevee gets +20 HP. You can't use more than 1 Sunlight Veil Poké-Body each turn.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Morning Sun
+    text: You may move an Energy card attached to Espeon to 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

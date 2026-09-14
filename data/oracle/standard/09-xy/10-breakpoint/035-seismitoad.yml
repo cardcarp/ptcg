@@ -1,0 +1,46 @@
+name: Seismitoad
+
+origin: breakpoint-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Palpitoad
+
+dex: 537
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Siphon Off
+    text: Attach 3 Energy cards from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Shaky Fall
+    text: Your opponent's Active Pokémon is now Confused. That Pokémon can't retreat during your opponent's next turn.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

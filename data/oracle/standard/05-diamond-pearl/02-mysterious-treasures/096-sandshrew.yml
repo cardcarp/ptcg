@@ -1,0 +1,45 @@
+name: Sandshrew
+
+origin: mysterious-treasures-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 27
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sand Attack
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

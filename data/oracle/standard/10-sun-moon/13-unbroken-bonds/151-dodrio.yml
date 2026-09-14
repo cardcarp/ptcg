@@ -1,0 +1,50 @@
+name: Dodrio
+
+origin: unbroken-bonds-151
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Doduo
+
+dex: 85
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tri Attack
+    text: Flip 3 coins. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Accelerating Stab
+    text: This Pokémon can't use Accelerating Stab during your next turn.
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

@@ -1,0 +1,46 @@
+name: Alolan Dugtrio
+
+origin: unbroken-bonds-122
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Alolan Diglett
+
+dex: 51
+
+rule:
+  - type: Ability
+    name: Hair Wall
+    text: Your Metal Pokémon take 10 less damage from your opponent's attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Hammer In
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Talonflame
+
+origin: xy-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Fletchinder
+
+dex: 663
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Devastating Wind
+    text: Your opponent shuffles his or her hand into his or her deck and draws 4 cards.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare Blitz
+    text: Discard all Fire Energy attached to this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

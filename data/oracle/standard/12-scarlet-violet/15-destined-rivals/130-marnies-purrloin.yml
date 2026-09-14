@@ -1,0 +1,36 @@
+name: Marnie's Purrloin
+
+origin: destined-rivals-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 509
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Pointy Nails
+    text: If your opponent's Active Pokémon is a Pokémon ex, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Snubbull
+
+origin: fates-collide-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 209
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Ruckus
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

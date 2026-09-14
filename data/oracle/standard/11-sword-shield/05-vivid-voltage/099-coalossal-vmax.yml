@@ -1,0 +1,50 @@
+name: Coalossal VMAX
+
+origin: vivid-voltage-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Fighting
+
+hp: 330
+
+preevolution:
+  - Coalossal V
+
+dex: 839
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Eruption Shot
+    text: Discard the top card of your deck. If that card is an Energy card, this attack does 90 more damage, and attach that card to this Pokémon.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: G-Max Boulder
+    damage: 240
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

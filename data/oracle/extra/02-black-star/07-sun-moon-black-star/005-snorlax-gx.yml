@@ -1,0 +1,61 @@
+name: Snorlax-GX
+
+origin: sun-moon-black-star-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Colorless
+
+hp: 190
+
+dex: 143
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Collapse
+    text: This Pokémon is now Asleep.
+    damage: 80
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Thunderous Snore
+    text: This attack can be used if this Pokémon is Asleep. If it is not Asleep, this attack does nothing.
+    damage: 180
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Pulverizing Pancake-GX
+    text: This Pokémon is now Asleep. (You can't use more than 1 GX attack in a game.)
+    damage: 210
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

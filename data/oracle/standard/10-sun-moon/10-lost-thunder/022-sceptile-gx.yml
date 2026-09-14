@@ -1,0 +1,54 @@
+name: Sceptile-GX
+
+origin: lost-thunder-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - GX
+
+type:
+  - Grass
+
+hp: 230
+
+preevolution:
+  - Grovyle
+
+dex: 254
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Mach Cut
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 60
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Leaf Cyclone
+    text: Move a Grass Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 130
+  - type: Attack
+    cost:
+      - Grass
+    name: Jungle Heal-GX
+    text: Heal all damage from each of your Pokémon that has any Grass Energy attached to it. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

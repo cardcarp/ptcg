@@ -1,0 +1,43 @@
+name: Rhyhorn
+
+origin: 151-111
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 111
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Push Down
+    text: Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Boulder Crush
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

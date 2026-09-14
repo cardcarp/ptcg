@@ -1,0 +1,44 @@
+name: Zweilous
+
+origin: dragons-exalted-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 90
+
+preevolution:
+  - Deino
+
+dex: 634
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Draw In
+    text: Attach 2 Darkness Energy cards from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Darkness
+      - Colorless
+    name: Dragon Headbutt
+    damage: 40
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,40 @@
+name: Jynx
+
+origin: team-up-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 124
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dazzle Dance
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Mysterious Dance
+    text: For each of your opponent's Benched Pokémon, put 1 damage counter on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

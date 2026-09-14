@@ -1,0 +1,45 @@
+name: Cloyster
+
+origin: breakpoint-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Shellder
+
+dex: 91
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Sudden Grip
+    text: If this Pokémon evolved from Shellder during this turn, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

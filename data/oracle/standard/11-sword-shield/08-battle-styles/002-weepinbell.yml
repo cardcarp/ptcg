@@ -1,0 +1,42 @@
+name: Weepinbell
+
+origin: battle-styles-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Bellsprout
+
+dex: 70
+
+rule:
+  - type: Ability
+    name: Dangerous Mucus
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make your opponent's Active Pokémon Burned and Poisoned.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Vine Whip
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

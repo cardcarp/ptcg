@@ -1,0 +1,46 @@
+name: Jolteon
+
+origin: black-white-black-star-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Electrigun
+    text: You may discard a Lightning Energy attached to this Pokémon. If you do, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Pin Missile
+    text: Flip 4 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

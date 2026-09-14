@@ -1,0 +1,47 @@
+name: Diancie
+
+origin: phantom-forces-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 90
+
+dex: 719
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Sparkle
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Diamond Storm
+    text: Heal 30 damage from each of your Fairy Pokémon.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

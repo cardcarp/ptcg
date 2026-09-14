@@ -1,0 +1,48 @@
+name: Seadra δ
+
+origin: dragon-frontiers-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Horsea
+
+dex: 117
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Ram
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Extra Ball
+    text: If the Defending Pokémon is a Pokémon-ex, this attack does 30 damage plus 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

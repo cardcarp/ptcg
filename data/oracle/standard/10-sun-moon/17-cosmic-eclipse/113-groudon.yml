@@ -1,0 +1,42 @@
+name: Groudon
+
+origin: cosmic-eclipse-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Drought
+    text: Attach up to 2 Fighting Energy cards from your hand to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Trembling Ground
+    text: This Pokémon can't use Trembling Ground during your next turn.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

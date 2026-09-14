@@ -1,0 +1,44 @@
+name: Blissey
+
+origin: fusion-strike-203
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Chansey
+
+dex: 242
+
+rule:
+  - type: Ability
+    name: Expert in Roundness
+    text: Prevent all damage done to each of your Pokémon that has the Let's All Rollout attack by attacks from your opponent's Pokémon VMAX.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Let's All Rollout
+    text: This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

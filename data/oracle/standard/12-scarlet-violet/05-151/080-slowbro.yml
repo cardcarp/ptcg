@@ -1,0 +1,50 @@
+name: Slowbro
+
+origin: 151-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Big Yawn
+    text: Both Active Pokémon are now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Laid-Back Tackle
+    text: If this Pokémon evolved during this turn, this attack does nothing.
+    damage: 160
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

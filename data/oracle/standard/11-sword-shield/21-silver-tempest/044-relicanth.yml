@@ -1,0 +1,41 @@
+name: Relicanth
+
+origin: silver-tempest-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 369
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fossil Finding
+    text: Shuffle up to 4 in any combination of Unidentified Fossil and Rare Fossil cards from your discard pile into your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

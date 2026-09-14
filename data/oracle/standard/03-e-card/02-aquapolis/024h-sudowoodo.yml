@@ -1,0 +1,39 @@
+name: Sudowoodo
+
+origin: aquapolis-024h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 185
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Copy
+    text: Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Sudowoodo doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack.)
+  - type: Attack
+    cost:
+      - Fighting
+    name: Energy Draw
+    text: Search your deck for a basic Energy card and attach it to Sudowoodo. Shuffle your deck afterward.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

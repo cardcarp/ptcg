@@ -1,0 +1,40 @@
+name: Magnemite
+
+origin: plasma-storm-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 81
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Metal Sound
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,39 @@
+name: Magikarp
+
+origin: crimson-invasion-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: Ability
+    name: Submerge
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Waterfall Evolution
+    text: Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

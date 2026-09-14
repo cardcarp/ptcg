@@ -1,0 +1,45 @@
+name: Maushold
+
+origin: paldea-evolved-168
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Tandemaus
+
+dex: 925
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gentle Slap
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gnaw Relentlessly
+    text: Put 1 damage counter on each of your opponent's Pokémon for each of your Maushold in play.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

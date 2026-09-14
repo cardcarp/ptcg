@@ -1,0 +1,38 @@
+name: Ditto
+
+origin: xy-black-star-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 132
+
+rule:
+  - type: Ability
+    name: Metamorphosis Gene
+    text: If this Pokémon is your Active Pokémon, it can use the attacks of your opponent's Active Pokémon. (You still need the necessary Energy to use each attack.)
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stick On
+    text: Attach a basic Energy card from your discard pile to this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

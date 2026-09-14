@@ -1,0 +1,44 @@
+name: Duskull
+
+origin: flashfire-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 355
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Revival
+    text: Put a Basic Pokémon from your opponent's discard pile onto his or her Bench.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Sneaky Placement
+    text: Put 1 damage counter on your opponent's Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

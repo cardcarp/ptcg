@@ -1,0 +1,40 @@
+name: Shinx
+
+origin: supreme-victors-126
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 403
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

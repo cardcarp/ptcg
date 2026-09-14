@@ -1,0 +1,43 @@
+name: Falinks
+
+origin: fusion-strike-154
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 870
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Headbutt
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Cliff Edge Formation
+    text: If your opponent has exactly 1 Prize card remaining, this attack does 160 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

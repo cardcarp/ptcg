@@ -1,0 +1,40 @@
+name: Holon's Electrode
+
+origin: delta-species-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Holon's Voltorb
+
+dex: 101
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Dazzle Blast
+    text: The Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - You may attach this as an Energy card from your hand to 1 of your Pokémon that already has an Energy card attached to it. When you attach this card, return an Energy card attached to that Pokémon to your hand. While attached, this card is a Special Energy card and provides every type of Energy but 2 Energy at a time. (Has no effect other than providing Energy.)
+
+errata: []

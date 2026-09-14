@@ -1,0 +1,44 @@
+name: Toxicroak
+
+origin: silver-tempest-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Pierce
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Diving Uppercut
+    text: During your opponent's next turn, this Pokémon takes 50 more damage from attacks (after applying Weakness and Resistance).
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

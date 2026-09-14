@@ -1,0 +1,52 @@
+name: Scrafty
+
+origin: shining-legends-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dangerous Head
+    text: If your opponent's Active Pokémon is a Basic Pokémon, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

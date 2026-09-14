@@ -1,0 +1,47 @@
+name: Brock's Diglett
+
+origin: gym-challenge-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 50
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Tremor
+    text: Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

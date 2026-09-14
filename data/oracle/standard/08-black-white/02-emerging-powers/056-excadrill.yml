@@ -1,0 +1,50 @@
+name: Excadrill
+
+origin: emerging-powers-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Metal Claw
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Drill Run
+    text: Discard an Energy attached to the Defending Pokémon.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

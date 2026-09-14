@@ -1,0 +1,41 @@
+name: Team Magma's Rhyhorn
+
+origin: team-magma-vs-team-aqua-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 111
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Knock Over
+    text: You may discard any Stadium card in play.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Dhelmise
+
+origin: sun-moon-black-star-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 781
+
+rule:
+  - type: Ability
+    name: Steelworker
+    text: Your Metal Pokémon's attacks do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Anchor Shot
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

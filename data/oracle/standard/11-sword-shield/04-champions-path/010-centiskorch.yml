@@ -1,0 +1,48 @@
+name: Centiskorch
+
+origin: champions-path-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Sizzlipede
+
+dex: 851
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Crawler
+    damage: 140
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,37 @@
+name: Alolan Vulpix
+
+origin: ultra-prism-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: Attack
+    name: Roar
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  - type: Attack
+    cost:
+      - Water
+    name: Icy Snow
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

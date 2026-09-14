@@ -1,0 +1,54 @@
+name: Tornadus-EX
+
+origin: black-white-black-star-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Colorless
+
+hp: 170
+
+dex: 641
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Blow Through
+    text: If there is any Stadium card in play, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Blast
+    text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

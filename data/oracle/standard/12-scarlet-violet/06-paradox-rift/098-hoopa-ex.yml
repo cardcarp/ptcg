@@ -1,0 +1,51 @@
+name: Hoopa ex
+
+origin: paradox-rift-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Fighting
+
+hp: 220
+
+dex: 720
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Energy Crush
+    text: This attack does 50 damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Bandit's Fist
+    text: During your next turn, this Pokémon can't use Bandit's Fist.
+    damage: 200
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

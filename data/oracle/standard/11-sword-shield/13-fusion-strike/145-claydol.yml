@@ -1,0 +1,45 @@
+name: Claydol
+
+origin: fusion-strike-145
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rapid Spin
+    text: Switch this Pokémon with 1 of your Benched Pokémon. If you do, your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Ancient Imprint
+    text: Put damage counters on your opponent's Active Pokémon until its remaining HP is 60.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

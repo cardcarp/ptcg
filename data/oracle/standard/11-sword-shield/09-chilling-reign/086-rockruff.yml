@@ -1,0 +1,37 @@
+name: Rockruff
+
+origin: chilling-reign-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 744
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

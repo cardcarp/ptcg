@@ -1,0 +1,48 @@
+name: Electivire
+
+origin: temporal-forces-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Electabuzz
+
+dex: 466
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Short-Circuit Knuckle
+    text: If your opponent has any Water Pokémon in play, this attack does 120 more damage.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electroslug
+    damage: 140
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

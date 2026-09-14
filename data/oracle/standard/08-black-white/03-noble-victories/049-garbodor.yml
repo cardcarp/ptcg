@@ -1,0 +1,47 @@
+name: Garbodor
+
+origin: noble-victories-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Gentle Wrap
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Gunk Shot
+    text: The Defending Pokémon is now Poisoned.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,40 @@
+name: Mudkip
+
+origin: xy-black-star-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 258
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Mud-Slap
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

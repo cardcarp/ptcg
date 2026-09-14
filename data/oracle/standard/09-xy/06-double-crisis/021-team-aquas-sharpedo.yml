@@ -1,0 +1,40 @@
+name: Team Aqua's Sharpedo
+
+origin: double-crisis-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Team Aqua's Carvanha
+
+dex: 319
+
+rule:
+  - type: Ability
+    name: Aqua Search
+    text: Once during your turn (before your attack), you may search your deck for a Team Aqua Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

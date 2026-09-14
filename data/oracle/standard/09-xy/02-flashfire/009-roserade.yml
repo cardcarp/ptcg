@@ -1,0 +1,45 @@
+name: Roserade
+
+origin: flashfire-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Roselia
+
+dex: 407
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Whiplash
+    text: Flip a coin until you get tails. For each heads, discard an Energy attached to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Mega Drain
+    text: Heal 20 damage from this Pokémon.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Starmie
+
+origin: rising-rivals-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: Ability
+    name: Aqua Recycle
+    text: Once during your turn (before your attack), you may search your discard pile for a Water Energy card, show it to your opponent, and put it into your hand. This power can't be used if Starmie is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Synchro Gain
+    text: If Starmie and the Defending Pokémon have the same amount of Energy attached to them, remove 4 damage counters from Starmie.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+    name: Powerful Spin
+    text: Starmie can't attack during your next turn.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+errata: []

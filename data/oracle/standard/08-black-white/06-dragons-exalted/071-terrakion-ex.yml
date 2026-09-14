@@ -1,0 +1,48 @@
+name: Terrakion-EX
+
+origin: dragons-exalted-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fighting
+
+hp: 180
+
+dex: 639
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Tumble
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Pump-up Smash
+    text: Attach 2 basic Energy cards from your hand to your Benched Pokémon in any way you like.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

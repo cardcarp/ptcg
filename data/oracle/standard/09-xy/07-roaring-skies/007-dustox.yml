@@ -1,0 +1,48 @@
+name: Dustox
+
+origin: roaring-skies-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Cascoon
+
+dex: 269
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Twilight Poison
+    text: Your opponent's Active Pokémon is now Asleep and Poisoned.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

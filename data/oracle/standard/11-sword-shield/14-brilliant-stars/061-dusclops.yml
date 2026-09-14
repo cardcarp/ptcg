@@ -1,0 +1,43 @@
+name: Dusclops
+
+origin: brilliant-stars-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Duskull
+
+dex: 356
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Fade to Black
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

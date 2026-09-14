@@ -1,0 +1,36 @@
+name: Jigglypuff
+
+origin: heartgold-soulsilver-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 39
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hypnoblast
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

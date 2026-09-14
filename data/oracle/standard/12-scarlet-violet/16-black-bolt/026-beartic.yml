@@ -1,0 +1,48 @@
+name: Beartic
+
+origin: black-bolt-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Cubchoo
+
+dex: 614
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Continuous Headbutt
+    text: Flip a coin until you get tails. This attack does 50 damage for each heads.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Sheer Cold
+    text: During your opponent's next turn, the Defending Pokémon can't use attacks.
+    damage: 150
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

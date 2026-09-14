@@ -1,0 +1,42 @@
+name: Regieleki
+
+origin: evolving-skies-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 894
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Static Shock
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Teraspark
+    text: Discard all Lightning Energy from this Pokémon. This attack also does 40 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

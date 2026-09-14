@@ -1,0 +1,46 @@
+name: Excadrill
+
+origin: surging-sparks-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Digging Claw
+    text: Discard the top card of your opponent's deck.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Drill Smash
+    text: If you have any Metal Pokémon on your Bench, this attack does 80 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

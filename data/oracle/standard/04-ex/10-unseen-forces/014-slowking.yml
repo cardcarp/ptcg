@@ -1,0 +1,43 @@
+name: Slowking
+
+origin: unseen-forces-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: Ability
+    name: Item Search
+    text: Once during your turn (before your attack), you may search your deck for a Pokémon Tool card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Slowking is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Aftermath
+    text: Does 20 damage plus 10 more damage for each Pokémon Tool card in your discard pile. You can't add more than 60 damage in this way.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

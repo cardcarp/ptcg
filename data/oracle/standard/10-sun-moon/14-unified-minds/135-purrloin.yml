@@ -1,0 +1,39 @@
+name: Purrloin
+
+origin: unified-minds-135
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 509
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cleaning Up
+    text: Discard a Pokémon Tool card from 1 of your opponent's Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Blacephalon
+
+origin: sun-moon-black-star-221
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 806
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Fireworks Bomb
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like. If your opponent has exactly 3 Prize cards remaining, put 12 damage counters on them instead.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

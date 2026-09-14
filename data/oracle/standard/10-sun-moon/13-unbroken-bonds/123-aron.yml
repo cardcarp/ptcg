@@ -1,0 +1,45 @@
+name: Aron
+
+origin: unbroken-bonds-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 304
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Rigidify
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

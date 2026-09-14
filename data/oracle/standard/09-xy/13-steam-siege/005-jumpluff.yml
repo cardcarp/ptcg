@@ -1,0 +1,44 @@
+name: Jumpluff
+
+origin: steam-siege-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Skiploom
+
+dex: 189
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fluffy Transport
+    text: Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+    name: Solar Step
+    text: This attack does 20 damage times the number of your remaining Prize cards.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

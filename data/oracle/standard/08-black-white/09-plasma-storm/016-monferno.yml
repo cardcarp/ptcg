@@ -1,0 +1,44 @@
+name: Monferno
+
+origin: plasma-storm-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Chimchar
+
+dex: 391
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Loud Howl
+    text: Your opponent Switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Tail Slap
+    text: Discard an Energy attached to this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

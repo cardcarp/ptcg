@@ -1,0 +1,39 @@
+name: Drowzee
+
+origin: team-rocket-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 96
+
+rule:
+  - type: Ability
+    name: Long-Distance Hypnosis
+    text: Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Asleep; if tails, your Active Pokémon is now Asleep. This power can't be used if Drowzee is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Nightmare
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

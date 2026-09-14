@@ -1,0 +1,49 @@
+name: Hariyama
+
+origin: undaunted-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Makuhita
+
+dex: 297
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 60
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Backward Belt Throw
+    text: You may do 80 damage plus 20 more damage. If you do, Hariyama does 20 damage to itself.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

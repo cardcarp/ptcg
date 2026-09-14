@@ -1,0 +1,45 @@
+name: Celebi VMAX
+
+origin: chilling-reign-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Grass
+
+hp: 310
+
+preevolution:
+  - Celebi V
+
+dex: 251
+
+rule:
+  - type: Ability
+    name: Curative Forest
+    text: Once during your turn, you may heal 20 damage from each of your Grass Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Max Plant
+    text: Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

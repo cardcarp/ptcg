@@ -1,0 +1,37 @@
+name: Vanillite
+
+origin: plasma-freeze-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 582
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jump On
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

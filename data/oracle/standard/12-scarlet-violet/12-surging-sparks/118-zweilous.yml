@@ -1,0 +1,44 @@
+name: Zweilous
+
+origin: surging-sparks-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Deino
+
+dex: 634
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Stomp Off
+    text: Discard the top 2 cards of your opponent's deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Darkness Fang
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

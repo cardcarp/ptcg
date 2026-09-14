@@ -1,0 +1,43 @@
+name: Alolan Geodude
+
+origin: crimson-invasion-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 74
+
+rule:
+  - type: Attack
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

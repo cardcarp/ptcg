@@ -1,0 +1,39 @@
+name: Drizzile
+
+origin: mega-evolution-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Sobble
+
+dex: 817
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Double Stab
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

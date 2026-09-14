@@ -1,0 +1,41 @@
+name: Salandit
+
+origin: sun-moon-black-star-154
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 757
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Smog
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    text: Discard an Energy from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

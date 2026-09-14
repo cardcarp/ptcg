@@ -1,0 +1,52 @@
+name: Gardevoir-EX
+
+origin: primal-clash-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fairy
+
+hp: 170
+
+dex: 282
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Life Leap
+    text: Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Fairy
+    name: Shining Wind
+    text: During your opponent's next turn, this Pokémon has no Weakness.
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

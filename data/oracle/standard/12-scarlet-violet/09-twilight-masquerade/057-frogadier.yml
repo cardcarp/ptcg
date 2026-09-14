@@ -1,0 +1,38 @@
+name: Frogadier
+
+origin: twilight-masquerade-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Froakie
+
+dex: 657
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Numbing Water
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,39 @@
+name: Hoothoot
+
+origin: plasma-freeze-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 163
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dual Draw
+    text: Each player draws 2 cards.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

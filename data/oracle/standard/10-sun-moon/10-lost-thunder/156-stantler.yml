@@ -1,0 +1,42 @@
+name: Stantler
+
+origin: lost-thunder-156
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 234
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mystifying Horns
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Enhanced Horns
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 60 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Butterfree
+
+origin: neo-discovery-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Metapod
+
+dex: 12
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Magic Dust
+    text: Flip a coin. If heads, the Defending Pokémon is now either Asleep, Confused, Paralyzed, or Poisoned (your choice).
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Hyper Reverse
+    text: Does 10 damage times the number of Energy attached to the Defending Pokémon. After doing damage, remove a number of damage counters from Butterfree equal to the amount of damage done to the Defending Pokémon (after applying Weakness and Resistance).
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

@@ -1,0 +1,47 @@
+name: Groudon
+
+origin: celestial-storm-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Wreck
+    text: If there is any Stadium card in play, this attack does 50 more damage. Then, discard that Stadium card.
+    damage: 50
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Ground Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

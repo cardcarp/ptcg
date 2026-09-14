@@ -1,0 +1,42 @@
+name: Chewtle
+
+origin: sword-shield-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 833
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Water Gun
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

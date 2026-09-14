@@ -1,0 +1,49 @@
+name: Staraptor
+
+origin: darkness-ablaze-147
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Staravia
+
+dex: 398
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hurricane Blender
+    text: Move any amount of Energy from your Pokémon to your other Pokémon in any way you like.
+    damage: 70
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Brave Bird
+    text: This Pokémon also does 30 damage to itself.
+    damage: 170
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

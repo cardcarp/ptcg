@@ -1,0 +1,48 @@
+name: Alolan Vulpix VSTAR
+
+origin: silver-tempest-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Water
+
+hp: 240
+
+preevolution:
+  - Alolan Vulpix V
+
+dex: 37
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Snow Mirage
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon. During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon that have an Ability.
+    damage: 160
+  - type: Attack
+    name: Silvery Snow Star
+    text: This attack does 70 damage for each of your opponent's Pokémon V in play. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 VSTAR Power in a game.)
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

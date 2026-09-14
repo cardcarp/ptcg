@@ -1,0 +1,46 @@
+name: Grapploct
+
+origin: vivid-voltage-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Clobbopus
+
+dex: 853
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Full Nelson
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Tentacle Buster
+    text: If this Pokémon used Full Nelson during your last turn, this attack does 120 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

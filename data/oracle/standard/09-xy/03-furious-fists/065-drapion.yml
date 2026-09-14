@@ -1,0 +1,53 @@
+name: Drapion
+
+origin: furious-fists-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Skorupi
+
+dex: 452
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Venomous Fang
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

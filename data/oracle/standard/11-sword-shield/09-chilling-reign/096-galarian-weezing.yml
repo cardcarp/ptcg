@@ -1,0 +1,41 @@
+name: Galarian Weezing
+
+origin: chilling-reign-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: Ability
+    name: Energy Factory
+    text: Each basic Darkness Energy attached to your Pokémon that have "Weezing" in their name provides DarknessDarkness Energy. You can't apply more than 1 Energy Factory Ability at a time.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Suffocating Gas
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

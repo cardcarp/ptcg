@@ -1,0 +1,53 @@
+name: Krookodile
+
+origin: sun-moon-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 150
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: False Accusation
+    text: This attack does 20 more damage for each card in your opponent's hand.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Obsidian Fang
+    text: Before doing damage, discard all Pokémon Tool cards from your opponent's Active Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

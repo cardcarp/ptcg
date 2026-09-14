@@ -1,0 +1,52 @@
+name: Jolteon ex
+
+origin: prismatic-evolutions-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Lightning
+
+hp: 260
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Flashing Spear
+    text: You may discard up to 2 Basic Energy from your Benched Pokémon. This attack does 90 more damage for each card you discarded in this way.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Lightning
+    name: Dravite
+    text: During your next turn, this Pokémon can't attack.
+    damage: 280
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,48 @@
+name: Claydol
+
+origin: obsidian-flames-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Kaboom Doll
+    text: Put damage counters on your opponent's Active Pokémon until its remaining HP is 10. If you placed any damage counters in this way, this attack also does 120 damage to this Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mind Bend
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

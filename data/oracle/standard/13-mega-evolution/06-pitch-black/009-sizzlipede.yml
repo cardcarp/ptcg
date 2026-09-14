@@ -1,0 +1,43 @@
+name: Sizzlipede
+
+origin: pitch-black-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 850
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Controlled Burn
+    text: Discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bug Out
+    text: Reveal the bottom 7 cards of your deck, and this attack does 50 damage for each Pokémon you find there that has the Bug Out attack. Then, shuffle any revealed Pokémon back into your deck. Discard the other cards.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,51 @@
+name: Klang
+
+origin: plasma-storm-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Klink
+
+dex: 600
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Vice Grip
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Gear Smash
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

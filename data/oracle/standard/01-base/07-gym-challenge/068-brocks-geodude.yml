@@ -1,0 +1,36 @@
+name: Brock's Geodude
+
+origin: gym-challenge-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 74
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Toss
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

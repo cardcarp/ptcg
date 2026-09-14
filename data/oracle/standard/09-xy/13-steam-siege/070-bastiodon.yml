@@ -1,0 +1,53 @@
+name: Bastiodon
+
+origin: steam-siege-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Shieldon
+
+dex: 411
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Counter Head
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Fortress of Rage
+    text: This attack does 10 more damage for each of your Benched Pokémon that has any damage counters on it.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

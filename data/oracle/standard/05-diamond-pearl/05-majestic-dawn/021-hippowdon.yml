@@ -1,0 +1,45 @@
+name: Hippowdon
+
+origin: majestic-dawn-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Hippopotas
+
+dex: 450
+
+rule:
+  - type: Attack
+    name: Vacuum Sand
+    text: Search your discard pile for a Fighting Energy card and attach it to Hippowdon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sand Impact
+    text: Flip a coin for each Fighting Energy attached to Hippowdon. This attack does 50 damage plus 20 more damage for each heads.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 3
+
+errata: []

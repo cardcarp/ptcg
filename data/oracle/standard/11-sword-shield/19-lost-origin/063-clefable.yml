@@ -1,0 +1,42 @@
+name: Clefable
+
+origin: lost-origin-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: Ability
+    name: Spirit Charm
+    text: All of your Pokémon take 30 less damage from attacks from your opponent's Dragon Pokémon (after applying Weakness and Resistance). You can't apply more than 1 Spirit Charm Ability at a time.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Moon Impact
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

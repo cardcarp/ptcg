@@ -1,0 +1,40 @@
+name: Meowth
+
+origin: unbroken-bonds-147
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 52
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Caturday
+    text: Draw 2 cards. If you do, this Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Whap
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

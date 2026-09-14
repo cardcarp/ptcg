@@ -1,0 +1,54 @@
+name: Nidoqueen
+
+origin: rising-rivals-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Nidorina
+
+dex: 31
+
+rule:
+  - type: Ability
+    name: Maternal Comfort
+    text: At any times between turns, remove 1 damage counter from each of your Pokémon. You can't use more than 1 Maternal Comfort Poké-Body between turns.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mega Punch
+    damage: 40
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Ruthless Tail
+    text: Does 50 damage plus 10 more damage for each of your opponent's Benched Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Swinub
+
+origin: legends-awakened-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 220
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sniff Out
+    text: Flip a coin. If heads, put any 1 card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Lunge Out
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

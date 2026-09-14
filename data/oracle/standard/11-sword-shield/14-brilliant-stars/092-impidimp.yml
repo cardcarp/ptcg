@@ -1,0 +1,40 @@
+name: Impidimp
+
+origin: brilliant-stars-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 859
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

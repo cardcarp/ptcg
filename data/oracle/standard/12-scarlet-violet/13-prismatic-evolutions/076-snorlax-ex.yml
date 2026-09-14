@@ -1,0 +1,50 @@
+name: Snorlax ex
+
+origin: prismatic-evolutions-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 260
+
+dex: 143
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strength
+    damage: 80
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Toss-and-Turn Press
+    text: Flip 3 coins. This attack does 120 damage for each heads.
+    damage: 120
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

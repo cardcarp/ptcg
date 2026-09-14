@@ -1,0 +1,48 @@
+name: Pupitar
+
+origin: stormfront-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: Ability
+    name: Energy Protection
+    text: Any damage done to Pupitar by attacks is reduced by 10 for each Energy attached to Pupitar (after applying Weakness and Resistance). You can't reduce more than 30 damage in this way.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rock Smash
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

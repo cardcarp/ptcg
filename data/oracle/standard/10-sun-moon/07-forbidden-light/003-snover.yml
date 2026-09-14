@@ -1,0 +1,37 @@
+name: Snover
+
+origin: forbidden-light-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 459
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ice Shard
+    text: If your opponent's Active Pokémon is a Fighting Pokémon, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

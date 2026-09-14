@@ -1,0 +1,49 @@
+name: Copperajah
+
+origin: journey-together-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 190
+
+dex: 879
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Ram
+    damage: 100
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Mega Impact
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

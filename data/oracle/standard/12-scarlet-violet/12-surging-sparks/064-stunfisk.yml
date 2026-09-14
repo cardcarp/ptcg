@@ -1,0 +1,36 @@
+name: Stunfisk
+
+origin: surging-sparks-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 618
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Paralyzing Crackle
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed, and discard an Energy from that Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

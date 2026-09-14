@@ -1,0 +1,45 @@
+name: Regigigas
+
+origin: sword-shield-black-star-247
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 150
+
+dex: 486
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Limber Up
+    text: Attach a basic Energy card from your discard pile to this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Impact
+    text: Flip 2 coins. This attack does 120 damage for each heads.
+    damage: 120
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

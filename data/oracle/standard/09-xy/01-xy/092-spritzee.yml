@@ -1,0 +1,45 @@
+name: Spritzee
+
+origin: xy-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 50
+
+dex: 682
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Sweet Scent
+    text: Heal 20 damage from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flop
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

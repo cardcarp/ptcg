@@ -1,0 +1,52 @@
+name: Luxray
+
+origin: flashfire-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Fang Snipe
+    text: Your opponent reveals his or her hand. Discard a Trainer card you find there.
+    damage: 40
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Wild Charge
+    text: This Pokémon does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

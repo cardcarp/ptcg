@@ -1,0 +1,40 @@
+name: Popplio
+
+origin: sun-moon-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 728
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Pound
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

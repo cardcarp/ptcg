@@ -1,0 +1,37 @@
+name: Grimer
+
+origin: scarlet-violet-126
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 88
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Super Poison Breath
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

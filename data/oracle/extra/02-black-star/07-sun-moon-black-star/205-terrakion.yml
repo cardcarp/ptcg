@@ -1,0 +1,46 @@
+name: Terrakion
+
+origin: sun-moon-black-star-205
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 140
+
+dex: 639
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Cavern Counter
+    text: If all of your Benched Pokémon have at least 1 damage counter on them, this attack does 150 more damage.
+    damage: 50
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Boulder Crush
+    damage: 110
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

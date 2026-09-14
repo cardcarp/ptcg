@@ -1,0 +1,54 @@
+name: Hippowdon
+
+origin: next-destinies-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Hippopotas
+
+dex: 450
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sand Bazooka
+    text: You may move 1 Energy attached to this Pokémon to 1 of your Benched Pokémon.
+    damage: 70
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Tumble
+    text: This attack's damage isn't affected by Resistance.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

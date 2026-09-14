@@ -1,0 +1,48 @@
+name: Cherrim
+
+origin: plasma-storm-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Cherubi
+
+dex: 421
+
+rule:
+  - type: Ability
+    name: Fair-Weather Heal
+    text: Once during your turn (before your attack), you may heal 20 damage from 1 of your Pokémon that has any Grass Energy attached to it.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Random Peck
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,35 @@
+name: Larvesta
+
+origin: black-bolt-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 636
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Peck Off
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

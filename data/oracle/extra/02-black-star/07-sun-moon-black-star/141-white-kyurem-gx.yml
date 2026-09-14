@@ -1,0 +1,57 @@
+name: White Kyurem-GX
+
+origin: sun-moon-black-star-141
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Dragon
+
+hp: 190
+
+dex: 646
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Shred
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Raging Blade
+    text: If this Pokémon has any damage counters on it, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Water
+      - Colorless
+    name: Dragon Nova-GX
+    text: Your opponent's Active Pokémon is now Burned and Paralyzed. (You can't use more than 1 GX attack in a game.)
+    damage: 200
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

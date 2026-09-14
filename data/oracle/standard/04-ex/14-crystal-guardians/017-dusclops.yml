@@ -1,0 +1,54 @@
+name: Dusclops
+
+origin: crystal-guardians-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Duskull
+
+dex: 356
+
+rule:
+  - type: Ability
+    name: Cursed Glare
+    text: As long as Dusclops is your Active Pokémon, your opponent can't attach any Special Energy cards (except for Darkness and Metal Energy cards) from his or her hand to his or her Active Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Will-o'-the-wisp
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic Shield
+    text: Prevent all effects of attacks, including damage, done to Dusclops by your opponent's Pokémon-ex during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

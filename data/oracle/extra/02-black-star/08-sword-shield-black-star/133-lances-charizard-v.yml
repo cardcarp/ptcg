@@ -1,0 +1,41 @@
+name: Lance's Charizard V
+
+origin: sword-shield-black-star-133
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

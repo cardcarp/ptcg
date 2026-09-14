@@ -1,0 +1,39 @@
+name: Team Rocket's Zubat
+
+origin: destined-rivals-120
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 41
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Poison Spray
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Lycanroc
+
+origin: champions-path-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rock Throw
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Slashing Strike
+    text: During your next turn, this Pokémon can't use Slashing Strike.
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

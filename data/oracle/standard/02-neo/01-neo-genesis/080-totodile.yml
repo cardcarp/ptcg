@@ -1,0 +1,42 @@
+name: Totodile
+
+origin: neo-genesis-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 158
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Totodile.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

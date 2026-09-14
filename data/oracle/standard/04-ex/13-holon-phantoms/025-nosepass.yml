@@ -1,0 +1,42 @@
+name: Nosepass
+
+origin: holon-phantoms-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 299
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Slide
+    text: Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

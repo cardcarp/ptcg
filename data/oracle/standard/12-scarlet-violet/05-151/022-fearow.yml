@@ -1,0 +1,45 @@
+name: Fearow
+
+origin: 151-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Spearow
+
+dex: 22
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Beak Catch
+    text: Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Speed Dive
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

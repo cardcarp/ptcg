@@ -1,0 +1,44 @@
+name: Heliolisk
+
+origin: ascended-heroes-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: Ability
+    name: Frilled Generator
+    text: Once during your turn, if you played Canari from your hand this turn, you may use this Ability. Search your deck for up to 2 Basic Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Powerful Bolt
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

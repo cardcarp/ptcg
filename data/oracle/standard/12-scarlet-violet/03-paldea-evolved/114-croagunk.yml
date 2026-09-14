@@ -1,0 +1,35 @@
+name: Croagunk
+
+origin: paldea-evolved-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 453
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

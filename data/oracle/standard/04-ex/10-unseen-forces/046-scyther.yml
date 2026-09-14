@@ -1,0 +1,41 @@
+name: Scyther
+
+origin: unseen-forces-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 123
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Twin Play
+    text: Search your deck for up to 2 in any combination of Scyther and Scyther ex and put them onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

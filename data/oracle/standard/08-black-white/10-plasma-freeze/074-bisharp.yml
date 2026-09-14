@@ -1,0 +1,52 @@
+name: Bisharp
+
+origin: plasma-freeze-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Pawniard
+
+dex: 625
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cut Down
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Slicing Blade
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

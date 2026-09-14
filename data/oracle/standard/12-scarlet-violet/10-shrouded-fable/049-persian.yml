@@ -1,0 +1,47 @@
+name: Persian
+
+origin: shrouded-fable-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 50 damage for each heads.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slashing Claw
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

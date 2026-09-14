@@ -1,0 +1,39 @@
+name: Glimmet
+
+origin: obsidian-flames-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 969
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Iron Defense
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Hang Down
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Xatu
+
+origin: pokemon-go-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Pinpoint Wave
+    text: This attack does 90 damage to 1 of your opponent's Pokémon V. This damage isn't affected by Weakness or Resistance.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Mind Bend
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

@@ -1,0 +1,42 @@
+name: Graveler
+
+origin: legend-maker-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Geodude
+
+dex: 75
+
+rule:
+  - type: Ability
+    name: Exoskeleton
+    text: Any damage done to Graveler by attacks is reduced by 10 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Slide
+    text: Does 10 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

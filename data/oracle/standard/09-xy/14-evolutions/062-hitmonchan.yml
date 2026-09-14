@@ -1,0 +1,41 @@
+name: Hitmonchan
+
+origin: evolutions-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 107
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Jab
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Special Punch
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

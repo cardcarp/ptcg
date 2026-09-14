@@ -1,0 +1,37 @@
+name: Ponyta
+
+origin: firered-leafgreen-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 77
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

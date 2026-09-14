@@ -1,0 +1,46 @@
+name: Drapion
+
+origin: perfect-order-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Skorupi
+
+dex: 452
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Wrack Down
+    damage: 60
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Hazardous Tail
+    text: This Pokémon also does 70 damage to itself. Your opponent's Active Pokémon is now Paralyzed and Poisoned.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

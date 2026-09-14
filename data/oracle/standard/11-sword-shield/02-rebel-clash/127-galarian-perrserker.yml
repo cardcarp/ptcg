@@ -1,0 +1,52 @@
+name: Galarian Perrserker
+
+origin: rebel-clash-127
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Galarian Meowth
+
+dex: 863
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Slash
+    damage: 50
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Claw Dagger
+    text: Flip 3 coins. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

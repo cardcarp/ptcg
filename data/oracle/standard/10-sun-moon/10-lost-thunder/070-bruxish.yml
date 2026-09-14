@@ -1,0 +1,41 @@
+name: Bruxish
+
+origin: lost-thunder-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 779
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Mind Bend
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Follow the Wound
+    text: This attack does 60 damage to 1 of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

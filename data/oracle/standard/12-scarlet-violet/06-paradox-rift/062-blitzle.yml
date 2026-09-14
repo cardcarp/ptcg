@@ -1,0 +1,42 @@
+name: Blitzle
+
+origin: paradox-rift-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 522
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Rear Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Wild Charge
+    text: This Pokémon also does 20 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

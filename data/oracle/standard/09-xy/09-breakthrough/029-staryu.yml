@@ -1,0 +1,36 @@
+name: Staryu
+
+origin: breakthrough-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 120
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Continuous Spin
+    text: Flip a coin until you get tails. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

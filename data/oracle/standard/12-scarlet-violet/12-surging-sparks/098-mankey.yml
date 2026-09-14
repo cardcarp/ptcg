@@ -1,0 +1,36 @@
+name: Mankey
+
+origin: surging-sparks-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 56
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dual Chop
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,52 @@
+name: Ferrothorn
+
+origin: sword-shield-131
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Ferroseed
+
+dex: 598
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Triple Smash
+    text: Flip 3 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Energy Slap
+    text: You may move all Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

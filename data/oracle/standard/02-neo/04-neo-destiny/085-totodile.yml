@@ -1,0 +1,36 @@
+name: Totodile
+
+origin: neo-destiny-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 158
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    text: Does 10 damage plus 10 more damage for each Water Energy attached to Totodile but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

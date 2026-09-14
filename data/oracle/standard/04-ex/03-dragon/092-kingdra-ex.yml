@@ -1,0 +1,53 @@
+name: Kingdra ex
+
+origin: dragon-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Genetic Memory
+    text: Use any attack from Kingdra ex's Basic Pokémon card or Stage 1 Evolution card. (Kingdra ex doesn't have to pay for that attack's Energy cost.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydrocannon
+    text: Does 50 damage plus 20 more damage for each Water Energy attached to Kingdra ex but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

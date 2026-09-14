@@ -1,0 +1,44 @@
+name: Chansey
+
+origin: expedition-base-set-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 113
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bind Wound
+    text: Flip a coin. If heads, remove 2 damage counters from 1 of your Pokémon (1 if it has only 1).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dogpile
+    text: Count the number of Pokémon on your Bench. This attack does 10 times that number of damage to the Defending Pokémon, and Chansey does 10 times that number of damage to itself.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

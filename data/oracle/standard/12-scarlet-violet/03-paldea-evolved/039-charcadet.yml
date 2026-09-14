@@ -1,0 +1,41 @@
+name: Charcadet
+
+origin: paldea-evolved-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 935
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Live Coal
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Magnum Punch
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

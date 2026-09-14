@@ -1,0 +1,49 @@
+name: Meganium
+
+origin: unseen-forces-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: Ability
+    name: Healing Aroma
+    text: As long as Meganium is your Active Pokémon, remove 1 damage counter from each Pokémon (excluding Pokémon-ex) (both yours and your opponent's) between turns.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Bouncy Move
+    text: You may put up to 5 damage counters on Meganium. If you do, this attack does 50 damage plus 10 more damage for each damage counter you put on Meganium in this way.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

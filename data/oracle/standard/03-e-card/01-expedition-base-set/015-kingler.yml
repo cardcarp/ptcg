@@ -1,0 +1,46 @@
+name: Kingler
+
+origin: expedition-base-set-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Krabby
+
+dex: 99
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Bubble
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Giant Claw
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Doublade
+
+origin: forbidden-light-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Honedge
+
+dex: 680
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Curse of the Blade
+    text: Put 3 damage counters on each of your opponent's Pokémon that has a Pokémon Tool card attached to it.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

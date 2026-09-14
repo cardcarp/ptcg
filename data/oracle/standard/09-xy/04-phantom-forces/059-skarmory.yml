@@ -1,0 +1,48 @@
+name: Skarmory
+
+origin: phantom-forces-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 100
+
+dex: 227
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Iron Wing
+    text: Discard a Metal Energy attached to this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

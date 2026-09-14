@@ -1,0 +1,50 @@
+name: Liepard
+
+origin: unified-minds-136
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Purrloin
+
+dex: 510
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Scratch
+    damage: 40
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Shadow Scratch
+    text: If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

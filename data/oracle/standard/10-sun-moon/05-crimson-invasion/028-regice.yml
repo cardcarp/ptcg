@@ -1,0 +1,39 @@
+name: Regice
+
+origin: crimson-invasion-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 378
+
+rule:
+  - type: Ability
+    name: Iceberg Shield
+    text: If you have Regirock in play, prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Stage 2 Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Smash
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

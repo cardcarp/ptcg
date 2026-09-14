@@ -1,0 +1,45 @@
+name: Chimecho
+
+origin: battle-styles-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 358
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Minor Errand-Running
+    text: Search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pleasant Tone
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Toxicroak
+
+origin: steam-siege-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: Ability
+    name: Poison Enzyme
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Poisoned Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Poison Jab
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

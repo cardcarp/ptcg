@@ -1,0 +1,49 @@
+name: Tapu Koko
+
+origin: lost-thunder-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 785
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Flashing Bolt
+    text: This Pokémon can't use Flashing Bolt during your next turn.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

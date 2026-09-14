@@ -1,0 +1,39 @@
+name: Articuno
+
+origin: pokemon-go-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 144
+
+rule:
+  - type: Ability
+    name: Ice Symbol
+    text: Your Basic Water Pokémon's attacks, except any Articuno, do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Freezing Wind
+    damage: 110
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

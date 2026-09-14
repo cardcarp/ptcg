@@ -1,0 +1,47 @@
+name: Jolteon
+
+origin: plasma-freeze-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pin Missile
+    text: Flip 4 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electri-Defuse
+    text: If the Defending Pokémon is a Pokémon-EX, that Pokémon can't attack during your opponent's next turn.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

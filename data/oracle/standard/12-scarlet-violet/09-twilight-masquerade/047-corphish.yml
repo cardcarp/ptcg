@@ -1,0 +1,36 @@
+name: Corphish
+
+origin: twilight-masquerade-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 341
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Vise Grip
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

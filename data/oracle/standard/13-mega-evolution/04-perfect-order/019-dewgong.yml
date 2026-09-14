@@ -1,0 +1,41 @@
+name: Dewgong
+
+origin: perfect-order-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Seel
+
+dex: 87
+
+rule:
+  - type: Ability
+    name: Wash Out
+    text: As often as you like during your turn, you may use this Ability. Move a Water Energy from 1 of your Benched Pokémon to your Active Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Wave Splash
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

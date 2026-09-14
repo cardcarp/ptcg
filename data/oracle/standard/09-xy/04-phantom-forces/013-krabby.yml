@@ -1,0 +1,41 @@
+name: Krabby
+
+origin: phantom-forces-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 98
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Vice Grip
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Crabhammer
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

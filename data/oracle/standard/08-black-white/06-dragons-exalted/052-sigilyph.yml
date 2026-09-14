@@ -1,0 +1,41 @@
+name: Sigilyph
+
+origin: dragons-exalted-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 561
+
+rule:
+  - type: Ability
+    name: Safeguard
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: Does 10 more damage for each Energy attached to the Defending Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Hattrem
+
+origin: chilling-reign-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Hatenna
+
+dex: 857
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Spiral Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

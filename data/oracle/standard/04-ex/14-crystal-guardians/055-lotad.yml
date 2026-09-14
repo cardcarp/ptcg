@@ -1,0 +1,38 @@
+name: Lotad
+
+origin: crystal-guardians-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 270
+
+rule:
+  - type: Ability
+    name: Aqua Lift
+    text: If Lotad has any Water Energy attached to it, the Retreat Cost for Lotad is 0.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rolling Tackle
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

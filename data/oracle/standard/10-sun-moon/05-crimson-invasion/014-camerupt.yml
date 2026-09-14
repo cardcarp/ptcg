@@ -1,0 +1,50 @@
+name: Camerupt
+
+origin: crimson-invasion-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Continuous Headbutt
+    text: Flip a coin until you get tails. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

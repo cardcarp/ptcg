@@ -1,0 +1,35 @@
+name: Shelmet
+
+origin: crimson-invasion-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 616
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Absorb
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

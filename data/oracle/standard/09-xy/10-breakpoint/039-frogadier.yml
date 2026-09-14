@@ -1,0 +1,37 @@
+name: Frogadier
+
+origin: breakpoint-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Froakie
+
+dex: 657
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Duplicates
+    text: Search your deck for up to 3 Frogadier and put them onto your Bench. Shuffle your deck afterward.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

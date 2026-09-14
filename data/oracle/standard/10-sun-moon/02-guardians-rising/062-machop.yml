@@ -1,0 +1,37 @@
+name: Machop
+
+origin: guardians-rising-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 66
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Dual Chop
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

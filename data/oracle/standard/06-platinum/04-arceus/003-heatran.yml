@@ -1,0 +1,46 @@
+name: Heatran
+
+origin: arceus-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 485
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Fang
+    text: The Defending Pokémon is now Burned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Magma Mantle
+    text: Discard the top 3 cards of your deck. This attack does 60 damage plus 20 more damage for each Fire or Metal Energy card you discarded.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,41 @@
+name: Relicanth
+
+origin: plasma-blast-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 90
+
+dex: 369
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fossil Hunt
+    text: Put 2 Item cards that have Fossil in their names from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

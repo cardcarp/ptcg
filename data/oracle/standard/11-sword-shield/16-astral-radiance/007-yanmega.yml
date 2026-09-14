@@ -1,0 +1,43 @@
+name: Yanmega
+
+origin: astral-radiance-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Yanma
+
+dex: 469
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Razor Wing
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wide Wing
+    text: If you have more cards in your hand than your opponent, this attack does 80 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

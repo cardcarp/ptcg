@@ -1,0 +1,32 @@
+name: Tynamo
+
+origin: black-bolt-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 602
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hold Still
+    text: Heal 10 damage from this Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

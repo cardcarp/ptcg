@@ -1,0 +1,41 @@
+name: Luvdisc
+
+origin: flashfire-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 370
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Heart Wink
+    text: Flip a coin. If heads, your opponent can't draw a card at the beginning of his or her next turn.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Spike Draw
+    text: Draw a card.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

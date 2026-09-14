@@ -1,0 +1,41 @@
+name: Trapinch
+
+origin: sandstorm-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 328
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sand Pit
+    text: The Defending Pokémon can't retreat until the end of your opponent's next turn.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Irongrip
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

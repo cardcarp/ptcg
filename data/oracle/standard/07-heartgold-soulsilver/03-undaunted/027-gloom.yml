@@ -1,0 +1,39 @@
+name: Gloom
+
+origin: undaunted-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Miracle Powder
+    text: Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

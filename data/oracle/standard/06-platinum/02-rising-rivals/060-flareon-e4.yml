@@ -1,0 +1,42 @@
+name: Flareon E4
+
+origin: rising-rivals-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 136
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Tail Slap
+    text: Flip a coin. If tails, discard a Fire Energy attached to Flareon .
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

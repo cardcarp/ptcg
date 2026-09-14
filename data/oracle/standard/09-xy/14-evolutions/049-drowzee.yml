@@ -1,0 +1,41 @@
+name: Drowzee
+
+origin: evolutions-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 96
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pound
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

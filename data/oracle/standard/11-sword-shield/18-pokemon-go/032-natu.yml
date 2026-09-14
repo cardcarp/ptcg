@@ -1,0 +1,45 @@
+name: Natu
+
+origin: pokemon-go-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 177
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Heal 20 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

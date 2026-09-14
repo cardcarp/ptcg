@@ -1,0 +1,36 @@
+name: Pansear
+
+origin: xy-black-star-131
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 513
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

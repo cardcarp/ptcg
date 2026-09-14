@@ -1,0 +1,49 @@
+name: Electivire
+
+origin: diamond-pearl-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Electabuzz
+
+dex: 466
+
+rule:
+  - type: Ability
+    name: Intense Voltage
+    text: As often as you like during your turn (before your attack), if Elekid is anywhere under Electivire, you may move a Lightning Energy attached to your Pokémon to Electivire. This power can't be used if Electivire is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Giga Impact
+    text: You may discard all Lightning Energy attached to Electivire. If you do, this attack's base damage is 120 instead of 60.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

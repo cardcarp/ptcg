@@ -1,0 +1,42 @@
+name: Hisuian Sneasler V
+
+origin: astral-radiance-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 190
+
+dex: 903
+
+rule:
+  - type: Attack
+    name: Poison Claws
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dire Claw
+    text: This attack does 80 damage for each Special Condition affecting your opponent's Active Pokémon.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

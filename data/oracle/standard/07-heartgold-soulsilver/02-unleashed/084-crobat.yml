@@ -1,0 +1,46 @@
+name: Crobat
+
+origin: unleashed-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Prime
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Golbat
+
+dex: 169
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Severe Poison
+    text: The Defending Pokémon is now Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Skill Dive
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

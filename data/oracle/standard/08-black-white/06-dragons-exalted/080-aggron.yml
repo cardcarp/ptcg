@@ -1,0 +1,48 @@
+name: Aggron
+
+origin: dragons-exalted-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Lairon
+
+dex: 306
+
+rule:
+  - type: Ability
+    name: Toppling Wind
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may discard the top 3 cards of your opponent's deck.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Giga Horn
+    text: Flip 2 coins. If both of them are tails, this attack does nothing.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

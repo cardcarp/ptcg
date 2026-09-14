@@ -1,0 +1,45 @@
+name: Jumpluff
+
+origin: aquapolis-013h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Skiploom
+
+dex: 189
+
+rule:
+  - type: Ability
+    name: Fluff
+    text: During your opponent's turn, if Jumpluff would be damaged or affected by an opponent's attack and it already has at least 1 damage counter on it, flip a coin. If heads, prevent all effects of that attack (including damage).
+  - type: Attack
+    cost:
+      - Grass
+    name: Cotton Punch
+    text: Flip 2 coins. This attack does 30 times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+errata: []

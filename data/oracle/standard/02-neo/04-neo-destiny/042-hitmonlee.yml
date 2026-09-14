@@ -1,0 +1,45 @@
+name: Hitmonlee
+
+origin: neo-destiny-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 106
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: One-Two Kick
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Heel Drop
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

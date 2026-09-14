@@ -1,0 +1,42 @@
+name: Galvantula
+
+origin: emerging-powers-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Joltik
+
+dex: 596
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Stun Needle
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

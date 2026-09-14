@@ -1,0 +1,38 @@
+name: Miltank
+
+origin: kalos-starter-set-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 241
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sitdown Splash
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

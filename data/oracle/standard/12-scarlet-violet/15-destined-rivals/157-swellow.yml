@@ -1,0 +1,46 @@
+name: Swellow
+
+origin: destined-rivals-157
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Taillow
+
+dex: 277
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Add On
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Speed Wing
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

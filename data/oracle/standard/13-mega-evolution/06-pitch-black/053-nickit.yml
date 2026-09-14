@@ -1,0 +1,40 @@
+name: Nickit
+
+origin: pitch-black-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 827
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Gnaw
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Rear Kick
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

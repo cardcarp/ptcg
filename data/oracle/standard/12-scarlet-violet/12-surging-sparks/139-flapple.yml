@@ -1,0 +1,40 @@
+name: Flapple
+
+origin: surging-sparks-139
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Applin
+
+dex: 841
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Acidic Spit
+    text: This attack does 20 damage for each damage counter on your opponent's Active Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Fire
+    name: Speed Dive
+    damage: 70
+
+retreat: 1
+
+errata: []

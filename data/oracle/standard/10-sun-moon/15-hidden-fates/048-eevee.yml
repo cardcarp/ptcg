@@ -1,0 +1,41 @@
+name: Eevee
+
+origin: hidden-fates-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 133
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Curiosity
+    text: Your opponent reveals their hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spin Tackle
+    text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

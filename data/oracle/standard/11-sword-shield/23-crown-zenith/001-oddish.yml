@@ -1,0 +1,36 @@
+name: Oddish
+
+origin: crown-zenith-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 43
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Leaf Boomerang
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

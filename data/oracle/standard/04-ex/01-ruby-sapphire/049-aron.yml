@@ -1,0 +1,45 @@
+name: Aron
+
+origin: ruby-sapphire-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 40
+
+dex: 304
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Teary Eyes
+    text: During your opponent's next turn, any damage done to Aron by attacks is reduced by 10.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,53 @@
+name: Luxray
+
+origin: legends-awakened-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: Ability
+    name: Rivalry
+    text: If your opponent has any Pokémon LV.X in play, each of Luxray's attacks does 50 more damage to the Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Plasma
+    text: Search your discard pile for a Lightning Energy card and attach it to Luxray.
+    damage: 40
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Shock Bolt
+    text: Discard all Lightning Energy attached to Luxray.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+errata: []

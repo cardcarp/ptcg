@@ -1,0 +1,39 @@
+name: Elgyem
+
+origin: noble-victories-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 605
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+    name: Calm Mind
+    text: Heal 30 damage from this Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

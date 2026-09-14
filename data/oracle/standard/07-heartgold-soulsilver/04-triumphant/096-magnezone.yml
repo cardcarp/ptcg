@@ -1,0 +1,49 @@
+name: Magnezone
+
+origin: triumphant-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Prime
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: Ability
+    name: Magnetic Draw
+    text: Once during your turn (before your attack), you may draw cards until you have 6 cards in your hand. This power can't be used if Magnezone is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Lost Burn
+    text: Put as many Energy cards attached to your Pokémon as you like in the Lost Zone. This attack does 50 damage times the number of Energy cards put in the Lost Zone in this way.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,41 @@
+name: Munna
+
+origin: black-white-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 517
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Dream Eater
+    text: If the Defending Pokémon is not Asleep, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

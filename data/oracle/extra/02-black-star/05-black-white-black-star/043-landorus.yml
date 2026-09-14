@@ -1,0 +1,47 @@
+name: Landorus
+
+origin: black-white-black-star-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 645
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Abundant Harvest
+    text: Attach a basic Energy card from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Gaia Hammer
+    text: Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

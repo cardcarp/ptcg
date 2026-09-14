@@ -1,0 +1,39 @@
+name: Doduo
+
+origin: base-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 84
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fury Attack
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

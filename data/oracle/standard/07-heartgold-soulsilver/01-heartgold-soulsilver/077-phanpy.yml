@@ -1,0 +1,41 @@
+name: Phanpy
+
+origin: heartgold-soulsilver-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 231
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flail
+    text: Does 10 damage times the number of damage counters on Phanpy.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

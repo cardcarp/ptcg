@@ -1,0 +1,42 @@
+name: Chi-Yu
+
+origin: twilight-masquerade-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 1004
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Allure
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ground Melter
+    text: If a Stadium is in play, this attack does 60 more damage. Then, discard that Stadium.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

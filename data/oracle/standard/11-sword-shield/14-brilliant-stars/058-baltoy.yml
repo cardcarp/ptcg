@@ -1,0 +1,42 @@
+name: Baltoy
+
+origin: brilliant-stars-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Triple Spin
+    text: Flip 3 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

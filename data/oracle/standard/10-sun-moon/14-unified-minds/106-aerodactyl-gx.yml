@@ -1,0 +1,51 @@
+name: Aerodactyl-GX
+
+origin: unified-minds-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Fighting
+
+hp: 210
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 142
+
+rule:
+  - type: Ability
+    name: Primal Winds
+    text: As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Boulder Crush
+    damage: 120
+  - type: Attack
+    cost:
+      - Fighting
+    name: Wild Dive-GX
+    text: This attack does 50 damage times the amount of Energy attached to your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

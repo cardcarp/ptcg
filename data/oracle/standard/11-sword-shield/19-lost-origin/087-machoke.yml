@@ -1,0 +1,43 @@
+name: Machoke
+
+origin: lost-origin-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Strength
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Seismic Toss
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

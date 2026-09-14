@@ -1,0 +1,37 @@
+name: Deino
+
+origin: phantom-forces-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 50
+
+dex: 633
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Darkness
+    name: Gnaw Off
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

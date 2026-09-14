@@ -1,0 +1,42 @@
+name: Croagunk
+
+origin: burning-shadows-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 453
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Corkscrew Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Frog Hop
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

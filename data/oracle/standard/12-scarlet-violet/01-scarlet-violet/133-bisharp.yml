@@ -1,0 +1,44 @@
+name: Bisharp
+
+origin: scarlet-violet-133
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Pawniard
+
+dex: 625
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Dark Cutter
+    damage: 40
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Double-Edged Slash
+    text: This Pokémon also does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

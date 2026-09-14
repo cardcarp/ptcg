@@ -1,0 +1,42 @@
+name: Stantler
+
+origin: breakpoint-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 234
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mystifying Horns
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Big Charge
+    text: If you have any Mega Evolution Pokémon on your Bench, this attack does 50 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

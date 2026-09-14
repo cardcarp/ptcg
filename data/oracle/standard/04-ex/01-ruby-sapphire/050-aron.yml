@@ -1,0 +1,39 @@
+name: Aron
+
+origin: ruby-sapphire-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 304
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

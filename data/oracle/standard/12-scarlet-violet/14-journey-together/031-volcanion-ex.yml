@@ -1,0 +1,44 @@
+name: Volcanion ex
+
+origin: journey-together-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 721
+
+rule:
+  - type: Ability
+    name: Scalding Steam
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent's Active Pokémon Burned.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Scorching Cyclone
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

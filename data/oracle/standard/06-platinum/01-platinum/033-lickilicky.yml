@@ -1,0 +1,48 @@
+name: Lickilicky
+
+origin: platinum-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Lickitung
+
+dex: 463
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Harrumph
+    text: Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Before doing damage, discard all Trainer cards attached to that Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Body Press
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 4
+
+errata: []

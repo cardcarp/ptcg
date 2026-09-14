@@ -1,0 +1,51 @@
+name: Virizion-GX
+
+origin: lost-thunder-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Grass
+
+hp: 170
+
+dex: 640
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Sensitive Blade
+    text: If you played a Supporter card from your hand during this turn, this attack does 80 more damage.
+    damage: 50
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+    name: Breeze Away-GX
+    text: Put any number of your Pokémon in play and all cards attached to them into your hand. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

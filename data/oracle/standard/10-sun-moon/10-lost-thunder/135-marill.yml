@@ -1,0 +1,40 @@
+name: Marill
+
+origin: lost-thunder-135
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 183
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Magical Shot
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

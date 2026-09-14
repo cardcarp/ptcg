@@ -1,0 +1,32 @@
+name: Sneasel
+
+origin: prismatic-evolutions-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 215
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Claw Slash
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+errata: []

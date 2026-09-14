@@ -1,0 +1,56 @@
+name: Sceptile
+
+origin: stormfront-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Grovyle
+
+dex: 254
+
+rule:
+  - type: Ability
+    name: Energy Trans
+    text: As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Sceptile is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poison Leaf
+    text: The Defending Pokémon is now Poisoned.
+    damage: 40
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Slice Drain
+    text: Remove 2 damage counters from Sceptile.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

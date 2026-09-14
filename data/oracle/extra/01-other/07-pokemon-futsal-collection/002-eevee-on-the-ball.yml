@@ -1,0 +1,40 @@
+name: Eevee on the Ball
+
+origin: pokemon-futsal-collection-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 133
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Make the Assist
+    text: Attach a basic Energy card from your hand to 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

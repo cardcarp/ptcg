@@ -1,0 +1,39 @@
+name: Porygon2
+
+origin: lost-origin-141
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Porygon
+
+dex: 233
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Garbage Attack
+    text: This attack does 20 damage for each Pokémon Tool card in the Lost Zone (both yours and your opponent's).
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

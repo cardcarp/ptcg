@@ -1,0 +1,46 @@
+name: Absol
+
+origin: team-up-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 359
+
+rule:
+  - type: Ability
+    name: Dark Ambition
+    text: If your opponent's Active Pokémon is a Basic Pokémon, its Retreat Cost is Colorless more.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Shadow Seeker
+    text: This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

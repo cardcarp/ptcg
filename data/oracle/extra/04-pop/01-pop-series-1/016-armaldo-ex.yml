@@ -1,0 +1,55 @@
+name: Armaldo ex
+
+origin: pop-series-1-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Anorith
+
+dex: 348
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Twin-blade
+    text: Does 30 damage to each Defending Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Supersonic Claws
+    text: This attack's damage is not affected by Resistance.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

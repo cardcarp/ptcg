@@ -1,0 +1,40 @@
+name: Regice
+
+origin: holon-phantoms-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 378
+
+rule:
+  - type: Ability
+    name: Clear Body
+    text: Regice can't be affected by any Special Conditions.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Icy Wind
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

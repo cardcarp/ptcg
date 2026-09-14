@@ -1,0 +1,43 @@
+name: Nidorina
+
+origin: team-up-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Nidoran ♀
+
+dex: 30
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Family Rescue
+    text: Shuffle 5 Psychic Pokémon from your discard pile into your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

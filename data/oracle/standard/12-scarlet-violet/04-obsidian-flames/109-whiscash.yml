@@ -1,0 +1,45 @@
+name: Whiscash
+
+origin: obsidian-flames-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Barboach
+
+dex: 340
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Raging and Rocking
+    text: For each Fighting Energy attached to this Pokémon, discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Land Crush
+    damage: 140
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

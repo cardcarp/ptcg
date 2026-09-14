@@ -1,0 +1,43 @@
+name: Jirachi
+
+origin: legends-awakened-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 385
+
+rule:
+  - type: Attack
+    name: One Desire
+    text: Search your deck for any 1 card. Shuffle your deck, then put that card on top of your deck.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+    name: Doom Desire
+    text: Discard all Energy attached to Jirachi. The Defending Pokémon is Knocked Out at the end of your opponent's next turn.
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

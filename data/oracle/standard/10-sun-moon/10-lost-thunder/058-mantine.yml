@@ -1,0 +1,44 @@
+name: Mantine
+
+origin: lost-thunder-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 226
+
+rule:
+  - type: Ability
+    name: Mantine Surf
+    text: If this Pokémon has any Energy attached to it, it has no Retreat Cost.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Surf
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

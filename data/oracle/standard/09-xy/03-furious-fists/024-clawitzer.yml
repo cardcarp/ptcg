@@ -1,0 +1,47 @@
+name: Clawitzer
+
+origin: furious-fists-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Clauncher
+
+dex: 693
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Reverse Thrust
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Splash Cannon
+    text: This attack does 20 more damage for each Water Energy attached to this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

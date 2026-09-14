@@ -1,0 +1,46 @@
+name: Great Tusk ex
+
+origin: scarlet-violet-black-star-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+  - Ancient
+
+type:
+  - Fighting
+
+hp: 250
+
+dex: 984
+
+rule:
+  - type: Ability
+    name: Quaking Demolition
+    text: Once at the end of your turn (after your attack), if this Pokémon is in the Active Spot, you must discard the top 5 cards of your deck.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Great Bash
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 260
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

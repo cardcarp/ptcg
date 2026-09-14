@@ -1,0 +1,40 @@
+name: Beldum
+
+origin: plasma-freeze-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 374
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Calculate
+    text: Look at the top 4 cards of your deck and put them back on top of your deck in any order.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psypunch
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

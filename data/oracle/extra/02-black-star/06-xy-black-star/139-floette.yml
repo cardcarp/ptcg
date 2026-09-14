@@ -1,0 +1,50 @@
+name: Floette
+
+origin: xy-black-star-139
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 70
+
+preevolution:
+  - Flabébé
+
+dex: 670
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Aromatherapy
+    text: Heal 30 damage from each of your Pokémon.
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+    name: Magical Leaf
+    text: Flip a coin. If heads, this attack does 20 more damage and heal 20 damage from this Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

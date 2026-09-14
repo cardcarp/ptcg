@@ -1,0 +1,50 @@
+name: Mew ex
+
+origin: holon-phantoms-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 151
+
+rule:
+  - type: Ability
+    name: Psychic Vision
+    text: Once during your turn (before your attack), if Mew ex is on your Bench, you may look at your opponent's hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Super Psy Bolt
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Devo Crush
+    text: You may discard 2 Energy attached to Mew ex. If you do, you may remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent's deck.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

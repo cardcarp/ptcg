@@ -1,0 +1,45 @@
+name: Zamazenta
+
+origin: sword-shield-black-star-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 889
+
+rule:
+  - type: Ability
+    name: Sturdy Shield
+    text: This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Headbang
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,48 @@
+name: Persian δ
+
+origin: holon-phantoms-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Darkness
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Scratch and Draw
+    text: If any Stadium card with Holon in its name is in play, draw 3 cards.
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Deceive
+    text: Your opponent chooses 1 of his or her Pokémon. Put 4 damage counters on that Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - This Pokémon is both Darkness Metal type.
+
+errata: []

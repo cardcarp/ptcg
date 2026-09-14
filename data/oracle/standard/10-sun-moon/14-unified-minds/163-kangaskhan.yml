@@ -1,0 +1,44 @@
+name: Kangaskhan
+
+origin: unified-minds-163
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 115
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tag Impact
+    text: This attack does 50 damage for each of your TAG TEAM Pokémon in play.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

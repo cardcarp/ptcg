@@ -1,0 +1,43 @@
+name: Crobat
+
+origin: silver-tempest-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Golbat
+
+dex: 169
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Venomous Fang
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Critical Bite
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If 1 of your opponent's Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

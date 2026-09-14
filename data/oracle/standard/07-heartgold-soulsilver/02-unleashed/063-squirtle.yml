@@ -1,0 +1,41 @@
+name: Squirtle
+
+origin: unleashed-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 7
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Shell Attack
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

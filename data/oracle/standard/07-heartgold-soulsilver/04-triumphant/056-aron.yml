@@ -1,0 +1,46 @@
+name: Aron
+
+origin: triumphant-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 304
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mountain Eater
+    text: Discard the top card of your deck. Then, remove 2 damage counters from Aron.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Confront
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

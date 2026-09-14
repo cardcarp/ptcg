@@ -1,0 +1,46 @@
+name: Simisear
+
+origin: noble-victories-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Pansear
+
+dex: 514
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Double Fire
+    text: Flip 2 coins. This attack does 80 damage times the number of heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

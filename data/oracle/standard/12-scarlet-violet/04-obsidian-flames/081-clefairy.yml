@@ -1,0 +1,37 @@
+name: Clefairy
+
+origin: obsidian-flames-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 35
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Slap Slap
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

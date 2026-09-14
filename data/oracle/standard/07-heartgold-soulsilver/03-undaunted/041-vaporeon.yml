@@ -1,0 +1,45 @@
+name: Vaporeon
+
+origin: undaunted-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spiral Drain
+    text: Remove 2 damage counters from Vaporeon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Dual Splash
+    text: Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

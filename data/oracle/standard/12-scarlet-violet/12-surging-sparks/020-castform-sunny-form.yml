@@ -1,0 +1,39 @@
+name: Castform Sunny Form
+
+origin: surging-sparks-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 351
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Sunny Assist
+    text: Move all Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+errata: []

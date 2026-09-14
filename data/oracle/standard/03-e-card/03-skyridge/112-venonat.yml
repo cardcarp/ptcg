@@ -1,0 +1,43 @@
+name: Venonat
+
+origin: skyridge-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 48
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Charizard
+
+origin: sword-shield-black-star-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 170
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: Ability
+    name: Battle Sense
+    text: Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Royal Blaze
+    text: This attack does 50 more damage for each Leon card in your discard pile.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

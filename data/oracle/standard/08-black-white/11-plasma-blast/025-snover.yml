@@ -1,0 +1,42 @@
+name: Snover
+
+origin: plasma-blast-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 459
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Beat
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

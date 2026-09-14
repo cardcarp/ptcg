@@ -1,0 +1,41 @@
+name: Alolan Dugtrio
+
+origin: mcdonalds-collection-2019-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 60
+
+preevolution:
+  - Alolan Diglett
+
+dex: 51
+
+rule:
+  - type: Attack
+    name: Gold Rush
+    text: Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

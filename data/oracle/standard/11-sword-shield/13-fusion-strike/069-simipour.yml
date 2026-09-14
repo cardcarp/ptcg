@@ -1,0 +1,46 @@
+name: Simipour
+
+origin: fusion-strike-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Panpour
+
+dex: 516
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Pulse
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Circus Soaking
+    text: Your opponent reveals their hand. This attack does 60 damage for each Supporter card you find there.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

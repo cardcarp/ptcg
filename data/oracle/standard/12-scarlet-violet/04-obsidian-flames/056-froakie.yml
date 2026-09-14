@@ -1,0 +1,35 @@
+name: Froakie
+
+origin: obsidian-flames-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 656
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Try Bouncing
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

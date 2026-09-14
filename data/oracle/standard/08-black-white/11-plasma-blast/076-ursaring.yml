@@ -1,0 +1,49 @@
+name: Ursaring
+
+origin: plasma-blast-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Teddiursa
+
+dex: 217
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Adrenalash
+    text: During your next turn, each of this Pokémon's attacks does 50 more damage (before applying Weakness and Resistance).
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strength
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Ho-Oh ex
+
+origin: unseen-forces-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 250
+
+rule:
+  - type: Ability
+    name: Golden Wing
+    text: If Ho-Oh ex would be Knocked Out by damage from an opponent's attack, you may move up to 2 Energy attached to Ho-Oh ex to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rainbow Burn
+    text: Does 10 damage plus 20 more damage for each type of basic Energy card attached to Ho-Oh ex.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

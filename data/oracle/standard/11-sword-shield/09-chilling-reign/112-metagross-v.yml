@@ -1,0 +1,54 @@
+name: Metagross V
+
+origin: chilling-reign-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Rapid Strike
+
+type:
+  - Metal
+
+hp: 220
+
+dex: 376
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Bullet Punch
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Synchro Hammer
+    text: If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached, this attack does 90 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

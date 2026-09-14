@@ -1,0 +1,42 @@
+name: Snorlax
+
+origin: surging-sparks-144
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 150
+
+dex: 143
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spike Draw
+    text: Draw a card.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mega Punch
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,44 @@
+name: Morelull
+
+origin: ultra-prism-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 755
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flickering Spores
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Fairy
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

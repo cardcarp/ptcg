@@ -1,0 +1,46 @@
+name: Electabuzz
+
+origin: furious-fists-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 125
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Light Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

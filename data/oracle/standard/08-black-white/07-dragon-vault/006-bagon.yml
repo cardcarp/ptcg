@@ -1,0 +1,40 @@
+name: Bagon
+
+origin: dragon-vault-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 50
+
+dex: 371
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+    name: Dragon Claw
+    damage: 20
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

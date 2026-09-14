@@ -1,0 +1,41 @@
+name: Seedot
+
+origin: legend-maker-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 273
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Drawup Power
+    text: Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+    name: Continuous Tumble
+    text: Flip a coin until you get tails. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

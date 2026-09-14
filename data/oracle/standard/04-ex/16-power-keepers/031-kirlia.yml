@@ -1,0 +1,44 @@
+name: Kirlia
+
+origin: power-keepers-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Ralts
+
+dex: 281
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Dream Eater
+    text: If the Defending Pokémon is not Asleep, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

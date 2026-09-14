@@ -1,0 +1,45 @@
+name: Jirachi
+
+origin: roaring-skies-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 385
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Diminutive Desire
+    text: Look at the top 7 cards of your deck and put 1 of them into your hand. Shuffle the other cards back into your deck.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Doom Desire
+    text: Discard all Energy attached to this Pokémon. The Defending Pokémon is Knocked Out at the end of your opponent's next turn.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

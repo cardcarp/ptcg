@@ -1,0 +1,42 @@
+name: Poochyena
+
+origin: twilight-masquerade-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 261
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Continuous Steps
+    text: Flip a coin until you get tails. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Darkness Fang
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

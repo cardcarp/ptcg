@@ -1,0 +1,54 @@
+name: Entei-GX
+
+origin: shining-legends-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Fire
+
+hp: 180
+
+dex: 244
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Fang
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 100
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Brave Burn-GX
+    text: This attack does 150 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

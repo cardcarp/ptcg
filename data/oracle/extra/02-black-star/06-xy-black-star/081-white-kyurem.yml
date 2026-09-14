@@ -1,0 +1,46 @@
+name: White Kyurem
+
+origin: xy-black-star-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 646
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Water
+      - Colorless
+    name: Flare Blizzard
+    text: This Pokémon can't use Flare Blizzard during your next turn.
+    damage: 120
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

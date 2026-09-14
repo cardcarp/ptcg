@@ -1,0 +1,42 @@
+name: 'Type: Null'
+
+origin: unified-minds-183
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 772
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smash Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Blow
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

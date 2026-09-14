@@ -1,0 +1,50 @@
+name: Rillaboom V
+
+origin: fusion-strike-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Rapid Strike
+
+type:
+  - Grass
+
+hp: 220
+
+dex: 812
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Drain Punch
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Drum Rush
+    damage: 160
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

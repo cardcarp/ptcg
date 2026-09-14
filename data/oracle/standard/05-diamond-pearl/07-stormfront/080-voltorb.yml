@@ -1,0 +1,44 @@
+name: Voltorb
+
+origin: stormfront-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 100
+
+rule:
+  - type: Attack
+    name: Screech
+    text: If an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to that Pokémon until the end of your next turn.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

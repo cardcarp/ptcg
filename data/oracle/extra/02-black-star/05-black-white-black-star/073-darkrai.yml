@@ -1,0 +1,51 @@
+name: Darkrai
+
+origin: black-white-black-star-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Team Plasma
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 491
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Hide in Shadows
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Hole
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

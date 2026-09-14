@@ -1,0 +1,48 @@
+name: Houndoom
+
+origin: neo-discovery-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard 1 Fire Energy card attached to Houndoom or this attack does nothing.
+    damage: 50
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

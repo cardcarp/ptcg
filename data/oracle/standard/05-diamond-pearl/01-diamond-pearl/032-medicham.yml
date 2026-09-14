@@ -1,0 +1,45 @@
+name: Medicham
+
+origin: diamond-pearl-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Force Palm
+    text: Count the number of damage counters on Medicham. Put that many damage counters on 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Spinning Kick
+    text: Medicham does 20 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

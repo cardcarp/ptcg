@@ -1,0 +1,40 @@
+name: Stunky
+
+origin: ultra-prism-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 434
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Gas Bond
+    text: Both Active Pokémon are now Confused.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

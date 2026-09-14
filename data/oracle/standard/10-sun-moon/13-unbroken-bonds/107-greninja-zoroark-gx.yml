@@ -1,0 +1,53 @@
+name: Greninja & Zoroark-GX
+
+origin: unbroken-bonds-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Darkness
+
+hp: 250
+
+dex: 571
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Pulse
+    text: This attack does 30 more damage times the amount of Darkness Energy attached to all of your Pokémon.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Union-GX
+    text: Put 2 in any combination of Darkness Pokémon-GX and Darkness Pokémon-EX from your discard pile onto your Bench. If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack's cost), attach 2 Energy cards from your discard pile to each Pokémon that you put onto your Bench in this way. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

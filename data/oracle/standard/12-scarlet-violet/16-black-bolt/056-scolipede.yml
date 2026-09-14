@@ -1,0 +1,43 @@
+name: Scolipede
+
+origin: black-bolt-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 160
+
+preevolution:
+  - Whirlipede
+
+dex: 545
+
+rule:
+  - type: Ability
+    name: Poison Point
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

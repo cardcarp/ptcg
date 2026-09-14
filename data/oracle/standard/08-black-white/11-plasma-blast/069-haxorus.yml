@@ -1,0 +1,45 @@
+name: Haxorus
+
+origin: plasma-blast-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 140
+
+preevolution:
+  - Fraxure
+
+dex: 612
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Dragonaxe
+    text: Does 40 damage times the amount of Metal Energy attached to this Pokémon.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Metal
+    name: Strike of the Champion
+    text: If the Defending Pokémon is a Team Plasma Pokémon, it is Knocked Out. (If the Defending Pokémon is not a Team Plasma Pokémon, this attack does nothing.)
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

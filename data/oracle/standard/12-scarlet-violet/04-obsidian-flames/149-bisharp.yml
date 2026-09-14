@@ -1,0 +1,50 @@
+name: Bisharp
+
+origin: obsidian-flames-149
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Pawniard
+
+dex: 625
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Metal Claw
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Fury Cutter
+    text: Flip 3 coins. If 1 of them is heads, this attack does 20 more damage. If 2 of them are heads, this attack does 60 more damage. If all of them are heads, this attack does 120 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

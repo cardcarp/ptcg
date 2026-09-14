@@ -1,0 +1,41 @@
+name: Mareep
+
+origin: neo-genesis-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 179
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Static Electricity
+    text: For each Mareep in play, you may search your deck for a Lightning Energy card and attach it to Mareep. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

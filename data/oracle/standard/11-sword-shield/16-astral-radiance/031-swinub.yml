@@ -1,0 +1,43 @@
+name: Swinub
+
+origin: astral-radiance-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 220
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stampede
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

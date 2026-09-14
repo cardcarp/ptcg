@@ -1,0 +1,48 @@
+name: Helioptile
+
+origin: phantom-forces-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 694
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Static Shock
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

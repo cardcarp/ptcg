@@ -1,0 +1,51 @@
+name: Mismagius
+
+origin: sun-moon-black-star-222
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psywave
+    text: This attack does 20 damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Astonish
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Teddiursa
+
+origin: astral-radiance-122
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 216
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gather Food
+    text: Flip a coin. If heads, put an Item card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dig Claws
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

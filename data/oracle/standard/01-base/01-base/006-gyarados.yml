@@ -1,0 +1,53 @@
+name: Gyarados
+
+origin: base-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Dragon Rage
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Bubblebeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

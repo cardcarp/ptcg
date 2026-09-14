@@ -1,0 +1,39 @@
+name: Tirtouga
+
+origin: stellar-crown-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Antique Cover Fossil
+
+dex: 564
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Splashing Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

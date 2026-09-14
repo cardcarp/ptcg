@@ -1,0 +1,45 @@
+name: Cacturne
+
+origin: crimson-invasion-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Cacnea
+
+dex: 332
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Spike Rend
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Hunt
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 40 damage to the new Active Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

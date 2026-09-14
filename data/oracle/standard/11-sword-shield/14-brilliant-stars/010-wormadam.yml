@@ -1,0 +1,48 @@
+name: Wormadam
+
+origin: brilliant-stars-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Burmy
+
+dex: 413
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Matron's Anger
+    text: This attack does 10 more damage for each Pokémon in your discard pile.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Leaf Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,43 @@
+name: Alcremie
+
+origin: brilliant-stars-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Milcery
+
+dex: 869
+
+rule:
+  - type: Ability
+    name: Additional Order
+    text: As long as this Pokémon is in the Active Spot, your turn does not end when you use Café Master.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rainbow Flavor
+    text: This attack does 40 more damage for each type of basic Energy attached to all of your Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

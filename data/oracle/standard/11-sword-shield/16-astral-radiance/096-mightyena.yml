@@ -1,0 +1,43 @@
+name: Mightyena
+
+origin: astral-radiance-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: Ability
+    name: Hustle Bark
+    text: If your opponent has any Pokémon VMAX in play, this Pokémon's attacks cost ColorlessColorlessColorless less.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wild Tackle
+    text: This Pokémon also does 50 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

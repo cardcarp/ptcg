@@ -1,0 +1,47 @@
+name: Alolan Dugtrio
+
+origin: sun-moon-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Alolan Diglett
+
+dex: 51
+
+rule:
+  - type: Ability
+    name: Tangling Hair
+    text: Your opponent's Active Pokémon's Retreat Cost is Colorless more.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dig Under
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. This damage isn't affected by Weakness or Resistance.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

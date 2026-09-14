@@ -1,0 +1,49 @@
+name: Kingdra-EX
+
+origin: fates-collide-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 170
+
+dex: 230
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Big Storm
+    text: Discard any Stadium card in play.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Trail
+    text: This attack does 30 more damage for each basic Lightning Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

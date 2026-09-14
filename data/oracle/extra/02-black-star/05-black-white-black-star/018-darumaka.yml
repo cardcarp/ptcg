@@ -1,0 +1,36 @@
+name: Darumaka
+
+origin: black-white-black-star-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 554
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Searing Flame
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

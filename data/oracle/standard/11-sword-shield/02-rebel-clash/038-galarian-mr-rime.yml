@@ -1,0 +1,43 @@
+name: Galarian Mr. Rime
+
+origin: rebel-clash-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Galarian Mr. Mime
+
+dex: 866
+
+rule:
+  - type: Ability
+    name: Screen Cleaner
+    text: Prevent all effects of your opponent's attacks, except damage, done to all of your Pokémon that have Energy attached. (Existing effects are not removed.)
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Triple Spin
+    text: Flip 3 coins. This attack does 50 damage for each heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

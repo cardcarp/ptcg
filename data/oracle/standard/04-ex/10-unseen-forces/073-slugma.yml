@@ -1,0 +1,39 @@
+name: Slugma
+
+origin: unseen-forces-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 218
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Yawn
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

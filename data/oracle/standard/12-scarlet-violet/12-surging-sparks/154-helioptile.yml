@@ -1,0 +1,42 @@
+name: Helioptile
+
+origin: surging-sparks-154
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 694
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tiny Bolt
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

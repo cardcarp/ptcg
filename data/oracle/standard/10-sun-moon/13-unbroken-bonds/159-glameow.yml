@@ -1,0 +1,41 @@
+name: Glameow
+
+origin: unbroken-bonds-159
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 431
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Caturday
+    text: Draw a card. If you do, this Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boing Boing Tail
+    text: This attack does 60 damage to 1 of your opponent's Pokémon-GX or Pokémon-EX. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

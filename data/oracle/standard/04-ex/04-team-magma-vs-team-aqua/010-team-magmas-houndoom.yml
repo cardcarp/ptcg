@@ -1,0 +1,53 @@
+name: Team Magma's Houndoom
+
+origin: team-magma-vs-team-aqua-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Team Magma's Houndour
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Roasting Heat
+    text: If the Defending Pokémon is Burned, this attack does 30 damage plus 20 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Magma Spurt
+    text: Discard the top 5 cards from your deck. This attack does 30 damage times the number of Fire and Fighting basic Energy cards discarded in this way.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Fire Darkness type.
+
+errata: []

@@ -1,0 +1,41 @@
+name: Lotad
+
+origin: platinum-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 270
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Ball
+    text: Does 10 damage plus 10 more damage for each Energy attached to Lotad but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+    name: Synthesis
+    text: Flip a coin. If heads, search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

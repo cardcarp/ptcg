@@ -1,0 +1,47 @@
+name: Cinccino
+
+origin: black-white-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Minccino
+
+dex: 573
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Slap
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Do the Wave
+    text: Does 20 damage times the number of your Benched Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

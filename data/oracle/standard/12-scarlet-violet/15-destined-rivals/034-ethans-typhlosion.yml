@@ -1,0 +1,46 @@
+name: Ethan's Typhlosion
+
+origin: destined-rivals-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 170
+
+preevolution:
+  - Ethan's Quilava
+
+dex: 157
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Buddy Blast
+    text: This attack does 60 more damage for each Ethan's Adventure card in your discard pile.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Steam Artillery
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Gallade-EX
+
+origin: roaring-skies-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 475
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Swift Lunge
+    text: You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Piercing Prizes
+    text: This attack does 20 more damage for each of your remaining Prize cards.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

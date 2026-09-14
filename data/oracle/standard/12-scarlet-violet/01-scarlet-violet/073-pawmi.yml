@@ -1,0 +1,34 @@
+name: Pawmi
+
+origin: scarlet-violet-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 921
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Jolt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

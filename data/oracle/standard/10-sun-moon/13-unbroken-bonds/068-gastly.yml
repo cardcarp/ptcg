@@ -1,0 +1,39 @@
+name: Gastly
+
+origin: unbroken-bonds-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 92
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Smog
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

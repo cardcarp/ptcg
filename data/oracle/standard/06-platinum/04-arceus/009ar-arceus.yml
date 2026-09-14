@@ -1,0 +1,45 @@
+name: Arceus
+
+origin: arceus-009ar
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 493
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Barrier
+    text: Prevent all effects of attacks, including damage, done to Arceus by Pokémon LV.X during your opponent's next turn.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - You may have as many of this card in your deck as you like.
+
+errata: []

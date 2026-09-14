@@ -1,0 +1,41 @@
+name: Ralts
+
+origin: power-keepers-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 280
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slap
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Teleportation Burst
+    text: Switch Ralts with 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

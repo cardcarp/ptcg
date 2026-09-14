@@ -1,0 +1,40 @@
+name: Fennekin
+
+origin: fates-collide-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 653
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Will-O-Wisp
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Whip
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,35 @@
+name: Machop
+
+origin: guardians-rising-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 66
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dynamic Chop
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,54 @@
+name: Ursaring
+
+origin: neo-discovery-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Teddiursa
+
+dex: 217
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headpress
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Lariat
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

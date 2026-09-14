@@ -1,0 +1,47 @@
+name: Garbodor
+
+origin: guardians-rising-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Trashalanche
+    text: This attack does 20 damage for each Item card in your opponent's discard pile.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Acid Spray
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

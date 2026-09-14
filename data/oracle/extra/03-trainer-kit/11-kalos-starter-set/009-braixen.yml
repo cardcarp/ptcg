@@ -1,0 +1,47 @@
+name: Braixen
+
+origin: kalos-starter-set-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Fennekin
+
+dex: 654
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Firebreathing
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flame Tail
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

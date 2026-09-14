@@ -1,0 +1,47 @@
+name: Sigilyph
+
+origin: fusion-strike-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 561
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Joust
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Reflect Energy
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

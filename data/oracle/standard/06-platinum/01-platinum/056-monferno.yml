@@ -1,0 +1,43 @@
+name: Monferno
+
+origin: platinum-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Chimchar
+
+dex: 391
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Fire Tail Slap
+    text: Flip a coin. If tails, discard a Fire Energy attached to Monferno.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+errata: []

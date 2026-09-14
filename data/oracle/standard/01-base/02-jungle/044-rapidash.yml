@@ -1,0 +1,46 @@
+name: Rapidash
+
+origin: jungle-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+errata: []

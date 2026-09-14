@@ -1,0 +1,50 @@
+name: Unfezant
+
+origin: unified-minds-176
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Tranquill
+
+dex: 521
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gust
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Downburst
+    text: You may have each player shuffle all cards attached to their Active Pokémon into their deck.
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

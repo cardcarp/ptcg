@@ -1,0 +1,47 @@
+name: Maractus
+
+origin: black-white-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 556
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Constant Rattle
+    text: Flip 3 coins. If 1 of them is heads, this attack does 10 damage. If 2 of them are heads, this attack does 30 damage. If all of them are heads, this attack does 60 damage.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Giga Drain
+    text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

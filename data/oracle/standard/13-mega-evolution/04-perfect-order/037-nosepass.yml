@@ -1,0 +1,35 @@
+name: Nosepass
+
+origin: perfect-order-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 299
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rolling Rocks
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

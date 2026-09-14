@@ -1,0 +1,39 @@
+name: Naclstack
+
+origin: mega-evolution-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Nacli
+
+dex: 933
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Hurl
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

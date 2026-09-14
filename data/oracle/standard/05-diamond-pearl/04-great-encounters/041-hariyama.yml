@@ -1,0 +1,48 @@
+name: Hariyama
+
+origin: great-encounters-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Makuhita
+
+dex: 297
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Palm Strike
+    text: Flip a coin. If heads, this attack does 20 damage plus 40 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Spirited Throw
+    text: If Hariyama has fewer remaining HP than the Defending Pokémon, this attack's base damage is 80.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+retreat: 3
+
+errata: []

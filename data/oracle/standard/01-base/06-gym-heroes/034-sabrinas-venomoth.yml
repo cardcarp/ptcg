@@ -1,0 +1,46 @@
+name: Sabrina's Venomoth
+
+origin: gym-heroes-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Sabrina's Venonat
+
+dex: 49
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Healing Pollen
+    text: Flip 3 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Sonic Distortion
+    text: Flip 2 coins. If 1 or both of them are heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

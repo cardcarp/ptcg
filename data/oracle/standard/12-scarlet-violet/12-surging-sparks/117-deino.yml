@@ -1,0 +1,40 @@
+name: Deino
+
+origin: surging-sparks-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 633
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Stomp Off
+    text: Discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

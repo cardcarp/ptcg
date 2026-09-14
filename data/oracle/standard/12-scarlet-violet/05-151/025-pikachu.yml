@@ -1,0 +1,41 @@
+name: Pikachu
+
+origin: 151-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Charge
+    text: Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Pika Punch
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

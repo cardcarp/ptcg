@@ -1,0 +1,45 @@
+name: Croconaw δ
+
+origin: dragon-frontiers-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scary Face
+    text: Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

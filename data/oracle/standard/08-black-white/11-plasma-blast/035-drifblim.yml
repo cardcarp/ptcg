@@ -1,0 +1,41 @@
+name: Drifblim
+
+origin: plasma-blast-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Drifloon
+
+dex: 426
+
+rule:
+  - type: Ability
+    name: Drifting Balloon
+    text: This Pokémon's attacks cost Colorless less for each of your opponent's Team Plasma Pokémon in play.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Derail
+    text: Discard a Special Energy attached to the Defending Pokémon.
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+errata: []

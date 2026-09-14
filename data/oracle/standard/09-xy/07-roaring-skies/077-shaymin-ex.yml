@@ -1,0 +1,48 @@
+name: Shaymin-EX
+
+origin: roaring-skies-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 492
+
+rule:
+  - type: Ability
+    name: Set Up
+    text: When you play this Pokémon from your hand onto your Bench, you may draw cards until you have 6 cards in your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sky Return
+    text: Return this Pokémon and all cards attached to it to your hand.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

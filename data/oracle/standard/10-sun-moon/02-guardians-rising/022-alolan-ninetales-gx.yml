@@ -1,0 +1,56 @@
+name: Alolan Ninetales-GX
+
+origin: guardians-rising-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Water
+
+hp: 210
+
+preevolution:
+  - Alolan Vulpix
+
+dex: 38
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ice Blade
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Blizzard Edge
+    text: Discard 2 Energy from this Pokémon.
+    damage: 160
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ice Path-GX
+    text: Move all damage counters from this Pokémon to your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

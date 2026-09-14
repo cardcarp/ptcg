@@ -1,0 +1,40 @@
+name: Litleo
+
+origin: cosmic-eclipse-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 667
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flame Tail
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

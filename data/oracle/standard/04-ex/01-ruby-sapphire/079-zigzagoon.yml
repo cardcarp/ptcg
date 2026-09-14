@@ -1,0 +1,36 @@
+name: Zigzagoon
+
+origin: ruby-sapphire-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 263
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

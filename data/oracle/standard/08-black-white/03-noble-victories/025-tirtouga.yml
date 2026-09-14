@@ -1,0 +1,48 @@
+name: Tirtouga
+
+origin: noble-victories-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Restored
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Cover Fossil
+
+dex: 564
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Cover Fossil
+
+errata: []

@@ -1,0 +1,41 @@
+name: Cetoddle
+
+origin: scarlet-violet-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 974
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Icicle
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Sharp Fin
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

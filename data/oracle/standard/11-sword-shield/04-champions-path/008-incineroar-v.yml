@@ -1,0 +1,50 @@
+name: Incineroar V
+
+origin: champions-path-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 727
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Grand Flame
+    text: Attach up to 2 Fire Energy cards from your discard pile to 1 of your Benched Pokémon.
+    damage: 90
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Flare Blitzer
+    text: This Pokémon also does 30 damage to itself.
+    damage: 220
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

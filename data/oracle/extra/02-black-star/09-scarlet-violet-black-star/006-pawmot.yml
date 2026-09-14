@@ -1,0 +1,41 @@
+name: Pawmot
+
+origin: scarlet-violet-black-star-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Pawmo
+
+dex: 923
+
+rule:
+  - type: Ability
+    name: Electrogenesis
+    text: Once during your turn, you may search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electro Paws
+    text: Discard all Energy from this Pokémon.
+    damage: 230
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

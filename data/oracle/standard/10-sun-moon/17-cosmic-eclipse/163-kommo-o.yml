@@ -1,0 +1,46 @@
+name: Kommo-o
+
+origin: cosmic-eclipse-163
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 160
+
+preevolution:
+  - Hakamo-o
+
+dex: 784
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Shout of Power
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 60
+  - type: Attack
+    cost:
+      - Lightning
+      - Fighting
+    name: Scaly Uppercut
+    text: You may discard a Pokémon Tool card from this Pokémon. If you do, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

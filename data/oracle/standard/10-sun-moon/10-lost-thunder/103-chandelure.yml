@@ -1,0 +1,50 @@
+name: Chandelure
+
+origin: lost-thunder-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Lampent
+
+dex: 609
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Cursed Drop
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Vortex of Pain
+    text: This attack does 20 damage for each damage counter on all of your opponent's Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

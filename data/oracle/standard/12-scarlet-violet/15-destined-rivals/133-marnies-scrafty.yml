@@ -1,0 +1,45 @@
+name: Marnie's Scrafty
+
+origin: destined-rivals-133
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Marnie's Scraggy
+
+dex: 560
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Rear Kick
+    damage: 40
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Wild Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

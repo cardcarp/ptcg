@@ -1,0 +1,49 @@
+name: Magnezone
+
+origin: surging-sparks-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 170
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Mighty Magnetism
+    text: Your opponent's Active Pokémon is now Confused. During your opponent's next turn, that Pokémon can't retreat.
+    damage: 80
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Zap Cannon
+    text: During your next turn, this Pokémon can't use Zap Cannon.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

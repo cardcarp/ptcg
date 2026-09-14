@@ -1,0 +1,49 @@
+name: Staravia
+
+origin: majestic-dawn-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Starly
+
+dex: 397
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Drill Peck
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

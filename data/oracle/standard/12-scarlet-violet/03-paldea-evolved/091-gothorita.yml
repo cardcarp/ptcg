@@ -1,0 +1,49 @@
+name: Gothorita
+
+origin: paldea-evolved-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Gothita
+
+dex: 575
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mind Bend
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

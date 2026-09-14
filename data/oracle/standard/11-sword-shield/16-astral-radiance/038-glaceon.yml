@@ -1,0 +1,45 @@
+name: Glaceon
+
+origin: astral-radiance-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 471
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Frost Wall
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Ice Blast
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

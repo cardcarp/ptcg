@@ -1,0 +1,39 @@
+name: Grovyle
+
+origin: celestial-storm-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Treecko
+
+dex: 253
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Leaf Blade
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Wobbuffet
+
+origin: heartgold-soulsilver-black-star-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 202
+
+rule:
+  - type: Ability
+    name: Tenacious Bind
+    text: As long as Wobbuffet is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 20 damage plus 30 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

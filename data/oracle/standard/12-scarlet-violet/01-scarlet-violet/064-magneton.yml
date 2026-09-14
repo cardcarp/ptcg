@@ -1,0 +1,44 @@
+name: Magneton
+
+origin: scarlet-violet-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Lightning Ball
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Explosion
+    text: This Pokémon also does 90 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

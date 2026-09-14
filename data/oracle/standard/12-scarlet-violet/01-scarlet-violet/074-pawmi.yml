@@ -1,0 +1,40 @@
+name: Pawmi
+
+origin: scarlet-violet-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 921
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Zap Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

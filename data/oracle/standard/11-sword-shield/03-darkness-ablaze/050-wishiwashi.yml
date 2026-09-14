@@ -1,0 +1,39 @@
+name: Wishiwashi
+
+origin: darkness-ablaze-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 746
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Deep Sea Swirl
+    text: Shuffle your hand into your deck. Then, draw 8 cards.
+  - type: Attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

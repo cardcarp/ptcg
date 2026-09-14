@@ -1,0 +1,45 @@
+name: Lickilicky
+
+origin: triumphant-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Lickitung
+
+dex: 463
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Licking Shot
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon for each Energy attached to Lickilicky. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Stick and Absorb
+    text: Remove 2 damage counters from Lickilicky. The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

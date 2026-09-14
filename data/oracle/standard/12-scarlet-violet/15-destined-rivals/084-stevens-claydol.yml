@@ -1,0 +1,51 @@
+name: Steven's Claydol
+
+origin: destined-rivals-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Steven's Baltoy
+
+dex: 344
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Eerie Light
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Clay Blast
+    text: Discard all Energy from this Pokémon.
+    damage: 220
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

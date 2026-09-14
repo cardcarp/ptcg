@@ -1,0 +1,56 @@
+name: Hippowdon
+
+origin: rising-rivals-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Hippopotas
+
+dex: 450
+
+rule:
+  - type: Ability
+    name: Sand Cover
+    text: As long as Hippowdon is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon LV.X between turns.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Save Sand
+    text: Does 20 damage plus 10 more damage for each Energy attached to Hippowdon. Before doing damage, you may search your discard pile for a Fighting Energy card and attach it to Hippowdon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Groundquake
+    text: Does 10 damage to each Benched Pokémon that isn't an Evolved Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon).
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

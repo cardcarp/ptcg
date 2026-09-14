@@ -1,0 +1,41 @@
+name: Ekans
+
+origin: fossil-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 23
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Spit Poison
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Wrap
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

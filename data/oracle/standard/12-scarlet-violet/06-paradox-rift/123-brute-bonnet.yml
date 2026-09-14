@@ -1,0 +1,41 @@
+name: Brute Bonnet
+
+origin: paradox-rift-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ancient
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 986
+
+rule:
+  - type: Ability
+    name: Toxic Powder
+    text: Once during your turn, if this Pokémon has an Ancient Booster Energy Capsule attached, you may make both Active Pokémon Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Rampaging Hammer
+    text: During your next turn, this Pokémon can't attack.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

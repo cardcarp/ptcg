@@ -1,0 +1,36 @@
+name: Piplup
+
+origin: dark-explorers-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 393
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Fury Attack
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

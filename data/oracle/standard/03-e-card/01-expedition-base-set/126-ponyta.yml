@@ -1,0 +1,40 @@
+name: Ponyta
+
+origin: expedition-base-set-126
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 77
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

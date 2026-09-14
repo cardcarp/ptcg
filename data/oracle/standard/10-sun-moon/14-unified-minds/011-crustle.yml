@@ -1,0 +1,44 @@
+name: Crustle
+
+origin: unified-minds-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Dwebble
+
+dex: 558
+
+rule:
+  - type: Ability
+    name: Shell Armor
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Fury Cutter
+    text: Flip 3 coins. If 1 of them is heads, this attack does 40 more damage. If 2 of them are heads, this attack does 80 more damage. If all of them are heads, this attack does 150 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

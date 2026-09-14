@@ -1,0 +1,46 @@
+name: Slowbro
+
+origin: unbroken-bonds-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Yawn
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Three Strikes
+    text: Flip 3 coins. This attack does 100 damage for each heads. If all of them are tails, you lose this game.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

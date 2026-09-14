@@ -1,0 +1,42 @@
+name: Hisuian Zorua
+
+origin: lost-origin-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 570
+
+rule:
+  - type: Attack
+    name: Collect
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mumble
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

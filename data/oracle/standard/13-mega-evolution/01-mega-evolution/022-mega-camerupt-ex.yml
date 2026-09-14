@@ -1,0 +1,53 @@
+name: Mega Camerupt ex
+
+origin: mega-evolution-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - MEGA
+  - ex
+
+type:
+  - Fire
+
+hp: 340
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Roasting Heat
+    text: If your opponent's Active Pokémon is Burned, this attack does 160 more damage.
+    damage: 80
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Volcanic Meteor
+    text: Discard 2 Energy from this Pokémon.
+    damage: 280
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

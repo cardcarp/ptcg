@@ -1,0 +1,42 @@
+name: Raging Bolt ex
+
+origin: scarlet-violet-black-star-145
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+  - Ancient
+
+type:
+  - Dragon
+
+hp: 240
+
+dex: 1021
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Burst Roar
+    text: Discard your hand and draw 6 cards.
+  - type: Attack
+    cost:
+      - Lightning
+      - Fighting
+    name: Bellowing Thunder
+    text: You may discard any amount of Basic Energy from your Pokémon. This attack does 70 damage for each card you discarded in this way.
+    damage: 70
+    modifier: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

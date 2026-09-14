@@ -1,0 +1,43 @@
+name: Toxtricity
+
+origin: fusion-strike-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Fusion Strike
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Toxel
+
+dex: 849
+
+rule:
+  - type: Ability
+    name: Maximum Downer
+    text: If all your Pokémon in play are Fusion Strike Pokémon, your opponent's Pokémon VMAX in play get -30 HP.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Head Bolt
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

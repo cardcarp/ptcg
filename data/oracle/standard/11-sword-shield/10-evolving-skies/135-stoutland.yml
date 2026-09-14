@@ -1,0 +1,44 @@
+name: Stoutland
+
+origin: evolving-skies-135
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 160
+
+preevolution:
+  - Herdier
+
+dex: 508
+
+rule:
+  - type: Ability
+    name: Intimidating Fang
+    text: As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 100 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

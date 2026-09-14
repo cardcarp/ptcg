@@ -1,0 +1,42 @@
+name: Jigglypuff
+
+origin: fusion-strike-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 39
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Pound
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Let's All Rollout
+    text: This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

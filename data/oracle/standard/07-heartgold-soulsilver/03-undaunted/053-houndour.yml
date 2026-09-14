@@ -1,0 +1,40 @@
+name: Houndour
+
+origin: undaunted-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Sharp Fang
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Vullaby
+
+origin: fusion-strike-172
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 629
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Razor Wing
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

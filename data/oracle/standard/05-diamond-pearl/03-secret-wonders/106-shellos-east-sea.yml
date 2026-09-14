@@ -1,0 +1,39 @@
+name: Shellos East Sea
+
+origin: secret-wonders-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 422
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Shell Hunting
+    text: Search your deck for up to 2 in any combination of Shellos West Sea and Shellos East Sea and put them on your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Water
+    name: Sprinkle Water
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 2
+
+errata: []

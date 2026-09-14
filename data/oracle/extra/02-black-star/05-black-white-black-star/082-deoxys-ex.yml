@@ -1,0 +1,45 @@
+name: Deoxys-EX
+
+origin: black-white-black-star-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+  - Team Plasma
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 386
+
+rule:
+  - type: Ability
+    name: Power Connect
+    text: Your Team Plasma Pokémon's attacks (excluding Deoxys-EX) do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Helix Force
+    text: If this Pokémon has any Plasma Energy attached to it, this attack does 30 more damage for each Energy attached to the Defending Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

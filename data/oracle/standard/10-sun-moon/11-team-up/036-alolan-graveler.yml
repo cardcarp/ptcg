@@ -1,0 +1,48 @@
+name: Alolan Graveler
+
+origin: team-up-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Alolan Geodude
+
+dex: 75
+
+rule:
+  - type: Attack
+    name: Rollout
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Electroslug
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

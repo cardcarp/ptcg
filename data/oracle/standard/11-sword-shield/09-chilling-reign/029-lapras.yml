@@ -1,0 +1,41 @@
+name: Lapras
+
+origin: chilling-reign-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 131
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Wintry Call
+    text: Search your deck for up to 2 Melony cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

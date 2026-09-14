@@ -1,0 +1,45 @@
+name: Toxtricity
+
+origin: obsidian-flames-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Toxel
+
+dex: 849
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Leer
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Loud Mix
+    text: This attack does 30 more damage for each different type of Pokémon on your Bench.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

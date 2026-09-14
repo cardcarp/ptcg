@@ -1,0 +1,49 @@
+name: Duskull
+
+origin: stormfront-002sh
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 355
+
+rule:
+  - type: Attack
+    name: Counting Song
+    text: Put up to 3 damage counters on Duskull. Then, put that many damage counters on the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Ram
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Night Bind
+    text: Flip a coin. If heads, your opponent can't attach any Energy cards from his or her hand to the Active Pokémon during his or her next turn.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Simisear
+
+origin: burning-shadows-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Pansear
+
+dex: 514
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare Recharge
+    text: Attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

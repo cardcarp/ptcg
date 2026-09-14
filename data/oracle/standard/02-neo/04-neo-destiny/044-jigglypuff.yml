@@ -1,0 +1,41 @@
+name: Jigglypuff
+
+origin: neo-destiny-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 39
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Expand
+    text: All damage done to Jigglypuff during your opponent's next turn is reduced by 10 (after applying Weakness and Resistance).
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

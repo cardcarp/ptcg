@@ -1,0 +1,40 @@
+name: Rotom
+
+origin: scarlet-violet-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 479
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Junk Hunt
+    text: Put an Item card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

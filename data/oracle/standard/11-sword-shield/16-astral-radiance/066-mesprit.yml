@@ -1,0 +1,43 @@
+name: Mesprit
+
+origin: astral-radiance-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 481
+
+rule:
+  - type: Ability
+    name: Mental Shroud
+    text: If you have Uxie and Azelf in play, each of your Pokémon has no Weakness.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Zen Headbutt
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

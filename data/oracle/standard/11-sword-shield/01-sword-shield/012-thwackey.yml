@@ -1,0 +1,46 @@
+name: Thwackey
+
+origin: sword-shield-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Grookey
+
+dex: 811
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Taunt
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Double Hit
+    text: Flip 2 coins. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

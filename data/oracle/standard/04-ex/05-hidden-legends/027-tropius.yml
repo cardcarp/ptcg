@@ -1,0 +1,40 @@
+name: Tropius
+
+origin: hidden-legends-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 357
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Fruition
+    text: Move 1 Energy card attached to Tropius to another of your Pokémon and remove 4 damage counters from that Pokémon (all if there are less than 4).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

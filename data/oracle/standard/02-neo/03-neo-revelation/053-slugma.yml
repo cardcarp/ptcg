@@ -1,0 +1,41 @@
+name: Slugma
+
+origin: neo-revelation-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 218
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Magma Ring
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

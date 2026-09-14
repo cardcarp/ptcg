@@ -1,0 +1,50 @@
+name: M Diancie-EX
+
+origin: xy-black-star-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Fairy
+
+hp: 190
+
+preevolution:
+  - Diancie-EX
+
+dex: 719
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Diamond Force
+    text: During your opponent's next turn, prevent all damage done to each of your Pokémon from your opponent's Pokémon-EX. (If this Pokémon is no longer your Active Pokémon, this effect ends.)
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

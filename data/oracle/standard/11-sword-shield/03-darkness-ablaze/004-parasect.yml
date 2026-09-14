@@ -1,0 +1,45 @@
+name: Parasect
+
+origin: darkness-ablaze-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Paras
+
+dex: 47
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Mushroom Tackle
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Solar Beam
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

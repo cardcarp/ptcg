@@ -1,0 +1,45 @@
+name: Dondozo
+
+origin: scarlet-violet-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 160
+
+dex: 977
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Release Rage
+    text: This attack does 50 damage for each Tatsugiri in your discard pile.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Heavy Splash
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

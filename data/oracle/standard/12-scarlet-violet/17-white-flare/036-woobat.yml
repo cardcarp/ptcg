@@ -1,0 +1,39 @@
+name: Woobat
+
+origin: white-flare-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 527
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Heart Stamp
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

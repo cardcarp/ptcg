@@ -1,0 +1,44 @@
+name: Ho-Oh
+
+origin: pop-series-5-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 250
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Wing
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Blast
+    text: Discard a Fire Energy attached to Ho-Oh.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

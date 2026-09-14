@@ -1,0 +1,40 @@
+name: Sneasel
+
+origin: brilliant-stars-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 215
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Scratch
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

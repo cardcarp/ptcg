@@ -1,0 +1,42 @@
+name: Growlithe
+
+origin: rising-rivals-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 58
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stoke
+    text: Search your deck for a Fire Energy card and attach it to Growlithe. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Growlithe does 10 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,50 @@
+name: Kingdra
+
+origin: team-rocket-returns-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: Ability
+    name: Dragon Veil
+    text: As long as Kingdra is in play, each of your Active Pokémon has no Weakness.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hyper Whirlpool
+    text: Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aqua Sonic
+    text: This attack's damage is not affected by Resistance.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

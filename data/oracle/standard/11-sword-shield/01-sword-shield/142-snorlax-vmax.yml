@@ -1,0 +1,44 @@
+name: Snorlax VMAX
+
+origin: sword-shield-142
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Colorless
+
+hp: 340
+
+preevolution:
+  - Snorlax V
+
+dex: 143
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: G-Max Fall
+    text: This attack does 30 more damage for each of your Benched Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

@@ -1,0 +1,38 @@
+name: Salamence
+
+origin: evolving-skies-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 170
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: Ability
+    name: Intimidating Roar
+    text: Once during your turn, you may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+    name: Fierce Dragon
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+retreat: 2
+
+errata: []

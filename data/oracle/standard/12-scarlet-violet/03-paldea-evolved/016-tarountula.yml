@@ -1,0 +1,35 @@
+name: Tarountula
+
+origin: paldea-evolved-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 917
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Bind Down
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

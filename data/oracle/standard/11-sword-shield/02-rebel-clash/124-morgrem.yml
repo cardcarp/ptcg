@@ -1,0 +1,45 @@
+name: Morgrem
+
+origin: rebel-clash-124
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Impidimp
+
+dex: 860
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: False Surrender
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

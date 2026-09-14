@@ -1,0 +1,35 @@
+name: Froakie
+
+origin: stellar-crown-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 656
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Rain Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

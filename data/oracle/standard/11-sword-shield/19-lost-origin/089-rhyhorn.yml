@@ -1,0 +1,37 @@
+name: Rhyhorn
+
+origin: lost-origin-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 111
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: This Pokémon also does 20 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

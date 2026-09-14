@@ -1,0 +1,36 @@
+name: Shinx
+
+origin: rebel-clash-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 403
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Under Pressure
+    text: If your opponent has 3 or fewer Prize cards remaining, this attack does 50 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

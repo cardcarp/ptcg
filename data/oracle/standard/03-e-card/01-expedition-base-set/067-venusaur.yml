@@ -1,0 +1,47 @@
+name: Venusaur
+
+origin: expedition-base-set-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Ivysaur
+
+dex: 3
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Leech Seed
+    text: If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Venusaur, if it has any.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Fury Strikes
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Sudowoodo
+
+origin: paldea-evolved-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 185
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Hit and Hide
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Elbow Strike
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

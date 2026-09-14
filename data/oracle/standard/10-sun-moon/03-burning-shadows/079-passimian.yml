@@ -1,0 +1,42 @@
+name: Passimian
+
+origin: burning-shadows-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 766
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Punch
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Intentional Grounding
+    text: Discard a Pokémon Tool card from your hand. If you don't, this attack does nothing.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

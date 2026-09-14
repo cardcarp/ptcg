@@ -1,0 +1,47 @@
+name: Zeraora
+
+origin: team-up-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 807
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Wild Charge
+    text: This Pokémon does 20 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

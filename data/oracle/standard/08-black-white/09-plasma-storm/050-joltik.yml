@@ -1,0 +1,36 @@
+name: Joltik
+
+origin: plasma-storm-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 595
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Jump On
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

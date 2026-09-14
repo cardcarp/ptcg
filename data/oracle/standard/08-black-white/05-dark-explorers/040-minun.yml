@@ -1,0 +1,39 @@
+name: Minun
+
+origin: dark-explorers-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 312
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Negative Ion
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electrishower
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

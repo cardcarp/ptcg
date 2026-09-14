@@ -1,0 +1,39 @@
+name: Mesprit
+
+origin: plasma-blast-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 481
+
+rule:
+  - type: Ability
+    name: Mental Shroud
+    text: If you have Uxie and Azelf in play, each of your Pokémon has no Weakness.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psyshot
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

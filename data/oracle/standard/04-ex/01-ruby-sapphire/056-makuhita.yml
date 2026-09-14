@@ -1,0 +1,40 @@
+name: Makuhita
+
+origin: ruby-sapphire-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 296
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slap Push
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lunge Out
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

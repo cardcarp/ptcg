@@ -1,0 +1,48 @@
+name: Eelektross
+
+origin: black-bolt-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 160
+
+preevolution:
+  - Eelektrik
+
+dex: 604
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Fang
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 60
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Buzz Flip
+    text: Flip 4 coins. This attack does 100 damage for each heads.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

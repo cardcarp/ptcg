@@ -1,0 +1,54 @@
+name: Donphan
+
+origin: secret-wonders-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Phanpy
+
+dex: 232
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rapid Spin
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Donphan with 1 of your Benched Pokémon, if any.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Bash In
+    text: If the Defending Pokémon has a Pokémon Tool card attached to it, this attack does 70 damage plus 60 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

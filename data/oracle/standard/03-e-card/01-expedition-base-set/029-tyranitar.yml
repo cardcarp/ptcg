@@ -1,0 +1,50 @@
+name: Tyranitar
+
+origin: expedition-base-set-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: Ability
+    name: Dark Aura
+    text: All Energy attached to Tyranitar is Darkness Energy instead of its usual type.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Stamp
+    text: Flip a coin. If heads, this attack does 50 damage plus 10 more damage and does 10 damage to each of your opponent's Benched Pokémon, if any. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

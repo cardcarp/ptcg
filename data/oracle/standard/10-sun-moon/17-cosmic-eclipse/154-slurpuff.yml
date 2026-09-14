@@ -1,0 +1,48 @@
+name: Slurpuff
+
+origin: cosmic-eclipse-154
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 110
+
+preevolution:
+  - Swirlix
+
+dex: 685
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Olfactory Enchantment
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Fairy
+    name: Sweet Panic
+    text: If your opponent's Active Pokémon isn't Confused, this attack does nothing.
+    damage: 110
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

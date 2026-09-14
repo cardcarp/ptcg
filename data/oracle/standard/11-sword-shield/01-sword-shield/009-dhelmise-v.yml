@@ -1,0 +1,48 @@
+name: Dhelmise V
+
+origin: sword-shield-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 220
+
+dex: 781
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Anchor Anger
+    text: If any of your Grass Pokémon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Giga Hammer
+    text: During your next turn, this Pokémon can't use Giga Hammer.
+    damage: 200
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

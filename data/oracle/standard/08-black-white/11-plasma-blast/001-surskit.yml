@@ -1,0 +1,34 @@
+name: Surskit
+
+origin: plasma-blast-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 283
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Sweet Scent
+    text: Heal 20 damage from 1 of your Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

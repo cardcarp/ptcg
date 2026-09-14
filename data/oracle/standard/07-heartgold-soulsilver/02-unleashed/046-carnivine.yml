@@ -1,0 +1,44 @@
+name: Carnivine
+
+origin: unleashed-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 455
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Drawup Power
+    text: Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+    name: Spit Up
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

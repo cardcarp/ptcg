@@ -1,0 +1,36 @@
+name: Mew
+
+origin: triumphant-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Prime
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 151
+
+rule:
+  - type: Ability
+    name: Lost Link
+    text: Mew can use the attacks of all Pokémon in the Lost Zone (both yours and your opponent's). (You still need the necessary Energy to use each attack.)
+  - type: Attack
+    cost:
+      - Psychic
+    name: See Off
+    text: Search your deck for 1 Pokémon and put it in the Lost Zone. Shuffle your deck afterward.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+errata: []

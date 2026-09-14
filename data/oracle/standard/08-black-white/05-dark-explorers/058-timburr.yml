@@ -1,0 +1,41 @@
+name: Timburr
+
+origin: dark-explorers-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 532
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Low Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

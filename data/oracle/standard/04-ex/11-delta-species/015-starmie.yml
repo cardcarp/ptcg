@@ -1,0 +1,49 @@
+name: Starmie δ
+
+origin: delta-species-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Water
+  - Metal
+
+hp: 60
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: Ability
+    name: Metal Navigation
+    text: Once during your turn (before your attack), you may search your deck for a Metal Energy card and attach it to Starmie. Shuffle your deck afterward. This power can't be used if Starmie is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+    name: Collect
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Metal
+    name: Energy Loop
+    text: Return an Energy card attached to Starmie to your hand.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+rulebox:
+  - This Pokémon is both Water Metal type.
+
+errata: []

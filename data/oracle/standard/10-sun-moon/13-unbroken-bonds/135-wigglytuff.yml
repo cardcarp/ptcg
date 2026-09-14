@@ -1,0 +1,50 @@
+name: Wigglytuff
+
+origin: unbroken-bonds-135
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 110
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Orb Polish
+    text: Put 3 Energy cards from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sleepy Ball
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

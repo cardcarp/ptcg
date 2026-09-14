@@ -1,0 +1,43 @@
+name: Meloetta
+
+origin: legendary-treasures-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 648
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Magical Dance
+    text: Heal 30 damage from each of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Shooting Star Pirouette
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

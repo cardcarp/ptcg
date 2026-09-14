@@ -1,0 +1,44 @@
+name: Exeggutor
+
+origin: jungle-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Teleport
+    text: Switch Exeggutor with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Big Eggsplosion
+    text: Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

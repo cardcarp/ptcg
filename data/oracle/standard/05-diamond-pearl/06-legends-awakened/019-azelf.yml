@@ -1,0 +1,38 @@
+name: Azelf
+
+origin: legends-awakened-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 482
+
+rule:
+  - type: Ability
+    name: Time Walk
+    text: Once during your turn, when you put Azelf from your hand onto your Bench, you may look at all of your face-down Prize cards. If you do, you may choose 1 Pokémon you find there, show it to your opponent, and put it into your hand. Then, choose 1 card in your hand and put it as a Prize card face down.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Lock Up
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

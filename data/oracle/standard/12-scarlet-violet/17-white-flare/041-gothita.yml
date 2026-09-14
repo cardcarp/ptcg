@@ -1,0 +1,39 @@
+name: Gothita
+
+origin: white-flare-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 574
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Super Psy Bolt
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

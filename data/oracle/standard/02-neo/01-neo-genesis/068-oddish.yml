@@ -1,0 +1,41 @@
+name: Oddish
+
+origin: neo-genesis-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 43
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hide
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Oddish.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Absorb
+    text: Remove a number of damage counters from Oddish equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Oddish has fewer damage counters than that, remove all of them.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

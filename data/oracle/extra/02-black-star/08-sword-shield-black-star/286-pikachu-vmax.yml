@@ -1,0 +1,46 @@
+name: Pikachu VMAX
+
+origin: sword-shield-black-star-286
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Lightning
+
+hp: 310
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Tail Charge
+    text: Attach up to 3 Lightning Energy cards from your discard pile to 1 of your Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: G-Max Thunder
+    damage: 250
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

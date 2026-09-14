@@ -1,0 +1,43 @@
+name: Lurantis
+
+origin: destined-rivals-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Fomantis
+
+dex: 754
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Razor Leaf
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+    name: Petal Blade Dance
+    text: Discard 2 Basic Grass Energy cards from your hand. If you can't discard 2 cards in this way, this attack does nothing.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

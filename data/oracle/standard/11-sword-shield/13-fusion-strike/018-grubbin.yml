@@ -1,0 +1,42 @@
+name: Grubbin
+
+origin: fusion-strike-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 736
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energize
+    text: Attach a Lightning Energy card from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

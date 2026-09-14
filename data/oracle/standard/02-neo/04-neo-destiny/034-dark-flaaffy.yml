@@ -1,0 +1,45 @@
+name: Dark Flaaffy
+
+origin: neo-destiny-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 60
+
+preevolution:
+  - Mareep
+
+dex: 180
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: High Voltage
+    text: Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn.
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Stun Wave
+    text: If the Defending Pokémon has a Pokémon Power, that power stops working until the end of your next turn.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

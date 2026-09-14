@@ -1,0 +1,47 @@
+name: Hisuian Decidueye VSTAR
+
+origin: astral-radiance-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Fighting
+
+hp: 270
+
+preevolution:
+  - Hisuian Decidueye V
+
+dex: 724
+
+rule:
+  - type: Ability
+    name: Star of Fortune
+    text: During your turn, you may draw cards until you have 8 cards in your hand. (You can't use more than 1 VSTAR Power in a game.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Somersault Feathers
+    text: You may discard up to 3 Energy cards from your hand. This attack does 30 more damage for each card you discarded in this way.
+    damage: 160
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

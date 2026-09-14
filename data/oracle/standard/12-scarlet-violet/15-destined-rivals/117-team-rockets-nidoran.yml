@@ -1,0 +1,40 @@
+name: Team Rocket's Nidoran♂
+
+origin: destined-rivals-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 32
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Pierce
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Hammer In
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

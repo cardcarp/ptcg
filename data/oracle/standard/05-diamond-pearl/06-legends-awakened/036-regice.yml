@@ -1,0 +1,40 @@
+name: Regice
+
+origin: legends-awakened-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 378
+
+rule:
+  - type: Ability
+    name: Regi Move
+    text: Once during your turn (before your attack), you may use this power. Discard 2 cards from your hand and choose 1 of your opponent's Active Pokémon that isn't an Evolved Pokémon. Then, your opponent switches that Pokémon with 1 of his or her Benched Pokémon. This power can't be used if Regice is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Ice Reflect
+    text: If Regice was damaged by an attack during your opponent's last turn, the Defending Pokémon is now Paralyzed.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

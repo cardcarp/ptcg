@@ -1,0 +1,48 @@
+name: Latios-EX
+
+origin: xy-black-star-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 170
+
+dex: 381
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Fast Raid
+    text: If you go first, you can use this attack on your first turn.
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Light Pulse
+    text: Prevent all effects of your opponent's attacks, except damage, done to this Pokémon during your opponent's next turn.
+    damage: 110
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

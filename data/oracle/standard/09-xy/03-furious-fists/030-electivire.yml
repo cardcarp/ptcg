@@ -1,0 +1,53 @@
+name: Electivire
+
+origin: furious-fists-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Electabuzz
+
+dex: 466
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Tag Team Spark
+    text: This attack does 20 more damage for each Energy attached to your Magmortar.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Gigavolt
+    text: Flip a coin. If heads, this attack does 30 more damage. If tails, your opponent's Active Pokémon is now Paralyzed.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

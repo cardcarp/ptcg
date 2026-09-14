@@ -1,0 +1,45 @@
+name: Combusken
+
+origin: darkness-ablaze-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Torchic
+
+dex: 256
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Smash Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Beak
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

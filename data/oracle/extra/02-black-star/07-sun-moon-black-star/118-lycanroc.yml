@@ -1,0 +1,47 @@
+name: Lycanroc
+
+origin: sun-moon-black-star-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dangerous Rogue
+    text: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Accelerock
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

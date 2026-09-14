@@ -1,0 +1,44 @@
+name: Toxtricity
+
+origin: rebel-clash-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Toxel
+
+dex: 849
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Poison Shout
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Your opponent's Active Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

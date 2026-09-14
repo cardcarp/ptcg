@@ -1,0 +1,37 @@
+name: Larvitar
+
+origin: lost-thunder-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 246
+
+rule:
+  - type: Ability
+    name: Submerge
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

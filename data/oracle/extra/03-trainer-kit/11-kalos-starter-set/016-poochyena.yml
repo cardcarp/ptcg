@@ -1,0 +1,40 @@
+name: Poochyena
+
+origin: kalos-starter-set-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 261
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

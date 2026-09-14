@@ -1,0 +1,40 @@
+name: Pidgey δ
+
+origin: holon-phantoms-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 16
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Wing Attack
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

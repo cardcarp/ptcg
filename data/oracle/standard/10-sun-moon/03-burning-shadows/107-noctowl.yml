@@ -1,0 +1,51 @@
+name: Noctowl
+
+origin: burning-shadows-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Hoothoot
+
+dex: 164
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnoblast
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Night Raid
+    text: Your opponent reveals their hand. Discard a Pokémon from it.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

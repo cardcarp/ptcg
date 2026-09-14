@@ -1,0 +1,40 @@
+name: Tangela
+
+origin: unbroken-bonds-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 114
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Tangle Drag
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gentle Slap
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

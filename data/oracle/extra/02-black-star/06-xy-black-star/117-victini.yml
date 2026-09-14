@@ -1,0 +1,41 @@
+name: Victini
+
+origin: xy-black-star-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 494
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Assist
+    text: Flip a coin. If heads, attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Victory Ball
+    text: Discard a Fire Energy attached to this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

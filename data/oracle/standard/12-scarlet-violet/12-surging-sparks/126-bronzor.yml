@@ -1,0 +1,42 @@
+name: Bronzor
+
+origin: surging-sparks-126
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 436
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Shield Attack
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

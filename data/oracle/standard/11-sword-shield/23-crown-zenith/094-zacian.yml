@@ -1,0 +1,48 @@
+name: Zacian
+
+origin: crown-zenith-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 888
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Battle Legion
+    text: This attack does 10 more damage for each of your Benched Pokémon. This attack's damage isn't affected by Weakness or by any effects on your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Slicing Blade
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

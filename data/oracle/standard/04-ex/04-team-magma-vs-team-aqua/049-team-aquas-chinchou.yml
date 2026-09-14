@@ -1,0 +1,45 @@
+name: Team Aqua's Chinchou
+
+origin: team-magma-vs-team-aqua-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 170
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Wave Splash
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

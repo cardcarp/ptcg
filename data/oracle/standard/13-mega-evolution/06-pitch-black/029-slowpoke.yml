@@ -1,0 +1,45 @@
+name: Slowpoke
+
+origin: pitch-black-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 79
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: All-You-Can-Yeet
+    text: You may discard any number of cards from your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

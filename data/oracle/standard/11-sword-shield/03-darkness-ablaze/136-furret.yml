@@ -1,0 +1,43 @@
+name: Furret
+
+origin: darkness-ablaze-136
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Sentret
+
+dex: 162
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Feelin' Fine
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Smash
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,48 @@
+name: Simisear V
+
+origin: brilliant-stars-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 210
+
+dex: 514
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Bursting Power
+    text: You may attach up to 2 basic Energy cards from your hand to your Pokémon in any way you like.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flare Juggling
+    text: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

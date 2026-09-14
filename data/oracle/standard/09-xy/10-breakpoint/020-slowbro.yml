@@ -1,0 +1,46 @@
+name: Slowbro
+
+origin: breakpoint-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Careless Head
+    text: Flip a coin. If heads, this attack does 50 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Walk-Off Homer
+    text: If you use this attack when you have only 1 Prize card left, you win this game.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

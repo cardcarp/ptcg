@@ -1,0 +1,49 @@
+name: Tyranitar δ
+
+origin: delta-species-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Fire
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: Ability
+    name: Crush Draw
+    text: Once during your turn (before your attack), you may reveal the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon. If not, put the card back on top of your deck. This power can't be used if Tyranitar is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Fire
+      - Metal
+      - Colorless
+    name: Delta Crush
+    text: You may discard an Energy card attached to Tyranitar. If you do, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Fire Metal type.
+
+errata: []

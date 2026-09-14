@@ -1,0 +1,54 @@
+name: Rhyperior
+
+origin: supreme-victors-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Rhydon
+
+dex: 464
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Raging Drill
+    text: Does 30 damage plus 10 more damage for each damage counter on Rhyperior.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Deep Scrap
+    text: If the Defending Pokémon would be Knocked Out by this attack, discard the top 3 cards from your opponent's deck.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

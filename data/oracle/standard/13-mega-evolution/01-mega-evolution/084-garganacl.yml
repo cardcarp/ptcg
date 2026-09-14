@@ -1,0 +1,42 @@
+name: Garganacl
+
+origin: mega-evolution-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Naclstack
+
+dex: 934
+
+rule:
+  - type: Ability
+    name: Powerful a-Salt
+    text: Attacks used by your Fighting Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Hammer In
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

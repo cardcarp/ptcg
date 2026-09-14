@@ -1,0 +1,42 @@
+name: Jumpluff
+
+origin: lost-thunder-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Skiploom
+
+dex: 189
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Lost March
+    text: This attack does 20 damage for each of your Pokémon, except ◇ (Prism Star) Pokémon, in the Lost Zone.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

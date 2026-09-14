@@ -1,0 +1,35 @@
+name: Cramorant
+
+origin: shining-fates-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 845
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Spit-Out Shot
+    text: This attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

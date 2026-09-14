@@ -1,0 +1,38 @@
+name: Solrock
+
+origin: pokemon-go-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 338
+
+rule:
+  - type: Ability
+    name: Sun Energy
+    text: Once during your turn, you may attach a Psychic Energy card from your discard pile to 1 of your Lunatone.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Spinning Attack
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

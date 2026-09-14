@@ -1,0 +1,44 @@
+name: Nuzleaf
+
+origin: next-destinies-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Surprise Punch
+    text: Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

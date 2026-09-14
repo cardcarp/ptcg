@@ -1,0 +1,48 @@
+name: Serperior
+
+origin: mega-evolution-black-star-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 160
+
+preevolution:
+  - Servine
+
+dex: 497
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Regal Command
+    text: This attack does 20 damage for each of your Pokémon in play.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Solar Coiling
+    text: If Rosa's Encouragement is in your discard pile, this attack does 150 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

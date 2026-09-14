@@ -1,0 +1,49 @@
+name: Vigoroth
+
+origin: ruby-sapphire-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Slakoth
+
+dex: 288
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 20 damage plus 10 more damage for each damage counter on Vigoroth.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

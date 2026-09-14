@@ -1,0 +1,51 @@
+name: M Gengar-EX
+
+origin: xy-black-star-166
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Psychic
+
+hp: 210
+
+preevolution:
+  - Gengar-EX
+
+dex: 94
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Hollow Geist
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

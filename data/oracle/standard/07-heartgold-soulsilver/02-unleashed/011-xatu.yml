@@ -1,0 +1,52 @@
+name: Xatu
+
+origin: unleashed-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psywave
+    text: Does 20 damage times the amount of Energy attached to the Defending Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

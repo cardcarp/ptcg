@@ -1,0 +1,45 @@
+name: Empoleon V
+
+origin: sword-shield-black-star-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 210
+
+dex: 395
+
+rule:
+  - type: Ability
+    name: Emperor's Eyes
+    text: As long as this Pokémon is in the Active Spot, your opponent's Basic Pokémon in play have no Abilities, except for Pokémon with a Rule Box (Pokémon V, Pokémon-GX, etc. have Rule Boxes).
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Swirling Slice
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

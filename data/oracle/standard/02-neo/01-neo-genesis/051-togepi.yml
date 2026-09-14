@@ -1,0 +1,36 @@
+name: Togepi
+
+origin: neo-genesis-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 175
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poison Barb
+    text: The Defending Pokémon is now Poisoned.
+    damage: 10
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

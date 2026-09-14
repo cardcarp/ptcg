@@ -1,0 +1,45 @@
+name: Musharna
+
+origin: black-white-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Munna
+
+dex: 518
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hypnotic Ray
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Dream Eater
+    text: If the Defending Pokémon is not Asleep, this attack does nothing.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

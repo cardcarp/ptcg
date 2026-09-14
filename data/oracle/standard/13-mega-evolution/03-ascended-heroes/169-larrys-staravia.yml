@@ -1,0 +1,48 @@
+name: Larry's Staravia
+
+origin: ascended-heroes-169
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Larry's Starly
+
+dex: 397
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Razor Wing
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

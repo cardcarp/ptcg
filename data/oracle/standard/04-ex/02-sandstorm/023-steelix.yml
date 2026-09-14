@@ -1,0 +1,54 @@
+name: Steelix
+
+origin: sandstorm-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Steelix.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Spinning Tail
+    text: Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

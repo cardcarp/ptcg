@@ -1,0 +1,39 @@
+name: Gastly
+
+origin: skyridge-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 92
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Haunt
+    text: Put a damage counter on the Defending Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

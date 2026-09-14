@@ -1,0 +1,53 @@
+name: Golem
+
+origin: secret-wonders-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Graveler
+
+dex: 76
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Double Throw
+    text: Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Megaton Rock
+    text: You may do 40 damage instead of 80 to the Defending Pokémon. If you do, during your opponent's next turn, any damage done to Golem by attacks is reduced by 40 (after applying Weakness and Resistance).
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

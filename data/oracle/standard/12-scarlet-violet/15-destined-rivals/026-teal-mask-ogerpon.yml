@@ -1,0 +1,42 @@
+name: Teal Mask Ogerpon
+
+origin: destined-rivals-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 1017
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Grass Kagura
+    text: Search your deck for a Basic Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Ogre's Hammer
+    text: During your next turn, this Pokémon can't use Ogre's Hammer.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

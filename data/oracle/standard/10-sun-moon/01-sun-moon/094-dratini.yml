@@ -1,0 +1,39 @@
+name: Dratini
+
+origin: sun-moon-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 147
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Signs of Evolution
+    text: Search your deck for a Dratini, a Dragonair, and a Dragonite, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Tail Smack
+    damage: 10
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,41 @@
+name: Larvesta
+
+origin: plasma-blast-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 636
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    text: Discard an Energy attached to this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

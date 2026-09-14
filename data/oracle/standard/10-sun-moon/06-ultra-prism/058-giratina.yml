@@ -1,0 +1,50 @@
+name: Giratina ◇
+
+origin: ultra-prism-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Prism Star
+
+type:
+  - Psychic
+
+hp: 160
+
+dex: 487
+
+rule:
+  - type: Ability
+    name: Chaotic Star
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may attach 2 Psychic Energy cards from your hand to it.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Crisis Dive
+    text: Discard 2 Energy from this Pokémon.
+    damage: 160
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+errata: []

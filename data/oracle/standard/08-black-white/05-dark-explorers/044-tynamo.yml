@@ -1,0 +1,35 @@
+name: Tynamo
+
+origin: dark-explorers-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 602
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Charge Beam
+    text: Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,52 @@
+name: Electrode
+
+origin: roaring-skies-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Continuous Tumble
+    text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Energy Bomb
+    text: You may move all Energy from this Pokémon to your Benched Pokémon in any way you like.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Team Magma's Houndour
+
+origin: team-magma-vs-team-aqua-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Shock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

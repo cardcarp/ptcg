@@ -1,0 +1,56 @@
+name: Flygon-GX
+
+origin: cosmic-eclipse-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - GX
+
+type:
+  - Fighting
+
+hp: 240
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: Ability
+    name: Dusty Defense
+    text: As long as this Pokémon is your Active Pokémon, all of your Pokémon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Desert Hurricane
+    text: If there is any Stadium card in play, this attack does 120 more damage. Then, discard that Stadium card.
+    damage: 120
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Sonic Edge-GX
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 220
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,46 @@
+name: Tropius
+
+origin: mysterious-treasures-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 357
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Bonus Leaf
+    text: Remove 3 damage counters from each of your Benched Pokémon that has any Grass Energy attached to it.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Whirlwind
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

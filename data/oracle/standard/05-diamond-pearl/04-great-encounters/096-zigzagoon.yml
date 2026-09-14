@@ -1,0 +1,41 @@
+name: Zigzagoon
+
+origin: great-encounters-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 263
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pull Out
+    text: Search your discard pile for any 1 card, show it to your opponent, and put it on top of your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Stab
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

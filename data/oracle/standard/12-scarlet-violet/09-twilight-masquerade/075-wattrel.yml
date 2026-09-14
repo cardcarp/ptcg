@@ -1,0 +1,40 @@
+name: Wattrel
+
+origin: twilight-masquerade-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 940
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

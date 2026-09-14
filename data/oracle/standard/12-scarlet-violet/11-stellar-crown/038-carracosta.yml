@@ -1,0 +1,41 @@
+name: Carracosta
+
+origin: stellar-crown-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Tirtouga
+
+dex: 565
+
+rule:
+  - type: Ability
+    name: Primal Knowledge
+    text: Attacks used by your Pokémon do 30 more damage to your opponent's Active Evolution Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Tidal Wave
+    damage: 150
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

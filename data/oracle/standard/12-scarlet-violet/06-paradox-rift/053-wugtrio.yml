@@ -1,0 +1,43 @@
+name: Wugtrio
+
+origin: paradox-rift-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Wiglett
+
+dex: 961
+
+rule:
+  - type: Ability
+    name: Suddenly Select
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 3 Pokémon Tool cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Triple Whip
+    text: Flip 3 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

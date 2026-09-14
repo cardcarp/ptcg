@@ -1,0 +1,42 @@
+name: Zarude
+
+origin: fusion-strike-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 893
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Wild Whip
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

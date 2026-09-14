@@ -1,0 +1,43 @@
+name: Meditite
+
+origin: silver-tempest-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 307
+
+rule:
+  - type: Ability
+    name: Yoga Guard
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psyshot
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

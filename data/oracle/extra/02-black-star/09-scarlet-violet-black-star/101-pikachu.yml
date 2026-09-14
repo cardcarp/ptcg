@@ -1,0 +1,38 @@
+name: Pikachu
+
+origin: scarlet-violet-black-star-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Scrappy Spark
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

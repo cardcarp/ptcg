@@ -1,0 +1,45 @@
+name: Electrike
+
+origin: ruby-sapphire-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 309
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Super Thunder Wave
+    text: Flip a coin. If heads, each Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

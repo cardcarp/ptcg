@@ -1,0 +1,49 @@
+name: Alakazam
+
+origin: twilight-masquerade-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Kadabra
+
+dex: 65
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Strange Hacking
+    text: Your opponent's Active Pokémon is now Confused. You may move any number of damage counters from your opponent's Pokémon to their other Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psychic
+    text: This attack does 50 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

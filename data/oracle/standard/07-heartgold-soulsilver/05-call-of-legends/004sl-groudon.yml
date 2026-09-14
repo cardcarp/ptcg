@@ -1,0 +1,38 @@
+name: Groudon
+
+origin: call-of-legends-004sl
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Volcano Stomp
+    text: Flip a coin. If heads, discard the top 4 cards of your opponent's deck. If tails, discard the top 4 cards of your deck.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

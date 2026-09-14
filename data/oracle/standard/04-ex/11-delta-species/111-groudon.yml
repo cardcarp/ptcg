@@ -1,0 +1,49 @@
+name: Groudon ☆
+
+origin: delta-species-111
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Star
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Critical Collection
+    text: Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many Fighting Energy cards and attach them to Groudon Star.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Ground Slash
+    text: Discard a Fighting Energy card attached to Groudon Star.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+errata: []

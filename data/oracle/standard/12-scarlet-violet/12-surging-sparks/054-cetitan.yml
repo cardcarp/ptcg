@@ -1,0 +1,43 @@
+name: Cetitan
+
+origin: surging-sparks-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Cetoddle
+
+dex: 975
+
+rule:
+  - type: Ability
+    name: Solid Body
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dangerous Mouth
+    damage: 150
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

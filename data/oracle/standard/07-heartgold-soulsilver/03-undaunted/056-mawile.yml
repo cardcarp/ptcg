@@ -1,0 +1,47 @@
+name: Mawile
+
+origin: undaunted-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 303
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Selfish Draw
+    text: Look at the top card of your deck. You may put it into your hand. If not, discard it and draw a card.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Destructive Jaw
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

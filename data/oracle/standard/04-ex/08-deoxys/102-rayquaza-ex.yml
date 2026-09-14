@@ -1,0 +1,52 @@
+name: Rayquaza ex
+
+origin: deoxys-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 384
+
+rule:
+  - type: Ability
+    name: Dragon Boost
+    text: Once during your turn, when you put Rayquaza ex from your hand onto your Bench, you may move any number of basic Energy cards attached to your Pokémon to Rayquaza ex.
+  - type: Attack
+    cost:
+      - Fire
+      - Lightning
+    name: Spiral Blast
+    text: Does 20 damage for each basic Energy card attached to Rayquaza ex.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

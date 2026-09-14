@@ -1,0 +1,43 @@
+name: Dugtrio
+
+origin: 151-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Diglett
+
+dex: 51
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Headbutt Bounce
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Mud Bomb
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

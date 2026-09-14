@@ -1,0 +1,41 @@
+name: Lotad
+
+origin: rebel-clash-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 270
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mini Drain
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

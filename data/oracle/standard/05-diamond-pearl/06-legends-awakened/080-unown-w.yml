@@ -1,0 +1,40 @@
+name: Unown [W]
+
+origin: legends-awakened-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 201
+
+rule:
+  - type: Ability
+    name: WALL
+    text: As long as Unown W is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Hidden Power
+    text: Draw a card.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,44 @@
+name: Shiftry
+
+origin: lost-origin-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 160
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Fan Tornado
+    text: You may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Grass
+    name: Tearing Gust
+    text: Put this Pokémon and all attached cards in the Lost Zone.
+    damage: 210
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

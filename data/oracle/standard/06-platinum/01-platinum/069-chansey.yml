@@ -1,0 +1,41 @@
+name: Chansey
+
+origin: platinum-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 113
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Healing Trial
+    text: Flip a coin. If heads, remove 3 damage counters from Chansey. If tails, remove 3 damage counters from the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pulled Punch
+    text: If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 40.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

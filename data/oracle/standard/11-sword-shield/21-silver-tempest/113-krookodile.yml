@@ -1,0 +1,43 @@
+name: Krookodile
+
+origin: silver-tempest-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 160
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: Ability
+    name: Bully of the Sands
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may discard a random card from your opponent's hand. If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent's attack, you may discard a random card from your opponent's hand.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Double-Edge
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,50 @@
+name: Pidgeot V
+
+origin: lost-origin-137
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 210
+
+dex: 18
+
+rule:
+  - type: Ability
+    name: Vanishing Wings
+    text: Once during your turn, if this Pokémon is on your Bench, you may shuffle it and all attached cards into your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Flight Surf
+    text: If you have a Stadium in play, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

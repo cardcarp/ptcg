@@ -1,0 +1,43 @@
+name: Minun
+
+origin: supreme-victors-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 312
+
+rule:
+  - type: Attack
+    name: Call for Family
+    text: Search your deck for up to 2 Lightning Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Trash Charge
+    text: Search your discard pile for a Lightning Energy card and attach it to 1 of your Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

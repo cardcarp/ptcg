@@ -1,0 +1,46 @@
+name: Regigigas
+
+origin: sun-moon-black-star-243
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 150
+
+dex: 486
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 60
+  - type: Attack
+    cost:
+      - Water
+      - Fighting
+      - Metal
+      - Colorless
+      - Colorless
+    name: Regiblast
+    text: Discard the top card of your opponent's deck.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

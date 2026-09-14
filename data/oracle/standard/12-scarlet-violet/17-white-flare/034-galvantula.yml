@@ -1,0 +1,39 @@
+name: Galvantula
+
+origin: white-flare-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Joltik
+
+dex: 596
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Discharge
+    text: Discard all Lightning Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

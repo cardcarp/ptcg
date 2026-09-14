@@ -1,0 +1,39 @@
+name: Tinkatink
+
+origin: paradox-rift-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 957
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mountain Scrounging
+    text: Look at the top card of your deck. You may put that card into your hand. If you don't, discard that card and draw a card.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mumble
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

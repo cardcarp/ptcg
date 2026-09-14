@@ -1,0 +1,34 @@
+name: Treecko
+
+origin: lost-thunder-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 252
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Find a Friend
+    text: Search your deck for a Grass Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Vulpix
+
+origin: obsidian-flames-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

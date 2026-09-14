@@ -1,0 +1,43 @@
+name: Lickilicky C
+
+origin: supreme-victors-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 463
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Licking-Licking Heal
+    text: Attach a Basic Energy card from your hand to 1 of your Pokémon. Then, remove 2 damage counters from that Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Return
+    text: Draw cards until you have 6 cards in your hand.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

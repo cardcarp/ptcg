@@ -1,0 +1,43 @@
+name: Centiskorch VMAX
+
+origin: darkness-ablaze-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Fire
+
+hp: 320
+
+preevolution:
+  - Centiskorch V
+
+dex: 851
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: G-Max Centiferno
+    text: This attack does 40 more damage for each Fire Energy attached to this Pokémon. If you did any damage with this attack, you may attach a Fire Energy card from your discard pile to this Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

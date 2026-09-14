@@ -1,0 +1,44 @@
+name: Pupitar
+
+origin: celestial-storm-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Skull Bash
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Dust Devil
+    text: This attack does 20 damage to each non-Fighting Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

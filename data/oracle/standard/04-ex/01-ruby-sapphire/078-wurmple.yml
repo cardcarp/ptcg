@@ -1,0 +1,39 @@
+name: Wurmple
+
+origin: ruby-sapphire-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 265
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Signs of Evolution
+    text: Search your deck for Silcoon and Beautifly, or Cascoon and Dustox cards. Show 1 card or both cards of a pair to your opponent and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Barb
+    text: The Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

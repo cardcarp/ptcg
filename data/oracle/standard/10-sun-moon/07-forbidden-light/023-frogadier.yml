@@ -1,0 +1,40 @@
+name: Frogadier
+
+origin: forbidden-light-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Froakie
+
+dex: 657
+
+rule:
+  - type: Ability
+    name: Gale Shuriken
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Water
+    name: Water Drip
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

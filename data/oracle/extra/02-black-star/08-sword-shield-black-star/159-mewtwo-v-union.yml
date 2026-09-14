@@ -1,0 +1,68 @@
+name: Mewtwo V-UNION
+
+origin: sword-shield-black-star-159
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - V-UNION
+
+type:
+  - Psychic
+
+hp: 310
+
+dex: 150
+
+rule:
+  - type: Ability
+    name: Photon Barrier
+    text: Prevent all effects of attacks from your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)
+  - type: Attack
+    cost:
+      - Colorless
+    name: Union Gain
+    text: Attach up to 2 Psychic Energy cards from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Super Regeneration
+    text: Heal 200 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psysplosion
+    text: Put 16 damage counters on your opponent's Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Final Burn
+    damage: 300
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'How to play a Pokémon V-UNION: Once per game during your turn, combine 4 different Mewtwo V-UNION from your discard pile and put them onto your Bench.'
+  - 'V-UNION rule: When your Pokémon V-UNION is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

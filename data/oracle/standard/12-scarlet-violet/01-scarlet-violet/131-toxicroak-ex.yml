@@ -1,0 +1,49 @@
+name: Toxicroak ex
+
+origin: scarlet-violet-131
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Darkness
+
+hp: 250
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Nasty Plot
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Toxic Ripper
+    text: Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 6 damage counters on that Pokémon instead of 1.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

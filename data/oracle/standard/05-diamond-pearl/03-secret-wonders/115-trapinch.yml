@@ -1,0 +1,45 @@
+name: Trapinch
+
+origin: secret-wonders-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 328
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Inviting Trap
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sand Tomb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

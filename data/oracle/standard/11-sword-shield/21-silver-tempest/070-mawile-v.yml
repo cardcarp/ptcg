@@ -1,0 +1,47 @@
+name: Mawile V
+
+origin: silver-tempest-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 200
+
+dex: 303
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Pouty Slap
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Chomp Down
+    text: Discard a random card from your opponent's hand.
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,41 @@
+name: Ralts δ
+
+origin: dragon-frontiers-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 280
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Calm Mind
+    text: Remove 2 damage counters from Ralts.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Will-o'-the-wisp
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

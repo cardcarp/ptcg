@@ -1,0 +1,48 @@
+name: Quagsire
+
+origin: unseen-forces-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Wooper
+
+dex: 195
+
+rule:
+  - type: Ability
+    name: Dense
+    text: Any damage done to Quagsire by attacks from your opponent's Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mud Shot
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Hurl
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

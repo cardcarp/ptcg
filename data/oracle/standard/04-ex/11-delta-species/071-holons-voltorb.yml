@@ -1,0 +1,38 @@
+name: Holon's Voltorb
+
+origin: delta-species-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You may attach this as an Energy card from your hand to 1 of your Pokémon. While attached, this card is a Special Energy card and provides Colorless Energy.
+
+errata: []

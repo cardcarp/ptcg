@@ -1,0 +1,35 @@
+name: Lickitung
+
+origin: lost-origin-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 108
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drool
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

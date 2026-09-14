@@ -1,0 +1,44 @@
+name: Annihilape
+
+origin: surging-sparks-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Primeape
+
+dex: 979
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Tantrum
+    text: This Pokémon is now Confused.
+    damage: 130
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Destined Fight
+    text: Both Active Pokémon are Knocked Out.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

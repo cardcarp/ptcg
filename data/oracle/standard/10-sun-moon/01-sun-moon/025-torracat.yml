@@ -1,0 +1,47 @@
+name: Torracat
+
+origin: sun-moon-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Litten
+
+dex: 726
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

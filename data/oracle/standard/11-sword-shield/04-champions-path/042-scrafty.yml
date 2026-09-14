@@ -1,0 +1,47 @@
+name: Scrafty
+
+origin: champions-path-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Corner
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Bad Brawl
+    text: If you played Piers from your hand during this turn, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

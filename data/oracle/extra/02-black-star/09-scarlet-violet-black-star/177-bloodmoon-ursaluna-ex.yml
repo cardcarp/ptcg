@@ -1,0 +1,46 @@
+name: Bloodmoon Ursaluna ex
+
+origin: scarlet-violet-black-star-177
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 260
+
+dex: 901
+
+rule:
+  - type: Ability
+    name: Seasoned Skill
+    text: Blood Moon used by this Pokémon costs Colorless less for each Prize card your opponent has taken.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blood Moon
+    text: During your next turn, this Pokémon can't attack.
+    damage: 240
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

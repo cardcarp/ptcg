@@ -1,0 +1,42 @@
+name: Machop
+
+origin: power-keepers-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 66
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smash Punch
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Submission
+    text: Machop does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

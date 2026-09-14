@@ -1,0 +1,50 @@
+name: Dragonair
+
+origin: base-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.
+    damage: 20
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

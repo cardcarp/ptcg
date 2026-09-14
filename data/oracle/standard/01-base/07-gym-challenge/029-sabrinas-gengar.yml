@@ -1,0 +1,47 @@
+name: Sabrina's Gengar
+
+origin: gym-challenge-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Sabrina's Haunter
+
+dex: 94
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Dark Wave
+    text: All Pokémon Powers stop working until the end of your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Shadow Bind
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 40
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

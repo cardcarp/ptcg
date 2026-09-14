@@ -1,0 +1,40 @@
+name: Charmander
+
+origin: 151-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Blazing Destruction
+    text: Discard a Stadium in play.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Steady Firebreathing
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

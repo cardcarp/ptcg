@@ -1,0 +1,37 @@
+name: Sandile
+
+origin: mcdonalds-collection-2011-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 551
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sand Tomb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

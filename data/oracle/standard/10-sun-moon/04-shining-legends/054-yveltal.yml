@@ -1,0 +1,49 @@
+name: Yveltal
+
+origin: shining-legends-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 717
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Oblivion Wing
+    text: Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 90
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

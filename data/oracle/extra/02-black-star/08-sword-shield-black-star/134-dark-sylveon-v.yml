@@ -1,0 +1,48 @@
+name: Dark Sylveon V
+
+origin: sword-shield-black-star-134
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 700
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Disarming Voice
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Tricky Ribbon
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

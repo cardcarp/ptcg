@@ -1,0 +1,41 @@
+name: Larvitar
+
+origin: team-rocket-returns-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 246
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dig Drain
+    text: Remove 1 damage counter from Larvitar.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

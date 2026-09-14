@@ -1,0 +1,41 @@
+name: Porygon
+
+origin: firered-leafgreen-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 137
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Data Retrieval
+    text: If you have less than 4 cards in your hand, draw cards until you have 4 cards in your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Confuse Ray
+    text: The Defending Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

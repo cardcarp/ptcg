@@ -1,0 +1,39 @@
+name: Tynamo
+
+origin: unified-minds-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 30
+
+dex: 602
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Wild River
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

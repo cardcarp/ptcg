@@ -1,0 +1,39 @@
+name: Shroodle
+
+origin: paldea-evolved-144
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 944
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Berry Search
+    text: Put a Basic Energy card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

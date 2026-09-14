@@ -1,0 +1,41 @@
+name: Bulbasaur
+
+origin: sun-moon-black-star-198
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 1
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Vine Whip
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

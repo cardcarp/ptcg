@@ -1,0 +1,35 @@
+name: Vanillite
+
+origin: plasma-storm-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 582
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Snow Squall
+    text: This attack's damage isn't affected by Resistance.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

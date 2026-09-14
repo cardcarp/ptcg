@@ -1,0 +1,50 @@
+name: Noctowl
+
+origin: sword-shield-black-star-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Hoothoot
+
+dex: 164
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Carry Off
+    text: Choose 1 of your opponent's Benched Pokémon. They shuffle that Pokémon and all attached cards into their deck. Then, shuffle this Pokémon and all attached cards into your deck.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Nosepass
+
+origin: destined-rivals-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 299
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Headbutt
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rock Throw
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

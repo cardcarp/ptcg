@@ -1,0 +1,41 @@
+name: Yanma
+
+origin: phantom-forces-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 193
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy attached to this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

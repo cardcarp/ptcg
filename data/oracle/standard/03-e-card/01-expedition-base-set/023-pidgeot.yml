@@ -1,0 +1,47 @@
+name: Pidgeot
+
+origin: expedition-base-set-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Pidgeotto
+
+dex: 18
+
+rule:
+  - type: Ability
+    name: Beating Wings
+    text: Once during your turn (before your attack), if Pidgeot is your Active Pokémon, you may shuffle 1 of your Benched Pokémon and all cards attached to it into your deck. This power can't be used if Pidgeot is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sharp Beak
+    text: Flip a coin. If heads, this attack does 20 damage plus 30 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

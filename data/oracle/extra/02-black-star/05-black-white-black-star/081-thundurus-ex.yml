@@ -1,0 +1,49 @@
+name: Thundurus-EX
+
+origin: black-white-black-star-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+  - Team Plasma
+
+type:
+  - Lightning
+
+hp: 170
+
+dex: 642
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Raiden Knuckle
+    text: Attach an Energy card from your discard pile to 1 of your Benched Team Plasma Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunderous Noise
+    text: If this Pokémon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

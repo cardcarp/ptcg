@@ -1,0 +1,39 @@
+name: Shuckle
+
+origin: secret-wonders-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 213
+
+rule:
+  - type: Ability
+    name: Pot Shell
+    text: Prevent all effects of attacks, including damage, done to Shuckle by your opponent's Pokémon that has any Special Energy cards attached to it.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ferment Poison
+    text: The Defending Pokémon is now Poisoned. As long as the Defending Pokémon remains Poisoned by this attack, it can't use any Poké-Body.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

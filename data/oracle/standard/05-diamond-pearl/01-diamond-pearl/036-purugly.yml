@@ -1,0 +1,46 @@
+name: Purugly
+
+origin: diamond-pearl-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Glameow
+
+dex: 432
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: High Hat
+    text: Choose 1 card from your opponent's hand without looking and discard it.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

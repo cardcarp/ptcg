@@ -1,0 +1,46 @@
+name: Grimmsnarl V
+
+origin: sword-shield-black-star-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 220
+
+dex: 861
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 40
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Spiky Knuckle
+    text: Put 2 Darkness Energy attached to this Pokémon into your hand.
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

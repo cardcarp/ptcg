@@ -1,0 +1,35 @@
+name: Capsakid
+
+origin: obsidian-flames-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 951
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

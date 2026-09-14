@@ -1,0 +1,42 @@
+name: Shelgon
+
+origin: roaring-skies-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Bagon
+
+dex: 372
+
+rule:
+  - type: Ability
+    name: Exoskeleton
+    text: Any damage done to this Pokémon by attacks is reduced by 10 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Rolling Tackle
+    damage: 60
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

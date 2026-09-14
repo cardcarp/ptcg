@@ -1,0 +1,48 @@
+name: Swoobat
+
+origin: black-white-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Woobat
+
+dex: 528
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Attract
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Heart Stamp
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

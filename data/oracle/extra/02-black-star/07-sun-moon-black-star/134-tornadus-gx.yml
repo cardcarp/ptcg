@@ -1,0 +1,61 @@
+name: Tornadus-GX
+
+origin: sun-moon-black-star-134
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Colorless
+
+hp: 180
+
+dex: 641
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wild Fury
+    text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+    damage: 90
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Destructive Cyclone-GX
+    text: Discard all Energy from your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,56 @@
+name: Reshiram-GX
+
+origin: sun-moon-black-star-137
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Fire
+
+hp: 180
+
+dex: 643
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flame Charge
+    text: Search your deck for up to 2 Fire Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Scorching Column
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 110
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Vermilion-GX
+    text: You may attach up to 5 Fire Energy cards from your hand to your Pokémon in any way you like. (You can't use more than 1 GX attack in a game.)
+    damage: 180
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

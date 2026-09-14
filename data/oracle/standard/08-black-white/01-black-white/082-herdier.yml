@@ -1,0 +1,45 @@
+name: Herdier
+
+origin: black-white-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Lillipup
+
+dex: 507
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Collect
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Lanturn
+
+origin: plasma-freeze-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Special Tackle
+    text: If this Pokémon has any Special Energy attached to it, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Extreme Current
+    text: Discard an Energy attached to this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,39 @@
+name: Sewaddle
+
+origin: emerging-powers-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 540
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+    name: String Shot
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

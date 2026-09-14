@@ -1,0 +1,44 @@
+name: Monferno
+
+origin: brilliant-stars-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Chimchar
+
+dex: 391
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

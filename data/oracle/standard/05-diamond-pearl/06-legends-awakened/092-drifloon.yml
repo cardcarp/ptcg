@@ -1,0 +1,46 @@
+name: Drifloon
+
+origin: legends-awakened-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 425
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mind Bend
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

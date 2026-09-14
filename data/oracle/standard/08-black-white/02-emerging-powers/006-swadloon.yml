@@ -1,0 +1,43 @@
+name: Swadloon
+
+origin: emerging-powers-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Sewaddle
+
+dex: 541
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Grass Cocooning
+    text: Heal 40 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Slowpoke
+
+origin: prismatic-evolutions-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 79
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Tail Whap
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

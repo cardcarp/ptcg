@@ -1,0 +1,48 @@
+name: Abomasnow
+
+origin: rebel-clash-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Snover
+
+dex: 460
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Soothing Scent
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 80
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Megaton Lariat
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,41 @@
+name: Pincurchin
+
+origin: paldea-evolved-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 871
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Stun Needle
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+    name: Follow-Up Kerzap
+    text: You can use this attack only if this Pokémon used Stun Needle during your last turn.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,51 @@
+name: Mightyena
+
+origin: legends-awakened-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bite On
+    text: If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon can't attack, retreat, or use any Poké-Powers during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Harass
+    text: Does 10 damage times the number of Pokémon you have in play.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

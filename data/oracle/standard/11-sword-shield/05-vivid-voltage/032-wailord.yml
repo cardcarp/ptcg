@@ -1,0 +1,45 @@
+name: Wailord
+
+origin: vivid-voltage-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 200
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: Ability
+    name: Water Veil
+    text: Whenever you attach an Energy card from your hand to this Pokémon, remove all Special Conditions from it.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 40 more damage for each Water Energy attached to this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

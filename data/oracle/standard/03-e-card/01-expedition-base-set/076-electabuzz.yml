@@ -1,0 +1,41 @@
+name: Electabuzz
+
+origin: expedition-base-set-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 125
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Draw
+    text: Search your deck for a basic Energy card and attach it to Electabuzz. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Reflect Energy
+    text: If you have any Benched Pokémon and if there are any basic Energy cards attached to Electabuzz, take 1 of those Energy cards and attach it to 1 of those Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Sabrina's Hypno
+
+origin: gym-challenge-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Sabrina's Drowzee
+
+dex: 97
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Invigorate
+    text: Choose 1 Basic Pokémon in any player's discard pile. Put it onto that player's Bench. Put a number of damage counters on that Pokémon equal to half its HP (rounded down to the nearest 10). (You can't put a Pokémon on a Bench that's full.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Pendulum Curse
+    text: Flip a number of coins equal to the number of damage counters on the Defending Pokémon. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

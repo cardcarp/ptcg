@@ -1,0 +1,46 @@
+name: Spectrier
+
+origin: ascended-heroes-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 897
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Spooky Shot
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Phantasmal Barrage
+    text: Discard all Energy from this Pokémon and place 12 damage counters on 1 of your opponent's Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

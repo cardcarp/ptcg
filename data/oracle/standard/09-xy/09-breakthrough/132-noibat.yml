@@ -1,0 +1,45 @@
+name: Noibat
+
+origin: breakthrough-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 714
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mysterious Beam
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

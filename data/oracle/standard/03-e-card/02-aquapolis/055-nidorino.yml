@@ -1,0 +1,46 @@
+name: Nidorino
+
+origin: aquapolis-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Nidoran ♂
+
+dex: 33
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Horn
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Nidorino does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

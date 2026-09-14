@@ -1,0 +1,43 @@
+name: Wash Rotom
+
+origin: destined-rivals-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 479
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Manual Wash
+    text: Heal 10 damage from each of your Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gadget Show
+    text: This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

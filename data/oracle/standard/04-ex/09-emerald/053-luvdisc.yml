@@ -1,0 +1,41 @@
+name: Luvdisc
+
+origin: emerald-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 370
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Friend
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Strange Scale
+    text: If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,34 @@
+name: Blaine's Ponyta
+
+origin: gym-heroes-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 77
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Blaine's Ponyta.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+errata: []

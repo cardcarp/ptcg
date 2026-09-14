@@ -1,0 +1,40 @@
+name: Shinx
+
+origin: twilight-masquerade-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 403
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Curiosity
+    text: Your opponent reveals their hand.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Static Shock
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

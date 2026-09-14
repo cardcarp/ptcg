@@ -1,0 +1,44 @@
+name: Pikachu δ
+
+origin: holon-phantoms-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Whap
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Steel Headbutt
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Oddish
+
+origin: boundaries-crossed-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 43
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Absorb
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Acid
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

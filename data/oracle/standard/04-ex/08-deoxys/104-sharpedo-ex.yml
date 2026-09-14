@@ -1,0 +1,55 @@
+name: Sharpedo ex
+
+origin: deoxys-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drag Off
+    text: Before doing damage, you may switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. If you do, this attack does 20 damage to the new Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Darkness Blast
+    text: You may discard a Darkness Energy attached to Sharpedo ex. If you do, this attack does 60 damage plus 20 more damage and discard 1 Energy card attached to the Defending Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

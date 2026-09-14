@@ -1,0 +1,52 @@
+name: Charizard ex
+
+origin: scarlet-violet-black-star-161
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Fire
+
+hp: 330
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Brave Wing
+    text: If this Pokémon has any damage counters on it, this attack does 100 more damage.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: Explosive Vortex
+    text: Discard 3 Energy from this Pokémon.
+    damage: 330
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

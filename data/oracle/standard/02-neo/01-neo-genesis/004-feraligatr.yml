@@ -1,0 +1,45 @@
+name: Feraligatr
+
+origin: neo-genesis-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: Ability
+    name: Berserk
+    text: When you play Feraligatr from your hand, flip a coin. If heads, discard the top 5 cards from your opponent's deck. If tails, discard the top 5 cards from your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Chomp
+    text: Flip a number of coins equal to the number of damage counters on Feraligatr. This attack does 50 damage plus 10 more damage for each heads.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

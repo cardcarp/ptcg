@@ -1,0 +1,53 @@
+name: Plusle
+
+origin: pop-series-3-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 311
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cheer Up
+    text: Draw a card. If you have Minun in play, draw 2 cards instead.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Positive Ion
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Body Bolt
+    text: Choose 1 of your opponent's Pokémon that has any Poké-Bodies. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

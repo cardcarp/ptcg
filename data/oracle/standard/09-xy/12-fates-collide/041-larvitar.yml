@@ -1,0 +1,40 @@
+name: Larvitar
+
+origin: fates-collide-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 246
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mountain Munch
+    text: Discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Corkscrew Punch
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Carvanha
+
+origin: secret-wonders-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 318
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Slash
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Bite Away
+    text: Flip a coin. If heads, choose a card from your opponent's hand without looking and discard it.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

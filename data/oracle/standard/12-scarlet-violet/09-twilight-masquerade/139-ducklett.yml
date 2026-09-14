@@ -1,0 +1,45 @@
+name: Ducklett
+
+origin: twilight-masquerade-139
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 580
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Razor Wing
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

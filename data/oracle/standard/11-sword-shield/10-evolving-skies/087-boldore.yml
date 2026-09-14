@@ -1,0 +1,44 @@
+name: Boldore
+
+origin: evolving-skies-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Roggenrola
+
+dex: 525
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Protect
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Boulder Crush
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

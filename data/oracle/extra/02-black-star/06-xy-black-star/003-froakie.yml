@@ -1,0 +1,40 @@
+name: Froakie
+
+origin: xy-black-star-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 656
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Pound
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Drip
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

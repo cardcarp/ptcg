@@ -1,0 +1,48 @@
+name: Shaymin
+
+origin: platinum-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Flower Aroma
+    text: Remove 2 damage counters from Shaymin. The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Damage Aid
+    text: If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 50 more damage. Then, remove all Special Conditions from the Defending Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

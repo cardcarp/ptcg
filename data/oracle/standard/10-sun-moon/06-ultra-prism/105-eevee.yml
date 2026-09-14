@@ -1,0 +1,37 @@
+name: Eevee
+
+origin: ultra-prism-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 133
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Palette of Friends
+    text: This attack does 10 damage for each different type of Pokémon on your Bench.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

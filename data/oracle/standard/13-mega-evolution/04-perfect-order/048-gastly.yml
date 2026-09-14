@@ -1,0 +1,35 @@
+name: Gastly
+
+origin: perfect-order-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 92
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

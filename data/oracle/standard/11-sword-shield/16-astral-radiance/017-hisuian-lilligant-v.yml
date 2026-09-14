@@ -1,0 +1,43 @@
+name: Hisuian Lilligant V
+
+origin: astral-radiance-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 200
+
+dex: 549
+
+rule:
+  - type: Attack
+    name: Dance Gracefully
+    text: Draw cards until you have 6 cards in your hand.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Leaf Step
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

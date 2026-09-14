@@ -1,0 +1,44 @@
+name: Weavile
+
+origin: brilliant-stars-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Ransack
+    text: Flip 2 coins. If either of them is heads, your opponent reveals their hand. For each heads, choose a card you find there and put it on the bottom of your opponent's deck in any order.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

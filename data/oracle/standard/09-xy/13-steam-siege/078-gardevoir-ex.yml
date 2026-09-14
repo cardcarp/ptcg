@@ -1,0 +1,54 @@
+name: Gardevoir-EX
+
+origin: steam-siege-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fairy
+
+hp: 170
+
+dex: 282
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Link Blast
+    text: If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached to them, this attack does 70 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Luminous Blade
+    text: Discard an Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

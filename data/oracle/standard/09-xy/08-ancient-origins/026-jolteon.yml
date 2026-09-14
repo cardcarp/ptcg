@@ -1,0 +1,46 @@
+name: Jolteon
+
+origin: ancient-origins-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: Ability
+    name: Electric Effect
+    text: Each of your Stage 1 Pokémon in play is now a Lightning Pokémon in addition to its existing types.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder Blast
+    text: Discard an Energy attached to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+errata: []

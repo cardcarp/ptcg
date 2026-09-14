@@ -1,0 +1,44 @@
+name: Alolan Raticate
+
+origin: pokemon-go-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Alolan Rattata
+
+dex: 20
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Chase Up
+    text: Search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Super Fang
+    text: Put damage counters on your opponent's Active Pokémon until its remaining HP is 10.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

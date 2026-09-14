@@ -1,0 +1,45 @@
+name: Slowpoke
+
+origin: paldea-evolved-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 79
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Tail-Fishing
+    text: Flip a coin. If heads, search your deck for a card and put it into your hand. Then, shuffle your deck. If tails, discard a card from your hand.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Zen Headbutt
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

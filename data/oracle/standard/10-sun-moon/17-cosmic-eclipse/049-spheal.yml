@@ -1,0 +1,40 @@
+name: Spheal
+
+origin: cosmic-eclipse-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 363
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Rollout
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Snow
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

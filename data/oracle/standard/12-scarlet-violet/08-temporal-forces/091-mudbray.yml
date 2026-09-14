@@ -1,0 +1,41 @@
+name: Mudbray
+
+origin: temporal-forces-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 749
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Smash Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mud-Slap
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

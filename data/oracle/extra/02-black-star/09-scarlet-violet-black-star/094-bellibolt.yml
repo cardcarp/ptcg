@@ -1,0 +1,46 @@
+name: Bellibolt
+
+origin: scarlet-violet-black-star-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Tadbulb
+
+dex: 939
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Wave
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Two Bump Bolt
+    text: You may discard up to 2 Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

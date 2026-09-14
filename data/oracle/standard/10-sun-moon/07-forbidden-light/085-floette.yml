@@ -1,0 +1,42 @@
+name: Floette
+
+origin: forbidden-light-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 70
+
+preevolution:
+  - Flabébé
+
+dex: 670
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Swirling Petals
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. If you do, switch this Pokémon with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Skorupi
+
+origin: sword-shield-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 451
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Slashing Claw
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

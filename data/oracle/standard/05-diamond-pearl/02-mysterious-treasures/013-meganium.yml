@@ -1,0 +1,52 @@
+name: Meganium
+
+origin: mysterious-treasures-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Ultra Powder
+    text: Flip 3 coins. If the first coin is heads, the Defending Pokémon is now Poisoned. If the second coin is heads, the Defending Pokémon is now Burned. If the third coin is heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Fire Counterattack
+    text: If your opponent has any Fire Pokémon in play, this attack does 60 damage plus 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

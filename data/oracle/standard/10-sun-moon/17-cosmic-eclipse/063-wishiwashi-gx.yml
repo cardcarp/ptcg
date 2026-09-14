@@ -1,0 +1,46 @@
+name: Wishiwashi-GX
+
+origin: cosmic-eclipse-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Water
+
+hp: 130
+
+dex: 746
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: School Storm
+    text: This attack does 20 damage for each of your Wishiwashi and Wishiwashi-GX in play.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+    name: Massive Catch-GX
+    text: Look at the top 12 cards of your deck and put any number of Basic Pokémon you find there onto your Bench. Shuffle the other cards back into your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

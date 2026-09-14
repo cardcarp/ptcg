@@ -1,0 +1,45 @@
+name: Charmeleon
+
+origin: hidden-fates-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Slash
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

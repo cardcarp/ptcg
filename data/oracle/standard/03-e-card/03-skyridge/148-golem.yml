@@ -1,0 +1,51 @@
+name: Golem
+
+origin: skyridge-148
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Graveler
+
+dex: 76
+
+rule:
+  - type: Ability
+    name: Crystal Type
+    text: Whenever you attach a Grass, Fire, or Fighting basic Energy card from your hand to Golem, Golem's type (color) becomes the same as that type of Energy until the end of the turn.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Fire
+      - Fighting
+      - Colorless
+    name: Earth Bomb
+    text: Golem does 20 damage to itself. This attack also does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

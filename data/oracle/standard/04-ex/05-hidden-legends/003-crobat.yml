@@ -1,0 +1,43 @@
+name: Crobat
+
+origin: hidden-legends-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Golbat
+
+dex: 169
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flutter Trick
+    text: Flip a coin. If heads, look at your opponent's hand and choose 1 card. Your opponent discards the card you chose.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Triple Poison
+    text: The Defending Pokémon is now Poisoned. Put 3 damage counters instead of 1 on the Defending Pokémon between turns.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+errata: []

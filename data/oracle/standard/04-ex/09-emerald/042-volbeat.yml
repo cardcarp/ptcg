@@ -1,0 +1,41 @@
+name: Volbeat
+
+origin: emerald-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 313
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Double-edge
+    text: Volbeat does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

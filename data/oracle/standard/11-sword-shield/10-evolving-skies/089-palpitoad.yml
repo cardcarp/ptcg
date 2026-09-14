@@ -1,0 +1,44 @@
+name: Palpitoad
+
+origin: evolving-skies-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Tympole
+
+dex: 536
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Stampede
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Tongue Slap
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

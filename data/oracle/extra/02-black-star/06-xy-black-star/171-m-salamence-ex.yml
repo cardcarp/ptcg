@@ -1,0 +1,47 @@
+name: M Salamence-EX
+
+origin: xy-black-star-171
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Dragon
+
+hp: 230
+
+preevolution:
+  - Salamence-EX
+
+dex: 373
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+      - Colorless
+    name: Savage Wing
+    text: Discard as many basic Fire Energy attached to this Pokémon as you like. This attack does 40 more damage for each Energy card you discarded in this way.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

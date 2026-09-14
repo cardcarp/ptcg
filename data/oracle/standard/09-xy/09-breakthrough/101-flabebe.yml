@@ -1,0 +1,39 @@
+name: Flabébé
+
+origin: breakthrough-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 30
+
+dex: 669
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Wish
+    text: Flip a coin. If heads, search your deck for a card and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

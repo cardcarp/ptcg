@@ -1,0 +1,45 @@
+name: Zebstrika
+
+origin: boundaries-crossed-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flame Charge
+    text: Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder
+    text: Flip a coin. If tails, this Pokémon does 30 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

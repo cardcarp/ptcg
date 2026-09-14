@@ -1,0 +1,37 @@
+name: Roselia
+
+origin: ultra-prism-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 315
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Petal Dance
+    text: Flip 3 coins. This attack does 30 damage for each heads. This Pokémon is now Confused.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,36 @@
+name: Tympole
+
+origin: dark-explorers-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 535
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Spiral Drain
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

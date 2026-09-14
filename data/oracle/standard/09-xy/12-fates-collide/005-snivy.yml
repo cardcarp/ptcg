@@ -1,0 +1,35 @@
+name: Snivy
+
+origin: fates-collide-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 495
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Blot
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

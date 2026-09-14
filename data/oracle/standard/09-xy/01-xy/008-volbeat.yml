@@ -1,0 +1,41 @@
+name: Volbeat
+
+origin: xy-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 313
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Luring Glow
+    text: Switch 1 of your opponent's Benched Pokémon with your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Signal Beam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

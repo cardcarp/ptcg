@@ -1,0 +1,42 @@
+name: Brionne
+
+origin: lost-thunder-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Popplio
+
+dex: 729
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Captivate
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

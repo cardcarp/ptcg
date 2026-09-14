@@ -1,0 +1,45 @@
+name: Eevee ex
+
+origin: scarlet-violet-black-star-174
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Colorless
+
+hp: 200
+
+dex: 133
+
+rule:
+  - type: Ability
+    name: Rainbow DNA
+    text: This Pokémon can evolve into any Pokémon ex that evolves from Eevee if you play it from your hand onto this Pokémon. (This Pokémon can't evolve during your first turn or the turn you play it.)
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Lightning
+    name: Coruscating Quartz
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

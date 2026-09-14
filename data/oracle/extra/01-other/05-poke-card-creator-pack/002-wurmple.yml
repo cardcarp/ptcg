@@ -1,0 +1,42 @@
+name: Wurmple
+
+origin: poke-card-creator-pack-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 265
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gooey Thread
+    text: The Defending Pokémon can't retreat until the end of your opponent's next turn.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

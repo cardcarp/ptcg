@@ -1,0 +1,50 @@
+name: Lurantis ex
+
+origin: pitch-black-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 260
+
+preevolution:
+  - Fomantis
+
+dex: 754
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Lively Cutter
+    text: If this Pokémon was healed during this turn, this attack does 200 more damage.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leaf Guard
+    text: During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

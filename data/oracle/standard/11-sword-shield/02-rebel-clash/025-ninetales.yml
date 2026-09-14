@@ -1,0 +1,47 @@
+name: Ninetales
+
+origin: rebel-clash-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Hex
+    text: If your opponent's Active Pokémon is affected by a Special Condition, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flickering Flames
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

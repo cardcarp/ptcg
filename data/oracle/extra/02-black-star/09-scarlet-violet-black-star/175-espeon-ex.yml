@@ -1,0 +1,58 @@
+name: Espeon ex
+
+origin: scarlet-violet-black-star-175
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Psychic
+
+hp: 270
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psych Out
+    text: Discard a random card from your opponent's hand.
+    damage: 160
+  - type: Attack
+    cost:
+      - Grass
+      - Psychic
+      - Darkness
+    name: Amazez
+    text: Devolve each of your opponent's evolved Pokémon by shuffling the highest Stage Evolution card on it into your opponent's deck.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

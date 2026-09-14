@@ -1,0 +1,41 @@
+name: Buneary
+
+origin: supreme-victors-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 427
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bounce
+    text: Switch Buneary with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mini Drain
+    text: Remove 1 damage counter from Buneary.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,51 @@
+name: Excadrill
+
+origin: vivid-voltage-122
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Drill Run
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Slashing Claw
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,42 @@
+name: Sandshrew
+
+origin: fusion-strike-131
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 27
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Dig It Up
+    text: Look at the top card of your deck. You may discard that card.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Let's All Rollout
+    text: This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

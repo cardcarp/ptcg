@@ -1,0 +1,40 @@
+name: Swirlix
+
+origin: silver-tempest-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 684
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Flop
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

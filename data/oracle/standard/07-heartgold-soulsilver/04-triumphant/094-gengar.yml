@@ -1,0 +1,50 @@
+name: Gengar
+
+origin: triumphant-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Prime
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: Ability
+    name: Catastrophe
+    text: As long as Gengar is your Active Pokémon, if any of your opponent's Pokémon would be Knocked Out, put that Pokémon in the Lost Zone instead of discarding. (Discard all cards attached to that Pokémon.)
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hurl into Darkness
+    text: Look at your opponent's hand and choose a number of Pokémon you find there up to the number of Psychic Energy attached to Gengar. Put the Pokémon you chose in the Lost Zone.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Cursed Drop
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+errata: []

@@ -1,0 +1,42 @@
+name: Watchog
+
+origin: chaos-rising-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Patrat
+
+dex: 505
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Snap Inspection
+    text: Flip 3 coins. If any of them are heads, your opponent reveals their hand. For each heads, choose a card you find there and shuffle it into your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Low Kick
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

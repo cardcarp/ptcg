@@ -1,0 +1,47 @@
+name: Erika's Jigglypuff
+
+origin: gym-challenge-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 39
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Group Therapy
+    text: You and your opponent remove 1 damage counter from each of your Pokémon with damage counters on them.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pulled Punch
+    text: If the Defending Pokémon has no damage counters on it, this attack does 40 damage. If it has any damage counters on it, this attack does 10 damage.
+    damage: 40
+    modifier: '-'
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

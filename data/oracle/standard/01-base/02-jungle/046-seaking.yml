@@ -1,0 +1,43 @@
+name: Seaking
+
+origin: jungle-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Horn Attack
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

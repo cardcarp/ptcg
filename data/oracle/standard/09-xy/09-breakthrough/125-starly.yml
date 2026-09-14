@@ -1,0 +1,39 @@
+name: Starly
+
+origin: breakthrough-125
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 396
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Pals
+    text: Search your deck for as many Starly as you like and put them onto your Bench. Shuffle your deck afterward.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

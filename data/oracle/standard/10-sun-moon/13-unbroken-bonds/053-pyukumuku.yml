@@ -1,0 +1,43 @@
+name: Pyukumuku
+
+origin: unbroken-bonds-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 771
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Surprise Fist
+    text: You and your opponent play Rock-Paper-Scissors. If you win, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

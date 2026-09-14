@@ -1,0 +1,42 @@
+name: Skorupi
+
+origin: unified-minds-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 451
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bug Bite
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

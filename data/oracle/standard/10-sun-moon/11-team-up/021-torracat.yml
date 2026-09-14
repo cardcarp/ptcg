@@ -1,0 +1,44 @@
+name: Torracat
+
+origin: team-up-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Litten
+
+dex: 726
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

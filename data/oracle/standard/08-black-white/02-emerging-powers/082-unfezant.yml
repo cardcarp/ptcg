@@ -1,0 +1,49 @@
+name: Unfezant
+
+origin: emerging-powers-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Tranquill
+
+dex: 521
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tailwind
+    text: Attach an Energy from your hand to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Feather Strike
+    text: Flip a coin. If heads, this attack does 40 more damage. If tails, discard an Energy attached to the Defending Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

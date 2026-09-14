@@ -1,0 +1,51 @@
+name: Revavroom
+
+origin: scarlet-violet-black-star-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Varoom
+
+dex: 966
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Swagger
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Huge Tackle
+    text: If you have more cards in your hand than your opponent, this attack does 80 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

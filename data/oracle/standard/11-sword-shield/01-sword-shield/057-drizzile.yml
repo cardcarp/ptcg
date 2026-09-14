@@ -1,0 +1,43 @@
+name: Drizzile
+
+origin: sword-shield-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Sobble
+
+dex: 817
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

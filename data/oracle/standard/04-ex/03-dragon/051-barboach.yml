@@ -1,0 +1,40 @@
+name: Barboach
+
+origin: dragon-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 339
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Splash
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Mud Slap
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

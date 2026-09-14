@@ -1,0 +1,53 @@
+name: Metagross
+
+origin: chaos-rising-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 180
+
+preevolution:
+  - Metang
+
+dex: 376
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Bounce Back
+    text: Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    damage: 60
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Metallic Hammer
+    text: You may discard 3 Metal Energy from this Pokémon and have this attack do 150 more damage.
+    damage: 150
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

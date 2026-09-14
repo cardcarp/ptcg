@@ -1,0 +1,48 @@
+name: Florges
+
+origin: breakthrough-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fairy
+
+hp: 110
+
+preevolution:
+  - Floette
+
+dex: 671
+
+rule:
+  - type: Ability
+    name: Calming Aroma
+    text: Each of your Pokémon's attacks costs Fairy less.
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Fairy
+    name: Wonder Shine
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

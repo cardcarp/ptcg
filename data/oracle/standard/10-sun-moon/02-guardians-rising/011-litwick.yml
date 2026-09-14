@@ -1,0 +1,35 @@
+name: Litwick
+
+origin: guardians-rising-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 607
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flickering Flames
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Grotle
+
+origin: temporal-forces-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Turtwig
+
+dex: 388
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Cut
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Ramming Shell
+    text: During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

@@ -1,0 +1,40 @@
+name: Dewott
+
+origin: steam-siege-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Oshawott
+
+dex: 502
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Razor Shell
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,35 @@
+name: Exeggcute
+
+origin: surging-sparks-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 102
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Absorb
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

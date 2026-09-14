@@ -1,0 +1,45 @@
+name: Kakuna
+
+origin: base-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Weedle
+
+dex: 14
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stiffen
+    text: Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Poisonpowder
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,51 @@
+name: Cinderace VMAX
+
+origin: rebel-clash-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Fire
+
+hp: 320
+
+preevolution:
+  - Cinderace V
+
+dex: 815
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Counter
+    text: If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Max Pyro Ball
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 170
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

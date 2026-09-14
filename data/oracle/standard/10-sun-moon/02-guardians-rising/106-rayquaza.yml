@@ -1,0 +1,48 @@
+name: Rayquaza
+
+origin: guardians-rising-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 384
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Turbo Storm
+    text: Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon Claw
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,36 @@
+name: Wooloo
+
+origin: crown-zenith-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 831
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rolling Rollout
+    text: Flip a coin until you get tails. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Tapu Lele
+
+origin: crown-zenith-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 786
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Energy Burst
+    text: This attack does 20 damage for each Energy attached to both Active Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Spiral Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Cherrim
+
+origin: arceus-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Cherubi
+
+dex: 421
+
+rule:
+  - type: Ability
+    name: Cloudy Sky
+    text: If any of your Grass Pokémon or Fire Pokémon would be damaged by an attack, reduce that damage by 10 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Worry Seed
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,54 @@
+name: Altaria-EX
+
+origin: fates-collide-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Colorless
+
+hp: 170
+
+dex: 334
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Powerful Gain
+    text: If this Pokémon was healed during this turn, this attack does 60 more damage and heal 30 damage from this Pokémon.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Shining Wind
+    text: During your opponent's next turn, this Pokémon has no Weakness.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

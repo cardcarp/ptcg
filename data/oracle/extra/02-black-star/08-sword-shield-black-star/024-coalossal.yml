@@ -1,0 +1,43 @@
+name: Coalossal
+
+origin: sword-shield-black-star-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Carkol
+
+dex: 839
+
+rule:
+  - type: Ability
+    name: Tar Generator
+    text: Once during your turn, you may attach a Fire Energy card, a Fighting Energy card, or 1 of each from your discard pile to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Flaming Avalanche
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

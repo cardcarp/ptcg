@@ -1,0 +1,46 @@
+name: Exeggutor
+
+origin: roaring-skies-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Shake It Off
+    text: This attack does 20 damage times the number of Colorless Pokémon your opponent has in play.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Seed Bomb
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

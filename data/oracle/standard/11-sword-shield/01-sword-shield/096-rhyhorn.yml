@@ -1,0 +1,40 @@
+name: Rhyhorn
+
+origin: sword-shield-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 111
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Horn Attack
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Hammer In
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

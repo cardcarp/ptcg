@@ -1,0 +1,48 @@
+name: Xatu
+
+origin: cosmic-eclipse-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Creepy Wind
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Life Drain
+    text: Flip a coin. If heads, put damage counters on your opponent's Active Pokémon until its remaining HP is 10.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

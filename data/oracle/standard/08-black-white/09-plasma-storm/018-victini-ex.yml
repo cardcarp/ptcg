@@ -1,0 +1,47 @@
+name: Victini-EX
+
+origin: plasma-storm-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 494
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Turbo Energize
+    text: Search your deck for 2 basic Energy cards and attach them to your Benched Pokémon in any way you like. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Intensifying Burn
+    text: If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

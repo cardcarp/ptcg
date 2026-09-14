@@ -1,0 +1,55 @@
+name: Celesteela-GX
+
+origin: unbroken-bonds-163
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+  - Ultra Beast
+
+type:
+  - Colorless
+
+hp: 200
+
+dex: 797
+
+rule:
+  - type: Ability
+    name: Force Canceler
+    text: As long as this Pokémon is your Active Pokémon, prevent all effects of your opponent's GX attacks, including damage, done to your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Cyclone
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 110
+  - type: Attack
+    cost:
+      - Colorless
+    name: Discovery-GX
+    text: Count your Prize cards and put them into your hand. Then, take that many cards from the top of your deck and put them face down as your Prize cards. If you don't have that many cards in your deck, this attack does nothing. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

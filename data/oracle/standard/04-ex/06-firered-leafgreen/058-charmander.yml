@@ -1,0 +1,40 @@
+name: Charmander
+
+origin: firered-leafgreen-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Sceptile
+
+origin: primal-clash-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Grovyle
+
+dex: 254
+
+rule:
+  - type: Ability
+    name: Nurture and Heal
+    text: Once during your turn (before your attack), you may attach a Grass Energy card from your hand to 1 of your Pokémon. If you do, heal 30 damage from that Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Jungle Edge
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

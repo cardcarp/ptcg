@@ -1,0 +1,47 @@
+name: Shinx
+
+origin: legends-awakened-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 403
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Recharge
+    text: Search your deck for a Lightning Energy card attach it to Shinx. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

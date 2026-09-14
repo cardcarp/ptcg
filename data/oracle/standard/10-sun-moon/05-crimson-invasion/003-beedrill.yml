@@ -1,0 +1,41 @@
+name: Beedrill
+
+origin: crimson-invasion-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Kakuna
+
+dex: 15
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Sudden Sting
+    text: If this Pokémon evolved from Kakuna during this turn, your opponent's Active Pokémon is now Paralyzed and Poisoned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+    name: Sharp Sting
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

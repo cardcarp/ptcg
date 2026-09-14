@@ -1,0 +1,40 @@
+name: Azelf
+
+origin: forbidden-light-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 482
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Psychic Abduction
+    text: You can use this attack only if you go second, and only on your first turn. Shuffle 1 of your opponent's Benched Pokémon and all cards attached to it into their deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnoblast
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

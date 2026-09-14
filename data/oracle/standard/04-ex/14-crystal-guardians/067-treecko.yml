@@ -1,0 +1,45 @@
+name: Treecko
+
+origin: crystal-guardians-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 252
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

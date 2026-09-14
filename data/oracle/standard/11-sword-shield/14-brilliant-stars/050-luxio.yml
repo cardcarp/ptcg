@@ -1,0 +1,38 @@
+name: Luxio
+
+origin: brilliant-stars-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

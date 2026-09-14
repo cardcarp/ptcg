@@ -1,0 +1,39 @@
+name: Bronzor
+
+origin: phantom-forces-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 436
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Tackle
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

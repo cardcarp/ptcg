@@ -1,0 +1,44 @@
+name: Scyther
+
+origin: stormfront-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 123
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Swords Dance
+    text: During your next turn, Scyther's Slashing Strike attack's base damage is 60.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Slashing Strike
+    text: During your next turn, Scyther can't use Slashing Strike.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

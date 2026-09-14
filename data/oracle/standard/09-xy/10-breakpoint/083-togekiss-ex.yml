@@ -1,0 +1,54 @@
+name: Togekiss-EX
+
+origin: breakpoint-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fairy
+
+hp: 170
+
+dex: 468
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Mighty Wind
+    text: You may attach an Energy card from your hand to 1 of your Benched Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hurricane Wing
+    text: Flip 4 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

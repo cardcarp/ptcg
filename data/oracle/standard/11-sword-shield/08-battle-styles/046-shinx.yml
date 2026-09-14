@@ -1,0 +1,35 @@
+name: Shinx
+
+origin: battle-styles-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 403
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Rear Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

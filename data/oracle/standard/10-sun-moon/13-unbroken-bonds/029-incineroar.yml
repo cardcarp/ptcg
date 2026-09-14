@@ -1,0 +1,42 @@
+name: Incineroar
+
+origin: unbroken-bonds-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 160
+
+preevolution:
+  - Torracat
+
+dex: 727
+
+rule:
+  - type: Ability
+    name: Strong Cheer
+    text: Your Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance). You can't apply more than 1 Strong Cheer Ability at a time.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

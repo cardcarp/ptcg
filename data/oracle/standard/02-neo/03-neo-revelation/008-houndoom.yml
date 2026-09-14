@@ -1,0 +1,47 @@
+name: Houndoom
+
+origin: neo-revelation-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Dark Flame
+    text: Discard 1 Fire Energy card attached to Houndoom or this attack does nothing. If there are any Darkness Energy cards in your discard pile, attach 1 of them to Houndoom.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Black Fang
+    text: Flip a number of coins equal to the number of Darkness Energy attached to Houndoom. This attack does 30 damage plus 10 more damage for each heads.
+    damage: 30
+    modifier: +
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

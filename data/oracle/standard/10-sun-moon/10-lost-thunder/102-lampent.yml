@@ -1,0 +1,42 @@
+name: Lampent
+
+origin: lost-thunder-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Haunt
+    text: Put 3 damage counters on your opponent's Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

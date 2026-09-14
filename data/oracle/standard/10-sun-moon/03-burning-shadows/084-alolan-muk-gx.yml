@@ -1,0 +1,62 @@
+name: Alolan Muk-GX
+
+origin: burning-shadows-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Darkness
+
+hp: 220
+
+preevolution:
+  - Alolan Grimer
+
+dex: 89
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Chemical Breath
+    text: This attack does 70 more damage for each Special Condition affecting your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 120
+  - type: Attack
+    name: Tri Hazard-GX
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

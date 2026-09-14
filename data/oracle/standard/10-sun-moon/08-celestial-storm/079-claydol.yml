@@ -1,0 +1,47 @@
+name: Claydol
+
+origin: celestial-storm-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Baltoy
+
+dex: 344
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Psy Bolt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Miraculous Spin
+    text: This attack does 40 damage for each Steven's Resolve card in your discard pile.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

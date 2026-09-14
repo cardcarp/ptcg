@@ -1,0 +1,51 @@
+name: Trevenant
+
+origin: chaos-rising-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Cursed Roots
+    text: During your opponent's next turn, Energy can't be attached from your opponent's hand to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Overwhelming Pain
+    text: This attack does 10 more damage for each damage counter on all of your opponent's Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

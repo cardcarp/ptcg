@@ -1,0 +1,36 @@
+name: Makuhita
+
+origin: lost-origin-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 296
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Fake Out
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,55 @@
+name: Latios ex
+
+origin: dragon-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 381
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Stream
+    text: Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Latios ex.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Lightning
+      - Colorless
+    name: Luster Purge
+    text: Discard 3 Energy attached to Latios ex.
+    damage: 100
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

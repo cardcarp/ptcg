@@ -1,0 +1,40 @@
+name: Light Togetic
+
+origin: neo-destiny-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: Ability
+    name: Gift
+    text: When you play Light Togetic from your hand, your opponent may search his or her deck for a Pokémon Tool card, show that card to you, and put it into his or her hand. Either way, you may do the same, and then each player who searched shuffles his or her deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sweet Kiss
+    text: Your opponent may draw a card.
+    damage: 30
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

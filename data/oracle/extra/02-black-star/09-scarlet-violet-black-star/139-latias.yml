@@ -1,0 +1,44 @@
+name: Latias
+
+origin: scarlet-violet-black-star-139
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 380
+
+rule:
+  - type: Ability
+    name: Mist Float
+    text: If this Pokémon has any Psychic Energy attached, it has no Retreat Cost.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic Sphere
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

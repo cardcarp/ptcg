@@ -1,0 +1,52 @@
+name: Tangrowth
+
+origin: call-of-legends-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Tangela
+
+dex: 465
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Grind
+    text: Does 20 damage times the number of Energy attached to Tangrowth.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Plow Over
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, put 1 Energy card attached to the Defending Pokémon in the Lost Zone.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

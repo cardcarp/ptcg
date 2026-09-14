@@ -1,0 +1,39 @@
+name: Thundurus
+
+origin: obsidian-flames-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 642
+
+rule:
+  - type: Ability
+    name: Adverse Weather
+    text: As long as this Pokémon is in the Active Spot, prevent all damage done to your Benched Pokémon by attacks from your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Gigantic Bolt
+    text: This Pokémon also does 90 damage to itself.
+    damage: 140
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

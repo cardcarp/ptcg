@@ -1,0 +1,42 @@
+name: Sableye
+
+origin: deoxys-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 302
+
+rule:
+  - type: Ability
+    name: Night Vision
+    text: Once during your turn (before your attack), if Sableye is your Active Pokémon, you may look at your opponent's hand. This power can't be used if Sableye is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+    name: Limitation
+    text: Your opponent can't play any Supporter Cards from his or her hand during your opponent's next turn.
+
+resistance:
+  - type: Colorless
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

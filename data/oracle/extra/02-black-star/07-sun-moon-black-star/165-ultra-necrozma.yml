@@ -1,0 +1,40 @@
+name: Ultra Necrozma
+
+origin: sun-moon-black-star-165
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 800
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Metal
+      - Metal
+    name: Shining Burst
+    text: If the total of both players' remaining Prize cards is 6 or less, discard all Energy attached to this Pokémon, and this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

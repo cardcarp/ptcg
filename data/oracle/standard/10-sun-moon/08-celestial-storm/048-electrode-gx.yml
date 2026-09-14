@@ -1,0 +1,58 @@
+name: Electrode-GX
+
+origin: celestial-storm-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Lightning
+
+hp: 190
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Ability
+    name: Extra Energy Bomb
+    text: Once during your turn (before your attack), you may attach 5 Energy cards from your discard pile to your Pokémon, except Pokémon-GX or Pokémon-EX, in any way you like. If you do, this Pokémon is Knocked Out.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 50
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Crush and Burn-GX
+    text: Discard any amount of Energy from your Pokémon. This attack does 50 more damage for each card you discarded in this way. (You can't use more than 1 GX attack in a game.)
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

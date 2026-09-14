@@ -1,0 +1,50 @@
+name: Blaziken
+
+origin: emerald-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: Ability
+    name: Blaze
+    text: As long as Blaziken's remaining HP is 40 or less, Blaziken does 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Searing Flame
+    text: The Defending Pokémon is now Burned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Damage Burn
+    text: If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

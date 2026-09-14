@@ -1,0 +1,40 @@
+name: Morelull
+
+origin: darkness-ablaze-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 755
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spore
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Flop
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

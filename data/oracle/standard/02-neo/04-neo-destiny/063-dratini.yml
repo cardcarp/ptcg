@@ -1,0 +1,41 @@
+name: Dratini
+
+origin: neo-destiny-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 147
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Shed
+    text: Remove 1 damage counter from Dratini.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fury Attack
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

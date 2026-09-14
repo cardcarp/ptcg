@@ -1,0 +1,46 @@
+name: Onix
+
+origin: southern-islands-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 95
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

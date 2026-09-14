@@ -1,0 +1,64 @@
+name: Salamence ex δ
+
+origin: dragon-frontiers-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+  - Delta Species
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: Ability
+    name: Type Shift
+    text: Once during your turn (before your attack), you may use this power. Salamence ex's type is Fire until the end of your turn.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Claw Swipe
+    damage: 60
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Dual Stream
+    text: You may do up to 40 damage instead of 80 to the Defending Pokémon. If you do, this attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 80
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fire
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

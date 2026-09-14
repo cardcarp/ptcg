@@ -1,0 +1,49 @@
+name: Bibarel
+
+origin: xy-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Bidoof
+
+dex: 400
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Headbutt
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hypno Headbutt
+    text: You may do 30 more damage. If you do, this Pokémon is now Asleep.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

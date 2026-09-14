@@ -1,0 +1,45 @@
+name: Jellicent
+
+origin: next-destinies-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Frillish
+
+dex: 593
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Vengeful Wish
+    text: If this Pokémon was damaged by an attack during your opponent's last turn, this attack does the same amount of damage done to the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Absorb Life
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

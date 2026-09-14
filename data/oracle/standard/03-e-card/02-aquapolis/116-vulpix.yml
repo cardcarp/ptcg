@@ -1,0 +1,35 @@
+name: Vulpix
+
+origin: aquapolis-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 37
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Collect Fire
+    text: If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Vulpix.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

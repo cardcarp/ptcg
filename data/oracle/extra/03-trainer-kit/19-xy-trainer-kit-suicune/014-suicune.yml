@@ -1,0 +1,43 @@
+name: Suicune
+
+origin: xy-trainer-kit-suicune-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 245
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Spiral Drain
+    text: Heal 20 damage from this Pokemon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aurora Beam
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Growlithe
+
+origin: secret-wonders-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 58
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Dig Claws
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

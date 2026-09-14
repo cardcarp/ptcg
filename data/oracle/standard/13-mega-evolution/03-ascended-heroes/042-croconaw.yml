@@ -1,0 +1,39 @@
+name: Croconaw
+
+origin: ascended-heroes-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Totodile
+
+dex: 159
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

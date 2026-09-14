@@ -1,0 +1,46 @@
+name: Zekrom
+
+origin: dragon-majesty-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 644
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Shred
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 70
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Bolt Strike
+    text: Flip a coin. If tails, this Pokémon does 50 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

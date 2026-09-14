@@ -1,0 +1,48 @@
+name: Raichu LV.X
+
+origin: stormfront-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Level-Up
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Raichu
+
+dex: 26
+
+rule:
+  - type: Ability
+    name: Link Lightning
+    text: Once during your turn, when you put Raichu LV.X onto Raichu and use Voltage Shoot, you may use another attack of Raichu afterward. This power can't be used if Raichu is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Voltage Shoot
+    text: Discard 2 Lightning Energy cards from your hand and choose 1 of your opponent's Pokémon. This attack does 80 to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+rulebox:
+  - Put this card onto your Active Raichu. Raichu LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+errata: []

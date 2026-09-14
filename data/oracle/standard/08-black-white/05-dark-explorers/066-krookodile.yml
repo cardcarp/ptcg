@@ -1,0 +1,55 @@
+name: Krookodile
+
+origin: dark-explorers-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 150
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Clamp
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 60
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Bombast
+    text: Does 40 damage times the number of Prize cards you have taken.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

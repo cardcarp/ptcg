@@ -1,0 +1,45 @@
+name: Pidgey
+
+origin: firered-leafgreen-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 16
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Corner
+    text: The Defending Pokémon can't retreat until the end of your opponent's next turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

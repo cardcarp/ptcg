@@ -1,0 +1,40 @@
+name: Misdreavus
+
+origin: silver-tempest-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 200
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Confuse Ray
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,50 @@
+name: Dragonite
+
+origin: dragon-vault-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hurricane Tail
+    text: Flip 4 coins. This attack does 60 damage times the number of heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

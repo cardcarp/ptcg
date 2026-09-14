@@ -1,0 +1,47 @@
+name: Kyurem VMAX
+
+origin: lost-origin-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Water
+
+hp: 330
+
+preevolution:
+  - Kyurem V
+
+dex: 646
+
+rule:
+  - type: Ability
+    name: Glaciated World
+    text: Once during your turn, you may discard the top card of your deck. If that card is a Water Energy card, attach it to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Max Frost
+    text: You may discard any amount of Water Energy from this Pokémon. This attack does 50 more damage for each card you discarded in this way.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

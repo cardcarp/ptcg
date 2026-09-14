@@ -1,0 +1,41 @@
+name: Snover
+
+origin: lost-origin-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 459
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Corkscrew Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Icicle Missile
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

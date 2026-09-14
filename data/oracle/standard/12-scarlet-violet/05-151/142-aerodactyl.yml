@@ -1,0 +1,47 @@
+name: Aerodactyl
+
+origin: 151-142
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Antique Old Amber
+
+dex: 142
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Glide
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Devolution Ray
+    text: If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

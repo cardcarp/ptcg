@@ -1,0 +1,46 @@
+name: Araquanid
+
+origin: forbidden-light-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Dewpider
+
+dex: 752
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Bubble
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bubble Trap
+    text: If 1 of your Pokémon used Bubble during your last turn, this attack does 80 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

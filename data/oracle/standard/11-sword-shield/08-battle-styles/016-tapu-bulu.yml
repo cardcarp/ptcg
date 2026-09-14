@@ -1,0 +1,44 @@
+name: Tapu Bulu
+
+origin: battle-styles-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 787
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Push Down
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Nature's Judgment
+    text: You may discard all Energy from this Pokémon. If you do, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

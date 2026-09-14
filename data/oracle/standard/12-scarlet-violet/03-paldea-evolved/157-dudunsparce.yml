@@ -1,0 +1,46 @@
+name: Dudunsparce
+
+origin: paldea-evolved-157
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Dunsparce
+
+dex: 982
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mud-Slap
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dig Away Flash
+    text: Your opponent's Active Pokémon is now Paralyzed. Shuffle this Pokémon and all attached cards into your deck.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

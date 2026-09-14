@@ -1,0 +1,40 @@
+name: Unown [F]
+
+origin: neo-discovery-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 201
+
+rule:
+  - type: Ability
+    name: '[Find]'
+    text: Once during your turn (before your attack), if you have Unown [F], Unown [I], Unown [N], and Unown [D] on your Bench, you may search your deck for a Trainer card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hidden Power
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You may have up to 4 Basic Pokémon cards in your deck with Unown in their names.
+
+errata: []

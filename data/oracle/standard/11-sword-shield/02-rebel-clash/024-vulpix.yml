@@ -1,0 +1,40 @@
+name: Vulpix
+
+origin: rebel-clash-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

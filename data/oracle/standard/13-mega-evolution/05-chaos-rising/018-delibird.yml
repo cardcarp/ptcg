@@ -1,0 +1,40 @@
+name: Delibird
+
+origin: chaos-rising-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 225
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pleasing Present
+    text: Each player may attach up to 3 Basic Energy cards from their hand to their Pokémon in any way they like. Your opponent does this first.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flap
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

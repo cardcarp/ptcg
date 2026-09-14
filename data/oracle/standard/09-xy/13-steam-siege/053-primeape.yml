@@ -1,0 +1,46 @@
+name: Primeape
+
+origin: steam-siege-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Swagger
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Spirited Throw
+    text: If, before doing damage, your opponent's Active Pokémon has more remaining HP than this Pokémon, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

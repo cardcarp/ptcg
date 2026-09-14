@@ -1,0 +1,49 @@
+name: Nuzleaf
+
+origin: diamond-pearl-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Dirty Trick
+    text: Flip a coin. If heads, discard an Energy card attached to 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Razor Wind
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

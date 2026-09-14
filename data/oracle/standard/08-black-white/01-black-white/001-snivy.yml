@@ -1,0 +1,45 @@
+name: Snivy
+
+origin: black-white-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 495
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Vine Whip
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

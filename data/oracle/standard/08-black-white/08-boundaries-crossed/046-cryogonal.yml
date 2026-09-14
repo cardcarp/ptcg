@@ -1,0 +1,37 @@
+name: Cryogonal
+
+origin: boundaries-crossed-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 615
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Edge
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

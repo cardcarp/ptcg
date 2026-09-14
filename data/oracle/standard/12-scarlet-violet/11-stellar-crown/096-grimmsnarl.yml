@@ -1,0 +1,46 @@
+name: Grimmsnarl
+
+origin: stellar-crown-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Morgrem
+
+dex: 861
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Goad 'n' Grab
+    text: Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.) If you do, this attack does 160 damage to the new Active Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Knuckle Sandwich
+    text: Discard 2 Energy from this Pokémon.
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

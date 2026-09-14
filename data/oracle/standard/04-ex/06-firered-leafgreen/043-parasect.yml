@@ -1,0 +1,44 @@
+name: Parasect
+
+origin: firered-leafgreen-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Paras
+
+dex: 47
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Energy Powder
+    text: Search your deck for up to 2 basic Energy cards and attach them to any of your Pokémon (excluding Pokémon-ex) in any way you like. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Toxic Spore
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Snorlax
+
+origin: wizards-black-star-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 143
+
+rule:
+  - type: Ability
+    name: Guard
+    text: As long as Snorlax is your Active Pokémon, the Defending Pokémon can't Retreat. This power stops working when Snorlax is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Roll Over
+    text: Snorlax is now Asleep. Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

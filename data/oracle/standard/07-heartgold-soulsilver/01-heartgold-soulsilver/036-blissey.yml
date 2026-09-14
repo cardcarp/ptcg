@@ -1,0 +1,46 @@
+name: Blissey
+
+origin: heartgold-soulsilver-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Chansey
+
+dex: 242
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Link
+    text: Search your discard pile for an Energy card and attach it to Blissey.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Blissey does 40 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

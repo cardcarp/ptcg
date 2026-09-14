@@ -1,0 +1,42 @@
+name: Cramorant
+
+origin: journey-together-137
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 845
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ceaseless Spitting
+    text: Flip a coin until you get tails. This attack does 50 damage for each heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

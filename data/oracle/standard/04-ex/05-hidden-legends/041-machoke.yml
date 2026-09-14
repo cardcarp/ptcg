@@ -1,0 +1,41 @@
+name: Machoke
+
+origin: hidden-legends-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: Ability
+    name: Strikes Back
+    text: If Machoke is your Active Pokémon and is damaged by an opponent's attack (even if Machoke is Knocked Out), put 1 damage counter on the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Low Kick
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

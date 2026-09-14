@@ -1,0 +1,49 @@
+name: Forretress
+
+origin: legends-awakened-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Pineco
+
+dex: 205
+
+rule:
+  - type: Ability
+    name: Iron Shell
+    text: Whenever you attach a basic Energy card from your hand to Forretress (excluding effects of attacks), you may flip a coin. If tails, put 2 damage counters on each Pokémon (both yours and your opponent's) (excluding any Forretress).
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Explosion
+    text: Forretress does 40 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

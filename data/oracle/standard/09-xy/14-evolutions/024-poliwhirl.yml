@@ -1,0 +1,48 @@
+name: Poliwhirl
+
+origin: evolutions-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Poliwag
+
+dex: 61
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Amnesia
+    text: Choose 1 of your opponent's Active Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

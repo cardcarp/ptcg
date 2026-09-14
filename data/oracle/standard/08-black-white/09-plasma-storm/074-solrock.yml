@@ -1,0 +1,44 @@
+name: Solrock
+
+origin: plasma-storm-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 338
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Heat Burn
+    text: The Defending Pokémon is now Burned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Explosion
+    text: This Pokémon does 90 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

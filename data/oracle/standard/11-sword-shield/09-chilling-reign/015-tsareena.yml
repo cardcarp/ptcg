@@ -1,0 +1,47 @@
+name: Tsareena
+
+origin: chilling-reign-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Steenee
+
+dex: 763
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tread On
+    text: This attack does 50 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

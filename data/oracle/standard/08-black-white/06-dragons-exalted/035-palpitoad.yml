@@ -1,0 +1,44 @@
+name: Palpitoad
+
+origin: dragons-exalted-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Tympole
+
+dex: 536
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: The Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

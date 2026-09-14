@@ -1,0 +1,44 @@
+name: Dartrix
+
+origin: astral-radiance-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Rowlet
+
+dex: 723
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Razor Wing
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

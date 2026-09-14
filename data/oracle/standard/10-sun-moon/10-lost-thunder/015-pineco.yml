@@ -1,0 +1,36 @@
+name: Pineco
+
+origin: lost-thunder-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 204
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Continuous Headbutt
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

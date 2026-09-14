@@ -1,0 +1,44 @@
+name: Jirachi
+
+origin: rising-rivals-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 385
+
+rule:
+  - type: Ability
+    name: Final Wish
+    text: Once during your opponent's turn, if Jirachi would be Knocked Out by damage from an attack, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    name: Detour
+    text: If you have a Supporter card in play, use the effect of that card as the effect of this attack.
+  - type: Attack
+    cost:
+      - Metal
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+errata: []

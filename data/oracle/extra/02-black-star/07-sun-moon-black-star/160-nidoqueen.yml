@@ -1,0 +1,44 @@
+name: Nidoqueen
+
+origin: sun-moon-black-star-160
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 160
+
+preevolution:
+  - Nidorina
+
+dex: 31
+
+rule:
+  - type: Ability
+    name: Queen's Call
+    text: Once during your turn (before your attack), you may search your deck for a Pokémon that isn't a Pokémon-GX or Pokémon-EX, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Lariat
+    text: This attack does 50 more damage for each Evolution Pokémon on your Bench.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,49 @@
+name: Gengar
+
+origin: chilling-reign-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: Ability
+    name: Last Gift
+    text: If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Pain Burst
+    text: This attack does 40 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

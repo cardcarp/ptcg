@@ -1,0 +1,47 @@
+name: Purrloin
+
+origin: plasma-storm-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 509
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scout
+    text: Your opponent reveals his or her hand.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Fasten Claws
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

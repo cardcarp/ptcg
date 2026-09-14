@@ -1,0 +1,51 @@
+name: Sylveon
+
+origin: furious-fists-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 700
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Curly Ribbon
+    text: Move an Energy attached to your opponent's Active Pokémon to 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Echoed Voice
+    text: During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

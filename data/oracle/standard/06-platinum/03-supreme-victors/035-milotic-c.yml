@@ -1,0 +1,45 @@
+name: Milotic C
+
+origin: supreme-victors-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Water
+
+hp: 90
+
+dex: 350
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Aqua Tail
+    text: Flip a coin for each Water Energy attached to Milotic C. This attack does 10 damage plus 20 more damage for each heads.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Wrap
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

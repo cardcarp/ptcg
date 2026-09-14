@@ -1,0 +1,35 @@
+name: Glimmet
+
+origin: twilight-masquerade-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 969
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Shot
+    text: Discard an Energy from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,36 @@
+name: Slugma
+
+origin: skyridge-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 218
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Singe
+    text: The Defending Pokémon is now Burned.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

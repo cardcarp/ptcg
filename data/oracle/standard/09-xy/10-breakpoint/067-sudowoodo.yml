@@ -1,0 +1,35 @@
+name: Sudowoodo
+
+origin: breakpoint-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 185
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Watch and Learn
+    text: If your opponent's Pokémon used an attack during his or her last turn, use it as this attack.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,39 @@
+name: Dunsparce
+
+origin: breakpoint-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 206
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

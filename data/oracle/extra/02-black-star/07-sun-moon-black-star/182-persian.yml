@@ -1,0 +1,40 @@
+name: Persian
+
+origin: sun-moon-black-star-182
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: Ability
+    name: Gathering of Cats
+    text: Ignore all Energy in the attack costs of each of your Pokémon in play that has the Caturday attack.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

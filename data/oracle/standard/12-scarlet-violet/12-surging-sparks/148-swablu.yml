@@ -1,0 +1,40 @@
+name: Swablu
+
+origin: surging-sparks-148
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 333
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Disarming Voice
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

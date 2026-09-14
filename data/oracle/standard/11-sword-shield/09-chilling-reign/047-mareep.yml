@@ -1,0 +1,40 @@
+name: Mareep
+
+origin: chilling-reign-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 179
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Growl
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Static Shock
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

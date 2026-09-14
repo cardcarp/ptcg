@@ -1,0 +1,43 @@
+name: Muk
+
+origin: brilliant-stars-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: Ability
+    name: Sludge Street
+    text: The Retreat Cost of your opponent's Poisoned Pokémon is Colorless more.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Shrieking Poison
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

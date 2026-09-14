@@ -1,0 +1,35 @@
+name: Chimecho
+
+origin: crimson-invasion-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 358
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Bell of Silence
+    text: Your opponent can't play any Pokémon that has an Ability from their hand during their next turn.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

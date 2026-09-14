@@ -1,0 +1,44 @@
+name: Persian
+
+origin: legends-awakened-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fasten Claws
+    text: Flip a coin. If heads, this attack does 40 damage plus 10 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+errata: []

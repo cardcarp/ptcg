@@ -1,0 +1,48 @@
+name: Decidueye ex
+
+origin: perfect-order-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Grass
+
+hp: 320
+
+preevolution:
+  - Dartrix
+
+dex: 724
+
+rule:
+  - type: Ability
+    name: Sniper's Eye
+    text: If your opponent has exactly 4 cards in their hand, ignore all Colorless Energy in the costs of attacks used by this Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Crushing Arrow
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 240
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,41 @@
+name: Charmander
+
+origin: expedition-base-set-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Searing Flame
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

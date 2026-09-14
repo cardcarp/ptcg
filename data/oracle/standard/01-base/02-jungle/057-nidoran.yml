@@ -1,0 +1,42 @@
+name: Nidoran ♀
+
+origin: jungle-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 29
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon named Nidoran ♂ or Nidoran ♀ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

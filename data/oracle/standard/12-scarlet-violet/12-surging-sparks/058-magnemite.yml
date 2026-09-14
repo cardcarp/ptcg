@@ -1,0 +1,34 @@
+name: Magnemite
+
+origin: surging-sparks-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 81
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Lightning Ball
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Tepig
+
+origin: white-flare-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 498
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Rollout
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

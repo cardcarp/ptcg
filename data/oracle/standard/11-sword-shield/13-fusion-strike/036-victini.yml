@@ -1,0 +1,39 @@
+name: Victini
+
+origin: fusion-strike-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 494
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fiery Cheering
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+    name: Flare
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,35 @@
+name: Wobbuffet
+
+origin: diamond-pearl-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 202
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Countercharge
+    text: Flip a coin. If heads, move all damage counters from Wobbuffet to the Defending Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 3
+
+errata: []

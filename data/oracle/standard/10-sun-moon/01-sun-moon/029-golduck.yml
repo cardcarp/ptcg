@@ -1,0 +1,42 @@
+name: Golduck
+
+origin: sun-moon-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+    name: Double Jet
+    text: Discard up to 2 Water Energy cards from your hand. This attack does 60 damage for each card you discarded in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+errata: []

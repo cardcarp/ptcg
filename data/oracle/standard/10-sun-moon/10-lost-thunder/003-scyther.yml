@@ -1,0 +1,37 @@
+name: Scyther
+
+origin: lost-thunder-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 123
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fury Cutter
+    text: Flip 3 coins. If 1 of them is heads, this attack does 20 more damage. If 2 of them are heads, this attack does 50 more damage. If all of them are heads, this attack does 70 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

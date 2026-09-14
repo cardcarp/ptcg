@@ -1,0 +1,43 @@
+name: Magikarp
+
+origin: mysterious-treasures-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flail
+    text: Does 10 damage times the number of damage counters on Magikarp.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Dragon Rage
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

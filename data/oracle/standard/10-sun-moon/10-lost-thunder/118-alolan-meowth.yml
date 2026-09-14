@@ -1,0 +1,39 @@
+name: Alolan Meowth
+
+origin: lost-thunder-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 52
+
+rule:
+  - type: Attack
+    name: Spoil the Fun
+    text: If you go second, this attack does 60 more damage during your first turn.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

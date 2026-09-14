@@ -1,0 +1,52 @@
+name: Team Aqua's Kyogre
+
+origin: team-magma-vs-team-aqua-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+  - Darkness
+
+hp: 100
+
+dex: 382
+
+rule:
+  - type: Ability
+    name: Power Saver
+    text: As long as the number of Pokémon in play (both yours and your opponent's) that has Team Aqua in its name is 3 or less, Team Aqua's Kyogre can't attack.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Trip
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Smash
+    text: If the Defending Pokémon is affected by a Special Condition, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - This Pokémon is both Water Darkness type.
+
+errata: []

@@ -1,0 +1,47 @@
+name: Combusken
+
+origin: platinum-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Torchic
+
+dex: 256
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Firebreathing
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: High Jump Kick
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,49 @@
+name: Talonflame
+
+origin: evolving-skies-140
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Fletchinder
+
+dex: 663
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Clutch
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nitro Dive
+    text: If this Pokémon has any Fire Energy attached, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

@@ -1,0 +1,44 @@
+name: Alcremie
+
+origin: sword-shield-black-star-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Milcery
+
+dex: 869
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Decorate
+    text: Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Draining Kiss
+    text: Heal 30 damage from this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,51 @@
+name: Charizard ☆ δ
+
+origin: dragon-frontiers-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Star
+  - Delta Species
+
+type:
+  - Darkness
+
+hp: 90
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Rotating Claws
+    text: You may discard an Energy card attached to Charizard Star. If you do, search your discard pile for an Energy card (excluding the one you discarded) and attach it to Charizard Star.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Swirl
+    text: Discard all Energy cards attached to Charizard Star and discard the top 3 cards from your opponent's deck.
+    damage: 150
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+errata: []

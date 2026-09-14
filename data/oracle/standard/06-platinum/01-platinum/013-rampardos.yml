@@ -1,0 +1,48 @@
+name: Rampardos
+
+origin: platinum-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Cranidos
+
+dex: 409
+
+rule:
+  - type: Ability
+    name: Iron Skull
+    text: Rampardos's attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Head Smash
+    text: If the Defending Pokémon would be Knocked Out by this attack, Rampardos does 40 damage to itself.
+    damage: 80
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Mold Breaker
+    text: Any damage done to Rampardos by attacks is reduced by 20 (after applying Weakness and Resistance) until the end of your next turn.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,48 @@
+name: Golurk
+
+origin: ancient-origins-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Golett
+
+dex: 623
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dig Out
+    text: Discard the top card of your deck. If that card is a Fighting Energy card, attach it to this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Lariat
+    text: Flip 2 coins. This attack does 90 damage times the number of heads.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

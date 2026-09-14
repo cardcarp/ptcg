@@ -1,0 +1,48 @@
+name: Muk
+
+origin: next-destinies-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Gentle Wrap
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Toxic Secretion
+    text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

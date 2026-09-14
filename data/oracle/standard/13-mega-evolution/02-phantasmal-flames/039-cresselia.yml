@@ -1,0 +1,46 @@
+name: Cresselia
+
+origin: phantasmal-flames-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 488
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Swelling Light
+    text: Search your deck for up to 2 Basic Psychic Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Aurora Beam
+    damage: 90
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

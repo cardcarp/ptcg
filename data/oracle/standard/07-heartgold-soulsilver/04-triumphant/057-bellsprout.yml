@@ -1,0 +1,40 @@
+name: Bellsprout
+
+origin: triumphant-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 69
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Inviting Scent
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+    name: Careless Tackle
+    text: Bellsprout does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

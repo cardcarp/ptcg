@@ -1,0 +1,45 @@
+name: Pinsir δ
+
+origin: dragon-frontiers-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 127
+
+rule:
+  - type: Ability
+    name: Armor
+    text: If your opponent has 5 of more cards in his or her hand, any damage done to Pinsir by attacks is reduced by 30 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Delta Call
+    text: Search your deck for a Pokémon that has δ on its card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Guillotine
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

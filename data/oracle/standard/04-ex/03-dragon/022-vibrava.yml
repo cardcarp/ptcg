@@ -1,0 +1,51 @@
+name: Vibrava
+
+origin: dragon-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Trapinch
+
+dex: 329
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Quick Charge
+    text: Search your deck for up to 3 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Lightning
+    name: Dragon Spark
+    text: Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fire
+    delta: 30
+    operator: '-'
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

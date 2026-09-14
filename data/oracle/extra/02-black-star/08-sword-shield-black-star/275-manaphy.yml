@@ -1,0 +1,41 @@
+name: Manaphy
+
+origin: sword-shield-black-star-275
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 490
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Pulling Currents
+    text: Your opponent reveals their hand. Put up to 2 Basic Pokémon you find there onto your opponent's Bench.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Bullet
+    text: This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

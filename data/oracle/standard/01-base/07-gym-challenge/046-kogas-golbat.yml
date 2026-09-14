@@ -1,0 +1,49 @@
+name: Koga's Golbat
+
+origin: gym-challenge-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Koga's Zubat
+
+dex: 42
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Sonic Scream
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

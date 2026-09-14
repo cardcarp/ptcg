@@ -1,0 +1,47 @@
+name: Grovyle
+
+origin: great-encounters-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Treecko
+
+dex: 253
+
+rule:
+  - type: Attack
+    name: Greenness
+    text: Search your deck for up to 2 Grass Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Poison Breath
+    text: The Defending Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

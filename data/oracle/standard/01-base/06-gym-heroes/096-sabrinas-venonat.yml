@@ -1,0 +1,41 @@
+name: Sabrina's Venonat
+
+origin: gym-heroes-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 48
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Antennae
+    text: The Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Removal Beam
+    text: If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

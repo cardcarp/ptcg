@@ -1,0 +1,41 @@
+name: Illumise
+
+origin: triumphant-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 314
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sweet Scent
+    text: Remove 3 damage counters from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+    name: Vulcan Beat
+    text: Flip a coin for each Volbeat you have in play. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

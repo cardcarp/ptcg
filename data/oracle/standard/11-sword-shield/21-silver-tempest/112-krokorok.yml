@@ -1,0 +1,40 @@
+name: Krokorok
+
+origin: silver-tempest-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Sandile
+
+dex: 552
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

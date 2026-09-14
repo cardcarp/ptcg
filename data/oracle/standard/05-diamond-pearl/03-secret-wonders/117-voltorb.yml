@@ -1,0 +1,46 @@
+name: Voltorb
+
+origin: secret-wonders-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Speed Ball
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Big Explosion
+    text: Voltorb does 50 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Qwilfish
+
+origin: shining-legends-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 211
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Shocking Sting
+    text: If your opponent's Active Pokémon is affected by a Special Condition, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

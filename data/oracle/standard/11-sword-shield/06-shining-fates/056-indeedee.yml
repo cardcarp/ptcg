@@ -1,0 +1,42 @@
+name: Indeedee
+
+origin: shining-fates-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 876
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Helping Hand
+    text: Search your deck for a basic Energy card and attach it to 1 of your Benched Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

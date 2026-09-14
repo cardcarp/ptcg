@@ -1,0 +1,54 @@
+name: Arcanine ex
+
+origin: scarlet-violet-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Fire
+
+hp: 280
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Raging Claws
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Bright Flame
+    text: Discard 2 Fire Energy from this Pokémon.
+    damage: 250
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

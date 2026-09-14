@@ -1,0 +1,43 @@
+name: Volcanion
+
+origin: paradox-rift-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 721
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Dual Turbo
+    text: Choose up to 2 of your Benched Pokémon and attach a Basic Fire Energy card from your discard pile to each of them.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

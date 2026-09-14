@@ -1,0 +1,50 @@
+name: Ludicolo
+
+origin: platinum-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Lombre
+
+dex: 272
+
+rule:
+  - type: Ability
+    name: Cheerful Voice
+    text: Once during your turn (before your attack), you may use this power. If you do, your turn ends. During your next turn, each of Ludicolo's attacks does 60 more damage to the Defending Pokémon (before applying Weakness and Resistance). This power can't be used if Ludicolo is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Mad Dance
+    text: The Defending Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Best Dance
+    text: After doing damage, remove from Ludicolo the number of damage counters equal to the damage you did to the Defending Pokémon. Ludicolo can't use Best Dance during your next turn.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+retreat: 2
+
+errata: []

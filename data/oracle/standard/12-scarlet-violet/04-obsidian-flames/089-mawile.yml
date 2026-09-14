@@ -1,0 +1,36 @@
+name: Mawile
+
+origin: obsidian-flames-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 303
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mischievous Crunch
+    text: This attack does 30 damage for each Psychic Energy attached to this Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

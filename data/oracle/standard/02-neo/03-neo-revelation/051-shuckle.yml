@@ -1,0 +1,38 @@
+name: Shuckle
+
+origin: neo-revelation-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 213
+
+rule:
+  - type: Ability
+    name: Hard Shell
+    text: Whenever an attack (including your own) does 40 or less damage to Shuckle (after applying Weakness and Resistance), reduce that damage to 10. (Any other effects of attacks still happen.) This power stops working while Shuckle is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Toxic Saliva
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

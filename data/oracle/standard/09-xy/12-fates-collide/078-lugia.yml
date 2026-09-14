@@ -1,0 +1,46 @@
+name: Lugia
+
+origin: fates-collide-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 249
+
+rule:
+  - type: Ability
+    name: Pressure
+    text: As long as this Pokémon is your Active Pokémon, any damage done by attacks from your opponent's Active Pokémon is reduced by 20 (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Intensifying Burn
+    text: If your opponent's Active Pokémon is a Pokémon-EX, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

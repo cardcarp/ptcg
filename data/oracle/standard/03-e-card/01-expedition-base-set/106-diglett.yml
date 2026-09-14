@@ -1,0 +1,41 @@
+name: Diglett
+
+origin: expedition-base-set-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 50
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Fury Headbutt
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

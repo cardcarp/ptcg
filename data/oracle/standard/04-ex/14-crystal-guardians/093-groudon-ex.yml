@@ -1,0 +1,44 @@
+name: Groudon ex
+
+origin: crystal-guardians-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 383
+
+rule:
+  - type: Ability
+    name: Hard Rock
+    text: As long as Groudon ex has 1 Energy or less attached to it, damage done to any of your Groudon ex in play by attacks is reduced by 20 (after applying Weakness and Resistance). You can't use more than 1 Hard Rock Poké-Body each turn.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Power Blast
+    text: Discard 2 Energy attached to Groudon ex.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

@@ -1,0 +1,41 @@
+name: Hisuian Sneasler
+
+origin: astral-radiance-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Hisuian Sneasel
+
+dex: 903
+
+rule:
+  - type: Ability
+    name: Carry and Climb
+    text: As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Claw Slash
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

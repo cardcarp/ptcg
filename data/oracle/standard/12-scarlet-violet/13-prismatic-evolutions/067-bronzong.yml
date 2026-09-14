@@ -1,0 +1,46 @@
+name: Bronzong
+
+origin: prismatic-evolutions-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: Ability
+    name: Protective Bell
+    text: All of your Pokémon take 10 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Heavy Impact
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

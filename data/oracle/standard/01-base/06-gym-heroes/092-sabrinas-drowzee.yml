@@ -1,0 +1,40 @@
+name: Sabrina's Drowzee
+
+origin: gym-heroes-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 96
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Suggestion
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

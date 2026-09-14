@@ -1,0 +1,41 @@
+name: Bloodmoon Ursaluna
+
+origin: shrouded-fable-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 150
+
+dex: 901
+
+rule:
+  - type: Ability
+    name: Battle-Hardened
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may attach up to 2 Basic Fighting Energy cards from your hand to this Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mad Bite
+    text: This attack does 30 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

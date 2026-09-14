@@ -1,0 +1,35 @@
+name: Venonat
+
+origin: unbroken-bonds-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 48
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

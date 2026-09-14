@@ -1,0 +1,45 @@
+name: Poliwrath
+
+origin: twilight-masquerade-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 170
+
+preevolution:
+  - Poliwhirl
+
+dex: 62
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Hypnosis
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jumping Uppercut
+    text: You may do 120 more damage. If you do, shuffle this Pokémon and all attached cards into your deck.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

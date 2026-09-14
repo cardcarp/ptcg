@@ -1,0 +1,38 @@
+name: Shaymin
+
+origin: lost-thunder-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: Ability
+    name: Floral Heal
+    text: Once during your turn (before your attack), you may heal 20 damage from your Active Grass Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

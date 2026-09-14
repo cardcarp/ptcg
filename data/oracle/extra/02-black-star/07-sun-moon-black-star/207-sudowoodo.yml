@@ -1,0 +1,41 @@
+name: Sudowoodo
+
+origin: sun-moon-black-star-207
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 185
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Low Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Territorial Strike
+    text: If you don't have a Stadium card in play, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

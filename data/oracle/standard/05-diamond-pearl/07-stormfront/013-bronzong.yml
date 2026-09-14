@@ -1,0 +1,55 @@
+name: Bronzong
+
+origin: stormfront-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: Ability
+    name: Cycler
+    text: Once during your turn (before your attack), you may choose a card from your hand and put it on top of your deck. Then, search your deck for up to 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward. This power can't be used if Bronzong is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Strange Spin
+    text: If you have the same number of cards in your hand as your opponent, this attack does 20 damage plus 40 more damage and the Defending Pokémon is now Confused.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Heavy Potential
+    text: Put a number of damage counters on each of your opponent's Pokémon equal to the number of Colorless Energy in that Pokémon's Retreat Cost (after applying effects to the Retreat Cost).
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fire
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Gurdurr
+
+origin: black-bolt-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Timburr
+
+dex: 533
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Low Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hammer Arm
+    text: Discard the top card of your opponent's deck.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

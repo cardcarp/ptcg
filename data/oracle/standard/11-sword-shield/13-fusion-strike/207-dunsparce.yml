@@ -1,0 +1,38 @@
+name: Dunsparce
+
+origin: fusion-strike-207
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 206
+
+rule:
+  - type: Ability
+    name: Mysterious Nest
+    text: Colorless Pokémon in play (both yours and your opponent's) have no Weakness.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

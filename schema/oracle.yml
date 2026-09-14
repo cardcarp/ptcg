@@ -1,0 +1,154 @@
+# A card as the rules know it, independent of printing,
+# shared by every reprint and by both faces of a two-sided card.
+
+name:
+  type: string
+  required: true
+
+origin: # The printing this oracle first appeared in, as '{set}-{index}'. 
+        # Name alone cannot identify an oracle (hundreds of Pikachu), so the id is derived from name + origin. 
+        # Anchored to the earliest printing so it stays stable as reprints are added.
+  type: string
+  required: true
+  nullable: false
+
+layout:
+  type: string
+  required: true
+  nullable: false
+  allowed: ['Standard', 'Tile', 'Horizontal']
+
+category:
+  type: list
+  required: true
+  nullable: true
+  schema:
+    type: string
+    allowed: ['Pokémon', 'Trainer', 'Energy']
+
+trait:
+  type: list
+  required: true
+  nullable: true
+  schema:
+    type: string
+
+type:
+  type: list
+  required: false
+  schema:
+    type: string
+    allowed: ['Grass', 'Fire', 'Water', 'Lightning', 'Fighting', 'Psychic', 'Colorless', 'Darkness', 'Metal', 'Dragon', 'Fairy']
+
+hp:
+  type: integer
+  required: false
+  min: 0
+  coerce: int
+
+preevolution:
+  type: list
+  required: false
+  schema:
+    type: string
+
+dex:
+  type: integer
+  required: false
+  min: 0
+  coerce: int
+
+rule: # this is a combination of 'abilities' and 'attacks'
+  type: list
+  required: false
+  schema:
+    type: dict
+    schema:
+      type:
+        type: string
+        required: false
+        allowed: ['Ability', 'Attack', 'Effect']
+      position: # the front is 'Standard', no current cards, but worth having for future growth
+        type: string
+        required: false
+      cost:
+        type: list
+        required: false
+        schema:
+          type: string
+          allowed: ['Grass', 'Fire', 'Water', 'Lightning', 'Fighting', 'Psychic', 'Colorless', 'Darkness', 'Metal', 'Dragon', 'Fairy']
+      name:
+        type: string
+        required: false
+      text:
+        type: string
+        required: false
+      damage: # just the raw number
+        type: integer
+        required: false
+        min: 0
+      modifier: # continuation of damage which use symbols such as '+' and 'x'
+        type: string
+        required: false
+
+weakness:
+  type: list
+  required: false
+  schema:
+    type: dict
+    schema:
+      type:
+        type: string
+        required: false
+        allowed: ['Grass', 'Fire', 'Water', 'Lightning', 'Fighting', 'Psychic', 'Colorless', 'Darkness', 'Metal', 'Dragon', 'Fairy']
+      delta: # just the integer.
+        type: integer
+        required: false
+        min: 0
+      operator: # continuation of value: splitting the symbol out such as '-' and 'x'
+        type: string
+        required: false
+
+resistance:
+  type: list
+  required: false
+  schema:
+    type: dict
+    schema:
+      type:
+        type: string
+        required: false
+        allowed: ['Grass', 'Fire', 'Water', 'Lightning', 'Fighting', 'Psychic', 'Colorless', 'Darkness', 'Metal', 'Dragon', 'Fairy']
+      delta: # just the integer.
+        type: integer
+        required: false
+        min: 0
+      operator: # continuation of value: splitting the symbol out such as '-' and 'x'
+        type: string
+        required: false
+
+retreat:
+  type: integer
+  required: false
+  min: 0
+  coerce: int
+
+rulebox: # This field is the conditional part of the card, such as where it states knockouts are worth 2 prizes.
+  type: list
+  required: false
+  schema:
+    type: string
+
+errata:
+  type: list
+  required: false
+  nullable: true
+  schema:
+    type: dict
+    schema:
+      date:
+        type: string
+        required: false
+      text:
+        type: string
+        required: false

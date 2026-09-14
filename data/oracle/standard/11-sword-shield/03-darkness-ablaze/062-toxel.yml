@@ -1,0 +1,40 @@
+name: Toxel
+
+origin: darkness-ablaze-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 848
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slap
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Static Shock
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

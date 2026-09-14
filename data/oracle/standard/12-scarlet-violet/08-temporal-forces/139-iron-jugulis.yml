@@ -1,0 +1,45 @@
+name: Iron Jugulis
+
+origin: temporal-forces-139
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Future
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 993
+
+rule:
+  - type: Ability
+    name: Automated Combat
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blasting Wind
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

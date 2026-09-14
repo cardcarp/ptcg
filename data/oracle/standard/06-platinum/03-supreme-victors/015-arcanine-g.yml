@@ -1,0 +1,41 @@
+name: Arcanine G
+
+origin: supreme-victors-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 59
+
+rule:
+  - type: Ability
+    name: Extreme Speed
+    text: Arcanine G's Retreat Cost is Colorless less for each Fire Energy attached to Arcanine G.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Overrun
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

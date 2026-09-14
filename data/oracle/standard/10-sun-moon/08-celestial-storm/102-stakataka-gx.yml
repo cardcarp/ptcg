@@ -1,0 +1,58 @@
+name: Stakataka-GX
+
+origin: celestial-storm-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+  - Ultra Beast
+
+type:
+  - Metal
+
+hp: 180
+
+dex: 805
+
+rule:
+  - type: Ability
+    name: Ultra Wall
+    text: Your Ultra Beasts take 10 less damage from your opponent's attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Gigaton Stomp
+    damage: 120
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Assembly-GX
+    text: This attack does 50 more damage for each Prize card you have taken. (You can't use more than 1 GX attack in a game.)
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

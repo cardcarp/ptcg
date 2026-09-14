@@ -1,0 +1,45 @@
+name: Hoopa V
+
+origin: sword-shield-black-star-176
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Fusion Strike
+
+type:
+  - Darkness
+
+hp: 220
+
+dex: 720
+
+rule:
+  - type: Ability
+    name: Two-Faced
+    text: As long as this Pokémon is in play, it is Psychic and Darkness type.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Shadow Impact
+    text: Put 3 damage counters on 1 of your Pokémon.
+    damage: 170
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

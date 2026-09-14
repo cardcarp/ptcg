@@ -1,0 +1,39 @@
+name: Ducklett
+
+origin: lost-origin-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 580
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

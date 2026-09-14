@@ -1,0 +1,44 @@
+name: Snorlax
+
+origin: sword-shield-black-star-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Single Strike
+
+type:
+  - Colorless
+
+hp: 140
+
+dex: 143
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slap Push
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Single Strike Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

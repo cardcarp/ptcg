@@ -1,0 +1,38 @@
+name: Darumaka
+
+origin: phantasmal-flames-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 554
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Blaze Ball
+    text: This attack does 20 more damage for each Fire Energy attached to this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

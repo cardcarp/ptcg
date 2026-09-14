@@ -1,0 +1,60 @@
+name: Charizard-GX
+
+origin: sun-moon-black-star-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - GX
+
+type:
+  - Fire
+
+hp: 250
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 70
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Crimson Storm
+    text: Discard 3 Fire Energy from this Pokémon.
+    damage: 300
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Raging Out-GX
+    text: Discard the top 10 cards of your opponent's deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

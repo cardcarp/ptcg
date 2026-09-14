@@ -1,0 +1,42 @@
+name: Solrock
+
+origin: legend-maker-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 338
+
+rule:
+  - type: Ability
+    name: Luna Shade
+    text: As long as you have Lunatone in play, each player's Colorless Pokémon (excluding Pokémon-ex) can't use any Poké-Powers.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for a Lunatone and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

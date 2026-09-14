@@ -1,0 +1,40 @@
+name: Pachirisu
+
+origin: scarlet-violet-black-star-158
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 417
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Crackling Charge
+    text: Flip 3 coins. Attach a number of Basic Lightning Energy cards up to the number of heads from your discard pile to your Benched Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Tiny Bolt
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

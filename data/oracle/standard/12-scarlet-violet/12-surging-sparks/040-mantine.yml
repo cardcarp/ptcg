@@ -1,0 +1,40 @@
+name: Mantine
+
+origin: surging-sparks-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 226
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Dive
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

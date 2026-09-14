@@ -1,0 +1,52 @@
+name: Clefable
+
+origin: breakpoint-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 100
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Moon Barrier
+    text: During your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon by Dragon Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Tumbling Attack
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

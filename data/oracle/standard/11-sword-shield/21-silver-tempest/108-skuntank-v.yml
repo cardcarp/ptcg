@@ -1,0 +1,47 @@
+name: Skuntank V
+
+origin: silver-tempest-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 435
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pursuit Blast
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. If that Pokémon retreated from the Active Spot during your opponent's last turn, this attack does 120 damage instead. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Shrieking Poison
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

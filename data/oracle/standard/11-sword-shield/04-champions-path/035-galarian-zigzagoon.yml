@@ -1,0 +1,36 @@
+name: Galarian Zigzagoon
+
+origin: champions-path-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 263
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pin Missile
+    text: Flip 4 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

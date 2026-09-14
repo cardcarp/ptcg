@@ -1,0 +1,39 @@
+name: Litwick
+
+origin: lost-thunder-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 607
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Haunt
+    text: Put 1 damage counter on your opponent's Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

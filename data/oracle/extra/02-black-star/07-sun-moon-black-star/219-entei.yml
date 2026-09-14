@@ -1,0 +1,44 @@
+name: Entei
+
+origin: sun-moon-black-star-219
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 244
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Rally Back
+    text: If any of your Pokémon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Mane
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

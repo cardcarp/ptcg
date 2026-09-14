@@ -1,0 +1,38 @@
+name: Wugtrio
+
+origin: obsidian-flames-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Wiglett
+
+dex: 961
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Entwining Entrapment
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

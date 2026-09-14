@@ -1,0 +1,42 @@
+name: Zubat
+
+origin: neo-revelation-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 41
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Spray
+    text: The Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

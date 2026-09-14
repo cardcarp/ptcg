@@ -1,0 +1,44 @@
+name: Keldeo
+
+origin: boundaries-crossed-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 647
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Slicing Blade
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: Does 10 more damage for each Water Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

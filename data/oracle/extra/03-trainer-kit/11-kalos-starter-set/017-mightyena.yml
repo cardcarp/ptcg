@@ -1,0 +1,45 @@
+name: Mightyena
+
+origin: kalos-starter-set-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Hard Bite
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,49 @@
+name: Dodrio
+
+origin: breakthrough-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Doduo
+
+dex: 85
+
+rule:
+  - type: Ability
+    name: Retreat Aid
+    text: As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fury Attack
+    text: Flip 3 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

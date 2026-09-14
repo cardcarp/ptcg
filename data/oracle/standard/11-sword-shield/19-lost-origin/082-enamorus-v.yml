@@ -1,0 +1,44 @@
+name: Enamorus V
+
+origin: lost-origin-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 210
+
+dex: 905
+
+rule:
+  - type: Ability
+    name: Guardian of Love
+    text: Prevent all effects of your opponent's Pokémon's Abilities done to each of your Pokémon that has any Psychic Energy attached, except any Enamorus V.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Blossom Tail
+    text: Attach up to 2 basic Energy cards from your discard pile to your Benched Pokémon in any way you like.
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

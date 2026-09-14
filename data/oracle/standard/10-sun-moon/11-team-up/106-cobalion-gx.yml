@@ -1,0 +1,54 @@
+name: Cobalion-GX
+
+origin: team-up-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Metal
+
+hp: 170
+
+dex: 638
+
+rule:
+  - type: Ability
+    name: Metal Symbol
+    text: Each of your Pokémon that has any Metal Energy attached to it can't be affected by any Special Conditions. Remove any Special Conditions affecting those Pokémon.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+    name: Dueling Saber
+    text: If there is any Stadium card in play, this attack does 60 more damage.
+    damage: 50
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+    name: Iron Rule-GX
+    text: During your opponent's next turn, their Pokémon can't attack. (This includes Pokémon that come into play on that turn.) (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

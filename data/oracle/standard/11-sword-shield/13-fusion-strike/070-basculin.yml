@@ -1,0 +1,38 @@
+name: Basculin
+
+origin: fusion-strike-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 80
+
+dex: 550
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Swarm the Wound
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

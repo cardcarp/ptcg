@@ -1,0 +1,47 @@
+name: Cofagrigus
+
+origin: dark-explorers-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Yamask
+
+dex: 563
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Chuck
+    text: Discard as many Pokémon Tool cards as you like from your hand. This attack does 40 damage times the number of cards you discarded.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Lock Up
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

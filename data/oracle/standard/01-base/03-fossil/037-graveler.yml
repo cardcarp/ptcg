@@ -1,0 +1,45 @@
+name: Graveler
+
+origin: fossil-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 60
+
+preevolution:
+  - Geodude
+
+dex: 75
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Harden
+    text: During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

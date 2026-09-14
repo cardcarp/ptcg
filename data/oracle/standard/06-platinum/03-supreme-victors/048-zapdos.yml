@@ -1,0 +1,51 @@
+name: Zapdos
+
+origin: supreme-victors-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 100
+
+dex: 145
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Drill Peck
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Lightning Wing
+    text: Flip a coin. If heads, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

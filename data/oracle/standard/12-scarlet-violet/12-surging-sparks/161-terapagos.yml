@@ -1,0 +1,41 @@
+name: Terapagos
+
+origin: surging-sparks-161
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 1024
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Prism Charge
+    text: Search your deck for up to 3 Basic Energy cards of different types and attach them to your Tera Pokémon in any way you like. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hard Tackle
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

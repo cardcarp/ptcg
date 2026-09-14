@@ -1,0 +1,42 @@
+name: Milotic
+
+origin: flashfire-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: Ability
+    name: Energy Grace
+    text: Once during your turn (before your attack) you may Knock Out this Pokémon. If you do, attach 3 basic Energy from your discard pile to 1 of your Pokémon (excluding Pokémon-EX).
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Waterfall
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

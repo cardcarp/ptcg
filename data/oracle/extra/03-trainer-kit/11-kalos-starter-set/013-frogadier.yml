@@ -1,0 +1,46 @@
+name: Frogadier
+
+origin: kalos-starter-set-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Froakie
+
+dex: 657
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Drip
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Wave
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

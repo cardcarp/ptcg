@@ -1,0 +1,42 @@
+name: Froslass
+
+origin: chilling-reign-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Snorunt
+
+dex: 478
+
+rule:
+  - type: Ability
+    name: Frost Over
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach a Water Energy card from your discard pile to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Crystal Breath
+    text: During your next turn, this Pokémon can't attack.
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

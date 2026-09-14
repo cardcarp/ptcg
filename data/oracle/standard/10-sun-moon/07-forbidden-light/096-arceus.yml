@@ -1,0 +1,42 @@
+name: Arceus ◇
+
+origin: forbidden-light-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Prism Star
+
+type:
+  - Colorless
+
+hp: 160
+
+dex: 493
+
+rule:
+  - type: Ability
+    name: First Law
+    text: Prevent all effects of your opponent's attacks, except damage, done to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Trinity Star
+    text: You can use this attack only if you have Grass, Water, and Lightning Pokémon on your Bench. Search your deck for up to 3 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+errata: []

@@ -1,0 +1,40 @@
+name: Bergmite
+
+origin: steam-siege-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 712
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Ice Block
+    text: Heal 30 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Icy Snow
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Hoppip
+
+origin: expedition-base-set-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 187
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Sleep Powder
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

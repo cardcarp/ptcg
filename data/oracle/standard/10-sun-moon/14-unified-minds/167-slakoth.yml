@@ -1,0 +1,40 @@
+name: Slakoth
+
+origin: unified-minds-167
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 287
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Lazy Howl
+    text: During your opponent's next turn, if they attach an Energy card from their hand to the Defending Pokémon, their turn ends.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hang Down
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

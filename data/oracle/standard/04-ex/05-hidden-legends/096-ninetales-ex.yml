@@ -1,0 +1,50 @@
+name: Ninetales ex
+
+origin: hidden-legends-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Intense Glare
+    text: Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Burned and Confused.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fire Blast
+    text: Discard a Fire Energy attached to Ninetales ex.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

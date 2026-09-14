@@ -1,0 +1,46 @@
+name: Machoke
+
+origin: stormfront-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Steady Punch
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Brick Break
+    text: This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

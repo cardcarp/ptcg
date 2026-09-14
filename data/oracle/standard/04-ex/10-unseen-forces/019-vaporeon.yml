@@ -1,0 +1,47 @@
+name: Vaporeon
+
+origin: unseen-forces-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Aqua Supply
+    text: You may attach a basic Energy card from your hand to 1 of your Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Multi Bubble
+    text: If Vaporeon has 3 or more different types of basic Energy cards attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Asleep.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

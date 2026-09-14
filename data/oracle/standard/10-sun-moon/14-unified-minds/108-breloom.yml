@@ -1,0 +1,44 @@
+name: Breloom
+
+origin: unified-minds-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Shroomish
+
+dex: 286
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Spore
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Grass
+    name: Pre-Dawn Strike
+    text: If your opponent's Active Pokémon is Asleep, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

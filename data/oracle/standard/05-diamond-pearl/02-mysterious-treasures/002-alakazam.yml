@@ -1,0 +1,43 @@
+name: Alakazam
+
+origin: mysterious-treasures-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Kadabra
+
+dex: 65
+
+rule:
+  - type: Ability
+    name: Power Cancel
+    text: Once during your opponent's turn, when your opponent's Pokémon uses any Poké-Power, you may discard 2 cards from your hand and prevent all effects of that Poké-Power. (This counts as that Pokémon using its Poké-Power.) This power can't be used if Alakazam is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic Guard
+    text: During your opponent's next turn, any damage done to Alakazam by attacks from your opponent's Stage 2 Evolved Pokémon is reduced by 30 (after applying Weakness and Resistance).
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+retreat: 1
+
+errata: []

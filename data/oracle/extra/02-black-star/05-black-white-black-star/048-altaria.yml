@@ -1,0 +1,42 @@
+name: Altaria
+
+origin: black-white-black-star-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 70
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: Ability
+    name: Fight Song
+    text: Your Dragon Pokémon's attacks do 20 more damage to the Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Metal
+      - Colorless
+    name: Glide
+    damage: 40
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

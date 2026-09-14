@@ -1,0 +1,44 @@
+name: Weepinbell
+
+origin: firered-leafgreen-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Bellsprout
+
+dex: 70
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Razor Leaf
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Corrosive Acid
+    text: The Defending Pokémon is now Burned.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

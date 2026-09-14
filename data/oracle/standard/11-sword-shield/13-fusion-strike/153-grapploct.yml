@@ -1,0 +1,45 @@
+name: Grapploct
+
+origin: fusion-strike-153
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Clobbopus
+
+dex: 853
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Lunge Out
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Magnum Punch
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

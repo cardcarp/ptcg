@@ -1,0 +1,40 @@
+name: Snubbull
+
+origin: skyridge-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 209
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scary Face
+    text: Flip a coin. If heads, until the end of your opponent's next turn the Defending Pokémon can't attack or retreat.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

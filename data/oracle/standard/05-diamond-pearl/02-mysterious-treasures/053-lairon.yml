@@ -1,0 +1,49 @@
+name: Lairon
+
+origin: mysterious-treasures-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Aron
+
+dex: 305
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Mend
+    text: Search your discard pile for a Metal Energy card and attach it to Lairon. If you do, remove 2 damage counters from Lairon.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Confront
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

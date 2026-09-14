@@ -1,0 +1,36 @@
+name: Pancham
+
+origin: breakthrough-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 674
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Pompous Punch
+    text: Discard a random card from your opponent's hand.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

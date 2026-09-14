@@ -1,0 +1,40 @@
+name: Piloswine
+
+origin: journey-together-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 221
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Strength
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Impaling Tusk
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

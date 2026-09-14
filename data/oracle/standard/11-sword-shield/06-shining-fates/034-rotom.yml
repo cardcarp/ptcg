@@ -1,0 +1,39 @@
+name: Rotom
+
+origin: shining-fates-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 479
+
+rule:
+  - type: Ability
+    name: Roto Choice
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for up to 2 Item cards that have the word "Rotom" in their name, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

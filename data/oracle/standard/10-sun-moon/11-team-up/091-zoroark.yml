@@ -1,0 +1,51 @@
+name: Zoroark
+
+origin: team-up-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Taunt
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Night Punishment
+    text: This attack does 20 damage for each Pokémon in your discard pile. You can't do more than 200 damage in this way.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

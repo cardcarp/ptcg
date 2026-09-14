@@ -1,0 +1,43 @@
+name: Gabite
+
+origin: ultra-prism-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Gible
+
+dex: 444
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Ascension
+    text: Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 40
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

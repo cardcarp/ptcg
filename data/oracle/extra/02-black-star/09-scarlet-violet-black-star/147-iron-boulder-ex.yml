@@ -1,0 +1,49 @@
+name: Iron Boulder ex
+
+origin: scarlet-violet-black-star-147
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+  - Future
+
+type:
+  - Fighting
+
+hp: 240
+
+dex: 1022
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Repulsor Axe
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 8 damage counters on the Attacking Pokémon.
+    damage: 60
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Power Stomp
+    text: Discard 2 Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

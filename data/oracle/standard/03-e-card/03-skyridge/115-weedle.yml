@@ -1,0 +1,39 @@
+name: Weedle
+
+origin: skyridge-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 13
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Entangling Thread
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Horn
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

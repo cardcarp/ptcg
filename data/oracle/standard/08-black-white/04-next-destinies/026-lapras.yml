@@ -1,0 +1,42 @@
+name: Lapras
+
+origin: next-destinies-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 131
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Arrow
+    text: This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Surf
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

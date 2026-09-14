@@ -1,0 +1,40 @@
+name: ナッシー[Exeggutor]
+
+origin: evolutions-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - タマタマ[Exeggcute]
+
+dex: 103
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: ふみつけ[Stomp]
+    text: コインを1回投げオモテなら、10ダメージを追加。 Flip a coin. If heads, this attack does 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

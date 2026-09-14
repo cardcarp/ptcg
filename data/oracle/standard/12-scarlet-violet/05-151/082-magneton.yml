@@ -1,0 +1,44 @@
+name: Magneton
+
+origin: 151-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Junk Magnet
+    text: Put up to 2 Item cards from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Head Bolt
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

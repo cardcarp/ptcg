@@ -1,0 +1,46 @@
+name: Seadra
+
+origin: legends-awakened-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Horsea
+
+dex: 117
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Aqua Pump
+    text: You may discard up to 2 Water Energy cards from your hand. If you do, this attack does 30 damage plus 10 more damage for each Energy card you discarded.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

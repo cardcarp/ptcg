@@ -1,0 +1,43 @@
+name: Alomomola
+
+origin: black-white-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 594
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pound
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Wave Splash
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

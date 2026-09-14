@@ -1,0 +1,45 @@
+name: Houndour
+
+origin: dragon-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

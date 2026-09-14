@@ -1,0 +1,42 @@
+name: Hitmonchan
+
+origin: team-up-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 107
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Hit and Run
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Magnum Punch
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

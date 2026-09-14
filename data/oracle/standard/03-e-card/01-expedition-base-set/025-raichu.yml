@@ -1,0 +1,46 @@
+name: Raichu
+
+origin: expedition-base-set-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Plasma
+    text: If there are any Lightning Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Raichu.
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Shock Bolt
+    text: Discard all Lightning Energy cards attached to Raichu or this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

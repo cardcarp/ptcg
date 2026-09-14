@@ -1,0 +1,47 @@
+name: Primarina
+
+origin: sun-moon-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Brionne
+
+dex: 730
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Disarming Voice
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Sparkling Aria
+    text: Heal 30 damage from this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

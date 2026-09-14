@@ -1,0 +1,43 @@
+name: Electrode
+
+origin: base-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Ability
+    name: Buzzap
+    text: At any time during your turn (before your attack), you may Knock Out Electrode and attach it to 1 of your other Pokémon. If you do, choose a type of Energy. Electrode is now an Energy card (instead of a Pokémon) that provides 2 energy of that type. You can't use this power if Electrode is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Electric Shock
+    text: Flip a coin. If tails, Electrode does 10 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,35 @@
+name: Misty's Staryu
+
+origin: gym-challenge-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 120
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Star Boomerang
+    text: Flip a coin. If heads, return Misty's Staryu and all cards attached to it to your hand. (Either way, this attack does its damage.)
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

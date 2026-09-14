@@ -1,0 +1,48 @@
+name: Scolipede
+
+origin: xy-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Whirlipede
+
+dex: 545
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Random Peck
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Poison Ring
+    text: Your opponent's Active Pokémon is now Poisoned. That Pokémon can't retreat during your opponent's next turn.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,46 @@
+name: Glimmora ex
+
+origin: obsidian-flames-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Fighting
+
+hp: 270
+
+preevolution:
+  - Glimmet
+
+dex: 970
+
+rule:
+  - type: Ability
+    name: Dust Field
+    text: As long as this Pokémon is in the Active Spot, your opponent can't have more than 3 Benched Pokémon. If they have 4 or more Benched Pokémon, they discard Benched Pokémon until they have 3 Pokémon on the Bench. If more than one effect changes the number of Benched Pokémon allowed, use the smaller number.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Poisonous Gem
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 140
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,46 @@
+name: Marshtomp
+
+origin: fusion-strike-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Mudkip
+
+dex: 259
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mud-Slap
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Energy Loop
+    text: Put an Energy attached to this Pokémon into your hand.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

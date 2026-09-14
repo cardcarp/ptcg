@@ -1,0 +1,47 @@
+name: Stunfisk
+
+origin: lost-thunder-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 618
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flail
+    text: This attack does 10 damage for each damage counter on this Pokémon.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Blast
+    text: Discard a Lightning Energy from this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

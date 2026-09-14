@@ -1,0 +1,47 @@
+name: Zeraora V
+
+origin: sword-shield-black-star-263
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 210
+
+dex: 807
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Claw Slash
+    damage: 50
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunderous Bolt
+    text: During your next turn, this Pokémon can't attack.
+    damage: 190
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

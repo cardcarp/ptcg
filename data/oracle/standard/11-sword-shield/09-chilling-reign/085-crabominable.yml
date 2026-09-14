@@ -1,0 +1,49 @@
+name: Crabominable
+
+origin: chilling-reign-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Crabrawler
+
+dex: 740
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Double Lariat
+    text: Flip 2 coins. This attack does 90 damage for each heads.
+    damage: 90
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Crabhammer
+    damage: 130
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

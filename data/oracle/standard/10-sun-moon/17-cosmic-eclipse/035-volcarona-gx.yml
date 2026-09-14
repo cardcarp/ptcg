@@ -1,0 +1,52 @@
+name: Volcarona-GX
+
+origin: cosmic-eclipse-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Fire
+
+hp: 210
+
+preevolution:
+  - Larvesta
+
+dex: 637
+
+rule:
+  - type: Ability
+    name: Flaming Shot
+    text: Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, put 2 damage counters on 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Backfire
+    text: Put 2 Fire Energy attached to this Pokémon into your hand.
+    damage: 160
+  - type: Attack
+    cost:
+      - Fire
+    name: Massive Heat Wave-GX
+    text: Discard an Energy from each of your opponent's Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

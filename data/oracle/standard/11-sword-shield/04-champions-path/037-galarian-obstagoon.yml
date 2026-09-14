@@ -1,0 +1,43 @@
+name: Galarian Obstagoon
+
+origin: champions-path-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Galarian Linoone
+
+dex: 862
+
+rule:
+  - type: Ability
+    name: Wicked Ruler
+    text: Once during your turn, you may have your opponent discard cards from their hand until they have 4 cards in their hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Knuckle Impact
+    text: During your next turn, this Pokémon can't attack.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

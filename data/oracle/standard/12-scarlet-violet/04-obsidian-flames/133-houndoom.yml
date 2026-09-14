@@ -1,0 +1,48 @@
+name: Houndoom
+
+origin: obsidian-flames-133
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Daring Strike
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 70 more damage.
+    damage: 50
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Shadow Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

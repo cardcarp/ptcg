@@ -1,0 +1,43 @@
+name: Swablu
+
+origin: emerald-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 333
+
+rule:
+  - type: Ability
+    name: Feathery
+    text: As long as Swablu is on your Bench, prevent all damage done to Swablu by opponent's attacks.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Razor Wind
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

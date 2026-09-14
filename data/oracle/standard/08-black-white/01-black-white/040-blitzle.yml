@@ -1,0 +1,35 @@
+name: Blitzle
+
+origin: black-white-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 522
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Rear Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

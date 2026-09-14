@@ -1,0 +1,45 @@
+name: Druddigon
+
+origin: dragon-vault-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 110
+
+dex: 621
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tight Jaw
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Dragon Tail
+    text: Flip 2 coins. This attack does 80 damage times the number of heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

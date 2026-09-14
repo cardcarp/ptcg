@@ -1,0 +1,34 @@
+name: Skrelp
+
+origin: cosmic-eclipse-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 690
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Poison Breath
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

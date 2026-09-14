@@ -1,0 +1,42 @@
+name: Absol
+
+origin: fusion-strike-164
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 359
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drag Off
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 30 damage to the new Active Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

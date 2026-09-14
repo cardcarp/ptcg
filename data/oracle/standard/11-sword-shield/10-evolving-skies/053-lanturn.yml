@@ -1,0 +1,46 @@
+name: Lanturn
+
+origin: evolving-skies-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Blinding Beam
+    text: During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn't happen.
+    damage: 40
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

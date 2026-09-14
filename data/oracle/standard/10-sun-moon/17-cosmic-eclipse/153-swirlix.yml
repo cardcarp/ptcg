@@ -1,0 +1,40 @@
+name: Swirlix
+
+origin: cosmic-eclipse-153
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 684
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Cotton Guard
+    text: During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

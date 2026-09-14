@@ -1,0 +1,34 @@
+name: Clamperl
+
+origin: primal-clash-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 366
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Shell Protection
+    text: During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 50 or less.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

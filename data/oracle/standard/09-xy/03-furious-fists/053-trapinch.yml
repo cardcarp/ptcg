@@ -1,0 +1,40 @@
+name: Trapinch
+
+origin: furious-fists-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 328
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Mountain Munch
+    text: Discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mud-Slap
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

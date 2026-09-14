@@ -1,0 +1,35 @@
+name: Tentacool
+
+origin: triumphant-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 72
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Gentle Wrap
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

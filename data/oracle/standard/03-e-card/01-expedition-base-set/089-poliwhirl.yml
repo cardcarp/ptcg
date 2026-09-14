@@ -1,0 +1,46 @@
+name: Poliwhirl
+
+origin: expedition-base-set-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Poliwag
+
+dex: 61
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Punch
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Bubblebeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

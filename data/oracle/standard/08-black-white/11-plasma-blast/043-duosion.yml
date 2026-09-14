@@ -1,0 +1,40 @@
+name: Duosion
+
+origin: plasma-blast-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Solosis
+
+dex: 578
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Focused Wish
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

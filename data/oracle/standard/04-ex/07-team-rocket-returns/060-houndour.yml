@@ -1,0 +1,39 @@
+name: Houndour
+
+origin: team-rocket-returns-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: Ability
+    name: Dark Lift
+    text: If Houndour has any Darkness Energy attached to it, the Retreat Cost for Houndour is 0.
+  - type: Attack
+    cost:
+      - Fire
+    name: Firebreathing
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

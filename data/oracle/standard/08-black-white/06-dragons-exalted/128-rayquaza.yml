@@ -1,0 +1,43 @@
+name: Rayquaza
+
+origin: dragons-exalted-128
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 384
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Dragon Pulse
+    text: Discard the top 2 cards of your deck.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fire
+      - Lightning
+      - Colorless
+    name: Shred
+    text: This attack's damage isn't affected by any effects on the Defending Pokémon.
+    damage: 90
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

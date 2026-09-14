@@ -1,0 +1,40 @@
+name: Shellder
+
+origin: secret-wonders-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 90
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Shell Rest
+    text: Remove 2 damage counters from Shellder.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Tongue Slap
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

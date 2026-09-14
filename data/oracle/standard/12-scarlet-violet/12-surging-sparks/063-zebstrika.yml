@@ -1,0 +1,44 @@
+name: Zebstrika
+
+origin: surging-sparks-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Blitzle
+
+dex: 523
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Mach Bolt
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

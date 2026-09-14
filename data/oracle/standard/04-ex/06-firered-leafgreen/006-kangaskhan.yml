@@ -1,0 +1,49 @@
+name: Kangaskhan
+
+origin: firered-leafgreen-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 115
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fetch
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: One-Two Punch
+    text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

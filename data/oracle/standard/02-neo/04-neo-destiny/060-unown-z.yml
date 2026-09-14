@@ -1,0 +1,40 @@
+name: Unown [Z]
+
+origin: neo-destiny-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 201
+
+rule:
+  - type: Ability
+    name: '[Zoom]'
+    text: As long as Unown [Z] is Benched, you pay no Energy cost to retreat a Pokémon with Unown in its name.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hidden Power
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You may have up to 4 Basic Pokémon cards in your deck with Unown in their names.
+
+errata: []

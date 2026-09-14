@@ -1,0 +1,40 @@
+name: Shelgon
+
+origin: celestial-storm-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 90
+
+preevolution:
+  - Bagon
+
+dex: 372
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+    name: Raging Blade
+    text: If this Pokémon has any damage counters on it, this attack does 50 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

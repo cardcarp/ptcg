@@ -1,0 +1,44 @@
+name: Farigiraf
+
+origin: paldea-evolved-155
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Girafarig
+
+dex: 981
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Either Face
+    text: Choose a player. That player shuffles their hand into their deck and draws 4 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Beam
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

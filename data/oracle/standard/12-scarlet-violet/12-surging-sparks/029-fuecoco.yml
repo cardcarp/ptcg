@@ -1,0 +1,36 @@
+name: Fuecoco
+
+origin: surging-sparks-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 909
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Heat Burn
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,47 @@
+name: Nidorino
+
+origin: plasma-freeze-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Nidoran ♂
+
+dex: 33
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Horn Attack
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

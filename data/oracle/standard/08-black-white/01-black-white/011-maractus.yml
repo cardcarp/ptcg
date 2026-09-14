@@ -1,0 +1,49 @@
+name: Maractus
+
+origin: black-white-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 556
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Mega Drain
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Pin Missile
+    text: Flip 4 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

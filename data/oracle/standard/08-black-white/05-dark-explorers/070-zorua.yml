@@ -1,0 +1,46 @@
+name: Zorua
+
+origin: dark-explorers-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 570
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Shadow Bind
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

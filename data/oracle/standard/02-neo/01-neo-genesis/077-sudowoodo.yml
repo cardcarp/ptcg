@@ -1,0 +1,42 @@
+name: Sudowoodo
+
+origin: neo-genesis-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 185
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Flail
+    text: Does 10 damage times the number of damage counters on Sudowoodo.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,40 @@
+name: Cryogonal
+
+origin: surging-sparks-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 615
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Call Sign
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+    name: Ice Beam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

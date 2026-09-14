@@ -1,0 +1,47 @@
+name: Chikorita
+
+origin: expedition-base-set-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 152
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnotic Gaze
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

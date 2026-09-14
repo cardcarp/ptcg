@@ -1,0 +1,46 @@
+name: Loudred
+
+origin: fates-collide-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Whismur
+
+dex: 294
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smash Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

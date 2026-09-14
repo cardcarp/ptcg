@@ -1,0 +1,42 @@
+name: Turtwig
+
+origin: diamond-pearl-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 387
+
+rule:
+  - type: Attack
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+    name: Razor Leaf
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Clefable
+
+origin: 151-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Clefairy
+
+dex: 36
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Follow Me
+    text: Switch in 1 of your opponent's Benched Pokémon to the Active Spot.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: More Moon
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

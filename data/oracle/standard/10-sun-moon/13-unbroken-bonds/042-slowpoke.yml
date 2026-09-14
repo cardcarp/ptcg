@@ -1,0 +1,40 @@
+name: Slowpoke
+
+origin: unbroken-bonds-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 79
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Growl
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Whap
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

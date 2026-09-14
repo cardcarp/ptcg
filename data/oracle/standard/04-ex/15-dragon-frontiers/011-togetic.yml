@@ -1,0 +1,48 @@
+name: Togetic δ
+
+origin: dragon-frontiers-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Delta Copy
+    text: Choose an attack on 1 of your opponent's Pokémon in play that has δ on its card. Delta Copy copies that attack except for its Energy cost. (You must still do anything else required for that attack.) Togetic performs that attack.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

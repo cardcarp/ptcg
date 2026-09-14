@@ -1,0 +1,39 @@
+name: Celebi
+
+origin: mega-evolution-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 251
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Traverse Time
+    text: Search your deck for up to 3 in any combination of Grass Pokémon and Stadium cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Grass
+    name: Solar Cutter
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

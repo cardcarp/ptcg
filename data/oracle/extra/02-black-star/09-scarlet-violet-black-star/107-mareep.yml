@@ -1,0 +1,40 @@
+name: Mareep
+
+origin: scarlet-violet-black-star-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 179
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Headbutt
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Lightning Ball
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

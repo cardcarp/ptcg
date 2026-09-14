@@ -1,0 +1,35 @@
+name: Dewpider
+
+origin: sun-moon-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 751
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Bubble
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

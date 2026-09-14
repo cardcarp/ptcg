@@ -1,0 +1,42 @@
+name: Taillow δ
+
+origin: dragon-frontiers-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 40
+
+dex: 276
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

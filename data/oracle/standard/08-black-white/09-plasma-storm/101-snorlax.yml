@@ -1,0 +1,44 @@
+name: Snorlax
+
+origin: plasma-storm-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Team Plasma
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 143
+
+rule:
+  - type: Ability
+    name: Block
+    text: As long as this Pokémon is your Active Pokémon, your opponent's Active Pokémon can't retreat.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Teampact
+    text: Does 30 damage times the number of Team Plasma Pokémon you have in play.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

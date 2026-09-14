@@ -1,0 +1,39 @@
+name: Misdreavus
+
+origin: breakthrough-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 200
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Haunt
+    text: Put 2 damage counters on your opponent's Active Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

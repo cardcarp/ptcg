@@ -1,0 +1,45 @@
+name: Sealeo
+
+origin: flashfire-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Spheal
+
+dex: 364
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rest
+    text: Heal 60 damage from this Pokémon. This Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Ice Ball
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

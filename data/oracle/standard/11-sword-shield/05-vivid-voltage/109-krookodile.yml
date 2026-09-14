@@ -1,0 +1,47 @@
+name: Krookodile
+
+origin: vivid-voltage-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 150
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dredge Up
+    text: Discard the top 3 cards of your opponent's deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tantrum
+    text: This Pokémon is now Confused.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

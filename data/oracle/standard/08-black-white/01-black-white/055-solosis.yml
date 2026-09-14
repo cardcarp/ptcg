@@ -1,0 +1,40 @@
+name: Solosis
+
+origin: black-white-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 577
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Cell Culture
+    text: Search your deck for Solosis and put it into your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Rollout
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

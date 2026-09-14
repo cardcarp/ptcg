@@ -1,0 +1,43 @@
+name: Azumarill
+
+origin: delta-species-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: Ability
+    name: Thick Fat
+    text: Any damage done to Azumarill by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Bubblebeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

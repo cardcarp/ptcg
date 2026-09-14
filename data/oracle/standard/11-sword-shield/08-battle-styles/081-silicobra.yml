@@ -1,0 +1,41 @@
+name: Silicobra
+
+origin: battle-styles-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 843
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Tail Whap
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mud Shot
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

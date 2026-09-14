@@ -1,0 +1,40 @@
+name: Grubbin
+
+origin: temporal-forces-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 736
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flock
+    text: Search your deck for up to 2 Grubbin and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Vise Grip
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

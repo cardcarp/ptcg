@@ -1,0 +1,50 @@
+name: Stunfisk
+
+origin: breakthrough-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 618
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Revenge
+    text: If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 80 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder Blast
+    text: Discard an Energy attached to this Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

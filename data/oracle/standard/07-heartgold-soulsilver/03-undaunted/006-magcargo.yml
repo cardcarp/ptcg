@@ -1,0 +1,48 @@
+name: Magcargo
+
+origin: undaunted-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Searing Flame
+    text: The Defending Pokémon is now Burned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Lava Flow
+    text: You may discard any number of Fire Energy cards attached to Magcargo. If you do , this attack does 60 damage plus 20 more damage for each Fire Energy card you discarded.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

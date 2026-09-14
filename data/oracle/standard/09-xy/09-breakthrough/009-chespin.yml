@@ -1,0 +1,41 @@
+name: Chespin
+
+origin: breakthrough-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 650
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Tree Climb
+    text: Search your deck for a Grass Energy card, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Seed Bomb
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

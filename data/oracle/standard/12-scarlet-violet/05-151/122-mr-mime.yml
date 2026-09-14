@@ -1,0 +1,42 @@
+name: Mr. Mime
+
+origin: 151-122
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 122
+
+rule:
+  - type: Ability
+    name: Mimic Barrier
+    text: If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached, prevent all damage done to this Pokémon by attacks from your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Psypower
+    text: Put 3 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

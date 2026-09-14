@@ -1,0 +1,48 @@
+name: Ludicolo
+
+origin: rebel-clash-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 160
+
+preevolution:
+  - Lombre
+
+dex: 272
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spirited Rushdown
+    text: This attack does 60 damage for each Prize card you have taken.
+    damage: 60
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Mega Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

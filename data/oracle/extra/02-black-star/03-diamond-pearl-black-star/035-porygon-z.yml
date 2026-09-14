@@ -1,0 +1,46 @@
+name: Porygon-Z
+
+origin: diamond-pearl-black-star-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Porygon2
+
+dex: 474
+
+rule:
+  - type: Ability
+    name: Install
+    text: As often as you like during your turn (before your attack), move a Technical Machine card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Porygon-Z is affected by a Special Condition.
+  - type: Attack
+    name: Learning
+    text: Search your deck for a Pokémon LV.X that levels up from 1 of your Pokémon, and put it onto that Pokémon. (This counts as leveling up that Pokémon.) Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Overload
+    text: Does 40 damage plus 20 more damage for each Technical Machine card attached to Porygon-Z.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Pheromosa
+
+origin: sun-moon-black-star-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 795
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: High Jump Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: White Ray
+    text: If you have only 1 Prize card remaining, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

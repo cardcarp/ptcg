@@ -1,0 +1,36 @@
+name: Koffing
+
+origin: chilling-reign-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 109
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Smog
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Koga's Tangela
+
+origin: gym-challenge-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 114
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Sleep Powder
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Grasping Vine
+    text: Flip a coin. If heads, draw 2 cards.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

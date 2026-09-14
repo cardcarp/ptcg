@@ -1,0 +1,49 @@
+name: Gyarados
+
+origin: legendary-treasures-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Howling Rampage
+    text: Does 20 damage times the number of Prize cards both players have taken.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Splash
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

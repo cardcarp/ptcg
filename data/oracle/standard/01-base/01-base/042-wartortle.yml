@@ -1,0 +1,45 @@
+name: Wartortle
+
+origin: base-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Squirtle
+
+dex: 8
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Withdraw
+    text: Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,48 @@
+name: Barbaracle
+
+origin: rebel-clash-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Binacle
+
+dex: 689
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Hurl
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hand Press
+    text: If you have more cards in your hand than your opponent, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

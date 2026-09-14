@@ -1,0 +1,40 @@
+name: Marill
+
+origin: burning-shadows-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 183
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Bubble
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

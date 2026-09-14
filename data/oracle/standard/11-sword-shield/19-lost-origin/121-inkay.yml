@@ -1,0 +1,40 @@
+name: Inkay
+
+origin: lost-origin-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 686
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

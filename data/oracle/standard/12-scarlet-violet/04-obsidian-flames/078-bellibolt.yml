@@ -1,0 +1,43 @@
+name: Bellibolt
+
+origin: obsidian-flames-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Tadbulb
+
+dex: 939
+
+rule:
+  - type: Ability
+    name: Insulator
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Lightning Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunderous Edge
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

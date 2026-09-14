@@ -1,0 +1,37 @@
+name: Skitty
+
+origin: plasma-storm-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 300
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Triple Slap
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

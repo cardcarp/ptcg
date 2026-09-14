@@ -1,0 +1,42 @@
+name: Onix
+
+origin: celestial-storm-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 95
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Screech
+    text: During your next turn, the Defending Pokémon takes 20 more damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rage
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

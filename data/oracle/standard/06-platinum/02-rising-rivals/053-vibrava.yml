@@ -1,0 +1,52 @@
+name: Vibrava
+
+origin: rising-rivals-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Trapinch
+
+dex: 329
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Typhoon
+    text: Does 20 damage times the number of Energy cards in your opponent's discard pile. Then, put those Energy cards on top of your opponent's deck. Your opponent shuffles his or her deck afterward.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Colorless
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

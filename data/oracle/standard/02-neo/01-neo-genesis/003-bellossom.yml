@@ -1,0 +1,46 @@
+name: Bellossom
+
+origin: neo-genesis-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Gloom
+
+dex: 182
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Sweet Nectar
+    text: Flip a coin. If heads, remove all damage counters from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Flower Dance
+    text: Does 30 damage times the number of cards with Bellossom in their names that you have in play (including this one).
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

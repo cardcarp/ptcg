@@ -1,0 +1,37 @@
+name: Wailmer
+
+origin: celestial-storm-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 320
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Wave Swallower
+    text: Flip a coin until you get tails. For each heads, heal 50 damage from this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

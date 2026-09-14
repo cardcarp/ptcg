@@ -1,0 +1,40 @@
+name: Honedge
+
+origin: unified-minds-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 679
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slashing Cutter
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

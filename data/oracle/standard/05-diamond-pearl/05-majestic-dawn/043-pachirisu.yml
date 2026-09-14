@@ -1,0 +1,44 @@
+name: Pachirisu
+
+origin: majestic-dawn-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 417
+
+rule:
+  - type: Attack
+    name: Trans Tail
+    text: Search your discard pile for a Lightning Energy card, show it to your opponent, and put it into your hand.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

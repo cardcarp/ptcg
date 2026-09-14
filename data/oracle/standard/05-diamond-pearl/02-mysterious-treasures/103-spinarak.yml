@@ -1,0 +1,42 @@
+name: Spinarak
+
+origin: mysterious-treasures-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 167
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Impound
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

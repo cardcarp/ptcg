@@ -1,0 +1,51 @@
+name: Bellossom
+
+origin: unseen-forces-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Gloom
+
+dex: 182
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Green Dance
+    text: Search your deck for up to 2 Grass Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward. If you put any Grass Pokémon into your hand, you may switch Bellossom with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Full Bloom
+    text: If you have at least 3 Bellossom in play, this attack does 50 damage plus 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

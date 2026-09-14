@@ -1,0 +1,46 @@
+name: Greninja-EX
+
+origin: xy-black-star-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Water
+
+hp: 170
+
+dex: 658
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Sharpshooting
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Blast
+    text: Discard 1 Water Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

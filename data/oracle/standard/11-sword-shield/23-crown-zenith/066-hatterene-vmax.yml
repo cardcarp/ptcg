@@ -1,0 +1,51 @@
+name: Hatterene VMAX
+
+origin: crown-zenith-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Psychic
+
+hp: 320
+
+preevolution:
+  - Hatterene V
+
+dex: 858
+
+rule:
+  - type: Ability
+    name: Witch's Domain
+    text: Once during your turn, you may move up to 2 damage counters from your Pokémon to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: G-Max Smite
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 150
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

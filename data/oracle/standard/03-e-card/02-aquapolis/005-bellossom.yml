@@ -1,0 +1,49 @@
+name: Bellossom
+
+origin: aquapolis-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Gloom
+
+dex: 182
+
+rule:
+  - type: Ability
+    name: Flower Supplement
+    text: Once during your turn (before your attack), you may flip a coin. If heads, attach 1 basic Energy card from your hand to 1 of your Benched Pokémon. This power can't be used if Bellossom is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Knife Leaf
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Sandile
+
+origin: phantasmal-flames-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 551
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Ram
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Rear Kick
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

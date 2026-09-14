@@ -1,0 +1,48 @@
+name: Feraligatr
+
+origin: shining-legends-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 80
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Splash
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

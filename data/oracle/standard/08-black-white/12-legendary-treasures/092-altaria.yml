@@ -1,0 +1,46 @@
+name: Altaria
+
+origin: legendary-treasures-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Speed Dive
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Metal
+      - Colorless
+    name: Cleave
+    text: Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.
+    damage: 40
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

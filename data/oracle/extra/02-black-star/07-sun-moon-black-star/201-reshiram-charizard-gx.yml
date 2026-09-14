@@ -1,0 +1,60 @@
+name: Reshiram & Charizard-GX
+
+origin: sun-moon-black-star-201
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Fire
+
+hp: 270
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Outrage
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Flare Strike
+    text: This Pokémon can't use Flare Strike during your next turn.
+    damage: 230
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Double Blaze-GX
+    text: If this Pokémon has at least 3 extra Fire Energy attached to it (in addition to this attack's cost), this attack does 100 more damage, and this attack's damage isn't affected by any effects on your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 200
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

@@ -1,0 +1,45 @@
+name: Infernape
+
+origin: platinum-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Monferno
+
+dex: 392
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Rushing Flames
+    text: Discard as many Fire Energy cards as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads.
+    damage: 80
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 30 damage plus 10 more damage for each damage counter on Infernape.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+errata: []

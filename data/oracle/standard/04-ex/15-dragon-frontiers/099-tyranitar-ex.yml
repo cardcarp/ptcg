@@ -1,0 +1,59 @@
+name: Tyranitar ex δ
+
+origin: dragon-frontiers-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electromark
+    text: Put a Shock-wave marker on 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Hyper Claws
+    text: If the Defending Pokémon is a Stage 2 Evolved Pokémon, this attack does 70 damage plus 20 more damage.
+    damage: 70
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Shock-wave
+    text: Choose 1 of your opponent's Pokémon that has any Shock-wave markers on it. That Pokémon is Knocked Out.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

@@ -1,0 +1,37 @@
+name: Brock's Mankey
+
+origin: gym-heroes-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 56
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Taunt
+    text: If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Light Kick
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+errata: []

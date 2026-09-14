@@ -1,0 +1,43 @@
+name: Zamazenta
+
+origin: vivid-voltage-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 889
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Metal Armament
+    text: Attach a basic Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Fighting
+      - Metal
+    name: Amazing Shield
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon VMAX.
+    damage: 180
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

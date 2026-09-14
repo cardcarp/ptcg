@@ -1,0 +1,39 @@
+name: Sprigatito
+
+origin: scarlet-violet-black-star-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 906
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Gather Sunlight
+    text: Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Grass
+    name: Seed Bomb
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

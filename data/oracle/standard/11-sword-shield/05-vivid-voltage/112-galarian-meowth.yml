@@ -1,0 +1,47 @@
+name: Galarian Meowth
+
+origin: vivid-voltage-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 52
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Scratch
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

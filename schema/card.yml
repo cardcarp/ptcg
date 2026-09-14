@@ -1,0 +1,38 @@
+oracle: # the original first appearance of this card's exact mechanicals
+  type: string
+  required: true
+
+index:
+  type: string
+  required: true
+
+rarity:
+  type: string
+  required: true
+  nullable: true
+
+artist:
+  type: string
+  required: true
+  nullable: true
+
+variation: # how this printing differs physically, e.g. Flip for a double-faced card
+  type: list
+  schema:
+    type: string
+
+flavor:
+  type: string
+  nullable: true
+
+set:
+  type: string
+  required: true
+
+regulation: # the mark printed on this card, or null for printings that
+            # predate the mechanic. A printing property, so it lives here;
+            # the oracle's list of every mark it has appeared under is
+            # derived from its printings during compile.
+  type: string
+  required: true
+  nullable: true

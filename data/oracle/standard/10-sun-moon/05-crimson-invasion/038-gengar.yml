@@ -1,0 +1,46 @@
+name: Gengar
+
+origin: crimson-invasion-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: Ability
+    name: Gnawing Curse
+    text: Whenever your opponent attaches an Energy card from their hand to 1 of their Pokémon, put 2 damage counters on that Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Fade to Black
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

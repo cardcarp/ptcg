@@ -1,0 +1,36 @@
+name: Goldeen
+
+origin: aquapolis-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 118
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Carbink
+
+origin: lost-thunder-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 703
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Diamond Gate
+    text: Search your deck for a Supporter card and a Stadium card, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Guard Press
+    text: During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

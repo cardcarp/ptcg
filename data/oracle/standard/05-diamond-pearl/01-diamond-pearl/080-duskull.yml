@@ -1,0 +1,46 @@
+name: Duskull
+
+origin: diamond-pearl-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 355
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Disable
+    text: Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Night Shade
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

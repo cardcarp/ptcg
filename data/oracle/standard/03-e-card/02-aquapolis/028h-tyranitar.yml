@@ -1,0 +1,59 @@
+name: Tyranitar
+
+origin: aquapolis-028h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Destructive Roar
+    text: Flip a coin. If heads, discard 1 Energy card attached to 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Tail Slap
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gigacrush
+    text: Each player discards the top 3 cards from his or her deck.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

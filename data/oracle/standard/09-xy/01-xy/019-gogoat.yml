@@ -1,0 +1,46 @@
+name: Gogoat
+
+origin: xy-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Skiddo
+
+dex: 673
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Lead
+    text: Search your deck for up to 2 Supporter cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Charge Dash
+    text: You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

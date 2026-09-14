@@ -1,0 +1,35 @@
+name: Hoppip
+
+origin: evolving-skies-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 187
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Continuous Spin
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

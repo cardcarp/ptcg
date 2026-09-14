@@ -1,0 +1,42 @@
+name: Litten
+
+origin: unbroken-bonds-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 725
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Caturday
+    text: Draw a card. If you do, this Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Big Bite
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

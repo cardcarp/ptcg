@@ -1,0 +1,45 @@
+name: Toxicroak
+
+origin: majestic-dawn-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Croagunk
+
+dex: 454
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Paralyze Poison
+    text: The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

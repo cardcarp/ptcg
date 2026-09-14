@@ -1,0 +1,46 @@
+name: Stunfisk
+
+origin: legendary-treasures-012rc
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 618
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Attract
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mud-Slap
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

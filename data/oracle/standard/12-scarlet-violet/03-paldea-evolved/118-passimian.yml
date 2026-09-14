@@ -1,0 +1,36 @@
+name: Passimian
+
+origin: paldea-evolved-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 766
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Make the Assist
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

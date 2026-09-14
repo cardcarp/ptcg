@@ -1,0 +1,48 @@
+name: Coalossal
+
+origin: temporal-forces-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Carkol
+
+dex: 839
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Gatling Tar
+    text: This attack does 80 more damage for each Fire Energy attached to this Pokémon.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Cragalanche
+    text: Discard the top 2 cards of your opponent's deck.
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

@@ -1,0 +1,43 @@
+name: Porygon-Z
+
+origin: unbroken-bonds-157
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Porygon2
+
+dex: 474
+
+rule:
+  - type: Ability
+    name: Crazy Code
+    text: As often as you like during your turn (before your attack), you may attach a Special Energy card from your hand to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tantrum
+    text: This Pokémon is now Confused.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

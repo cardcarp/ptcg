@@ -1,0 +1,47 @@
+name: Giovanni's Nidorina
+
+origin: gym-challenge-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Giovanni's Nidoran ♀
+
+dex: 30
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Poison Sting Tackle
+    text: Giovanni's Nidorina does 20 damage to itself. Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

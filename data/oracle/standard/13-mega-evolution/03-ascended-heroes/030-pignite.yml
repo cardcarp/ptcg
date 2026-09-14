@@ -1,0 +1,40 @@
+name: Pignite
+
+origin: ascended-heroes-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Tepig
+
+dex: 499
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Super Singe
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

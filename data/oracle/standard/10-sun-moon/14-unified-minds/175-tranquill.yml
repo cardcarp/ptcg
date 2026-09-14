@@ -1,0 +1,49 @@
+name: Tranquill
+
+origin: unified-minds-175
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Pidove
+
+dex: 520
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Glide
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

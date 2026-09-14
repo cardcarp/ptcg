@@ -1,0 +1,44 @@
+name: Butterfree
+
+origin: rebel-clash-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Metapod
+
+dex: 12
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Panic Poison
+    text: Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cutting Wind
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

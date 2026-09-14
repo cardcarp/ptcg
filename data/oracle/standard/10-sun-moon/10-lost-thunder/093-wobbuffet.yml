@@ -1,0 +1,40 @@
+name: Wobbuffet
+
+origin: lost-thunder-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 202
+
+rule:
+  - type: Ability
+    name: Shady Tail
+    text: As long as this Pokémon is on your Bench, ◇ (Prism Star) Pokémon in play (both yours and your opponent's) can't attack and have no Abilities.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

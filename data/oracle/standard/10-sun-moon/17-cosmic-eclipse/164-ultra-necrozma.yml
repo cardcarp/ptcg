@@ -1,0 +1,40 @@
+name: Ultra Necrozma
+
+origin: cosmic-eclipse-164
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Dragon
+
+hp: 110
+
+dex: 800
+
+rule:
+  - type: Ability
+    name: Ultra Burst
+    text: This Pokémon can't attack unless your opponent has 2 or fewer Prize cards remaining.
+  - type: Attack
+    cost:
+      - Psychic
+      - Metal
+    name: Luster of Downfall
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 170
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

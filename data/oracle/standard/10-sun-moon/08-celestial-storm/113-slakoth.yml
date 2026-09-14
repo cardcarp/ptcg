@@ -1,0 +1,41 @@
+name: Slakoth
+
+origin: celestial-storm-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 287
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Claw
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slack Off
+    text: Heal all damage from this Pokémon. It can't attack during your next turn.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

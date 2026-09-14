@@ -1,0 +1,51 @@
+name: Steven's Metagross ex
+
+origin: destined-rivals-145
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Metal
+
+hp: 340
+
+preevolution:
+  - Steven's Metang
+
+dex: 376
+
+rule:
+  - type: Ability
+    name: X-Boot
+    text: Once during your turn, you may search your deck for a Basic Psychic Energy card, a Basic Metal Energy card, or 1 of each and attach them to your Psychic Pokémon and Metal Pokémon in any way you like. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Stomp
+    damage: 200
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

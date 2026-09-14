@@ -1,0 +1,46 @@
+name: Anorith
+
+origin: legends-awakened-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Claw Fossil
+
+dex: 347
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Guard Claw
+    text: During your opponent's next turn, any damage done to Anorith by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

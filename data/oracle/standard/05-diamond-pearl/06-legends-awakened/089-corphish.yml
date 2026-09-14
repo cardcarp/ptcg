@@ -1,0 +1,40 @@
+name: Corphish
+
+origin: legends-awakened-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 341
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Knock Off
+    text: Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Irongrip
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

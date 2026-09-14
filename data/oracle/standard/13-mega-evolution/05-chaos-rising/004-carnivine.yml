@@ -1,0 +1,38 @@
+name: Carnivine
+
+origin: chaos-rising-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 455
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Chomp Whole
+    text: If your opponent's Active Pokémon has no Retreat Cost, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

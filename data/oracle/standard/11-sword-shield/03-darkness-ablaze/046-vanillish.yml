@@ -1,0 +1,38 @@
+name: Vanillish
+
+origin: darkness-ablaze-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Vanillite
+
+dex: 583
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Freezing Headbutt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

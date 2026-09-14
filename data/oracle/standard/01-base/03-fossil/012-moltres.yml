@@ -1,0 +1,43 @@
+name: Moltres
+
+origin: fossil-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 146
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Wildfire
+    text: You may discard any number of Fire Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: Dive Bomb
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 80
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

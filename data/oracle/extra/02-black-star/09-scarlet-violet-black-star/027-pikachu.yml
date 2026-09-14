@@ -1,0 +1,38 @@
+name: Pikachu
+
+origin: scarlet-violet-black-star-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Adventuring Together
+    text: This attack does 10 more damage for each of your Benched Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

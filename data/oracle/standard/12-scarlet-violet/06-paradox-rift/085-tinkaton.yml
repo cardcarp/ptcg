@@ -1,0 +1,45 @@
+name: Tinkaton
+
+origin: paradox-rift-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Tinkatuff
+
+dex: 959
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Crushing Blow
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+    name: Alloyed Hammer
+    text: If this Pokémon has any Metal Energy attached, this attack does 120 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

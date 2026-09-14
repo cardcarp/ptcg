@@ -1,0 +1,47 @@
+name: Durant
+
+origin: plasma-storm-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Team Plasma
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 632
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Backup
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Jail
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Black Kyurem
+
+origin: xy-black-star-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 646
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder Nail
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Frozen Slice
+    text: This Pokémon does 20 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

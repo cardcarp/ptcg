@@ -1,0 +1,44 @@
+name: Blaziken
+
+origin: primal-clash-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Spreading Flames
+    text: Attach 3 Fire Energy cards from your discard pile to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Heat Blow
+    text: Discard an Energy attached to this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Radiant Charizard
+
+origin: pokemon-go-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Radiant
+
+type:
+  - Fire
+
+hp: 160
+
+dex: 6
+
+rule:
+  - type: Ability
+    name: Excited Heart
+    text: This Pokémon's attacks cost Colorless less for each Prize card your opponent has taken.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Combustion Blast
+    text: During your next turn, this Pokémon can't use Combustion Blast.
+    damage: 250
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+errata: []

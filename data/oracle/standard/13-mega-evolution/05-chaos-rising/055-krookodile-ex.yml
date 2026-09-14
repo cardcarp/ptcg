@@ -1,0 +1,52 @@
+name: Krookodile ex
+
+origin: chaos-rising-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Darkness
+
+hp: 320
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Corner
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 80
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Strong Bite
+    text: If this Pokémon has a Pokémon Tool attached, this attack does 140 more damage.
+    damage: 140
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

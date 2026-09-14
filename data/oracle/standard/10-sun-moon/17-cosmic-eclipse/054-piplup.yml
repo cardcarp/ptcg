@@ -1,0 +1,37 @@
+name: Piplup
+
+origin: cosmic-eclipse-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 393
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Bubble Hold
+    text: If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

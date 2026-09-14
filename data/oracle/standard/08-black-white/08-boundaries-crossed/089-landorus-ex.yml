@@ -1,0 +1,53 @@
+name: Landorus-EX
+
+origin: boundaries-crossed-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fighting
+
+hp: 180
+
+dex: 645
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Hammerhead
+    text: Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Land's Judgment
+    text: You may discard all Fighting Energy attached to this Pokémon. If you do, this attack does 70 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

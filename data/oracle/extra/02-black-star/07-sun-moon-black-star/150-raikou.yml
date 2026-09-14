@@ -1,0 +1,42 @@
+name: Raikou
+
+origin: sun-moon-black-star-150
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 243
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Lost Voltage
+    text: If you have any Lightning Energy cards in the Lost Zone, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

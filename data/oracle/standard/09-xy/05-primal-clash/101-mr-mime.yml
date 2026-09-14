@@ -1,0 +1,46 @@
+name: Mr. Mime
+
+origin: primal-clash-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 80
+
+dex: 122
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Trick
+    text: Move a Pokémon Tool card attached to 1 of either player's Pokémon to another of that player's Pokémon that doesn't already have a Pokémon Tool attached to it. If there is no Pokémon to move the Pokémon Tool card to, this attack does nothing.
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Lock Up
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

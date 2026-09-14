@@ -1,0 +1,45 @@
+name: Prinplup
+
+origin: platinum-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Piplup
+
+dex: 394
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Surf
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Bubblebeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

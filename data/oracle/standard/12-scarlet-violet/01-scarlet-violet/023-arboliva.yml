@@ -1,0 +1,42 @@
+name: Arboliva
+
+origin: scarlet-violet-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Dolliv
+
+dex: 930
+
+rule:
+  - type: Ability
+    name: Enriching Oil
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Solar Beam
+    damage: 150
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

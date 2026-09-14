@@ -1,0 +1,44 @@
+name: Jigglypuff
+
+origin: southern-islands-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 39
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tempting Eyes
+    text: Choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sing
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

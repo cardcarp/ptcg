@@ -1,0 +1,45 @@
+name: Druddigon
+
+origin: steam-siege-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 621
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Proud Fang
+    text: If your opponent has any Pokémon BREAK in play, this attack does 60 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Giga Claw
+    text: Flip 2 coins. If both of them are tails, this attack does nothing.
+    damage: 100
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

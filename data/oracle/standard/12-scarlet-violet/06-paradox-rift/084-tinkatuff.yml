@@ -1,0 +1,39 @@
+name: Tinkatuff
+
+origin: paradox-rift-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Tinkatink
+
+dex: 958
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Alloy Aswing
+    text: If this Pokémon has any Metal Energy attached, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,53 @@
+name: Yveltal ex
+
+origin: perfect-order-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 717
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Soul Destroyer
+    text: Knock Out each of your opponent's Pokémon that has 50 HP or less remaining.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Strike
+    text: During your next turn, this Pokémon can't use Dark Strike.
+    damage: 210
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

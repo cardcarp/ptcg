@@ -1,0 +1,42 @@
+name: Roserade
+
+origin: temporal-forces-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Roselia
+
+dex: 407
+
+rule:
+  - type: Ability
+    name: Poison Point
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bind Down
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Giovanni's Nidoran ♂
+
+origin: gym-challenge-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 32
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+    name: Retaliation
+    text: You can't use this attack unless Giovanni's Nidoran ♂ has 2 or more damage counters on it.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

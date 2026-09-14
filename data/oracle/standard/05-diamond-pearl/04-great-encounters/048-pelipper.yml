@@ -1,0 +1,49 @@
+name: Pelipper
+
+origin: great-encounters-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Wingull
+
+dex: 279
+
+rule:
+  - type: Attack
+    name: Guzzle
+    text: Choose up to 2 basic Water Energy cards from your hand and attach them to Pelipper. Remove 2 damage counters for each Energy card attached in this way.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Jet Return
+    text: Does 30 times the number of Energy cards attached to Pelipper. Then, put all Energy cards attached to Pelipper on top of your deck. Shuffle your deck afterward.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

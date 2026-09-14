@@ -1,0 +1,41 @@
+name: Garchomp V
+
+origin: astral-radiance-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Dragon
+
+hp: 200
+
+dex: 445
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Fighting
+      - Colorless
+    name: Dragon Claw
+    damage: 120
+  - type: Attack
+    cost:
+      - Water
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Sonic Strike
+    text: Discard 3 Energy from this Pokémon. This attack does 220 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

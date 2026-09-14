@@ -1,0 +1,44 @@
+name: Hakamo-o
+
+origin: guardians-rising-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 90
+
+preevolution:
+  - Jangmo-o
+
+dex: 783
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Fighting
+      - Colorless
+    name: Dragon Claw
+    damage: 80
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

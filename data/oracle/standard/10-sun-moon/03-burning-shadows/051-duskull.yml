@@ -1,0 +1,45 @@
+name: Duskull
+
+origin: burning-shadows-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 355
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Dark Guidance
+    text: Put a Basic Pokémon from your discard pile onto your Bench.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spooky Shot
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

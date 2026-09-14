@@ -1,0 +1,44 @@
+name: Graveler
+
+origin: fusion-strike-136
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Geodude
+
+dex: 75
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Tackle
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Boulder Crush
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

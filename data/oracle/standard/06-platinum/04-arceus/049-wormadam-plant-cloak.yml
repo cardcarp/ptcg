@@ -1,0 +1,46 @@
+name: Wormadam Plant Cloak
+
+origin: arceus-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Burmy Plant Cloak
+
+dex: 413
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Magical Needle
+    text: Remove 2 damage counters from 1 of your Benched Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Cloak Scale
+    text: If you have Wormadam Sandy Cloak in play, the Defending Pokémon is now Burned, Confused, and Poisoned.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

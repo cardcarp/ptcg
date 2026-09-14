@@ -1,0 +1,50 @@
+name: Pupitar
+
+origin: unleashed-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Hammer In
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Speed Attack
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

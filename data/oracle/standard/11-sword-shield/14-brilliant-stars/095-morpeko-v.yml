@@ -1,0 +1,49 @@
+name: Morpeko V
+
+origin: brilliant-stars-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 190
+
+dex: 877
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gnaw and Run
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Hangry Spike
+    text: If you played Marnie's Pride from your hand during this turn, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

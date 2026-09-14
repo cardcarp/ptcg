@@ -1,0 +1,40 @@
+name: Sawk
+
+origin: black-white-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 539
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Low Sweep
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Beatdown
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Larvitar δ
+
+origin: dragon-frontiers-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 246
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Horn Attack
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

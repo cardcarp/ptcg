@@ -1,0 +1,47 @@
+name: Dusknoir
+
+origin: vivid-voltage-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Dusclops
+
+dex: 477
+
+rule:
+  - type: Ability
+    name: Spectral Breach
+    text: All Special Energy attached to Pokémon (both yours and your opponent's) provide Colorless Energy and have no other effect.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Spooky Shot
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

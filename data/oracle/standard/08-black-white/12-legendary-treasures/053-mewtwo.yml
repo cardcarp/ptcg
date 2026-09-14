@@ -1,0 +1,44 @@
+name: Mewtwo
+
+origin: legendary-treasures-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Power Edge
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psyslash
+    text: Discard 2 Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

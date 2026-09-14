@@ -1,0 +1,41 @@
+name: Cinderace V
+
+origin: fusion-strike-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 220
+
+dex: 815
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Blaze Kick
+    text: Discard 2 Fire Energy from this Pokémon.
+    damage: 210
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,36 @@
+name: Sudowoodo
+
+origin: lost-thunder-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 185
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Reply Strongly
+    text: If this Pokémon was damaged by an attack during your opponent's last turn while it was your Active Pokémon, this attack does 80 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

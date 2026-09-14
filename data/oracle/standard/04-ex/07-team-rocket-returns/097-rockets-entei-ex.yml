@@ -1,0 +1,49 @@
+name: Rocket's Entei ex
+
+origin: team-rocket-returns-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 244
+
+rule:
+  - type: Ability
+    name: Dark Condition
+    text: As long as Rocket's Entei ex has any Darkness Energy attached to it, Rocket's Entei ex has no Weakness.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Link
+    text: Search your discard pile for an Energy card and attach it to Rocket's Entei ex.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Volcanic Ash
+    text: Discard 2 Energy attached to Rocket's Entei ex and then choose 1 of your opponent's Pokémon. This attack does 60 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

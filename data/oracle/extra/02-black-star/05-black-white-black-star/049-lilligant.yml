@@ -1,0 +1,49 @@
+name: Lilligant
+
+origin: black-white-black-star-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Petilil
+
+dex: 549
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Lead
+    text: Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Dream Dance
+    text: Both this Pokémon and the Defending Pokémon are now Asleep.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Machop
+
+origin: skyridge-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 66
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smash Punch
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Fling
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

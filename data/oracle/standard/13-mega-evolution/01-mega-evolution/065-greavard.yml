@@ -1,0 +1,46 @@
+name: Greavard
+
+origin: mega-evolution-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 971
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Take Down
+    text: This Pokémon also does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

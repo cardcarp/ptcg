@@ -1,0 +1,35 @@
+name: Sawk
+
+origin: brilliant-stars-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 539
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sweep the Leg
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

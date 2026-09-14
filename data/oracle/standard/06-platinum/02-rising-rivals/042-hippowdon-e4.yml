@@ -1,0 +1,47 @@
+name: Hippowdon E4
+
+origin: rising-rivals-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 450
+
+rule:
+  - type: Ability
+    name: Sand Armor
+    text: If Hippowdon E4 has any Fighting Energy attached to it, any damage done to Hippowdon E4 by attacks is reduced by 10 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bite and Crush
+    text: Flip 2 coins. This attack does 30 damage plus 10 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

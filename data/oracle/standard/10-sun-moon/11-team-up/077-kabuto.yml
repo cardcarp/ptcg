@@ -1,0 +1,38 @@
+name: Kabuto
+
+origin: team-up-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 140
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Ramming Shell
+    text: During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

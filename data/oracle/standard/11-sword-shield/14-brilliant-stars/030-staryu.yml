@@ -1,0 +1,36 @@
+name: Staryu
+
+origin: brilliant-stars-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 120
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Spin
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,39 @@
+name: Pupitar
+
+origin: fates-collide-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Thrash
+    text: Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

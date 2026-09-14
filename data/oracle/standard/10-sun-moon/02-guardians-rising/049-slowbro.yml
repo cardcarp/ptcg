@@ -1,0 +1,47 @@
+name: Slowbro
+
+origin: guardians-rising-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Amnesia
+    text: Choose 1 of your opponent's Active Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Facade
+    text: If this Pokémon is Burned or Poisoned, this attack does 80 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

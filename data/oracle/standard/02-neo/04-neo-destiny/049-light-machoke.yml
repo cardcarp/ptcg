@@ -1,0 +1,44 @@
+name: Light Machoke
+
+origin: neo-destiny-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Return Home
+    text: If you have any Benched Pokémon, shuffle 1 of them and all cards attached to it into your deck.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Gentle Kick
+    text: If the Defending Pokémon has no damage counters on it, this attack does 40 damage. If it has any, this attack does 20 damage.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

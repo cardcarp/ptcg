@@ -1,0 +1,45 @@
+name: Breloom
+
+origin: sandstorm-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Shroomish
+
+dex: 286
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Super Poison Breath
+    text: Each Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sky Uppercut
+    text: This attack's damage is not affected by Resistance.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

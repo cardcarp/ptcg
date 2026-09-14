@@ -1,0 +1,36 @@
+name: Maschiff
+
+origin: scarlet-violet-black-star-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 942
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

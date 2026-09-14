@@ -1,0 +1,44 @@
+name: Salamence
+
+origin: dragon-vault-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 140
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: Ability
+    name: Scornful Storm
+    text: Once during your turn (before your attack), you may have your opponent discard cards from his or her hand until he or she has 4 cards left in his or her hand.
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+      - Colorless
+    name: Shred
+    text: This attack's damage isn't affected by any effects on the Defending Pokémon.
+    damage: 90
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

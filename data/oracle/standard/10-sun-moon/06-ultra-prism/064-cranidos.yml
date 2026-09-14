@@ -1,0 +1,43 @@
+name: Cranidos
+
+origin: ultra-prism-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 408
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Corkscrew Punch
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Headstrike
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

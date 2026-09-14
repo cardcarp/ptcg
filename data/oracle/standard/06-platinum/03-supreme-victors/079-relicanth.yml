@@ -1,0 +1,41 @@
+name: Relicanth
+
+origin: supreme-victors-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 369
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Grand Swell
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon for each Pokémon Tool and Stadium card your opponent has in play. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Amnesia
+    text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

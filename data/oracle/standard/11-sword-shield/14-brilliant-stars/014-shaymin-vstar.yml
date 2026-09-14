@@ -1,0 +1,46 @@
+name: Shaymin VSTAR
+
+origin: brilliant-stars-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Grass
+
+hp: 250
+
+preevolution:
+  - Shaymin V
+
+dex: 492
+
+rule:
+  - type: Ability
+    name: Star Bloom
+    text: During your turn, you may heal 120 damage from each of your Benched Grass Pokémon. (You can't use more than 1 VSTAR Power in a game.)
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Revenge Blast
+    text: This attack does 40 more damage for each Prize card your opponent has taken.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

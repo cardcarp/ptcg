@@ -1,0 +1,50 @@
+name: Escavalier
+
+origin: darkness-ablaze-124
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Karrablast
+
+dex: 589
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Fury Cutter
+    text: Flip 3 coins. If 1 of them is heads, this attack does 20 more damage. If 2 of them are heads, this attack does 70 more damage. If all of them are heads, this attack does 140 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Seashell Attack
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

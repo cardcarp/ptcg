@@ -1,0 +1,44 @@
+name: Volcanion ◇
+
+origin: forbidden-light-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Prism Star
+
+type:
+  - Water
+
+hp: 160
+
+dex: 721
+
+rule:
+  - type: Ability
+    name: Jet Geyser
+    text: Once during your turn (before your attack), you may discard a Water Energy card from your hand. If you do, your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Sauna Blast
+    text: This attack does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+errata: []

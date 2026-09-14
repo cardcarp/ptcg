@@ -1,0 +1,40 @@
+name: Scorbunny
+
+origin: sword-shield-black-star-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 813
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Me First
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Live Coal
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

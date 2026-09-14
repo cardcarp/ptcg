@@ -1,0 +1,45 @@
+name: Hisuian Zoroark V
+
+origin: sword-shield-black-star-297
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 210
+
+dex: 571
+
+rule:
+  - type: Attack
+    name: Void Return
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Shadow Cyclone
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,40 @@
+name: Chinchou
+
+origin: silver-tempest-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 170
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Lightning Ball
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Gentle Slap
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

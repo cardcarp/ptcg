@@ -1,0 +1,38 @@
+name: Lapras
+
+origin: sword-shield-black-star-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 131
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Aqua Wash
+    text: You may put 2 Energy attached to your opponent's Active Pokémon into their hand.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

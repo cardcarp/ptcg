@@ -1,0 +1,36 @@
+name: Lotad
+
+origin: plasma-storm-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 270
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Bubble Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

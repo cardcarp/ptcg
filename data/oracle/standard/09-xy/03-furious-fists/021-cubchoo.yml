@@ -1,0 +1,43 @@
+name: Cubchoo
+
+origin: furious-fists-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 613
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Frost Breath
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

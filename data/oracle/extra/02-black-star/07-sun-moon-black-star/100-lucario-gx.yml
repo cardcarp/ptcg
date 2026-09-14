@@ -1,0 +1,58 @@
+name: Lucario-GX
+
+origin: sun-moon-black-star-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Fighting
+
+hp: 210
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Aura Strike
+    text: If this Pokémon evolved from Riolu during this turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Cyclone Kick
+    damage: 130
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cantankerous Beatdown-GX
+    text: This attack does 30 damage for each damage counter on this Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

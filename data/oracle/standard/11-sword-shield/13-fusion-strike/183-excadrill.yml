@@ -1,0 +1,51 @@
+name: Excadrill
+
+origin: fusion-strike-183
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 50
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Rock Tomb
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

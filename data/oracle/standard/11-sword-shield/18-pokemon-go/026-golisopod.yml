@@ -1,0 +1,46 @@
+name: Golisopod
+
+origin: pokemon-go-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Wimpod
+
+dex: 768
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: First Impression
+    text: If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 90 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

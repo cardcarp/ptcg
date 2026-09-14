@@ -1,0 +1,48 @@
+name: Groudon-EX
+
+origin: xy-black-star-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fighting
+
+hp: 180
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rip Claw
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Massive Rend
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,43 @@
+name: Enamorus
+
+origin: twilight-masquerade-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 905
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Heart Sign
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Love Resonance
+    text: If any of your Pokémon in play are the same type as any of your opponent's Pokémon in play, this attack does 120 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

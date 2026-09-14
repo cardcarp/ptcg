@@ -1,0 +1,39 @@
+name: Buneary
+
+origin: mega-evolution-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 427
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Charm
+    text: During your opponent's next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Skip
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Marshadow
+
+origin: cosmic-eclipse-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 802
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Shadow Imitation
+    text: Choose 1 of your opponent's Active Pokémon's non-GX attacks and use it as this attack.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

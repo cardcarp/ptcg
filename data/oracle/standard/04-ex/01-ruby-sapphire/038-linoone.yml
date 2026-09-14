@@ -1,0 +1,45 @@
+name: Linoone
+
+origin: ruby-sapphire-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Zigzagoon
+
+dex: 264
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Seek Out
+    text: Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Continuous Headbutt
+    text: Flip a coin until you get tails. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

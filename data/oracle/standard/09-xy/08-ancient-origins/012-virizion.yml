@@ -1,0 +1,42 @@
+name: Virizion
+
+origin: ancient-origins-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 640
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Bail Out
+    text: Put 2 Pokémon from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Prize Count
+    text: If you have more Prize cards left than your opponent, this attack does 80 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

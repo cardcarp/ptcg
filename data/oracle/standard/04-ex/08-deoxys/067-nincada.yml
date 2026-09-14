@@ -1,0 +1,40 @@
+name: Nincada
+
+origin: deoxys-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 290
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Dig Under
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

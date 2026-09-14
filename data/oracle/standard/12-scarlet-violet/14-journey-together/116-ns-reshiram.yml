@@ -1,0 +1,40 @@
+name: N's Reshiram
+
+origin: journey-together-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 643
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Lightning
+    name: Powerful Rage
+    text: This attack does 20 damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Lightning
+      - Colorless
+    name: Virtuous Flame
+    damage: 170
+
+retreat: 2
+
+errata: []

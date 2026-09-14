@@ -1,0 +1,51 @@
+name: Gengar-EX
+
+origin: phantom-forces-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 94
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Night Attack
+    text: Put 3 damage counters on 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Dark Corridor
+    text: Your opponent's Active Pokémon is now Poisoned. Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

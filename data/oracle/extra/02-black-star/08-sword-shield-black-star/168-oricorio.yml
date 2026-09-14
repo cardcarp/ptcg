@@ -1,0 +1,39 @@
+name: Oricorio
+
+origin: sword-shield-black-star-168
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Fusion Strike
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 741
+
+rule:
+  - type: Ability
+    name: Lesson in Zeal
+    text: All of your Fusion Strike Pokémon take 20 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance). You can't apply more than 1 Lesson in Zeal Ability at a time.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Glistening Droplets
+    text: Put 5 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

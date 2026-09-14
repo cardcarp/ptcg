@@ -1,0 +1,53 @@
+name: Carracosta-GX
+
+origin: sun-moon-black-star-239
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - GX
+
+type:
+  - Fighting
+
+hp: 250
+
+preevolution:
+  - Tirtouga
+
+dex: 565
+
+rule:
+  - type: Ability
+    name: High Density Armor
+    text: If this Pokémon has full HP, it takes 90 less damage from your opponent's attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Ground Crush
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 160
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stone Age-GX
+    text: Put any number of Pokémon that evolve from Unidentified Fossil from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

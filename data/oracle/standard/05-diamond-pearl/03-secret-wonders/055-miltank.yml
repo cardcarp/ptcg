@@ -1,0 +1,40 @@
+name: Miltank
+
+origin: secret-wonders-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 241
+
+rule:
+  - type: Attack
+    name: Healing Milk
+    text: Flip 2 coins. For each heads, remove 3 damage counters from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Continuous Tumble
+    text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

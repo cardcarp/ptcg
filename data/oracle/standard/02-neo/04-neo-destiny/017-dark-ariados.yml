@@ -1,0 +1,45 @@
+name: Dark Ariados
+
+origin: neo-destiny-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Entangle
+    text: If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon, then flip a coin. If heads, the new Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Poison Bind
+    text: The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon can't retreat until the end of your opponent's next turn and if the effect of an attack, Pokémon Power, or Trainer card would change that player's Active Pokémon, that part of the effect does nothing.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Bagon δ
+
+origin: delta-species-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 371
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    text: Discard a Fire Energy card attached to Bagon.
+    damage: 30
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fire
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

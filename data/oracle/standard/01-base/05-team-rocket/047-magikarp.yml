@@ -1,0 +1,41 @@
+name: Magikarp
+
+origin: team-rocket-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flop
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Rapid Evolution
+    text: Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

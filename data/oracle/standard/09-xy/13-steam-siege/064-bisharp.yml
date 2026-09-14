@@ -1,0 +1,52 @@
+name: Bisharp
+
+origin: steam-siege-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Pawniard
+
+dex: 625
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Retaliate
+    text: If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Mach Claw
+    text: This attack's damage isn't affected by Resistance.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

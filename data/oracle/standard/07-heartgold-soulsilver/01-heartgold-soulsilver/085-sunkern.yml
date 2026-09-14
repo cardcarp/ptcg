@@ -1,0 +1,45 @@
+name: Sunkern
+
+origin: heartgold-soulsilver-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 191
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cure Kernels
+    text: Remove 2 damage counters from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Seed Bomb
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

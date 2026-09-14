@@ -1,0 +1,40 @@
+name: Jangmo-o
+
+origin: crimson-invasion-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 782
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Fighting
+    name: Gentle Slap
+    damage: 20
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

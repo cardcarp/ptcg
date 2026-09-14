@@ -1,0 +1,44 @@
+name: Golduck
+
+origin: mega-evolution-black-star-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: Ability
+    name: Damp
+    text: Pokémon in play (both yours and your opponent's) lose any Ability that requires the Pokémon using it to Knock Out itself.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 20 more damage for each Water Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

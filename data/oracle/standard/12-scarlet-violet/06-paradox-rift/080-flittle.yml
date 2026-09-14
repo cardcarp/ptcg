@@ -1,0 +1,42 @@
+name: Flittle
+
+origin: paradox-rift-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 955
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Psychic
+    text: This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

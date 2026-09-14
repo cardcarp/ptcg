@@ -1,0 +1,39 @@
+name: Alolan Exeggutor
+
+origin: forbidden-light-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 160
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Tropical Shake
+    text: This attack does 20 more damage for each type of basic Energy card in your discard pile. You can't add more than 100 damage in this way.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

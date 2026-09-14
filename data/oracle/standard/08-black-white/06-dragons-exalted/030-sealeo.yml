@@ -1,0 +1,45 @@
+name: Sealeo
+
+origin: dragons-exalted-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Spheal
+
+dex: 364
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Ball
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aurora Beam
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

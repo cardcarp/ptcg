@@ -1,0 +1,36 @@
+name: Baltoy
+
+origin: celestial-storm-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psy Bolt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

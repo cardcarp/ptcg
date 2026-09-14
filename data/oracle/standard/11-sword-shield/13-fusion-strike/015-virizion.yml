@@ -1,0 +1,41 @@
+name: Virizion
+
+origin: fusion-strike-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 640
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Bail Out
+    text: Put up to 2 Pokémon from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Spritzee
+
+origin: flashfire-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 50
+
+dex: 682
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Fairy Wind
+    damage: 10
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Fickle Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

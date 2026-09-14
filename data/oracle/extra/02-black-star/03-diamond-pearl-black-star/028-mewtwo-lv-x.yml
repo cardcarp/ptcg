@@ -1,0 +1,46 @@
+name: Mewtwo LV.X
+
+origin: diamond-pearl-black-star-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Level-Up
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Mewtwo
+
+dex: 150
+
+rule:
+  - type: Ability
+    name: Psybarrier
+    text: Prevent all effects of attacks, including damage, done to Mewtwo by your opponent's Pokémon that isn't an Evolved Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Giga Burn
+    text: Discard all Energy attached to Mewtwo.
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - Put this card onto your Active Mewtwo. Mewtwo LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+errata: []

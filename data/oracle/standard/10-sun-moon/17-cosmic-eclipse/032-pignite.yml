@@ -1,0 +1,45 @@
+name: Pignite
+
+origin: cosmic-eclipse-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Tepig
+
+dex: 499
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Tackle
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Crash
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

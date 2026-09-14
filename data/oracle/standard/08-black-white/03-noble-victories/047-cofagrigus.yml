@@ -1,0 +1,43 @@
+name: Cofagrigus
+
+origin: noble-victories-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Yamask
+
+dex: 563
+
+rule:
+  - type: Ability
+    name: Durable Body
+    text: If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out and its remaining HP becomes 10 instead.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

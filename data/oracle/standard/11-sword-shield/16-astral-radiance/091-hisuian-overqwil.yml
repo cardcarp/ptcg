@@ -1,0 +1,45 @@
+name: Hisuian Overqwil
+
+origin: astral-radiance-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Hisuian Qwilfish
+
+dex: 904
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Dirty Press
+    text: If you have at least 3 Darkness Energy in play, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Pierce
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

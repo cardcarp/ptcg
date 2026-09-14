@@ -1,0 +1,50 @@
+name: Fearow
+
+origin: expedition-base-set-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Spearow
+
+dex: 22
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Clutch
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Supersonic Flight
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

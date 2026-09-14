@@ -1,0 +1,54 @@
+name: Tornadus-EX
+
+origin: plasma-freeze-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+  - Team Plasma
+
+type:
+  - Colorless
+
+hp: 180
+
+dex: 641
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Windfall
+    text: Shuffle your hand into your deck. Then, draw 6 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Jet Blast
+    text: This attack does 30 more damage for each Plasma Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,43 @@
+name: Togekiss C
+
+origin: supreme-victors-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 468
+
+rule:
+  - type: Attack
+    name: Collect
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reckless Charge
+    text: Togekiss C does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

@@ -1,0 +1,42 @@
+name: Arcanine
+
+origin: rebel-clash-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: Ability
+    name: Warming Up
+    text: If this Pokémon has a Burning Scarf attached, it gets +100 HP.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Mane
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

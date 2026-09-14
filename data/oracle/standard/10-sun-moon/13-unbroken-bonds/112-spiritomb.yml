@@ -1,0 +1,34 @@
+name: Spiritomb
+
+origin: unbroken-bonds-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 442
+
+rule:
+  - type: Ability
+    name: Building Spite
+    text: Once during your turn (before your attack), you may put 1 damage counter on this Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Anguish Cry
+    text: This attack does 30 more damage for each damage counter on this Pokémon.
+    damage: 10
+    modifier: +
+
+retreat: 1
+
+errata: []

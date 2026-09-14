@@ -1,0 +1,35 @@
+name: Spoink
+
+origin: dragon-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 325
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bounce
+    text: After your attack, you may switch Spoink with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

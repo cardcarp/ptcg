@@ -1,0 +1,40 @@
+name: Bulbasaur
+
+origin: pop-series-2-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 1
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

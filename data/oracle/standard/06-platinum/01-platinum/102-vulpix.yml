@@ -1,0 +1,39 @@
+name: Vulpix
+
+origin: platinum-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 37
+
+rule:
+  - type: Attack
+    name: Reheat
+    text: Discard up to 2 Energy cards from your hand. For each card you discarded, draw 2 cards.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Wailord-EX
+
+origin: primal-clash-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Water
+
+hp: 250
+
+dex: 321
+
+rule:
+  - type: Ability
+    name: Water Veil
+    text: Whenever you attach an Energy card from your hand to this Pokémon, remove all Special Conditions from it.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+      - Water
+    name: High Breaching
+    text: This Pokémon is now Asleep.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

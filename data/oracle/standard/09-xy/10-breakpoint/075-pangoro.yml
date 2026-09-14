@@ -1,0 +1,51 @@
+name: Pangoro
+
+origin: breakpoint-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Pancham
+
+dex: 675
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Parting Shot
+    text: Switch this Pokémon with 1 of your Benched Pokémon. During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 60 (before applying Weakness and Resistance).
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Buster Swing
+    text: This attack's damage isn't affected by Resistance.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

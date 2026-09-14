@@ -1,0 +1,48 @@
+name: Ambipom
+
+origin: steam-siege-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Aipom
+
+dex: 424
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Furry Chance
+    text: Discard the top card of your opponent's deck. If that card is an Energy card, this attack does 60 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Hit
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

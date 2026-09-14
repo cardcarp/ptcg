@@ -1,0 +1,42 @@
+name: Octillery
+
+origin: paradox-rift-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: Ability
+    name: Suction Cup Draw
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may draw 3 cards.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Smokescreen Shot
+    text: During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

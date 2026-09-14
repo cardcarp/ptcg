@@ -1,0 +1,45 @@
+name: Hisuian Arcanine
+
+origin: twilight-masquerade-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Hisuian Growlithe
+
+dex: 59
+
+rule:
+  - type: Attack
+    name: Proud Fangs
+    text: If your Benched Pokémon have any damage counters on them, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

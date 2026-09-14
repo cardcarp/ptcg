@@ -1,0 +1,51 @@
+name: Dialga G
+
+origin: platinum-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Metal
+
+hp: 100
+
+dex: 483
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Deafen
+    text: Your opponent can't play any Trainer cards or Stadium cards from his or her hand during your opponent's next turn.
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Second Strike
+    text: If the Defending Pokémon already has 2 or more damage counters on it, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

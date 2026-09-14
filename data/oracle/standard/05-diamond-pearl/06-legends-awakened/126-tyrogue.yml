@@ -1,0 +1,39 @@
+name: Tyrogue
+
+origin: legends-awakened-126
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 236
+
+rule:
+  - type: Ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Gut Blow
+    text: If the Defending Pokémon is an Evolved Pokémon, this attack does 10 damage plus 20 more damage and Tyrogue does 10 damage to itself.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

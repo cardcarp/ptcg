@@ -1,0 +1,46 @@
+name: Crustle
+
+origin: legendary-treasures-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Dwebble
+
+dex: 558
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hard Press
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

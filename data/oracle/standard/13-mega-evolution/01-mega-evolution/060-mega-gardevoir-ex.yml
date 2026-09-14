@@ -1,0 +1,54 @@
+name: Mega Gardevoir ex
+
+origin: mega-evolution-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - MEGA
+  - ex
+
+type:
+  - Psychic
+
+hp: 360
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Overflowing Wishes
+    text: For each of your Benched Pokémon, search your deck for a Basic Psychic Energy card and attach it to that Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Mega Symphonia
+    text: This attack does 50 damage for each Psychic Energy attached to all of your Pokémon.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

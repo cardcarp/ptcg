@@ -1,0 +1,42 @@
+name: Golduck
+
+origin: platinum-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: Attack
+    name: Swim
+    text: If your opponent has any Water Energy attached to any of his or her Pokémon, you may do 30 damage to any 1 Benched Pokémon instead. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Slide
+    text: You may move all Energy cards attached to Golduck to 1 of your Benched Pokémon. If you do, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+errata: []

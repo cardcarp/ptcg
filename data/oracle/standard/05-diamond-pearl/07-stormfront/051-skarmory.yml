@@ -1,0 +1,48 @@
+name: Skarmory
+
+origin: stormfront-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 227
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Mach Blade
+    text: Flip a coin. If heads, this attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

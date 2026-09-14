@@ -1,0 +1,42 @@
+name: Girafarig
+
+origin: lost-thunder-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 203
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Get Lost
+    text: Put 2 cards from your opponent's discard pile in the Lost Zone.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mind Shock
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

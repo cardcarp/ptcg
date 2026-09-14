@@ -1,0 +1,44 @@
+name: Charmeleon
+
+origin: power-keepers-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scary Face
+    text: Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flame Tail
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

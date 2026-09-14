@@ -1,0 +1,46 @@
+name: Machoke
+
+origin: power-keepers-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Machop
+
+dex: 67
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Steady Punch
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mega Kick
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

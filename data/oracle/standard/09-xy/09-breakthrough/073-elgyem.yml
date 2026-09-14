@@ -1,0 +1,35 @@
+name: Elgyem
+
+origin: breakthrough-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 605
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psych Up
+    text: During your next turn, this Pokémon's Psych Up attack does 20 more damage (before applying Weakness and Resistance).
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

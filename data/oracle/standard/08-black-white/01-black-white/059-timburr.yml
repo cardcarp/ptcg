@@ -1,0 +1,40 @@
+name: Timburr
+
+origin: black-white-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 532
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Low Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Pound
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

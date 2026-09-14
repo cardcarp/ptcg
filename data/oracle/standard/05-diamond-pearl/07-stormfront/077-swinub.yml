@@ -1,0 +1,45 @@
+name: Swinub
+
+origin: stormfront-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 220
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Freezing Breath
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Take Down
+    text: Flip a coin. If tails, Swinub does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Palossand
+
+origin: silver-tempest-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Sandygast
+
+dex: 770
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sandpot Trap
+    text: This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Land Crush
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

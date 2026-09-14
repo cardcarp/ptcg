@@ -1,0 +1,41 @@
+name: Erika's Bellsprout
+
+origin: gym-heroes-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 69
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Vine
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Vine Whip
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

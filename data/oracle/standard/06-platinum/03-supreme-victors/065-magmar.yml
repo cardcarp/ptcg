@@ -1,0 +1,41 @@
+name: Magmar
+
+origin: supreme-victors-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fireworks
+    text: Flip a coin. If tails, discard a Fire Energy attached to Magmar.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

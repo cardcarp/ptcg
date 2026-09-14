@@ -1,0 +1,47 @@
+name: Aron
+
+origin: chilling-reign-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 304
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Rolling Tackle
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

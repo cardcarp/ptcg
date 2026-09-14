@@ -1,0 +1,49 @@
+name: Dragonite
+
+origin: sun-moon-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 160
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Lightning
+    name: Dragon Wave
+    text: Discard a Grass Energy and a Lightning Energy from this Pokémon.
+    damage: 130
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giant Tail
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 200
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

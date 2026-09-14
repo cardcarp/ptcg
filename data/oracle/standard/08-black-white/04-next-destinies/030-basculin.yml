@@ -1,0 +1,40 @@
+name: Basculin
+
+origin: next-destinies-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 550
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+    name: Bared Fangs
+    text: If, before this Pokémon does damage, the Defending Pokémon has no damage counters on it, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

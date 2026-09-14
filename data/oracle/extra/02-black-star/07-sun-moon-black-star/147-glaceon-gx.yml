@@ -1,0 +1,56 @@
+name: Glaceon-GX
+
+origin: sun-moon-black-star-147
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Water
+
+hp: 200
+
+preevolution:
+  - Eevee
+
+dex: 471
+
+rule:
+  - type: Ability
+    name: Freezing Gaze
+    text: As long as this Pokémon is your Active Pokémon, your opponent's Pokémon-GX and Pokémon-EX in play, in their hand, and in their discard pile have no Abilities, except for Freezing Gaze.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Bullet
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 90
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Polar Spear-GX
+    text: This attack does 50 damage for each damage counter on your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

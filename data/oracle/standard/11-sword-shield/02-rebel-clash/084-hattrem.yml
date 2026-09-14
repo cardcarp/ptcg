@@ -1,0 +1,50 @@
+name: Hattrem
+
+origin: rebel-clash-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Hatenna
+
+dex: 857
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Calm Mind
+    text: Heal 30 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Brutal Swing
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

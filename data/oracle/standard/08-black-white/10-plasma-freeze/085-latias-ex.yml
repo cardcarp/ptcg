@@ -1,0 +1,44 @@
+name: Latias-EX
+
+origin: plasma-freeze-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 160
+
+dex: 380
+
+rule:
+  - type: Ability
+    name: Bright Down
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon with Abilities.
+  - type: Attack
+    cost:
+      - Fire
+      - Psychic
+      - Colorless
+    name: Barrier Break
+    text: This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.
+    damage: 70
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

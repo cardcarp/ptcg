@@ -1,0 +1,43 @@
+name: Groudon
+
+origin: paradox-rift-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Swelling Power
+    text: Attach a Basic Fighting Energy card from your hand to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Magma Purge
+    text: Discard up to 4 Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,35 @@
+name: Tentacool
+
+origin: guardians-rising-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 72
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sludge Shock
+    text: The Defending Pokémon can't be healed during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

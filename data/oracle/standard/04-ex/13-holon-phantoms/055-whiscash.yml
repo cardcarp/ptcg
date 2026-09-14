@@ -1,0 +1,46 @@
+name: Whiscash
+
+origin: holon-phantoms-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Barboach
+
+dex: 340
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pebble Hurl
+    text: This attack's damage isn't affected by Resistance.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Earthquake
+    text: Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

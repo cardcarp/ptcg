@@ -1,0 +1,47 @@
+name: Marshtomp
+
+origin: primal-clash-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Mudkip
+
+dex: 259
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Mud-Slap
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Endeavor
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Galarian Slowking V
+
+origin: chilling-reign-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 220
+
+dex: 199
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Concoction
+    text: Discard a card from your hand. If you do, draw 3 cards.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Word of Ruin
+    text: At the end of your opponent's next turn, the Defending Pokémon will be Knocked Out.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

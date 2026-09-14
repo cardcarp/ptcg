@@ -1,0 +1,43 @@
+name: Noivern
+
+origin: journey-together-128
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 715
+
+rule:
+  - type: Ability
+    name: Tuning Echo
+    text: If you have the same number of cards in your hand as your opponent, ignore all Energy in the cost of Frightening Howl used by this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Frightening Howl
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 110
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

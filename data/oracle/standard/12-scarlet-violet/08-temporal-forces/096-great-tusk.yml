@@ -1,0 +1,45 @@
+name: Great Tusk
+
+origin: temporal-forces-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ancient
+
+type:
+  - Fighting
+
+hp: 140
+
+dex: 984
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Lunge Out
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Wrathful Charge
+    text: If your Benched Pokémon have any damage counters on them, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

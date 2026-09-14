@@ -1,0 +1,48 @@
+name: Deino
+
+origin: plasma-freeze-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 633
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Push Down
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

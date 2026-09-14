@@ -1,0 +1,45 @@
+name: Erika's Weepinbell
+
+origin: gym-heroes-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Erika's Bellsprout
+
+dex: 70
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Sleep Poison
+    text: The Defending Pokémon is now Asleep and Poisoned.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Vine Whip
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

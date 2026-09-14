@@ -1,0 +1,52 @@
+name: Cradily δ
+
+origin: holon-phantoms-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Darkness
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Lileep
+
+dex: 346
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Harsh Fluid
+    text: Put 5 damage counters on the Defending Pokémon at the end of your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Poison Tentacles
+    text: The Defending Pokémon is now Poisoned.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Darkness Metal type.
+
+errata: []

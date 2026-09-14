@@ -1,0 +1,42 @@
+name: Mudkip
+
+origin: fusion-strike-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 258
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mud-Slap
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Playful Kick
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

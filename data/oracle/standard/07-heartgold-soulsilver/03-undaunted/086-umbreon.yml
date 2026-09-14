@@ -1,0 +1,50 @@
+name: Umbreon
+
+origin: undaunted-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Prime
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: Ability
+    name: Cloud-Covered Moon
+    text: Once during your turn (before your attack), if Umbreon is your Active Pokémon, you may flip a coin. If heads, return Umbreon and all cards attached to it to your hand. This power can't be used if Umbreon is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Evoblast
+    text: Does 50 damage plus 10 more damage for each of your Pokémon in play that evolves from Eevee.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

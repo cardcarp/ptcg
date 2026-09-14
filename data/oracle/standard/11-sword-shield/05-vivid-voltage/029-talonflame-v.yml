@@ -1,0 +1,49 @@
+name: Talonflame V
+
+origin: vivid-voltage-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 190
+
+dex: 663
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fast Flight
+    text: If you go first, you can use this attack during your first turn. Discard your hand and draw 6 cards.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Bright Wing
+    text: Discard an Energy from this Pokémon.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,46 @@
+name: Gloom
+
+origin: expedition-base-set-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Foul Odor
+    text: Both the Defending Pokémon and Gloom are now Confused (after doing damage).
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

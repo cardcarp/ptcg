@@ -1,0 +1,45 @@
+name: Hatterene
+
+origin: rebel-clash-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Hattrem
+
+dex: 858
+
+rule:
+  - type: Ability
+    name: Mind Hat
+    text: Once during your turn, you may use this Ability. Each player discards a card from their hand. (Your opponent discards first.)
+  - type: Attack
+    cost:
+      - Psychic
+    name: Dripping Grudge
+    text: Put 1 damage counter on your opponent's Active Pokémon for each Pokémon in your discard pile.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

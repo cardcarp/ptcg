@@ -1,0 +1,49 @@
+name: Xurkitree
+
+origin: sun-moon-black-star-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 796
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Dazzle Blast
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Cablegram
+    text: If you have exactly 3 Prize cards remaining, your opponent's Active Pokémon is now Paralyzed.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

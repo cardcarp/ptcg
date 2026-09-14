@@ -1,0 +1,45 @@
+name: Naganadel
+
+origin: lost-thunder-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Ultra Beast
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Poipole
+
+dex: 804
+
+rule:
+  - type: Ability
+    name: Charging Up
+    text: Once during your turn (before your attack), you may attach a basic Energy card from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Turning Point
+    text: If you have exactly 3 Prize cards remaining, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

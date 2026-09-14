@@ -1,0 +1,48 @@
+name: Dark Alakazam
+
+origin: team-rocket-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Dark Kadabra
+
+dex: 65
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Teleport Blast
+    text: You may switch Dark Alakazam with 1 of your Benched Pokémon. (Do the damage before switching the Pokémon.)
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Mind Shock
+    text: Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,41 @@
+name: Vulpix
+
+origin: heartgold-soulsilver-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 37
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Ember
+    text: Flip a coin. If tails, discard a Fire Energy attached to Vulpix.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

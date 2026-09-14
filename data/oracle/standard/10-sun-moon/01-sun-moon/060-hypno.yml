@@ -1,0 +1,48 @@
+name: Hypno
+
+origin: sun-moon-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Meditate
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Hypnoblast
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

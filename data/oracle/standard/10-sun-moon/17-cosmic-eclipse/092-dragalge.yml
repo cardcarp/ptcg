@@ -1,0 +1,42 @@
+name: Dragalge
+
+origin: cosmic-eclipse-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Skrelp
+
+dex: 691
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Poison Cultivation
+    text: If your opponent's Active Pokémon is Poisoned, put 10 damage counters instead of 1 on that Pokémon between turns.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Sharp Fin
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

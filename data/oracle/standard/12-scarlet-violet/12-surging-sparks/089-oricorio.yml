@@ -1,0 +1,46 @@
+name: Oricorio
+
+origin: surging-sparks-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 741
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Energy Assist
+    text: Attach up to 2 Basic Energy cards from your discard pile to 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Dazzle Dance
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

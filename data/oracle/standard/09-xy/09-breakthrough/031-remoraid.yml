@@ -1,0 +1,40 @@
+name: Remoraid
+
+origin: breakthrough-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 223
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Wild River
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

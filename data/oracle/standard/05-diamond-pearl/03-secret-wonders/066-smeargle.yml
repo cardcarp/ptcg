@@ -1,0 +1,37 @@
+name: Smeargle
+
+origin: secret-wonders-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 235
+
+rule:
+  - type: Attack
+    name: Color Pick
+    text: Search your deck for up to 3 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Trace
+    text: Flip a coin. If heads, choose an attack on 1 of your opponent's Benched Pokémon. Trace copies that attack except for its Energy cost. (You must still do anything else required for that attack.) Smeargle performs that attack.
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

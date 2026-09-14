@@ -1,0 +1,38 @@
+name: Alolan Vulpix
+
+origin: guardians-rising-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: Attack
+    name: Beacon
+    text: Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Icy Snow
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

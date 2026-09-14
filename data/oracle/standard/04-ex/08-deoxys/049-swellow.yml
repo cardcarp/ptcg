@@ -1,0 +1,48 @@
+name: Swellow
+
+origin: deoxys-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Taillow
+
+dex: 277
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mid-air Crush
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If heads, your opponent discards 1 Energy card, if any, attached to that Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nosedive
+    text: Flip a coin. If tails, Swellow does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

@@ -1,0 +1,47 @@
+name: Thwackey
+
+origin: sword-shield-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Grookey
+
+dex: 811
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Beat
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

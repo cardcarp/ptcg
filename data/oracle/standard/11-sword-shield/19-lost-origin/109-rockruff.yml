@@ -1,0 +1,41 @@
+name: Rockruff
+
+origin: lost-origin-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 744
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Double Draw
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rear Kick
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

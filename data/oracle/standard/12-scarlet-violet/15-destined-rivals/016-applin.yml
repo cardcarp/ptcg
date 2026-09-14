@@ -1,0 +1,35 @@
+name: Applin
+
+origin: destined-rivals-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 840
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Mini Drain
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

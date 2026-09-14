@@ -1,0 +1,35 @@
+name: Meditite
+
+origin: unified-minds-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 307
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Spirited Headbutt
+    text: This Pokémon can't use Spirited Headbutt during your next turn.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

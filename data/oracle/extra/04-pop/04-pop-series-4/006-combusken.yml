@@ -1,0 +1,46 @@
+name: Combusken
+
+origin: pop-series-4-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Torchic
+
+dex: 256
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Smokescreen
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Sky Uppercut
+    text: This attack's damage isn't affected by Resistance.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

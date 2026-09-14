@@ -1,0 +1,48 @@
+name: Magnezone
+
+origin: unified-minds-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 160
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: Ability
+    name: Double Type
+    text: As long as this Pokémon is in play, it is Lightning and Metal type.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Magnetic Bolt
+    text: Put a Trainer card from your discard pile into your hand.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Arceus
+
+origin: arceus-001ar
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 493
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Prize Count
+    text: If you have more Prize cards left than your opponent, this attack does 20 damage plus 60 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - You may have as many of this card in your deck as you like.
+
+errata: []

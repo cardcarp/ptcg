@@ -1,0 +1,41 @@
+name: Pineco
+
+origin: undaunted-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 204
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Focus Energy
+    text: During your next turn, Pineco's Surprise Attack attack's base damage is 80.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

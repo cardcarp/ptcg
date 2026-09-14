@@ -1,0 +1,41 @@
+name: Buizel
+
+origin: shining-legends-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 418
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Razor Fin
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Water Gun
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

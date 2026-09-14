@@ -1,0 +1,50 @@
+name: M Absol-EX
+
+origin: xy-black-star-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Darkness
+
+hp: 210
+
+preevolution:
+  - Absol-EX
+
+dex: 359
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Disaster Wing
+    text: Discard the top card of your opponent's deck. If that card is a Trainer card, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

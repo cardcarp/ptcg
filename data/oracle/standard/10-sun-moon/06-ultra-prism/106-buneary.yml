@@ -1,0 +1,39 @@
+name: Buneary
+
+origin: ultra-prism-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 427
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Weak Kneed
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Skip
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

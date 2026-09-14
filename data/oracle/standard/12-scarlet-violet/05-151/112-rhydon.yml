@@ -1,0 +1,47 @@
+name: Rhydon
+
+origin: 151-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Rhyhorn
+
+dex: 112
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Wrack Down
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Charismatic Drill
+    text: If you played Giovanni's Charisma from your hand during this turn, this attack does 140 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

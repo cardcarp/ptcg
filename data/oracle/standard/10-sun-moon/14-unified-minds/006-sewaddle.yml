@@ -1,0 +1,39 @@
+name: Sewaddle
+
+origin: unified-minds-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 540
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Multiply
+    text: Search your deck for up to 2 Sewaddle and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gnaw
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

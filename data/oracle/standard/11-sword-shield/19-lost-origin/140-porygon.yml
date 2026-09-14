@@ -1,0 +1,39 @@
+name: Porygon
+
+origin: lost-origin-140
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 137
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Branch Calculation
+    text: Look at the top 4 cards of either player's deck and put them back in any order.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Beam
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

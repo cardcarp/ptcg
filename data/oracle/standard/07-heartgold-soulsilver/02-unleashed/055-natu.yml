@@ -1,0 +1,44 @@
+name: Natu
+
+origin: unleashed-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 177
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+    name: Teleport
+    text: Switch Natu with 1 of your Benched Pokémon.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

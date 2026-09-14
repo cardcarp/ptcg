@@ -1,0 +1,43 @@
+name: Spiritomb
+
+origin: paldea-evolved-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 442
+
+rule:
+  - type: Ability
+    name: Fettered in Misfortune
+    text: Basic Pokémon V in play (both yours and your opponent's) have no Abilities.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fade Out
+    text: Put this Pokémon and all attached cards into your hand.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

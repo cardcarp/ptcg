@@ -1,0 +1,49 @@
+name: Rhydon
+
+origin: burning-shadows-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Rhyhorn
+
+dex: 112
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Rock Tumble
+    text: This attack's damage isn't affected by Resistance.
+    damage: 80
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Megahorn
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

@@ -1,0 +1,40 @@
+name: Venonat
+
+origin: secret-wonders-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 48
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stun Spore
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Grass
+    name: Signal Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

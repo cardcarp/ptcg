@@ -1,0 +1,52 @@
+name: Necrozma-GX
+
+origin: sun-moon-black-star-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 800
+
+rule:
+  - type: Ability
+    name: Light's End
+    text: Prevent all damage done to this Pokémon by attacks from Colorless Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Prismatic Burst
+    text: Discard all Psychic Energy from this Pokémon. This attack does 60 more damage for each card you discarded in this way.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Black Ray-GX
+    text: This attack does 100 damage to each of your opponent's Pokémon-GX and Pokémon-EX. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,46 @@
+name: Raichu GL
+
+origin: rising-rivals-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Thunder Throw
+    text: Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Repeat Lightning
+    text: Does 30 damage plus 10 more damage for each of your opponent's Benched Pokémon that has any damage counters on it.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+errata: []

@@ -1,0 +1,44 @@
+name: Salazzle
+
+origin: unified-minds-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Salandit
+
+dex: 758
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Smack
+    damage: 40
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Slashing Claw
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

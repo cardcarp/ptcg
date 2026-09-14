@@ -1,0 +1,49 @@
+name: Torterra
+
+origin: diamond-pearl-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Grotle
+
+dex: 389
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Leaf Storm
+    text: Remove 2 damage counters from each of your Grass Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+retreat: 4
+
+errata: []

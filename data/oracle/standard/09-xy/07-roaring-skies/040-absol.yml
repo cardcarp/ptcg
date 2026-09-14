@@ -1,0 +1,44 @@
+name: Absol
+
+origin: roaring-skies-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 359
+
+rule:
+  - type: Ability
+    name: Cursed Eyes
+    text: When you play this Pokémon from your hand onto your Bench, you may move 3 damage counters from 1 of your opponent's Pokémon to another of his or her Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Mach Claw
+    text: This attack's damage isn't affected by Resistance.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

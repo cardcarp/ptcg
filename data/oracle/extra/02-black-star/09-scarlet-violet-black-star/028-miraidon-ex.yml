@@ -1,0 +1,44 @@
+name: Miraidon ex
+
+origin: scarlet-violet-black-star-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Lightning
+
+hp: 220
+
+dex: 1008
+
+rule:
+  - type: Ability
+    name: Tandem Unit
+    text: Once during your turn, you may search your deck for up to 2 Basic Lightning Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Photon Blaster
+    text: During your next turn, this Pokémon can't attack.
+    damage: 220
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

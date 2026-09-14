@@ -1,0 +1,45 @@
+name: Fraxure
+
+origin: dragon-vault-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Axew
+
+dex: 611
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 40
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

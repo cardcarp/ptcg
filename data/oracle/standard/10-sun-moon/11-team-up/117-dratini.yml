@@ -1,0 +1,37 @@
+name: Dratini
+
+origin: team-up-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 70
+
+dex: 147
+
+rule:
+  - type: Ability
+    name: Defensive Scales
+    text: Prevent all effects of your opponent's attacks, except damage, done to this Pokémon.
+  - type: Attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 10
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

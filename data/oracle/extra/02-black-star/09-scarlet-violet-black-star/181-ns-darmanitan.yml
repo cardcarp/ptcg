@@ -1,0 +1,48 @@
+name: N's Darmanitan
+
+origin: scarlet-violet-black-star-181
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - N's Darumaka
+
+dex: 555
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Back Draft
+    text: This attack does 30 damage for each Basic Energy card in your opponent's discard pile.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamebody Cannon
+    text: Discard all Energy from this Pokémon, and this attack also does 90 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

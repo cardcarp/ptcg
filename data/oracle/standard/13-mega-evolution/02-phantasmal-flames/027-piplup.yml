@@ -1,0 +1,40 @@
+name: Piplup
+
+origin: phantasmal-flames-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 393
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Support
+    text: Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

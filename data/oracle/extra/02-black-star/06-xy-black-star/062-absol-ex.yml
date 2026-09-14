@@ -1,0 +1,52 @@
+name: Absol-EX
+
+origin: xy-black-star-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Darkness
+
+hp: 170
+
+dex: 359
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Dark Fang
+    text: Flip a coin. If heads, discard a random card from your opponent's hand.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Edge
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

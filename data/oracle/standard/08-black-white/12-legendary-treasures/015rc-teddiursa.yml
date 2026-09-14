@@ -1,0 +1,40 @@
+name: Teddiursa
+
+origin: legendary-treasures-015rc
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 216
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Honey Snack
+    text: Heal 20 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Scratch
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,39 @@
+name: Oddish
+
+origin: obsidian-flames-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 43
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Feelin' Fine
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Grass
+    name: Stampede
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

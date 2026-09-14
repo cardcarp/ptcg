@@ -1,0 +1,41 @@
+name: Rotom
+
+origin: surging-sparks-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 80
+
+dex: 479
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Crushing Pulse
+    text: Your opponent reveals their hand. Discard all Item cards and Pokémon Tool cards you find there.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Energy Short
+    text: This attack does 20 damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

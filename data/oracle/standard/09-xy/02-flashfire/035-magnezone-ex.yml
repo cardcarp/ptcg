@@ -1,0 +1,51 @@
+name: Magnezone-EX
+
+origin: flashfire-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Lightning
+
+hp: 180
+
+dex: 462
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Electro Ball
+    damage: 40
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Dual Bullet
+    text: This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,52 @@
+name: Grovyle
+
+origin: arceus-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Treecko
+
+dex: 253
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Cut
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

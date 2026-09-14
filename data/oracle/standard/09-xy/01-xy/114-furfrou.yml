@@ -1,0 +1,40 @@
+name: Furfrou
+
+origin: xy-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 676
+
+rule:
+  - type: Ability
+    name: Fur Coat
+    text: Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Energy Cutoff
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

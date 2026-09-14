@@ -1,0 +1,50 @@
+name: Luxray ex
+
+origin: twilight-masquerade-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Lightning
+
+hp: 310
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Piercing Gaze
+    text: Your opponent reveals their hand. Discard a card you find there.
+    damage: 120
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Volt Strike
+    text: Discard all Energy from this Pokémon.
+    damage: 250
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

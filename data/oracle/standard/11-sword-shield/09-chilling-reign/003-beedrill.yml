@@ -1,0 +1,44 @@
+name: Beedrill
+
+origin: chilling-reign-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Single Strike
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Kakuna
+
+dex: 15
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Persist Sting
+    text: If your opponent's Active Pokémon has any Special Energy attached, it is Knocked Out.
+  - type: Attack
+    cost:
+      - Grass
+    name: Jet Spear
+    text: Discard an Energy from this Pokémon.
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

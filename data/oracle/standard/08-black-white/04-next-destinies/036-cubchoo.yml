@@ -1,0 +1,40 @@
+name: Cubchoo
+
+origin: next-destinies-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 613
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Sniffle
+    text: During your next turn, this Pokémon's Belt attack's base damage is 40.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Belt
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

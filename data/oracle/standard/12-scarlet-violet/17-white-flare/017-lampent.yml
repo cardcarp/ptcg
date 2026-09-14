@@ -1,0 +1,38 @@
+name: Lampent
+
+origin: white-flare-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Litwick
+
+dex: 608
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Fire Blast
+    text: Discard an Energy from this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

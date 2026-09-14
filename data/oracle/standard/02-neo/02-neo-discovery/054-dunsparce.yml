@@ -1,0 +1,38 @@
+name: Dunsparce
+
+origin: neo-discovery-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 30
+
+dex: 206
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Glare
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+errata: []

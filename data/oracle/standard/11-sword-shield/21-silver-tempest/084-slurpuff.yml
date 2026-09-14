@@ -1,0 +1,46 @@
+name: Slurpuff
+
+origin: silver-tempest-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Swirlix
+
+dex: 685
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Draining Kiss
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Magical Shot
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Haxorus
+
+origin: breakthrough-111
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 160
+
+preevolution:
+  - Fraxure
+
+dex: 612
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dragon Dance
+    text: As long as this Haxorus is your Active Pokémon, each of its attacks does 100 more damage (before applying Weakness and Resistance). You can't add more than 100 damage in this way.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sharp Fang
+    damage: 60
+  - type: Attack
+    cost:
+      - Fighting
+      - Metal
+    name: Dragon Pulse
+    text: Discard the top 3 cards of your deck.
+    damage: 130
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

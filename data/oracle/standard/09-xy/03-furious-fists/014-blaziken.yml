@@ -1,0 +1,47 @@
+name: Blaziken
+
+origin: furious-fists-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Clutch
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Burning Shot
+    text: Discard 2 Energy attached to this Pokémon. This attack does 150 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

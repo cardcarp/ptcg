@@ -1,0 +1,46 @@
+name: Ninetales
+
+origin: emerald-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Confuse Ray
+    text: The Defending Pokémon is now Confused.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Searing Flame
+    text: The Defending Pokémon is now Burned.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

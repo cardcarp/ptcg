@@ -1,0 +1,45 @@
+name: Stunky
+
+origin: majestic-dawn-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 434
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Poison Gas
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

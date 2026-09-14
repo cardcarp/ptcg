@@ -1,0 +1,43 @@
+name: Samurott
+
+origin: vivid-voltage-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Dewott
+
+dex: 503
+
+rule:
+  - type: Ability
+    name: Swaddling Leaves
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aqua Wash
+    text: You may put 2 Energy attached to your opponent's Active Pokémon into their hand.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

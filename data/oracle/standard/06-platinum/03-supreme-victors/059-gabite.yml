@@ -1,0 +1,42 @@
+name: Gabite
+
+origin: supreme-victors-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Gible
+
+dex: 444
+
+rule:
+  - type: Attack
+    name: Healing Scale
+    text: Remove 1 damage counter from each of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sand Tomb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Colorless
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

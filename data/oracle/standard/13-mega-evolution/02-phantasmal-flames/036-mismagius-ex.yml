@@ -1,0 +1,51 @@
+name: Mismagius ex
+
+origin: phantasmal-flames-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 260
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: Ability
+    name: Swirling Prose
+    text: As long as this Pokémon is in the Active Spot, whenever your opponent's Active Pokémon moves to the Bench during their turn, their new Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Hexa-Magic
+    text: You may draw cards until you have 6 cards in your hand.
+    damage: 150
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

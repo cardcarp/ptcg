@@ -1,0 +1,49 @@
+name: Darmanitan
+
+origin: obsidian-flames-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Darumaka
+
+dex: 555
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Damage Counterpunch
+    text: If this Pokémon has any damage counters on it, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 140
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

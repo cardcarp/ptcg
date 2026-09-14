@@ -1,0 +1,40 @@
+name: Tyrunt
+
+origin: mega-evolution-black-star-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Antique Jaw Fossil
+
+dex: 696
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Get Angry
+    text: This attack does 20 damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

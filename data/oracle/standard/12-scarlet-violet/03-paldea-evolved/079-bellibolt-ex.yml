@@ -1,0 +1,50 @@
+name: Bellibolt ex
+
+origin: paldea-evolved-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Lightning
+
+hp: 280
+
+preevolution:
+  - Tadbulb
+
+dex: 939
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jumping Press
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Paralyzing Ball
+    text: You may discard 2 Lightning Energy from this Pokémon to make your opponent's Active Pokémon Paralyzed.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,37 @@
+name: Chimchar
+
+origin: twilight-masquerade-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 390
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Firebreathing
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

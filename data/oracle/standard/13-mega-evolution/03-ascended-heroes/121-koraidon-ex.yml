@@ -1,0 +1,51 @@
+name: Koraidon ex
+
+origin: ascended-heroes-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Fighting
+
+hp: 230
+
+dex: 1007
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Orichalcum Fang
+    text: If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 120 more damage.
+    damage: 50
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Impact Blow
+    text: During your next turn, this Pokémon can't use Impact Blow.
+    damage: 200
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

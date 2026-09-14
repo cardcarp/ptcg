@@ -1,0 +1,49 @@
+name: Nuzleaf
+
+origin: breakpoint-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Corkscrew Punch
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Razor Wind
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

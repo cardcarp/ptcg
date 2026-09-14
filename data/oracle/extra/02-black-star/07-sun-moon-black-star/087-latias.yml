@@ -1,0 +1,38 @@
+name: Latias
+
+origin: sun-moon-black-star-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 380
+
+rule:
+  - type: Ability
+    name: Flight Support
+    text: Your Latios in play have no Retreat Cost.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Misty Gale
+    text: Heal 30 damage from each of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

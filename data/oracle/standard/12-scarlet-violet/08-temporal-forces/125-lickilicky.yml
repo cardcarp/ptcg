@@ -1,0 +1,49 @@
+name: Lickilicky
+
+origin: temporal-forces-125
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Lickitung
+
+dex: 463
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tonguenado
+    text: Flip 4 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

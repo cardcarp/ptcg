@@ -1,0 +1,34 @@
+name: Hitmonchan
+
+origin: pokemon-tcg-classic-venusaur-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+hp: 120
+
+dex: 107
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Coordinated Beatdown
+    text: If Hitmonlee is on your Bench, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Mach Cross
+    damage: 60
+
+retreat: 1
+
+errata: []

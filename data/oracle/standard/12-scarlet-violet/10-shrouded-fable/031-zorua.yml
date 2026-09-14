@@ -1,0 +1,42 @@
+name: Zorua
+
+origin: shrouded-fable-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 570
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

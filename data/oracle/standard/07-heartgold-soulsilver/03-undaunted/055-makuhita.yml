@@ -1,0 +1,44 @@
+name: Makuhita
+
+origin: undaunted-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 296
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Slap Down
+    text: Flip 2 coins. This attack does 20 damage plus 10 more damage for each heads.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Slap Push
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

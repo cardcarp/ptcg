@@ -1,0 +1,41 @@
+name: Hitmonchan
+
+origin: base-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 107
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Jab
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Special Punch
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

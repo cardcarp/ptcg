@@ -1,0 +1,41 @@
+name: Victini
+
+origin: silver-tempest-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 494
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Assisting Flame
+    text: Attach up to 2 Fire Energy cards from your discard pile to your Pokémon in any way you like.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

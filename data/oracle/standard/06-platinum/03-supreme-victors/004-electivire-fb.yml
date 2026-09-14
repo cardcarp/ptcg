@@ -1,0 +1,48 @@
+name: Electivire FB
+
+origin: supreme-victors-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 466
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dump and Draw
+    text: Discard up to 2 Energy cards from your hand. For each card you discarded, draw 2 cards.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electric Current
+    text: Move a Lightning Energy card attached to Electivire FB to 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

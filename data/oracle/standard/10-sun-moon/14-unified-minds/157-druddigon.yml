@@ -1,0 +1,44 @@
+name: Druddigon
+
+origin: unified-minds-157
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 120
+
+dex: 621
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drag Off
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 30 damage to the new Active Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+    name: Dragon Tail
+    text: Flip 2 coins. This attack does 100 damage for each heads.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

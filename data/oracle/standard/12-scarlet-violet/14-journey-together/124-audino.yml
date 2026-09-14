@@ -1,0 +1,41 @@
+name: Audino
+
+origin: journey-together-124
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 531
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Beckon
+    text: Put a Supporter card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Zen Headbutt
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

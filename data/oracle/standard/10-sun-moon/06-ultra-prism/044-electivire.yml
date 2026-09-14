@@ -1,0 +1,53 @@
+name: Electivire
+
+origin: ultra-prism-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 140
+
+preevolution:
+  - Electabuzz
+
+dex: 466
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Steel Short
+    text: If your opponent's Active Pokémon is a Metal Pokémon, it is now Paralyzed.
+    damage: 60
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Volt Knuckle
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

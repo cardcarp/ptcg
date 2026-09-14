@@ -1,0 +1,40 @@
+name: Stufful
+
+origin: mega-evolution-111
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 759
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Light Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flop
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

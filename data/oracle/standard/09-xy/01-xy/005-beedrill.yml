@@ -1,0 +1,46 @@
+name: Beedrill
+
+origin: xy-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Kakuna
+
+dex: 15
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Jab
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Flash Needle
+    text: Flip 3 coins. This attack does 40 damage times the number of heads. If all of them are heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

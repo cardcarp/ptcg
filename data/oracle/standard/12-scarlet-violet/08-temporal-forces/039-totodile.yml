@@ -1,0 +1,35 @@
+name: Totodile
+
+origin: temporal-forces-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 158
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Big Bite
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

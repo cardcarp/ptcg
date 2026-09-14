@@ -1,0 +1,50 @@
+name: Polteageist
+
+origin: sword-shield-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Sinistea
+
+dex: 855
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Teatime
+    text: Each player draws 2 cards.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poltergeist
+    text: Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

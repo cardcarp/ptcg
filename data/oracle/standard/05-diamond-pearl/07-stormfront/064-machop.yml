@@ -1,0 +1,41 @@
+name: Machop
+
+origin: stormfront-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 66
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Knock Back
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

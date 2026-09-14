@@ -1,0 +1,47 @@
+name: Poliwrath
+
+origin: neo-discovery-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Poliwhirl
+
+dex: 62
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Corkscrew Punch
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Submission
+    text: Poliwrath does 20 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

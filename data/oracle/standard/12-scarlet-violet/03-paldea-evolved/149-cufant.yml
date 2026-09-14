@@ -1,0 +1,40 @@
+name: Cufant
+
+origin: paldea-evolved-149
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 100
+
+dex: 878
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Stampede
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

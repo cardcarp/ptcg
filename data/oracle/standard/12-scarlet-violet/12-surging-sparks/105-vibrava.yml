@@ -1,0 +1,43 @@
+name: Vibrava
+
+origin: surging-sparks-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Trapinch
+
+dex: 329
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Screech
+    text: During your next turn, the Defending Pokémon takes 50 more damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Cutting Wind
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

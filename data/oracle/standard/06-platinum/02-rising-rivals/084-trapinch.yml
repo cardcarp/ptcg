@@ -1,0 +1,44 @@
+name: Trapinch
+
+origin: rising-rivals-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 328
+
+rule:
+  - type: Ability
+    name: Gather Sand
+    text: Once during your turn (before your attack), if Trapinch is your Active Pokémon, you may search your discard pile for a basic Fighting card and attach it to Trapinch.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Grind
+    text: Does 10 damage times the amount of Energy attached to Trapinch.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

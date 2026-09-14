@@ -1,0 +1,39 @@
+name: Clamperl
+
+origin: hidden-legends-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 366
+
+rule:
+  - type: Ability
+    name: Exoskeleton
+    text: Any damage done to Clamperl by attacks is reduced by 10 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Bubble
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,50 @@
+name: Emolga-EX
+
+origin: xy-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 587
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Glide
+    text: Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward. If you attached Energy in this way, switch this Pokémon with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electron Crush
+    text: You may discard an Energy attached to this Pokémon. If you do, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

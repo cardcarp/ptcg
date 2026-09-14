@@ -1,0 +1,38 @@
+name: Goomy
+
+origin: ancient-origins-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 40
+
+dex: 704
+
+rule:
+  - type: Ability
+    name: Water Down
+    text: Whenever you attach a Water Energy card from your hand to this Pokémon, you may search your deck for Goomy and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Stampede
+    damage: 10
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

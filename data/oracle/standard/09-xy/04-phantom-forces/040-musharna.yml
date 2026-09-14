@@ -1,0 +1,44 @@
+name: Musharna
+
+origin: phantom-forces-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Munna
+
+dex: 518
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Dream of Memories
+    text: Shuffle 3 cards from your discard pile into your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Dream Dance
+    text: Both Active Pokémon are now Asleep.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

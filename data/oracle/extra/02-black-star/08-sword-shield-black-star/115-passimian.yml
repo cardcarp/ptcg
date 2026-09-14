@@ -1,0 +1,38 @@
+name: Passimian
+
+origin: sword-shield-black-star-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 766
+
+rule:
+  - type: Ability
+    name: Throwing Coach
+    text: Your Rapid Strike Pokémon's attacks do 30 more damage to your opponent's Benched Pokémon V and Benched Pokémon-GX (before applying Weakness and Resistance). You can't apply more than 1 Throwing Coach Ability at a time.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Fling
+    text: This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

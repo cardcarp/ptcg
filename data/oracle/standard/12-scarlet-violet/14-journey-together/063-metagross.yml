@@ -1,0 +1,47 @@
+name: Metagross
+
+origin: journey-together-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 376
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Wrack Down
+    damage: 60
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Conjoined Beams
+    text: If Beldum and Metang are on your Bench, this attack does 150 more damage.
+    damage: 130
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

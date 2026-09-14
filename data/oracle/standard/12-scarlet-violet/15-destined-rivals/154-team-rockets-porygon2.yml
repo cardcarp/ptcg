@@ -1,0 +1,41 @@
+name: Team Rocket's Porygon2
+
+origin: destined-rivals-154
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Team Rocket's Porygon
+
+dex: 233
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: R Command
+    text: This attack does 20 damage for each Supporter card that has "Team Rocket" in its name in your discard pile.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

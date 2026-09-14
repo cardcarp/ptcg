@@ -1,0 +1,35 @@
+name: Glimmet
+
+origin: surging-sparks-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 969
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Hurl
+    text: This attack's damage isn't affected by Resistance.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

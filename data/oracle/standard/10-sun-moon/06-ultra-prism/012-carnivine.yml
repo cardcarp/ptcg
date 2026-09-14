@@ -1,0 +1,44 @@
+name: Carnivine
+
+origin: ultra-prism-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 455
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Chomp Chomp
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Loom Over
+    text: This attack does 10 less damage for each damage counter on this Pokémon.
+    damage: 90
+    modifier: '-'
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

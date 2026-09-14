@@ -1,0 +1,41 @@
+name: Lapras
+
+origin: stellar-crown-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 131
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

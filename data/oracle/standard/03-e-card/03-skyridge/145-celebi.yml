@@ -1,0 +1,46 @@
+name: Celebi
+
+origin: skyridge-145
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 251
+
+rule:
+  - type: Ability
+    name: Crystal Type
+    text: Whenever you attach a Grass, Water, or Psychic basic Energy card from your hand to Celebi, Celebi's type (color) becomes the same as that type of Energy until the end of the turn.
+  - type: Attack
+    cost:
+      - Grass
+      - Water
+    name: Empathic Healing
+    text: Remove 2 damage counters from Celebi and each Pokémon that's the same type (color) as Celebi.
+  - type: Attack
+    cost:
+      - Grass
+      - Psychic
+      - Colorless
+    name: Mind Bend
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Palpitoad
+
+origin: plasma-freeze-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Tympole
+
+dex: 536
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Vibration
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Suspicious Soundwave
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,43 @@
+name: Eldegoss V
+
+origin: sword-shield-black-star-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 180
+
+dex: 830
+
+rule:
+  - type: Ability
+    name: Happy Match
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may put a Supporter card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Float Up
+    text: You may shuffle this Pokémon and all attached cards into your deck.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

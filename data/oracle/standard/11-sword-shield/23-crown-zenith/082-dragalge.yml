@@ -1,0 +1,43 @@
+name: Dragalge
+
+origin: crown-zenith-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Skrelp
+
+dex: 691
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Rocket Poison
+    text: Your opponent's Active Pokémon is now Poisoned. If this Pokémon evolved from Skrelp during this turn, put 8 damage counters on that Pokémon instead of 1 during Pokémon Checkup.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Razor Fin
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

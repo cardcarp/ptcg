@@ -1,0 +1,51 @@
+name: Oinkologne ex
+
+origin: scarlet-violet-158
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 260
+
+preevolution:
+  - Lechonk
+
+dex: 916
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Maddening Scent
+    text: This attack does 30 more damage for each of your opponent's Benched Pokémon.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Stomp
+    text: Flip a coin. If tails, during your next turn, this Pokémon can't attack.
+    damage: 210
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

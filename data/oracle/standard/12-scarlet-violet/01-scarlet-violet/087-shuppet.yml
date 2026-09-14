@@ -1,0 +1,40 @@
+name: Shuppet
+
+origin: scarlet-violet-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 353
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Enveloping Shadow
+    text: Flip a coin. If heads, during your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

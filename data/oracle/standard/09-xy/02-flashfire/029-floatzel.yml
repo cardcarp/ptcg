@@ -1,0 +1,44 @@
+name: Floatzel
+
+origin: flashfire-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Buizel
+
+dex: 419
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rescue
+    text: Shuffle 3 Pokémon from your discard pile into your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Screw Tail
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

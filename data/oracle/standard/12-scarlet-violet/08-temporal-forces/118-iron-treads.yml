@@ -1,0 +1,45 @@
+name: Iron Treads
+
+origin: temporal-forces-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Future
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 990
+
+rule:
+  - type: Ability
+    name: Dual Core
+    text: As long as this Pokémon has a Future Booster Energy Capsule attached, it is Fighting and Metal type.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Wheel Pass
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

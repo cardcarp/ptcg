@@ -1,0 +1,44 @@
+name: Weepinbell
+
+origin: triumphant-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Bellsprout
+
+dex: 70
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Poisonpowder
+    text: The Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Corrode Target
+    text: Flip a coin. If heads, look at your opponent's hand, choose 1 card, and discard it.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

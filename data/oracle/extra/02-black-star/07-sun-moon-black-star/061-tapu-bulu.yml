@@ -1,0 +1,45 @@
+name: Tapu Bulu
+
+origin: sun-moon-black-star-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 787
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Horn Leech
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Calm Strike
+    text: If you have used your GX attack, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

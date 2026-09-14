@@ -1,0 +1,47 @@
+name: Mawile
+
+origin: temporal-forces-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 303
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Invite and Strike
+    text: Switch in 1 of your opponent's Benched Pokémon to the Active Spot. This attack does 30 damage to the new Active Pokémon.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Sharp Fang
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

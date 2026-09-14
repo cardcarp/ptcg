@@ -1,0 +1,48 @@
+name: Darmanitan
+
+origin: boundaries-crossed-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Darumaka
+
+dex: 555
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Continuous Tumble
+    text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Damage Counterpunch
+    text: If this Pokémon has any damage counters on it, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,46 @@
+name: Chandelure-EX
+
+origin: legendary-treasures-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 609
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Cursed Drop
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Eerie Glow
+    text: The Defending Pokémon is now Burned and Confused.
+    damage: 70
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,40 @@
+name: Miraidon
+
+origin: scarlet-violet-black-star-148
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 1008
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electric Claws
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Mach Bolt
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

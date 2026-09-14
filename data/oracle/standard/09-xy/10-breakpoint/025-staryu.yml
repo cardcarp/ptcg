@@ -1,0 +1,32 @@
+name: Staryu
+
+origin: breakpoint-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 120
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Smack
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+errata: []

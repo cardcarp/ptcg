@@ -1,0 +1,40 @@
+name: Magnemite
+
+origin: paldea-evolved-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 81
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Magnetic Charge
+    text: Attach up to 2 Basic Lightning Energy cards from your discard pile to 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Speed Ball
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,49 @@
+name: Abomasnow
+
+origin: unified-minds-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Snover
+
+dex: 460
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Quick Freeze
+    text: If your opponent's Active Pokémon has any Water Energy attached to it, it is now Paralyzed.
+    damage: 70
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Wild Tackle
+    text: This Pokémon does 20 damage to itself.
+    damage: 140
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

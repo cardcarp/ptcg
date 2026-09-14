@@ -1,0 +1,50 @@
+name: Corvisquire
+
+origin: paldea-evolved-165
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Rookidee
+
+dex: 822
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Glide
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Clutch
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Raichu
+
+origin: firered-leafgreen-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Recharge
+    text: Search your deck for up to 2 Lightning Energy cards and attach them to Raichu. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder Reflection
+    text: You may move any number of Lightning Energy cards attached to Raichu to another of your Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

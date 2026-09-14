@@ -1,0 +1,42 @@
+name: Deoxys
+
+origin: chaos-rising-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 386
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psy Protection
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon that have an Ability.
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

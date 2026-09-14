@@ -1,0 +1,39 @@
+name: Crocalor
+
+origin: paradox-rift-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Fuecoco
+
+dex: 910
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Rolling Fireball
+    text: Put an Energy attached to this Pokémon into your hand.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

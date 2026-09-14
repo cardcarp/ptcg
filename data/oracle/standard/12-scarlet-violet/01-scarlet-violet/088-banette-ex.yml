@@ -1,0 +1,55 @@
+name: Banette ex
+
+origin: scarlet-violet-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 250
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Everlasting Darkness
+    text: During your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poltergeist
+    text: Your opponent reveals their hand. This attack does 60 damage for each Trainer card you find there.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

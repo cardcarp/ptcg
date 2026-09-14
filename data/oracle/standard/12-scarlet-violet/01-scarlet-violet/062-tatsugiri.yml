@@ -1,0 +1,40 @@
+name: Tatsugiri
+
+origin: scarlet-violet-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 978
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Mise en Place
+    text: Search your deck for up to 2 Basic Water Energy cards and attach them to 1 of your Basic Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+    name: Curl Up
+    text: Put this Pokémon and all attached cards into your hand.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

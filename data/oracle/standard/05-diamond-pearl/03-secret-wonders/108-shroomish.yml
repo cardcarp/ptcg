@@ -1,0 +1,46 @@
+name: Shroomish
+
+origin: secret-wonders-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 285
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Toxic Spore
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

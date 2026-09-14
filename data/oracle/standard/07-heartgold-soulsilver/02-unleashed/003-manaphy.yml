@@ -1,0 +1,37 @@
+name: Manaphy
+
+origin: unleashed-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 490
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Deep Sea Swirl
+    text: Shuffle your hand into your deck. Then, draw 5 cards.
+  - type: Attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

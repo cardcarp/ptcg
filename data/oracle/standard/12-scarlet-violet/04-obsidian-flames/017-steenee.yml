@@ -1,0 +1,43 @@
+name: Steenee
+
+origin: obsidian-flames-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Bounsweet
+
+dex: 762
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Aromatherapy
+    text: Heal 30 damage from each of your Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Razor Leaf
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

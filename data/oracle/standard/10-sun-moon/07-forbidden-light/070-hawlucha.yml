@@ -1,0 +1,48 @@
+name: Hawlucha
+
+origin: forbidden-light-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 701
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: High Jump Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sky Drop
+    text: This attack does 20 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 80
+    modifier: '-'
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

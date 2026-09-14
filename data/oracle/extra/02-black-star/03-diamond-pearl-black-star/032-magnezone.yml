@@ -1,0 +1,53 @@
+name: Magnezone
+
+origin: diamond-pearl-black-star-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Mirror Shot
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 40
+  - type: Attack
+    cost:
+      - Lightning
+      - Metal
+      - Colorless
+      - Colorless
+    name: Magnet Slash
+    text: Discard all Lightning Energy attached to Magnezone.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

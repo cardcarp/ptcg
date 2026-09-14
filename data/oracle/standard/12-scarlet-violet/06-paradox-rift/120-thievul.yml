@@ -1,0 +1,41 @@
+name: Thievul
+
+origin: paradox-rift-120
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Nickit
+
+dex: 828
+
+rule:
+  - type: Ability
+    name: Rob-'n'-Run
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may have your opponent reveal their hand, and then you choose 2 Energy cards you find there and shuffle them into your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

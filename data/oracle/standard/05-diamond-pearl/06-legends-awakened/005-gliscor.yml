@@ -1,0 +1,48 @@
+name: Gliscor
+
+origin: legends-awakened-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: Attack
+    name: Burning Poison
+    text: Choose either Burned or Poisoned. The Defending Pokémon is now affected by that Special Condition. You may return Gliscor and all cards attached to it to your hand.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Pester
+    text: If the Defending Pokémon is affected by a Special Condition, this attack does 40 damage plus 40 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

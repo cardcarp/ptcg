@@ -1,0 +1,39 @@
+name: Cinccino
+
+origin: black-bolt-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Minccino
+
+dex: 573
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Do the Wave
+    text: This attack does 20 more damage for each of your Benched Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

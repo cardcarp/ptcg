@@ -1,0 +1,43 @@
+name: Huntail
+
+origin: fusion-strike-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Fusion Strike
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Clamperl
+
+dex: 367
+
+rule:
+  - type: Ability
+    name: Single Strike Jammer
+    text: Your opponent's Single Strike Pokémon's attacks cost Colorless more.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Cavernous Chomp
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

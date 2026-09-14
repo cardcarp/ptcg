@@ -1,0 +1,39 @@
+name: Amaura
+
+origin: perfect-order-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Antique Sail Fossil
+
+dex: 698
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

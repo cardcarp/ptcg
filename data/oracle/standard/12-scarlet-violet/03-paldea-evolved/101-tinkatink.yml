@@ -1,0 +1,41 @@
+name: Tinkatink
+
+origin: paldea-evolved-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 957
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scrap Pickup
+    text: Put an Item card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Fairy Wind
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

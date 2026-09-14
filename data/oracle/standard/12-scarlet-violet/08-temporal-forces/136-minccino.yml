@@ -1,0 +1,40 @@
+name: Minccino
+
+origin: temporal-forces-136
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 572
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Beat
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cleaning Up
+    text: Discard up to 2 Pokémon Tools from your opponent's Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Deoxys ex
+
+origin: deoxys-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 386
+
+rule:
+  - type: Ability
+    name: Form Change
+    text: Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poké-Power each turn.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Energy Burst
+    text: Does 10 damage plus 10 more damage for each Energy attached to Deoxys ex and the Defending Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

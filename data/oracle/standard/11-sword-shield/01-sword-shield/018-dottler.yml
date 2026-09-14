@@ -1,0 +1,43 @@
+name: Dottler
+
+origin: sword-shield-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Blipbug
+
+dex: 825
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Reflect
+    text: During your opponent's next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

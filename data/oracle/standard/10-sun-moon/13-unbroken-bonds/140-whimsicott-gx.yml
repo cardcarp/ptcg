@@ -1,0 +1,56 @@
+name: Whimsicott-GX
+
+origin: unbroken-bonds-140
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Fairy
+
+hp: 190
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: Ability
+    name: Fluffy Cotton
+    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+  - type: Attack
+    cost:
+      - Fairy
+    name: Energy Blow
+    text: This attack does 30 more damage times the amount of Energy attached to this Pokémon.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Fairy
+    name: Toy Box-GX
+    text: Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

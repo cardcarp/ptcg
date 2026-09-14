@@ -1,0 +1,35 @@
+name: Mawile
+
+origin: fusion-strike-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 303
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Chomp Chomp Hold
+    text: During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

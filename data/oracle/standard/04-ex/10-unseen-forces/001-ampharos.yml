@@ -1,0 +1,48 @@
+name: Ampharos
+
+origin: unseen-forces-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: Ability
+    name: Energy Connect
+    text: As often as you like during your turn (before your attack), you may move a basic Energy card attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Ampharos is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Miraculous Thunder
+    text: You may discard all Lightning Energy attached to Ampharos. If you do, the Defending Pokémon is now Burned and Confused.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

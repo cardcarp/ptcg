@@ -1,0 +1,53 @@
+name: Farigiraf
+
+origin: twilight-masquerade-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Girafarig
+
+dex: 981
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: One-derful Rumble
+    text: This attack does 40 damage for each of your Stage 1 Pokémon in play.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Eerie Wave
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 80
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

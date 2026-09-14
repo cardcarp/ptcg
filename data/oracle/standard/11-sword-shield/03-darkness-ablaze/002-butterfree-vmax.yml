@@ -1,0 +1,41 @@
+name: Butterfree VMAX
+
+origin: darkness-ablaze-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Grass
+
+hp: 300
+
+preevolution:
+  - Butterfree V
+
+dex: 12
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: G-Max Toxbreeze
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+    damage: 150
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

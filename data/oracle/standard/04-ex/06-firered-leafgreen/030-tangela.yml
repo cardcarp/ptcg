@@ -1,0 +1,44 @@
+name: Tangela
+
+origin: firered-leafgreen-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 114
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Vine Tease
+    text: Look at your Prize cards without showing your opponent. Choose 1 of the Prize cards and switch it with the top card of your deck without looking at the top card of your deck. If you have no cards in your deck, this attack does nothing.
+  - type: Attack
+    cost:
+      - Grass
+    name: Wiggle
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

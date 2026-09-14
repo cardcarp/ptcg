@@ -1,0 +1,50 @@
+name: Heatran-GX
+
+origin: unified-minds-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Fire
+
+hp: 190
+
+dex: 485
+
+rule:
+  - type: Ability
+    name: Burning Road
+    text: Once during your turn, when this Pokémon moves from your Bench to become your Active Pokémon, you may move any number of Fire Energy from your other Pokémon to it.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Steaming Stomp
+    damage: 130
+  - type: Attack
+    cost:
+      - Fire
+    name: Hot Burn-GX
+    text: This attack does 50 damage times the amount of Fire Energy attached to this Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,43 @@
+name: Gabite
+
+origin: unified-minds-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Gible
+
+dex: 444
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Corkscrew Punch
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Sharp Scythe
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

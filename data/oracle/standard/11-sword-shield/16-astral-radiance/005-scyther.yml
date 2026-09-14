@@ -1,0 +1,37 @@
+name: Scyther
+
+origin: astral-radiance-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 123
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Blow
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

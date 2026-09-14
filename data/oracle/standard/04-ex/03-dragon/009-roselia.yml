@@ -1,0 +1,43 @@
+name: Roselia
+
+origin: dragon-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 315
+
+rule:
+  - type: Ability
+    name: Thick Skin
+    text: Roselia can't be affected by any Special Conditions.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Speed Growth
+    text: Attach up to 2 Grass Energy cards from your hand to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Grass
+    name: Sleep Powder
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

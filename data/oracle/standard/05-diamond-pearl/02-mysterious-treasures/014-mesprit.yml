@@ -1,0 +1,39 @@
+name: Mesprit
+
+origin: mysterious-treasures-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 481
+
+rule:
+  - type: Ability
+    name: Upper Material
+    text: If you have Uxie and Azelf in play, the Retreat Cost for each Uxie, Mesprit, and Azelf (both yours and your opponent's) is 0.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Teleportation Burst
+    text: You may switch Mesprit with 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

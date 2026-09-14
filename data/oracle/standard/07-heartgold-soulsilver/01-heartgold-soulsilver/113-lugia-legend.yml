@@ -1,0 +1,48 @@
+name: Lugia LEGEND
+
+origin: heartgold-soulsilver-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - LEGEND
+
+type:
+  - Water
+
+hp: 130
+
+dex: 249
+
+rule:
+  - type: Ability
+    name: Ocean Grow
+    text: Once during your turn, when you put Lugia LEGEND into play, you may look at the top 5 cards of your deck and attach all Energy cards you find there to Lugia LEGEND. Discard the other cards.
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Lightning
+    name: Elemental Blast
+    text: Discard a Fire Energy, Water Energy, and Lightning Energy attached to Lugia LEGEND.
+    damage: 200
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - Put this card from your hand onto your Bench only with the other half of Lugia LEGEND.
+
+errata: []

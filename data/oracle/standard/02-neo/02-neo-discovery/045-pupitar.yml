@@ -1,0 +1,49 @@
+name: Pupitar
+
+origin: neo-discovery-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Skull Bash
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Dust Devil
+    text: Does 10 damage to each non-Fighting Pokémon in play. Don't apply Weakness and Resistance.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

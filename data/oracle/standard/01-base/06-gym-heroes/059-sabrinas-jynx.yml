@@ -1,0 +1,42 @@
+name: Sabrina's Jynx
+
+origin: gym-heroes-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 124
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Good Night
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Good Morning
+    text: If the Defending Pokémon was Asleep, it is no longer Asleep.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,53 @@
+name: Golurk
+
+origin: darkness-ablaze-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Golett
+
+dex: 623
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Dynamic Chop
+    damage: 80
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Golurk Hammer
+    damage: 180
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

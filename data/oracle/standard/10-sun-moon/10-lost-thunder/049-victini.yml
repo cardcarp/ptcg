@@ -1,0 +1,37 @@
+name: Victini
+
+origin: lost-thunder-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 494
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: V-Beatdown
+    text: This attack does 20 damage for each of your Basic Pokémon in play.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

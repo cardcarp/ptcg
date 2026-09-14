@@ -1,0 +1,44 @@
+name: Celebi ◇
+
+origin: lost-thunder-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Prism Star
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 251
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Time Distortion
+    text: Devolve any number of your Benched Pokémon as many times as you like. Put each Evolution card removed this way into your hand.
+  - type: Attack
+    cost:
+      - Grass
+    name: Leech Seed
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+errata: []

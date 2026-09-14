@@ -1,0 +1,53 @@
+name: Kingler δ
+
+origin: crystal-guardians-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Fire
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Krabby
+
+dex: 99
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Prop-up Pinchers
+    text: If Kingler has a Pokémon Tool card attached to it, this attack does 40 damage plus 40 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - This Pokémon is both Fire Metal type.
+
+errata: []

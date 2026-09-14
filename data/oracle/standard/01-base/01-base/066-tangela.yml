@@ -1,0 +1,44 @@
+name: Tangela
+
+origin: base-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 114
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Bind
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Poisonpowder
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

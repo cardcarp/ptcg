@@ -1,0 +1,45 @@
+name: Shiftry
+
+origin: sandstorm-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: Ability
+    name: Fan Away
+    text: Once during your turn (before your attack), you may flip a coin. If heads, return 1 Energy card attached to the Defending Pokémon to your opponent's hand. This power can't be used if Shiftry is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Light Touch Throw
+    text: Does 80 damage minus 10 damage for each Energy attached to the Defending Pokémon.
+    damage: 80
+    modifier: '-'
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

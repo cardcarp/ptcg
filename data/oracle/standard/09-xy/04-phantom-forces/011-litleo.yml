@@ -1,0 +1,40 @@
+name: Litleo
+
+origin: phantom-forces-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 667
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Live Coal
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,44 @@
+name: Calyrex
+
+origin: crown-zenith-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 898
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: King's Instructions
+    text: You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Bloomshine
+    text: Heal 20 damage from each of your Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

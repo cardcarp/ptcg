@@ -1,0 +1,52 @@
+name: Togekiss
+
+origin: roaring-skies-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fairy
+
+hp: 140
+
+preevolution:
+  - Togetic
+
+dex: 468
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Powerful Slap
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Aura Sphere
+    text: This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

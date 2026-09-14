@@ -1,0 +1,46 @@
+name: Bewear
+
+origin: sun-moon-black-star-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Stufful
+
+dex: 760
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mix-Up
+    text: Flip a coin. If heads, discard the top 3 cards of your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tantrum
+    text: This Pokémon is now Confused.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

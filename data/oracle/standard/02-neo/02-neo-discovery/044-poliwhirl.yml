@@ -1,0 +1,46 @@
+name: Poliwhirl
+
+origin: neo-discovery-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Poliwag
+
+dex: 61
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Belly Drum
+    text: Put 3 damage counters on Poliwhirl. If this doesn't Knock Out Poliwhirl, search your deck for 2 Basic Energy cards and attach them to Poliwhirl. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Water Gun
+    text: Does 30 damage plus 10 more damage for each Water Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

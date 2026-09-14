@@ -1,0 +1,46 @@
+name: Garbodor
+
+origin: plasma-storm-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Biosmog
+    text: The Defending Pokémon is now Poisoned. Flip a coin. If heads, discard an Energy attached to that Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Sludge Bomb
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,46 @@
+name: Quagsire
+
+origin: scarlet-violet-black-star-156
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Wooper
+
+dex: 195
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Rollout
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Drenched Headbutt
+    text: Discard the top 3 cards of your deck. This attack does 80 damage for each Energy card you discarded in this way.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

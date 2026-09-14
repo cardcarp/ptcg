@@ -1,0 +1,43 @@
+name: Metapod
+
+origin: burning-shadows-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Caterpie
+
+dex: 11
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Ram
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Shed Skin
+    text: Heal 40 damage from this Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Exeggutor
+
+origin: firered-leafgreen-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Psychic Exchange
+    text: Shuffle your hand into your deck. Draw up to 8 cards.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Big Eggsplosion
+    text: Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

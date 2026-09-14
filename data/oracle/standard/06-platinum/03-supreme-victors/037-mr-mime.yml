@@ -1,0 +1,35 @@
+name: Mr. Mime
+
+origin: supreme-victors-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 122
+
+rule:
+  - type: Ability
+    name: Focus Wall
+    text: If Mr. Mime would be Knocked Out by damage from an attack that does 70 or more damage (after applying Weakness and Resistance), Mr. Mime is not Knocked Out and its remaining HP becomes 10 instead.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Desperate Slap
+    text: If Mr. Mime already has 5 or more damage counters on it, this attack does 20 damage plus 40 more damage.
+    damage: 20
+    modifier: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Porygon
+
+origin: ancient-origins-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 137
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Data Check
+    text: Look through your deck. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sharpen
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

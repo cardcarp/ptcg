@@ -1,0 +1,40 @@
+name: Whirlipede
+
+origin: xy-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Venipede
+
+dex: 544
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Continuous Tumble
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

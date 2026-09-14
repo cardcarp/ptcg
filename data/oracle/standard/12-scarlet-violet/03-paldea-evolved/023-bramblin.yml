@@ -1,0 +1,35 @@
+name: Bramblin
+
+origin: paldea-evolved-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 946
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Blot
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

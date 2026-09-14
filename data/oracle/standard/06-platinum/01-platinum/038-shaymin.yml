@@ -1,0 +1,47 @@
+name: Shaymin
+
+origin: platinum-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 492
+
+rule:
+  - type: Attack
+    name: Energy Blow
+    text: Does 10 damage plus 10 more damage for each Energy attached to Shaymin.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Aromatherapy
+    text: Remove 2 damage counters from each of your Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

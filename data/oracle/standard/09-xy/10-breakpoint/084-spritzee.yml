@@ -1,0 +1,39 @@
+name: Spritzee
+
+origin: breakpoint-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 50
+
+dex: 682
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Beat
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

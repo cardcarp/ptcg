@@ -1,0 +1,47 @@
+name: Klefki
+
+origin: roaring-skies-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 707
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Look for Keys
+    text: Reveal cards from the top of your deck until you reveal an Item card. Put it into your hand. Shuffle the other cards back into your deck.
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Play Rough
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

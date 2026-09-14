@@ -1,0 +1,45 @@
+name: Purugly
+
+origin: battle-styles-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Glameow
+
+dex: 432
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Caturday
+    text: Draw 3 cards. If you do, this Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

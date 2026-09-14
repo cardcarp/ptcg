@@ -1,0 +1,46 @@
+name: Black Kyurem
+
+origin: black-white-black-star-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 646
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Dual Claw
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Flash Freeze
+    text: Discard an Energy attached to this Pokémon.
+    damage: 100
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

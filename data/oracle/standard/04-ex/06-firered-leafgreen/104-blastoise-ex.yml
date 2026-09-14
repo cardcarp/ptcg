@@ -1,0 +1,48 @@
+name: Blastoise ex
+
+origin: firered-leafgreen-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Wartortle
+
+dex: 9
+
+rule:
+  - type: Ability
+    name: Energy Rain
+    text: As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon. Put 1 damage counter on that Pokémon. This power can't be used if Blastoise ex is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Hyper Whirlpool
+    text: Flip a coin until you get tails. For each heads, your opponent discards an Energy card attached to the Defending Pokémon.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

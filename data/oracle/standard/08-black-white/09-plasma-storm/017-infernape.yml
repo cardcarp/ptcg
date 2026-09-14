@@ -1,0 +1,44 @@
+name: Infernape
+
+origin: plasma-storm-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Team Plasma
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Monferno
+
+dex: 392
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Torment
+    text: Choose 1 of the Defending Pokémon's attack. That Pokémon can't use that attack during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Malevolent Fire
+    text: Discard all Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,39 @@
+name: Mareep
+
+origin: dragon-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 179
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Jolt
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

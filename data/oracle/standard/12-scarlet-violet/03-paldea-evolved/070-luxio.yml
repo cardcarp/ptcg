@@ -1,0 +1,44 @@
+name: Luxio
+
+origin: paldea-evolved-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Zap Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Head Bolt
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

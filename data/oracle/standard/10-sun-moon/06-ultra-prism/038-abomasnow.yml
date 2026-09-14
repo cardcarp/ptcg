@@ -1,0 +1,44 @@
+name: Abomasnow
+
+origin: ultra-prism-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Snover
+
+dex: 460
+
+rule:
+  - type: Ability
+    name: Blessings of the Frost
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach a Water Energy card from your discard pile to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hypno Hammer
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

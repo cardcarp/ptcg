@@ -1,0 +1,55 @@
+name: Kyogre & Groudon LEGEND
+
+origin: undaunted-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - LEGEND
+
+type:
+  - Water
+  - Fighting
+
+hp: 150
+
+dex: 382
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Mega Tidal Wave
+    text: Discard the top 5 cards from your opponent's deck. This attack does 30 damage times the number of Energy cards you discarded to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Massive Eruption
+    text: Discard the top 5 cards from your deck. This attack does 100 damage times the number of Energy cards you discarded.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - Put this card from your hand onto your Bench only with the other half of Kyogre & Groudon LEGEND.
+  - When this Pokémon has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

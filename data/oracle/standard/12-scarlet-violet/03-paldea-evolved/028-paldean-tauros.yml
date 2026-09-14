@@ -1,0 +1,45 @@
+name: Paldean Tauros
+
+origin: paldea-evolved-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 128
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Raging Horns
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Blaze Dash
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

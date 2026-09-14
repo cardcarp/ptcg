@@ -1,0 +1,45 @@
+name: Iron Valiant ex
+
+origin: scarlet-violet-black-star-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+  - Future
+
+type:
+  - Psychic
+
+hp: 220
+
+dex: 1006
+
+rule:
+  - type: Ability
+    name: Tachyon Bits
+    text: Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may put 2 damage counters on 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Laser Blade
+    text: During your next turn, this Pokémon can't attack.
+    damage: 200
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

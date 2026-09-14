@@ -1,0 +1,39 @@
+name: Fennekin
+
+origin: silver-tempest-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 653
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Lead
+    text: Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

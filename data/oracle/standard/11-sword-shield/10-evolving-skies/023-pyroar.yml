@@ -1,0 +1,44 @@
+name: Pyroar
+
+origin: evolving-skies-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Litleo
+
+dex: 668
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Combustion
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Rip Claw
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

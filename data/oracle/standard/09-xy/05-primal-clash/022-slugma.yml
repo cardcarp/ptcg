@@ -1,0 +1,41 @@
+name: Slugma
+
+origin: primal-clash-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 218
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Grass Fire
+    text: Discard a Grass Energy attached to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

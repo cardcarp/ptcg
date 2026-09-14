@@ -1,0 +1,45 @@
+name: Lickilicky
+
+origin: unified-minds-162
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Lickitung
+
+dex: 463
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Licks Go Crazy
+    text: Discard a random card from your opponent's hand, discard the top card of your opponent's deck, and discard an Energy from your opponent's Active Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

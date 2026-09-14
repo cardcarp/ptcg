@@ -1,0 +1,49 @@
+name: Hypno
+
+origin: evolving-skies-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hypnosis
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Wake-Up Slap
+    text: If your opponent's Active Pokémon is affected by a Special Condition, this attack does 90 more damage. Then, that Pokémon recovers from all Special Conditions.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

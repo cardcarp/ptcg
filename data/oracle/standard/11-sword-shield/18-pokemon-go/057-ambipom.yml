@@ -1,0 +1,42 @@
+name: Ambipom
+
+origin: pokemon-go-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Aipom
+
+dex: 424
+
+rule:
+  - type: Ability
+    name: Primate Dexterity
+    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Full Tilt Fling
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage for each heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

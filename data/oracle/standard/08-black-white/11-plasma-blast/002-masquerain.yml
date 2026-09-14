@@ -1,0 +1,43 @@
+name: Masquerain
+
+origin: plasma-blast-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Surskit
+
+dex: 284
+
+rule:
+  - type: Ability
+    name: Tool Reversal
+    text: As often as you like during your turn (before your attack), you may put a Pokémon Tool card attached to 1 of your Pokémon into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bug Bite
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

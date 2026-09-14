@@ -1,0 +1,44 @@
+name: Treecko
+
+origin: stormfront-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 252
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Friends
+    text: Search your deck for a Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Breath
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

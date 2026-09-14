@@ -1,0 +1,44 @@
+name: Team Aqua's Muk
+
+origin: double-crisis-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Team Aqua's Grimer
+
+dex: 89
+
+rule:
+  - type: Ability
+    name: Sludge Festival
+    text: The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is Colorless more.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Pester
+    text: If your opponent's Active Pokémon is affected by a Special Condition, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

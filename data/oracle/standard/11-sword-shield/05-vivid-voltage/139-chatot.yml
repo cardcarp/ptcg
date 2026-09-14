@@ -1,0 +1,44 @@
+name: Chatot
+
+origin: vivid-voltage-139
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 441
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Minor Errand-Running
+    text: Search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

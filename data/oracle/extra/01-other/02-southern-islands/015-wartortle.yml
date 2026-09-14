@@ -1,0 +1,40 @@
+name: Wartortle
+
+origin: southern-islands-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 60
+
+preevolution:
+  - Squirtle
+
+dex: 8
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Water Gun
+    text: Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

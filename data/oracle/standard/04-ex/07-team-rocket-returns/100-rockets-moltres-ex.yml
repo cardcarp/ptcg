@@ -1,0 +1,50 @@
+name: Rocket's Moltres ex
+
+origin: team-rocket-returns-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 100
+
+dex: 146
+
+rule:
+  - type: Ability
+    name: Dark Lift
+    text: If Rocket's Moltres ex has any Darkness Energy attached to it, the Retreat Cost for Rocket's Moltres ex is 0.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fire Dance
+    text: Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

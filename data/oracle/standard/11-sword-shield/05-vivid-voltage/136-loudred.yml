@@ -1,0 +1,47 @@
+name: Loudred
+
+origin: vivid-voltage-136
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Whismur
+
+dex: 294
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Round
+    text: This attack does 20 damage for each of your Pokémon in play that has the Round attack.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

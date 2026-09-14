@@ -1,0 +1,53 @@
+name: Braviary
+
+origin: breakthrough-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Rufflet
+
+dex: 628
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Wing Attack
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dual Cut
+    text: Flip 2 coins. This attack does 80 damage times the number of heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

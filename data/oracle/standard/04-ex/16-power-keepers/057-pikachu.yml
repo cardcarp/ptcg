@@ -1,0 +1,42 @@
+name: Pikachu
+
+origin: power-keepers-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Charge
+    text: Search your discard pile for a Lightning Energy card and attach it to Pikachu.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,51 @@
+name: Excadrill ex
+
+origin: black-bolt-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Fighting
+
+hp: 270
+
+preevolution:
+  - Drilbur
+
+dex: 530
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Piercing Drill
+    text: This attack also does 60 damage to 1 of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 60
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Rock Tumble
+    text: This attack's damage isn't affected by Resistance.
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

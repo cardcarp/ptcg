@@ -1,0 +1,44 @@
+name: Keldeo
+
+origin: boundaries-crossed-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 647
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hydro Kick
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Spearow
+
+origin: roaring-skies-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 21
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Peck
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

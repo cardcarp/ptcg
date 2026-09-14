@@ -1,0 +1,39 @@
+name: Woobat
+
+origin: black-white-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 527
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gust
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

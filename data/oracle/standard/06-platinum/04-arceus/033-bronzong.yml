@@ -1,0 +1,50 @@
+name: Bronzong
+
+origin: arceus-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Wide Laser
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

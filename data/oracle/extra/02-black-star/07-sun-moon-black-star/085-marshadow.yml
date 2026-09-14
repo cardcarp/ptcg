@@ -1,0 +1,44 @@
+name: Marshadow
+
+origin: sun-moon-black-star-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 802
+
+rule:
+  - type: Ability
+    name: Let Loose
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may have each player shuffle their hand into their deck and draw 4 cards.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Shadow Punch
+    text: This attack's damage isn't affected by Resistance.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

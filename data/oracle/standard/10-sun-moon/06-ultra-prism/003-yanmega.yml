@@ -1,0 +1,51 @@
+name: Yanmega
+
+origin: ultra-prism-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Yanma
+
+dex: 469
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Supersonic
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Cutting Wind
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

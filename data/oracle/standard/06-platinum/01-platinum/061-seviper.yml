@@ -1,0 +1,46 @@
+name: Seviper
+
+origin: platinum-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 336
+
+rule:
+  - type: Attack
+    name: Shed Skin
+    text: Remove 4 damage counters from Seviper.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Bite and Escape
+    text: You may switch Seviper with 1 of your Benched Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Paralyze Poison
+    text: The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

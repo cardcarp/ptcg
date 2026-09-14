@@ -1,0 +1,50 @@
+name: Kyogre ex
+
+origin: scarlet-violet-black-star-178
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 230
+
+dex: 382
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Winding Waves
+    text: You may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    damage: 80
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Tidal Surge
+    text: Discard 2 Energy from this Pokémon.
+    damage: 230
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

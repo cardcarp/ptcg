@@ -1,0 +1,48 @@
+name: Tapu Fini
+
+origin: lost-thunder-151
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 120
+
+dex: 788
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Dream Away
+    text: Flip a coin. If heads, your opponent shuffles their Active Pokémon and all cards attached to it into their deck.
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Wonder Shine
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

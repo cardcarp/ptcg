@@ -1,0 +1,43 @@
+name: Gyarados
+
+origin: dragon-majesty-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Ability
+    name: Commotion
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on each of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Wild Tail
+    text: You may discard any Stadium card in play.
+    damage: 160
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

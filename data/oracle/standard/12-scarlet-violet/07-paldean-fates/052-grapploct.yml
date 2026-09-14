@@ -1,0 +1,45 @@
+name: Grapploct
+
+origin: paldean-fates-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Clobbopus
+
+dex: 853
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Slow-Acting Syncope
+    text: At the end of your opponent's next turn, the Defending Pokémon will be Knocked Out.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Mach Cross
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

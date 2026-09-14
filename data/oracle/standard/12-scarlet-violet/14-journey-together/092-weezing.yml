@@ -1,0 +1,43 @@
+name: Weezing
+
+origin: journey-together-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+dex: 110
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Pervasive Gas
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Crazy Blast
+    text: If this Pokémon used Pervasive Gas during your last turn, this attack does 120 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,50 @@
+name: Copperajah
+
+origin: darkness-ablaze-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 190
+
+preevolution:
+  - Cufant
+
+dex: 879
+
+rule:
+  - type: Ability
+    name: Antibacterial Skin
+    text: This Pokémon can't be affected by any Special Conditions.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Vengeful Stomp
+    text: If your Benched Pokémon have any damage counters on them, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

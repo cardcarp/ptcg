@@ -1,0 +1,43 @@
+name: Swampert
+
+origin: crystal-guardians-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Marshtomp
+
+dex: 260
+
+rule:
+  - type: Ability
+    name: Echo Draw
+    text: Once during your turn (before your attack), you may draw a card. This power can't be used if Swampert is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Hurl
+    text: This attack's damage isn't affected by Resistance.
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

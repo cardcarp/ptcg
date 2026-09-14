@@ -1,0 +1,64 @@
+name: Zekrom-GX
+
+origin: sun-moon-black-star-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Lightning
+
+hp: 180
+
+dex: 644
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bullet Uppercut
+    text: If your opponent's Active Pokémon is a Pokémon-GX or a Pokémon-EX, this attack does 60 more damage. This attack's damage isn't affected by Weakness.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Swift Bolt Strike
+    text: Flip 2 coins. This attack does 60 more damage for each heads.
+    damage: 80
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Rampage Bolt-GX
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

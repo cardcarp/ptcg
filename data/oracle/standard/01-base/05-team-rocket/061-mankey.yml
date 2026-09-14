@@ -1,0 +1,40 @@
+name: Mankey
+
+origin: team-rocket-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 56
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mischief
+    text: Shuffle your opponent's deck.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Anger
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+errata: []

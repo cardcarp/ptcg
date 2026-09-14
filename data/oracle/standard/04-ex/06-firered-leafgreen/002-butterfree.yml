@@ -1,0 +1,52 @@
+name: Butterfree
+
+origin: firered-leafgreen-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Metapod
+
+dex: 12
+
+rule:
+  - type: Ability
+    name: Sooth Dust
+    text: As long as Butterfree is your Active Pokémon, remove 1 damage counter from each of your Pokémon between turns.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Whirlwind
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

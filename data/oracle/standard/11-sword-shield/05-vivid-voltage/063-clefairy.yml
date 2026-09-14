@@ -1,0 +1,40 @@
+name: Clefairy
+
+origin: vivid-voltage-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 35
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Pound
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mini-Metronome
+    text: Flip a coin. If heads, choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

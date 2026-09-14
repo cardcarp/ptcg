@@ -1,0 +1,44 @@
+name: Regice
+
+origin: ancient-origins-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 378
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Beam
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Resistance Blizzard
+    text: During your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

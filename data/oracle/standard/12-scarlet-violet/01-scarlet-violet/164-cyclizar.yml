@@ -1,0 +1,41 @@
+name: Cyclizar
+
+origin: scarlet-violet-164
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 967
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Touring
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Speed Attack
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 0
+
+errata: []

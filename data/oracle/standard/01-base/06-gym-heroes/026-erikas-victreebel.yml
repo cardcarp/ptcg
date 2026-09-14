@@ -1,0 +1,42 @@
+name: Erika's Victreebel
+
+origin: gym-heroes-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Erika's Weepinbell
+
+dex: 71
+
+rule:
+  - type: Ability
+    name: Fragrance Trap
+    text: Once during your turn (before your attack), you may flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon. This power can't be used if Erika's Victreebel is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Razor Leaf
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

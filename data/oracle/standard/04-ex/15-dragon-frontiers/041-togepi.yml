@@ -1,0 +1,35 @@
+name: Togepi δ
+
+origin: dragon-frontiers-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Water
+
+hp: 40
+
+dex: 175
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Charm
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

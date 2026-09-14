@@ -1,0 +1,41 @@
+name: Glameow
+
+origin: majestic-dawn-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 431
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rip Claw
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

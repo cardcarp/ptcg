@@ -1,0 +1,44 @@
+name: Mienshao
+
+origin: noble-victories-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Mienfoo
+
+dex: 620
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Feint
+    text: This attack's damage isn't affected by Resistance.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: High Jump Kick
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,39 @@
+name: Taillow
+
+origin: dragon-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 276
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Whirlwind
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

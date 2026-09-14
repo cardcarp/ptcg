@@ -1,0 +1,39 @@
+name: Shuppet
+
+origin: roaring-skies-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 353
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Bleh
+    text: Discard a Special Energy attached to 1 of your opponent's Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

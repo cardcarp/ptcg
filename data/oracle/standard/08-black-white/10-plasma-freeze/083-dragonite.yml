@@ -1,0 +1,49 @@
+name: Dragonite
+
+origin: plasma-freeze-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Deafen
+    text: Your opponent can't play any Item cards from his or her hand during his or her next turn.
+    damage: 60
+  - type: Attack
+    cost:
+      - Grass
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Healwing
+    text: Heal 30 damage from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

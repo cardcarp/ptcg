@@ -1,0 +1,46 @@
+name: Beedrill
+
+origin: great-encounters-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Kakuna
+
+dex: 15
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Band Attack
+    text: Does 30 damage times the number of Beedrill you have in play.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Twineedle
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+errata: []

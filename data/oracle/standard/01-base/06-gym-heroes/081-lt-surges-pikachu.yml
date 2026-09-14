@@ -1,0 +1,41 @@
+name: Lt. Surge's Pikachu
+
+origin: gym-heroes-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Charge
+    text: Take 1 Lightning Energy card from your discard pile and attach it to Lt. Surge's Pikachu.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Lightning Tail
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

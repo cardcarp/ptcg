@@ -1,0 +1,46 @@
+name: Golduck
+
+origin: fossil-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Psyduck
+
+dex: 55
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hyper Beam
+    text: If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Slowbro
+
+origin: pokemon-go-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tumbling Tackle
+    text: Both Active Pokémon are now Asleep.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Twilight Inspiration
+    text: You can use this attack only if your opponent has exactly 1 Prize card remaining. Take 2 Prize cards.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

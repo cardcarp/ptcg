@@ -1,0 +1,48 @@
+name: Vikavolt V
+
+origin: darkness-ablaze-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 210
+
+dex: 738
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Paralyzing Bolt
+    text: During your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 50
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Super Zap Cannon
+    text: Discard 2 Energy from this Pokémon.
+    damage: 190
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

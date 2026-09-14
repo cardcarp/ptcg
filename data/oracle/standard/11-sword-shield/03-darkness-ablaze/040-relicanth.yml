@@ -1,0 +1,40 @@
+name: Relicanth
+
+origin: darkness-ablaze-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 369
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fossil Search
+    text: Search your deck for up to 2 Rare Fossil cards and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Surf
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

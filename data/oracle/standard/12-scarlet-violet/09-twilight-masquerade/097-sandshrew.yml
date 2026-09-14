@@ -1,0 +1,42 @@
+name: Sandshrew
+
+origin: twilight-masquerade-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 27
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

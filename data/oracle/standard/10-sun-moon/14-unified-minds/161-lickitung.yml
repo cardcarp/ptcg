@@ -1,0 +1,41 @@
+name: Lickitung
+
+origin: unified-minds-161
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 108
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Heavy Draw
+    text: Draw a card for each of your Pokémon in play that has a Retreat Cost of exactly 4.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tongue Slap
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

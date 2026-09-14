@@ -1,0 +1,40 @@
+name: Gastly
+
+origin: paldean-fates-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 92
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Allure
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Will-O-Wisp
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

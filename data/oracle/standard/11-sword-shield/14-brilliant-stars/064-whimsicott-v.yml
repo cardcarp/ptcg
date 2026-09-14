@@ -1,0 +1,47 @@
+name: Whimsicott V
+
+origin: brilliant-stars-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 190
+
+dex: 547
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Fluff Gets in the Way
+    text: If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Cotton Guard
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

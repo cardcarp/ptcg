@@ -1,0 +1,40 @@
+name: Sawk
+
+origin: white-flare-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 539
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Elbow Strike
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rising Chop
+    text: If your opponent's Active Pokémon isn't a Pokémon ex, this attack does nothing. This attack's damage isn't affected by Weakness or Resistance.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

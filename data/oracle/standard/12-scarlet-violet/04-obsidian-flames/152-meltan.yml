@@ -1,0 +1,39 @@
+name: Meltan
+
+origin: obsidian-flames-152
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 808
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Melt
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

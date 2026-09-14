@@ -1,0 +1,38 @@
+name: Skitty
+
+origin: platinum-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 300
+
+rule:
+  - type: Attack
+    name: Heal Bell
+    text: Remove 1 damage counter from each of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Take Down
+    text: Skitty does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

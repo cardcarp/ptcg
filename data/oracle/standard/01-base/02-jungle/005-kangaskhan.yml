@@ -1,0 +1,49 @@
+name: Kangaskhan
+
+origin: jungle-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 115
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fetch
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Comet Punch
+    text: Flip 4 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,40 @@
+name: Squirtle
+
+origin: 151-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 7
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Withdraw
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Skull Bash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

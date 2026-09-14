@@ -1,0 +1,40 @@
+name: Venonat
+
+origin: unbroken-bonds-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 48
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Radar Eyes
+    text: Look at the top 7 cards of your deck and put 1 of them into your hand. Shuffle the other cards back into your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flop
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

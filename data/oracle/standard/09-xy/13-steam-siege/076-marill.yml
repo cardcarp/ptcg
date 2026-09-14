@@ -1,0 +1,40 @@
+name: Marill
+
+origin: steam-siege-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 183
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Bubble Drain
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

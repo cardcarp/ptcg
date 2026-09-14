@@ -1,0 +1,45 @@
+name: Raticate
+
+origin: perfect-order-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scrape Off
+    text: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+    name: Retaliatory Incisors
+    text: This attack does 40 damage for each damage counter on all of your Benched Rattata.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

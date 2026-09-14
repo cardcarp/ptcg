@@ -1,0 +1,44 @@
+name: Lickitung
+
+origin: ultra-prism-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 108
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lap Up
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 50 damage for each heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

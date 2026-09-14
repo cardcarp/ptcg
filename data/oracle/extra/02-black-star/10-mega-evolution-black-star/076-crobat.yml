@@ -1,0 +1,46 @@
+name: Crobat
+
+origin: mega-evolution-black-star-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Golbat
+
+dex: 169
+
+rule:
+  - type: Ability
+    name: Nighttime Maneuvers
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Search your deck for a card. Shuffle your deck, then put that card on top of it.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Poison Sound Wave
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Seaking
+
+origin: 151-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Swim Freely
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Aqua Horn
+    text: This attack does 30 more damage for each Water Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

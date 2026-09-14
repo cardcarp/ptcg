@@ -1,0 +1,49 @@
+name: Beartic
+
+origin: plasma-storm-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Cubchoo
+
+dex: 614
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Powerful Rage
+    text: Does 20 damage times the number of damage counters on this Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Glacier Drop
+    text: Discard the top card of your opponent's deck.
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

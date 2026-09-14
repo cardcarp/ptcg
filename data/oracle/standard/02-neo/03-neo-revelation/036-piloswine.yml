@@ -1,0 +1,52 @@
+name: Piloswine
+
+origin: neo-revelation-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Swinub
+
+dex: 221
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Nap
+    text: Remove 3 damage counters from Piloswine. If it has fewer damage counters than that, remove all of them.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: High-Speed Charge
+    text: Piloswine does 30 damage to itself. Piloswine can't use this attack during your next turn.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

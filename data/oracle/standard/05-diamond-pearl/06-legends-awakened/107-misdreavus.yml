@@ -1,0 +1,44 @@
+name: Misdreavus
+
+origin: legends-awakened-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 200
+
+rule:
+  - type: Attack
+    name: Show Off
+    text: Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Payback
+    text: If your opponent has only 1 Prize card left, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

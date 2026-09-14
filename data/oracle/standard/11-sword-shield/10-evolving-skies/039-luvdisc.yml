@@ -1,0 +1,39 @@
+name: Luvdisc
+
+origin: evolving-skies-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 370
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Synchrodraw
+    text: Shuffle your hand into your deck. Then, draw a card for each card in your opponent's hand.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Water Gun
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

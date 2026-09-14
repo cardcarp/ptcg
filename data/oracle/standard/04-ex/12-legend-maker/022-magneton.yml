@@ -1,0 +1,56 @@
+name: Magneton
+
+origin: legend-maker-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: Ability
+    name: Reactive Recharge
+    text: If Magneton would be Knocked Out by damage from an opponent's attack, you may move any number of React Energy cards from Magneton to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Multiple Force
+    text: If Magneton has any React Energy cards attached to it, this attack does 30 damage plus 10 more damage for each Magnemite and Magneton (both yours and your opponent's) in play.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Magnetic Blast
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

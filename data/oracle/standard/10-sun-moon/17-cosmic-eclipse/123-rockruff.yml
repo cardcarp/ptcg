@@ -1,0 +1,41 @@
+name: Rockruff
+
+origin: cosmic-eclipse-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 744
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Throw
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

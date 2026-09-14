@@ -1,0 +1,47 @@
+name: Lickilicky
+
+origin: secret-wonders-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Lickitung
+
+dex: 463
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tongue Reel
+    text: Choose 1 of your opponent's Pokémon. If you choose a Benched Pokémon, switch the Defending Pokémon with that Pokémon. This attack does 20 damage to the Pokémon you chose. Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Boundless Power
+    text: During your next turn, Lickilicky can't attack.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+retreat: 4
+
+errata: []

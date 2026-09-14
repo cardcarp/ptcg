@@ -1,0 +1,47 @@
+name: Great Tusk ex
+
+origin: scarlet-violet-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 250
+
+dex: 984
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Bedrock Breaker
+    text: Discard a Stadium in play.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Gigantic Tusks
+    text: This Pokémon also does 50 damage to itself.
+    damage: 250
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,52 @@
+name: Magnezone
+
+origin: diamond-pearl-black-star-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Charge Beam
+    text: Search your discard pile for an Energy card and attach it to Magnezone.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metallic Bolt
+    text: You may discard a Lightning Energy and a Metal Energy attached to Magnezone. If you do, this attack's base damage is 120 instead of 60.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

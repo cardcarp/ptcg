@@ -1,0 +1,46 @@
+name: Misty's Gyarados
+
+origin: destined-rivals-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Misty's Magikarp
+
+dex: 130
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Splashing Panic
+    text: Discard the top 7 cards of your deck, and this attack does 70 damage for each Misty's Pokémon that you discarded in this way.
+    damage: 70
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

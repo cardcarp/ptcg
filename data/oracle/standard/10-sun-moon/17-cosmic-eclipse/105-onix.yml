@@ -1,0 +1,42 @@
+name: Onix
+
+origin: cosmic-eclipse-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 95
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dig Deep
+    text: Put an Energy card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tail Smash
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

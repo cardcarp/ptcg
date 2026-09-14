@@ -1,0 +1,41 @@
+name: Oddish δ
+
+origin: holon-phantoms-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Water
+
+hp: 40
+
+dex: 43
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+    name: Blot
+    text: Remove 2 damage counters from Oddish.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

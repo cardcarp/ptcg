@@ -1,0 +1,48 @@
+name: Zoroark
+
+origin: black-white-black-star-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Nasty Plot
+    text: Search your deck for a card and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Foul Play
+    text: Choose 1 of the Defending Pokémon's attacks and use it as this attack.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

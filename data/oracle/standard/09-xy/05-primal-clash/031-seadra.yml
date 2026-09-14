@@ -1,0 +1,45 @@
+name: Seadra
+
+origin: primal-clash-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Horsea
+
+dex: 117
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Knockout Needle
+    text: Flip 2 coins. If both of them are heads, this attack does 40 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,47 @@
+name: Slowking
+
+origin: aquapolis-022h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bursting Hand
+    text: Look at your opponent's hand. This attack does 10 damage times the number of Energy cards there.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Shuffle Attack
+    text: Look at a number of cards on top of your opponent's deck equal to the number of Energy cards attached to the Defending Pokémon. Put those cards in any order, and then put them back on top of your opponent's deck.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

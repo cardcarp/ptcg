@@ -1,0 +1,39 @@
+name: Vulpix
+
+origin: primal-clash-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 37
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+    name: Gnaw
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

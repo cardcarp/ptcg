@@ -1,0 +1,48 @@
+name: Shiftry
+
+origin: xy-black-star-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Whisk Away
+    text: Your opponent reveals his or her hand. Choose a Pokémon you find there and put it on the bottom your opponent's deck. If you do, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Spirit Dance
+    text: Flip 2 coins. This attack does 30 more damage for each heads.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

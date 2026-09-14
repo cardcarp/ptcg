@@ -1,0 +1,52 @@
+name: Bronzong
+
+origin: breakthrough-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pain Amplifier
+    text: Put 3 damage counters on each of your opponent's Pokémon that has any damage counters on it.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

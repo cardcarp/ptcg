@@ -1,0 +1,40 @@
+name: Fletchling
+
+origin: paldea-evolved-163
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 661
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nosedive
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

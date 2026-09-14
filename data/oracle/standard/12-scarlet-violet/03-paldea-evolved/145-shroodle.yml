@@ -1,0 +1,34 @@
+name: Shroodle
+
+origin: paldea-evolved-145
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 944
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Spit Poison
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

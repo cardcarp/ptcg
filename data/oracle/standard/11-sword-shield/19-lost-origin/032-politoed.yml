@@ -1,0 +1,47 @@
+name: Politoed
+
+origin: lost-origin-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Poliwhirl
+
+dex: 186
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lordly Songleader
+    text: If Poliwag is on your Bench, this attack does 60 more damage. If Poliwhirl is on your Bench, this attack does 90 more damage. If Poliwrath is on your Bench, this attack does 120 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Splash
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

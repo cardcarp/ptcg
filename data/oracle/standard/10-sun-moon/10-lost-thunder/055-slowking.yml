@@ -1,0 +1,46 @@
+name: Slowking
+
+origin: lost-thunder-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Memory Melt
+    text: Look at your opponent's hand and put a card you find there in the Lost Zone.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 20 more damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

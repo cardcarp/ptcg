@@ -1,0 +1,61 @@
+name: Raikou-GX
+
+origin: sun-moon-black-star-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Lightning
+
+hp: 170
+
+dex: 243
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dig Claws
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder
+    text: Flip a coin. If tails, this Pokémon does 50 damage to itself.
+    damage: 150
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunderous Rain-GX
+    text: This attack does 100 damage to each of your opponent's Pokémon that has any Energy attached to it. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,44 @@
+name: Chien-Pao ex
+
+origin: scarlet-violet-black-star-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 220
+
+dex: 1002
+
+rule:
+  - type: Ability
+    name: Shivery Chill
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may search your deck for up to 2 Basic Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Hail Blade
+    text: You may discard any amount of Water Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,37 @@
+name: Roselia
+
+origin: temporal-forces-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 315
+
+rule:
+  - type: Ability
+    name: Poison Point
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Leaf Step
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

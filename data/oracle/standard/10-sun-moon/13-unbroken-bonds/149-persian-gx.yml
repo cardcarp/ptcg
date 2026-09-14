@@ -1,0 +1,56 @@
+name: Persian-GX
+
+origin: unbroken-bonds-149
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Colorless
+
+hp: 200
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: Ability
+    name: Cat Walk
+    text: Once during your turn (before your attack), if 1 of your Pokémon-GX or Pokémon-EX was Knocked Out during your opponent's last turn, you may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck. You can't use more than 1 Cat Walk Ability each turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Vengeance
+    text: This attack does 20 more damage for each Pokémon in your discard pile. You can't add more than 180 damage in this way.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slash Back-GX
+    text: Switch this Pokémon with 1 of your Benched Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,37 @@
+name: Moltres
+
+origin: wizards-black-star-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 146
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Hyper Flame
+    text: Flip a coin. If heads, discard 1 Fire Energy card attached to Moltres. If tails, discard all Energy cards attached to Moltres. If you can't discard Energy cards, this attack does nothing.
+    damage: 60
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

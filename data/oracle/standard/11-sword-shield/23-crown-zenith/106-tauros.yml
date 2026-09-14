@@ -1,0 +1,42 @@
+name: Tauros
+
+origin: crown-zenith-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 128
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Adrena-Tackle
+    text: If this Pokémon has no damage counters on it, this attack does nothing.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

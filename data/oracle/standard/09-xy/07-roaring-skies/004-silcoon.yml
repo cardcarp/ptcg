@@ -1,0 +1,38 @@
+name: Silcoon
+
+origin: roaring-skies-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Wurmple
+
+dex: 266
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: String Shot
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

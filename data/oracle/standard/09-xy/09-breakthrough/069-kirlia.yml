@@ -1,0 +1,45 @@
+name: Kirlia
+
+origin: breakthrough-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Ralts
+
+dex: 281
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Beckon
+    text: Put a Supporter card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Turn
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

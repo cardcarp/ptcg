@@ -1,0 +1,40 @@
+name: Goomy
+
+origin: guardians-rising-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 50
+
+dex: 704
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bubble
+    text: Flip a coin. If head, your opponent's Active Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Water
+      - Fairy
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Metapod
+
+origin: rebel-clash-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Caterpie
+
+dex: 11
+
+rule:
+  - type: Ability
+    name: Adaptive Evolution
+    text: This Pokémon can evolve during your first turn or the turn you play it.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

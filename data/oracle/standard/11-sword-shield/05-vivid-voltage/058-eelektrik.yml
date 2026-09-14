@@ -1,0 +1,44 @@
+name: Eelektrik
+
+origin: vivid-voltage-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Tynamo
+
+dex: 603
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Shocking Smash
+    text: Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Head Bolt
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

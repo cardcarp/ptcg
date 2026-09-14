@@ -1,0 +1,42 @@
+name: Teal Mask Ogerpon
+
+origin: scarlet-violet-black-star-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 1017
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mountain Stroll
+    text: Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Ogre Comeback
+    text: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

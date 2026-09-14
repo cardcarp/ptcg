@@ -1,0 +1,40 @@
+name: Totodile
+
+origin: shining-legends-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 158
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

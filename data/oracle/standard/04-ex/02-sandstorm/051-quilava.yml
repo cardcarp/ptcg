@@ -1,0 +1,46 @@
+name: Quilava
+
+origin: sandstorm-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Cyndaquil
+
+dex: 156
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Burning Claw
+    text: You may discard a Fire Energy card attached to Quilava. If you do, the Defending Pokémon is now Burned.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

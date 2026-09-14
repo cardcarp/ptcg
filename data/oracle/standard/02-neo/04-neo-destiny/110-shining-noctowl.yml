@@ -1,0 +1,45 @@
+name: Shining Noctowl
+
+origin: neo-destiny-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 164
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Lightning
+      - Colorless
+    name: Flashing Eyes
+    text: Flip 3 coins. If exactly 1 is heads, the Defending Pokémon is now Asleep. If exactly 2 are heads, the Defending Pokémon is now Confused. If all 3 are heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Shining Noctowl in your deck.
+
+errata: []

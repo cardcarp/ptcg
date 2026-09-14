@@ -1,0 +1,42 @@
+name: Mr. Mime-GX
+
+origin: celestial-storm-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Psychic
+
+hp: 150
+
+dex: 122
+
+rule:
+  - type: Ability
+    name: Magic Evens
+    text: Prevent all damage done to this Pokémon by your opponent's attacks if that damage is exactly 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, or 260.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Breakdown
+    text: For each card in your opponent's hand, put 1 damage counter on their Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Life Trick-GX
+    text: Heal all damage from this Pokémon. (You can't use more than 1 GX attack in a game.)
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

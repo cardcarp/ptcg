@@ -1,0 +1,46 @@
+name: Team Aqua's Sealeo
+
+origin: team-magma-vs-team-aqua-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Team Aqua's Spheal
+
+dex: 364
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aurora Beam
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Knock Over
+    text: You may discard any Stadium card in play.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

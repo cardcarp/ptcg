@@ -1,0 +1,39 @@
+name: Tarountula
+
+origin: scarlet-violet-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 917
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: String Haul
+    text: Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot.
+  - type: Attack
+    cost:
+      - Grass
+    name: Bug Bite
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

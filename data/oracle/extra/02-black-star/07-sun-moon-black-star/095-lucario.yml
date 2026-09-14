@@ -1,0 +1,42 @@
+name: Lucario
+
+origin: sun-moon-black-star-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: Ability
+    name: Precognitive Aura
+    text: Once during your turn (before your attack), if you have Garchomp in play, you may search your deck for a card and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Missile Jab
+    text: This attack's damage isn't affected by Resistance.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

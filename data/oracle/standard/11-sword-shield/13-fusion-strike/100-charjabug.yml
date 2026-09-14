@@ -1,0 +1,45 @@
+name: Charjabug
+
+origin: fusion-strike-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Grubbin
+
+dex: 737
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Vise Grip
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Head Bolt
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

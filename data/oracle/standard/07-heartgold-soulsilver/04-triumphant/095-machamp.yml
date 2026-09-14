@@ -1,0 +1,54 @@
+name: Machamp
+
+origin: triumphant-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Prime
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: Ability
+    name: Fighting Tag
+    text: Once during your turn (before your attack), if Machamp is on your Bench, you may move all Fighting Energy attached to your Active Pokémon to Machamp. If you do, switch Machamp with your Active Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Crushing Punch
+    text: Discard a Special Energy card attached to the Defending Pokémon.
+    damage: 60
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Champ Buster
+    text: Does 100 damage plus 10 more damage for each of your Benched Pokémon that has any damage counters on it.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

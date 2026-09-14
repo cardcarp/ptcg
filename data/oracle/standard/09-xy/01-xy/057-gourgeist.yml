@@ -1,0 +1,48 @@
+name: Gourgeist
+
+origin: xy-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Pumpkaboo
+
+dex: 711
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Eerie Voice
+    text: Put 2 damage counters each of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Spirit Scream
+    text: Put damage counters on both Active Pokémon until the remaining HP of each Pokémon is 10.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

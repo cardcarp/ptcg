@@ -1,0 +1,50 @@
+name: Cradily
+
+origin: plasma-blast-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Lileep
+
+dex: 346
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Lifesplosion
+    text: For each Energy attached to this Pokémon, search your deck for a Stage 2 Pokémon and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Spiral Drain
+    text: Heal 20 damage from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

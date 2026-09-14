@@ -1,0 +1,48 @@
+name: Chandelure
+
+origin: steam-siege-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Lampent
+
+dex: 609
+
+rule:
+  - type: Ability
+    name: Sinister Selection
+    text: Once during your turn (before your attack), you may look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Past Friends
+    text: This attack does 10 more damage for each Supporter card in your discard pile.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

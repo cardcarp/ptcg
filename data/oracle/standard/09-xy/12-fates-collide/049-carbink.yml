@@ -1,0 +1,41 @@
+name: Carbink
+
+origin: fates-collide-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 703
+
+rule:
+  - type: Ability
+    name: Energy Keeper
+    text: Basic Energy attached to your Basic Pokémon can't be discarded by effects of your opponent's attacks, Abilities, or Trainer cards.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Stone Edge
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

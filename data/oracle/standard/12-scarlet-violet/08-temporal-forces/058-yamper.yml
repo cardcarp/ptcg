@@ -1,0 +1,35 @@
+name: Yamper
+
+origin: temporal-forces-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 835
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Whimsy Tackle
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

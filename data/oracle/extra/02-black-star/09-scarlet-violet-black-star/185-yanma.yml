@@ -1,0 +1,41 @@
+name: Yanma
+
+origin: scarlet-violet-black-star-185
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 193
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Silent Wing
+    text: Your opponent reveals their hand.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

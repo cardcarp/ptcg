@@ -1,0 +1,39 @@
+name: Togetic
+
+origin: surging-sparks-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Draining Kiss
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

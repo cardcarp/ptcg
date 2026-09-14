@@ -1,0 +1,38 @@
+name: Wobbuffet
+
+origin: burning-shadows-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 202
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Shadowy Knot
+    text: This attack does 50 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

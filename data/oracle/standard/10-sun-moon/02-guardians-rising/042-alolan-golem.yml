@@ -1,0 +1,56 @@
+name: Alolan Golem
+
+origin: guardians-rising-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 160
+
+preevolution:
+  - Alolan Graveler
+
+dex: 76
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electromagnetic Rock Wrecker
+    text: Flip a coin for each Lightning Energy attached to this Pokémon. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Slam
+    text: This attack does 30 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 200
+    modifier: '-'
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

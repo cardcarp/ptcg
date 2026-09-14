@@ -1,0 +1,43 @@
+name: Togetic
+
+origin: obsidian-flames-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Shared Peace
+    text: Each player draws 3 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Speed Dive
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

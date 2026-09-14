@@ -1,0 +1,45 @@
+name: Zacian V
+
+origin: celebrations-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 220
+
+dex: 888
+
+rule:
+  - type: Ability
+    name: Roar of the Sword
+    text: Once during your turn, you may search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck. If you use this Ability, your turn ends.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Storm Slash
+    text: This attack does 30 more damage for each Psychic Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

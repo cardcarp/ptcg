@@ -1,0 +1,49 @@
+name: Blaine's Arcanine
+
+origin: gym-challenge-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Blaine's Growlithe
+
+dex: 59
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Tackle
+    text: Blaine's Arcanine does 10 damage to itself.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: Firestorm
+    text: Discard 3 Fire Energy cards attached to Blaine's Arcanine in order to use this attack.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

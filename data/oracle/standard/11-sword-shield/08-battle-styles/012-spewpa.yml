@@ -1,0 +1,44 @@
+name: Spewpa
+
+origin: battle-styles-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Scatterbug
+
+dex: 665
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Grass Cocooning
+    text: Heal 40 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Bug Bite
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

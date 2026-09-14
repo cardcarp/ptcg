@@ -1,0 +1,40 @@
+name: Grimer
+
+origin: undaunted-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 88
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Sticky Liquid
+    text: During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless more.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sludge Toss
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

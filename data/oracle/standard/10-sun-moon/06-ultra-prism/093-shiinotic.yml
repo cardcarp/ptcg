@@ -1,0 +1,47 @@
+name: Shiinotic
+
+origin: ultra-prism-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 100
+
+preevolution:
+  - Morelull
+
+dex: 756
+
+rule:
+  - type: Ability
+    name: Illuminate
+    text: Once during your turn (before your attack), you may search your deck for a Fairy Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Flickering Spores
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

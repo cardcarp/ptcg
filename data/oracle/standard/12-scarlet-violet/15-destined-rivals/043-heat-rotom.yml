@@ -1,0 +1,42 @@
+name: Heat Rotom
+
+origin: destined-rivals-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 479
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gadget Show
+    text: This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

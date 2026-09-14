@@ -1,0 +1,42 @@
+name: Slowking
+
+origin: breakpoint-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: Ability
+    name: Royal Flash
+    text: Once during your turn (before your attack), you may flip a coin. If heads, move an Energy from your opponent's Active Pokémon to 1 of his or her Benched Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Psych Up
+    text: During your next turn, this Pokémon's Psych Up attack does 40 more damage (before applying Weakness and Resistance).
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

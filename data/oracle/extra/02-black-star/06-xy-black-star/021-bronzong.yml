@@ -1,0 +1,47 @@
+name: Bronzong
+
+origin: xy-black-star-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Bronzor
+
+dex: 437
+
+rule:
+  - type: Ability
+    name: Metal Links
+    text: Once during your turn (before your attack), you may attach a Metal Energy card from your discard pile to 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Hammer In
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

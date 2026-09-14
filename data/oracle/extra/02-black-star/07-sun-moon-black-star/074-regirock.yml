@@ -1,0 +1,40 @@
+name: Regirock
+
+origin: sun-moon-black-star-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 377
+
+rule:
+  - type: Ability
+    name: Rock Peak Growl
+    text: Your Registeel's attacks do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Tough Swing
+    text: This attack's damage isn't affected by Resistance.
+    damage: 110
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,44 @@
+name: Ho-oh
+
+origin: neo-revelation-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 250
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rainbow Burn
+    text: This attack does 30 damage plus 10 more damage for each type of Basic Energy card, if any, attached to Ho-Oh.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

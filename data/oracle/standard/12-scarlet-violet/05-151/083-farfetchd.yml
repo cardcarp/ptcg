@@ -1,0 +1,44 @@
+name: Farfetch'd
+
+origin: 151-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 83
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Package Deal
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Leek Clobber
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

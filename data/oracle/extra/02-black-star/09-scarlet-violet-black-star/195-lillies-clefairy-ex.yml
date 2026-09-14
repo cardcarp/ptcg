@@ -1,0 +1,44 @@
+name: Lillie's Clefairy ex
+
+origin: scarlet-violet-black-star-195
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 190
+
+dex: 35
+
+rule:
+  - type: Ability
+    name: Fairy Zone
+    text: The Weakness of each of your opponent's Dragon Pokémon in play is now Psychic. (Apply Weakness as x2.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Full Moon Rondo
+    text: This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

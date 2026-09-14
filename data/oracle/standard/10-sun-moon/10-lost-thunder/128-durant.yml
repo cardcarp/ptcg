@@ -1,0 +1,46 @@
+name: Durant
+
+origin: lost-thunder-128
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 632
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Knock Over
+    text: You may discard any Stadium card in play.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mountain Munch
+    text: Discard the top 2 cards of your opponent's deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

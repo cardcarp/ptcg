@@ -1,0 +1,45 @@
+name: Krokorok
+
+origin: scarlet-violet-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Sandile
+
+dex: 552
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Payback
+    text: If your opponent has exactly 1 Prize card remaining, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Corkscrew Punch
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

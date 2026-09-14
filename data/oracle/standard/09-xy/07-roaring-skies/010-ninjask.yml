@@ -1,0 +1,40 @@
+name: Ninjask
+
+origin: roaring-skies-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Nincada
+
+dex: 291
+
+rule:
+  - type: Ability
+    name: Wing Buzz
+    text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may discard a card from your hand. If you do, discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Afterimage Assault
+    text: Search your deck for up to 2 Ninjask and put them onto your Bench. Shuffle your deck afterward.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

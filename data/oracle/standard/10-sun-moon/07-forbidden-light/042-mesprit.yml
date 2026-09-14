@@ -1,0 +1,40 @@
+name: Mesprit
+
+origin: forbidden-light-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 481
+
+rule:
+  - type: Ability
+    name: Silent Waves
+    text: If you have Azelf in play, your opponent's Pokémon in play have no Resistance.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mind Splash
+    text: If Uxie is on your Bench, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,55 @@
+name: Camerupt ex
+
+origin: emerald-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Numel
+
+dex: 323
+
+rule:
+  - type: Ability
+    name: Magma Armor
+    text: Camerupt ex can't be Asleep or Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Searing Flame
+    text: The Defending Pokémon is now Burned.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Eruption
+    text: Each player discards the top card of his or her deck. This attack does 60 damage plus 20 more damage for each Energy card discarded in this way.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

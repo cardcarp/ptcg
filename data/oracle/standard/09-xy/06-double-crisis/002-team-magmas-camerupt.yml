@@ -1,0 +1,43 @@
+name: Team Magma's Camerupt
+
+origin: double-crisis-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Team Magma's Numel
+
+dex: 323
+
+rule:
+  - type: Ability
+    name: Burning Draft
+    text: Once during your turn (before your attack), you may attach a Fighting or Fire Energy card from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flame Ball
+    text: Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

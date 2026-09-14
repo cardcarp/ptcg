@@ -1,0 +1,49 @@
+name: Vaporeon
+
+origin: jungle-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Water Gun
+    text: Does 30 damage plus 10 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Miltank
+
+origin: plasma-freeze-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 241
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Max Milk
+    text: Heal all damage from 1 of your Pokémon. Then, discard all Energy attached to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

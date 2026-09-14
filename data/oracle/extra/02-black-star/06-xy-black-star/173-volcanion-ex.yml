@@ -1,0 +1,45 @@
+name: Volcanion-EX
+
+origin: xy-black-star-173
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fire
+  - Water
+
+hp: 180
+
+dex: 721
+
+rule:
+  - type: Ability
+    name: Steam Up
+    text: Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, during this turn, your Basic Fire Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Volcanic Heat
+    text: This Pokémon can't attack during your next turn.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

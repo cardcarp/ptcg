@@ -1,0 +1,41 @@
+name: Golett
+
+origin: noble-victories-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 622
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Dynamic Punch
+    text: Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

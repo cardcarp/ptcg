@@ -1,0 +1,34 @@
+name: Remoraid
+
+origin: neo-destiny-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 223
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Fury Strikes
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

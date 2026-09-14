@@ -1,0 +1,42 @@
+name: Blaine's Ninetales
+
+origin: gym-challenge-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 60
+
+preevolution:
+  - Blaine's Vulpix
+
+dex: 38
+
+rule:
+  - type: Ability
+    name: Healing Fire
+    text: Whenever you attach a Fire Energy card from your hand to Blaine's Ninetales, remove 1 damage counter from it, if it has any. This power stops working when Blaine's Ninetales is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Burn Up
+    text: Flip a coin. If tails, discard all Fire Energy cards attached to Blaine's Ninetales.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

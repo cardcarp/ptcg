@@ -1,0 +1,42 @@
+name: Barbaracle
+
+origin: lost-origin-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Binacle
+
+dex: 689
+
+rule:
+  - type: Ability
+    name: Lost Block
+    text: Your opponent puts any Prize cards they would take in the Lost Zone instead of into their hand.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Dynamic Chop
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,39 @@
+name: Galvantula
+
+origin: sword-shield-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Joltik
+
+dex: 596
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Volt Wave
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

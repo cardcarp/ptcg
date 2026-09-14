@@ -1,0 +1,36 @@
+name: Basculin
+
+origin: black-white-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 550
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

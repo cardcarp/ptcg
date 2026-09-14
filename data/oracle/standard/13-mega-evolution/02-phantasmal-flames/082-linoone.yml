@@ -1,0 +1,40 @@
+name: Linoone
+
+origin: phantasmal-flames-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Zigzagoon
+
+dex: 264
+
+rule:
+  - type: Ability
+    name: Excited Dash
+    text: Once during your turn, if this Pokémon is on your Bench, and if you have any Mega Evolution Pokémon ex in play, you may use this Ability. Switch this Pokémon with your Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

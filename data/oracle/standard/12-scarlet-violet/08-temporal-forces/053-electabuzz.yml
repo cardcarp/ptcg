@@ -1,0 +1,41 @@
+name: Electabuzz
+
+origin: temporal-forces-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 125
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Chop
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Electric Punch
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

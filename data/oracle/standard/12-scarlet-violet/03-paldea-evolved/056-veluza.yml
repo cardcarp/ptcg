@@ -1,0 +1,43 @@
+name: Veluza
+
+origin: paldea-evolved-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 976
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Ram
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slim Screw
+    text: If you have no cards in your hand, this attack can be used for Water.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

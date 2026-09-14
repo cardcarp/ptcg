@@ -1,0 +1,45 @@
+name: Sneasel
+
+origin: flashfire-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 215
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Scratch
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

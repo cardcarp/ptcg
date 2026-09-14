@@ -1,0 +1,40 @@
+name: Electabuzz
+
+origin: stellar-crown-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 125
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Collect
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Magnum Punch
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

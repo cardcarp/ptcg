@@ -1,0 +1,47 @@
+name: Sceptile
+
+origin: primal-clash-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Grovyle
+
+dex: 254
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Leaf Blade
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Power Poison
+    text: Discard 1 Energy attached to this Pokémon. Your opponent's Active Pokémon is now Poisoned.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

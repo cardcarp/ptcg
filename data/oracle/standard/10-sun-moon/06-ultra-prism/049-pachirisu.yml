@@ -1,0 +1,44 @@
+name: Pachirisu
+
+origin: ultra-prism-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 417
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Snuggly Generator
+    text: For each of your Benched Pokémon that has the Nuzzle attack, search your deck for a Lightning Energy card and attach it to that Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Nuzzle
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

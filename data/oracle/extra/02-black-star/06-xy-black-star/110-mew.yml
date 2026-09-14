@@ -1,0 +1,43 @@
+name: Mew
+
+origin: xy-black-star-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 151
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Clairvoyance
+    text: Your opponent reveals his or her hand.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

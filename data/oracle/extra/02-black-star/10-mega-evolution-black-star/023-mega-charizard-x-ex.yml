@@ -1,0 +1,45 @@
+name: Mega Charizard X ex
+
+origin: mega-evolution-black-star-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - MEGA
+  - ex
+
+type:
+  - Fire
+
+hp: 360
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Inferno X
+    text: Discard any amount of Fire Energy from among your Pokémon, and this attack does 90 damage for each card you discarded in this way.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

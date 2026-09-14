@@ -1,0 +1,56 @@
+name: Alakazam ex
+
+origin: scarlet-violet-black-star-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Psychic
+
+hp: 310
+
+preevolution:
+  - Kadabra
+
+dex: 65
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Mind Jack
+    text: This attack does 30 more damage for each of your opponent's Benched Pokémon.
+    damage: 90
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Dimensional Hand
+    text: This attack can be used even if this Pokémon is on the Bench.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,46 @@
+name: Centiskorch
+
+origin: pitch-black-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Sizzlipede
+
+dex: 851
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Controlled Burn
+    text: Discard the top 2 cards of your opponent's deck.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heat Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

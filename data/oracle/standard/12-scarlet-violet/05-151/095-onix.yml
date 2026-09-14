@@ -1,0 +1,45 @@
+name: Onix
+
+origin: 151-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 95
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Thumpalanche
+    text: Discard the top 5 cards of your deck. This attack does 80 damage for each Pokémon with a Retreat Cost of exactly 4 that you discarded in this way.
+    damage: 80
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

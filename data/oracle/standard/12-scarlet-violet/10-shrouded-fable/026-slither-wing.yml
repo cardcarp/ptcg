@@ -1,0 +1,46 @@
+name: Slither Wing
+
+origin: shrouded-fable-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ancient
+
+type:
+  - Fighting
+
+hp: 140
+
+dex: 988
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Iron Smasher
+    text: If your opponent has any Future Pokémon in play, this attack does 120 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Smashing Wing
+    text: Discard 2 Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

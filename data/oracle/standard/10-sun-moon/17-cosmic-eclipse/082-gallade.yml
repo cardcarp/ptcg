@@ -1,0 +1,42 @@
+name: Gallade
+
+origin: cosmic-eclipse-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 160
+
+preevolution:
+  - Kirlia
+
+dex: 475
+
+rule:
+  - type: Ability
+    name: Double Type
+    text: As long as this Pokémon is in play, it is Psychic and Fighting type.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Power Cyclone
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 120
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Cinderace VMAX
+
+origin: fusion-strike-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+  - Single Strike
+
+type:
+  - Fire
+
+hp: 320
+
+preevolution:
+  - Cinderace V
+
+dex: 815
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: G-Max Fireball
+    text: Your opponent's Active Pokémon is now Burned. During your next turn, this Pokémon can't attack.
+    damage: 230
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

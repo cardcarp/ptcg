@@ -1,0 +1,52 @@
+name: Larry's Braviary
+
+origin: ascended-heroes-174
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Larry's Rufflet
+
+dex: 628
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Clutch
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Brave Bird
+    text: This Pokémon also does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

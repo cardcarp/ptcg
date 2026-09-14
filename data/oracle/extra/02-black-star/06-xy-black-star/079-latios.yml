@@ -1,0 +1,44 @@
+name: Latios
+
+origin: xy-black-star-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 100
+
+dex: 381
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Glide
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Sky Blade
+    text: If Latias is on your Bench, this attack does 50 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

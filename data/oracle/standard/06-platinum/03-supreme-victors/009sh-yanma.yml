@@ -1,0 +1,48 @@
+name: Yanma
+
+origin: supreme-victors-009sh
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 193
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sonicboom
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Baton Pass
+    text: You may switch Yanma with 1 of your Benched Pokémon. If you do, move as many Energy cards attached to Yanma as you like to the new Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

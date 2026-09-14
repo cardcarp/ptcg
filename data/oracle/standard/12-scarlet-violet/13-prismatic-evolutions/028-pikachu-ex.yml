@@ -1,0 +1,48 @@
+name: Pikachu ex
+
+origin: prismatic-evolutions-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Lightning
+
+hp: 190
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Whap
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder
+    text: This Pokémon also does 30 damage to itself.
+    damage: 220
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

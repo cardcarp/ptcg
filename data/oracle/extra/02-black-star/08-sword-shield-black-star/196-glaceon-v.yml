@@ -1,0 +1,46 @@
+name: Glaceon V
+
+origin: sword-shield-black-star-196
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 210
+
+dex: 471
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Frost Charge
+    text: Search your deck for a Water Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Freezing Wind
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

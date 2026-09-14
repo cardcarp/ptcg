@@ -1,0 +1,46 @@
+name: Palpitoad
+
+origin: noble-victories-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Tympole
+
+dex: 536
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Mud Shot
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Round
+    text: Does 20 damage times the number of your Pokémon that have the Round attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

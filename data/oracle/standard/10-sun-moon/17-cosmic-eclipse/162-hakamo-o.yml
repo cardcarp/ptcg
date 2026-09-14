@@ -1,0 +1,41 @@
+name: Hakamo-o
+
+origin: cosmic-eclipse-162
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Jangmo-o
+
+dex: 783
+
+rule:
+  - type: Ability
+    name: Fighter's Roar
+    text: If your opponent's Active Pokémon is a Pokémon-GX or Pokémon-EX, this Pokémon can evolve during the turn you play it.
+  - type: Attack
+    cost:
+      - Lightning
+      - Fighting
+    name: Dragonslice
+    damage: 30
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

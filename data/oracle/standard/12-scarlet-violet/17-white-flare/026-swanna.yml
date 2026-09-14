@@ -1,0 +1,50 @@
+name: Swanna
+
+origin: white-flare-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Ducklett
+
+dex: 581
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

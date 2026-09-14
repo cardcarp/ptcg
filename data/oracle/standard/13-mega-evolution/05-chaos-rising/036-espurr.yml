@@ -1,0 +1,41 @@
+name: Espurr
+
+origin: chaos-rising-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 677
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Buddy Attack
+    text: If you played Emma from your hand during this turn, this attack does 60 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

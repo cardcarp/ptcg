@@ -1,0 +1,51 @@
+name: Drifblim
+
+origin: ultra-prism-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Drifloon
+
+dex: 426
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Damage Transport
+    text: Move 4 damage counters from each of your Pokémon to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Wind Wheel
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

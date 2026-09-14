@@ -1,0 +1,46 @@
+name: Seismitoad
+
+origin: evolving-skies-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 170
+
+preevolution:
+  - Palpitoad
+
+dex: 537
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Shaky Wave
+    text: During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.
+    damage: 60
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

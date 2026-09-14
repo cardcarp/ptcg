@@ -1,0 +1,46 @@
+name: Lanturn
+
+origin: unleashed-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Reflect Energy
+    text: Move an Energy card attached to Lanturn to 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

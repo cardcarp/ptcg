@@ -1,0 +1,46 @@
+name: M Heracross-EX
+
+origin: furious-fists-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Grass
+
+hp: 220
+
+preevolution:
+  - Heracross-EX
+
+dex: 214
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Big Bang Horn
+    text: This attack does 180 damage minus 10 damage for each damage counter on this Pokémon.
+    damage: 180
+    modifier: '-'
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

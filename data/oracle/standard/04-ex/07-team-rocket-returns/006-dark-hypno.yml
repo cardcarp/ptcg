@@ -1,0 +1,49 @@
+name: Dark Hypno
+
+origin: team-rocket-returns-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dark Link
+    text: Flip a coin. If heads, choose an attack on 1 of your Pokémon in play that has Dark in its name (excluding this one). Dark Link copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Dark Hypno's type is still Psychic Darkness.) Dark Hypno performs that attack.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Black Magic
+    text: Does 20 damage times the number of your opponent's Benched Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Psychic Darkness type.
+
+errata: []

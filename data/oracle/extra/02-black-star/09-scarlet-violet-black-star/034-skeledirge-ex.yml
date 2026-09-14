@@ -1,0 +1,50 @@
+name: Skeledirge ex
+
+origin: scarlet-violet-black-star-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Fire
+
+hp: 340
+
+preevolution:
+  - Crocalor
+
+dex: 911
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Vitality Song
+    text: Heal 30 damage from each of your Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Burning Voice
+    text: This attack does 10 less damage for each damage counter on this Pokémon.
+    damage: 270
+    modifier: '-'
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

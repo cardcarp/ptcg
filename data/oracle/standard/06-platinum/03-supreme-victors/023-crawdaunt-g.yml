@@ -1,0 +1,44 @@
+name: Crawdaunt G
+
+origin: supreme-victors-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 342
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smash Turn
+    text: You may switch Crawdaunt G with 1 of your Benched Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

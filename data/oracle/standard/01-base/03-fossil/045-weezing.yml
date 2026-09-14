@@ -1,0 +1,47 @@
+name: Weezing
+
+origin: fossil-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Smog
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Selfdestruct
+    text: Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Weezing does 60 damage to itself.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

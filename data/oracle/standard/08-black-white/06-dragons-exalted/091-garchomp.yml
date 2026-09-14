@@ -1,0 +1,43 @@
+name: Garchomp
+
+origin: dragons-exalted-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 140
+
+preevolution:
+  - Gabite
+
+dex: 445
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Jet Headbutt
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Fighting
+      - Colorless
+    name: Sand Tomb
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 80
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+errata: []

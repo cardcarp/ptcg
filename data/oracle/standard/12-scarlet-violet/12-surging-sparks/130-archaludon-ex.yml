@@ -1,0 +1,52 @@
+name: Archaludon ex
+
+origin: surging-sparks-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Metal
+
+hp: 300
+
+preevolution:
+  - Duraludon
+
+dex: 1018
+
+rule:
+  - type: Ability
+    name: Assemble Alloy
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 2 Basic Metal Energy cards from your discard pile to your Metal Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+    name: Metal Defender
+    text: During your opponent's next turn, this Pokémon has no Weakness.
+    damage: 220
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

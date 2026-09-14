@@ -1,0 +1,44 @@
+name: Blastoise
+
+origin: crystal-guardians-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Wartortle
+
+dex: 9
+
+rule:
+  - type: Ability
+    name: Water Pressure
+    text: As long as Blastoise's remaining HP is 40 or less, Blastoise does 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: Does 50 damage plus 20 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,53 @@
+name: Ceruledge ex
+
+origin: surging-sparks-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Fire
+
+hp: 270
+
+preevolution:
+  - Charcadet
+
+dex: 937
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Abyssal Flames
+    text: This attack does 20 more damage for each Energy card in your discard pile.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Psychic
+      - Metal
+    name: Raging Amethyst
+    text: Discard all Energy from this Pokémon.
+    damage: 280
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+errata: []

@@ -1,0 +1,45 @@
+name: Galvantula
+
+origin: dark-explorers-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Joltik
+
+dex: 596
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Quick Turn
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electrisilk
+    text: If the Defending Pokémon has no Retreat Cost, this attack does 40 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

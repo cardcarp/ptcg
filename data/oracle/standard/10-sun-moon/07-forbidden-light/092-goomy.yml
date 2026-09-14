@@ -1,0 +1,42 @@
+name: Goomy
+
+origin: forbidden-light-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 50
+
+dex: 704
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flail
+    text: This attack does 10 damage for each damage counter on this Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

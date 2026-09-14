@@ -1,0 +1,43 @@
+name: Fraxure
+
+origin: plasma-blast-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Axew
+
+dex: 611
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Fighting
+      - Metal
+    name: Dragon Claw
+    damage: 40
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

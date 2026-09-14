@@ -1,0 +1,52 @@
+name: Houndoom
+
+origin: aquapolis-011h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Fireworks
+    text: Flip a coin. If tails, discard a Fire Energy card attached to Houndoom.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Dark Impact
+    text: The Defending Pokémon can't use any Poké-Powers until the end of your opponent's next turn.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

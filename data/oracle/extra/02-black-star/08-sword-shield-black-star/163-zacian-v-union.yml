@@ -1,0 +1,67 @@
+name: Zacian V-UNION
+
+origin: sword-shield-black-star-163
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - V-UNION
+
+type:
+  - Metal
+
+hp: 320
+
+dex: 888
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Union Gain
+    text: Attach up to 2 Metal Energy cards from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Dance of the Crowned Sword
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 150 less damage (before applying Weakness and Resistance).
+    damage: 150
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Steel Cut
+    damage: 200
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: Master Blade
+    text: Discard 3 Energy from this Pokémon.
+    damage: 340
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'How to play a Pokémon V-UNION: Once per game during your turn, combine 4 different Zacian V-UNION from your discard pile and put them onto your Bench.'
+  - 'V-UNION rule: When your Pokémon V-UNION is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

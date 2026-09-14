@@ -1,0 +1,48 @@
+name: Medicham
+
+origin: supreme-victors-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Channeling
+    text: Your opponent draws 2 cards.
+    damage: 60
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Chakra Points
+    text: Does 10 damage plus 10 more damage for each card in your opponent's hand.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

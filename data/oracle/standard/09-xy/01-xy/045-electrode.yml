@@ -1,0 +1,43 @@
+name: Electrode
+
+origin: xy-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Eerie Impulse
+    text: Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

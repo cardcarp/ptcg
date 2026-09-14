@@ -1,0 +1,39 @@
+name: Chikorita
+
+origin: hidden-legends-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 152
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Poisonpowder
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

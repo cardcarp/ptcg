@@ -1,0 +1,40 @@
+name: Dunsparce
+
+origin: sandstorm-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 206
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Strike and Run
+    text: Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward. You may switch Dunsparce with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sudden Flash
+    text: Flip a coin. If heads, each Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

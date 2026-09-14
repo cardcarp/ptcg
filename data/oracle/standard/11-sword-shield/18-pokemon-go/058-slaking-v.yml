@@ -1,0 +1,44 @@
+name: Slaking V
+
+origin: pokemon-go-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 230
+
+dex: 289
+
+rule:
+  - type: Ability
+    name: Kinda Lazy
+    text: If you have exactly 2, 4, or 6 Prize cards remaining, this Pokémon can't attack.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 260
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

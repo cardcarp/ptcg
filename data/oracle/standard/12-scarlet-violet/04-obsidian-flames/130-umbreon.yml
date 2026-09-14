@@ -1,0 +1,45 @@
+name: Umbreon
+
+origin: obsidian-flames-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Feint Attack
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance, or by any effects on that Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Pitch-Black Blade
+    text: During your next turn, this Pokémon can't attack.
+    damage: 140
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

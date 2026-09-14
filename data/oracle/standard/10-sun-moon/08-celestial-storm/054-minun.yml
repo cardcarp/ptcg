@@ -1,0 +1,45 @@
+name: Minun
+
+origin: celestial-storm-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 312
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ditch and Draw
+    text: You may discard any number of cards from your hand. Then, draw cards until you have 5 cards in your hand.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electro Ball
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

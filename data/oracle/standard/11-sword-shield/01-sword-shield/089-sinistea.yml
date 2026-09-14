@@ -1,0 +1,39 @@
+name: Sinistea
+
+origin: sword-shield-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 854
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Teatime
+    text: Each player draws 2 cards.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

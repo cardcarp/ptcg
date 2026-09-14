@@ -1,0 +1,47 @@
+name: M Swampert-EX
+
+origin: xy-black-star-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Water
+
+hp: 220
+
+preevolution:
+  - Swampert-EX
+
+dex: 260
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Strongarm Impact
+    text: You may do 30 more damage. If you do, discard the top 3 cards of each player's deck.
+    damage: 130
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

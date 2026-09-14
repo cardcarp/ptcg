@@ -1,0 +1,40 @@
+name: Litten
+
+origin: sun-moon-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 725
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Bite
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

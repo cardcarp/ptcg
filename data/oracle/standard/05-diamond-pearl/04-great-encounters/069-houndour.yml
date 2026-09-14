@@ -1,0 +1,41 @@
+name: Houndour
+
+origin: great-encounters-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Ember
+    text: Flip a coin. If tails, discard a Fire Energy attached to Houndour.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

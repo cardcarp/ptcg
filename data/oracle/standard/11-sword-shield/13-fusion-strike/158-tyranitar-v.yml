@@ -1,0 +1,48 @@
+name: Tyranitar V
+
+origin: fusion-strike-158
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 230
+
+dex: 248
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 80
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Land Crush
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

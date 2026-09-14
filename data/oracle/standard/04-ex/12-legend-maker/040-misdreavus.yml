@@ -1,0 +1,48 @@
+name: Misdreavus
+
+origin: legend-maker-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 200
+
+rule:
+  - type: Ability
+    name: Deep Sleep
+    text: As long as Misdreavus is your Active Pokémon, each player flips 2 coins for his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Return Trance
+    text: Return an Energy card attached to Misdreavus to your hand. The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Dream Eater
+    text: If the Defending Pokémon is not Asleep, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

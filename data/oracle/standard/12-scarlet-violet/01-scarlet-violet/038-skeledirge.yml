@@ -1,0 +1,46 @@
+name: Skeledirge
+
+origin: scarlet-violet-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 180
+
+preevolution:
+  - Crocalor
+
+dex: 911
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Passionate Singing
+    text: Attach up to 2 Basic Energy cards from your discard pile to your Pokémon in any way you like.
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Blazing Shout
+    text: This Pokémon also does 30 damage to itself.
+    damage: 190
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

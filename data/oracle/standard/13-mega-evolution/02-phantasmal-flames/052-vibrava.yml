@@ -1,0 +1,38 @@
+name: Vibrava
+
+origin: phantasmal-flames-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Trapinch
+
+dex: 329
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Super Vibration
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

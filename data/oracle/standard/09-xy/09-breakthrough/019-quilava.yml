@@ -1,0 +1,40 @@
+name: Quilava
+
+origin: breakthrough-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Cyndaquil
+
+dex: 156
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Mini Eruption
+    text: Discard the top card of your deck. If that card is an Energy card, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

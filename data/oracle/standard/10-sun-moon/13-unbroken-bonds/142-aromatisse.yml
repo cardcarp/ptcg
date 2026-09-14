@@ -1,0 +1,49 @@
+name: Aromatisse
+
+origin: unbroken-bonds-142
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Spritzee
+
+dex: 683
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Pungent Aroma
+    text: Flip 2 coins. If either of them is heads, your opponent reveals their hand. For each heads, choose a card you find there. Your opponent shuffles those cards into their deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Miraculous Cologne
+    text: Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

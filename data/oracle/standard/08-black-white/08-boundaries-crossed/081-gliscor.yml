@@ -1,0 +1,50 @@
+name: Gliscor
+
+origin: boundaries-crossed-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Gligar
+
+dex: 472
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Poison Ring
+    text: The Defending Pokémon is now Poisoned. The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Night Slash
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,49 @@
+name: Exploud
+
+origin: plasma-storm-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Loudred
+
+dex: 295
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Destructive Sound
+    text: Your opponent reveals his or her hand. Discard all Item cards you find there.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Round
+    text: Does 50 damage times the number of your Pokémon that have the Round attack.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

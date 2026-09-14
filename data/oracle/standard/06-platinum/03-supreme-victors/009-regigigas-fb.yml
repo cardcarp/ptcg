@@ -1,0 +1,48 @@
+name: Regigigas FB
+
+origin: supreme-victors-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 486
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Drain Punch
+    text: Remove from Regigigas FB a number of damage counters equal to the amount of Energy attached to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rainbow Lariat
+    text: Does 20 damage times the number of different types of Pokémon SP you have in play.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

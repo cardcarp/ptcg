@@ -1,0 +1,47 @@
+name: Foongus
+
+origin: next-destinies-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 590
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Find a Friend
+    text: Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

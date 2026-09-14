@@ -1,0 +1,35 @@
+name: Zeraora
+
+origin: vivid-voltage-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 100
+
+dex: 807
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Fighting Lightning
+    text: If your opponent's Active Pokémon is a Pokémon V or Pokémon-GX, this attack does 80 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,44 @@
+name: Heliolisk
+
+origin: mega-evolution-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dazzle Blast
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Head Bolt
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

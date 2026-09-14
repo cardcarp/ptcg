@@ -1,0 +1,40 @@
+name: Spiritomb
+
+origin: scarlet-violet-129
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 442
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Taunt
+    text: Switch in 1 of your opponent's Benched Pokémon to the Active Spot.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Doom Decree
+    text: Flip 2 coins. If both of them are heads, your opponent's Active Pokémon is Knocked Out.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

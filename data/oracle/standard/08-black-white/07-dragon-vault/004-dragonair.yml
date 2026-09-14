@@ -1,0 +1,45 @@
+name: Dragonair
+
+origin: dragon-vault-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 70
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Healing Melody
+    text: Heal 10 damage from each of your Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

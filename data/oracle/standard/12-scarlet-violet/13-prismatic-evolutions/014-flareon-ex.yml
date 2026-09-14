@@ -1,0 +1,53 @@
+name: Flareon ex
+
+origin: prismatic-evolutions-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Fire
+
+hp: 270
+
+preevolution:
+  - Eevee
+
+dex: 136
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Burning Charge
+    text: Search your deck for up to 2 Basic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.
+    damage: 130
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Lightning
+    name: Carnelian
+    text: During your next turn, this Pokémon can't attack.
+    damage: 280
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

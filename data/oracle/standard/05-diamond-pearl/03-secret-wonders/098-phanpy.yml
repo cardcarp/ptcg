@@ -1,0 +1,48 @@
+name: Phanpy
+
+origin: secret-wonders-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 231
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flail
+    text: Does 10 damage times the number of damage counters on Phanpy.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Take Down
+    text: Phanpy does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

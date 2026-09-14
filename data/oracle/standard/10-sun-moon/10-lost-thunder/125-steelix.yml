@@ -1,0 +1,53 @@
+name: Steelix
+
+origin: lost-thunder-125
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 180
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 90
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Iron Tackle
+    text: This Pokémon does 50 damage to itself.
+    damage: 170
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

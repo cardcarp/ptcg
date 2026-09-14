@@ -1,0 +1,44 @@
+name: Weezing
+
+origin: ruby-sapphire-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Confusion Gas
+    text: The Defending Pokémon is now Confused.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Poison Smog
+    text: Each Defending Pokémon is now Poisoned. Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

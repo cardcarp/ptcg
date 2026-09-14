@@ -1,0 +1,39 @@
+name: Weedle
+
+origin: rising-rivals-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 13
+
+rule:
+  - type: Attack
+    name: Rescue String
+    text: Search your discard pile for up to 5 Pokémon, show them to your opponent, and shuffle them into your deck.
+  - type: Attack
+    cost:
+      - Grass
+    name: Needling Sting
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

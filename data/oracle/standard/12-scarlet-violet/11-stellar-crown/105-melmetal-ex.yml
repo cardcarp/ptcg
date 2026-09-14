@@ -1,0 +1,51 @@
+name: Melmetal ex
+
+origin: stellar-crown-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Metal
+
+hp: 280
+
+preevolution:
+  - Meltan
+
+dex: 809
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Iron Swing
+    text: Flip 2 coins. This attack does 100 damage for each heads.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

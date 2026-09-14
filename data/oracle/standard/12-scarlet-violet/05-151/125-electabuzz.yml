@@ -1,0 +1,42 @@
+name: Electabuzz
+
+origin: 151-125
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 125
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electro Combo
+    text: If Magmar is on your Bench, this attack does 40 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Light Punch
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,46 @@
+name: Sableye V
+
+origin: sword-shield-120
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 170
+
+dex: 302
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Lode Search
+    text: Put a Trainer card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Crazy Claws
+    text: This attack does 60 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

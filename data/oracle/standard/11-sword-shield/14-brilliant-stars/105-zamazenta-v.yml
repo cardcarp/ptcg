@@ -1,0 +1,50 @@
+name: Zamazenta V
+
+origin: brilliant-stars-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Metal
+
+hp: 220
+
+dex: 889
+
+rule:
+  - type: Ability
+    name: Regal Stance
+    text: Once during your turn, you may discard your hand and draw 5 cards. If you use this Ability, your turn ends.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Revenge Blast
+    text: This attack does 30 more damage for each Prize card your opponent has taken.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

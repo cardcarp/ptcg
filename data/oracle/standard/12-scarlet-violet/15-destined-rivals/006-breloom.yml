@@ -1,0 +1,48 @@
+name: Breloom
+
+origin: destined-rivals-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Shroomish
+
+dex: 286
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Damage Rush
+    text: Flip a coin until you get tails. This attack does 50 more damage for each heads.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Mega Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

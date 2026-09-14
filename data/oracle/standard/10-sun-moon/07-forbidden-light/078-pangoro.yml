@@ -1,0 +1,54 @@
+name: Pangoro
+
+origin: forbidden-light-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Pancham
+
+dex: 675
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Untamed Punch
+    text: If this Pokémon has any damage counters on it, this attack does 50 more damage, and both Active Pokémon are now Confused.
+    damage: 50
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Double Stomp
+    text: Flip 2 coins. This attack does 40 more damage for each heads.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

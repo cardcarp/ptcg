@@ -1,0 +1,46 @@
+name: Exploud
+
+origin: phantom-forces-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Loudred
+
+dex: 295
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Boomburst
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

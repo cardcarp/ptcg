@@ -1,0 +1,50 @@
+name: Ursaring
+
+origin: skyridge-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Teddiursa
+
+dex: 217
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bear Hug
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rend
+    text: If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage. If not, this attack does 40 damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,47 @@
+name: Steenee
+
+origin: unified-minds-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Bounsweet
+
+dex: 762
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Leaf Step
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

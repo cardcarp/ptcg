@@ -1,0 +1,46 @@
+name: Mega Kangaskhan ex
+
+origin: mega-evolution-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Colorless
+
+hp: 300
+
+dex: 115
+
+rule:
+  - type: Ability
+    name: Run Errand
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Draw 2 cards. You can't use more than 1 Run Errand Ability each turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rapid-Fire Combo
+    text: Flip a coin until you get tails. This attack does 50 more damage for each heads.
+    damage: 200
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

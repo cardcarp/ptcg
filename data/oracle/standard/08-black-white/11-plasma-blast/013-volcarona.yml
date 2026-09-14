@@ -1,0 +1,46 @@
+name: Volcarona
+
+origin: plasma-blast-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Larvesta
+
+dex: 637
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Solar Transporter
+    text: Reveal the top 5 cards of your deck and put all Team Plasma cards you find there into your hand. Discard the other cards.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Leech Life
+    text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Gigalith
+
+origin: noble-victories-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Boldore
+
+dex: 526
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Core Cannon
+    text: This attack does 20 damage to 1 of your opponent's Pokémon for each Fighting Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Gem
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

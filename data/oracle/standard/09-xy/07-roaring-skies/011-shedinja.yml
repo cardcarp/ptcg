@@ -1,0 +1,39 @@
+name: Shedinja
+
+origin: roaring-skies-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 30
+
+preevolution:
+  - Nincada
+
+dex: 292
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Cursed Rain
+    text: Put 1 damage counter on each of your opponent's Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hopeless Scream
+    text: This attack does 50 damage times the number of damage counters on this Pokémon.
+    damage: 50
+    modifier: x
+
+retreat: 1
+
+errata: []

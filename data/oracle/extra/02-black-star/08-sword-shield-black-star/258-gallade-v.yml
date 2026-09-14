@@ -1,0 +1,49 @@
+name: Gallade V
+
+origin: sword-shield-black-star-258
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 220
+
+dex: 475
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rising Sword
+    text: This attack does 50 more damage for each Prize card you have taken.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Buster Swing
+    text: This attack's damage isn't affected by Resistance.
+    damage: 130
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

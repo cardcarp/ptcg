@@ -1,0 +1,48 @@
+name: Victini VMAX
+
+origin: battle-styles-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Fire
+
+hp: 310
+
+preevolution:
+  - Victini V
+
+dex: 494
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spreading Flames
+    text: Attach up to 3 Fire Energy cards from your discard pile to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Max Victory
+    text: If your opponent's Active Pokémon is a Pokémon V, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

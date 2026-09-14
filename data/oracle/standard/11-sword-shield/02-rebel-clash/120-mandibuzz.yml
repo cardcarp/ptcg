@@ -1,0 +1,50 @@
+name: Mandibuzz
+
+origin: rebel-clash-120
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Vullaby
+
+dex: 630
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bone Rush
+    text: Flip a coin until you get tails. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Blindside
+    text: This attack does 100 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

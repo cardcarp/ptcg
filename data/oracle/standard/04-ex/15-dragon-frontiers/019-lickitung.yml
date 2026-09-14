@@ -1,0 +1,40 @@
+name: Lickitung δ
+
+origin: dragon-frontiers-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 108
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Lap Up
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Delta Mind
+    text: Put 1 damage counter on 1 of your opponent's Pokémon. If that Pokémon has δ on its card, put 3 damage counters instead.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

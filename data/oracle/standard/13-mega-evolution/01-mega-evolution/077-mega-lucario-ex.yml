@@ -1,0 +1,50 @@
+name: Mega Lucario ex
+
+origin: mega-evolution-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - MEGA
+  - ex
+
+type:
+  - Fighting
+
+hp: 340
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Aura Jab
+    text: Attach up to 3 Basic Fighting Energy cards from your discard pile to your Benched Pokémon in any way you like.
+    damage: 130
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Mega Brave
+    text: During your next turn, this Pokémon can't use Mega Brave.
+    damage: 270
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

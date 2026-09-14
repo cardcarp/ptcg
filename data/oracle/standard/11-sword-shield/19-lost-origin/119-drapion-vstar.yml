@@ -1,0 +1,47 @@
+name: Drapion VSTAR
+
+origin: lost-origin-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Darkness
+
+hp: 270
+
+preevolution:
+  - Drapion V
+
+dex: 452
+
+rule:
+  - type: Ability
+    name: Hazard Star
+    text: During your turn, you may make your opponent's Active Pokémon Paralyzed and Poisoned. During Pokémon Checkup, put 3 damage counters on that Pokémon instead of 1. (You can't use more than 1 VSTAR Power in a game.)
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Big Bang Arm
+    text: This attack does 10 less damage for each damage counter on this Pokémon.
+    damage: 250
+    modifier: '-'
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

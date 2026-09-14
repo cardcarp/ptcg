@@ -1,0 +1,41 @@
+name: Delibird
+
+origin: boundaries-crossed-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 225
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Present
+    text: Flip a coin. If heads, search your deck for a card and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Wind
+    text: The Defending Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

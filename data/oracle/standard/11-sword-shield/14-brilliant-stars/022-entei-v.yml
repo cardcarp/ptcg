@@ -1,0 +1,44 @@
+name: Entei V
+
+origin: brilliant-stars-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 230
+
+dex: 244
+
+rule:
+  - type: Ability
+    name: Fleet-Footed
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may draw a card.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Burning Rondo
+    text: This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

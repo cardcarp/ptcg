@@ -1,0 +1,44 @@
+name: Volcanion
+
+origin: perfect-order-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 721
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Strength
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Powerful Steam
+    text: Flip a coin for each Water Energy attached to this Pokémon. This attack does 90 damage for each heads.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

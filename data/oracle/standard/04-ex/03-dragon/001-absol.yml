@@ -1,0 +1,47 @@
+name: Absol
+
+origin: dragon-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 359
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bad News
+    text: If the number of cards in your opponent's hand is at least 6, choose a number of cards there, without looking, until your opponent has 5 cards left. Have your opponent discard the cards you chose.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Prize Count
+    text: If you have more Prize cards left than your opponent, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

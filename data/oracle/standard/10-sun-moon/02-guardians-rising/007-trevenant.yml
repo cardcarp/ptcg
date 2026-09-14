@@ -1,0 +1,48 @@
+name: Trevenant
+
+origin: guardians-rising-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poltergeist
+    text: Your opponent reveals their hand. This attack does 30 damage for each Trainer card you find there.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Horn Leech
+    text: Heal 30 damage from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

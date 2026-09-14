@@ -1,0 +1,46 @@
+name: Weavile
+
+origin: burning-shadows-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rule of Evil
+    text: This attack does 60 damage to each Pokémon that has an Ability (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Slash
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+errata: []

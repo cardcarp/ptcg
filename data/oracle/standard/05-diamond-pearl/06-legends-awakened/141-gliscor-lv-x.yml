@@ -1,0 +1,48 @@
+name: Gliscor LV.X
+
+origin: legends-awakened-141
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Level-Up
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Gliscor
+
+dex: 472
+
+rule:
+  - type: Ability
+    name: Shoot Poison
+    text: Once during your turn (before your attack), when you put Gliscor LV.X from your hand onto your Active Gliscor, you may choose 1 of the Defending Pokémon. That Pokémon is now Paralyzed and Poisoned.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Night Slash
+    text: You may switch Gliscor with 1 of your Benched Pokémon.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+rulebox:
+  - Put this card onto your Active Gliscor. Gliscor LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+errata: []

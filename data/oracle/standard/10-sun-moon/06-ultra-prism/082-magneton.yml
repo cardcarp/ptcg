@@ -1,0 +1,50 @@
+name: Magneton
+
+origin: ultra-prism-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Ram
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Zap Cannon
+    text: This Pokémon can't use Zap Cannon during your next turn.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

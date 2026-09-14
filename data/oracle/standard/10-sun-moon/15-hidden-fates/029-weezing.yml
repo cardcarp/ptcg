@@ -1,0 +1,40 @@
+name: Weezing
+
+origin: hidden-fates-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: Ability
+    name: Surrender Now
+    text: Once during your turn, if this Pokémon is discarded with the effect of Jessie & James, you may have your opponent discard a card from their hand. (They discard that card after the effect of Jessie & James.)
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tackle
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

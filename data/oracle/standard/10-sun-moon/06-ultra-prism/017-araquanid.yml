@@ -1,0 +1,42 @@
+name: Araquanid
+
+origin: ultra-prism-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Dewpider
+
+dex: 752
+
+rule:
+  - type: Ability
+    name: Water Bubble
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Fire Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Aqua Edge
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

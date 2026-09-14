@@ -1,0 +1,40 @@
+name: Teddiursa
+
+origin: darkness-ablaze-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 216
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Baby-Doll Eyes
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dig Claws
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

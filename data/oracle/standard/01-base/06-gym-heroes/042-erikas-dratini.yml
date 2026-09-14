@@ -1,0 +1,40 @@
+name: Erika's Dratini
+
+origin: gym-heroes-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 147
+
+rule:
+  - type: Ability
+    name: Strange Barrier
+    text: Whenever an attack by a Basic Pokémon (including your own) does 20 or more damage to Erika's Dratini (after applying Weakness and Resistance), reduce that damage to 10. (Any other effects of attacks still happen.) This power stops working while Erika's Dratini is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Strike
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

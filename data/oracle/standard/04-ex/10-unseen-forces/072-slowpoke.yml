@@ -1,0 +1,42 @@
+name: Slowpoke
+
+origin: unseen-forces-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 79
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fishing Tail
+    text: Search your discard pile for a Basic Pokémon, Evolution card, or basic Energy card, show it to your opponent, and put it into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

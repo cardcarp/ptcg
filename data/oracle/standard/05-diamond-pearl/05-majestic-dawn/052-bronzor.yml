@@ -1,0 +1,45 @@
+name: Bronzor
+
+origin: majestic-dawn-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 436
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fire
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

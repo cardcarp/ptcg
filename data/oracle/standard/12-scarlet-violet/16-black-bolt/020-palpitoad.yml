@@ -1,0 +1,47 @@
+name: Palpitoad
+
+origin: black-bolt-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Tympole
+
+dex: 536
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Round
+    text: This attack does 40 damage for each of your Pokémon in play that has the Round attack.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Wave Splash
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

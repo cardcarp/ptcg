@@ -1,0 +1,41 @@
+name: Drapion
+
+origin: ultra-prism-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Skorupi
+
+dex: 452
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Dangerous Stinger
+    text: Your opponent's Active Pokémon is now Paralyzed and Poisoned.
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,47 @@
+name: Torchic ☆
+
+origin: team-rocket-returns-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Star
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 255
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Fireworks
+    text: Flip a coin. If tails, discard a Fire Energy card attached to Torchic Star.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Spring Back
+    text: If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Confused.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+errata: []

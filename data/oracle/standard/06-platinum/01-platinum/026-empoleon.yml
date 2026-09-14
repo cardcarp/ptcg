@@ -1,0 +1,46 @@
+name: Empoleon
+
+origin: platinum-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Prinplup
+
+dex: 395
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Knock Off
+    text: Choose 1 card from your opponent's hand without looking and discard it.
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Jet Smash
+    text: Choose 1 of your opponent's Pokémon. This attack does 70 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Empoleon can't use Jet Smash during your next turn.
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+retreat: 2
+
+errata: []

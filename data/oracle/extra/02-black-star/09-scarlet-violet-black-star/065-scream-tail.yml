@@ -1,0 +1,46 @@
+name: Scream Tail
+
+origin: scarlet-violet-black-star-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ancient
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 985
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Slap
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Roaring Scream
+    text: This attack does 20 damage to 1 of your opponent's Pokémon for each damage counter on this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

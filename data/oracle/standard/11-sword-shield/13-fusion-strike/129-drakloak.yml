@@ -1,0 +1,50 @@
+name: Drakloak
+
+origin: fusion-strike-129
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Fusion Strike
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Dreepy
+
+dex: 886
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Spooky Shot
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: U-turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

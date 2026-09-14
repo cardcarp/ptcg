@@ -1,0 +1,40 @@
+name: Snivy
+
+origin: boundaries-crossed-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 495
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Vine Whip
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Cut
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

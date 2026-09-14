@@ -1,0 +1,50 @@
+name: Team Rocket's Mewtwo ex
+
+origin: scarlet-violet-black-star-205
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 280
+
+dex: 150
+
+rule:
+  - type: Ability
+    name: Power Saver
+    text: This Pokémon can't attack unless you have 4 or more Team Rocket's Pokémon in play.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Erasure Ball
+    text: You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each card you discarded in this way.
+    damage: 160
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex Rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

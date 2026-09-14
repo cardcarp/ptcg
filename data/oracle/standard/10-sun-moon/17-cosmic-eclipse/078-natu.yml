@@ -1,0 +1,39 @@
+name: Natu
+
+origin: cosmic-eclipse-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 177
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Future Sight
+    text: Look at the top 4 cards of either player's deck and put them back in any order.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

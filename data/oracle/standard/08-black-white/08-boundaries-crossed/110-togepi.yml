@@ -1,0 +1,35 @@
+name: Togepi
+
+origin: boundaries-crossed-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 175
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Attract Smack
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,36 @@
+name: Vulpix
+
+origin: silver-tempest-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 37
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Jump On
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

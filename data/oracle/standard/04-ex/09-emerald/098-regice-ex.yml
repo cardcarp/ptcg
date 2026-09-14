@@ -1,0 +1,47 @@
+name: Regice ex
+
+origin: emerald-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 100
+
+dex: 378
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Ice Beam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Iceberg Crush
+    text: If Regirock ex is in play, flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

@@ -1,0 +1,36 @@
+name: Horsea
+
+origin: aquapolis-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 116
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reverse Thrust
+    text: Switch Horsea with 1 of your Benched Pokémon, if any.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

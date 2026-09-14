@@ -1,0 +1,41 @@
+name: Toxicroak G
+
+origin: platinum-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 454
+
+rule:
+  - type: Ability
+    name: Anticipation
+    text: Prevent all effects of attacks, excluding damage, done to Toxicroak G.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Deep Poison
+    text: If the Defending Pokémon is Poisoned, this attack does 20 damage plus 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

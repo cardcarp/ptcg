@@ -1,0 +1,50 @@
+name: Krokorok
+
+origin: unbroken-bonds-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Sandile
+
+dex: 552
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Corner
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

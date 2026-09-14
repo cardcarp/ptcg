@@ -1,0 +1,47 @@
+name: Dodrio
+
+origin: jungle-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Doduo
+
+dex: 85
+
+rule:
+  - type: Ability
+    name: Retreat Aid
+    text: As long as Dodrio is Benched, pay Colorless less to retreat your Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Dodrio.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

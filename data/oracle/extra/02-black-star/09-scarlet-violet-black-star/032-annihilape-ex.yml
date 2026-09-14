@@ -1,0 +1,49 @@
+name: Annihilape ex
+
+origin: scarlet-violet-black-star-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Fighting
+
+hp: 320
+
+preevolution:
+  - Primeape
+
+dex: 979
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Angry Grudge
+    text: Put up to 12 damage counters on this Pokémon. This attack does 20 damage for each damage counter you placed in this way.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Seismic Toss
+    damage: 150
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,36 @@
+name: Magmar
+
+origin: journey-together-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Searing Flame
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Burned.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

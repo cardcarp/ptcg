@@ -1,0 +1,50 @@
+name: Blaine's Tauros
+
+origin: gym-heroes-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 128
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: 3-Pronged Tail
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Full Speed Charge
+    text: Flip 4 coins. This attack does 20 damage times the number of heads to the Defending Pokémon and 20 damage times the number of tails to Blaine's Tauros.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

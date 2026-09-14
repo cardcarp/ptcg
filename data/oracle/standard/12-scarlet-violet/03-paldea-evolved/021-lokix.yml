@@ -1,0 +1,45 @@
+name: Lokix
+
+origin: paldea-evolved-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Nymble
+
+dex: 920
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Assaulting Kick
+    text: If this Pokémon evolved from Nymble during this turn, this attack does 100 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Speed Attack
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

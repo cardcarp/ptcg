@@ -1,0 +1,36 @@
+name: Porygon
+
+origin: unseen-forces-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 137
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: 3-D Attack
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

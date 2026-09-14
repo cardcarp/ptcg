@@ -1,0 +1,52 @@
+name: Gyarados
+
+origin: heartgold-soulsilver-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Thrash
+    text: If heads, this attack does 30 damage plus 20 more damage. If tails, Gyarados does 20 damage to itself.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Storm
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

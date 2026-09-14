@@ -1,0 +1,34 @@
+name: Voltorb
+
+origin: boundaries-crossed-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Static Shock
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Nosepass
+
+origin: legends-awakened-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 299
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sharpen
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Nose Poke
+    text: If Probopass is on your Bench, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

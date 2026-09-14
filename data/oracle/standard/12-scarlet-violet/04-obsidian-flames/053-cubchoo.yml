@@ -1,0 +1,42 @@
+name: Cubchoo
+
+origin: obsidian-flames-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 613
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Smash Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Trip Over
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

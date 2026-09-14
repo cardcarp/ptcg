@@ -1,0 +1,49 @@
+name: Diggersby
+
+origin: rebel-clash-147
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Bunnelby
+
+dex: 660
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mining Rush
+    text: Discard up to 6 cards from the top of your deck. If you do, this attack does 30 damage for each card you discarded in this way.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Headbutt Bounce
+    damage: 110
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

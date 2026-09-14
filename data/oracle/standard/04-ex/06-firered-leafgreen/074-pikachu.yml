@@ -1,0 +1,35 @@
+name: Pikachu
+
+origin: firered-leafgreen-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Plasma
+    text: Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Pikachu.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

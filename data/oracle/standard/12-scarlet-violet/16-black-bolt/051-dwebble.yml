@@ -1,0 +1,42 @@
+name: Dwebble
+
+origin: black-bolt-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 557
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flail
+    text: This attack does 10 damage for each damage counter on this Pokémon.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dig Claws
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

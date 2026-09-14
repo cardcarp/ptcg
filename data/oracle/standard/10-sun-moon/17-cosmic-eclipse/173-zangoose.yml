@@ -1,0 +1,42 @@
+name: Zangoose
+
+origin: cosmic-eclipse-173
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 335
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Corkscrew Punch
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Brutal Edge
+    text: This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

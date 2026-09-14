@@ -1,0 +1,47 @@
+name: Arcanine
+
+origin: 151-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Torrid Torrent
+    text: Attach up to 2 Basic Fire Energy cards from your discard pile to this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Dynamite Fang
+    text: Discard 2 Fire Energy from this Pokémon.
+    damage: 240
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

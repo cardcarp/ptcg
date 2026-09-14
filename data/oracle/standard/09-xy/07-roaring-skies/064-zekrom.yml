@@ -1,0 +1,43 @@
+name: Zekrom
+
+origin: roaring-skies-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 644
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Energy Stream
+    text: Attach a basic Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electric Ball
+    damage: 100
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

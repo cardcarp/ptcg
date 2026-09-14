@@ -1,0 +1,53 @@
+name: Revavroom
+
+origin: twilight-masquerade-125
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Varoom
+
+dex: 966
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rally Back
+    text: If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Running Charge
+    text: Flip a coin until you get tails. This attack does 100 damage for each heads.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,46 @@
+name: Bibarel
+
+origin: primal-clash-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Bidoof
+
+dex: 400
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Yawn
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Continuous Headbutt
+    text: Flip a coin until you get tails. This attack does 80 damage times the number of heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

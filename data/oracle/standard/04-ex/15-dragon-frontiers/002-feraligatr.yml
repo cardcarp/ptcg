@@ -1,0 +1,50 @@
+name: Feraligatr δ
+
+origin: dragon-frontiers-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Croconaw
+
+dex: 160
+
+rule:
+  - type: Ability
+    name: Battle Aura
+    text: Each of your Pokémon that has δ on its card does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drag Off
+    text: Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Sharp Fang
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

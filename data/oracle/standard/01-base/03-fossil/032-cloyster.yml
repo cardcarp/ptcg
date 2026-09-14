@@ -1,0 +1,47 @@
+name: Cloyster
+
+origin: fossil-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 50
+
+preevolution:
+  - Shellder
+
+dex: 91
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Clamp
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Spike Cannon
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

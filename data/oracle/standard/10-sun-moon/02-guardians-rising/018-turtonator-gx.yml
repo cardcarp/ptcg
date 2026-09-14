@@ -1,0 +1,53 @@
+name: Turtonator-GX
+
+origin: guardians-rising-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Fire
+
+hp: 190
+
+dex: 776
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Shell Trap
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put 8 damage counters on the Attacking Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Bright Flame
+    text: Discard 2 Fire Energy from this Pokémon.
+    damage: 160
+  - type: Attack
+    cost:
+      - Fire
+    name: Nitro Tank-GX
+    text: Attach 5 Fire Energy cards from your discard pile to your Pokémon in any way you like. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

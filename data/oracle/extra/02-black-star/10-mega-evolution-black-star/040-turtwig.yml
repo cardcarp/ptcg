@@ -1,0 +1,36 @@
+name: Turtwig
+
+origin: mega-evolution-black-star-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 387
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

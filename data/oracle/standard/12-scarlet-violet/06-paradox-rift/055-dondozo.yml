@@ -1,0 +1,43 @@
+name: Dondozo
+
+origin: paradox-rift-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 160
+
+dex: 977
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Supplemental Swallow-Up
+    text: Look at the top 5 cards of your deck. You may attach any number of Basic Energy cards you find there to this Pokémon. Shuffle the other cards back into your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Splash
+    damage: 180
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

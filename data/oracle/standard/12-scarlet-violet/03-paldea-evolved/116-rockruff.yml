@@ -1,0 +1,41 @@
+name: Rockruff
+
+origin: paldea-evolved-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 744
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Throw
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

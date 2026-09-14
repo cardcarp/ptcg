@@ -1,0 +1,44 @@
+name: 'Type: Null'
+
+origin: ultra-prism-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 772
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Merciless Strike
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Headbang
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

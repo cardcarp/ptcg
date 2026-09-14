@@ -1,0 +1,52 @@
+name: Espeon VMAX
+
+origin: evolving-skies-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Psychic
+
+hp: 310
+
+preevolution:
+  - Espeon V
+
+dex: 196
+
+rule:
+  - type: Ability
+    name: Solar Revelation
+    text: Prevent all effects of attacks from your opponent's Pokémon done to all of your Pokémon that have Energy attached.(Existing effects are not removed. Damage is not an effect.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Max Mindstorm
+    text: This attack does 60 damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

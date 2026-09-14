@@ -1,0 +1,45 @@
+name: Centiskorch
+
+origin: surging-sparks-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Sizzlipede
+
+dex: 851
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Billowing Heat Wave
+    text: This attack also does 30 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 130
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Baltoy
+
+origin: dragons-exalted-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 343
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spinning Attack
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reverse Spin
+    text: Your opponent shuffles his or her hand into his or her deck and draws 4 cards.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

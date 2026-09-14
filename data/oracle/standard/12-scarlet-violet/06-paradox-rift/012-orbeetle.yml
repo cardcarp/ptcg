@@ -1,0 +1,46 @@
+name: Orbeetle
+
+origin: paradox-rift-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Dottler
+
+dex: 826
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Satellite Beam
+    text: This attack does 30 damage for each Energy card in your opponent's discard pile.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Brain Shake
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

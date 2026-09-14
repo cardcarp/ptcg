@@ -1,0 +1,49 @@
+name: Granbull
+
+origin: great-encounters-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Snubbull
+
+dex: 210
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Daunt
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 40 damage plus 10 more damage for each damage counter on Granbull.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

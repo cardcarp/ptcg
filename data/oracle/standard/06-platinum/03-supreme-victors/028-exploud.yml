@@ -1,0 +1,50 @@
+name: Exploud
+
+origin: supreme-victors-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Loudred
+
+dex: 295
+
+rule:
+  - type: Ability
+    name: Erasing Sound
+    text: Each of your Pokémon has no Weakness.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Knock Back
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hyper Beam
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+retreat: 2
+
+errata: []

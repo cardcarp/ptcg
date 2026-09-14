@@ -1,0 +1,39 @@
+name: Vanillish
+
+origin: guardians-rising-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Vanillite
+
+dex: 583
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Ice Shard
+    text: If your opponent's Active Pokémon is a Fighting Pokémon, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

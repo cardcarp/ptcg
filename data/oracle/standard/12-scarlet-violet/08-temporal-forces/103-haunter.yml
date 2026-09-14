@@ -1,0 +1,39 @@
+name: Haunter
+
+origin: temporal-forces-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Gastly
+
+dex: 93
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Super Poison Breath
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

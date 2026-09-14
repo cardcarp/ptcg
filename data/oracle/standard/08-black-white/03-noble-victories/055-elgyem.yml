@@ -1,0 +1,40 @@
+name: Elgyem
+
+origin: noble-victories-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 605
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: First Contact
+    text: Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

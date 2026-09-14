@@ -1,0 +1,44 @@
+name: Altaria
+
+origin: roaring-skies-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Song of Echoes
+    text: Shuffle your hand into your deck. Then, draw a number of cards equal to the number of Benched Pokémon (both yours and your opponent's).
+  - type: Attack
+    cost:
+      - Water
+      - Metal
+    name: Midnight Eyes
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

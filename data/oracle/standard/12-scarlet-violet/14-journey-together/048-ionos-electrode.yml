@@ -1,0 +1,40 @@
+name: Iono's Electrode
+
+origin: journey-together-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+dex: 101
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Thump-Thump Boom
+    text: This Pokémon does 100 damage to itself. Flip a coin. If heads, your opponent's Active Pokémon is Knocked Out.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electric Ball
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

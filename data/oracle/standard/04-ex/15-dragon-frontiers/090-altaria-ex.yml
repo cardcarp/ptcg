@@ -1,0 +1,56 @@
+name: Altaria ex δ
+
+origin: dragon-frontiers-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+  - Delta Species
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: Ability
+    name: Extra Boost
+    text: Once during your turn (before your attack), you may attach a basic Energy card from your hand to 1 of your Stage 2 Pokémon-ex. This power can't be used if Altaria ex is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Healing Light
+    text: Remove 1 damage counter from each of your Pokémon.
+    damage: 60
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

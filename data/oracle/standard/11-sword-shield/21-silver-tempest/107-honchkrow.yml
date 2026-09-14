@@ -1,0 +1,50 @@
+name: Honchkrow
+
+origin: silver-tempest-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Murkrow
+
+dex: 430
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Triple Draw
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Callous Wings
+    text: You may switch this Pokémon with 1 of your Benched Murkrow.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,43 @@
+name: Slowking
+
+origin: undaunted-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Prime
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: Ability
+    name: Opponent's Choice
+    text: Once during your turn (before your attack), you may reveal the top 2 cards of your deck and your opponent chooses 1 of them. Put that card into your hand and the other card on the bottom of your deck. This power can't be used if Slowking is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Super Psy Bolt
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

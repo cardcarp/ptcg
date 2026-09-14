@@ -1,0 +1,44 @@
+name: Drifloon
+
+origin: undaunted-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 425
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Minimize
+    text: During your opponent's next turn, any damage done to Drifloon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pull
+    text: Flip a coin. If heads, switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

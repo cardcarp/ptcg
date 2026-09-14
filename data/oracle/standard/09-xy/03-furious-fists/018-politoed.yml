@@ -1,0 +1,42 @@
+name: Politoed
+
+origin: furious-fists-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Poliwhirl
+
+dex: 186
+
+rule:
+  - type: Ability
+    name: King's Song
+    text: Ignore all Colorless Energy in the attack cost of each of your Poliwag, Poliwhirl, and Poliwrath's attacks.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hyper Voice
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

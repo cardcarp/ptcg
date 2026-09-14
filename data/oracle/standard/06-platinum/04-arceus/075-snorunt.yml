@@ -1,0 +1,42 @@
+name: Snorunt
+
+origin: arceus-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 361
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ice Breath
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Double Headbutt
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Buzzwole
+
+origin: sun-moon-black-star-218
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ultra Beast
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 794
+
+rule:
+  - type: Ability
+    name: Beast Boost
+    text: This Pokémon's attacks do 20 more damage to your opponent's Active Pokémon for each Prize card you have taken (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Touchdown
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,46 @@
+name: Chandelure VMAX
+
+origin: fusion-strike-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Fire
+
+hp: 320
+
+preevolution:
+  - Chandelure V
+
+dex: 609
+
+rule:
+  - type: Ability
+    name: Cursed Shimmer
+    text: As long as this Pokémon is in the Active Spot, your opponent can't play any Pokémon Tool cards from their hand.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Max Poltergeist
+    text: Your opponent reveals their hand. This attack does 70 damage for each Trainer card you find there.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

@@ -1,0 +1,44 @@
+name: Drednaw V
+
+origin: champions-path-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 210
+
+dex: 834
+
+rule:
+  - type: Ability
+    name: Solid Shell
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Powerful Bite
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

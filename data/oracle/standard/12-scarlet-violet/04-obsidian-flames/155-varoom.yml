@@ -1,0 +1,40 @@
+name: Varoom
+
+origin: obsidian-flames-155
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 965
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Suffocating Gas
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,47 @@
+name: Boldore
+
+origin: emerging-powers-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Roggenrola
+
+dex: 525
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Headbutt
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hard Crash
+    text: Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

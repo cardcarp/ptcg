@@ -1,0 +1,50 @@
+name: Dhelmise
+
+origin: journey-together-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 781
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Bind Down
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 60
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Anchor Smash
+    damage: 130
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

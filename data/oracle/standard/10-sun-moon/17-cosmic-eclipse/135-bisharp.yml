@@ -1,0 +1,50 @@
+name: Bisharp
+
+origin: cosmic-eclipse-135
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Pawniard
+
+dex: 625
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Corner
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Slashing Strike
+    text: This Pokémon can't use Slashing Strike during your next turn.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

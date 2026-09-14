@@ -1,0 +1,44 @@
+name: Zarude
+
+origin: mega-evolution-black-star-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 130
+
+dex: 893
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Overhead Throw
+    text: This attack also does 30 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Shadowy Whip
+    text: If your Benched Pokémon have any Shadowy Darkness Energy attached, this attack does 70 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

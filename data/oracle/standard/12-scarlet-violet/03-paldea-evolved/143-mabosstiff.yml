@@ -1,0 +1,46 @@
+name: Mabosstiff
+
+origin: paldea-evolved-143
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Maschiff
+
+dex: 943
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Comeuppance
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Darkness Fang
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

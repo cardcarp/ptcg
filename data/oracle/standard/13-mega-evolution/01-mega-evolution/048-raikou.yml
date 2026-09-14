@@ -1,0 +1,37 @@
+name: Raikou
+
+origin: mega-evolution-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 243
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Electro Fall
+    text: If you have at least 4 Lightning Energy in play, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

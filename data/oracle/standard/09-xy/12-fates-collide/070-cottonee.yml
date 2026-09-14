@@ -1,0 +1,39 @@
+name: Cottonee
+
+origin: fates-collide-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 50
+
+dex: 546
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fairy Wind
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

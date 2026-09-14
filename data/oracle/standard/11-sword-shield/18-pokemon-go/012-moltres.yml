@@ -1,0 +1,39 @@
+name: Moltres
+
+origin: pokemon-go-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 146
+
+rule:
+  - type: Ability
+    name: Flare Symbol
+    text: Your Basic Fire Pokémon's attacks, except any Moltres, do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Wing
+    damage: 110
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

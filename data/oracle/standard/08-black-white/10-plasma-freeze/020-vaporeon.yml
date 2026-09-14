@@ -1,0 +1,46 @@
+name: Vaporeon
+
+origin: plasma-freeze-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Refreshing Rain
+    text: Heal 30 damage from each of your Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Gold Breaker
+    text: If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

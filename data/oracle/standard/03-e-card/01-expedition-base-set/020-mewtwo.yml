@@ -1,0 +1,43 @@
+name: Mewtwo
+
+origin: expedition-base-set-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hypnosis
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psychic
+    text: This attack does 20 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

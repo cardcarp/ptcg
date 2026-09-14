@@ -1,0 +1,39 @@
+name: Victini
+
+origin: black-white-black-star-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 494
+
+rule:
+  - type: Ability
+    name: Victory Star
+    text: Once during your turn, after you flip any coins for an attack, you may ignore all effects of those coin flips and begin flipping those coins again. You can't use more than 1 Victory Star Ability each turn.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Stored Power
+    text: Move all Energy attached to this Pokémon to 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

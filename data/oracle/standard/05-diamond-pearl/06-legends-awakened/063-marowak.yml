@@ -1,0 +1,51 @@
+name: Marowak
+
+origin: legends-awakened-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Heavy Bone
+    text: Flip a coin. If tails, Marowak can't use Heavy Bone during your next turn.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Bone Rush
+    text: Flip a coin until you get tails. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

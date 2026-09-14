@@ -1,0 +1,48 @@
+name: Hippowdon
+
+origin: perfect-order-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Hippopotas
+
+dex: 450
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Twister Spewing
+    text: If you played Tarragon from your hand during this turn, discard the top 3 cards of your opponent's deck.
+    damage: 80
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

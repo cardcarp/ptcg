@@ -1,0 +1,43 @@
+name: Magmar
+
+origin: triumphant-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Eruption
+    text: Each player discards the top card of his or her deck. This attack does 20 damage times the number of Energy cards discarded in this way.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Combustion
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

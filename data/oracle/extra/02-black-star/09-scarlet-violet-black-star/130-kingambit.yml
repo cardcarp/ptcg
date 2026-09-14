@@ -1,0 +1,49 @@
+name: Kingambit
+
+origin: scarlet-violet-black-star-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 180
+
+preevolution:
+  - Bisharp
+
+dex: 983
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Strike Down
+    text: If your opponent's Active Pokémon has 4 or more damage counters on it, that Pokémon is Knocked Out.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Massive Rend
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

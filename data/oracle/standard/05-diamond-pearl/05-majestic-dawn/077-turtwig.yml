@@ -1,0 +1,45 @@
+name: Turtwig
+
+origin: majestic-dawn-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 387
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rollout
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

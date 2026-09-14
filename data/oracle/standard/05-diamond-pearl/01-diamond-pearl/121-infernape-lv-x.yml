@@ -1,0 +1,43 @@
+name: Infernape LV.X
+
+origin: diamond-pearl-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Level-Up
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Infernape
+
+dex: 392
+
+rule:
+  - type: Ability
+    name: Burning Head
+    text: Once during your turn (before your attack), you may look at the top 3 cards of your deck, choose 1 of them, and put it into your hand. Discard the other 2 cards. This power can't be used if Infernape is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare Up
+    text: Search your discard pile for 8 Fire Energy cards, show them to your opponent, and shuffle them into your deck. (This attack does nothing if you don't have 8 Fire Energy cards in your discard pile.)
+    damage: 150
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+rulebox:
+  - Put this card onto your Active Infernape. Infernape LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+errata: []

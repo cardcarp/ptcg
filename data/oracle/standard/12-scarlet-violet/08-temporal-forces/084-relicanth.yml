@@ -1,0 +1,38 @@
+name: Relicanth
+
+origin: temporal-forces-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 369
+
+rule:
+  - type: Ability
+    name: Memory Dive
+    text: Each of your evolved Pokémon can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Razor Fin
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

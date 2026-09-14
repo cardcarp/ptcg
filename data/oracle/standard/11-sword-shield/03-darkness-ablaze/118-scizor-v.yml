@@ -1,0 +1,51 @@
+name: Scizor V
+
+origin: darkness-ablaze-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Metal
+
+hp: 210
+
+dex: 212
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Hack Off
+    text: Discard a Pokémon Tool and a Special Energy from your opponent's Active Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Slashing Claw
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

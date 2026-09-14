@@ -1,0 +1,40 @@
+name: Galarian Weezing
+
+origin: rebel-clash-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: Ability
+    name: Neutralizing Gas
+    text: As long as this Pokémon is in the Active Spot, your opponent's Pokémon in play have no Abilities, except for Neutralizing Gas.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Severe Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 4 damage counters instead of 1 on that Pokémon during Pokémon Checkup.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

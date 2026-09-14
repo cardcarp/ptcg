@@ -1,0 +1,42 @@
+name: Whimsicott
+
+origin: sword-shield-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Cottonee
+
+dex: 547
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cotton Ride
+    text: Flip a coin. If heads, your opponent shuffles their Active Pokémon and all attached cards into their deck.
+  - type: Attack
+    cost:
+      - Grass
+    name: Leaf Step
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

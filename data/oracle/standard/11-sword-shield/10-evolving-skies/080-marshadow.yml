@@ -1,0 +1,46 @@
+name: Marshadow
+
+origin: evolving-skies-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 802
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rapid Hunt
+    text: Search your deck for up to 2 Rapid Strike cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Shadow Flicker
+    text: If the Defending Pokémon is Knocked Out during your next turn, take 1 more Prize card.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

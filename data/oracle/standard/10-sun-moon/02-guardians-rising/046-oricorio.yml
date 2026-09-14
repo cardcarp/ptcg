@@ -1,0 +1,44 @@
+name: Oricorio
+
+origin: guardians-rising-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 741
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Feather Dance
+    text: During your next turn, this Pokémon's Pom-Pom Punch attack's base damage is 100.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Pom-Pom Punch
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

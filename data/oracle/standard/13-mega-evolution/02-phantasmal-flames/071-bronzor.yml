@@ -1,0 +1,46 @@
+name: Bronzor
+
+origin: phantasmal-flames-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 436
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Iron Defense
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

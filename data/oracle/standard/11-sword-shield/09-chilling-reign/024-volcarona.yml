@@ -1,0 +1,46 @@
+name: Volcarona
+
+origin: chilling-reign-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Larvesta
+
+dex: 637
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Spin
+    text: Discard 2 Energy from this Pokémon.
+    damage: 170
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

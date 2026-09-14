@@ -1,0 +1,42 @@
+name: Sandile
+
+origin: plasma-freeze-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 551
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Gentle Slap
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

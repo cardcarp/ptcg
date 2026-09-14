@@ -1,0 +1,49 @@
+name: Swablu
+
+origin: platinum-005sh
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 333
+
+rule:
+  - type: Attack
+    name: Roost
+    text: Remove 4 damage counters from Swablu. Swablu can't retreat during your next turn.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mirror Move
+    text: If Swablu was damaged by an attack during your opponent's last turn, this attack does the same amount of damage done to Swablu to the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fury Attack
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

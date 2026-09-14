@@ -1,0 +1,42 @@
+name: Electrode
+
+origin: aquapolis-007h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Ability
+    name: Super Dynamo
+    text: Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a Lightning Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Swift
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

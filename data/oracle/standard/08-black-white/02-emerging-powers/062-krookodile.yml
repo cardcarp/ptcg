@@ -1,0 +1,49 @@
+name: Krookodile
+
+origin: emerging-powers-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: Ability
+    name: Black Eyes
+    text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Thrash
+    text: Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

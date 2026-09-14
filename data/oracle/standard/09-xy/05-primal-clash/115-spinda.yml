@@ -1,0 +1,39 @@
+name: Spinda
+
+origin: primal-clash-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 327
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Staggering Steps
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused. If tails, this Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Uproar
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

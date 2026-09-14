@@ -1,0 +1,48 @@
+name: Silvally
+
+origin: unified-minds-184
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - 'Type: Null'
+
+dex: 773
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Avenging Heart
+    text: This attack does 50 more damage for each Prize card your opponent took on their last turn.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

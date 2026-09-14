@@ -1,0 +1,42 @@
+name: Combusken
+
+origin: dragon-majesty-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Torchic
+
+dex: 256
+
+rule:
+  - type: Ability
+    name: Natural Cure
+    text: Whenever you attach an Energy card from your hand to this Pokémon, remove all Special Conditions from it.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

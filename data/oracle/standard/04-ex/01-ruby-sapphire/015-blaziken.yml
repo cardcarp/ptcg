@@ -1,0 +1,48 @@
+name: Blaziken
+
+origin: ruby-sapphire-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Clutch
+    text: The Defending Pokémon can't retreat until the end of your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard a Fire Energy card attached to Blaziken.
+    damage: 80
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

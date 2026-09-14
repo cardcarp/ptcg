@@ -1,0 +1,43 @@
+name: Azumarill
+
+origin: aquapolis-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: Ability
+    name: Bubble Turn
+    text: Once during your turn (before your attack), if Azumarill is on your Bench, you may flip a coin. If heads, return Azumarill and all cards attached to it to your hand.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aqua Sonic
+    text: Don't apply Resistance.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

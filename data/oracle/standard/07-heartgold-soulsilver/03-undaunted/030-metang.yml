@@ -1,0 +1,52 @@
+name: Metang
+
+origin: undaunted-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Beldum
+
+dex: 375
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Hammer In
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Double Smash
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

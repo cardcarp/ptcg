@@ -1,0 +1,50 @@
+name: Crobat
+
+origin: unleashed-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Golbat
+
+dex: 169
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Supersonic
+    text: The Defending Pokémon is now Confused.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Hurricane Wing
+    text: Flip 4 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

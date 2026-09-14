@@ -1,0 +1,45 @@
+name: Rapidash
+
+origin: 151-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Mach Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

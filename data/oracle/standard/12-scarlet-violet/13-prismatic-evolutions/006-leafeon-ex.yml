@@ -1,0 +1,54 @@
+name: Leafeon ex
+
+origin: prismatic-evolutions-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Tera
+  - ex
+
+type:
+  - Grass
+
+hp: 270
+
+preevolution:
+  - Eevee
+
+dex: 470
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Verdant Storm
+    text: This attack does 60 damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 60
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Fire
+      - Water
+    name: Moss Agate
+    text: Heal 100 damage from each of your Benched Pokémon.
+    damage: 230
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

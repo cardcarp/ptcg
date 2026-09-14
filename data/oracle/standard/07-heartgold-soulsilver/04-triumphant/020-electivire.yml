@@ -1,0 +1,50 @@
+name: Electivire
+
+origin: triumphant-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Electabuzz
+
+dex: 466
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Plasma
+    text: Search your discard pile for a Lightning Energy card and attach it to Electivire.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunder Shot
+    text: This attack does 50 damage to each of your opponent's Pokémon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

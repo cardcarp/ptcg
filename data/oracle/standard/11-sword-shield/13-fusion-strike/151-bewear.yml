@@ -1,0 +1,46 @@
+name: Bewear
+
+origin: fusion-strike-151
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Stufful
+
+dex: 760
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Split Spiral Punch
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Strength
+    damage: 130
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

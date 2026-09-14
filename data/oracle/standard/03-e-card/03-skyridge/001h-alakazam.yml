@@ -1,0 +1,44 @@
+name: Alakazam
+
+origin: skyridge-001h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Kadabra
+
+dex: 65
+
+rule:
+  - type: Ability
+    name: Energy Jump
+    text: Once during your turn (before your attack), you may move an Energy card from 1 of your Pokémon to another of your Pokémon. This power can't be used if Alakazam is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

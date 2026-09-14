@@ -1,0 +1,42 @@
+name: Torkoal
+
+origin: dark-explorers-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 324
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flame Cloak
+    text: Flip a coin. If heads, attach a Fire Energy card from your discard pile to this Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,51 @@
+name: Dark Marowak
+
+origin: team-rocket-returns-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Brick Smash
+    text: This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Hard Bone
+    text: Discard a Basic Pokémon or Evolution card from your hand or this attack does nothing.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Fighting Darkness type.
+
+errata: []

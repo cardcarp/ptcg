@@ -1,0 +1,40 @@
+name: Chinchou
+
+origin: hidden-legends-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 170
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Random Spark
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Lightning Ball
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

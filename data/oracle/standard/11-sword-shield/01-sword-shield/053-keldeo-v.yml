@@ -1,0 +1,47 @@
+name: Keldeo V
+
+origin: sword-shield-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 210
+
+dex: 647
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Secret Sword
+    text: This attack does 30 more damage for each Water Energy attached to this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

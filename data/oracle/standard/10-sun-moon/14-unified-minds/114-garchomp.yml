@@ -1,0 +1,41 @@
+name: Garchomp
+
+origin: unified-minds-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Gabite
+
+dex: 445
+
+rule:
+  - type: Ability
+    name: Avenging Aura
+    text: If you have more Prize cards remaining than your opponent, this Pokémon's attacks do 80 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Over Slice
+    text: You may discard an Energy from this Pokémon. If you do, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+errata: []

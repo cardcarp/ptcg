@@ -1,0 +1,43 @@
+name: Salamence
+
+origin: sun-moon-black-star-140
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 150
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: Ability
+    name: Dragon Wind
+    text: If this Pokémon is your Active Pokémon, once during your turn (before your attack), you may switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+      - Colorless
+    name: Dragon Claw
+    damage: 100
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,43 @@
+name: Linoone
+
+origin: sandstorm-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Zigzagoon
+
+dex: 264
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sniff Out
+    text: Put any 1 card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,41 @@
+name: Heatmor
+
+origin: sword-shield-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 110
+
+dex: 631
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Fire Claws
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

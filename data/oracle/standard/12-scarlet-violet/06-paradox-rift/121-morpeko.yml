@@ -1,0 +1,39 @@
+name: Morpeko
+
+origin: paradox-rift-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 877
+
+rule:
+  - type: Ability
+    name: In a Hungry Hurry
+    text: If this Pokémon has no Energy attached, it has no Retreat Cost.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Energizer Wheel
+    text: Move 2 Darkness Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

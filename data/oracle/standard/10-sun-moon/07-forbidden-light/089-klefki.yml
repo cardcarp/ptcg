@@ -1,0 +1,45 @@
+name: Klefki
+
+origin: forbidden-light-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 707
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Metal Sound
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fairy Lock
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

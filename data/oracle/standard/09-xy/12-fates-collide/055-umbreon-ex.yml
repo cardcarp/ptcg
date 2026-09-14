@@ -1,0 +1,52 @@
+name: Umbreon-EX
+
+origin: fates-collide-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Darkness
+
+hp: 170
+
+dex: 197
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Veil of Darkness
+    text: Discard as many cards as you like from your hand. Then, draw that many cards.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Endgame
+    text: If your opponent's Mega Evolution Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

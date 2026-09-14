@@ -1,0 +1,43 @@
+name: Dragalge
+
+origin: xy-black-star-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 100
+
+preevolution:
+  - Skrelp
+
+dex: 691
+
+rule:
+  - type: Ability
+    name: Poison Barrier
+    text: Your opponent's Poisoned Pokémon can't retreat.
+  - type: Attack
+    cost:
+      - Water
+      - Psychic
+      - Colorless
+    name: Poison Breath
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+    damage: 60
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

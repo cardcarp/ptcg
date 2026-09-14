@@ -1,0 +1,44 @@
+name: Swoobat
+
+origin: evolving-skies-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Woobat
+
+dex: 528
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Synchro Woofer
+    text: If you have the same number of cards in your hand as your opponent, this attack does 80 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Dodrio
+
+origin: supreme-victors-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Doduo
+
+dex: 85
+
+rule:
+  - type: Ability
+    name: Echo Draw
+    text: Once during your turn (before your attack), you may draw a card. This power can't be used if Dodrio is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Drill Peck
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

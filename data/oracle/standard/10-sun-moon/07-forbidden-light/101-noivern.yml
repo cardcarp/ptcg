@@ -1,0 +1,52 @@
+name: Noivern
+
+origin: forbidden-light-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Noibat
+
+dex: 715
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Resonance
+    text: If your opponent's Active Pokémon is Confused, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

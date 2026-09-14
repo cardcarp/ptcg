@@ -1,0 +1,44 @@
+name: Glimmora
+
+origin: surging-sparks-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Glimmet
+
+dex: 970
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Corrosive Shards
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, Energy cards can't be attached from your opponent's hand to that Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 60
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

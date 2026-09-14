@@ -1,0 +1,47 @@
+name: Vaporeon
+
+origin: scarlet-violet-black-star-168
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Spiral Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Fighting Whirlpool
+    text: If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

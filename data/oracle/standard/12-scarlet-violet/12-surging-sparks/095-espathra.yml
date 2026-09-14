@@ -1,0 +1,49 @@
+name: Espathra
+
+origin: surging-sparks-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Flittle
+
+dex: 956
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mystical Eyes
+    text: Devolve 1 of your opponent's evolved Pokémon by putting the highest Stage Evolution card on it into your opponent's hand.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spiral Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

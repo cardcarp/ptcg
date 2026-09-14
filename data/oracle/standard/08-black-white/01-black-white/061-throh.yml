@@ -1,0 +1,44 @@
+name: Throh
+
+origin: black-white-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 538
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Circle Throw
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Storm Throw
+    text: This attack's damage isn't affected by Resistance.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,43 @@
+name: Bewear
+
+origin: cosmic-eclipse-182
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Stufful
+
+dex: 760
+
+rule:
+  - type: Ability
+    name: Carry and Run
+    text: As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Lariat
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

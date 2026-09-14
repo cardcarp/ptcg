@@ -1,0 +1,46 @@
+name: Mega Hawlucha ex
+
+origin: ascended-heroes-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - MEGA
+  - ex
+
+type:
+  - Fighting
+
+hp: 250
+
+dex: 701
+
+rule:
+  - type: Ability
+    name: Tenacious Body
+    text: If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Somersault Dive
+    text: If a Stadium is in play, this attack does 140 more damage. Then, discard that Stadium.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

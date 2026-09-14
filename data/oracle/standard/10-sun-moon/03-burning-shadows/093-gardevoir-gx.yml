@@ -1,0 +1,56 @@
+name: Gardevoir-GX
+
+origin: burning-shadows-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - GX
+
+type:
+  - Fairy
+
+hp: 230
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: Ability
+    name: Secret Spring
+    text: Once during your turn (before your attack), you may attach a Fairy Energy card from your hand to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Fairy
+    name: Infinite Force
+    text: This attack does 30 damage times the amount of Energy attached to both Active Pokémon.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Fairy
+    name: Twilight-GX
+    text: Shuffle 10 cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

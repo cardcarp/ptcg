@@ -1,0 +1,44 @@
+name: Ethan's Magcargo
+
+origin: destined-rivals-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Ethan's Slugma
+
+dex: 219
+
+rule:
+  - type: Ability
+    name: Melt Away
+    text: If this Pokémon has no Energy attached, it has no Retreat Cost.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Lava Burst
+    text: Discard up to 5 Fire Energy from this Pokémon. This attack does 70 damage for each card you discarded in this way.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Muk
+
+origin: darkness-ablaze-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Triple Poison
+    text: Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 3 damage counters on that Pokémon instead of 1.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sludge Whirlpool
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

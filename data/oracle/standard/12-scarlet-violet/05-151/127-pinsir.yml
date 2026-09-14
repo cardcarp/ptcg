@@ -1,0 +1,44 @@
+name: Pinsir
+
+origin: 151-127
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 127
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Vise Grip
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Reckless Throw
+    text: If you have more Prize cards remaining than your opponent, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

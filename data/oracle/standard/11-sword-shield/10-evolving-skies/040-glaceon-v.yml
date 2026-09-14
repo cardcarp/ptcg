@@ -1,0 +1,46 @@
+name: Glaceon V
+
+origin: evolving-skies-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 210
+
+dex: 471
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Frozen Awakening
+    text: Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Heavy Snow
+    text: Discard a Stadium in play.
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

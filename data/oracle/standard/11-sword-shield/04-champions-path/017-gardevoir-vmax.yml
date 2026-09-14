@@ -1,0 +1,43 @@
+name: Gardevoir VMAX
+
+origin: champions-path-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Psychic
+
+hp: 320
+
+preevolution:
+  - Gardevoir V
+
+dex: 282
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Max Cure
+    text: Heal 50 damage from this Pokémon.
+    damage: 180
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

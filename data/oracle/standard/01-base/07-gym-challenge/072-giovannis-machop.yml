@@ -1,0 +1,42 @@
+name: Giovanni's Machop
+
+origin: gym-challenge-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 66
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Chop
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Fury Punch
+    text: Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Giovanni's Machop.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

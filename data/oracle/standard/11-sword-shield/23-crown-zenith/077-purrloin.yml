@@ -1,0 +1,36 @@
+name: Purrloin
+
+origin: crown-zenith-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 509
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

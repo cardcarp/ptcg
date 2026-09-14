@@ -1,0 +1,35 @@
+name: Growlithe
+
+origin: 151-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 58
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Vaporize
+    text: Discard a Water Energy from your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

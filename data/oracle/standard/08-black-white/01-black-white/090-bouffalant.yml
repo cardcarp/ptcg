@@ -1,0 +1,44 @@
+name: Bouffalant
+
+origin: black-white-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 626
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Horn Attack
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Stomp
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

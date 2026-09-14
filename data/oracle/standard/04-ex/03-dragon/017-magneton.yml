@@ -1,0 +1,48 @@
+name: Magneton
+
+origin: dragon-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Magnemite
+
+dex: 82
+
+rule:
+  - type: Ability
+    name: Magnetic Field
+    text: Once during your turn (before your attack), if you have basic Energy cards in your discard pile, you may discard any 1 card from your hand. Then search for up to 2 basic Energy cards from your discard pile, show them to your opponent, and put them into your hand. You can't return the card you first discarded to your hand in this way. This power can't be used if Magneton is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Magnetic Force
+    text: Does 10 damage times the amount of Energy attached to all of your Pokémon (including Magneton).
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

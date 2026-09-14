@@ -1,0 +1,51 @@
+name: Team Magma's Mightyena
+
+origin: double-crisis-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Team Magma's Poochyena
+
+dex: 262
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bite
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Hostile Fang
+    text: If your opponent's Active Pokémon is a Team Aqua Pokémon, this attack does 40 more damage.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

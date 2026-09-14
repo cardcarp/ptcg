@@ -1,0 +1,47 @@
+name: Starmie
+
+origin: skyridge-028h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Energy Burst
+    text: Flip a coin. If heads, this attack does 10 damage times the number of Energy attached to Starmie and the Defending Pokémon.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Star Back
+    text: Attach a basic Energy card from your discard pile to 1 of your Pokémon.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Sandygast
+
+origin: burning-shadows-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 769
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Absorb Life
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

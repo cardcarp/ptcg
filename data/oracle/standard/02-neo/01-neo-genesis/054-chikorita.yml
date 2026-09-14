@@ -1,0 +1,40 @@
+name: Chikorita
+
+origin: neo-genesis-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 152
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Growl
+    text: If the Defending Pokémon attacks Chikorita during your opponent's next turn, any damage done to Chikorita is reduced by 10 (before applying Weakness and Resistance). (Benching or evolving either Pokémon ends this effect.)
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

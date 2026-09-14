@@ -1,0 +1,44 @@
+name: Hisuian Decidueye
+
+origin: astral-radiance-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Dartrix
+
+dex: 724
+
+rule:
+  - type: Attack
+    name: Piercing Claw
+    text: This attack does 30 damage for each damage counter on your opponent's Active Pokémon.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Direct Arrow
+    text: This attack does 80 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

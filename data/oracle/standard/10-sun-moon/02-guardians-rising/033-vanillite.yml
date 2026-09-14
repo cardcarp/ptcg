@@ -1,0 +1,36 @@
+name: Vanillite
+
+origin: guardians-rising-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 582
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Triple Spin
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

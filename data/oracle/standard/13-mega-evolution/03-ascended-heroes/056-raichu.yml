@@ -1,0 +1,47 @@
+name: Raichu
+
+origin: ascended-heroes-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Quick Blow
+    text: Flip a coin. If heads, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Strong Volt
+    text: Discard a Lightning Energy from this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

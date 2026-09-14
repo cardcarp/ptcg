@@ -1,0 +1,45 @@
+name: Pangoro
+
+origin: stellar-crown-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Pancham
+
+dex: 675
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Pull
+    text: Switch in 1 of your opponent's Benched Pokémon to the Active Spot.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Tantrum
+    text: This Pokémon is now Confused.
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

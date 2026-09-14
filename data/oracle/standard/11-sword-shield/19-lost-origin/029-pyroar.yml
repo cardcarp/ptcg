@@ -1,0 +1,43 @@
+name: Pyroar
+
+origin: lost-origin-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Litleo
+
+dex: 668
+
+rule:
+  - type: Ability
+    name: Scorching Aura
+    text: During Pokémon Checkup, put 4 damage counters on your opponent's Burned Pokémon instead of 2.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Fang
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Burned.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

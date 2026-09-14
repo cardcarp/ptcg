@@ -1,0 +1,45 @@
+name: Beartic
+
+origin: obsidian-flames-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Cubchoo
+
+dex: 614
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Icicle Punch
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Frost Purge
+    text: Flip a coin. If tails, discard all Energy from this Pokémon.
+    damage: 170
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,42 @@
+name: Alolan Grimer
+
+origin: team-up-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 88
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Chemical Breath
+    text: This attack does 50 more damage for each Special Condition affecting your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

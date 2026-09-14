@@ -1,0 +1,46 @@
+name: Roaring Moon
+
+origin: temporal-forces-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ancient
+
+type:
+  - Darkness
+
+hp: 140
+
+dex: 1005
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Vengeance Fletching
+    text: This attack does 10 more damage for each Ancient card in your discard pile.
+    damage: 70
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Speed Wing
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

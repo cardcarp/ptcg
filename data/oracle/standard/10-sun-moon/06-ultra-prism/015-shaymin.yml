@@ -1,0 +1,41 @@
+name: Shaymin
+
+origin: ultra-prism-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 492
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Coax
+    text: Search your deck for up to 3 Basic Pokémon of different types and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Soothing Scent
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

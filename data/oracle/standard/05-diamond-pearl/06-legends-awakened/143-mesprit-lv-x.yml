@@ -1,0 +1,45 @@
+name: Mesprit LV.X
+
+origin: legends-awakened-143
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Level-Up
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Mesprit
+
+dex: 481
+
+rule:
+  - type: Attack
+    name: Healing Look
+    text: Remove 3 damage counters from each of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Supreme Blast
+    text: If don't have Uxie LV.X and Azelf LV.X in play, this attack does nothing. Discard all Energy attached to Mesprit.
+    damage: 200
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - Put this card onto your Active Mesprit. Mesprit LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+errata: []

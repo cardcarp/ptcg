@@ -1,0 +1,45 @@
+name: Groudon
+
+origin: emerald-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Slash
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Eruption
+    text: Each player discards the top card of his or her deck. This attack does 40 damage plus 10 more damage for each Energy card discarded in this way.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

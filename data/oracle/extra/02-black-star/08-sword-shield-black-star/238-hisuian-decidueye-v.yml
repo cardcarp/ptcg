@@ -1,0 +1,46 @@
+name: Hisuian Decidueye V
+
+origin: sword-shield-black-star-238
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 220
+
+dex: 724
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Mountain Hunt
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Close-Quarters Shooting
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

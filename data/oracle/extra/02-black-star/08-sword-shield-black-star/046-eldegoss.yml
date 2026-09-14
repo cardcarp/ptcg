@@ -1,0 +1,42 @@
+name: Eldegoss
+
+origin: sword-shield-black-star-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Gossifleur
+
+dex: 830
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Blessing of Fluff
+    text: Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Grass
+    name: Leafage
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

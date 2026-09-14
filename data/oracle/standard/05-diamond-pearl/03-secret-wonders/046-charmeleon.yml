@@ -1,0 +1,47 @@
+name: Charmeleon
+
+origin: secret-wonders-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Charmander
+
+dex: 5
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Fire Fang
+    text: The Defending Pokémon is now Burned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flare Tail
+    text: Flip a coin. If heads, discard a Fire Energy attached to Charmeleon and this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

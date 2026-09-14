@@ -1,0 +1,46 @@
+name: Phanpy
+
+origin: plasma-storm-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 231
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Tackle
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Rollout
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

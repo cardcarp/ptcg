@@ -1,0 +1,43 @@
+name: Palkia
+
+origin: diamond-pearl-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 484
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Spacial Rend
+    text: Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. If there is any Stadium card in play, discard it.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Transback
+    text: You may flip a coin. If heads, discard all Energy attached to Palkia and put the Defending Pokémon and all cards attached to it on top of your opponent's deck. Your opponent shuffles his or her deck afterward.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

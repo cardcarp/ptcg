@@ -1,0 +1,40 @@
+name: Mesprit
+
+origin: legends-awakened-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 481
+
+rule:
+  - type: Ability
+    name: Psychic Bind
+    text: Once during your turn, when you put Mesprit from your hand onto your Bench, you may use this power. Your opponent can't use any Poké-Powers on his or her Pokémon during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Extrasensory
+    text: If you have the same number of cards in your hand as your opponent, this attack does 20 damage plus 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

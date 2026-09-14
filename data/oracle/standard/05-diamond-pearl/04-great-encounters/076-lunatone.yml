@@ -1,0 +1,38 @@
+name: Lunatone
+
+origin: great-encounters-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 337
+
+rule:
+  - type: Ability
+    name: Gravity Change
+    text: Once during your turn (before your attack), you may discard a card from your hand. Then, if you have Solrock in play, draw a card. This power can't be used if Lunatone is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Knock Over
+    text: You may discard any Stadium card in play.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

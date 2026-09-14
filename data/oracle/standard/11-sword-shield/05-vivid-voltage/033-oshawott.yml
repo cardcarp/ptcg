@@ -1,0 +1,40 @@
+name: Oshawott
+
+origin: vivid-voltage-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 501
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Seashell Attack
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

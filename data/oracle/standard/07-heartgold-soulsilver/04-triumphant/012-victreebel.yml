@@ -1,0 +1,42 @@
+name: Victreebel
+
+origin: triumphant-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Weepinbell
+
+dex: 71
+
+rule:
+  - type: Ability
+    name: Tangling Tendrils
+    text: As long as Victreebel is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Acidic Drain
+    text: The Defending Pokémon is now Burned and Poisoned. Remove 3 damage counters from Victreebel.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

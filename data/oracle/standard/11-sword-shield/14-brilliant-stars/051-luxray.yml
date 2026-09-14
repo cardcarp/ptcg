@@ -1,0 +1,45 @@
+name: Luxray
+
+origin: brilliant-stars-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 150
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Energy Crush
+    text: This attack does 50 damage for each Energy attached to all of your opponent's Pokémon.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Lightning
+    name: Flash Impact
+    text: This attack also does 30 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 110
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

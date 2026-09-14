@@ -1,0 +1,46 @@
+name: Heliolisk
+
+origin: cosmic-eclipse-180
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Helioptile
+
+dex: 695
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Parabolic Counter
+    text: If your opponent has any Lightning Pokémon in play, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Zap Kick
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

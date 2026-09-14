@@ -1,0 +1,36 @@
+name: Lechonk
+
+origin: obsidian-flames-181
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 915
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Disarming Voice
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

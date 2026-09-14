@@ -1,0 +1,48 @@
+name: Wormadam
+
+origin: brilliant-stars-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Burmy
+
+dex: 413
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Matron's Anger
+    text: This attack does 10 more damage for each Pokémon in your discard pile.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Bind Down
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

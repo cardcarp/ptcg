@@ -1,0 +1,40 @@
+name: Slowpoke
+
+origin: scarlet-violet-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 79
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rest
+    text: This Pokémon is now Asleep. Heal 30 damage from it.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

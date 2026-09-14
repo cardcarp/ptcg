@@ -1,0 +1,43 @@
+name: Hisuian Basculegion
+
+origin: lost-origin-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Hisuian Basculin
+
+dex: 902
+
+rule:
+  - type: Attack
+    name: Upstream Spirits
+    text: This attack does 20 damage for each basic Energy card in your discard pile. Then, shuffle those cards into your deck.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+    name: Water Shot
+    text: Discard an Energy from this Pokémon.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

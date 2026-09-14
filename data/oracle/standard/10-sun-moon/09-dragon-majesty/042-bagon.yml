@@ -1,0 +1,42 @@
+name: Bagon
+
+origin: dragon-majesty-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 371
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Risky Kick
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+    name: Dragon Eye
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

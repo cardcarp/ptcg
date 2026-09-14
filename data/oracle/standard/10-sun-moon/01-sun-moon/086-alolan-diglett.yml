@@ -1,0 +1,42 @@
+name: Alolan Diglett
+
+origin: sun-moon-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 50
+
+rule:
+  - type: Attack
+    name: Spelunk
+    text: Look at the top 3 cards of your deck and put them back in any order.
+  - type: Attack
+    cost:
+      - Metal
+    name: Mud-Slap
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

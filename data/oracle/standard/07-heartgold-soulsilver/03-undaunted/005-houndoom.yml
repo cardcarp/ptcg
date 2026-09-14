@@ -1,0 +1,51 @@
+name: Houndoom
+
+origin: undaunted-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Fire Counterattack
+    text: If your opponent has any Fighting Pokémon in play, this attack does 20 damage plus 60 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Dark Roar
+    text: Your opponent discards a card from his or her hand.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,52 @@
+name: Ursaring
+
+origin: unleashed-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Prime
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Teddiursa
+
+dex: 217
+
+rule:
+  - type: Ability
+    name: Berserk
+    text: If Ursaring has any damage counters on it, each of Ursaring's attacks does 60 more damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer Arm
+    text: Discard the top card from your opponent's deck.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Megaton Lariat
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

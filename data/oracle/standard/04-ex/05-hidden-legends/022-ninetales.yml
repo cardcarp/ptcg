@@ -1,0 +1,50 @@
+name: Ninetales
+
+origin: hidden-legends-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: Ability
+    name: Safeguard
+    text: Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Will-o'-the-wisp
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

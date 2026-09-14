@@ -1,0 +1,46 @@
+name: Lycanroc V
+
+origin: sword-shield-black-star-199
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 200
+
+dex: 745
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Throw
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Crashing Fangs
+    text: During your next turn, this Pokémon can't attack.
+    damage: 200
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

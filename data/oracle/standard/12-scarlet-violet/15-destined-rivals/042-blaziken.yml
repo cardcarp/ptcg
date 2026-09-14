@@ -1,0 +1,46 @@
+name: Blaziken
+
+origin: destined-rivals-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 170
+
+preevolution:
+  - Combusken
+
+dex: 257
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 70
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Inferno Kick Flurry
+    text: Discard 2 Energy from this Pokémon. This attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

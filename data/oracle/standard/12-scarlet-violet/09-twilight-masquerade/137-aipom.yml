@@ -1,0 +1,40 @@
+name: Aipom
+
+origin: twilight-masquerade-137
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 190
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hang Down
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Playful Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

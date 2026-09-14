@@ -1,0 +1,43 @@
+name: Vibrava
+
+origin: furious-fists-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Trapinch
+
+dex: 329
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Charge Energy
+    text: Search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Fighting
+    name: Vibration
+    damage: 30
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

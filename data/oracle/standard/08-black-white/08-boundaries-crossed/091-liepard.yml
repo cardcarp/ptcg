@@ -1,0 +1,49 @@
+name: Liepard
+
+origin: boundaries-crossed-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Purrloin
+
+dex: 510
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Tail Trickery
+    text: The Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Assist
+    text: Flip a coin. If heads, choose 1 of your Benched Pokémon's attacks and use it as this attack.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

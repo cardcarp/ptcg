@@ -1,0 +1,45 @@
+name: Arven's Toedscruel
+
+origin: destined-rivals-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Arven's Toedscool
+
+dex: 949
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pull
+    text: Switch in 1 of your opponent's Benched Pokémon to the Active Spot.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon also does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

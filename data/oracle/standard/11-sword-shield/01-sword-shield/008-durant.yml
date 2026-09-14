@@ -1,0 +1,37 @@
+name: Durant
+
+origin: sword-shield-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 632
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Bite Together
+    text: If Durant is on your Bench, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

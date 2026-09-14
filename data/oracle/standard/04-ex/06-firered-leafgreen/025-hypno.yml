@@ -1,0 +1,42 @@
+name: Hypno
+
+origin: firered-leafgreen-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: Ability
+    name: Eerie Aura
+    text: As long as Hypno is your Active Pokémon, put 2 damage counters on each Pokémon that remains Asleep between turns.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Hypnotic Ray
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

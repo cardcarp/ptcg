@@ -1,0 +1,36 @@
+name: Accelgor
+
+origin: journey-together-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 617
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Poisonous Ploy
+    text: Your opponent's Active Pokémon is now Confused and Poisoned. Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

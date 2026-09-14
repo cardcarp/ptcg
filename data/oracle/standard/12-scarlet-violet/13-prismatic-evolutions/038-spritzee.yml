@@ -1,0 +1,34 @@
+name: Spritzee
+
+origin: prismatic-evolutions-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 682
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Fairy Wind
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Snorlax
+
+origin: scarlet-violet-black-star-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 150
+
+dex: 143
+
+rule:
+  - type: Ability
+    name: Voraciousness
+    text: Once during your turn, you may put up to 2 Leftovers cards from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Thudding Press
+    text: This Pokémon also does 30 damage to itself.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

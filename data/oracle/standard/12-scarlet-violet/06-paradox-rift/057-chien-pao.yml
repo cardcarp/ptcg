@@ -1,0 +1,42 @@
+name: Chien-Pao
+
+origin: paradox-rift-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 1002
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Snow Bringer
+    text: Attach up to 2 Basic Water Energy cards from your discard pile to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Wrathful Blade
+    text: Discard 2 Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

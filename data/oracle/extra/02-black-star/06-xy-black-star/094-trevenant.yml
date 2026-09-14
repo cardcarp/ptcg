@@ -1,0 +1,49 @@
+name: Trevenant
+
+origin: xy-black-star-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: Ability
+    name: Nervous Seed
+    text: As long as this Pokémon is your Active Pokémon, the attacks of your opponent's Basic Pokémon cost Colorless more.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Energy Press
+    text: This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

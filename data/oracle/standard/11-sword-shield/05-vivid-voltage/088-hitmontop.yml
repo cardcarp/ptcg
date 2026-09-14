@@ -1,0 +1,43 @@
+name: Hitmontop
+
+origin: vivid-voltage-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 237
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cycle Draw
+    text: Discard a card from your hand. If you do, draw 3 cards.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Tornado Kick
+    text: If you played Bea from your hand during this turn, this attack does 80 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

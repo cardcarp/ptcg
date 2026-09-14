@@ -1,0 +1,35 @@
+name: Larvesta
+
+origin: noble-victories-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 636
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Ember
+    text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

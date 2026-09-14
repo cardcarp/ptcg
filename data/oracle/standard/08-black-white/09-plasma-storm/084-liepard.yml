@@ -1,0 +1,50 @@
+name: Liepard
+
+origin: plasma-storm-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Purrloin
+
+dex: 510
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Silent Claw
+    text: Your opponent reveal his or her hand. Discard a Supporter card you find there. Use the effect of that card as the effect of this attack.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Fake Out
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

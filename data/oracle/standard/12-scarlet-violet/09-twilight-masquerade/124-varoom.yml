@@ -1,0 +1,46 @@
+name: Varoom
+
+origin: twilight-masquerade-124
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 965
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Metal Coating
+    text: Attach a Basic Metal Energy card from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

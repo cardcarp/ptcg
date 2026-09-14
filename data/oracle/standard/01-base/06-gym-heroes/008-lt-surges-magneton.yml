@@ -1,0 +1,44 @@
+name: Lt. Surge's Magneton
+
+origin: gym-heroes-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Lt. Surge's Magnemite
+
+dex: 82
+
+rule:
+  - type: Ability
+    name: Energy Charge
+    text: As often as you like during your turn (before your attack), if Lt. Surge's Magneton is your Active Pokémon, you may take 1 Lightning Energy card attached to 1 of your Pokémon and attach it to Lt. Surge's Magneton. This power can't be used if Lt. Surge's Magneton is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Mega Shock
+    text: Flip a coin. If tails, Lt. Surge's Magneton does 20 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

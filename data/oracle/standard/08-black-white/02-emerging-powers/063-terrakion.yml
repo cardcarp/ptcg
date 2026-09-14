@@ -1,0 +1,43 @@
+name: Terrakion
+
+origin: emerging-powers-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 639
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Boulder Crush
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Sacred Sword
+    text: This Pokémon can't use Sacred Sword during your next turn.
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

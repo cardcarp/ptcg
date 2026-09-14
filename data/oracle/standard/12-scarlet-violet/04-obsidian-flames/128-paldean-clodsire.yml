@@ -1,0 +1,46 @@
+name: Paldean Clodsire
+
+origin: obsidian-flames-128
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Paldean Wooper
+
+dex: 980
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Poison Ring
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Muddy Hammer
+    text: Discard the top card of your opponent's deck.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,39 @@
+name: Tentacool
+
+origin: aquapolis-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 72
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Poison Sting
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Water
+    name: Recover
+    text: Discard 1 Water Energy card attached to Tentacool in order to use this attack. Remove all damage counters from Tentacool.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

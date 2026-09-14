@@ -1,0 +1,48 @@
+name: Medicham V
+
+origin: evolving-skies-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Rapid Strike
+
+type:
+  - Fighting
+
+hp: 210
+
+dex: 308
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Yoga Loop
+    text: Put 2 damage counters on 1 of your opponent's Pokémon. If your opponent's Pokémon is Knocked Out by this attack, take another turn after this one. (Skip Pokémon Checkup.) If 1 of your Pokémon used Yoga Loop during your last turn, this attack can't be used.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Smash Uppercut
+    text: This attack's damage isn't affected by Resistance.
+    damage: 100
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

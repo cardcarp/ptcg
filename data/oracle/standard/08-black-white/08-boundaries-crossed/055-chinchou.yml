@@ -1,0 +1,35 @@
+name: Chinchou
+
+origin: boundaries-crossed-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 170
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electripult
+    text: This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Relicanth
+
+origin: supreme-victors-008sh
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 369
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Deep Sea Pressure
+    text: During your opponent's next turn, the Defending Pokémon's Retreat Cost is ColorlessColorless more.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Aqua Wave
+    text: Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

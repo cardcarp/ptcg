@@ -1,0 +1,48 @@
+name: Dudunsparce ex
+
+origin: journey-together-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 270
+
+dex: 982
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tenacious Tail
+    text: This attack does 60 damage for each of your opponent's Pokémon ex in play.
+    damage: 60
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Destructive Drill
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

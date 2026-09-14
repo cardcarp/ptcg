@@ -1,0 +1,45 @@
+name: Slurpuff
+
+origin: chilling-reign-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Swirlix
+
+dex: 685
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Follow the Scent
+    text: Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fairy Wind
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Totodile
+
+origin: hidden-legends-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 158
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flail
+    text: Does 10 damage for each damage counter on Totodile.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

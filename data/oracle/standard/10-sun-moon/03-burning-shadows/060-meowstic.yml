@@ -1,0 +1,45 @@
+name: Meowstic
+
+origin: burning-shadows-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Espurr
+
+dex: 678
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Allure
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hand Kinesis
+    text: This attack does 10 damage for each card in your hand.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Miraidon ex
+
+origin: scarlet-violet-black-star-143
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Lightning
+
+hp: 220
+
+dex: 1008
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Rapid Draw
+    text: Draw 2 cards.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Techno Turbo
+    text: Attach a Basic Lightning Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

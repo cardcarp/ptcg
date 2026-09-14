@@ -1,0 +1,45 @@
+name: Fletchling
+
+origin: evolving-skies-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 661
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tailwind Draw
+    text: Draw a card. If you go second and it's your first turn, draw 3 more cards.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

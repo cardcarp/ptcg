@@ -1,0 +1,47 @@
+name: Nuzleaf
+
+origin: sandstorm-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Steady Punch
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Razor Leaf
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

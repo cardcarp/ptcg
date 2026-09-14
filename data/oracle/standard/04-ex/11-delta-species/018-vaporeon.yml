@@ -1,0 +1,51 @@
+name: Vaporeon δ
+
+origin: delta-species-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Delta Species
+
+type:
+  - Water
+  - Metal
+
+hp: 70
+
+preevolution:
+  - Eevee
+
+dex: 134
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Delta Search
+    text: Search your deck for a Holon Energy card and attach it to Vaporeon. Shuffle your deck afterward.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Metal
+      - Colorless
+    name: Return Wave
+    text: You may return an Energy card attached to Vaporeon to your hand. If you do, choose an Energy card attached to the Defending Pokémon and return it to your opponent's hand.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Water Metal type.
+
+errata: []

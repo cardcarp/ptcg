@@ -1,0 +1,45 @@
+name: Volcarona
+
+origin: darkness-ablaze-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Larvesta
+
+dex: 637
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Cauterize
+    text: If your opponent's Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.
+    damage: 80
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Wing
+    damage: 110
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

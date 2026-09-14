@@ -1,0 +1,48 @@
+name: Lycanroc VMAX
+
+origin: evolving-skies-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Fighting
+
+hp: 320
+
+preevolution:
+  - Lycanroc V
+
+dex: 745
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Hunting Claw
+    text: Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Max Edge
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 190
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

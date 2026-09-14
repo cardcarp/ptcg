@@ -1,0 +1,44 @@
+name: Incineroar
+
+origin: silver-tempest-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 170
+
+preevolution:
+  - Torracat
+
+dex: 727
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Secret Attack
+    text: Choose an attack from 1 of this Pokémon's previous Evolutions and use it as this attack.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare Shot
+    text: Discard all Energy from this Pokémon.
+    damage: 180
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

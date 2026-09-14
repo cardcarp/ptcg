@@ -1,0 +1,36 @@
+name: Rattata
+
+origin: plasma-freeze-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 19
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

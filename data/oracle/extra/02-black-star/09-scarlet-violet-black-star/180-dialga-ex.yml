@@ -1,0 +1,53 @@
+name: Dialga ex
+
+origin: scarlet-violet-black-star-180
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Metal
+
+hp: 220
+
+dex: 483
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Time Bellow
+    text: Draw a card.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Metal Blast
+    text: This attack does 20 more damage for each Metal Energy attached to this Pokémon.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

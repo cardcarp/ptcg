@@ -1,0 +1,45 @@
+name: Voltorb
+
+origin: stormfront-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Outlet
+    text: Search your deck for a Lightning Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Bouncing Ball
+    text: Flip a coin. If tails, Voltorb does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

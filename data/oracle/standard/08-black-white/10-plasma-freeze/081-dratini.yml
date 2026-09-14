@@ -1,0 +1,40 @@
+name: Dratini
+
+origin: plasma-freeze-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 50
+
+dex: 147
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Shed Skin
+    text: Heal 20 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Tail Smack
+    damage: 20
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

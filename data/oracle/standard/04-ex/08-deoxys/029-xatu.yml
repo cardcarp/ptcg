@@ -1,0 +1,51 @@
+name: Xatu
+
+origin: deoxys-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: Ability
+    name: Mirror Coat
+    text: If Xatu is Burned or Poisoned by an opponent's attack (even if Xatu is Knocked Out), the Attacking Pokémon is now affected by the same Special Conditions (1 if there is only 1).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dazzle Dance
+    text: Each Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psyloop
+    text: Does 30 damage plus 30 more damage for each Trainer card your opponent has in play.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

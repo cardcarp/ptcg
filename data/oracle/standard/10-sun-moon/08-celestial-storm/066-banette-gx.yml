@@ -1,0 +1,56 @@
+name: Banette-GX
+
+origin: celestial-storm-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Psychic
+
+hp: 190
+
+preevolution:
+  - Shuppet
+
+dex: 354
+
+rule:
+  - type: Ability
+    name: Shady Move
+    text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may move 1 damage counter from 1 Pokémon to another Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Shadow Chant
+    text: This attack does 10 more damage for each Supporter card in your discard pile. You can't add more than 100 damage in this way.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+    name: Tomb Hunt-GX
+    text: Put 3 cards from your discard pile into your hand. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

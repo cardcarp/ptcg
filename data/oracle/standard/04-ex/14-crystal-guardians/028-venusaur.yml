@@ -1,0 +1,50 @@
+name: Venusaur
+
+origin: crystal-guardians-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Ivysaur
+
+dex: 3
+
+rule:
+  - type: Ability
+    name: Chlorophyll
+    text: All Energy cards that provide only Colorless Energy attached to your Grass Pokémon provide Grass Energy instead.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Green Blast
+    text: Does 20 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Toxic Sleep
+    text: The Defending Pokémon is now Asleep and Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

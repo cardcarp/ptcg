@@ -1,0 +1,39 @@
+name: Toedscruel
+
+origin: journey-together-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 949
+
+rule:
+  - type: Ability
+    name: Secret Forest Path
+    text: As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mud Shot
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

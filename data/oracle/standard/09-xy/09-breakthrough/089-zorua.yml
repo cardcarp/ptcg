@@ -1,0 +1,46 @@
+name: Zorua
+
+origin: breakthrough-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 570
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Moonless Madness
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Dark Edge
+    text: Discard an Energy attached to this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

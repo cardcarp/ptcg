@@ -1,0 +1,63 @@
+name: Dragonite δ
+
+origin: delta-species-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Lightning
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: Ability
+    name: Delta Charge
+    text: Once during your turn (before your attack), you may attach a Lightning Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Dragonite is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Dragonite during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Metal
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 70
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Lightning Metal type.
+
+errata: []

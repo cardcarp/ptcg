@@ -1,0 +1,53 @@
+name: Donphan
+
+origin: plasma-storm-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Phanpy
+
+dex: 232
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Spinning Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Wreck
+    text: If there is any Stadium card in play, this attack does 60 more damage. Discard the Stadium card.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

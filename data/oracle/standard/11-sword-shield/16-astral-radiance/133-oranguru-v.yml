@@ -1,0 +1,45 @@
+name: Oranguru V
+
+origin: astral-radiance-133
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 210
+
+dex: 765
+
+rule:
+  - type: Ability
+    name: Back Order
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may search your deck for up to 2 Pokémon Tool cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 50 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

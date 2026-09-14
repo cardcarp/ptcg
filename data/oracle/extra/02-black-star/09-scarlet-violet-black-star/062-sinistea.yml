@@ -1,0 +1,40 @@
+name: Sinistea
+
+origin: scarlet-violet-black-star-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 854
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Cold Tea
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

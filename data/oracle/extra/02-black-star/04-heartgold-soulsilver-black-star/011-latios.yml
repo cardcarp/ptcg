@@ -1,0 +1,41 @@
+name: Latios
+
+origin: heartgold-soulsilver-black-star-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 381
+
+rule:
+  - type: Ability
+    name: Luster Float
+    text: If you have Latias in play, the Retreat Cost for Latios is 0.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Infinite Wing
+    text: Discard 2 Energy attached to Latios.
+    damage: 80
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

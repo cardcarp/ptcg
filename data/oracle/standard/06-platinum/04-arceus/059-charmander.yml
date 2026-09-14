@@ -1,0 +1,40 @@
+name: Charmander
+
+origin: arceus-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call for Friends
+    text: Search your deck for a Fire Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Steady Firebreathing
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

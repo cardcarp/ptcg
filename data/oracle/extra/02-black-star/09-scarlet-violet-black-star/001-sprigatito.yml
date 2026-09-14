@@ -1,0 +1,35 @@
+name: Sprigatito
+
+origin: scarlet-violet-black-star-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 906
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Mini Drain
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

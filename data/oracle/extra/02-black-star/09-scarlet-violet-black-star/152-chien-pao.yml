@@ -1,0 +1,40 @@
+name: Chien-Pao
+
+origin: scarlet-violet-black-star-152
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 1002
+
+rule:
+  - type: Ability
+    name: Snow Sink
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Stadium in play.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Icicle Loop
+    text: Put an Energy attached to this Pokémon into your hand.
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

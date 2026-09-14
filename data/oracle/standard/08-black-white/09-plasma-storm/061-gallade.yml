@@ -1,0 +1,48 @@
+name: Gallade
+
+origin: plasma-storm-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Kirlia
+
+dex: 475
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Powerful Storm
+    text: Does 20 damage times the amount of Energy attached to all of your Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Swift Lunge
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

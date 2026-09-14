@@ -1,0 +1,45 @@
+name: Doublade
+
+origin: mega-evolution-black-star-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Honedge
+
+dex: 680
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Weaponized Swords
+    text: Reveal any number of Honedge, Doublade, and Aegislash from your hand, and this attack does 60 damage for each card you revealed in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

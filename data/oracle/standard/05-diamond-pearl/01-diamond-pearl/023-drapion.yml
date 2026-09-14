@@ -1,0 +1,48 @@
+name: Drapion
+
+origin: diamond-pearl-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Skorupi
+
+dex: 452
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Poison Claws
+    text: The Defending Pokémon is now Poisoned.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 3
+
+errata: []

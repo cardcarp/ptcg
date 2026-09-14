@@ -1,0 +1,49 @@
+name: Beartic
+
+origin: emerging-powers-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Cubchoo
+
+dex: 614
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Sheer Cold
+    text: The Defending Pokémon can't attack during your opponent's next turn.
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Icicle Crash
+    text: This attack's damage isn't affected by Resistance.
+    damage: 80
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

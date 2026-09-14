@@ -1,0 +1,39 @@
+name: Toxtricity
+
+origin: fusion-strike-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 130
+
+preevolution:
+  - Toxel
+
+dex: 849
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Punk Shock
+    text: You may choose to make your opponent's Active Pokémon Paralyzed. If you do, this Pokémon also does 70 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,58 @@
+name: Tyranitar ex
+
+origin: pop-series-1-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Darkness
+
+hp: 150
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Critical Crush
+    text: Discard 2 Basic Energy cards attached to Tyranitar ex or this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

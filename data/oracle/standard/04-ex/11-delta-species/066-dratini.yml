@@ -1,0 +1,44 @@
+name: Dratini δ
+
+origin: delta-species-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 147
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Wave
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

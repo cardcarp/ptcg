@@ -1,0 +1,41 @@
+name: Brock's Rhyhorn
+
+origin: gym-heroes-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 111
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Drill Tackle
+    text: Flip 2 coins. If 1 or both of them are tails, this attack does nothing.
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

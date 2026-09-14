@@ -1,0 +1,45 @@
+name: Trapinch
+
+origin: boundaries-crossed-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 328
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smithereen Smash
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

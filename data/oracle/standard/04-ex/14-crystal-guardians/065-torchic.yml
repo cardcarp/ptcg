@@ -1,0 +1,35 @@
+name: Torchic
+
+origin: crystal-guardians-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 255
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Claw
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

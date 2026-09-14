@@ -1,0 +1,48 @@
+name: Lapras ex
+
+origin: stellar-crown-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Water
+
+hp: 220
+
+dex: 131
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Power Splash
+    text: This attack does 40 damage for each Energy attached to this Pokémon.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Psychic
+      - Metal
+    name: Larimar Rain
+    text: Look at the top 20 cards of your deck and attach any number of Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

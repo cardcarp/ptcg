@@ -1,0 +1,48 @@
+name: Dodrio
+
+origin: firered-leafgreen-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Doduo
+
+dex: 85
+
+rule:
+  - type: Ability
+    name: Retreat Aid
+    text: As long as Dodrio is on your Bench, you pay ColorlessColorless less to retreat your Active Pokémon (excluding Pokémon-ex and Baby Pokémon.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tri Attack
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

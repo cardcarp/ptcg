@@ -1,0 +1,47 @@
+name: Shining Mewtwo
+
+origin: neo-destiny-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Lightning
+    name: Reflect Shield
+    text: If an attack does damage to Shining Mewtwo during your opponent's next turn (even if Shining Mewtwo is Knocked Out), flip a coin. If heads, prevent all damage done to Shining Mewtwo from that attack (any other effects of attacks still happen) and do 20 damage to the attacking Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Fire
+    name: Psyburst
+    text: Discard a Fire Energy card attached to Shining Mewtwo or this attack does nothing. This attack does 40 damage plus 10 damage for each Energy attached to the Defending Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - You can't have more than 1 Shining Mewtwo in your deck.
+
+errata: []

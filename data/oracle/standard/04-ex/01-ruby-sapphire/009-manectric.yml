@@ -1,0 +1,51 @@
+name: Manectric
+
+origin: ruby-sapphire-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Attract Current
+    text: Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder Jolt
+    text: Flip a coin. If tails, Manectric does 10 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

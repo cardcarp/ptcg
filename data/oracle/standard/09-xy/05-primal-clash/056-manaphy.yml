@@ -1,0 +1,39 @@
+name: Manaphy
+
+origin: primal-clash-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 490
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Deep Sea Swirl
+    text: Shuffle your hand into your deck. Then, draw 6 cards.
+  - type: Attack
+    cost:
+      - Water
+    name: Life Saver
+    text: Put 2 Water Pokémon from your discard pile into your hand.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

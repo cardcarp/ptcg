@@ -1,0 +1,54 @@
+name: Krookodile
+
+origin: black-white-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Torment
+    text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Krookoroll
+    text: If the Defending Pokémon already has any damage counters on it, this attack does 40 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

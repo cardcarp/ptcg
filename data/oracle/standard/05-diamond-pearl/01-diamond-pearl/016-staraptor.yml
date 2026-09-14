@@ -1,0 +1,50 @@
+name: Staraptor
+
+origin: diamond-pearl-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Staravia
+
+dex: 398
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Accelerative Dive
+    text: Flip a coin. If tails, this attack does nothing. If heads, prevent all damage done to Staraptor by attacks (both yours and your opponent's) until the end of your next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Brave Heart
+    text: Flip a coin. If tails, Staraptor does 100 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

@@ -1,0 +1,44 @@
+name: Muk
+
+origin: scarlet-violet-127
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: Ability
+    name: Poison Sacs
+    text: Your opponent's Poisoned Pokémon don't recover from that Special Condition when they evolve or devolve.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Toxic Strike
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

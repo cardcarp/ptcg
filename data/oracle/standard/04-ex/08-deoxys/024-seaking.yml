@@ -1,0 +1,43 @@
+name: Seaking
+
+origin: deoxys-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Triple Breach
+    text: Choose 3 of your opponent's Pokémon. This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rend
+    text: If the Defending Pokémon already has any damage counters on it, this attack does 30 damage plus 20 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

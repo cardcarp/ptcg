@@ -1,0 +1,40 @@
+name: Crocalor
+
+origin: surging-sparks-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Fuecoco
+
+dex: 910
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Heat Breath
+    text: Flip a coin. If heads, this attack does 50 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

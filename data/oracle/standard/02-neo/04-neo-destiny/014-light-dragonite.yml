@@ -1,0 +1,43 @@
+name: Light Dragonite
+
+origin: neo-destiny-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Light Dragonair
+
+dex: 149
+
+rule:
+  - type: Ability
+    name: Miraculous Wind
+    text: As long as Light Dragonite is your Active Pokémon, each Special Energy card provides Colorless Energy instead of its usual type and its other effects stop working. This power stops working while Light Dragonite is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Light Wave
+    text: Prevent all effects of attacks, other than damage, done to Light Dragonite during your opponent's next turn.
+    damage: 40
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

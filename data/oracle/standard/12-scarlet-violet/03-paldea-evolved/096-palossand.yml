@@ -1,0 +1,52 @@
+name: Palossand
+
+origin: paldea-evolved-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Sandygast
+
+dex: 770
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spooky Shot
+    damage: 40
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Earthen Power
+    text: If you have a Stadium in play, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

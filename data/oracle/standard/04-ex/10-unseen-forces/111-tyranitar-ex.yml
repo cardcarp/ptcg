@@ -1,0 +1,74 @@
+name: Tyranitar ex
+
+origin: unseen-forces-111
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Darkness
+
+hp: 160
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Shatter
+    text: Discard any Stadium card in play.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Derail
+    text: Discard a Special Energy card, if any, attached to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Darkness
+      - Colorless
+    name: Mix-Up
+    text: Your opponent discards the top card of his or her deck.
+    damage: 70
+  - type: Attack
+    cost:
+      - Fighting
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Losing Control
+    text: Discard the top 3 cards of your deck.
+    damage: 120
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

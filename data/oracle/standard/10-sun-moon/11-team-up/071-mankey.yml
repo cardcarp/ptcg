@@ -1,0 +1,40 @@
+name: Mankey
+
+origin: team-up-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 56
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scout
+    text: Your opponent reveals their hand.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Low Kick
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

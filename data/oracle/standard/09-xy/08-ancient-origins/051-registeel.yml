@@ -1,0 +1,50 @@
+name: Registeel
+
+origin: ancient-origins-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 120
+
+dex: 379
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Iron Head
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Forbidden Iron Hammer
+    text: If your opponent's Active Pokémon is a Pokémon-EX, discard an Energy attached to that Pokémon.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

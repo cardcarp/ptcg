@@ -1,0 +1,43 @@
+name: Machamp
+
+origin: sword-shield-black-star-243
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: Ability
+    name: Crisis Muscles
+    text: If your opponent has 3 or fewer Prize cards remaining, this Pokémon gets +150 HP.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Strong-Arm Lariat
+    text: You may do 100 more damage. If you do, during your next turn, this Pokémon can't attack.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

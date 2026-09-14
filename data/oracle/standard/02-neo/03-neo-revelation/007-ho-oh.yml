@@ -1,0 +1,56 @@
+name: Ho-oh
+
+origin: neo-revelation-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 250
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Stoke
+    text: You may search your deck for a Fire Energy card and attach it to Ho-Oh. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Sacred Fire
+    text: Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: Dive Bomb
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

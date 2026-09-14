@@ -1,0 +1,49 @@
+name: Tangrowth
+
+origin: lost-thunder-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Tangela
+
+dex: 465
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Hefty Whip
+    text: If this Pokémon was healed during this turn, this attack does 130 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Whip Smash
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

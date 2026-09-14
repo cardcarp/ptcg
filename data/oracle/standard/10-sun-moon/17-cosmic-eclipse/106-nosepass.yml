@@ -1,0 +1,43 @@
+name: Nosepass
+
+origin: cosmic-eclipse-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 299
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Draw Toward
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Zap Cannon
+    text: This Pokémon can't use Zap Cannon during your next turn.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,47 @@
+name: Gumshoos
+
+origin: sun-moon-black-star-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 110
+
+preevolution:
+  - Yungoos
+
+dex: 735
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Identify
+    text: Your opponent reveals their hand. If you find a Pokémon there, this attack does 80 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Whap Down
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,50 @@
+name: Musharna
+
+origin: sword-shield-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Munna
+
+dex: 518
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sleepy Pulse
+    text: Your opponent's Active Pokémon is now Asleep. During Pokémon Checkup, your opponent flips 2 coins instead of 1. If either of them is tails, that Pokémon is still Asleep.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Super Hypnoblast
+    text: If your opponent's Active Pokémon is Asleep, this attack does 120 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

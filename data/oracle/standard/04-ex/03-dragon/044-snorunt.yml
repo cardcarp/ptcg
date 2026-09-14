@@ -1,0 +1,35 @@
+name: Snorunt
+
+origin: dragon-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 361
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Powder Snow
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

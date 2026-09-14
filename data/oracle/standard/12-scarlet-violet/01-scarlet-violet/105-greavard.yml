@@ -1,0 +1,47 @@
+name: Greavard
+
+origin: scarlet-violet-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 971
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Underworld Stroll
+    text: Your opponent reveals their hand. Choose a Supporter card you find there and put it on the bottom of their deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

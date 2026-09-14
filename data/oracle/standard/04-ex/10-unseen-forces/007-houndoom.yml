@@ -1,0 +1,50 @@
+name: Houndoom
+
+origin: unseen-forces-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Ability
+    name: Lonesome
+    text: As long as you have less Pokémon in play than your opponent, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tight Jaw
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard a Fire Energy attached to Houndoom.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

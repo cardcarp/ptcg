@@ -1,0 +1,48 @@
+name: Swoobat
+
+origin: white-flare-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Woobat
+
+dex: 528
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Happy Return
+    text: Put 1 of your Benched Pokémon and all attached cards into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

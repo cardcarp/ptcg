@@ -1,0 +1,58 @@
+name: Zoroark-GX
+
+origin: sun-moon-black-star-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Darkness
+
+hp: 210
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: Ability
+    name: Trade
+    text: Once during your turn (before your attack), you may discard a card from your hand. If you do, draw 2 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Riotous Beating
+    text: This attack does 20 damage for each of your Pokémon in play.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Trickster-GX
+    text: Choose 1 of your opponent's Pokémon's attacks and use it as this attack. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

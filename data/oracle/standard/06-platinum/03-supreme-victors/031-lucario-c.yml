@@ -1,0 +1,44 @@
+name: Lucario C
+
+origin: supreme-victors-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 448
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Metal Claw
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mid-air Strike
+    text: Flip a coin. If heads, this attack does 30 damage plus 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

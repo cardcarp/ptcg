@@ -1,0 +1,45 @@
+name: Hawlucha
+
+origin: steam-siege-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 701
+
+rule:
+  - type: Ability
+    name: Sudden Cyclone
+    text: When you play this Pokémon from your hand onto your Bench, you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Acrobatics
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,50 @@
+name: Team Rocket's Persian ex
+
+origin: scarlet-violet-black-star-218
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 260
+
+preevolution:
+  - Team Rocket's Meowth
+
+dex: 53
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Haughty Order
+    text: Reveal the top 10 cards of your opponent's deck. You may choose an attack from a Pokémon you find there and use it as this attack. Shuffle the revealed cards into your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Cruel Slash
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 140
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

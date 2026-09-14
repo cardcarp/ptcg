@@ -1,0 +1,52 @@
+name: Braviary
+
+origin: cosmic-eclipse-178
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Rufflet
+
+dex: 628
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Clutch
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Aero Fall
+    text: Discard 2 Energy from this Pokémon.
+    damage: 140
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

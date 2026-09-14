@@ -1,0 +1,44 @@
+name: Radiant Blastoise
+
+origin: pokemon-go-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Radiant
+
+type:
+  - Water
+
+hp: 150
+
+dex: 9
+
+rule:
+  - type: Ability
+    name: Pump Shot
+    text: You must discard a Water Energy card from your hand in order to use this Ability. Once during your turn, you may put 2 damage counters on 1 of your opponent's Benched Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Torrential Cannon
+    text: During your next turn, this Pokémon can't use Torrential Cannon.
+    damage: 170
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+errata: []

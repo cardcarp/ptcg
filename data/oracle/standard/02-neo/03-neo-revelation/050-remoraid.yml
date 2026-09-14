@@ -1,0 +1,32 @@
+name: Remoraid
+
+origin: neo-revelation-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 223
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Sharpshooting
+    text: Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,48 @@
+name: Alolan Raticate
+
+origin: burning-shadows-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Alolan Rattata
+
+dex: 20
+
+rule:
+  - type: Attack
+    name: Enhanced Fang
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 50 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+    name: Hyper Fang
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

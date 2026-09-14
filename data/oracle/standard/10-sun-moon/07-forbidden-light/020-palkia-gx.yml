@@ -1,0 +1,57 @@
+name: Palkia-GX
+
+origin: forbidden-light-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Water
+
+hp: 180
+
+dex: 484
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Spatial Control
+    text: Move any number of Energy from your Benched Pokémon to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hydro Pressure
+    text: This attack does 20 more damage times the amount of Water Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Zero Vanish-GX
+    text: Shuffle all Energy from each of your opponent's Pokémon into their deck. (You can't use more than 1 GX attack in a game.)
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

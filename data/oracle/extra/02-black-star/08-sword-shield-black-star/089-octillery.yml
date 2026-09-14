@@ -1,0 +1,43 @@
+name: Octillery
+
+origin: sword-shield-black-star-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Remoraid
+
+dex: 224
+
+rule:
+  - type: Ability
+    name: Rapid Strike Search
+    text: Once during your turn, you may search your deck for a Rapid Strike card, reveal it, and put it into your hand. Then, shuffle your deck. You can't use more than 1 Rapid Strike Search Ability each turn.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Waterfall
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

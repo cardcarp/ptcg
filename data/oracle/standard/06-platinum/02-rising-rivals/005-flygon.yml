@@ -1,0 +1,54 @@
+name: Flygon
+
+origin: rising-rivals-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: Ability
+    name: Rainbow Float
+    text: If any basic Energy card attached to Flygon is the same type as any of your Pokémon, the Retreat Cost for those Pokémon is 0.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sand Wall
+    text: Discard a Stadium card your opponent has in play. If you do, prevent all effects of an attack, including damage, done to Flygon during your opponent's next turn.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Swing
+    text: Does 60 damage plus 10 more damage for each Evolved Pokémon on your Bench.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Colorless
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+errata: []

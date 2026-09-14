@@ -1,0 +1,35 @@
+name: Torchic
+
+origin: xy-black-star-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 255
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Ember
+    text: Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

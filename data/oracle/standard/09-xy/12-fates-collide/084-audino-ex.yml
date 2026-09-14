@@ -1,0 +1,48 @@
+name: Audino-EX
+
+origin: fates-collide-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Colorless
+
+hp: 180
+
+dex: 531
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Drain Slap
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Do the Wave
+    text: This attack does 10 more damage for each of your Benched Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

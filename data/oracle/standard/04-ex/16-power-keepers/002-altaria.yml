@@ -1,0 +1,57 @@
+name: Altaria
+
+origin: power-keepers-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: Ability
+    name: Synergy Effect
+    text: If Drake's Stadium is in play, remove 1 damage counter from Altaria between turns.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Surprise
+    text: Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Gust
+    damage: 50
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

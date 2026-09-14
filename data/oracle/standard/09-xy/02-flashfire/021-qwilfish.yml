@@ -1,0 +1,39 @@
+name: Qwilfish
+
+origin: flashfire-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 211
+
+rule:
+  - type: Ability
+    name: Counterattack Quills
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

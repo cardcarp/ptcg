@@ -1,0 +1,44 @@
+name: Persian
+
+origin: skyridge-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Surprise Slash
+    text: Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. You opponent shuffles that card into his or her deck.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

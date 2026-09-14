@@ -1,0 +1,48 @@
+name: Rhyperior
+
+origin: xy-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Rhydon
+
+dex: 464
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Black
+    text: Flip a coin for each Fighting Energy attached to this Pokémon. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rock Wrecker
+    text: This attack's damage isn't affected by Weakness or Resistance. This Pokémon can't attack during your next turn.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

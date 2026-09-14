@@ -1,0 +1,44 @@
+name: Dhelmise
+
+origin: temporal-forces-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 130
+
+dex: 781
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spinning Attack
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Steel Anchor
+    text: If you have any Metal Pokémon on your Bench, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,44 @@
+name: Espurr
+
+origin: perfect-order-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 677
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Heal 20 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Stampede
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

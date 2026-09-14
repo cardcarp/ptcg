@@ -1,0 +1,49 @@
+name: Miraidon ex
+
+origin: ascended-heroes-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Lightning
+
+hp: 220
+
+dex: 1008
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Slashing Claw
+    damage: 40
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Hadron Spark
+    text: If your opponent's Active Pokémon is a Pokémon ex, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

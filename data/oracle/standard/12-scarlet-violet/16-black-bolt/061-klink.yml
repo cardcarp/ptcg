@@ -1,0 +1,40 @@
+name: Klink
+
+origin: black-bolt-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 599
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Hard Gears
+    text: During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,49 @@
+name: Wailord
+
+origin: ruby-sapphire-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Take Down
+    text: Wailord does 20 damage to itself.
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

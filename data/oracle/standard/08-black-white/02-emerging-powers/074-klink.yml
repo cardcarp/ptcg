@@ -1,0 +1,48 @@
+name: Klink
+
+origin: emerging-powers-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 599
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spinning Attack
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Gear Grind
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

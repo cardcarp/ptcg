@@ -1,0 +1,44 @@
+name: Klefki
+
+origin: surging-sparks-128
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 707
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stick 'n' Draw
+    text: Discard a card from your hand. If you do, draw 2 cards.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hook
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

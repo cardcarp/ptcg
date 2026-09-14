@@ -1,0 +1,45 @@
+name: Maushold
+
+origin: scarlet-violet-161
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Tandemaus
+
+dex: 925
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slap
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Family Attack
+    text: This attack does 70 damage for each of your Maushold in play.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,38 @@
+name: Charjabug
+
+origin: temporal-forces-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Grubbin
+
+dex: 737
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Static Shock
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

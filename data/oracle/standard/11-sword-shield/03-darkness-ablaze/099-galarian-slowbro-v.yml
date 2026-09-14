@@ -1,0 +1,44 @@
+name: Galarian Slowbro V
+
+origin: darkness-ablaze-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 80
+
+rule:
+  - type: Ability
+    name: Rapid-Fire Poison
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent's Active Pokémon Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Tripping Shot
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

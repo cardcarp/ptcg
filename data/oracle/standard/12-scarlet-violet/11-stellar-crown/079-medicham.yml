@@ -1,0 +1,39 @@
+name: Medicham
+
+origin: stellar-crown-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Double Smash
+    text: Flip 2 coins. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

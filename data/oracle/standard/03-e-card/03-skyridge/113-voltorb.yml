@@ -1,0 +1,41 @@
+name: Voltorb
+
+origin: skyridge-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Magnetic Pull
+    text: If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Spin Tackle
+    text: Voltorb does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

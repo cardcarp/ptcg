@@ -1,0 +1,35 @@
+name: Clamperl
+
+origin: destined-rivals-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 366
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Shell Press
+    text: During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

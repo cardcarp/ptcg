@@ -1,0 +1,47 @@
+name: Avalugg
+
+origin: chaos-rising-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 160
+
+preevolution:
+  - Bergmite
+
+dex: 713
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Iceberg Breaker
+    text: Discard the top 6 cards of your deck, and this attack does 60 damage for each Basic Water Energy card you discarded in this way.
+    damage: 60
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Frost Stamp
+    damage: 160
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

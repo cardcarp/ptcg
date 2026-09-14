@@ -1,0 +1,44 @@
+name: Genesect
+
+origin: legendary-treasures-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 649
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Slash
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gaia Blaster
+    text: Does 20 more damage for each Grass Energy attached to this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

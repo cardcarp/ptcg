@@ -1,0 +1,47 @@
+name: Donphan
+
+origin: celestial-storm-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Phanpy
+
+dex: 232
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Flail
+    text: This attack does 10 damage for each damage counter on this Pokémon.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Rapid Spin
+    text: Switch this Pokémon with 1 of your Benched Pokémon. If you do, your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

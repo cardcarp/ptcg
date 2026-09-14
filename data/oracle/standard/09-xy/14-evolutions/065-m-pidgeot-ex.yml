@@ -1,0 +1,48 @@
+name: M Pidgeot-EX
+
+origin: evolutions-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Colorless
+
+hp: 220
+
+preevolution:
+  - Pidgeot-EX
+
+dex: 18
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mach Cyclone
+    text: You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

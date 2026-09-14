@@ -1,0 +1,46 @@
+name: Zweilous
+
+origin: dragons-exalted-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 80
+
+preevolution:
+  - Deino
+
+dex: 634
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Darkness
+      - Darkness
+    name: Dragon Claw
+    damage: 80
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

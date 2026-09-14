@@ -1,0 +1,50 @@
+name: Lairon
+
+origin: undaunted-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Aron
+
+dex: 305
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Scrap Attack
+    text: Flip a coin. If heads, search your discard pile for a Metal Energy card and attach it to Lairon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Tackle
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

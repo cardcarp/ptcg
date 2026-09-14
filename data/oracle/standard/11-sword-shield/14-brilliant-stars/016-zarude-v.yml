@@ -1,0 +1,48 @@
+name: Zarude V
+
+origin: brilliant-stars-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Grass
+
+hp: 220
+
+dex: 893
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Leap to Leap
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Jungle Rage
+    text: If your opponent's Active Pokémon is a Pokémon V, this attack does 120 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

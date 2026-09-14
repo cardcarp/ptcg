@@ -1,0 +1,47 @@
+name: Lucario
+
+origin: pop-series-8-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Blocking Punch
+    text: During your opponent's next turn, any damage done to Lucario by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Striking Kick
+    text: This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

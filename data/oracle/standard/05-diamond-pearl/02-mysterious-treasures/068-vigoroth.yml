@@ -1,0 +1,47 @@
+name: Vigoroth
+
+origin: mysterious-treasures-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Slakoth
+
+dex: 288
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Wake-up Punch
+    text: If Vigoroth evolved from Slakoth during this turn and Slakoth was Asleep, this attack's base damage is 60 instead of 10.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Togekiss
+
+origin: unbroken-bonds-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fairy
+
+hp: 140
+
+preevolution:
+  - Togetic
+
+dex: 468
+
+rule:
+  - type: Ability
+    name: Fairy Feast
+    text: Once during your turn (before your attack), you may heal 30 damage from each of your Fairy Pokémon.
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Magical Shot
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

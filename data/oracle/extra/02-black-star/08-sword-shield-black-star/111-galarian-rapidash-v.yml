@@ -1,0 +1,52 @@
+name: Galarian Rapidash V
+
+origin: sword-shield-black-star-111
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 210
+
+dex: 78
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Libra Horn
+    text: Put damage counters on 1 of your opponent's Pokémon until its remaining HP is 100.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Psychic
+    text: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

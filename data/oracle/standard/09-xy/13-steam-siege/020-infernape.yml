@@ -1,0 +1,46 @@
+name: Infernape
+
+origin: steam-siege-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Monferno
+
+dex: 392
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare Blitz
+    text: Discard all Fire Energy attached to this Pokémon.
+    damage: 120
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flare Up
+    text: If you have fewer than 10 Fire Energy cards in your discard pile, this attack does nothing. Shuffle 10 Fire Energy cards from your discard pile into your deck.
+    damage: 200
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

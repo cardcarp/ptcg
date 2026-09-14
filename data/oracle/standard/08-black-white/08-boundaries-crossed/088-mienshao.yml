@@ -1,0 +1,48 @@
+name: Mienshao
+
+origin: boundaries-crossed-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Mienfoo
+
+dex: 620
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Knock Off
+    text: Discard a random card from your opponent's hand.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Double Whip
+    text: Flip 2 coins. This attack does 70 damage times the number of heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

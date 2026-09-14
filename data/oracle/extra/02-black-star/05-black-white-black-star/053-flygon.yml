@@ -1,0 +1,44 @@
+name: Flygon
+
+origin: black-white-black-star-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 140
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: Ability
+    name: Sand Slammer
+    text: At any time between turns, if this Pokémon is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Flying Beatdown
+    text: You may discard a Grass Energy and a Fighting Energy attached to this Pokémon. If you do, the Defending Pokémon is now Paralyzed.
+    damage: 80
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

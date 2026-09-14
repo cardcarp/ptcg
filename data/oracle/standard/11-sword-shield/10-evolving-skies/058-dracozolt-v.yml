@@ -1,0 +1,47 @@
+name: Dracozolt V
+
+origin: evolving-skies-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 220
+
+dex: 880
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Primeval Beak
+    text: During your opponent's next turn, Energy cards can't be attached from your opponent's hand to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Mountain Swing
+    text: Discard the top 3 cards of your deck.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

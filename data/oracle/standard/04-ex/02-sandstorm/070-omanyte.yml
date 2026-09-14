@@ -1,0 +1,44 @@
+name: Omanyte
+
+origin: sandstorm-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 138
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Team Assembly
+    text: Search your deck for Omanyte, Kabuto, or any Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward. Treat the new Benched Pokémon as Basic Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bind
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

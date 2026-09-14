@@ -1,0 +1,53 @@
+name: Steelix
+
+origin: mega-evolution-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 200
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Welcoming Tail
+    text: If you have exactly 6 Prize cards remaining, this attack does 200 more damage.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Skull Bash
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

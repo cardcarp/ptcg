@@ -1,0 +1,42 @@
+name: Magcargo
+
+origin: celestial-storm-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: Ability
+    name: Smooth Over
+    text: Once during your turn (before your attack), you may search your deck for a card, shuffle your deck, then put that card on top of it.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Combustion
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

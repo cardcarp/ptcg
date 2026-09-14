@@ -1,0 +1,49 @@
+name: Swanna
+
+origin: cosmic-eclipse-060
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Ducklett
+
+dex: 581
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tailwind
+    text: Attach an Energy card from your hand to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Air Slash
+    text: Discard an Energy from this Pokémon.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

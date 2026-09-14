@@ -1,0 +1,44 @@
+name: Vaporeon ☆
+
+origin: power-keepers-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Star
+
+type:
+  - Water
+
+hp: 70
+
+dex: 134
+
+rule:
+  - type: Ability
+    name: Blue Ray
+    text: Once during your turn, when you put Vaporeon Star from your hand onto your Bench, you may remove all Special Conditions and 3 damage counters from each Active Pokémon (both yours and your opponent's).
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Whirlpool
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+errata: []

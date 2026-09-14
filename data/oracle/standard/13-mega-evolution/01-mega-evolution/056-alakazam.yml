@@ -1,0 +1,45 @@
+name: Alakazam
+
+origin: mega-evolution-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Kadabra
+
+dex: 65
+
+rule:
+  - type: Ability
+    name: Psychic Draw
+    text: Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Draw 3 cards.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Powerful Hand
+    text: Place 2 damage counters on your opponent's Active Pokémon for each card in your hand.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

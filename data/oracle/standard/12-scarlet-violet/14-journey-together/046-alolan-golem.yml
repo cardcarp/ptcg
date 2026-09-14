@@ -1,0 +1,43 @@
+name: Alolan Golem
+
+origin: journey-together-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 180
+
+dex: 76
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electromagnetic Catapult
+    text: Flip a coin until you get tails. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Megaton Fall
+    text: This Pokémon also does 40 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

@@ -1,0 +1,41 @@
+name: Grimer
+
+origin: darkness-ablaze-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 88
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Stomp Off
+    text: Discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Sludge Whirlpool
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

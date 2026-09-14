@@ -1,0 +1,48 @@
+name: Mimikyu ex
+
+origin: scarlet-violet-black-star-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Psychic
+
+hp: 190
+
+dex: 778
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Void Return
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Energy Burst
+    text: This attack does 30 damage for each Energy attached to both Active Pokémon.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,48 @@
+name: Dewgong
+
+origin: firered-leafgreen-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Seel
+
+dex: 87
+
+rule:
+  - type: Ability
+    name: Safeguard
+    text: Prevent all effects of attacks, including damage, done to Dewgong by your opponent's Pokémon-ex.
+  - type: Attack
+    cost:
+      - Water
+    name: Cold Breath
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Aurora Beam
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,47 @@
+name: Gallade
+
+origin: legendary-treasures-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Kirlia
+
+dex: 475
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Nerve Shot
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Pandemonium Blade
+    text: Does 20 more damage for each of your Benched Pokémon that has any damage counters on it.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

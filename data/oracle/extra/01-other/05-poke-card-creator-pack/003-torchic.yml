@@ -1,0 +1,43 @@
+name: Torchic
+
+origin: poke-card-creator-pack-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 255
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Super Singe
+    text: The Defending Pokémon is now Burned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flamethrower
+    text: Discard a Fire Energy card attached to Torchic.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

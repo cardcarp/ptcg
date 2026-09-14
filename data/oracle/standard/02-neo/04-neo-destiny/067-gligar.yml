@@ -1,0 +1,39 @@
+name: Gligar
+
+origin: neo-destiny-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 207
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Stun Poison
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

@@ -1,0 +1,40 @@
+name: Sinistcha
+
+origin: pitch-black-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Poltchageist
+
+dex: 1013
+
+rule:
+  - type: Ability
+    name: Hide 'n' Sneak
+    text: Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)
+  - type: Attack
+    cost:
+      - Colorless
+    name: Matcha Spin
+    text: If you have 6 or more Pokémon that have the Hide 'n' Sneak Ability in your discard pile, place 4 damage counters on each of your opponent's Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

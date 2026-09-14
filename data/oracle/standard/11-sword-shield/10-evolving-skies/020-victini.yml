@@ -1,0 +1,36 @@
+name: Victini
+
+origin: evolving-skies-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 494
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Victory Dive
+    text: You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

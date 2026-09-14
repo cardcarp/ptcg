@@ -1,0 +1,48 @@
+name: Raichu
+
+origin: burning-shadows-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Ability
+    name: Evoshock
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may leave your opponent's Active Pokémon Paralyzed.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Volt Tackle
+    text: This Pokémon does 30 damage to itself.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

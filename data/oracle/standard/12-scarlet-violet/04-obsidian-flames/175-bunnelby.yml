@@ -1,0 +1,36 @@
+name: Bunnelby
+
+origin: obsidian-flames-175
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 659
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stompy Stomp
+    text: Flip 2 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

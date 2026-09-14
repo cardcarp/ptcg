@@ -1,0 +1,38 @@
+name: Nuzleaf
+
+origin: lost-origin-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Seedot
+
+dex: 274
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Push Down
+    text: You may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

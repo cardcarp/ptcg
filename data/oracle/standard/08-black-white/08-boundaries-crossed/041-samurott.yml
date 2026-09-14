@@ -1,0 +1,47 @@
+name: Samurott
+
+origin: boundaries-crossed-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 140
+
+preevolution:
+  - Dewott
+
+dex: 503
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Destructive Whirlpool
+    text: Discard an Energy attached to the Defending Pokémon.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

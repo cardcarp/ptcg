@@ -1,0 +1,47 @@
+name: Ninetales-EX
+
+origin: generations-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fire
+
+hp: 170
+
+dex: 38
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flare Bonus
+    text: Discard a Fire Energy card from your hand. If you do, draw 3 cards.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fire Blast
+    text: Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,43 @@
+name: Anorith
+
+origin: sandstorm-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Claw Fossil
+
+dex: 347
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fast Evolution
+    text: Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Pierce
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

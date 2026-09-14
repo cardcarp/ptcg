@@ -1,0 +1,40 @@
+name: Swinub
+
+origin: triumphant-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 220
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Headbutt
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ice Ball
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

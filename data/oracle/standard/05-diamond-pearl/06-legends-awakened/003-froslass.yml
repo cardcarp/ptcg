@@ -1,0 +1,44 @@
+name: Froslass
+
+origin: legends-awakened-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Snorunt
+
+dex: 478
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Destiny Bond
+    text: Discard a Psychic Energy attached to Froslass. During your opponent's next turn, if Froslass would be Knocked Out by damage from an attack, the Attacking Pokémon is Knocked Out.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Breath
+    text: The Defending Pokémon is now Asleep. Put 1 damage counter on each of your opponent's Benched Pokémon.
+    damage: 40
+
+weakness:
+  - type: Metal
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

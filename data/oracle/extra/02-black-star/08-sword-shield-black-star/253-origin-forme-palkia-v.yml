@@ -1,0 +1,46 @@
+name: Origin Forme Palkia V
+
+origin: sword-shield-black-star-253
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 220
+
+dex: 484
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Rule the Region
+    text: Search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hydro Break
+    text: During your next turn, this Pokémon can't attack.
+    damage: 200
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

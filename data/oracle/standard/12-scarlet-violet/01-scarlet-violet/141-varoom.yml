@@ -1,0 +1,41 @@
+name: Varoom
+
+origin: scarlet-violet-141
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 80
+
+dex: 965
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

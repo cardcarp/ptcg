@@ -1,0 +1,45 @@
+name: Drifloon
+
+origin: supreme-victors-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 425
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Reckless Charge
+    text: Drifloon does 10 damage to itself.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+    name: Collect
+    text: Draw a card.
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

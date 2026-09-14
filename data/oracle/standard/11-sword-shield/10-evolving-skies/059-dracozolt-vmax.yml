@@ -1,0 +1,49 @@
+name: Dracozolt VMAX
+
+origin: evolving-skies-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Lightning
+
+hp: 330
+
+preevolution:
+  - Dracozolt V
+
+dex: 880
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Spark Trap
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.
+    damage: 60
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Max Impact
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

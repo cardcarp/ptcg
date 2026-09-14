@@ -1,0 +1,42 @@
+name: Venomoth
+
+origin: silver-tempest-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Venonat
+
+dex: 49
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Miracle Powder
+    text: Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Gust
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

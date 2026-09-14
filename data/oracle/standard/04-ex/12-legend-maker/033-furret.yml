@@ -1,0 +1,48 @@
+name: Furret
+
+origin: legend-maker-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Sentret
+
+dex: 162
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Do the Wave
+    text: Does 10 damage plus 10 more for each of your Benched Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

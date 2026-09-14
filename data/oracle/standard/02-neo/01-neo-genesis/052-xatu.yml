@@ -1,0 +1,50 @@
+name: Xatu
+
+origin: neo-genesis-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Natu
+
+dex: 178
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Prophecy
+    text: Look at the top 3 cards of either player's deck and rearrange them as you like.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Confuse Ray
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,37 @@
+name: Roggenrola
+
+origin: sun-moon-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 524
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Smack Down
+    text: If your opponent's Active Pokémon has Fighting Resistance, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

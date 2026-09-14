@@ -1,0 +1,43 @@
+name: Zygarde
+
+origin: vivid-voltage-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 150
+
+dex: 718
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Beam
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Core Avenger
+    text: If you have more Prize cards remaining than your opponent, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

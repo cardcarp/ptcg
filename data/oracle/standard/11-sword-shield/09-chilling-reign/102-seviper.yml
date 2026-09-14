@@ -1,0 +1,39 @@
+name: Seviper
+
+origin: chilling-reign-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 336
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Strong Tail
+    text: If you played a Single Strike Supporter card from your hand during this turn, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

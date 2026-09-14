@@ -1,0 +1,47 @@
+name: Lt. Surge's Raichu
+
+origin: gym-heroes-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Lt. Surge's Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Mega Punch
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Thunderbolt
+    text: Discard all Energy cards attached to Lt. Surge's Raichu in order to use this attack.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Hoopa
+
+origin: unified-minds-140
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 130
+
+dex: 720
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Evil Admonition
+    text: This attack does 20 more damage for each of your opponent's Pokémon that has an Ability.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Mind Shock
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

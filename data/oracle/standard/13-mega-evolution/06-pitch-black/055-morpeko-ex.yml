@@ -1,0 +1,46 @@
+name: Morpeko ex
+
+origin: pitch-black-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 180
+
+dex: 877
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Wheely Draw
+    text: Shuffle your hand into your deck. Then, draw 6 cards.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Hangry Blaster
+    text: This attack does 40 more damage for each damage counter on this Pokémon.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

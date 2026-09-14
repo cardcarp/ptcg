@@ -1,0 +1,63 @@
+name: Guzzlord-GX
+
+origin: crimson-invasion-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+  - Ultra Beast
+
+type:
+  - Darkness
+
+hp: 210
+
+dex: 799
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Eat Sloppily
+    text: Discard the top 5 cards of your deck. If any of those cards are Energy cards, attach them to this Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Tyrannical Hole
+    damage: 180
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+    name: Glutton-GX
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards. (You can't use more than 1 GX attack in a game.)
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

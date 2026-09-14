@@ -1,0 +1,49 @@
+name: Mamoswine
+
+origin: astral-radiance-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Piloswine
+
+dex: 473
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Blizzard
+    text: This attack also does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 80
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Iceberg Press
+    text: Discard an Energy from this Pokémon. During your opponent's next turn, the Defending Pokémon can't attack.
+    damage: 170
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

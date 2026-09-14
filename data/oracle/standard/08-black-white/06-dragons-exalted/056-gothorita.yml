@@ -1,0 +1,46 @@
+name: Gothorita
+
+origin: dragons-exalted-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Gothita
+
+dex: 575
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hypnoblast
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mind Shock
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

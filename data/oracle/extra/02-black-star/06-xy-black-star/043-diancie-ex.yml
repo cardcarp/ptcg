@@ -1,0 +1,54 @@
+name: Diancie-EX
+
+origin: xy-black-star-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Fairy
+
+hp: 140
+
+dex: 719
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Moonblast
+    text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+    damage: 20
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Luminous Swirl
+    text: Flip 2 coins. This attack does 40 more damage for each heads.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

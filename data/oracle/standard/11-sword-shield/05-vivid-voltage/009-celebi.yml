@@ -1,0 +1,42 @@
+name: Celebi
+
+origin: vivid-voltage-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 251
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Energy Press
+    text: This attack does 30 damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Lightning
+      - Psychic
+    name: Amazing Bloom
+    text: For each of your Benched Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

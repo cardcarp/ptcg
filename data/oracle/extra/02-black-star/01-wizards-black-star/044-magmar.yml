@@ -1,0 +1,43 @@
+name: Magmar
+
+origin: wizards-black-star-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Burning Fire
+    text: When you use this attack, you may discard any number of Fire Energy cards attached to your Pokémon in play. This attack does 10 damage plus 10 more damage for each Fire Energy card you discarded in this way.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Magma Punch
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

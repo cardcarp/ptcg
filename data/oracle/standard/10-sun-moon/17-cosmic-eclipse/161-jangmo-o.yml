@@ -1,0 +1,41 @@
+name: Jangmo-o
+
+origin: cosmic-eclipse-161
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 70
+
+dex: 782
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Gnaw
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Fighting
+      - Colorless
+    name: Dragon Headbutt
+    damage: 50
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,39 @@
+name: Audino
+
+origin: unified-minds-177
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 531
+
+rule:
+  - type: Ability
+    name: Hearing
+    text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may draw a card.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Drain Slap
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

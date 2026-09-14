@@ -1,0 +1,50 @@
+name: Wigglytuff
+
+origin: xy-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 100
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gather Energy
+    text: Search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Hocus Pinkus
+    text: The Defending Pokémon can't attack during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

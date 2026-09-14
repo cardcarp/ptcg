@@ -1,0 +1,50 @@
+name: Houndoom E4
+
+origin: rising-rivals-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Darkness
+
+hp: 80
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Corner
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Fang
+    text: The Defending Pokémon is now Burned.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

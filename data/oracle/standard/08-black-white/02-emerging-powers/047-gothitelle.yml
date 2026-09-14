@@ -1,0 +1,44 @@
+name: Gothitelle
+
+origin: emerging-powers-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Gothorita
+
+dex: 576
+
+rule:
+  - type: Ability
+    name: Magic Room
+    text: As long as this Pokémon is your Active Pokémon, your opponent can't play any Item cards from his or her hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Madkinesis
+    text: Does 20 more damage for each Psychic Energy attached to this Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,43 @@
+name: Sawk
+
+origin: plasma-blast-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 90
+
+dex: 539
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Kick of Righteousness
+    text: If the Defending Pokémon is a Team Plasma Pokémon, this attack does 40 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Low Sweep
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

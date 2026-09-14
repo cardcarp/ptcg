@@ -1,0 +1,42 @@
+name: Jynx
+
+origin: secret-wonders-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 124
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Icy Kiss
+    text: If Jynx was damaged by an attack during your opponent's last turn, the Defending Pokémon is now Paralyzed.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Lovely Kiss
+    text: Move 2 damage counters from Jynx to the Defending Pokémon. If Smoochum is anywhere under Jynx, move 4 damage counters instead.
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

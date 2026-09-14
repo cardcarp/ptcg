@@ -1,0 +1,52 @@
+name: Gholdengo
+
+origin: surging-sparks-131
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Gimmighoul
+
+dex: 1000
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Strike It Rich
+    text: If this Pokémon evolved from Gimmighoul during this turn, this attack does 90 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Surf Back
+    text: You may shuffle this Pokémon and all attached cards into your deck.
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

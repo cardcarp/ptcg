@@ -1,0 +1,41 @@
+name: Croagunk
+
+origin: pop-series-9-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 453
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Knock Off
+    text: Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Nimble
+    text: If you have Turtwig in play, remove from Croagunk the number of damage counters equal to the damage you did to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,41 @@
+name: Lickitung
+
+origin: temporal-forces-124
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 108
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tongue Pull
+    text: Your opponent reveals their hand. Put up to 2 Basic Pokémon you find there onto your opponent's Bench.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strength
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

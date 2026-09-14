@@ -1,0 +1,41 @@
+name: Team Aqua's Corphish
+
+origin: team-magma-vs-team-aqua-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 341
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Slash
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slow-Acting Poison
+    text: At the end of your opponent's next turn, the Defending Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

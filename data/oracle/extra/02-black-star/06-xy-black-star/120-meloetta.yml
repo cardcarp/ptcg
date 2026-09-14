@@ -1,0 +1,41 @@
+name: Meloetta
+
+origin: xy-black-star-120
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 648
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Soprano Wave
+    text: Flip 3 coins. This attack does 10 damage times the number of heads to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Entrancing Melody
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

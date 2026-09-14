@@ -1,0 +1,50 @@
+name: Honchkrow
+
+origin: guardians-rising-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Murkrow
+
+dex: 430
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Feint Attack
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. This damage isn't affected by Weakness, Resistance, or any other effects on that Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Raven's Claw
+    text: This attack does 10 more damage for each damage counter on all of your opponent's Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

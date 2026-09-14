@@ -1,0 +1,40 @@
+name: Purrloin
+
+origin: paradox-rift-114
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 509
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cat Kick
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,51 @@
+name: Mismagius
+
+origin: platinum-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Upper Hand
+    text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psybeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

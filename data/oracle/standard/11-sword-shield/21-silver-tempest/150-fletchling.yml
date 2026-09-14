@@ -1,0 +1,37 @@
+name: Fletchling
+
+origin: silver-tempest-150
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 661
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Peck
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

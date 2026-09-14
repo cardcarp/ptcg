@@ -1,0 +1,37 @@
+name: Staryu
+
+origin: hidden-legends-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 120
+
+rule:
+  - type: Ability
+    name: Core Guard
+    text: If Staryu has any Psychic Energy attached to it, damage done to Staryu by any attack is reduced by 10 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Water
+    name: Pound
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

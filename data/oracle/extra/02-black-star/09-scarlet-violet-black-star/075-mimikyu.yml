@@ -1,0 +1,38 @@
+name: Mimikyu
+
+origin: scarlet-violet-black-star-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 778
+
+rule:
+  - type: Ability
+    name: Safeguard
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex and Pokémon V.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Ghost Eye
+    text: Put 7 damage counters on your opponent's Active Pokémon.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

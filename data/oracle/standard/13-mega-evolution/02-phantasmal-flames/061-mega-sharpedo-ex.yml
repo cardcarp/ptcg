@@ -1,0 +1,49 @@
+name: Mega Sharpedo ex
+
+origin: phantasmal-flames-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - MEGA
+  - ex
+
+type:
+  - Darkness
+
+hp: 330
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Greedy Fang
+    text: Draw 2 cards.
+    damage: 70
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Hungry Jaws
+    text: If this Pokémon has any damage counters on it, this attack does 150 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

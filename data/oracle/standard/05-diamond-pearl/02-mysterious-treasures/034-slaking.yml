@@ -1,0 +1,43 @@
+name: Slaking
+
+origin: mysterious-treasures-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Vigoroth
+
+dex: 289
+
+rule:
+  - type: Ability
+    name: Energetic Impulse
+    text: Once during your turn (before your attack), if Slaking is your Active Pokémon, you may flip a coin. If heads, Slaking's Lazy Blow attack's base damage is 130 during this turn. If tails, Slaking can't attack or retreat during this turn. (If Slaking is no longer your Active Pokémon, this effect ends.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Lazy Blow
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+retreat: 4
+
+errata: []

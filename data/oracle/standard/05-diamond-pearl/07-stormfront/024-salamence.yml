@@ -1,0 +1,55 @@
+name: Salamence
+
+origin: stormfront-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: Ability
+    name: Battle Rush
+    text: If your opponent has any Pokémon in play that has maximum HP of 120 or more, ignore all Colorless Energy necessary to use Salamence's attacks.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Combustion
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+      - Colorless
+    name: Steam Twister
+    text: Discard a Fire Energy and a Water Energy attached to Salamence.
+    damage: 120
+
+weakness:
+  - type: Colorless
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

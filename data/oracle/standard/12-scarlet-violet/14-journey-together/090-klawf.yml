@@ -1,0 +1,42 @@
+name: Klawf
+
+origin: journey-together-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 950
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Snipping Pincers
+    text: Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

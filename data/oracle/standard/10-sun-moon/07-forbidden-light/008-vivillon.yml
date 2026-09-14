@@ -1,0 +1,43 @@
+name: Vivillon
+
+origin: forbidden-light-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Spewpa
+
+dex: 666
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Vivid Powder
+    text: Your opponent's Active Pokémon is now Asleep and Poisoned.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Mareep
+
+origin: dragons-exalted-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 179
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cotton Guard
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder Jolt
+    text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

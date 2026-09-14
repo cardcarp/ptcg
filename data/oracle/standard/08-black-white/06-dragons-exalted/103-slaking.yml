@@ -1,0 +1,44 @@
+name: Slaking
+
+origin: dragons-exalted-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Vigoroth
+
+dex: 289
+
+rule:
+  - type: Ability
+    name: Unobservant
+    text: If your opponent's Active Pokémon is a Basic Pokémon, this Pokémon can't attack.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Crushing Blow
+    text: Discard an Energy attached to the Defending Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

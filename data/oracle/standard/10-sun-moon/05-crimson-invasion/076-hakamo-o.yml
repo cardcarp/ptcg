@@ -1,0 +1,43 @@
+name: Hakamo-o
+
+origin: crimson-invasion-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 90
+
+preevolution:
+  - Jangmo-o
+
+dex: 783
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Noble Roar
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Fighting
+    name: Dragon Claw
+    damage: 40
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

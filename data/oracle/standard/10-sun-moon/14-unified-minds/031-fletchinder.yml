@@ -1,0 +1,38 @@
+name: Fletchinder
+
+origin: unified-minds-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Fletchling
+
+dex: 662
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flame Charge
+    text: Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

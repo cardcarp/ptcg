@@ -1,0 +1,41 @@
+name: Impidimp
+
+origin: stellar-crown-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 859
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smack
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Claw Slash
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

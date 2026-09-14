@@ -1,0 +1,44 @@
+name: Jynx
+
+origin: expedition-base-set-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 124
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Ice Punch
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Powder Snow
+    text: The Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

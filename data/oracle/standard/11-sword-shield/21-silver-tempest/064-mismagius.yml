@@ -1,0 +1,45 @@
+name: Mismagius
+
+origin: silver-tempest-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: Ability
+    name: Spiteful Magic
+    text: If this Pokémon has full HP and is Knocked Out by damage from an attack from your opponent's Pokémon, put 8 damage counters on the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Eerie Voice
+    text: Put 2 damage counters on each of your opponent's Pokémon.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Hypno
+
+origin: furious-fists-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hand Control
+    text: Your opponent reveals his or her hand. You may choose a Supporter card you find there. If you do, your opponent plays that Supporter card. However, you make all decisions for that card. (That Supporter card is discarded.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Hypnoblast
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

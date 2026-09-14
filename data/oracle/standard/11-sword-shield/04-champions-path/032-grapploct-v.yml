@@ -1,0 +1,48 @@
+name: Grapploct V
+
+origin: champions-path-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 210
+
+dex: 853
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Tie Up
+    text: If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Moonsault Press
+    text: Flip a coin. If heads, this attack does 100 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

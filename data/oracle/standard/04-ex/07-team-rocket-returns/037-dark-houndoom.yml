@@ -1,0 +1,48 @@
+name: Dark Houndoom
+
+origin: team-rocket-returns-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Ability
+    name: Fire Breath
+    text: Once during your turn (before your attack), if Dark Houndoom is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Burned. This power can't be used if Dark Houndoom is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Fire Payback
+    text: If you have less Benched Pokémon than your opponent, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Fire Darkness type.
+
+errata: []

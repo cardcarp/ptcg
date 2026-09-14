@@ -1,0 +1,36 @@
+name: Nidoran ♂
+
+origin: evolutions-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 32
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Double Stab
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

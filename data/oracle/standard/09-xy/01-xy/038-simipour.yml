@@ -1,0 +1,44 @@
+name: Simipour
+
+origin: xy-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Panpour
+
+dex: 516
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Recycle
+    text: Put a card from your discard pile on top of your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Surf
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

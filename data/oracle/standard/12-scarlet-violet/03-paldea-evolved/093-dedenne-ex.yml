@@ -1,0 +1,49 @@
+name: Dedenne ex
+
+origin: paldea-evolved-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Tera
+  - ex
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 702
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Tail Swap
+    text: Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Wondrous Shot
+    text: Discard an Energy from this Pokémon.
+    damage: 170
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

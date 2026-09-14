@@ -1,0 +1,45 @@
+name: Heatran
+
+origin: pop-series-8-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 100
+
+dex: 485
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Body Slam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Spin
+    text: Discard 2 Basic Energy cards attached to Heatran. (If you can't discard cards, this attack does nothing.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 30
+    operator: +
+
+retreat: 3
+
+errata: []

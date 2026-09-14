@@ -1,0 +1,54 @@
+name: Tyranitar
+
+origin: team-up-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Pupitar
+
+dex: 248
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Spinning Tail
+    text: This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Bite Off
+    text: If your opponent's Active Pokémon is a Pokémon-GX or a Pokémon-EX, this attack does 100 more damage.
+    damage: 130
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

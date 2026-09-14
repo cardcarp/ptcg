@@ -1,0 +1,45 @@
+name: Zygarde
+
+origin: sun-moon-black-star-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 150
+
+dex: 718
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Land Crush
+    damage: 80
+  - type: Attack
+    cost:
+      - Darkness
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Core Enforcer
+    text: Discard a Darkness Energy and a Fairy Energy attached to this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

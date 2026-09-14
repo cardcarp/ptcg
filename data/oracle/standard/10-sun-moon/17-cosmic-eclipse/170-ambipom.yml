@@ -1,0 +1,45 @@
+name: Ambipom
+
+origin: cosmic-eclipse-170
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Aipom
+
+dex: 424
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nice-Nice Catch
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bye-Bye Throw
+    text: Discard up to 2 cards from your hand. This attack does 60 damage for each card you discarded in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

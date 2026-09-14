@@ -1,0 +1,52 @@
+name: Lunala
+
+origin: guardians-rising-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 160
+
+preevolution:
+  - Cosmoem
+
+dex: 792
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Shatter Shot
+    text: This attack does 40 damage times the amount of Psychic Energy attached to this Pokémon.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Wings of the Moone
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you like.
+    damage: 130
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

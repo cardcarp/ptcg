@@ -1,0 +1,45 @@
+name: Pachirisu
+
+origin: diamond-pearl-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 417
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Minor Errand-Running
+    text: Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Jolt
+    text: Flip a coin. If tails, Pachirisu does 10 damage to itself.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Dratini
+
+origin: unified-minds-148
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 147
+
+rule:
+  - type: Ability
+    name: Aqua Lift
+    text: If this Pokémon has any Water Energy attached to it, it has no Retreat Cost.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jump On
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,38 @@
+name: Lunatone
+
+origin: celestial-storm-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 337
+
+rule:
+  - type: Ability
+    name: Sol Shade
+    text: If you have Solrock in play, Fire Pokémon in play (both yours and your opponent's) have no Abilities, except Pokémon-GX and Pokémon-EX.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psyshock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

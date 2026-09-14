@@ -1,0 +1,47 @@
+name: Miltank
+
+origin: stormfront-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 241
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Collect
+    text: Draw a card.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Milk
+    text: Flip a coin until you get tails. For each heads, remove 2 damage counters from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

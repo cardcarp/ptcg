@@ -1,0 +1,40 @@
+name: Team Rocket's Weezing
+
+origin: destined-rivals-126
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Team Rocket's Koffing
+
+dex: 110
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Explode Together Now
+    text: This attack does 40 damage for each Pokémon in play that has "Koffing" or "Weezing" in its name (both yours and your opponent's).
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

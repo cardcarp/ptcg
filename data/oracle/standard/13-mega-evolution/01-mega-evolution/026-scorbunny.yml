@@ -1,0 +1,35 @@
+name: Scorbunny
+
+origin: mega-evolution-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 813
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Wild Kick
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

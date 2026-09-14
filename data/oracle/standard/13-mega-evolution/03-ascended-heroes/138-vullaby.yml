@@ -1,0 +1,40 @@
+name: Vullaby
+
+origin: ascended-heroes-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 629
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Flap
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

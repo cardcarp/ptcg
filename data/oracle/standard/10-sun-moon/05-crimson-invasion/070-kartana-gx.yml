@@ -1,0 +1,55 @@
+name: Kartana-GX
+
+origin: crimson-invasion-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+  - Ultra Beast
+
+type:
+  - Metal
+
+hp: 170
+
+dex: 798
+
+rule:
+  - type: Ability
+    name: Slice Off
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Special Energy from 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Gale Blade
+    text: You may shuffle this Pokémon and all cards attached to it into your deck.
+    damage: 70
+  - type: Attack
+    cost:
+      - Metal
+    name: Blade-GX
+    text: Take a Prize card. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

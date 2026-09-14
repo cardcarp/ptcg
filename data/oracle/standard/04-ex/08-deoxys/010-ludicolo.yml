@@ -1,0 +1,50 @@
+name: Ludicolo
+
+origin: deoxys-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Lombre
+
+dex: 272
+
+rule:
+  - type: Ability
+    name: Swing Dance
+    text: Once during your turn (before your attack), you may draw a card. This power can't be used if Ludicolo is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+    name: Healing Steps
+    text: You may discard as many cards as you like from your hand. If you do, remove that many damage counters from Ludicolo.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Circular Steps
+    text: Does 10 damage times the number of Pokémon in play (both yours and your opponent's), excluding Ludicolo.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

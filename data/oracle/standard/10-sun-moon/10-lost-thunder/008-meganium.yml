@@ -1,0 +1,43 @@
+name: Meganium
+
+origin: lost-thunder-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: Ability
+    name: Quick-Ripening Herb
+    text: Once during your turn (before your attack), you may use this Ability. Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it. You can use this Ability during your first turn or on a Pokémon that was put into play this turn.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

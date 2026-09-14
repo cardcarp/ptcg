@@ -1,0 +1,51 @@
+name: Altaria
+
+origin: great-encounters-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dragonbreath
+    text: Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Cotton Cloud
+    text: During your opponent's next turn, any damage done to Altaria by attacks from your opponent's Evolved Pokémon is reduced by 30 (after applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Colorless
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

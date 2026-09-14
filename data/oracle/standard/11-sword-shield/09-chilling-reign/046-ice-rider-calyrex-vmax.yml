@@ -1,0 +1,51 @@
+name: Ice Rider Calyrex VMAX
+
+origin: chilling-reign-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Water
+
+hp: 320
+
+preevolution:
+  - Ice Rider Calyrex V
+
+dex: 898
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ride of the High King
+    text: This attack does 30 more damage for each of your opponent's Benched Pokémon.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Max Lance
+    text: You may discard up to 2 Energy from this Pokémon. If you do, this attack does 120 more damage for each card you discarded in this way.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

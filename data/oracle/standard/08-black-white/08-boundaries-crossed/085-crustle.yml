@@ -1,0 +1,44 @@
+name: Crustle
+
+origin: boundaries-crossed-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Dwebble
+
+dex: 558
+
+rule:
+  - type: Ability
+    name: Sturdy
+    text: If this Pokémon has full HP and would be Knocked Out by damage from an attack, this Pokémon is not Knocked Out and its remaining HP becomes 10 instead.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Stone Edge
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

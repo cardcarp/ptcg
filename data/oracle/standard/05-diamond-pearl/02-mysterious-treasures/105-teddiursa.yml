@@ -1,0 +1,41 @@
+name: Teddiursa
+
+origin: mysterious-treasures-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 216
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rest
+    text: Remove all Special Conditions and 2 damage counters from Teddiursa. Teddiursa is now Asleep.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Sweet Palm
+    text: Before doing damage, remove 1 damage counter from the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

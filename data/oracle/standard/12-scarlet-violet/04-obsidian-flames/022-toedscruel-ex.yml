@@ -1,0 +1,47 @@
+name: Toedscruel ex
+
+origin: obsidian-flames-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 270
+
+preevolution:
+  - Toedscool
+
+dex: 949
+
+rule:
+  - type: Ability
+    name: Protective Mycelium
+    text: Prevent all effects of attacks used by your opponent's Pokémon done to all of your Pokémon that have Energy attached. (Existing effects are not removed. Damage is not an effect.)
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Colony Rush
+    text: This attack does 40 more damage for each of your Benched Pokémon that has any Grass Energy attached.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

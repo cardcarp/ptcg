@@ -1,0 +1,54 @@
+name: Latios δ
+
+origin: holon-phantoms-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Water
+
+hp: 80
+
+dex: 381
+
+rule:
+  - type: Ability
+    name: Dual Aura
+    text: As long as you have Latias or Latias ex in play, each player's Evolved Pokémon (excluding Pokémon-ex) can't use any Poké-Bodies.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Dive
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Aqua Blast
+    text: Discard a Water Energy attached to Latios.
+    damage: 50
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

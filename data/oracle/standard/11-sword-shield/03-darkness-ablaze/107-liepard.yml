@@ -1,0 +1,42 @@
+name: Liepard
+
+origin: darkness-ablaze-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Purrloin
+
+dex: 510
+
+rule:
+  - type: Ability
+    name: Limber
+    text: This Pokémon can't be Paralyzed.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Slashing Claw
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,37 @@
+name: Iono's Voltorb
+
+origin: journey-together-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Voltaic Chain
+    text: This attack does 20 more damage for each Lightning Energy attached to all of your Iono's Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

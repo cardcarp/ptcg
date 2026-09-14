@@ -1,0 +1,41 @@
+name: Paldean Wooper
+
+origin: scarlet-violet-black-star-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 194
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Splattering Poison
+    text: Both Active Pokémon are now Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Tail Whap
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

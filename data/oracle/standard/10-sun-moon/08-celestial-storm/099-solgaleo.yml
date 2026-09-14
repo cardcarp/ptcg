@@ -1,0 +1,48 @@
+name: Solgaleo
+
+origin: celestial-storm-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 160
+
+preevolution:
+  - Cosmoem
+
+dex: 791
+
+rule:
+  - type: Ability
+    name: Full Metal Body
+    text: If this Pokémon has any Metal Energy attached to it, it has no Weakness.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Rising Dash
+    text: This attack's damage isn't affected by Resistance.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

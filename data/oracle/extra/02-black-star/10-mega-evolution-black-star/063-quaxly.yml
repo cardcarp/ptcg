@@ -1,0 +1,35 @@
+name: Quaxly
+
+origin: mega-evolution-black-star-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 912
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wing Attack
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

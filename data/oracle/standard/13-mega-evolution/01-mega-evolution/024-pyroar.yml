@@ -1,0 +1,43 @@
+name: Pyroar
+
+origin: mega-evolution-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Litleo
+
+dex: 668
+
+rule:
+  - type: Ability
+    name: Intimidating Fang
+    text: As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon do 30 less damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

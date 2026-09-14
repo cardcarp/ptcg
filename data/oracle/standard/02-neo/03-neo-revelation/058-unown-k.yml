@@ -1,0 +1,40 @@
+name: Unown [K]
+
+origin: neo-revelation-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 201
+
+rule:
+  - type: Ability
+    name: '[Keep]'
+    text: Your opponent's attacks, Pokémon Powers, and Trainer cards can't discard Energy cards from your Pokémon with Unown in their names. (Any other effects still happen.)
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hidden Power
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You may have up to 4 Basic Pokémon cards in your deck with Unown in their names.
+
+errata: []

@@ -1,0 +1,44 @@
+name: Flygon V
+
+origin: brilliant-stars-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Dragon
+
+hp: 220
+
+dex: 330
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Fighting
+    name: Sand Spray
+    damage: 70
+  - type: Attack
+    cost:
+      - Grass
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Draconic Impulse
+    text: If your opponent's Active Pokémon is a Pokémon VMAX, this attack does 160 more damage, and discard 3 Energy from this Pokémon.
+    damage: 160
+    modifier: +
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

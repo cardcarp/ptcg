@@ -1,0 +1,35 @@
+name: Electrike
+
+origin: mega-evolution-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 309
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Jolt
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

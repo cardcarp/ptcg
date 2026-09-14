@@ -1,0 +1,48 @@
+name: Registeel
+
+origin: crimson-invasion-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 379
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Turbo Arm
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Iron Hand
+    text: If Regice is on your Bench, heal 30 damage from this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

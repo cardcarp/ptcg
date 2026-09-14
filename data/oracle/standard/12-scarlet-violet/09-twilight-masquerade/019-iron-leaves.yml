@@ -1,0 +1,44 @@
+name: Iron Leaves
+
+origin: twilight-masquerade-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Future
+
+type:
+  - Grass
+
+hp: 120
+
+dex: 1010
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Recovery Net
+    text: Put up to 2 Pokémon from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Avenging Edge
+    text: If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 60 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

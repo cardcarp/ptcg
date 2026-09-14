@@ -1,0 +1,47 @@
+name: Erika's Gloom
+
+origin: gym-heroes-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Erika's Oddish
+
+dex: 44
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Dream Dance
+    text: Both the Defending Pokémon and Erika's Gloom are now Asleep (after doing damage).
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Vile Smell
+    text: Both the Defending Pokémon and Erika's Gloom are now Confused (after doing damage).
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

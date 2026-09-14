@@ -1,0 +1,41 @@
+name: Vanilluxe
+
+origin: darkness-ablaze-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Vanillish
+
+dex: 584
+
+rule:
+  - type: Ability
+    name: Bitter Cold
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Frost Smash
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

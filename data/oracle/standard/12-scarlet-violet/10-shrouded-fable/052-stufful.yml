@@ -1,0 +1,35 @@
+name: Stufful
+
+origin: shrouded-fable-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 759
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Take Down
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

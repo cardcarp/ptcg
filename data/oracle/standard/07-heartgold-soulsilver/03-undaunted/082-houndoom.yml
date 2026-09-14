@@ -1,0 +1,49 @@
+name: Houndoom
+
+origin: undaunted-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Prime
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Houndour
+
+dex: 229
+
+rule:
+  - type: Ability
+    name: Fire Breath
+    text: Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Burned. This power can't be used if Houndoom is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Dark Clamp
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

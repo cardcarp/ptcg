@@ -1,0 +1,54 @@
+name: Dark Dragonair
+
+origin: team-rocket-returns-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Double Tackle
+    text: Does 20 damage to each Defending Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Crushing Blow
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 40
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

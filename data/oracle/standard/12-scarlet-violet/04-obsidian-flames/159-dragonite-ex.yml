@@ -1,0 +1,46 @@
+name: Dragonite ex
+
+origin: obsidian-flames-159
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+  - Tera
+
+type:
+  - Dragon
+
+hp: 330
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Wing Attack
+    damage: 70
+  - type: Attack
+    cost:
+      - Water
+      - Lightning
+    name: Mighty Meteor
+    text: Flip a coin. If heads, this attack does 140 more damage. If tails, during your next turn, this Pokémon can't attack.
+    damage: 140
+    modifier: +
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+  - "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+
+errata: []

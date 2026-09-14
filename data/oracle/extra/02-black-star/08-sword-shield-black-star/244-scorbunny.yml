@@ -1,0 +1,41 @@
+name: Scorbunny
+
+origin: sword-shield-black-star-244
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 813
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Flaring Dash
+    text: Flip a coin until you get tails. For each heads, draw a card.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flare
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

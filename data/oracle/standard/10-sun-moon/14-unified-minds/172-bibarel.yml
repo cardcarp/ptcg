@@ -1,0 +1,43 @@
+name: Bibarel
+
+origin: unified-minds-172
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Bidoof
+
+dex: 400
+
+rule:
+  - type: Ability
+    name: Unaware
+    text: Prevent all effects of your opponent's attacks, except damage, done to this Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Amnesia
+    text: Choose 1 of your opponent's Active Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

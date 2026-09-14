@@ -1,0 +1,49 @@
+name: Kingdra ex
+
+origin: scarlet-violet-black-star-131
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Water
+
+hp: 310
+
+preevolution:
+  - Seadra
+
+dex: 230
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: King's Order
+    text: Put up to 3 Water Pokémon from your discard pile onto your Bench.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hydro Pump
+    text: This attack does 50 more damage for each Water Energy attached to this Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

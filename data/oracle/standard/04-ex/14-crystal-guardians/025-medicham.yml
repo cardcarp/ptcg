@@ -1,0 +1,50 @@
+name: Medicham
+
+origin: crystal-guardians-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: Ability
+    name: Dual Armor
+    text: As long as Medicham has any Psychic Energy cards attached to it, Medicham is both Psychic and Fighting type.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sky Uppercut
+    text: This attack's damage isn't affected by Resistance.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

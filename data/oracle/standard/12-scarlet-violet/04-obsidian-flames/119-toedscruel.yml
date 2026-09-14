@@ -1,0 +1,47 @@
+name: Toedscruel
+
+origin: obsidian-flames-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Toedscool
+
+dex: 949
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Beat
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Double Whip
+    text: Flip 2 coins. This attack does 100 damage for each heads.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

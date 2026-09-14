@@ -1,0 +1,50 @@
+name: Manectric
+
+origin: platinum-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: Ability
+    name: Electric Barrier
+    text: Prevent all damage done to your Benched Pokémon (excluding any Manectric) by attacks.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Power Wave
+    text: This attack does 30 damage to each Pokémon that has any Poké-Powers (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Attract Current
+    text: Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+errata: []

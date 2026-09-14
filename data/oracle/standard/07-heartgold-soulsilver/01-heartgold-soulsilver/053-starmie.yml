@@ -1,0 +1,37 @@
+name: Starmie
+
+origin: heartgold-soulsilver-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Cosmic Cyclone
+    text: Choose as many Water Energy attached to your Pokémon as you like. This attack does 20 damage times the number of Energy you chose. Shuffle those cards back into your deck.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

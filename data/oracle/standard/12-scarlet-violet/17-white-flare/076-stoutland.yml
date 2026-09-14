@@ -1,0 +1,48 @@
+name: Stoutland
+
+origin: white-flare-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 160
+
+preevolution:
+  - Herdier
+
+dex: 508
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Odor Sleuth
+    text: Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Special Fang
+    text: If this Pokémon has any Special Energy attached, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

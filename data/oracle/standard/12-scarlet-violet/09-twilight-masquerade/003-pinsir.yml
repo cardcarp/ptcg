@@ -1,0 +1,42 @@
+name: Pinsir
+
+origin: twilight-masquerade-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 127
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Slow Crunch
+    text: Discard all Energy from this Pokémon. At the end of your opponent's next turn, the Defending Pokémon will be Knocked Out.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Superpowered Horns
+    damage: 100
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

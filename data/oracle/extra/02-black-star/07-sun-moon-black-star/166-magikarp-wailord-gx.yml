@@ -1,0 +1,49 @@
+name: Magikarp & Wailord-GX
+
+origin: sun-moon-black-star-166
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Water
+
+hp: 300
+
+dex: 129
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Super Splash
+    damage: 180
+  - type: Attack
+    cost:
+      - Water
+    name: Towering Splash-GX
+    text: If this Pokémon has at least 7 extra Water Energy attached to it (in addition to this attack's cost), this attack does 100 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

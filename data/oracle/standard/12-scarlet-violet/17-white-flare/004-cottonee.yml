@@ -1,0 +1,35 @@
+name: Cottonee
+
+origin: white-flare-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 546
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Absorb
+    text: Heal 10 damage from this Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,48 @@
+name: Registeel
+
+origin: astral-radiance-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 379
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Regi Gate
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Heavy Slam
+    text: This attack does 50 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 220
+    modifier: '-'
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

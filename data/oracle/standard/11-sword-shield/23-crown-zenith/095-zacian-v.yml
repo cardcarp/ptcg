@@ -1,0 +1,53 @@
+name: Zacian V
+
+origin: crown-zenith-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Metal
+
+hp: 220
+
+dex: 888
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Piercing Strike
+    text: This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Behemoth Blade
+    text: If your opponent's Active Pokémon is a Pokémon VMAX, this attack does 160 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

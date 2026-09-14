@@ -1,0 +1,49 @@
+name: Rhydon
+
+origin: hidden-legends-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Rhyhorn
+
+dex: 112
+
+rule:
+  - type: Ability
+    name: Power Diffusion
+    text: As long as Rhydon is your Active Pokémon, prevent all damage done by attacks to all of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Horn Drill
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hyper Tail
+    text: If the Defending Pokémon has any Poké-Powers or Poké-Bodies, this attack does 50 damage plus 20 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

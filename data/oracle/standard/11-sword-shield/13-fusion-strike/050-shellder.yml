@@ -1,0 +1,41 @@
+name: Shellder
+
+origin: fusion-strike-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 70
+
+dex: 90
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Tongue Slap
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Wave Splash
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

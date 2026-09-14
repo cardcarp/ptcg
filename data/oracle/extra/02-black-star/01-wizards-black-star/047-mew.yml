@@ -1,0 +1,38 @@
+name: Mew
+
+origin: wizards-black-star-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 151
+
+rule:
+  - type: Ability
+    name: Neutral Shield
+    text: Prevent all effects of attacks, including damage, done to Mew by Evolved Pokémon. You can't use this power if Mew is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

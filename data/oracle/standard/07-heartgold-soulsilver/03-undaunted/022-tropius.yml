@@ -1,0 +1,46 @@
+name: Tropius
+
+origin: undaunted-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 357
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Fresh-Picked Fruit
+    text: Remove 6 damage counters from 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Cutting Wind
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

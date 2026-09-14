@@ -1,0 +1,55 @@
+name: Probopass
+
+origin: cosmic-eclipse-141
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Nosepass
+
+dex: 476
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hard Press
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 60
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Triple Nose
+    text: Flip 3 coins. This attack does 40 more damage for each heads.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

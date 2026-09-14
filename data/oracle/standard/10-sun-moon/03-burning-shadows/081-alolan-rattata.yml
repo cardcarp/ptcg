@@ -1,0 +1,42 @@
+name: Alolan Rattata
+
+origin: burning-shadows-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 40
+
+dex: 19
+
+rule:
+  - type: Attack
+    name: Focus Energy
+    text: During your next turn, this Pokémon's Bite attack's base damage is 60.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

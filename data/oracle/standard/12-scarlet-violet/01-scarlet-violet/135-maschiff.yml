@@ -1,0 +1,40 @@
+name: Maschiff
+
+origin: scarlet-violet-135
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 942
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Rear Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Darkness Fang
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,36 @@
+name: Chi-Yu
+
+origin: pitch-black-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 90
+
+dex: 1004
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Whirling Envy
+    text: If this Pokémon has 2 or more damage counters on it, this attack does 90 more damage. This attack's damage isn't affected by Weakness.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

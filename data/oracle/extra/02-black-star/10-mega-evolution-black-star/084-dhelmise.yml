@@ -1,0 +1,41 @@
+name: Dhelmise
+
+origin: mega-evolution-black-star-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 140
+
+dex: 781
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Vengeful Anchor
+    text: If you have 4 or more Pokémon that have the Hide 'n' Sneak Ability in your discard pile, this attack does 140 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

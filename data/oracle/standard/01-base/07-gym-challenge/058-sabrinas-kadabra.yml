@@ -1,0 +1,44 @@
+name: Sabrina's Kadabra
+
+origin: gym-challenge-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Sabrina's Abra
+
+dex: 64
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Life Drain
+    text: Flip a coin. If heads, put a number of damage counters on the Defending Pokémon so that its remaining HP are 10.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psyshot
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

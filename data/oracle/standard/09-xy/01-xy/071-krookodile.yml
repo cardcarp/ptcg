@@ -1,0 +1,54 @@
+name: Krookodile
+
+origin: xy-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 140
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Bother
+    text: Flip a coin. If heads, your opponent can't play any Supporter cards from his or her hand during his or her next turn.
+    damage: 50
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Knock Back
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

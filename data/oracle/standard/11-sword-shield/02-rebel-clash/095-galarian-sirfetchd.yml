@@ -1,0 +1,45 @@
+name: Galarian Sirfetch'd
+
+origin: rebel-clash-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Galarian Farfetch'd
+
+dex: 865
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Pierce
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Meteor Assault
+    text: This Pokémon can't use Meteor Assault again until it leaves the Active Spot.
+    damage: 180
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

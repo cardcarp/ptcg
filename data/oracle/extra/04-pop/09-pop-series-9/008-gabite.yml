@@ -1,0 +1,45 @@
+name: Gabite
+
+origin: pop-series-9-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Gible
+
+dex: 444
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Burrow
+    text: Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Distored Wave
+    text: Before doing damage, remove 2 damage counters from the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Colorless
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

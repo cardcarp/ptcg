@@ -1,0 +1,52 @@
+name: Moltres
+
+origin: skyridge-020h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 146
+
+rule:
+  - type: Ability
+    name: Fire Immunity
+    text: You can't attach Fire Energy cards from your hand to Moltres.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Collect Fire
+    text: If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Moltres.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Burning Tail
+    text: Flip a coin. If tails, discard a Fire Energy card attached to Moltres.
+    damage: 60
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

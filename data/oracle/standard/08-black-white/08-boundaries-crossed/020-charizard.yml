@@ -1,0 +1,49 @@
+name: Charizard
+
+origin: boundaries-crossed-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 160
+
+preevolution:
+  - Charmeleon
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Split Bomb
+    text: This attack does 40 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Scorching Fire
+    text: Discard a Fire Energy attached to this Pokémon.
+    damage: 150
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

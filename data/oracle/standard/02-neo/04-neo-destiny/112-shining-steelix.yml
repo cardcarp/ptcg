@@ -1,0 +1,46 @@
+name: Shining Steelix
+
+origin: neo-destiny-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 208
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Fighting
+      - Fighting
+    name: Crushing Earth
+    text: Flip a coin. If heads, this attack does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does nothing. Either way, Shining Steelix can't attack during your next turn.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - You can't have more than 1 Shining Steelix in your deck.
+
+errata: []

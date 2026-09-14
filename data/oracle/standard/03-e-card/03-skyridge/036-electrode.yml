@@ -1,0 +1,48 @@
+name: Electrode
+
+origin: skyridge-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 70
+
+preevolution:
+  - Voltorb
+
+dex: 101
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Plasma
+    text: If there are any Lightning Energy card in your discard pile, flip a coin. If heads, attach 1 of them to Electrode.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Selfdestruct
+    text: This attack does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Electrode does 100 damage to itself.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

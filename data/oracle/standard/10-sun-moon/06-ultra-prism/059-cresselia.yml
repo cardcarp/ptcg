@@ -1,0 +1,43 @@
+name: Cresselia
+
+origin: ultra-prism-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 488
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Lunar Payback
+    text: Discard an Energy from this Pokémon. If you do, switch all damage counters on this Pokémon with those on your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 20 more damage times the amount of Energy attached to your opponent's Active Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

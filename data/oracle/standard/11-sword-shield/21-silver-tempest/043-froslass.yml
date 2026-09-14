@@ -1,0 +1,45 @@
+name: Froslass
+
+origin: silver-tempest-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Snorunt
+
+dex: 478
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Frosty Jail
+    text: If you played Candice from your hand during this turn, this attack does 90 more damage, and your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Frost Breath
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

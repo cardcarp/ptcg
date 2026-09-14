@@ -1,0 +1,49 @@
+name: Gengar
+
+origin: 151-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Haunter
+
+dex: 94
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Poltergeist
+    text: Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Hollow Dive
+    text: Put 3 damage counters on your opponent's Benched Pokémon in any way you like.
+    damage: 110
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

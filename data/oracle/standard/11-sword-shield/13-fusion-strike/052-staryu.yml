@@ -1,0 +1,40 @@
+name: Staryu
+
+origin: fusion-strike-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 60
+
+dex: 120
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Soak in Water
+    text: Attach a Water Energy card from your hand to this Pokémon.
+  - type: Attack
+    cost:
+      - Water
+    name: Spinning Attack
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

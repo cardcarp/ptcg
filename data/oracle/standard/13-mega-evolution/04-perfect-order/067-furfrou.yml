@@ -1,0 +1,39 @@
+name: Furfrou
+
+origin: perfect-order-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 676
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hand Trim
+    text: Discard random cards from your opponent's hand until they have 5 cards in their hand.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Headbutt
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

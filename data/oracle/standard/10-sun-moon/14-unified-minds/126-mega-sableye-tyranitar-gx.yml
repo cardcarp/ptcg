@@ -1,0 +1,59 @@
+name: Mega Sableye & Tyranitar-GX
+
+origin: unified-minds-126
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Darkness
+
+hp: 280
+
+dex: 248
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Greedy Crush
+    text: If your opponent's Pokémon-GX or Pokémon-EX is Knocked Out by damage from this attack, take 1 more Prize card.
+    damage: 210
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Gigafall-GX
+    text: If this Pokémon has at least 5 extra Energy attached to it (in addition to this attack's cost), discard the top 15 cards of your opponent's deck. (You can't use more than 1 GX attack in a game.)
+    damage: 250
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

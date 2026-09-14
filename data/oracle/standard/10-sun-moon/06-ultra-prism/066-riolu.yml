@@ -1,0 +1,39 @@
+name: Riolu
+
+origin: ultra-prism-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 447
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Detect
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Jab
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Brock's Sandshrew
+
+origin: gym-heroes-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 27
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Sand Pit
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

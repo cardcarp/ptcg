@@ -1,0 +1,39 @@
+name: Shellos East Sea
+
+origin: rising-rivals-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 422
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ripple
+    text: Flip a coin. If heads, put 1 damage counter on each of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Water
+    name: Brine
+    text: Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Grass
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

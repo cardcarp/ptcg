@@ -1,0 +1,34 @@
+name: Misty's Horsea
+
+origin: gym-challenge-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 116
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Ink Spurt
+    text: Flip a coin. If heads, whenever the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack does nothing. (This effect lasts until the Defending Pokémon evolves or is Benched.)
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

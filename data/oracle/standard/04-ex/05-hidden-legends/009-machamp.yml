@@ -1,0 +1,52 @@
+name: Machamp
+
+origin: hidden-legends-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: Ability
+    name: Overzealous
+    text: If your opponent has any Pokémon-ex in play, each of Machamp's attacks do 30 more damage to the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Brick Smash
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Cross Chop
+    text: Flip a coin. If heads, this attack does 60 damage plus 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

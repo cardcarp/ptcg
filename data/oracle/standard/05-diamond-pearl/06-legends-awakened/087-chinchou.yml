@@ -1,0 +1,39 @@
+name: Chinchou
+
+origin: legends-awakened-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 170
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 10
+    operator: +
+
+retreat: 2
+
+errata: []

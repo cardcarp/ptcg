@@ -1,0 +1,39 @@
+name: Litwick
+
+origin: steam-siege-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 607
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slightly Simmer
+    text: Search your deck for up to 2 cards and discard them. Shuffle your deck afterward.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

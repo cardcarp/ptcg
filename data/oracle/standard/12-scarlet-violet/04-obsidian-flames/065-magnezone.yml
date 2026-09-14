@@ -1,0 +1,46 @@
+name: Magnezone
+
+origin: obsidian-flames-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 170
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Magnetic Repulsion
+    text: You may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    damage: 50
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Thunder
+    text: This Pokémon also does 30 damage to itself.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

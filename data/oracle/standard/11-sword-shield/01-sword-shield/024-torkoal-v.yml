@@ -1,0 +1,51 @@
+name: Torkoal V
+
+origin: sword-shield-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 210
+
+dex: 324
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Combustion Pillar
+    text: Discard the top card of your deck. If that card is a Fire Energy card, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+    name: Steam Crush
+    text: Discard 2 Energy from your opponent's Active Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

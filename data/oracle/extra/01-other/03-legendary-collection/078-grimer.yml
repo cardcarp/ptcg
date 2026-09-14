@@ -1,0 +1,40 @@
+name: Grimer
+
+origin: legendary-collection-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 88
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nasty Goo
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+    name: Minimized
+    text: All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

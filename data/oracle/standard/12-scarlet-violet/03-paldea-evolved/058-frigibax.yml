@@ -1,0 +1,41 @@
+name: Frigibax
+
+origin: paldea-evolved-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 996
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Chilly
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Bite
+    damage: 50
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

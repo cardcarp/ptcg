@@ -1,0 +1,50 @@
+name: Tangela
+
+origin: aquapolis-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 114
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tickling Vines
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

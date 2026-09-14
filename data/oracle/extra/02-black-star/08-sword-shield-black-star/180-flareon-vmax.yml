@@ -1,0 +1,45 @@
+name: Flareon VMAX
+
+origin: sword-shield-black-star-180
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+  - Single Strike
+
+type:
+  - Fire
+
+hp: 320
+
+preevolution:
+  - Flareon V
+
+dex: 136
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Max Detonate
+    text: Discard the top 5 cards of your deck. This attack does 100 damage for each Energy card you discarded in this way.
+    damage: 100
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

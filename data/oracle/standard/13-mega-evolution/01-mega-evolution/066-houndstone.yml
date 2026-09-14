@@ -1,0 +1,50 @@
+name: Houndstone
+
+origin: mega-evolution-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Greavard
+
+dex: 972
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Horrifying Bite
+    text: Flip a coin until you get tails. For each heads, choose a random card from your opponent's hand. Your opponent reveals those cards and shuffles them into their deck.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Hammer In
+    damage: 130
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,53 @@
+name: Naganadel-GX
+
+origin: unified-minds-160
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+  - Ultra Beast
+
+type:
+  - Dragon
+
+hp: 210
+
+preevolution:
+  - Poipole
+
+dex: 804
+
+rule:
+  - type: Ability
+    name: Ultra Conversion
+    text: Once during your turn (before your attack), you may discard an Ultra Beast card from your hand. If you do, draw 3 cards.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Venom Shot
+    text: Discard 2 Energy from this Pokémon. This attack does 170 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Lightning
+    name: Injection-GX
+    text: Add a card from your opponent's discard pile to their Prize cards face down. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

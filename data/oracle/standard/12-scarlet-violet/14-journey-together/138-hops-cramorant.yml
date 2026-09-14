@@ -1,0 +1,40 @@
+name: Hop's Cramorant
+
+origin: journey-together-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 845
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fickle Spitting
+    text: If your opponent doesn't have exactly 3 or 4 Prize cards remaining, this attack does nothing.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

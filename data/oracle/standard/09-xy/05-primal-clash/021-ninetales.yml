@@ -1,0 +1,43 @@
+name: Ninetales
+
+origin: primal-clash-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: Ability
+    name: Barrier Shrine
+    text: Each player can't play any Stadium cards from his or her hand.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flickering Flames
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 70
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

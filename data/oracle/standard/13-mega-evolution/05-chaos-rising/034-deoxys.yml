@@ -1,0 +1,38 @@
+name: Deoxys
+
+origin: chaos-rising-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 100
+
+dex: 386
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psyspeed
+    text: You may draw cards until you have 5 cards in your hand.
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

@@ -1,0 +1,41 @@
+name: Ethan's Sudowoodo
+
+origin: destined-rivals-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 185
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Impound
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Try to Imitate
+    text: Flip a coin. If heads, choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

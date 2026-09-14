@@ -1,0 +1,46 @@
+name: Rayquaza-EX
+
+origin: black-white-black-star-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 170
+
+dex: 384
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Celestial Roar
+    text: Discard the top 3 cards of your deck. If any of those cards are Energy cards, attach them to this Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Lightning
+    name: Dragon Burst
+    text: Discard all basic Fire Energy or all basic Lightning Energy attached to this Pokémon. This attack does 60 damage times the number of Energy you discarded.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

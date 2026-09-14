@@ -1,0 +1,44 @@
+name: Eelektrik
+
+origin: burning-shadows-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Tynamo
+
+dex: 603
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Small Appetite
+    text: If your opponent's Active Pokémon's maximum HP is 100 or more, this attack does nothing.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

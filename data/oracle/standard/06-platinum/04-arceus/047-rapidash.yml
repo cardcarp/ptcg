@@ -1,0 +1,42 @@
+name: Rapidash
+
+origin: arceus-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Ponyta
+
+dex: 78
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Searing Flame
+    text: The Defending Pokémon is now Burned.
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flare
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+errata: []

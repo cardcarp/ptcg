@@ -1,0 +1,43 @@
+name: Heatmor
+
+origin: plasma-storm-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 90
+
+dex: 631
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Luring Flame
+    text: Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Fiery Licks
+    text: Discard the top 4 cards of your deck. This attack does 50 damage times the number of Fire Energy cards discarded.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

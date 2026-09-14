@@ -1,0 +1,40 @@
+name: Unown [E]
+
+origin: neo-discovery-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 201
+
+rule:
+  - type: Ability
+    name: '[Engage]'
+    text: When you play Unown [E] from your hand, your opponent may shuffle his or her hand into his or her deck and then draw 4 cards. Either way, you may shuffle your hand into your deck and draw 4 cards.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Hidden Power
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You may have up to 4 Basic Pokémon cards in your deck with Unown in their names.
+
+errata: []

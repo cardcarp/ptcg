@@ -1,0 +1,52 @@
+name: Klang
+
+origin: steam-siege-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 80
+
+preevolution:
+  - Klink
+
+dex: 600
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Vice Grip
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Disorderly Flip
+    text: Flip 4 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

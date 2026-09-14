@@ -1,0 +1,48 @@
+name: Gogoat
+
+origin: xy-black-star-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Skiddo
+
+dex: 673
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Push Down
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Forest Press
+    text: Flip a coin for each Grass Energy attached to this Pokémon. This attack does 30 more damage for each heads.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

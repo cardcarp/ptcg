@@ -1,0 +1,56 @@
+name: Oricorio-GX
+
+origin: cosmic-eclipse-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 741
+
+rule:
+  - type: Ability
+    name: Dance of Tribute
+    text: Once during your turn (before your attack), if any of your Pokémon were Knocked Out during your opponent's last turn, you may draw 3 cards. You can't use more than 1 Dance of Tribute Ability each turn.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Razor Wing
+    damage: 80
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Strafe-GX
+    text: Switch this Pokémon with 1 of your Benched Pokémon. (You can't use more than 1 GX attack in a game.)
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

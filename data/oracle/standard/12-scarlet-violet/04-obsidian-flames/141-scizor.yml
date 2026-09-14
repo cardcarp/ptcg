@@ -1,0 +1,50 @@
+name: Scizor
+
+origin: obsidian-flames-141
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 140
+
+preevolution:
+  - Scyther
+
+dex: 212
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Punishing Scissors
+    text: This attack does 50 more damage for each of your opponent's Pokémon in play that has an Ability.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+    name: Cut
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

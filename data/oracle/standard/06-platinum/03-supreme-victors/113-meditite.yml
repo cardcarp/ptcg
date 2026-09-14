@@ -1,0 +1,42 @@
+name: Meditite
+
+origin: supreme-victors-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 307
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Psyshot
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Karate Chop
+    text: Does 30 damage minus 10 damage for each damage counter on Meditite.
+    damage: 30
+    modifier: '-'
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

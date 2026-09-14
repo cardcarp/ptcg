@@ -1,0 +1,39 @@
+name: Litwick
+
+origin: pitch-black-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 607
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Will-O-Wisp
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

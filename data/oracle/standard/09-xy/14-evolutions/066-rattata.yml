@@ -1,0 +1,37 @@
+name: Rattata
+
+origin: evolutions-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 19
+
+rule:
+  - type: Ability
+    name: Mischievous Fang
+    text: When you play this Pokémon from your hand onto your Bench, you may discard all Pokémon Tool cards attached to your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

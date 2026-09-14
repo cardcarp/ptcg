@@ -1,0 +1,50 @@
+name: Leafeon
+
+origin: undaunted-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 470
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Miasma Wind
+    text: Does 50 damage damage times the number of Special Conditions affecting the Defending Pokémon.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+    name: Soothing Scent
+    text: The Defending Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

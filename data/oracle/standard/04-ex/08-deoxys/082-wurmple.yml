@@ -1,0 +1,39 @@
+name: Wurmple
+
+origin: deoxys-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 265
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ascension
+    text: Search your deck for a card that evolves from Wurmple and put it on Wurmple. (This counts as evolving Wurmple.) Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+    name: Miracle Essence
+    text: Flip a coin. If heads, choose 1 Special Condition. Each Defending Pokémon is now affected by that Special Condition.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,37 @@
+name: Bagon
+
+origin: roaring-skies-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 371
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Continuous Headbutt
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

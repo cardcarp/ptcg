@@ -1,0 +1,40 @@
+name: Cascoon
+
+origin: ruby-sapphire-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Wurmple
+
+dex: 268
+
+rule:
+  - type: Ability
+    name: Hard Cocoon
+    text: During your opponent's turn, if Cascoon would be damaged by an opponent's attack (after applying Weakness and Resistance), flip a coin. If heads, reduce that damage by 30.
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Thread
+    text: The Defending Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,48 @@
+name: Tentacruel
+
+origin: 151-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Tentacool
+
+dex: 73
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Poisonous Whip
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Tentacular Panic
+    text: Flip a coin until you get tails. This attack does 90 damage for each heads. If the first flip is tails, your opponent's Active Pokémon is now Confused.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

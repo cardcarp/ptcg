@@ -1,0 +1,47 @@
+name: Sharpedo-EX
+
+origin: primal-clash-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Darkness
+
+hp: 170
+
+dex: 319
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Hunt
+    text: Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon. This attack does 30 damage to the new Active Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Jagged Fang
+    text: Discard an Energy attached to this Pokémon. Then, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

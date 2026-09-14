@@ -1,0 +1,48 @@
+name: Jolteon
+
+origin: undaunted-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 135
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to Jolteon during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Mach Bolt
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+errata: []

@@ -1,0 +1,44 @@
+name: Dark Dragonair
+
+origin: team-rocket-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 60
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Ability
+    name: Evolutionary Light
+    text: Once during your turn (before your attack), you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tail Strike
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.
+    damage: 20
+    modifier: +
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

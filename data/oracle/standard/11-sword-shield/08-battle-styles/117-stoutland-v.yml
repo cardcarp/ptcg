@@ -1,0 +1,50 @@
+name: Stoutland V
+
+origin: battle-styles-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Colorless
+
+hp: 210
+
+dex: 508
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Dip Fangs
+    text: If your opponent's Basic Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wild Tackle
+    text: This Pokémon also does 30 damage to itself.
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

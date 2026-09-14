@@ -1,0 +1,44 @@
+name: Whirlipede
+
+origin: twilight-masquerade-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Venipede
+
+dex: 544
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Poison Ring
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, the Defending Pokémon can't retreat.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Spinning Attack
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

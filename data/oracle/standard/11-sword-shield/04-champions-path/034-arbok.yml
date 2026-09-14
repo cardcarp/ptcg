@@ -1,0 +1,43 @@
+name: Arbok
+
+origin: champions-path-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Ekans
+
+dex: 24
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sharp Fang
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Tail Snap
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,42 @@
+name: Deerling
+
+origin: temporal-forces-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 585
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flop
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Leaf Litter Tackle
+    text: Discard a Grass Energy from this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

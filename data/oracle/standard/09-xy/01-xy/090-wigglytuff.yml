@@ -1,0 +1,52 @@
+name: Wigglytuff
+
+origin: xy-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 100
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Balloon Barrage
+    text: This attack does 20 damage times the amount of Energy attached to this Pokémon.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Colorless
+    name: Double-Edge
+    text: This Pokémon does 10 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

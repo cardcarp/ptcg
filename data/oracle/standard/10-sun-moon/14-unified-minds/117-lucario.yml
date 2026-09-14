@@ -1,0 +1,42 @@
+name: Lucario
+
+origin: unified-minds-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: Ability
+    name: Tag Coach
+    text: Your TAG TEAM Pokémon take 20 less damage from your opponent's attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mach Cross
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

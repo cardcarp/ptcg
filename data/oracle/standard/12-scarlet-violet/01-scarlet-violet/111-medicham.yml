@@ -1,0 +1,44 @@
+name: Medicham
+
+origin: scarlet-violet-111
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Meditite
+
+dex: 308
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Acu-Punch-Ture
+    text: Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+    name: Kick Shot
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

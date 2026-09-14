@@ -1,0 +1,40 @@
+name: Toxel
+
+origin: mega-evolution-black-star-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 848
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Playful Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

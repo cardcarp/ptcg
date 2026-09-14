@@ -1,0 +1,41 @@
+name: Seaking
+
+origin: prismatic-evolutions-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: Ability
+    name: Festival Lead
+    text: If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rapid Draw
+    text: Draw 2 cards.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

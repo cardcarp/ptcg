@@ -1,0 +1,46 @@
+name: Zoroark
+
+origin: fusion-strike-171
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Double Claw
+    text: Flip 2 coins. This attack does 40 damage for each heads.
+    damage: 40
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Night Daze
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

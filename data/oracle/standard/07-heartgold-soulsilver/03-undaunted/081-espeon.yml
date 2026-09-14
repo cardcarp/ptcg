@@ -1,0 +1,43 @@
+name: Espeon
+
+origin: undaunted-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Prime
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: Ability
+    name: Evolution Memories
+    text: Espeon can use the attacks of all Pokémon you have in play that evolve from Eevee as its own. (You still need the necessary Energy to use each attack.)
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Solar Ray
+    text: Remove 1 damage counter from each of your Pokémon.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

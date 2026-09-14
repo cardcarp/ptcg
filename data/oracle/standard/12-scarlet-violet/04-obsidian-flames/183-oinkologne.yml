@@ -1,0 +1,47 @@
+name: Oinkologne
+
+origin: obsidian-flames-183
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Lechonk
+
+dex: 916
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Confounding Cologne
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: High-Impact Kick
+    text: Flip a coin. If tails, this Pokémon also does 60 damage to itself.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

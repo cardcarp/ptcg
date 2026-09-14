@@ -1,0 +1,42 @@
+name: Suicune
+
+origin: darkness-ablaze-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 245
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Wave Splash
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aurora Loop
+    text: Put 2 Water Energy attached to this Pokémon into your hand.
+    damage: 130
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

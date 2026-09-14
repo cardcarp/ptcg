@@ -1,0 +1,52 @@
+name: Blissey ex
+
+origin: unseen-forces-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 160
+
+preevolution:
+  - Chansey ex
+
+dex: 242
+
+rule:
+  - type: Ability
+    name: Blissful Support
+    text: Once during your turn, when you play Blissey ex from your hand to evolve 1 of your Pokémon, you may discard all Energy cards attached to any number of your Pokémon and remove all damage counters from those Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Absorption
+    text: Attach up to 3 Energy cards from your discard pile to Blissey ex.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

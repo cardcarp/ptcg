@@ -1,0 +1,46 @@
+name: Grapploct
+
+origin: sword-shield-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Clobbopus
+
+dex: 853
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Octolock
+    text: Until this Grapploct leaves the Active Spot, the Defending Pokémon's attacks cost ColorlessColorless more, and the Defending Pokémon can't retreat. This effect can't be applied more than once.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Tough Swing
+    text: This attack's damage isn't affected by Resistance.
+    damage: 130
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

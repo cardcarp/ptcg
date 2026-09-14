@@ -1,0 +1,46 @@
+name: Team Aqua's Poochyena
+
+origin: team-magma-vs-team-aqua-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 261
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Crush
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Primarina
+
+origin: lost-thunder-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Brionne
+
+dex: 730
+
+rule:
+  - type: Ability
+    name: Harmonics
+    text: Whenever you attach an Energy card from your hand to 1 of your Pokémon, except with an attack, Ability, or Trainer card, attach up to 2 Energy cards to that Pokémon instead of 1.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Hypno Splash
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

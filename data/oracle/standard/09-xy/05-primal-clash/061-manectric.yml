@@ -1,0 +1,52 @@
+name: Manectric
+
+origin: primal-clash-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Lightning Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electric Shock
+    text: Discard all Lightning Energy attached to this Pokémon. Your opponent's Active Pokémon is now Paralyzed.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Burmy Sandy Cloak
+
+origin: majestic-dawn-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 412
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Iron Defense
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Burmy Sandy Cloak during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Tackle
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,36 @@
+name: Fomantis
+
+origin: battle-styles-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 753
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Continuous Slash
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

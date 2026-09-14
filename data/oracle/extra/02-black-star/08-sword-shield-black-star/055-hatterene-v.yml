@@ -1,0 +1,53 @@
+name: Hatterene V
+
+origin: sword-shield-black-star-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 200
+
+dex: 858
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Confounding Pulse
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Mental Crush
+    text: If your opponent's Active Pokémon is Confused, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

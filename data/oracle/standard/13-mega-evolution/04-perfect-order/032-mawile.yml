@@ -1,0 +1,37 @@
+name: Mawile
+
+origin: perfect-order-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 303
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Double Eater
+    text: Discard up to 2 Energy cards from your hand, and this attack does 60 damage for each card you discarded in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

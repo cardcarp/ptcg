@@ -1,0 +1,38 @@
+name: Flygon
+
+origin: dragon-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 100
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: Ability
+    name: Sand Guard
+    text: Whenever Flygon would be damaged by your opponent's attack (after applying Weakness and Resistance), flip a coin. If heads, reduce that damage by 20.
+  - type: Attack
+    cost:
+      - Grass
+      - Lightning
+      - Colorless
+    name: Air Slash
+    text: Flip a coin. If tails, discard an Energy card attached to Flygon.
+    damage: 60
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Espathra
+
+origin: stellar-crown-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Flittle
+
+dex: 956
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psychic Flash
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

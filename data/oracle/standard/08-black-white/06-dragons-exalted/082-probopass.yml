@@ -1,0 +1,53 @@
+name: Probopass
+
+origin: dragons-exalted-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 110
+
+preevolution:
+  - Nosepass
+
+dex: 476
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Magnetic Lines
+    text: You may move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Heavy Nose
+    text: If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

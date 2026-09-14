@@ -1,0 +1,46 @@
+name: Magnezone
+
+origin: mega-evolution-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 160
+
+preevolution:
+  - Magneton
+
+dex: 462
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Upper Spark
+    text: If this Pokémon evolved from Magneton during this turn, this attack does 120 more damage.
+    damage: 50
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Flashing Bolt
+    text: During your next turn, this Pokémon can't use Flashing Bolt.
+    damage: 160
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

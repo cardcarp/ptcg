@@ -1,0 +1,46 @@
+name: Sigilyph
+
+origin: breakpoint-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 561
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Reflective Shield
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put 5 damage counters on the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Psy Report
+    text: Your opponent reveals his or her hand.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

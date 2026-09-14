@@ -1,0 +1,51 @@
+name: Leafeon VMAX
+
+origin: evolving-skies-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Grass
+
+hp: 310
+
+preevolution:
+  - Leafeon V
+
+dex: 470
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Grass Knot
+    text: This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.
+    damage: 60
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Max Leaf
+    text: Heal 30 damage from this Pokémon.
+    damage: 170
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

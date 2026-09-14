@@ -1,0 +1,43 @@
+name: Lycanroc
+
+origin: vivid-voltage-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Throw
+    damage: 40
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Sharp Mane
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Reuniclus
+
+origin: scarlet-violet-black-star-212
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Duosion
+
+dex: 579
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cellular Ascension
+    text: For each of your Benched Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Evo-Lariat
+    text: This attack does 40 more damage for each of your Evolution Pokémon in play.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

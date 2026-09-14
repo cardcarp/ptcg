@@ -1,0 +1,44 @@
+name: Alolan Marowak
+
+origin: crimson-invasion-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Cubone
+
+dex: 105
+
+rule:
+  - type: Attack
+    name: Dance of Flames
+    text: For each Energy attached to your opponent's Pokémon, attach a Fire Energy card from your discard pile to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Burning Bonemerang
+    text: Flip 2 coins. This attack does 70 damage for each heads. If either of them is heads, your opponent's Active Pokémon is now Burned.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

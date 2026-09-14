@@ -1,0 +1,47 @@
+name: Primeape
+
+origin: battle-styles-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Mankey
+
+dex: 57
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Field Crush
+    text: If your opponent has a Stadium in play, discard it.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Steamin' Mad Strike
+    text: This attack does 50 damage for each of your Benched Pokémon that has any damage counters on it.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

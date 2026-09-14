@@ -1,0 +1,41 @@
+name: Bouffalant
+
+origin: dragons-exalted-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 626
+
+rule:
+  - type: Ability
+    name: Bouffer
+    text: Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gold Breaker
+    text: If the Defending Pokémon is a Pokémon-EX, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

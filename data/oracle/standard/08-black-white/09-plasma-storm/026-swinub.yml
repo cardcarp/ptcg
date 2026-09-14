@@ -1,0 +1,37 @@
+name: Swinub
+
+origin: plasma-storm-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 220
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Double Headbutt
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

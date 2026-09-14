@@ -1,0 +1,45 @@
+name: Araquanid
+
+origin: fusion-strike-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Dewpider
+
+dex: 752
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Bug Bite
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Bubble Launch
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 110
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

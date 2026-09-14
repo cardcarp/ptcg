@@ -1,0 +1,44 @@
+name: Landorus
+
+origin: surging-sparks-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 645
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Fist of Focus
+    text: Attach an Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Buster Swing
+    text: This attack's damage isn't affected by Resistance.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

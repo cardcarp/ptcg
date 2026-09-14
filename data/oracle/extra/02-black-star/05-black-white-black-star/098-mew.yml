@@ -1,0 +1,37 @@
+name: Mew
+
+origin: black-white-black-star-098
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 151
+
+rule:
+  - type: Ability
+    name: Psyscan
+    text: Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may have your opponent reveal his or her hand.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psychic Exchange
+    text: Shuffle your hand into your deck. Then, draw 6 cards.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

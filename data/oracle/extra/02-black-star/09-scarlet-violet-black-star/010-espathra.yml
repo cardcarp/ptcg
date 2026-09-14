@@ -1,0 +1,47 @@
+name: Espathra
+
+origin: scarlet-violet-black-star-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Flittle
+
+dex: 956
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Aurora Gain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Super Psy Bolt
+    damage: 60
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

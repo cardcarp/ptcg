@@ -1,0 +1,35 @@
+name: Petilil
+
+origin: astral-radiance-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 548
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Spin Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

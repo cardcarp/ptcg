@@ -1,0 +1,36 @@
+name: Vanillite
+
+origin: noble-victories-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 582
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Icicle Barb
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

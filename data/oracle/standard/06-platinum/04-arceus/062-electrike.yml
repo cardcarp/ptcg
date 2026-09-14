@@ -1,0 +1,46 @@
+name: Electrike
+
+origin: arceus-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 309
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Zap Kick
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder Jolt
+    text: Flip a coin. If tails, Electrike does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

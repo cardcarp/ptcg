@@ -1,0 +1,40 @@
+name: Togepi
+
+origin: unbroken-bonds-136
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 50
+
+dex: 175
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Daunt
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

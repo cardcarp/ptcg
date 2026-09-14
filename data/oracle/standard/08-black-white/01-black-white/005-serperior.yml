@@ -1,0 +1,48 @@
+name: Serperior
+
+origin: black-white-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Servine
+
+dex: 497
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Vine Whip
+    damage: 40
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Leaf Storm
+    text: Heal 20 damage from each of your Grass Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+errata: []

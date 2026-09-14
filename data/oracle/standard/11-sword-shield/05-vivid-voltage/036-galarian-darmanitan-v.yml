@@ -1,0 +1,48 @@
+name: Galarian Darmanitan V
+
+origin: vivid-voltage-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Water
+
+hp: 220
+
+dex: 555
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Freezing Headbutt
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Frozen Slice
+    text: This Pokémon also does 30 damage to itself.
+    damage: 190
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

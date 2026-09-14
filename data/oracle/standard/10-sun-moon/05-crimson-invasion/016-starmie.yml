@@ -1,0 +1,40 @@
+name: Starmie
+
+origin: crimson-invasion-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Staryu
+
+dex: 121
+
+rule:
+  - type: Ability
+    name: Escape
+    text: Once during your turn (before your attack), you may shuffle this Pokémon and all cards attached to it into your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spinning Attack
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

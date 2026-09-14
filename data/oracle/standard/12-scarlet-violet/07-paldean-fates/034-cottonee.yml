@@ -1,0 +1,35 @@
+name: Cottonee
+
+origin: paldean-fates-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 546
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Fickle Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

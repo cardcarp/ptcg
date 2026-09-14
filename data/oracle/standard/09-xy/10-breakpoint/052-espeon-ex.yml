@@ -1,0 +1,46 @@
+name: Espeon-EX
+
+origin: breakpoint-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 196
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Miraculous Shine
+    text: Devolve each of your opponent's evolved Pokémon and put the highest Stage Evolution card on it into your opponent's hand.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psyshock
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

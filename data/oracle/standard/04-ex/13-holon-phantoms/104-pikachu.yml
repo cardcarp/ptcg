@@ -1,0 +1,47 @@
+name: Pikachu ☆
+
+origin: holon-phantoms-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Star
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Spring Back
+    text: If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+errata: []

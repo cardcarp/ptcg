@@ -1,0 +1,40 @@
+name: Fennekin
+
+origin: xy-black-star-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 653
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Scratch
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Live Coal
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

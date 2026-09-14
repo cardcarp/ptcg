@@ -1,0 +1,49 @@
+name: Honchkrow
+
+origin: battle-styles-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Murkrow
+
+dex: 430
+
+rule:
+  - type: Ability
+    name: Insomnia
+    text: This Pokémon can't be Asleep.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Voltage Dive
+    text: If your opponent's Active Pokémon has any Special Energy attached, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

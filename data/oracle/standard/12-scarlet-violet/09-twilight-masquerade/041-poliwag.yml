@@ -1,0 +1,42 @@
+name: Poliwag
+
+origin: twilight-masquerade-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 60
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Rap
+    text: Flip 2 coins. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

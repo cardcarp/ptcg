@@ -1,0 +1,36 @@
+name: Chewtle
+
+origin: vivid-voltage-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 833
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Jaw Lock
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

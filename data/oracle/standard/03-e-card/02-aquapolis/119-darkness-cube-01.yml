@@ -1,0 +1,23 @@
+name: Darkness Cube 01
+
+origin: aquapolis-119
+
+layout: Standard
+
+category:
+  - Trainer
+
+trait:
+  - Technical Machine
+
+rule:
+  - type: Effect
+    text: Attach this card to 1 of your Darkness Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Darkness Cube 01.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Plunder
+    text: Before doing damage, discard any Trainer cards attached to the Defending Pokémon.
+    damage: 10
+
+errata: []

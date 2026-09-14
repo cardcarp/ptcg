@@ -1,0 +1,41 @@
+name: Gloom
+
+origin: unbroken-bonds-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Oddish
+
+dex: 44
+
+rule:
+  - type: Ability
+    name: Irresistible Aroma
+    text: Once during your turn (before your attack), if your opponent's Bench isn't full, you may flip a coin. If heads, your opponent reveals their hand. Put a Basic Pokémon you find there onto their Bench.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Drool
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

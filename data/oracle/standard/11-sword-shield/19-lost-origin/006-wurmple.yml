@@ -1,0 +1,41 @@
+name: Wurmple
+
+origin: lost-origin-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 265
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Sting
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Creepy-Crawly Congregation
+    text: Search your deck for any number of Wurmple, Silcoon, Beautifly, Cascoon, and Dustox, reveal them, and put them into your hand. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

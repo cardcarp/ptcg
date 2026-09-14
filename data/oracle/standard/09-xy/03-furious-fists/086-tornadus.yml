@@ -1,0 +1,50 @@
+name: Tornadus
+
+origin: furious-fists-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 110
+
+dex: 641
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Push Down
+    text: You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Twister Throw
+    text: If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

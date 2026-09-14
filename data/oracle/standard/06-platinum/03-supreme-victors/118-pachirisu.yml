@@ -1,0 +1,46 @@
+name: Pachirisu
+
+origin: supreme-victors-118
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 417
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Slap
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+    name: Pachi
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

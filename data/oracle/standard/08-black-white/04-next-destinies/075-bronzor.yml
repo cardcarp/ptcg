@@ -1,0 +1,49 @@
+name: Bronzor
+
+origin: next-destinies-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 436
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Spinning Attack
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

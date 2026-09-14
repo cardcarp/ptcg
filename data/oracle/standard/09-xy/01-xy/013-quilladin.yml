@@ -1,0 +1,45 @@
+name: Quilladin
+
+origin: xy-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Chespin
+
+dex: 651
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scrunch
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Wood Hammer
+    text: This Pokémon does 10 damage to itself.
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

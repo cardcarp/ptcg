@@ -1,0 +1,48 @@
+name: Ampharos V
+
+origin: vivid-voltage-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 210
+
+dex: 181
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Dazzle Blast
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 50
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Damaging Spark
+    text: This attack also does 30 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

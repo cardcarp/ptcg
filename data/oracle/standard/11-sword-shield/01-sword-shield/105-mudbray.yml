@@ -1,0 +1,40 @@
+name: Mudbray
+
+origin: sword-shield-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 749
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rear Kick
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

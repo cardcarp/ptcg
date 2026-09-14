@@ -1,0 +1,47 @@
+name: Gyarados G
+
+origin: platinum-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Water
+
+hp: 110
+
+dex: 130
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Wriggle
+    text: Flip a coin for each of your opponent's Pokémon. If that coin flip is heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Dwindling Wave
+    text: Does 100 damage minus 10 damage for each damage counter on Gyarados G.
+    damage: 100
+    modifier: '-'
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

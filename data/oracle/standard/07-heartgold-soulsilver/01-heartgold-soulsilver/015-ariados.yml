@@ -1,0 +1,47 @@
+name: Ariados
+
+origin: heartgold-soulsilver-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Leech Life
+    text: Remove from Ariados the number of damage counters equal to the damage you did to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Poisonous Saliva
+    text: The Defending Pokémon is now Poisoned.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

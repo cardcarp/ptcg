@@ -1,0 +1,45 @@
+name: Morgrem
+
+origin: fusion-strike-177
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Impidimp
+
+dex: 860
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Crushing Blow
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

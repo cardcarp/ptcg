@@ -1,0 +1,48 @@
+name: Tangrowth LV.X
+
+origin: arceus-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Level-Up
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Tangrowth
+
+dex: 465
+
+rule:
+  - type: Ability
+    name: Healing Growth
+    text: Once during your turn (before your attack), you may flip a coin. If heads, remove 4 damage counters from 1 of your Pokémon. This power can't be used if Tangrowth is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Grass
+    name: Big Growth
+    text: Search your discard pile for as many Grass Energy cards as you like and attach them to your Pokémon in any way you like.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - Put this card onto your Active Tangrowth. Tangrowth LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+errata: []

@@ -1,0 +1,36 @@
+name: Tandemaus
+
+origin: surging-sparks-157
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 924
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Play Rough
+    text: Flip a coin. If heads, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

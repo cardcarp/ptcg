@@ -1,0 +1,46 @@
+name: Manectric
+
+origin: darkness-ablaze-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 110
+
+preevolution:
+  - Electrike
+
+dex: 310
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Strafe
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Flash Impact
+    text: This attack also does 30 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 150
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

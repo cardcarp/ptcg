@@ -1,0 +1,39 @@
+name: Torkoal
+
+origin: dragon-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 324
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Power Generation
+    text: Search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put them into your hand.
+  - type: Attack
+    cost:
+      - Fire
+    name: Scorching Smoke
+    text: The Defending Pokémon is now Burned. Flip a coin. If tails, discard a Fire Energy card attached to Torkoal.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

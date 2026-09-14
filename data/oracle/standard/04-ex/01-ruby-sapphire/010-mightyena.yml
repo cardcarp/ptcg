@@ -1,0 +1,48 @@
+name: Mightyena
+
+origin: ruby-sapphire-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Poochyena
+
+dex: 262
+
+rule:
+  - type: Ability
+    name: Intimidating Fang
+    text: As long as Mightyena is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Shakedown
+    text: Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

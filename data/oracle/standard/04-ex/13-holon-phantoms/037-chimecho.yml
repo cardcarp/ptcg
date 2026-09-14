@@ -1,0 +1,39 @@
+name: Chimecho δ
+
+origin: holon-phantoms-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 358
+
+rule:
+  - type: Ability
+    name: Delta Support
+    text: Once during your turn (before your attack), if you have a Supporter card with Holon in its name in play, you may search your discard pile for a basic Energy card or a δ Rainbow Energy card, show it to your opponent, and put it into your hand. This power can't be used if Chimecho is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hook
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

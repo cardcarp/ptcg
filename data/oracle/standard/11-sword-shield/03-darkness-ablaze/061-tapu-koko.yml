@@ -1,0 +1,39 @@
+name: Tapu Koko
+
+origin: darkness-ablaze-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 785
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Allure
+    text: Draw 2 cards.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electric Ball
+    damage: 110
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

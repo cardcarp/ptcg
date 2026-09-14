@@ -1,0 +1,40 @@
+name: Drowzee
+
+origin: furious-fists-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 96
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Sinister Suggestion
+    text: Whenever your opponent flips a coin during his or her next turn, treat it as tails.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Psyshot
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,35 @@
+name: Magikarp
+
+origin: legendary-treasures-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 30
+
+dex: 129
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flailing Flop
+    text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

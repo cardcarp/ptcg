@@ -1,0 +1,40 @@
+name: Darumaka
+
+origin: black-white-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 554
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Singe
+    text: The Defending Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rollout
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

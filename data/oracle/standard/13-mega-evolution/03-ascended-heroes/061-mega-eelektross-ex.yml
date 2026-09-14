@@ -1,0 +1,51 @@
+name: Mega Eelektross ex
+
+origin: ascended-heroes-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - MEGA
+  - ex
+
+type:
+  - Lightning
+
+hp: 350
+
+preevolution:
+  - Eelektrik
+
+dex: 604
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Split Bomb
+    text: This attack does 60 damage to each of 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+    name: Disaster Shock
+    text: You may discard 2 Lightning Energy from this Pokémon and make your opponent's Active Pokémon Paralyzed.
+    damage: 190
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

@@ -1,0 +1,38 @@
+name: Carvanha
+
+origin: ruby-sapphire-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 40
+
+dex: 318
+
+rule:
+  - type: Ability
+    name: Rough Skin
+    text: If Carvanha is your Active Pokémon and is damaged by an opponent's attack (even if Carvanha is Knocked Out), put 1 damage counter on the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Big Bite
+    text: The Defending Pokémon can't retreat until the end of your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

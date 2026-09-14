@@ -1,0 +1,51 @@
+name: Registeel ☆
+
+origin: legend-maker-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Star
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 379
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Barrier Attack
+    text: During your opponent's next turn, any damage done to Registeel Star by attacks is reduced by 10 (after applying Weakness and Resistance).
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Final Laser
+    text: Put 3 damage counters on your opponent's Pokémon in any way you like. If your opponent has only 1 Prize card left and Registeel Star is the only Pokémon you have in play, put 6 damage counters instead.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - You can't have more than 1 Pokémon Star in your deck.
+
+errata: []

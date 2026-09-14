@@ -1,0 +1,39 @@
+name: Komala
+
+origin: lost-origin-149
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 775
+
+rule:
+  - type: Ability
+    name: All Just a Dream
+    text: If this Pokémon is Asleep and is Knocked Out by damage from an attack from your opponent's Pokémon, your opponent can't take any Prize cards for it.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Collapse
+    text: This Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

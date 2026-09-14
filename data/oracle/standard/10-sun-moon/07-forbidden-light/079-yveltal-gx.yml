@@ -1,0 +1,57 @@
+name: Yveltal-GX
+
+origin: forbidden-light-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Darkness
+
+hp: 180
+
+dex: 717
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Absorb Vitality
+    text: Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sonic Evil
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 100
+  - type: Attack
+    cost:
+      - Darkness
+    name: Doom Count-GX
+    text: If your opponent's Active Pokémon has exactly 4 damage counters on it, that Pokémon is Knocked Out. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

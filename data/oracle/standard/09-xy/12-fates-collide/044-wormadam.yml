@@ -1,0 +1,46 @@
+name: Wormadam
+
+origin: fates-collide-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Burmy
+
+dex: 413
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sand Spray
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Twin Bursts
+    text: If Mothim is on your Bench, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

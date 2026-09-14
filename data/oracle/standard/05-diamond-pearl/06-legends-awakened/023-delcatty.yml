@@ -1,0 +1,41 @@
+name: Delcatty
+
+origin: legends-awakened-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Skitty
+
+dex: 301
+
+rule:
+  - type: Ability
+    name: Attracting Body
+    text: If Delcatty is your Active Pokémon and is damaged by an opponent's attack (even if Delcatty is Knocked Out), flip a coin. If heads, the Attacking Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Assist
+    text: Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

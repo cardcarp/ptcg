@@ -1,0 +1,44 @@
+name: Ninetales
+
+origin: unleashed-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Heat Acceleration
+    text: Search your discard pile for up to 3 Fire Energy cards and attach them to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Searing Flame
+    text: The Defending Pokémon is now Burned.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

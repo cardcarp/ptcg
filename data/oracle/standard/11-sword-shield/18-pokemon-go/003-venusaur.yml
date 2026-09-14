@@ -1,0 +1,43 @@
+name: Venusaur
+
+origin: pokemon-go-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 180
+
+preevolution:
+  - Ivysaur
+
+dex: 3
+
+rule:
+  - type: Ability
+    name: Loopy Lasso
+    text: Once during your turn, you may flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon, and the new Active Pokémon is now Asleep and Poisoned.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

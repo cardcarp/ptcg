@@ -1,0 +1,47 @@
+name: Krookodile
+
+origin: phantasmal-flames-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 170
+
+preevolution:
+  - Krokorok
+
+dex: 553
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Vengeful Fang
+    text: If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 160 more damage.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

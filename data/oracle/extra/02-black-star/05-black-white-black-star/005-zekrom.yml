@@ -1,0 +1,45 @@
+name: Zekrom
+
+origin: black-white-black-star-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 130
+
+dex: 644
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Outrage
+    text: Does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Bolt Strike
+    text: This Pokémon does 40 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

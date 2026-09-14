@@ -1,0 +1,40 @@
+name: Yanma
+
+origin: unseen-forces-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 193
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Grand Loop
+    text: Draw 2 cards. You may switch Yanma with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Spinning Tail
+    text: Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

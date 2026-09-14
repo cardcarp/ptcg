@@ -1,0 +1,38 @@
+name: Sudowoodo
+
+origin: guardians-rising-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 100
+
+dex: 185
+
+rule:
+  - type: Ability
+    name: Roadblock
+    text: Your opponent can't have more than 4 Benched Pokémon. If they have 5 or more Benched Pokémon, they discard Benched Pokémon until they have 4 Pokémon on the Bench. If more than one effect changes the number of Benched Pokémon allowed, use the smaller number.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rock Throw
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Ariados
+
+origin: neo-genesis-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 60
+
+preevolution:
+  - Spinarak
+
+dex: 168
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Spider Web
+    text: Flip a coin. If heads, the Defending Pokémon can't retreat. (Benching or evolving that Pokémon ends this effect.)
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Poison Bite
+    text: If this attack damages the Defending Pokémon, the Defending Pokémon is now Poisoned and you remove a number of damage counters from Ariados equal to half that damage (rounded up to the nearest 10). If Ariados has fewer damage counters than that, remove all of them.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

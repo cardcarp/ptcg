@@ -1,0 +1,49 @@
+name: Zacian
+
+origin: rebel-clash-139
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 120
+
+dex: 888
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Energy Stream
+    text: Attach a Metal Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Smashing Edge
+    text: Flip a coin. If tails, discard 2 Energy from this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

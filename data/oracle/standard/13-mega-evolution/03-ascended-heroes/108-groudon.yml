@@ -1,0 +1,45 @@
+name: Groudon
+
+origin: ascended-heroes-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 140
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Hammer In
+    damage: 80
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Megaton Fall
+    text: This Pokémon also does 30 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

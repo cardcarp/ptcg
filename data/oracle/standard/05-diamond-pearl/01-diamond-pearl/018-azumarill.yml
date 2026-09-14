@@ -1,0 +1,45 @@
+name: Azumarill
+
+origin: diamond-pearl-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to Azumarill during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Bubble Pump
+    text: If Azumarill has 3 or more Energy attached to it, this attack does 40 damage plus 20 more damage. If Azurill is anywhere under Azumarill, flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

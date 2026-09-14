@@ -1,0 +1,44 @@
+name: Golbat
+
+origin: plasma-storm-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Zubat
+
+dex: 42
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spiral Drain
+    text: Heal 20 damage from this Pokémon.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

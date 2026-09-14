@@ -1,0 +1,43 @@
+name: Herdier
+
+origin: obsidian-flames-171
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Lillipup
+
+dex: 507
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rear Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

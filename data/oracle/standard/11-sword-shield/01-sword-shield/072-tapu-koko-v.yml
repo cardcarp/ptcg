@@ -1,0 +1,45 @@
+name: Tapu Koko V
+
+origin: sword-shield-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 200
+
+dex: 785
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Spike Draw
+    text: Draw 2 cards.
+    damage: 20
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunderous Bolt
+    text: During your next turn, this Pokémon can't attack.
+    damage: 200
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

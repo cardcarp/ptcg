@@ -1,0 +1,50 @@
+name: Amoonguss
+
+origin: plasma-storm-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Foongus
+
+dex: 591
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Astonish
+    text: Flip a coin. If heads, choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Miracle Powder
+    text: Flip a coin. If heads, choose a Special Condition. The Defending Pokémon is now affected by that Special Condition.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

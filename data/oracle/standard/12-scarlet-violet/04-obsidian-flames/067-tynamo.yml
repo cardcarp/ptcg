@@ -1,0 +1,40 @@
+name: Tynamo
+
+origin: obsidian-flames-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 602
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Static Shock
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Tiny Bolt
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

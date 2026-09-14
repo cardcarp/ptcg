@@ -1,0 +1,37 @@
+name: Wooloo
+
+origin: fusion-strike-222
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 831
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

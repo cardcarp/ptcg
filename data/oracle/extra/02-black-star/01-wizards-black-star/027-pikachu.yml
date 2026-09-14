@@ -1,0 +1,40 @@
+name: Pikachu
+
+origin: wizards-black-star-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 30
+
+dex: 25
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thundershock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Agility
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Pikachu.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

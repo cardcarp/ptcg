@@ -1,0 +1,49 @@
+name: Raichu
+
+origin: undaunted-083
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Prime
+
+type:
+  - Lightning
+
+hp: 100
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Ability
+    name: Voltage Increase
+    text: As often as you like during your turn (before your attack), you may move a Lightning Energy attached to 1 of your Pokémon to Raichu. This power can't be used if Raichu is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Mega Thunderbolt
+    text: Discard all Energy attached to Raichu.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

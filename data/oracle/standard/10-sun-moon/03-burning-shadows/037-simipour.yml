@@ -1,0 +1,44 @@
+name: Simipour
+
+origin: burning-shadows-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Panpour
+
+dex: 516
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scratch
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Reflect
+    text: Move a Water Energy from this Pokémon to 1 of your Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

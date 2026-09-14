@@ -1,0 +1,44 @@
+name: Weavile
+
+origin: shrouded-fable-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Slash
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Hail Claw
+    text: Discard all Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.
+    damage: 70
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,50 @@
+name: Iron Hands ex
+
+origin: paradox-rift-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+  - Future
+
+type:
+  - Lightning
+
+hp: 230
+
+dex: 992
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Arm Press
+    damage: 160
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Amp You Very Much
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

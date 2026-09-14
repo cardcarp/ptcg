@@ -1,0 +1,48 @@
+name: Incineroar
+
+origin: shining-legends-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 170
+
+preevolution:
+  - Torracat
+
+dex: 727
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Profane Punch
+    text: If your Benched Pokémon have any damage counters on them, this attack does 80 more damage.
+    damage: 50
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flare Blitz
+    text: Discard all Fire Energy from this Pokémon.
+    damage: 180
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Voltorb
+
+origin: team-rocket-returns-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 100
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Psycho Waves
+    text: Discard an Energy card attached to Voltorb. The Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Thunder Wave
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

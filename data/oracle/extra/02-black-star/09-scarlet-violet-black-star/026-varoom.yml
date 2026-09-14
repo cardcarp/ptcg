@@ -1,0 +1,39 @@
+name: Varoom
+
+origin: scarlet-violet-black-star-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 965
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Poison Gas
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

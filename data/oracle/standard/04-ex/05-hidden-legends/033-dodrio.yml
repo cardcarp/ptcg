@@ -1,0 +1,53 @@
+name: Dodrio
+
+origin: hidden-legends-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Doduo
+
+dex: 85
+
+rule:
+  - type: Ability
+    name: Fast Feet
+    text: Dodrio can retreat even when it is Asleep or Paralyzed.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Retaliate
+    text: Does 10 damage times the number of damage counters on Dodrio.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slashing Strike
+    text: Flip a coin. If tails, Dodrio can't use Slashing Strike during your next turn.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

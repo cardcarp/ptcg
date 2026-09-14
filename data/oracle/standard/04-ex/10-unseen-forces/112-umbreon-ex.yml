@@ -1,0 +1,57 @@
+name: Umbreon ex
+
+origin: unseen-forces-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: Ability
+    name: Darker Ring
+    text: Once during your turn (before your attack), when you play Umbreon ex from your hand to evolve 1 of your Pokémon, switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Black Cry
+    text: The Defending Pokémon can't retreat or use any Poké-Powers during your opponent's next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Darkness Fang
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

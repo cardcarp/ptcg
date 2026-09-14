@@ -1,0 +1,44 @@
+name: Braixen
+
+origin: xy-black-star-161
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 80
+
+preevolution:
+  - Fennekin
+
+dex: 654
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Destructive Flame
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Crackling Ribbon
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

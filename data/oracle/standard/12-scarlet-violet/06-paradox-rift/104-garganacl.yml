@@ -1,0 +1,42 @@
+name: Garganacl
+
+origin: paradox-rift-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Naclstack
+
+dex: 934
+
+rule:
+  - type: Ability
+    name: Energizing Rock Salt
+    text: Once during your turn, you may attach a Basic Fighting Energy card from your discard pile to 1 of your Pokémon. If you attached Energy to a Pokémon in this way, heal 30 damage from that Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Land Crush
+    damage: 140
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

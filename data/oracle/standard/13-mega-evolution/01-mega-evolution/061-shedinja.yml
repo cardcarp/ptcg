@@ -1,0 +1,45 @@
+name: Shedinja
+
+origin: mega-evolution-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Nincada
+
+dex: 292
+
+rule:
+  - type: Ability
+    name: Fragile Husk
+    text: If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon ex, your opponent can't take any Prize cards for it.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Damage Beat
+    text: This attack does 20 damage for each damage counter on your opponent's Active Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

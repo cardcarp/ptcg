@@ -1,0 +1,44 @@
+name: Rain Castform
+
+origin: hidden-legends-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 351
+
+rule:
+  - type: Ability
+    name: Temperamental Weather
+    text: Once during your turn (before your attack), you may search your deck for Castform, Sunny Castform, or Snow-cloud Castform and switch it with Rain Castform. (Any cards attached to Rain Castform, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Shuffle Rain Castform back into your deck. You can't use more than 1 Temperamental Weather Poké-Power each turn.
+  - type: Attack
+    cost:
+      - Water
+    name: Scattered Shower
+    text: Shuffle your hand into your deck. Draw up to 5 cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rainy Day Blues
+    text: If Low Pressure System is in play, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

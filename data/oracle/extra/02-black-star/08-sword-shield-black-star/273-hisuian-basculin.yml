@@ -1,0 +1,40 @@
+name: Hisuian Basculin
+
+origin: sword-shield-black-star-273
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 550
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Submerge Silently
+    text: You can use this attack only if you go second, and only during your first turn. During your opponent's next turn, prevent all damage done to this Pokémon by attacks.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Bite
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

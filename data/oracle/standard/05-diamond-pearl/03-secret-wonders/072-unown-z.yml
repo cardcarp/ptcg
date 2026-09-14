@@ -1,0 +1,38 @@
+name: Unown [Z]
+
+origin: secret-wonders-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 201
+
+rule:
+  - type: Ability
+    name: ZERO
+    text: Once during your turn (before your attack), if Unown Z is on your Bench and you have no cards in your deck, you may discard all cards attached to Unown Z and put Unown Z on top of your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Hidden Power
+    text: Remove as many damage counters as you like from each Unown you have in play. Put that many damage counters on the Defending Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

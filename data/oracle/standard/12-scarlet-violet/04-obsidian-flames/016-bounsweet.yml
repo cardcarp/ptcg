@@ -1,0 +1,41 @@
+name: Bounsweet
+
+origin: obsidian-flames-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 761
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Reckless Charge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

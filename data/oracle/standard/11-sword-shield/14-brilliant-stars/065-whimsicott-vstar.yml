@@ -1,0 +1,48 @@
+name: Whimsicott VSTAR
+
+origin: brilliant-stars-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Psychic
+
+hp: 250
+
+preevolution:
+  - Whimsicott V
+
+dex: 547
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Trick Wind
+    text: During your opponent's next turn, they can't play any Pokémon Tool or Special Energy cards from their hand.
+    damage: 160
+  - type: Attack
+    cost:
+      - Psychic
+    name: Fluffball Star
+    text: This attack does 60 damage to 1 of your opponent's Pokémon for each Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 VSTAR Power in a game.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

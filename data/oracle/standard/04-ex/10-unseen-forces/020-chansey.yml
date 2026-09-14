@@ -1,0 +1,40 @@
+name: Chansey
+
+origin: unseen-forces-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 90
+
+dex: 113
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hyper Healing
+    text: Remove 1 damage counter and all Special Conditions from each of your Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double Tack
+    text: Does 20 damage to each Defending Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Alomomola
+
+origin: dragons-exalted-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 594
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Mysterious Beam
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Double Slap
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    damage: 50
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,46 @@
+name: Glalie
+
+origin: cosmic-eclipse-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Snorunt
+
+dex: 362
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Ice Fang
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed, and discard an Energy from that Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Frosty Typhoon
+    text: This Pokémon can't use Frosty Typhoon during your next turn.
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,45 @@
+name: Flygon
+
+origin: furious-fists-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 130
+
+preevolution:
+  - Vibrava
+
+dex: 330
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rainbow Shower
+    text: Attach as many basic Energy cards as you like from your hand to your Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Grass
+      - Fighting
+      - Colorless
+    name: Sand Sweep
+    text: Heal 30 damage from each of your Pokémon that has any Energy attached to it.
+    damage: 70
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

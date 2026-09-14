@@ -1,0 +1,49 @@
+name: Archeops
+
+origin: unified-minds-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Archen
+
+dex: 567
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: U-turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hyper Beam
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

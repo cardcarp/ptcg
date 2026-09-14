@@ -1,0 +1,41 @@
+name: Mewtwo
+
+origin: wizards-black-star-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Energy Absorption
+    text: Choose up to 2 Energy cards from your discard pile and attach them to Mewtwo.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psyburn
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

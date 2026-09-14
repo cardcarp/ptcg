@@ -1,0 +1,45 @@
+name: Gothitelle
+
+origin: emerging-powers-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Gothorita
+
+dex: 576
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Smack
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mental Shock
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, discard an Energy attached to the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Jellicent
+
+origin: plasma-storm-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Frillish
+
+dex: 593
+
+rule:
+  - type: Ability
+    name: Spiteful Spirit
+    text: If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent's attack, the Attacking Pokémon is now Confused and Poisoned.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Aqua Bullet
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

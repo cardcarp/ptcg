@@ -1,0 +1,39 @@
+name: Riolu
+
+origin: pop-series-8-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 447
+
+rule:
+  - type: Ability
+    name: Inner Focus
+    text: Riolu can't be Paralyzed.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

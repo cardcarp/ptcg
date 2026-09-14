@@ -1,0 +1,53 @@
+name: Staraptor
+
+origin: brilliant-stars-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Staravia
+
+dex: 398
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Strong Breeze
+    text: Your opponent shuffles their Active Pokémon and all attached cards into their deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Spinning Bird
+    text: Discard 2 Energy from this Pokémon.
+    damage: 180
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

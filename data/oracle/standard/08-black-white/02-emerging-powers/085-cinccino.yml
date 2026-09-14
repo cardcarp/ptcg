@@ -1,0 +1,44 @@
+name: Cinccino
+
+origin: emerging-powers-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Minccino
+
+dex: 573
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Captivate
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Fluffy Tail
+    text: The Defending Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

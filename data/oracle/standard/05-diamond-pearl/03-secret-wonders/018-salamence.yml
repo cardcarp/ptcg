@@ -1,0 +1,52 @@
+name: Salamence
+
+origin: secret-wonders-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 140
+
+preevolution:
+  - Shelgon
+
+dex: 373
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Direct Hit
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Water
+      - Water
+    name: Dragon Finish
+    text: Discard 2 basic Fire Energy cards or 2 basic Water Energy cards attached to Salamence. If you discarded 2 basic Fire Energy cards, this attack does 100 damage to the Defending Pokémon. If you discarded 2 Basic Water Energy cards, this attack does 100 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (If you can't discard cards, this attack does nothing.)
+
+weakness:
+  - type: Colorless
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,40 @@
+name: Flittle
+
+origin: scarlet-violet-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 955
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Dash Off
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

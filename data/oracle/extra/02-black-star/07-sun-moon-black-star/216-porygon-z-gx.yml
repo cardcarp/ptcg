@@ -1,0 +1,52 @@
+name: Porygon-Z-GX
+
+origin: sun-moon-black-star-216
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - GX
+
+type:
+  - Colorless
+
+hp: 240
+
+preevolution:
+  - Porygon2
+
+dex: 474
+
+rule:
+  - type: Ability
+    name: Troubleshooting
+    text: Once during your turn (before your attack), you may discard a Special Energy from this Pokémon. If you do, heal 80 damage from it.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Abnormal Overheating
+    text: This Pokémon is now Burned.
+    damage: 160
+  - type: Attack
+    cost:
+      - Colorless
+    name: Critical Error-GX
+    text: Search your deck for up to 10 cards and discard them. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

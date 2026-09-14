@@ -1,0 +1,46 @@
+name: Gigalith
+
+origin: evolving-skies-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Boldore
+
+dex: 526
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Guard Press
+    text: During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).
+    damage: 50
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Pressure Shot
+    text: This Pokémon also does 10 damage to itself for each damage counter on it.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

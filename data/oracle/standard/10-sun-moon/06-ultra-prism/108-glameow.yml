@@ -1,0 +1,35 @@
+name: Glameow
+
+origin: ultra-prism-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 431
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gentle Bite
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 40 less damage (before applying Weakness and Resistance).
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

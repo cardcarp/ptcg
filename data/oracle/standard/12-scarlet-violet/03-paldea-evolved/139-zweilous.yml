@@ -1,0 +1,44 @@
+name: Zweilous
+
+origin: paldea-evolved-139
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Deino
+
+dex: 634
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Find a Friend
+    text: Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Headbutt Bounce
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

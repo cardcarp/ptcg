@@ -1,0 +1,40 @@
+name: Axew
+
+origin: plasma-blast-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 50
+
+dex: 610
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Strong Bond
+    text: Search your deck for a Supporter card named Iris, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fighting
+      - Metal
+    name: Dragon Claw
+    damage: 20
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

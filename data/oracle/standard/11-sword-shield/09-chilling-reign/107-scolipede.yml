@@ -1,0 +1,47 @@
+name: Scolipede
+
+origin: chilling-reign-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 160
+
+preevolution:
+  - Whirlipede
+
+dex: 545
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 50
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Venoshock
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 120 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

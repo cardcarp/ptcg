@@ -1,0 +1,45 @@
+name: Treecko
+
+origin: ruby-sapphire-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 252
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Slap
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

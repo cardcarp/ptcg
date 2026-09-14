@@ -1,0 +1,47 @@
+name: Florges
+
+origin: flashfire-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fairy
+
+hp: 110
+
+preevolution:
+  - Floette
+
+dex: 671
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Brilliant Search
+    text: Search your deck for up to 3 cards and put them into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fairy
+    name: Petal Blizzard
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

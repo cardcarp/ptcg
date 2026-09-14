@@ -1,0 +1,45 @@
+name: N's Vanillish
+
+origin: ascended-heroes-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - N's Vanillite
+
+dex: 583
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flop
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Sheer Cold
+    text: During your opponent's next turn, the Defending Pokémon can't use attacks.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

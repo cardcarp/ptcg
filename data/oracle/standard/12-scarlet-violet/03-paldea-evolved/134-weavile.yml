@@ -1,0 +1,41 @@
+name: Weavile
+
+origin: paldea-evolved-134
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Sneasel
+
+dex: 461
+
+rule:
+  - type: Ability
+    name: Assaulting Hunt
+    text: Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may switch in 1 of your opponent's Benched Basic Pokémon to the Active Spot.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Slashing Claw
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

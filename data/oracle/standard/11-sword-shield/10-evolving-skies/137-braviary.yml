@@ -1,0 +1,52 @@
+name: Braviary
+
+origin: evolving-skies-137
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Rufflet
+
+dex: 628
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Valiant Talons
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Brave Bird
+    text: This Pokémon also does 50 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,40 @@
+name: Shinx
+
+origin: fusion-strike-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 403
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Gnaw
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Electric Claws
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

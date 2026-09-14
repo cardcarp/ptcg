@@ -1,0 +1,47 @@
+name: Raikou
+
+origin: shining-legends-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 243
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Booming Thunder
+    text: Attach a Lightning Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Electric Ball
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

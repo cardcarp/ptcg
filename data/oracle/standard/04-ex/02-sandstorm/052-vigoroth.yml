@@ -1,0 +1,44 @@
+name: Vigoroth
+
+origin: sandstorm-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 70
+
+preevolution:
+  - Slakoth
+
+dex: 288
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Focus Energy
+    text: During your next turn, base damage of Vigoroth's Slash is attack is 90 instead of 40.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

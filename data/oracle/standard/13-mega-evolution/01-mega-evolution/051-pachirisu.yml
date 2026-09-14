@@ -1,0 +1,35 @@
+name: Pachirisu
+
+origin: mega-evolution-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 417
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electrified Incisors
+    text: During your opponent's next turn, whenever they attach an Energy card from their hand to the Defending Pokémon, place 8 damage counters on that Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

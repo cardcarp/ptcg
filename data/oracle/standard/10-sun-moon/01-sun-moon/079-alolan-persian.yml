@@ -1,0 +1,47 @@
+name: Alolan Persian
+
+origin: sun-moon-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Alolan Meowth
+
+dex: 53
+
+rule:
+  - type: Attack
+    name: Taunt
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Claw Rend
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

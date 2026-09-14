@@ -1,0 +1,41 @@
+name: Lycanroc
+
+origin: chilling-reign-087
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rogue Fangs
+    text: This attack does 10 more damage for each Single Strike Pokémon in your discard pile.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

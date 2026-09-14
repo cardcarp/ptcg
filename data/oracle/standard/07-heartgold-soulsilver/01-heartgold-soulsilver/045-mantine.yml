@@ -1,0 +1,46 @@
+name: Mantine
+
+origin: heartgold-soulsilver-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 226
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Group Swim
+    text: Search your deck for a Water Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Aqua Slash
+    text: Mantine can't attack during your next turn.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

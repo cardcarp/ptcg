@@ -1,0 +1,43 @@
+name: Raticate
+
+origin: undaunted-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Rattata
+
+dex: 20
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Razor-Sharp Incisors
+    text: Does 10 damage times the number of damage counters on the Defending Pokémon.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gnaw Up
+    text: Discard a Special Energy card attached to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,47 @@
+name: Conkeldurr
+
+origin: twilight-masquerade-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Gurdurr
+
+dex: 534
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Tantrum
+    text: This Pokémon is now Confused.
+    damage: 80
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gutsy Swing
+    text: If this Pokémon is affected by a Special Condition, ignore all Energy in this attack's cost.
+    damage: 250
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

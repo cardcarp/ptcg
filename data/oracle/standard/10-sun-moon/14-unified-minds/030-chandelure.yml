@@ -1,0 +1,39 @@
+name: Chandelure
+
+origin: unified-minds-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Lampent
+
+dex: 609
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Spirit Burner
+    text: Discard the top 5 cards of your deck. This attack does 60 more damage for each Pokémon you discarded in this way. Then, put any number of Fire Pokémon you discarded in this way onto your Bench.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

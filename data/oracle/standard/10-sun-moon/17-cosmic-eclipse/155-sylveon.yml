@@ -1,0 +1,52 @@
+name: Sylveon
+
+origin: cosmic-eclipse-155
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 700
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Moonblast
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).
+    damage: 30
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Beloved Pulse
+    text: If you played a TAG TEAM Supporter card from your hand during this turn, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

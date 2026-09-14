@@ -1,0 +1,37 @@
+name: Jangmo-o
+
+origin: cosmic-eclipse-160
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 782
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Fighting
+    name: Raging Claws
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

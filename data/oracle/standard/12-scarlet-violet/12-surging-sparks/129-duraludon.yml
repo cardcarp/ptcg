@@ -1,0 +1,48 @@
+name: Duraludon
+
+origin: surging-sparks-129
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 884
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+    name: Confront
+    damage: 50
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+    name: Duralubeam
+    text: Discard 2 Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

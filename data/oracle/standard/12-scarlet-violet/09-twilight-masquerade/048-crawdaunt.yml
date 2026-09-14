@@ -1,0 +1,47 @@
+name: Crawdaunt
+
+origin: twilight-masquerade-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Corphish
+
+dex: 342
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Snip Snip
+    text: Flip 2 coins. For each heads, discard the top card of your opponent's deck.
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Rampaging Hammer
+    text: During your next turn, this Pokémon can't attack.
+    damage: 180
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

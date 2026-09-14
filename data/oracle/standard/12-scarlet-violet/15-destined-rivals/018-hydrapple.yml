@@ -1,0 +1,44 @@
+name: Hydrapple
+
+origin: destined-rivals-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 170
+
+preevolution:
+  - Dipplin
+
+dex: 1019
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Hydra Breath
+    text: Discard 6 Basic Grass Energy cards from your hand, and Knock Out your opponent's Active Pokémon. If you can't discard 6 cards in this way, this attack does nothing.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Whip Smash
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

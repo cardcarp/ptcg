@@ -1,0 +1,40 @@
+name: Ekans
+
+origin: temporal-forces-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 23
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Poison Blend
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused and Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Bite
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

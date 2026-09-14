@@ -1,0 +1,43 @@
+name: Palkia
+
+origin: shining-legends-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 130
+
+dex: 484
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spiral Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Blade
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

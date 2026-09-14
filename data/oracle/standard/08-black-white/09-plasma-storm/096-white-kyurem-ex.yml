@@ -1,0 +1,50 @@
+name: White Kyurem-EX
+
+origin: plasma-storm-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 180
+
+dex: 646
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 60
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Water
+      - Colorless
+    name: White Inferno
+    text: Does 10 more damage for each damage counter on this Pokémon.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

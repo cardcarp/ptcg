@@ -1,0 +1,44 @@
+name: Sylveon
+
+origin: sword-shield-black-star-211
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+dex: 700
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Time Out Kick
+    text: You may put an Energy attached to your opponent's Active Pokémon into their hand.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Symphony Whip
+    text: If you played a Supporter card from your hand during this turn, this attack does 70 more damage.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

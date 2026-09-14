@@ -1,0 +1,48 @@
+name: Scovillain ex
+
+origin: temporal-forces-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 260
+
+preevolution:
+  - Capsakid
+
+dex: 952
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Chili Snapper Bind
+    text: Your opponent's Active Pokémon is now Burned. During your opponent's next turn, that Pokémon can't retreat.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Two-Headed Crushing
+    text: Discard a random card from your opponent's hand. Discard the top card of your opponent's deck.
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

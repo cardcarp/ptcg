@@ -1,0 +1,43 @@
+name: Ninjask
+
+origin: deoxys-013
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Nincada
+
+dex: 291
+
+rule:
+  - type: Ability
+    name: Fast Protection
+    text: Prevent all effects, including damage, done to Ninjask by your opponent's attacks from his or her Basic Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Swords Dance
+    text: During your next turn, Ninjask's Slash attack's base damage is 80.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+errata: []

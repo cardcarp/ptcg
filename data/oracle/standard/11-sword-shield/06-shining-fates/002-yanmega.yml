@@ -1,0 +1,42 @@
+name: Yanmega
+
+origin: shining-fates-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Yanma
+
+dex: 469
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Bug Bite
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Nosedive
+    text: This Pokémon also does 30 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

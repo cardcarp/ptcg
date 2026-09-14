@@ -1,0 +1,42 @@
+name: Dragonite
+
+origin: team-up-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 160
+
+preevolution:
+  - Dragonair
+
+dex: 149
+
+rule:
+  - type: Ability
+    name: Fast Call
+    text: Once during your turn (before your attack), you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+    name: Dragon Claw
+    damage: 120
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

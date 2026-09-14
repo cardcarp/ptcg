@@ -1,0 +1,37 @@
+name: Spheal
+
+origin: primal-clash-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 363
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Ball Roll
+    text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

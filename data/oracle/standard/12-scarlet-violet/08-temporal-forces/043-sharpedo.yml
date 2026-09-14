@@ -1,0 +1,46 @@
+name: Sharpedo
+
+origin: temporal-forces-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Chew Off
+    text: Flip 3 coins. For each heads, discard a random card from your opponent's hand.
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Jet Headbutt
+    damage: 100
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

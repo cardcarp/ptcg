@@ -1,0 +1,44 @@
+name: Crabominable
+
+origin: cosmic-eclipse-122
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Crabrawler
+
+dex: 740
+
+rule:
+  - type: Ability
+    name: Solid Shell
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Freezing Punch
+    text: If this Pokémon has any Water Energy attached to it, this attack does 80 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

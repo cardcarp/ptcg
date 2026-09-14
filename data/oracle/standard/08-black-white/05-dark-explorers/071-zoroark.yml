@@ -1,0 +1,53 @@
+name: Zoroark
+
+origin: dark-explorers-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Zorua
+
+dex: 571
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Brutal Bash
+    text: Does 20 damage times the number of Darkness Pokémon you have in play.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Dark Rush
+    text: Does 20 damage times the number of damage counters on this Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

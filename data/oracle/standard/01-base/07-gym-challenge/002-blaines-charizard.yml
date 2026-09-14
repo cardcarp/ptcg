@@ -1,0 +1,50 @@
+name: Blaine's Charizard
+
+origin: gym-challenge-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 100
+
+preevolution:
+  - Blaine's Charmeleon
+
+dex: 6
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Roaring Flames
+    text: Discard all Fire Energy cards attached to Blaine's Charizard. If all Energy cards attached to Blaine's Charizard provide 2 Fire Energy, discard all of them. This attack does 20 damage plus 20 more damage for each Fire Energy discarded in this way.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flame Jet
+    text: Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,43 @@
+name: Meganium
+
+origin: mega-evolution-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 160
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: Ability
+    name: Wild Growth
+    text: Each Basic Grass Energy attached to all of your Pokémon provides GrassGrass Energy. The effect of Wild Growth doesn't stack.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 140
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Radiant Heatran
+
+origin: astral-radiance-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Radiant
+
+type:
+  - Fire
+
+hp: 160
+
+dex: 485
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Raging Blast
+    text: This attack does 70 damage for each damage counter on this Pokémon.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+errata: []

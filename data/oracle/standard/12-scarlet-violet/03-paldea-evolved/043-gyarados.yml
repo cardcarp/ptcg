@@ -1,0 +1,50 @@
+name: Gyarados
+
+origin: paldea-evolved-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 180
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Revengeful Storm
+    text: If you have more Prize cards remaining than your opponent, this attack does 100 more damage.
+    damage: 80
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Berserker Tackle
+    text: This Pokémon also does 50 damage to itself.
+    damage: 200
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

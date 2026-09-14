@@ -1,0 +1,52 @@
+name: Empoleon ex
+
+origin: phantasmal-flames-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Metal
+
+hp: 320
+
+preevolution:
+  - Prinplup
+
+dex: 395
+
+rule:
+  - type: Ability
+    name: Emperor's Stance
+    text: Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Iron Feathers
+    text: During your opponent's next turn, this Pokémon takes 60 less damage from attacks (after applying Weakness and Resistance).
+    damage: 210
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

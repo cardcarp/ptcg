@@ -1,0 +1,44 @@
+name: Gouging Fire
+
+origin: scarlet-violet-black-star-151
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Ancient
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 1020
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Lunge Out
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Blazing Charge
+    text: If your opponent has 4 or fewer Prize cards remaining, this attack does 70 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,43 @@
+name: Farfetch'd
+
+origin: twilight-masquerade-132
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 83
+
+rule:
+  - type: Ability
+    name: Impromptu Carrier
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for a Pokémon Tool card and attach it to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mach Cut
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Gorebyss
+
+origin: fusion-strike-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Fusion Strike
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Clamperl
+
+dex: 368
+
+rule:
+  - type: Ability
+    name: Rapid Strike Canceler
+    text: Your opponent's Rapid Strike Pokémon in play have no Abilities.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Draining Kiss
+    text: Heal 30 damage from this Pokémon.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

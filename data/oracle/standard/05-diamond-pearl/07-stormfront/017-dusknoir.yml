@@ -1,0 +1,49 @@
+name: Dusknoir
+
+origin: stormfront-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Dusclops
+
+dex: 477
+
+rule:
+  - type: Ability
+    name: Spirit Pulse
+    text: As long as Dusknoir is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon that has any Energy attached to it between turns.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Darkness Mist
+    text: If the Defending Pokémon already has 2 or more damage counters on it, this attack does 60 damage plus 20 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

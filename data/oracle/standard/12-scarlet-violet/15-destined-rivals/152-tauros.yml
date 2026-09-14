@@ -1,0 +1,42 @@
+name: Tauros
+
+origin: destined-rivals-152
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 130
+
+dex: 128
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Horn Attack
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Clean Hit
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

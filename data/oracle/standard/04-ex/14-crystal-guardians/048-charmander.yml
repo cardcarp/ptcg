@@ -1,0 +1,42 @@
+name: Charmander
+
+origin: crystal-guardians-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Retaliate
+    text: Does 10 damage times the number of damage counters on Charmander.
+    damage: 10
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Flame Tail
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,39 @@
+name: Hitmonchan
+
+origin: 151-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 107
+
+rule:
+  - type: Ability
+    name: Counterattack
+    text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Excited Punch
+    text: During your next turn, this Pokémon's Excited Punch attack does 60 more damage (before applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

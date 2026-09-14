@@ -1,0 +1,44 @@
+name: Shiftry
+
+origin: flashfire-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: Ability
+    name: Leaf Draw
+    text: Once during your turn (before your attack), you may discard a Grass Energy card from your hand. If you do, draw 3 cards.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Deranged Dance
+    text: This attack does 20 damage times the number of Benched Pokémon (both yours and your opponent's).
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

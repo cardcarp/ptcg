@@ -1,0 +1,42 @@
+name: Greedent
+
+origin: chilling-reign-128
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Skwovet
+
+dex: 820
+
+rule:
+  - type: Ability
+    name: Brazen Tail
+    text: Energy attached to your Pokémon can't be put into your hand, deck, or discard pile by an effect of your opponent's Item or Supporter cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 90
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

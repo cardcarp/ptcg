@@ -1,0 +1,45 @@
+name: Anorith
+
+origin: steam-siege-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Restored
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Claw Fossil Anorith
+
+dex: 347
+
+rule:
+  - type: Ability
+    name: Restored Barrier
+    text: Each of your Restored Pokémon has no Weakness.
+  - type: Attack
+    cost:
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Claw Fossil Anorith
+
+errata: []

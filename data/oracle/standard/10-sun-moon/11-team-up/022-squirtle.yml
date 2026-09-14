@@ -1,0 +1,38 @@
+name: Squirtle
+
+origin: team-up-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 7
+
+rule:
+  - type: Ability
+    name: Floating Shell
+    text: If you have a Stadium card in play, this Pokémon has no Retreat Cost.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Gun
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

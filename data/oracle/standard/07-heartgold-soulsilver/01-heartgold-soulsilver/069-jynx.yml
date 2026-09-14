@@ -1,0 +1,41 @@
+name: Jynx
+
+origin: heartgold-soulsilver-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 124
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mimic
+    text: Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Lick
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

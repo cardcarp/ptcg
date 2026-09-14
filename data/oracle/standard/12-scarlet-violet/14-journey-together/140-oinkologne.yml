@@ -1,0 +1,43 @@
+name: Oinkologne
+
+origin: journey-together-140
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 120
+
+dex: 916
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aromatic Stomps
+    text: Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.
+    damage: 50
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Headbutt Bounce
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

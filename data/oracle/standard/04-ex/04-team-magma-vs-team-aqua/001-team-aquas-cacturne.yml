@@ -1,0 +1,50 @@
+name: Team Aqua's Cacturne
+
+origin: team-magma-vs-team-aqua-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Team Aqua's Cacnea
+
+dex: 332
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Dark Bind
+    text: You may discard a Darkness Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Poison Barb
+    text: The Defending Pokémon is now Poisoned.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - This Pokémon is both Grass Darkness type.
+
+errata: []

@@ -1,0 +1,36 @@
+name: Moltres
+
+origin: sword-shield-black-star-185
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 146
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Inferno Wings
+    text: If this Pokémon has any damage counters on it, this attack does 70 more. This attack's damage isn't affected by Weakness.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

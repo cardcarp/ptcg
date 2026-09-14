@@ -1,0 +1,41 @@
+name: Aron
+
+origin: mysterious-treasures-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 304
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Steel Tackle
+    text: Aron does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

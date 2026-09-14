@@ -1,0 +1,52 @@
+name: Cacturne
+
+origin: breakthrough-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Cacnea
+
+dex: 332
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Derail
+    text: Discard a Special Energy attached to your opponent's Active Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Pin Missile
+    text: Flip 3 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

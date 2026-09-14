@@ -1,0 +1,41 @@
+name: Elgyem
+
+origin: plasma-storm-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 605
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Reflect
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Smash Punch
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,59 @@
+name: Ampharos-GX
+
+origin: team-up-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - GX
+
+type:
+  - Lightning
+
+hp: 240
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Power Recharge
+    text: Put all Electropower cards from your discard pile into your hand.
+    damage: 30
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Impact Bolt
+    text: Discard all Lightning Energy from this Pokémon.
+    damage: 150
+  - type: Attack
+    cost:
+      - Lightning
+    name: Electrical-GX
+    text: Search your deck for up to 7 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

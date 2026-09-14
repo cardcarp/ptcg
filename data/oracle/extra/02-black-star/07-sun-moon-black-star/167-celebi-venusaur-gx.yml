@@ -1,0 +1,59 @@
+name: Celebi & Venusaur-GX
+
+origin: sun-moon-black-star-167
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Grass
+
+hp: 270
+
+dex: 3
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Pollen Hazard
+    text: Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.
+    damage: 50
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solar Beam
+    damage: 150
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Evergreen-GX
+    text: Heal all damage from this Pokémon. If this Pokémon has at least 1 extra Grass Energy attached to it (in addition to this attack's cost), shuffle all cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game.)
+    damage: 180
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

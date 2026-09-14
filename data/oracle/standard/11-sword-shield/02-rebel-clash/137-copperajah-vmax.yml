@@ -1,0 +1,57 @@
+name: Copperajah VMAX
+
+origin: rebel-clash-137
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Metal
+
+hp: 340
+
+preevolution:
+  - Copperajah V
+
+dex: 879
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Dangerous Nose
+    text: If your opponent's Active Pokémon is a Basic Pokémon, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+      - Colorless
+    name: G-Max Hammer
+    damage: 240
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

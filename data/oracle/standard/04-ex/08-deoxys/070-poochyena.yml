@@ -1,0 +1,45 @@
+name: Poochyena
+
+origin: deoxys-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 261
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Surprise
+    text: Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Sharp Fang
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

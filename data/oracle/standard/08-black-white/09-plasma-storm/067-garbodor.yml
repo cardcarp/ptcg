@@ -1,0 +1,51 @@
+name: Garbodor
+
+origin: plasma-storm-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - Team Plasma
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ensnarl
+    text: Does 20 damage times the number of Colorless in the Defending Pokémon's Retreat Cost.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Double Ducts
+    text: Flip 2 coins. This attack does 80 damage times the number of heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

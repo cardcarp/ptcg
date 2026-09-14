@@ -1,0 +1,53 @@
+name: Wailord ex
+
+origin: pitch-black-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Water
+
+hp: 380
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Surf
+    damage: 120
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Water
+      - Water
+    name: Falling Down
+    text: This Pokémon is now Asleep.
+    damage: 270
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,44 @@
+name: Diggersby
+
+origin: primal-clash-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Bunnelby
+
+dex: 660
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Ear Dig
+    text: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

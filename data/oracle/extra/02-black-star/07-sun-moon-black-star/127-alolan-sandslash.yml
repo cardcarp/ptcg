@@ -1,0 +1,51 @@
+name: Alolan Sandslash
+
+origin: sun-moon-black-star-127
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Alolan Sandshrew
+
+dex: 28
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Metal Claw
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Tumbling Attack
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

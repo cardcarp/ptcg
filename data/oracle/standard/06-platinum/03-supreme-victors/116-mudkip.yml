@@ -1,0 +1,42 @@
+name: Mudkip
+
+origin: supreme-victors-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 258
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Mud Sport
+    text: If Mudkip has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Surf
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

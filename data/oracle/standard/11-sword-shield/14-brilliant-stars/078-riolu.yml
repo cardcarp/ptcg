@@ -1,0 +1,35 @@
+name: Riolu
+
+origin: brilliant-stars-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 447
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Low Kick
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

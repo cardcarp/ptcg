@@ -1,0 +1,55 @@
+name: Raichu
+
+origin: stormfront-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Pikachu
+
+dex: 26
+
+rule:
+  - type: Attack
+    name: Slice
+    text: Raichu can't use Slice during your next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Split Ball
+    text: Move an Energy card attached to Raichu to 1 of your Benched Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Burst Ball
+    text: Discard 3 Energy attached to any of your Pokémon in any way you like.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+errata: []

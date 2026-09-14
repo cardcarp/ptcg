@@ -1,0 +1,42 @@
+name: Persian
+
+origin: burning-shadows-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Meowth
+
+dex: 53
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Screech
+    text: During your next turn, the Defending Pokémon takes 60 more damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Colorless
+    name: Slash
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

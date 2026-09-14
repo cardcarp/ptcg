@@ -1,0 +1,45 @@
+name: Shiftry
+
+origin: evolving-skies-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Darkness
+
+hp: 150
+
+preevolution:
+  - Nuzleaf
+
+dex: 275
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Shiftadieu
+    text: If your opponent's Active Pokémon has any damage counters on it, put it and all attached cards into your opponent's hand.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Nipping Cyclone
+    text: Discard a random card from your opponent's hand.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

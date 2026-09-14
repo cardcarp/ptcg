@@ -1,0 +1,50 @@
+name: Bayleef
+
+origin: unseen-forces-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Chikorita
+
+dex: 153
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Soothing Scent
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

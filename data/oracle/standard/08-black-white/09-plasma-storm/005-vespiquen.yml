@@ -1,0 +1,45 @@
+name: Vespiquen
+
+origin: plasma-storm-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Combee
+
+dex: 416
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Gather Order
+    text: Search your deck for as many Combee as you like and put them onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Damage Beat
+    text: Does 20 damage times the number of damage counters on the Defending Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

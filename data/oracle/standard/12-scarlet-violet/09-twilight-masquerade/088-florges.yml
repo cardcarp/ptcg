@@ -1,0 +1,41 @@
+name: Florges
+
+origin: twilight-masquerade-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Floette
+
+dex: 671
+
+rule:
+  - type: Ability
+    name: Captivating Invitation
+    text: Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot, and the new Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Magical Shot
+    damage: 120
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

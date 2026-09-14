@@ -1,0 +1,42 @@
+name: Tyrantrum
+
+origin: mega-evolution-black-star-066
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Tyrunt
+
+dex: 697
+
+rule:
+  - type: Ability
+    name: Tyrannically Gusty
+    text: If this Pokémon has any Special Energy attached, it gets +150HP.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Wreak Havoc
+    text: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+    damage: 160
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

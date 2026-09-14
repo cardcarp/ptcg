@@ -1,0 +1,49 @@
+name: Hariyama
+
+origin: arceus-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 110
+
+preevolution:
+  - Makuhita
+
+dex: 297
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Push Out
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Vortex Chop
+    text: If the Defending Pokémon has any Resistance, this attack's base damage is 120 instead of 60.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+retreat: 4
+
+errata: []

@@ -1,0 +1,36 @@
+name: Oshawott
+
+origin: black-white-black-star-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 501
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Water Pulse
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

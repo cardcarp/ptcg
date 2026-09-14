@@ -1,0 +1,43 @@
+name: Porygon2
+
+origin: heartgold-soulsilver-black-star-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 80
+
+preevolution:
+  - Porygon
+
+dex: 233
+
+rule:
+  - type: Ability
+    name: Shortcut
+    text: The Retreat Cost for each Porygon, Porygon2, and Porygon-Z you have in play is Colorless less.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Reckless Charge
+    text: Porygon2 does 10 damage to itself.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

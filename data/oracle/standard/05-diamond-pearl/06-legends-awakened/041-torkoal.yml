@@ -1,0 +1,39 @@
+name: Torkoal
+
+origin: legends-awakened-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 80
+
+dex: 324
+
+rule:
+  - type: Ability
+    name: White Smoke
+    text: As long as Torkoal is your Active Pokémon, prevent all effects, including damage, done to your Benched Pokémon by your opponent's attacks.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Black Soot
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned and Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

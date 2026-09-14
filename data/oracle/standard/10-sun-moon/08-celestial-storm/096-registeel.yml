@@ -1,0 +1,46 @@
+name: Registeel
+
+origin: celestial-storm-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 120
+
+dex: 379
+
+rule:
+  - type: Ability
+    name: Exoskeleton
+    text: This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Silver Fist
+    text: If your opponent's Active Pokémon has an Ability, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,61 @@
+name: Metagross ex
+
+origin: hidden-legends-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Metang
+
+dex: 376
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Reversal
+    text: Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. If you do, this attack does 40 damage to the new Defending Pokémon.
+    damage: 40
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Extra Comet Punch
+    text: During your next turn, Extra Comet Punch does 50 damage plus 50 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

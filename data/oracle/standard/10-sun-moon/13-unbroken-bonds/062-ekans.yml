@@ -1,0 +1,40 @@
+name: Ekans
+
+origin: unbroken-bonds-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 23
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Glare
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Tail Smack
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

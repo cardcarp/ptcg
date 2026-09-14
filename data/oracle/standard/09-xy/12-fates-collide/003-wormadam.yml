@@ -1,0 +1,47 @@
+name: Wormadam
+
+origin: fates-collide-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Burmy
+
+dex: 413
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Solar Ray
+    text: Heal 20 damage from each of your Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Leaf Cutter
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

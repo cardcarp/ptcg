@@ -1,0 +1,39 @@
+name: Bayleef
+
+origin: mega-evolution-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Chikorita
+
+dex: 153
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Push Down
+    text: Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Xerneas ◇
+
+origin: lost-thunder-144
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Prism Star
+
+type:
+  - Fairy
+
+hp: 160
+
+dex: 716
+
+rule:
+  - type: Ability
+    name: Path of Life
+    text: Once during your turn, when this Pokémon moves from your Bench to become your Active Pokémon, you may move any number of Energy from your other Pokémon to it.
+  - type: Attack
+    cost:
+      - Fairy
+      - Fairy
+      - Fairy
+    name: Bright Horns
+    text: This Pokémon can't use Bright Horns during your next turn.
+    damage: 160
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+
+errata: []

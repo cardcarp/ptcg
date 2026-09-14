@@ -1,0 +1,40 @@
+name: Slurpuff
+
+origin: twilight-masquerade-090
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Swirlix
+
+dex: 685
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Slurp Slurp
+    text: Flip 2 coins. This attack does 90 damage for each heads. If both of them are tails, your opponent's Active Pokémon is now Confused.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

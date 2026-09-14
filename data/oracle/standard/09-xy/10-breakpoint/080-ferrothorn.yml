@@ -1,0 +1,50 @@
+name: Ferrothorn
+
+origin: breakpoint-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Ferroseed
+
+dex: 598
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Metal Claw
+    damage: 40
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Spike Lash
+    text: This attack does 10 damage to each of your opponent's Pokémon for each Colorless in that Pokémon's Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

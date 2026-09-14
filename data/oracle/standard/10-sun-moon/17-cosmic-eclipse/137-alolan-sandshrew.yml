@@ -1,0 +1,43 @@
+name: Alolan Sandshrew
+
+origin: cosmic-eclipse-137
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 27
+
+rule:
+  - type: Attack
+    name: Run Around
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Metal Claw
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

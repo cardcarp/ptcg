@@ -1,0 +1,42 @@
+name: Wigglytuff
+
+origin: paldea-evolved-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 110
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: Ability
+    name: Balloon Therapy
+    text: Once during your turn, you may attach a Therapeutic Energy card from your hand to 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Magical Shot
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

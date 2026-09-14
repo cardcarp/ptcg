@@ -1,0 +1,46 @@
+name: Raichu V
+
+origin: brilliant-stars-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Lightning
+
+hp: 200
+
+dex: 26
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Fast Charge
+    text: If you go first, you can use this attack during your first turn. Search your deck for a Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Dynamic Spark
+    text: You may discard any amount of Lightning Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

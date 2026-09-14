@@ -1,0 +1,48 @@
+name: Single Strike Urshifu V
+
+origin: sword-shield-black-star-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Single Strike
+
+type:
+  - Fighting
+
+hp: 220
+
+dex: 892
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Low Kick
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Brawny Knuckle
+    text: This attack's damage isn't affected by Resistance.
+    damage: 180
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

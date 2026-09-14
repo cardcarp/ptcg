@@ -1,0 +1,43 @@
+name: Weepinbell
+
+origin: 151-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Bellsprout
+
+dex: 70
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Cut
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Spray Fluid
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

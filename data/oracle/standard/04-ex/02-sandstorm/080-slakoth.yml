@@ -1,0 +1,35 @@
+name: Slakoth
+
+origin: sandstorm-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 287
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Lazy Punch
+    text: Slakoth can't attack during your next turn.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

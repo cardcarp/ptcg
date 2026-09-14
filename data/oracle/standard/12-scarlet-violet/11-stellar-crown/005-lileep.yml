@@ -1,0 +1,38 @@
+name: Lileep
+
+origin: stellar-crown-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Antique Root Fossil
+
+dex: 345
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Bind Down
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

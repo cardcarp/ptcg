@@ -1,0 +1,43 @@
+name: Okidogi
+
+origin: ascended-heroes-122
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 140
+
+dex: 1014
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Light Punch
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Settle the Score
+    text: This attack does 60 more damage for each Prize card your opponent took during their last turn.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,46 @@
+name: Omastar
+
+origin: arceus-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Omanyte
+
+dex: 139
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Time Spiral
+    text: Choose 1 of your opponent's Evolved Pokémon. Remove the highest Stage Evolution card from that Pokémon and have your opponent shuffle that card into his or her deck.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Primal Tentacles
+    text: Does 30 damage plus 10 more damage for each Helix Fossil, Dome Fossil, and Old Amber in your discard pile.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 30
+    operator: +
+
+retreat: 1
+
+errata: []

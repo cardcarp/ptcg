@@ -1,0 +1,43 @@
+name: Lapras
+
+origin: skyridge-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 131
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Assist
+    text: Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Hypnoblast
+    text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Orthworm
+
+origin: paradox-rift-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 140
+
+dex: 968
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Punch and Draw
+    text: Draw 2 cards.
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Crunch-Time Rush
+    text: If there are 3 or fewer cards in your deck, this attack does 150 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

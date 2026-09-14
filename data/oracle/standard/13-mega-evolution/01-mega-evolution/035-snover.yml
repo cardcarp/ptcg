@@ -1,0 +1,40 @@
+name: Snover
+
+origin: mega-evolution-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 90
+
+dex: 459
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Beat
+    damage: 10
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Icy Snow
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

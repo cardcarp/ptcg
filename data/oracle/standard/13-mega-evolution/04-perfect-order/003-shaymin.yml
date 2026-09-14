@@ -1,0 +1,37 @@
+name: Shaymin
+
+origin: perfect-order-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 492
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Send Flowers
+    text: Search your deck for an Energy card and attach it to 1 of your Benched Grass Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Grass
+    name: Leaf Step
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

@@ -1,0 +1,44 @@
+name: Houndour
+
+origin: legends-awakened-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 228
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Roar
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

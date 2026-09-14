@@ -1,0 +1,48 @@
+name: Machamp
+
+origin: triumphant-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Machoke
+
+dex: 68
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Vital Throw
+    text: You may do 40 damage plus 20 more damage. If you do, Machamp does 20 damage to itself.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hundred Furious Punches
+    text: Does 60 damage plus 10 more damage for each Fighting Energy attached to Machamp.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

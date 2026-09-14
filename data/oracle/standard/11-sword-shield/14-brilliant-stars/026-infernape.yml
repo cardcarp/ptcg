@@ -1,0 +1,46 @@
+name: Infernape
+
+origin: brilliant-stars-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Monferno
+
+dex: 392
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Infernal Vortex
+    text: Reveal the top 5 cards of your deck. This attack does 80 damage for each Energy card you find there. Then, discard those Energy cards and shuffle the other cards back into your deck.
+    damage: 80
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Burning Kick
+    text: Discard all Energy from this Pokémon.
+    damage: 160
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

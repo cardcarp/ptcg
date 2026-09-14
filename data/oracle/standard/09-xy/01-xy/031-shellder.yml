@@ -1,0 +1,35 @@
+name: Shellder
+
+origin: xy-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 90
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Rain Splash
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

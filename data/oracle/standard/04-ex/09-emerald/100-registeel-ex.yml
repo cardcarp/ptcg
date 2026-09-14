@@ -1,0 +1,46 @@
+name: Registeel ex
+
+origin: emerald-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 379
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Block Signal
+    text: If Regice ex is in play, flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Wide Laser
+    text: Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

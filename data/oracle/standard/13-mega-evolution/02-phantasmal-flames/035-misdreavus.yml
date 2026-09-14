@@ -1,0 +1,39 @@
+name: Misdreavus
+
+origin: phantasmal-flames-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 200
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Petty Grudge
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

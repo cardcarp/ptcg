@@ -1,0 +1,44 @@
+name: Armarouge ex
+
+origin: scarlet-violet-black-star-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Fire
+
+hp: 260
+
+preevolution:
+  - Charcadet
+
+dex: 936
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Armor Cannon
+    text: Discard a Fire Energy from this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,46 @@
+name: Erika's Exeggutor
+
+origin: gym-heroes-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Erika's Exeggcute
+
+dex: 103
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psychic Exchange
+    text: Shuffle your hand into your deck, then draw 5 cards.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Stomp
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

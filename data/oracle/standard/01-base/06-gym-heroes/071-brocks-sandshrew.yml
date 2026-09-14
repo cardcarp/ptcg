@@ -1,0 +1,45 @@
+name: Brock's Sandshrew
+
+origin: gym-heroes-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 27
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to Brock's Sandshrew during your opponent's next turn. (Any other effects of attacks still happen.)
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Rolling Attack
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

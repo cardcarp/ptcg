@@ -1,0 +1,44 @@
+name: Accelgor
+
+origin: furious-fists-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Shelmet
+
+dex: 617
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Raid
+    text: If this Pokémon evolved from Shelmet during this turn, this attack does 40 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Afterimage Strike
+    text: If any damage is done to this Pokémon by attacks during your opponent's next turn, flip a coin. If heads, prevent that damage.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+errata: []

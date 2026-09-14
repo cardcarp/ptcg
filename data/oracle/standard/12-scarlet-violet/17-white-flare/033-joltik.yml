@@ -1,0 +1,35 @@
+name: Joltik
+
+origin: white-flare-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 40
+
+dex: 595
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

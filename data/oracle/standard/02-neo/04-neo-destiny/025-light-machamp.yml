@@ -1,0 +1,43 @@
+name: Light Machamp
+
+origin: neo-destiny-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 100
+
+preevolution:
+  - Light Machoke
+
+dex: 68
+
+rule:
+  - type: Ability
+    name: Tag Team
+    text: When you play Light Machamp from your hand, if it is on your Bench, remove 3 damage counters from your Active Pokémon. If it has fewer damage counters than that, remove all of them. Then, switch Light Machamp with your Active Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+    name: Beatdown
+    text: If the Defending Pokémon has Dark in its name or is a Darkness Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

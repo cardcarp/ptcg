@@ -1,0 +1,39 @@
+name: Stantler
+
+origin: secret-wonders-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 234
+
+rule:
+  - type: Attack
+    name: Lead
+    text: Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Frighten Horn
+    text: If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

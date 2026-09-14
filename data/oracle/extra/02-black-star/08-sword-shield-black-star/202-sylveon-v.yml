@@ -1,0 +1,43 @@
+name: Sylveon V
+
+origin: sword-shield-black-star-202
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+  - Rapid Strike
+
+type:
+  - Psychic
+
+hp: 200
+
+dex: 700
+
+rule:
+  - type: Ability
+    name: Dream Gift
+    text: Once during your turn, you may search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck. If you use this Ability, your turn ends.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Magical Shot
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

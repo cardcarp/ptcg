@@ -1,0 +1,48 @@
+name: Stunfisk
+
+origin: unbroken-bonds-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 110
+
+dex: 618
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Raging Thunder
+    text: This attack does 10 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Electric Trap
+    text: This attack does 30 damage for each of your Pokémon that has any damage counters on it.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

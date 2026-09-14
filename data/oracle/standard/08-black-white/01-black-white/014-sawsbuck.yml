@@ -1,0 +1,52 @@
+name: Sawsbuck
+
+origin: black-white-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Deerling
+
+dex: 586
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nature Power
+    text: Does 10 more damage for each Grass Energy attached to both your and your opponent's Pokémon.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Horn Leech
+    text: Heal 20 damage from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

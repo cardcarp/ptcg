@@ -1,0 +1,40 @@
+name: Jellicent
+
+origin: battle-styles-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+preevolution:
+  - Frillish
+
+dex: 593
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Sediment Sink
+    text: This attack does 10 damage for each Water Energy card in your discard pile.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

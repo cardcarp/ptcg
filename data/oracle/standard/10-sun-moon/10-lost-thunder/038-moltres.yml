@@ -1,0 +1,42 @@
+name: Moltres
+
+origin: lost-thunder-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 120
+
+dex: 146
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Assisting Heater
+    text: You may attach a Fire Energy card from your hand to 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Wing
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

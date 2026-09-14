@@ -1,0 +1,49 @@
+name: Lugia ex
+
+origin: unseen-forces-105
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 100
+
+dex: 249
+
+rule:
+  - type: Ability
+    name: Silver Sparkle
+    text: If Lugia ex is your Active Pokémon and is damaged by an opponent's attack (even if Lugia ex is Knocked Out), flip a coin. If heads, choose an Energy card attached to the Attacking Pokémon and return it to your opponent's hand.
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Lightning
+    name: Elemental Blast
+    text: Discard a Fire Energy, Water Energy, and Lightning Energy attached to Lugia ex.
+    damage: 200
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

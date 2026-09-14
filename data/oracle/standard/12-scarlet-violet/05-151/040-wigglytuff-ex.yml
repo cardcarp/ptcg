@@ -1,0 +1,48 @@
+name: Wigglytuff ex
+
+origin: 151-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Colorless
+
+hp: 250
+
+preevolution:
+  - Jigglypuff
+
+dex: 40
+
+rule:
+  - type: Ability
+    name: Expanding Body
+    text: If this Pokémon has any Special Energy attached, it gets +100 HP.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Friend Tackle
+    text: If you played a Supporter card from your hand during this turn, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

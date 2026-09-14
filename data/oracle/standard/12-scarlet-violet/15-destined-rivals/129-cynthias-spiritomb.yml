@@ -1,0 +1,36 @@
+name: Cynthia's Spiritomb
+
+origin: destined-rivals-129
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 442
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Raging Curse
+    text: This attack does 10 damage for each damage counter on all of your Benched Cynthia's Pokémon. This attack's damage isn't affected by Weakness.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

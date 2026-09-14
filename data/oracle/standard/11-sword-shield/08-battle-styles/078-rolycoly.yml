@@ -1,0 +1,35 @@
+name: Rolycoly
+
+origin: battle-styles-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 837
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Reckless Charge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

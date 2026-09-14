@@ -1,0 +1,50 @@
+name: Rapid Strike Urshifu VMAX
+
+origin: battle-styles-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+  - Rapid Strike
+
+type:
+  - Fighting
+
+hp: 330
+
+preevolution:
+  - Rapid Strike Urshifu V
+
+dex: 892
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Gale Thrust
+    text: If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 120 more damage.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: G-Max Rapid Flow
+    text: Discard all Energy from this Pokémon. This attack does 120 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

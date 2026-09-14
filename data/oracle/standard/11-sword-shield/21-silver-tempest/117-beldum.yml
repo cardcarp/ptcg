@@ -1,0 +1,45 @@
+name: Beldum
+
+origin: silver-tempest-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 374
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Magnetic Lift
+    text: Search your deck for a card. Shuffle your deck, then put that card on top of it.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

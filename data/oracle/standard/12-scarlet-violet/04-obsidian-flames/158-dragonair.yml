@@ -1,0 +1,40 @@
+name: Dragonair
+
+origin: obsidian-flames-158
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 100
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Ram
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Lightning
+    name: Dragon Tail
+    text: Flip 2 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+retreat: 2
+
+errata: []

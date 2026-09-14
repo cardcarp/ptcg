@@ -1,0 +1,37 @@
+name: Plusle
+
+origin: fusion-strike-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 311
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spark Duo
+    text: If 1 of your Minun used an attack during your last turn, this attack does 100 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

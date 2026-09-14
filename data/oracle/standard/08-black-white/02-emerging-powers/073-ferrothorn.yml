@@ -1,0 +1,48 @@
+name: Ferrothorn
+
+origin: emerging-powers-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Ferroseed
+
+dex: 598
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Iron Defense
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Power Whip
+    text: Does 10 damage for each Energy attached to this Pokémon to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,46 @@
+name: Azumarill
+
+origin: heartgold-soulsilver-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Waterfall
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Bubblebeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

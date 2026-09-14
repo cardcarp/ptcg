@@ -1,0 +1,42 @@
+name: Chatot
+
+origin: crown-zenith-112
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 441
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Cycle Draw
+    text: Discard a card from your hand. If you do, draw 2 cards.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flap
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+errata: []

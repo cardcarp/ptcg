@@ -1,0 +1,44 @@
+name: Gyarados
+
+origin: skyridge-010h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Magikarp
+
+dex: 130
+
+rule:
+  - type: Ability
+    name: Flame Vapor
+    text: When you play Gyarados from your hand to evolve your Active Pokémon, you may flip 2 coins. For each heads, discard an Energy card attached to the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dragon's Vengeance
+    text: If Gyarados has 7 or more damage counters on it, this attack's base damage is 100.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

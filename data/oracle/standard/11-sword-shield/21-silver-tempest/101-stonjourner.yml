@@ -1,0 +1,43 @@
+name: Stonjourner
+
+origin: silver-tempest-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 874
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Throw
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mystery Press
+    text: If you have no Supporter cards in your discard pile, this attack does 130 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

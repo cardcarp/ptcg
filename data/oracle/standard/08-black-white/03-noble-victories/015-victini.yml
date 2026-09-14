@@ -1,0 +1,36 @@
+name: Victini
+
+origin: noble-victories-015
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 494
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: V-create
+    text: If you have 4 or fewer Benched Pokémon, this attack does nothing.
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

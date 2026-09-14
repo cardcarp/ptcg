@@ -1,0 +1,35 @@
+name: Bagon
+
+origin: celestial-storm-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 371
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Rock Head
+    text: During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).
+    damage: 10
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

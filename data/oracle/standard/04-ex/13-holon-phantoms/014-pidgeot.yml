@@ -1,0 +1,53 @@
+name: Pidgeot δ
+
+origin: holon-phantoms-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Lightning
+  - Metal
+
+hp: 100
+
+preevolution:
+  - Pidgeotto
+
+dex: 18
+
+rule:
+  - type: Ability
+    name: Delta Reserve
+    text: As long as Pidgeot has any Holon Energy cards attached to it, each player's Pokémon (excluding Pokémon that has δ on its card) can't use any Poké-Powers.
+  - type: Attack
+    cost:
+      - Lightning
+      - Metal
+      - Colorless
+    name: Rotating Claws
+    text: You may discard an Energy card attached to Pidgeot. If you do, search your discard pile for an Energy card (excluding the one you discarded) and attach it to Pidgeot.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Lightning Metal type.
+
+errata: []

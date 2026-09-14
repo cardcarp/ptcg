@@ -1,0 +1,35 @@
+name: Torchic
+
+origin: journey-together-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 255
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Scratch
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

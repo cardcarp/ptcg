@@ -1,0 +1,43 @@
+name: Thievul
+
+origin: darkness-ablaze-113
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 100
+
+preevolution:
+  - Nickit
+
+dex: 828
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Nasty Plot
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Sharp Fang
+    damage: 70
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

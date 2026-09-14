@@ -1,0 +1,45 @@
+name: Umbreon
+
+origin: mcdonalds-collection-2024-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Eevee
+
+dex: 197
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Blindside
+    text: This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Moon Mirage
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

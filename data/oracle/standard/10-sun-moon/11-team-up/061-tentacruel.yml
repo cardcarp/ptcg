@@ -1,0 +1,45 @@
+name: Tentacruel
+
+origin: team-up-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Tentacool
+
+dex: 73
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Void Tentacles
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Paranormal
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Ultra Beasts.
+    damage: 70
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

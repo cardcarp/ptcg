@@ -1,0 +1,44 @@
+name: Tapu Fini
+
+origin: chilling-reign-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 120
+
+dex: 788
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Smash Turn
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Ocean Loop
+    text: Put an Energy attached to this Pokémon into your hand.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

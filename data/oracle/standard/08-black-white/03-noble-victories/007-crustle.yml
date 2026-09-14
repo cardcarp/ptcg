@@ -1,0 +1,48 @@
+name: Crustle
+
+origin: noble-victories-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Dwebble
+
+dex: 558
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: X-Scissor
+    text: Flip a coin. If heads, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon does 10 damage to itself.
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

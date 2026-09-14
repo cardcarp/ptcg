@@ -1,0 +1,41 @@
+name: Luxio
+
+origin: perfect-order-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: Ability
+    name: Fighting Roar
+    text: If your opponent's Active Pokémon is a Pokémon ex, this Pokémon can evolve during your first turn or the turn you play it.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Static Shock
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

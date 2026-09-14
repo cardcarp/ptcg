@@ -1,0 +1,46 @@
+name: Nidorino
+
+origin: triumphant-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Nidoran ♂
+
+dex: 33
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Horn Attack
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

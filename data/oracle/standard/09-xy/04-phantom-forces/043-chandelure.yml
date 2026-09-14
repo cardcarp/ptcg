@@ -1,0 +1,47 @@
+name: Chandelure
+
+origin: phantom-forces-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Lampent
+
+dex: 609
+
+rule:
+  - type: Ability
+    name: Fainting Spell
+    text: If this Pokémon is Knocked Out by damage from an opponent's attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Cursed Drop
+    text: Put 6 damage counters on your opponent's Pokémon in any way you like.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

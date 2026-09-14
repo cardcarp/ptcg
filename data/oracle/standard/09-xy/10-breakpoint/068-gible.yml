@@ -1,0 +1,34 @@
+name: Gible
+
+origin: breakpoint-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 443
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Never Enough
+    text: Discard a card from your hand. If you do, draw 2 cards.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

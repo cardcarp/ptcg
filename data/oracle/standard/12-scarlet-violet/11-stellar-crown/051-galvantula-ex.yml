@@ -1,0 +1,53 @@
+name: Galvantula ex
+
+origin: stellar-crown-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Lightning
+
+hp: 260
+
+preevolution:
+  - Joltik
+
+dex: 596
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Charged Web
+    text: If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 110 more damage.
+    damage: 110
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Lightning
+      - Fighting
+    name: Fulgurite
+    text: Discard all Energy from this Pokémon. During your opponent's next turn, they can't play any Item cards from their hand.
+    damage: 180
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

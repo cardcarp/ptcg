@@ -1,0 +1,35 @@
+name: Crabrawler
+
+origin: burning-shadows-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 739
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Light Punch
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

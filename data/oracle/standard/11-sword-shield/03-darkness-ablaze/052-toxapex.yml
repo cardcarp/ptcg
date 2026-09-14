@@ -1,0 +1,45 @@
+name: Toxapex
+
+origin: darkness-ablaze-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Mareanie
+
+dex: 748
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Recover
+    text: Discard an Energy from this Pokémon and heal all damage from it.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Poisonous Whip
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

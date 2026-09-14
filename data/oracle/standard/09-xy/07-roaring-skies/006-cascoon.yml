@@ -1,0 +1,43 @@
+name: Cascoon
+
+origin: roaring-skies-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Wurmple
+
+dex: 268
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Iron Defense
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

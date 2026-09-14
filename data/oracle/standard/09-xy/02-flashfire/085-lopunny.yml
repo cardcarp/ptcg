@@ -1,0 +1,43 @@
+name: Lopunny
+
+origin: flashfire-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Buneary
+
+dex: 428
+
+rule:
+  - type: Ability
+    name: Big Jump
+    text: Once during your turn (before your attack), you may return this Pokémon and all cards attached to it to your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Sitdown Bounce
+    text: Flip a coin. If tails, this Pokémon can't attack during your next turn.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

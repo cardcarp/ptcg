@@ -1,0 +1,44 @@
+name: Tyrunt
+
+origin: forbidden-light-068
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 696
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Crunch
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Hammer In
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

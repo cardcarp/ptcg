@@ -1,0 +1,39 @@
+name: Simisear
+
+origin: surging-sparks-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Pansear
+
+dex: 514
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Double Smash
+    text: Flip 2 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

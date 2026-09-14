@@ -1,0 +1,34 @@
+name: Weedle
+
+origin: primal-clash-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 13
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Multiply
+    text: Search your deck for Weedle and put it onto your Bench. Shuffle your deck afterward.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

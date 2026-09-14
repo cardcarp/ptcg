@@ -1,0 +1,45 @@
+name: Rotom
+
+origin: fates-collide-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 479
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Energy Extract
+    text: Search your deck for a basic Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Plasmagic
+    text: Move 2 damage counters from each of your Pokémon to your opponent's Active Pokémon.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

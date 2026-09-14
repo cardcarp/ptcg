@@ -1,0 +1,47 @@
+name: Yanma
+
+origin: legends-awakened-128
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 193
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: U-turn
+    text: Switch Yanma with 1 of your Benched Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Agility
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Yanma during your opponent's next turn.
+    damage: 20
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

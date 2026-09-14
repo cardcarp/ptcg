@@ -1,0 +1,35 @@
+name: Spinarak
+
+origin: pokemon-go-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 167
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Sting
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

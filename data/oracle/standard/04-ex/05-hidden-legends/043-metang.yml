@@ -1,0 +1,46 @@
+name: Metang
+
+origin: hidden-legends-043
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Beldum
+
+dex: 375
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psyshock
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Metal Ball
+    text: Put 5 damage counters on the Defending Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

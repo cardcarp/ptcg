@@ -1,0 +1,35 @@
+name: Salandit
+
+origin: unbroken-bonds-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 757
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Grass Fire
+    text: Discard a Grass Energy from your opponent's Active Pokémon.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

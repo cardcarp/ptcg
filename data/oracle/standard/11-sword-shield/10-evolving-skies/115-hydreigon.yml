@@ -1,0 +1,43 @@
+name: Hydreigon
+
+origin: evolving-skies-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Dragon
+
+hp: 170
+
+preevolution:
+  - Zweilous
+
+dex: 635
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Darkness
+    name: Dragon Counter
+    text: This attack does 100 more damage for each Prize card your opponent took during their last turn.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Pitch-Black Fangs
+    damage: 210
+
+retreat: 3
+
+errata: []

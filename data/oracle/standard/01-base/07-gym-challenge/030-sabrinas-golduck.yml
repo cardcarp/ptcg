@@ -1,0 +1,47 @@
+name: Sabrina's Golduck
+
+origin: gym-challenge-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Sabrina's Psyduck
+
+dex: 55
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Damage Shift
+    text: Move 1 damage counter from each of your Pokémon that has any on it to the Defending Pokémon. (Don't apply Weakness and Resistance.)
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Water Spray
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

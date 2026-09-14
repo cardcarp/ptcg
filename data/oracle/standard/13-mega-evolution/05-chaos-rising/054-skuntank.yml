@@ -1,0 +1,45 @@
+name: Skuntank
+
+origin: chaos-rising-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Stunky
+
+dex: 435
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Rear Kick
+    damage: 40
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Smash Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,50 @@
+name: Maractus
+
+origin: dragons-exalted-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 556
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Stun Needle
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Reinforced Needle
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 40 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,44 @@
+name: Gardevoir
+
+origin: chilling-reign-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 140
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: Ability
+    name: Shining Arcana
+    text: Once during your turn, you may look at the top 2 cards of your deck and attach any number of basic Energy cards you find there to your Pokémon in any way you like. Put the other cards into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Brainwave
+    text: This attack does 30 more damage for each Psychic Energy attached to this Pokémon.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Combee
+
+origin: obsidian-flames-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 415
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Share
+    text: Heal 20 damage from 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Ram
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

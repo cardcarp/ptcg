@@ -1,0 +1,51 @@
+name: Dragapult V
+
+origin: sword-shield-black-star-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 210
+
+dex: 887
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Bite
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Jet Assault
+    text: If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 80 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

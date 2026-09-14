@@ -1,0 +1,45 @@
+name: Crawdaunt
+
+origin: mega-evolution-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Corphish
+
+dex: 342
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Vise Grip
+    damage: 30
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Cutting Riposte
+    text: If this Pokémon has any damage counters on it, this attack can be used for Darkness.
+    damage: 130
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

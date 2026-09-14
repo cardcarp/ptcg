@@ -1,0 +1,54 @@
+name: Mewtwo VSTAR
+
+origin: pokemon-go-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VSTAR
+
+type:
+  - Psychic
+
+hp: 280
+
+preevolution:
+  - Mewtwo V
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psy Purge
+    text: Discard up to 3 Psychic Energy from your Pokémon. This attack does 90 damage for each card you discarded in this way.
+    damage: 90
+    modifier: x
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Star Raid
+    text: This attack does 120 damage to each of your opponent's Pokémon V. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 VSTAR Power in a game.)
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

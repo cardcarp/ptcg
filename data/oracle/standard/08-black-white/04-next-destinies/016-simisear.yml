@@ -1,0 +1,45 @@
+name: Simisear
+
+origin: next-destinies-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Pansear
+
+dex: 514
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Collect
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Stadium Burn
+    text: If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Burned.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

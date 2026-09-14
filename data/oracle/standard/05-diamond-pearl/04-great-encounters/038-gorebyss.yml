@@ -1,0 +1,41 @@
+name: Gorebyss
+
+origin: great-encounters-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Clamperl
+
+dex: 368
+
+rule:
+  - type: Attack
+    name: Sweet Temptation
+    text: Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. This attack does 10 damage to the new Defending Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Psychic Snap
+    text: If Gorebyss has any Psychic Energy attached to it, this attack does 30 damage plus 20 more damage and the Defending Pokémon is now Confused.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+errata: []

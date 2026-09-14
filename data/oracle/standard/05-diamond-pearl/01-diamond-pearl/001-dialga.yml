@@ -1,0 +1,48 @@
+name: Dialga
+
+origin: diamond-pearl-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 90
+
+dex: 483
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Time Bellow
+    text: Draw a card.
+    damage: 10
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Flash Cannon
+    text: You may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent's deck.
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

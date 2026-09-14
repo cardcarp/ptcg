@@ -1,0 +1,36 @@
+name: Trapinch
+
+origin: darkness-ablaze-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 328
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Land's Pulse
+    text: If a Stadium is in play, this attack does 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

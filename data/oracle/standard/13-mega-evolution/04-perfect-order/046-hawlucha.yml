@@ -1,0 +1,34 @@
+name: Hawlucha
+
+origin: perfect-order-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 701
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Vengeful Kick
+    text: If your Benched Pokémon have any damage counters on them, this attack does 60 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+errata: []

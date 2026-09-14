@@ -1,0 +1,40 @@
+name: Wurmple
+
+origin: roaring-skies-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 265
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Flock
+    text: Search your deck for Wurmple and put it onto your Bench. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

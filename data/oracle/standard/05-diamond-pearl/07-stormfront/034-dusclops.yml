@@ -1,0 +1,52 @@
+name: Dusclops
+
+origin: stormfront-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Duskull
+
+dex: 356
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Dark One-eye
+    text: You may discard a card from your hand. If you do, your opponent discards a card from his or her hand.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 40 damage plus 20 more damage.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

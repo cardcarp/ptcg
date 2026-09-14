@@ -1,0 +1,43 @@
+name: Riolu
+
+origin: plasma-storm-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 447
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Feint
+    text: This attack's damage isn't affected by Resistance.
+    damage: 40
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

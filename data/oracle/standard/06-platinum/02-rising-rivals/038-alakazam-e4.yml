@@ -1,0 +1,43 @@
+name: Alakazam E4
+
+origin: rising-rivals-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 65
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Recover
+    text: Discard a Psychic Energy attached to Alakazam E4 and remove 4 damage counters from Alakazam E4.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Mysterious Beam
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Seaking
+
+origin: breakthrough-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Goldeen
+
+dex: 119
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Soaking Horn
+    text: If this Pokémon was healed during this turn, this attack does 80 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

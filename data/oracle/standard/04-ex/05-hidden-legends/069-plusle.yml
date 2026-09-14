@@ -1,0 +1,46 @@
+name: Plusle
+
+origin: hidden-legends-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 311
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Plus Energy
+    text: Flip a coin. If heads, attach a Lightning Energy card from your hand to any of your Pokémon.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Dazzle Blast
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

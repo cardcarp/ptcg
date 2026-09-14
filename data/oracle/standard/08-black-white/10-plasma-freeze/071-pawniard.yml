@@ -1,0 +1,39 @@
+name: Pawniard
+
+origin: plasma-freeze-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 624
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Slash
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

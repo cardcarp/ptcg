@@ -1,0 +1,41 @@
+name: Shellos
+
+origin: lost-origin-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 70
+
+dex: 422
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rain Splash
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,46 @@
+name: Lanturn
+
+origin: legends-awakened-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Chinchou
+
+dex: 171
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Energy Split
+    text: This attack does 30 damage to each of your opponent's Pokémon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Aqua Bolt
+    text: Does 60 damage plus 10 more damage for each Water Energy attached to Lanturn.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

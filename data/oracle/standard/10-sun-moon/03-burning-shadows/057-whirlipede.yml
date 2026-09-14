@@ -1,0 +1,46 @@
+name: Whirlipede
+
+origin: burning-shadows-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Venipede
+
+dex: 544
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spin Turn
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Rollout
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

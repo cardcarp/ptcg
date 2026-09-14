@@ -1,0 +1,43 @@
+name: Team Rocket's Nidorina
+
+origin: destined-rivals-115
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Team Rocket's Nidoran♀
+
+dex: 30
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Dark Awakening
+    text: Choose up to 2 of your Darkness Pokémon. For each of those Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Scratch
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,40 @@
+name: Regice
+
+origin: celestial-storm-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 378
+
+rule:
+  - type: Ability
+    name: Icy Barrier
+    text: As long as this Pokémon is your Active Pokémon, your opponent can't play any Stadium cards from their hand.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Icy Wind
+    text: Your opponent's Active Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

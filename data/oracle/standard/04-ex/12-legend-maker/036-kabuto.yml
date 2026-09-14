@@ -1,0 +1,42 @@
+name: Kabuto
+
+origin: legend-maker-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 60
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 140
+
+rule:
+  - type: Ability
+    name: Ancient Protection
+    text: Each of your Omanyte, Omastar, Kabuto, Kabutops, and Kabutops ex has no Weakness.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Granite Head
+    text: During your opponent's next turn, any damage done to Kabuto by attacks is reduced by 10 (after applying Weakness and Resistance).
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

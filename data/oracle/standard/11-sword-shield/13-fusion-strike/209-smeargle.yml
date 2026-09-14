@@ -1,0 +1,42 @@
+name: Smeargle
+
+origin: fusion-strike-209
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Fusion Strike
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 235
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sketching Trash
+    text: Put up to 2 Fusion Strike Trainer cards from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Tail Whap
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

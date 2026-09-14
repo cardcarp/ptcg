@@ -1,0 +1,50 @@
+name: Team Aqua's Sharpedo
+
+origin: team-magma-vs-team-aqua-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Team Aqua's Carvanha
+
+dex: 319
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 10 damage plus 10 more damage for each damage counter on Team Aqua's Sharpedo.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Aqua Slash
+    text: Team Aqua's Sharpedo can't attack during your next turn.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+rulebox:
+  - This Pokémon is both Water Darkness type.
+
+errata: []

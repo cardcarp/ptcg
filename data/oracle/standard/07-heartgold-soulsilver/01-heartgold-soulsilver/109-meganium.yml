@@ -1,0 +1,49 @@
+name: Meganium
+
+origin: heartgold-soulsilver-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Prime
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: Ability
+    name: Leaf Trans
+    text: As often as you like during your turn (before your attack), you may move a Grass Energy attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Meganium is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+      - Colorless
+    name: Solarbeam
+    damage: 80
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

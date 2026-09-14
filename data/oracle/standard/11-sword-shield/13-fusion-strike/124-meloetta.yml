@@ -1,0 +1,43 @@
+name: Meloetta
+
+origin: fusion-strike-124
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Fusion Strike
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 648
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Melodious Echo
+    text: This attack does 70 damage for each Fusion Strike Energy attached to all of your Pokémon.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

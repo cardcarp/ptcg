@@ -1,0 +1,42 @@
+name: Gligar δ
+
+origin: dragon-frontiers-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 207
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sting Turn
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and switch Gligar with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Sting
+    text: If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 10 more damage and the Defending Pokémon is now Poisoned.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

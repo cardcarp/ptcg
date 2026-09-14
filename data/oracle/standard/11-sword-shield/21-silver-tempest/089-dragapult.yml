@@ -1,0 +1,48 @@
+name: Dragapult
+
+origin: silver-tempest-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 150
+
+preevolution:
+  - Drakloak
+
+dex: 887
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Dragon Launcher
+    text: Discard a number of your Benched Dreepy up to the number of your opponent's Pokémon in play. Then, for each Dreepy you discarded in this way, choose 1 of your opponent's Pokémon and do 100 damage to it. You can't choose the same Pokémon more than once. This damage isn't affected by Weakness or Resistance.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Spooky Shot
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

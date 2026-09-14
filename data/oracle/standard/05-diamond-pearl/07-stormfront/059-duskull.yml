@@ -1,0 +1,45 @@
+name: Duskull
+
+origin: stormfront-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 355
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Silhouette
+    text: Put 1 damage counter on the Defending Pokémon. If the Defending Pokémon already has any damage counters on it, put 2 damage counters on that Pokémon instead.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Will-o'-the-wisp
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

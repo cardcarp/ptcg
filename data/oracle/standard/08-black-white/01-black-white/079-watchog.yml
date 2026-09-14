@@ -1,0 +1,45 @@
+name: Watchog
+
+origin: black-white-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Patrat
+
+dex: 505
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Confuse Ray
+    text: The Defending Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hyper Fang
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 60
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

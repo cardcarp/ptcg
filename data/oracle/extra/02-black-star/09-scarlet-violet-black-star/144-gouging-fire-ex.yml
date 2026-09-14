@@ -1,0 +1,48 @@
+name: Gouging Fire ex
+
+origin: scarlet-violet-black-star-144
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+  - Ancient
+
+type:
+  - Fire
+
+hp: 230
+
+dex: 1020
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Heat Blast
+    damage: 60
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Blaze Blitz
+    text: This Pokémon can't use Blaze Blitz again until it leaves the Active Spot.
+    damage: 260
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

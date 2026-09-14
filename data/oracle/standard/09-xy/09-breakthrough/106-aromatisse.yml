@@ -1,0 +1,48 @@
+name: Aromatisse
+
+origin: breakthrough-106
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fairy
+
+hp: 90
+
+preevolution:
+  - Spritzee
+
+dex: 683
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Heavy Perfume
+    text: Your opponent's Active Pokémon is now Confused. Put 6 damage counters instead of 3 on that Pokémon for this Special Condition.
+  - type: Attack
+    cost:
+      - Fairy
+    name: Hug
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

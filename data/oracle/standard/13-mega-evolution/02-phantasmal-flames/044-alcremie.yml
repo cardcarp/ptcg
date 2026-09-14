@@ -1,0 +1,39 @@
+name: Alcremie
+
+origin: phantasmal-flames-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Milcery
+
+dex: 869
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Sweet Circle
+    text: This attack does 20 damage for each of your Pokémon in play.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

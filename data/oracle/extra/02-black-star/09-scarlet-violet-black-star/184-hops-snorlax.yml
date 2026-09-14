@@ -1,0 +1,40 @@
+name: Hop's Snorlax
+
+origin: scarlet-violet-black-star-184
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 150
+
+dex: 143
+
+rule:
+  - type: Ability
+    name: Extra Helpings
+    text: Attacks used by your Hop's Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance). The effect of Extra Helpings doesn't stack.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Dynamic Press
+    text: This Pokémon also does 80 damage to itself.
+    damage: 140
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

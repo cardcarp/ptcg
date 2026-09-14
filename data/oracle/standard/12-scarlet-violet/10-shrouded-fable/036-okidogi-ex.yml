@@ -1,0 +1,47 @@
+name: Okidogi ex
+
+origin: shrouded-fable-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Darkness
+
+hp: 250
+
+dex: 1014
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Poisonous Musculature
+    text: Search your deck for up to 2 Basic Darkness Energy cards and attach them to this Pokémon. Then, shuffle your deck. If you attached Energy to a Pokémon in this way, this Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+      - Colorless
+    name: Chain-Crazed
+    text: If this Pokémon is Poisoned, this attack does 130 more damage.
+    damage: 130
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

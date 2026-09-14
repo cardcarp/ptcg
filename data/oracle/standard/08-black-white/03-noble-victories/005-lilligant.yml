@@ -1,0 +1,49 @@
+name: Lilligant
+
+origin: noble-victories-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 80
+
+preevolution:
+  - Petilil
+
+dex: 549
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Aromax
+    text: Heal all damage from 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Windmill
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

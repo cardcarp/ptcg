@@ -1,0 +1,46 @@
+name: Alcremie V
+
+origin: champions-path-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 869
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Sugary Sprinkles
+    text: Heal 30 damage from each of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Sweet Splash
+    text: If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.
+    damage: 100
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,47 @@
+name: White Kyurem
+
+origin: black-white-black-star-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 646
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Damage Rush
+    text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Colorless
+      - Colorless
+    name: Cold Fire
+    text: Flip a coin. If heads, this attack does 40 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

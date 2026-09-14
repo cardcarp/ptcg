@@ -1,0 +1,43 @@
+name: Scorbunny on the Ball
+
+origin: pokemon-futsal-collection-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 813
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Fiery Dribbling
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon also does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,49 @@
+name: Mewtwo
+
+origin: scarlet-violet-black-star-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 150
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reflective Barrier
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psyslash
+    text: Discard 2 Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

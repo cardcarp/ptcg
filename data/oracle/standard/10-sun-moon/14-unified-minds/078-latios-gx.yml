@@ -1,0 +1,47 @@
+name: Latios-GX
+
+origin: unified-minds-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Psychic
+
+hp: 170
+
+dex: 381
+
+rule:
+  - type: Ability
+    name: Power Bind
+    text: If you have 4 or fewer Pokémon in play, this Pokémon can't attack.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Tag Purge
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from TAG TEAM Pokémon.
+    damage: 120
+  - type: Attack
+    cost:
+      - Psychic
+    name: Clear Vision-GX
+    text: For the rest of this game, your opponent can't use any GX attacks. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

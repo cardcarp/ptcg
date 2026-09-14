@@ -1,0 +1,43 @@
+name: Cyndaquil
+
+origin: neo-genesis-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 155
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Fireworks
+    text: Flip a coin. If tails, discard 1 Energy card attached to Cyndaquil.
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

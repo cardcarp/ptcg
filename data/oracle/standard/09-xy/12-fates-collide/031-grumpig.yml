@@ -1,0 +1,44 @@
+name: Grumpig
+
+origin: fates-collide-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Spoink
+
+dex: 326
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Head Walking
+    text: Put a Basic Pokémon from your opponent's discard pile onto his or her Bench. Then, put 3 damage counters on that Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Knock Back
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

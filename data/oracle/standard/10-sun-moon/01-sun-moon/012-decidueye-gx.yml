@@ -1,0 +1,51 @@
+name: Decidueye-GX
+
+origin: sun-moon-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - GX
+
+type:
+  - Grass
+
+hp: 240
+
+preevolution:
+  - Dartrix
+
+dex: 724
+
+rule:
+  - type: Ability
+    name: Feather Arrow
+    text: Once during your turn (before your attack), you may put 2 damage counters on 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Razor Leaf
+    damage: 90
+  - type: Attack
+    cost:
+      - Grass
+    name: Hollow Hunt-GX
+    text: Put 3 cards from your discard pile into your hand. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,56 @@
+name: Genesect-GX
+
+origin: lost-thunder-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+
+type:
+  - Metal
+
+hp: 180
+
+dex: 649
+
+rule:
+  - type: Ability
+    name: Double Drive
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it. If it loses this Ability, discard Pokémon Tool cards from it until only 1 remains.
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Burst Shot
+    damage: 130
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+    name: Break Buster-GX
+    text: This attack's damage isn't affected by Resistance. (You can't use more than 1 GX attack in a game.)
+    damage: 190
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

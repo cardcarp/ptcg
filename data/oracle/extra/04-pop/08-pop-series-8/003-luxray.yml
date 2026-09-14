@@ -1,0 +1,49 @@
+name: Luxray
+
+origin: pop-series-8-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Lightning
+
+hp: 120
+
+preevolution:
+  - Luxio
+
+dex: 405
+
+rule:
+  - type: Ability
+    name: Intimidating Fang
+    text: As long as Luxray is your Active Pokémon, any damage done by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder
+    text: Flip a coin. If tails, Luxray does 40 damage to itself.
+    damage: 120
+
+weakness:
+  - type: Fighting
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

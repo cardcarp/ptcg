@@ -1,0 +1,50 @@
+name: Simisage
+
+origin: next-destinies-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Pansage
+
+dex: 512
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Collect
+    text: Draw 3 cards.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Stadium Drain
+    text: If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

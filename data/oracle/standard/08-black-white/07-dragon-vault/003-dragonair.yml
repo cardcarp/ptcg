@@ -1,0 +1,46 @@
+name: Dragonair
+
+origin: dragon-vault-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 70
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tail Whap
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Lightning
+      - Colorless
+    name: Dragon Pulse
+    text: Discard the top card of your deck.
+    damage: 70
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

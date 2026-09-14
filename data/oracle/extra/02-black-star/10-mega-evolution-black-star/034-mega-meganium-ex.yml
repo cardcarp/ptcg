@@ -1,0 +1,46 @@
+name: Mega Meganium ex
+
+origin: mega-evolution-black-star-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - MEGA
+  - ex
+
+type:
+  - Grass
+
+hp: 360
+
+preevolution:
+  - Bayleef
+
+dex: 154
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giant Bouquet
+    text: This attack does 50 more damage for each Grass Energy attached to this Pokémon.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

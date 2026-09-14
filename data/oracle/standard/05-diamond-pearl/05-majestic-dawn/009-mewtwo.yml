@@ -1,0 +1,44 @@
+name: Mewtwo
+
+origin: majestic-dawn-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 150
+
+rule:
+  - type: Attack
+    name: Energy Absorption
+    text: Search your discard pile for up to 2 Energy cards and attach them to Mewtwo.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Recover
+    text: Discard a Psychic Energy attached to Mewtwo and remove 6 damage counters from Mewtwo.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Psyburn
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

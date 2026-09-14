@@ -1,0 +1,41 @@
+name: Jynx
+
+origin: shining-legends-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 124
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Whiny Voice
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Feverish Kiss
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

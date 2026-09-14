@@ -1,0 +1,42 @@
+name: Alomomola
+
+origin: phantom-forces-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 594
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Super Deep Dive
+    text: Heal 30 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Surf
+    damage: 80
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

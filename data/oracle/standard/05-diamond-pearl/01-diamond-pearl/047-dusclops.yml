@@ -1,0 +1,50 @@
+name: Dusclops
+
+origin: diamond-pearl-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Duskull
+
+dex: 356
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Roam
+    text: Flip a coin. If heads, put 2 damage counters on each of your opponent's Pokémon. If tails, put 2 damage counters on 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Gravity Wave
+    text: Does 10 damage to each of your opponent's Benched Pokémon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 20
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,43 @@
+name: Lombre
+
+origin: celestial-storm-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: Ability
+    name: Aqua Lift
+    text: If this Pokémon has any Water Energy attached to it, it has no Retreat Cost.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

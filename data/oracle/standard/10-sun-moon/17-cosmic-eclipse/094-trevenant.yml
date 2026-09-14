@@ -1,0 +1,51 @@
+name: Trevenant
+
+origin: cosmic-eclipse-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Phantump
+
+dex: 709
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Perplexing Forest
+    text: You may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Shadow Impact
+    text: Put 4 damage counters on 1 of your Pokémon.
+    damage: 120
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

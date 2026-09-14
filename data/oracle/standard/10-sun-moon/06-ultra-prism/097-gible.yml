@@ -1,0 +1,38 @@
+name: Gible
+
+origin: ultra-prism-097
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 443
+
+rule:
+  - type: Ability
+    name: Rock Hiding
+    text: If this Pokémon has any Fighting Energy attached to it, it has no Retreat Cost.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

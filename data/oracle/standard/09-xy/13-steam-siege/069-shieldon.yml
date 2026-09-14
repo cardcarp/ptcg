@@ -1,0 +1,54 @@
+name: Shieldon
+
+origin: steam-siege-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Restored
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Armor Fossil Shieldon
+
+dex: 410
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Rock Head
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Armor Fossil Shieldon
+
+errata: []

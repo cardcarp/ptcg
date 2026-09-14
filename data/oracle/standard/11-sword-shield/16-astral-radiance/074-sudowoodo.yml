@@ -1,0 +1,39 @@
+name: Sudowoodo
+
+origin: astral-radiance-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 110
+
+dex: 185
+
+rule:
+  - type: Ability
+    name: Vamoose
+    text: If this Pokémon has any damage counters on it, it has no Retreat Cost.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Double-Edge
+    text: This Pokémon also does 30 damage to itself.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,45 @@
+name: Cacturne
+
+origin: battle-styles-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Cacnea
+
+dex: 332
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Pull
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Spiny Punch
+    text: If this Pokémon has any Darkness Energy attached, this attack does 70 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

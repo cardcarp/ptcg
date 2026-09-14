@@ -1,0 +1,48 @@
+name: Milotic
+
+origin: supreme-victors-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Feebas
+
+dex: 350
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Cleansing Ring
+    text: You may discard 2 cards from your hand. If you do, remove 4 damage counters from 1 of your Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Scale Blow
+    text: Does 90 damage minus 10 damage for each card in your hand.
+    damage: 90
+    modifier: '-'
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

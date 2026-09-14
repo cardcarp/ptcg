@@ -1,0 +1,50 @@
+name: Rabsca ex
+
+origin: destined-rivals-025
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Grass
+
+hp: 250
+
+preevolution:
+  - Rellor
+
+dex: 954
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Upside-Down Draw
+    text: Draw 3 cards from the bottom of your deck.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 90 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

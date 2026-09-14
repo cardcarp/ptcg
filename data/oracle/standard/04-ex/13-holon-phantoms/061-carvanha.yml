@@ -1,0 +1,42 @@
+name: Carvanha δ
+
+origin: holon-phantoms-061
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 318
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Reckless Charge
+    text: Flip a coin. If tails, Carvanha does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

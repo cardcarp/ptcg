@@ -1,0 +1,50 @@
+name: Golem
+
+origin: flashfire-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 150
+
+preevolution:
+  - Graveler
+
+dex: 76
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Stone Edge
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 60
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Explosion
+    text: This Pokémon does 100 damage to itself.
+    damage: 150
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

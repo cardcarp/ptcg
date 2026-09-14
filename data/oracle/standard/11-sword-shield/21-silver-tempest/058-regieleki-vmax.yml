@@ -1,0 +1,44 @@
+name: Regieleki VMAX
+
+origin: silver-tempest-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - VMAX
+
+type:
+  - Lightning
+
+hp: 310
+
+preevolution:
+  - Regieleki V
+
+dex: 894
+
+rule:
+  - type: Ability
+    name: Transistor
+    text: Your Basic Lightning Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Max Thunder and Lightning
+    text: During your next turn, this Pokémon can't attack.
+    damage: 220
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+rulebox:
+  - 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

@@ -1,0 +1,42 @@
+name: Porygon-Z G
+
+origin: arceus-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 474
+
+rule:
+  - type: Ability
+    name: Dowsing Code
+    text: Once during your turn, when you put Porygon-Z G from your hand onto your Bench, you may search your discard pile for up to 2 Pokémon Tool cards, show them to your opponent, and shuffle them into your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 20 damage plus 40 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

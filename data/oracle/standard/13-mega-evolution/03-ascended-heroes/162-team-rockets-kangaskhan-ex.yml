@@ -1,0 +1,50 @@
+name: Team Rocket's Kangaskhan ex
+
+origin: ascended-heroes-162
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Colorless
+
+hp: 230
+
+dex: 115
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Comet Punch
+    text: Flip 4 coins. This attack does 30 damage for each heads.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Wicked Impact
+    text: If you played a Supporter card that has "Team Rocket" in its name from your hand during this turn, this attack does 100 more damage.
+    damage: 120
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

@@ -1,0 +1,42 @@
+name: Tapu Koko
+
+origin: ascended-heroes-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 120
+
+dex: 785
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Fast Flight
+    text: If you go first, you can use this attack during your first turn. Discard your hand and draw 5 cards.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+      - Colorless
+    name: Thunder Blast
+    text: Discard 2 Energy from this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

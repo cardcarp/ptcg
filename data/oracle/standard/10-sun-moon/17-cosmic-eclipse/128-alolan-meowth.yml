@@ -1,0 +1,45 @@
+name: Alolan Meowth
+
+origin: cosmic-eclipse-128
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 52
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Swagger
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hook
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

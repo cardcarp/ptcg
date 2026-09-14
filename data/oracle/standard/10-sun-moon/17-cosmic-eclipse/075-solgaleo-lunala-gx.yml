@@ -1,0 +1,51 @@
+name: Solgaleo & Lunala-GX
+
+origin: cosmic-eclipse-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - TAG TEAM
+  - GX
+
+type:
+  - Psychic
+
+hp: 270
+
+dex: 791
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Cosmic Burn
+    text: This Pokémon can't use Cosmic Burn during your next turn.
+    damage: 230
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Light of the Protector-GX
+    text: If you played Lillie's Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pokémon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)
+    damage: 200
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.'
+
+errata: []

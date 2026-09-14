@@ -1,0 +1,51 @@
+name: Melmetal
+
+origin: darkness-ablaze-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Meltan
+
+dex: 809
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Energy Link
+    text: Attach an Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Heavy Impact
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

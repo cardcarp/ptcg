@@ -1,0 +1,47 @@
+name: Dark Slowking
+
+origin: team-rocket-returns-009
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: Ability
+    name: Cunning
+    text: Once during your turn (before your attack), you may look at the top card of your opponent's deck. Then, you may shuffle his or her deck. This power can't be used if Dark Slowking is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Litter
+    text: You may discard a combination of up to 2 Pokémon Tool cards and Rocket's Secret Machine cards from your hand. If you do, this attack does 20 damage plus 30 more damage for each card you discarded.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Psychic Darkness type.
+
+errata: []

@@ -1,0 +1,40 @@
+name: Magmar
+
+origin: unleashed-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 126
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Live Coal
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Magma Punch
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

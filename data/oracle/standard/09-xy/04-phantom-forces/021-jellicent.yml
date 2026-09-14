@@ -1,0 +1,46 @@
+name: Jellicent
+
+origin: phantom-forces-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Frillish
+
+dex: 593
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Meddling
+    text: Attach 3 Energy cards from your opponent's discard pile to his or her Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Ensnaring Spray
+    text: This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,51 @@
+name: Dusclops
+
+origin: burning-shadows-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Duskull
+
+dex: 356
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Night Roam
+    text: Put 1 damage counter on each Pokémon (both yours and your opponent's).
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

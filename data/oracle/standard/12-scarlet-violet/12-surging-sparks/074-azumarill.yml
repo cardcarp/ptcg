@@ -1,0 +1,44 @@
+name: Azumarill
+
+origin: surging-sparks-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Marill
+
+dex: 184
+
+rule:
+  - type: Ability
+    name: Glistening Bubbles
+    text: If you have any Tera Pokémon in play, this Pokémon can use the Double-Edge attack for Psychic.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Double-Edge
+    text: This Pokémon also does 50 damage to itself.
+    damage: 230
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

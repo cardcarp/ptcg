@@ -1,0 +1,41 @@
+name: Purrloin
+
+origin: emerging-powers-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 509
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Knock Off
+    text: Flip a coin. If heads, discard a random card from your opponent's hand.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,38 @@
+name: Vespiquen
+
+origin: lost-thunder-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Combee
+
+dex: 416
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Commanding Queen
+    text: If you have 4 or fewer Grass Pokémon on your Bench, this attack does nothing.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

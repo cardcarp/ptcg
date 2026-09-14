@@ -1,0 +1,41 @@
+name: Yamask
+
+origin: plasma-freeze-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 562
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Will-O-Wisp
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

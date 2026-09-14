@@ -1,0 +1,45 @@
+name: Kirlia
+
+origin: ruby-sapphire-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 70
+
+preevolution:
+  - Ralts
+
+dex: 281
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Removal Beam
+    text: Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Super Psy
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

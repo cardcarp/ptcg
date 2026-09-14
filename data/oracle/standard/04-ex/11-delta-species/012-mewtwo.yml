@@ -1,0 +1,45 @@
+name: Mewtwo δ
+
+origin: delta-species-012
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Fire
+  - Metal
+
+hp: 70
+
+dex: 150
+
+rule:
+  - type: Ability
+    name: Delta Switch
+    text: Once during your turn, when you put Mewtwo from your hand onto your Bench, you may move any number of basic Energy cards attached to your Pokémon to your other Pokémon (excluding Mewtwo) in any way you like.
+  - type: Attack
+    cost:
+      - Fire
+      - Metal
+    name: Energy Burst
+    text: Does 10 damage times the total amount of Energy attached to Mewtwo and the Defending Pokémon.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Fire Metal type.
+
+errata: []

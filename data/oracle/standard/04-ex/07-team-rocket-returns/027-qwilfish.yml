@@ -1,0 +1,39 @@
+name: Qwilfish
+
+origin: team-rocket-returns-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 211
+
+rule:
+  - type: Ability
+    name: Spiny
+    text: If Qwilfish is your Active Pokémon and is damaged by an opponent's attack (even if Qwilfish is Knocked Out), flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Stun Poison
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Grumpig
+
+origin: crystal-guardians-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Spoink
+
+dex: 326
+
+rule:
+  - type: Ability
+    name: Thick Fat
+    text: Any damage done to Grumpig by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Circular Steps
+    text: Does 10 damage times the number of Pokémon in play (both yours and your opponent's), excluding Grumpig.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,41 @@
+name: Grookey on the Ball
+
+origin: pokemon-futsal-collection-003
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 810
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Tenacious Defense
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Razor Leaf
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

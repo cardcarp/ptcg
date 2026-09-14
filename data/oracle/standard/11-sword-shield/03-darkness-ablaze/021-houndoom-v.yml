@@ -1,0 +1,48 @@
+name: Houndoom V
+
+origin: darkness-ablaze-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fire
+
+hp: 210
+
+dex: 229
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Vengeful Flame
+    text: If your Benched Fire Pokémon have any damage counters on them, this attack does 100 more damage.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

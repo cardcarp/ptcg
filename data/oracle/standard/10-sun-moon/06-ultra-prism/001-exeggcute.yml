@@ -1,0 +1,36 @@
+name: Exeggcute
+
+origin: ultra-prism-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 102
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Continuous Eggsplosion
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

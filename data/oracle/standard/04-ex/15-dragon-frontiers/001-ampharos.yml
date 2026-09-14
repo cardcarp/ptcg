@@ -1,0 +1,45 @@
+name: Ampharos δ
+
+origin: dragon-frontiers-001
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - Delta Species
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Flaaffy
+
+dex: 181
+
+rule:
+  - type: Ability
+    name: Holon Veil
+    text: Treat each Basic Pokémon and Evolution card in your deck, in your discard pile, in your hand, and in play as a Pokémon that has δ on its card.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Delta Circle
+    text: Does 20 damage plus 10 more damage for each Pokémon you have in play that has δ on its card.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

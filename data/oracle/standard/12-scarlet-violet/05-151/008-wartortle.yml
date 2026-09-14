@@ -1,0 +1,43 @@
+name: Wartortle
+
+origin: 151-008
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Squirtle
+
+dex: 8
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Free Diving
+    text: Put up to 3 Basic Water Energy cards from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Spinning Attack
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

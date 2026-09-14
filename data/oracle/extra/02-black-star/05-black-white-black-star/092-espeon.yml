@@ -1,0 +1,43 @@
+name: Espeon
+
+origin: black-white-black-star-092
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: Ability
+    name: Solar Revelation
+    text: Prevent all effects of your opponent's attacks, except damage, done to each of your Pokémon that has any Energy attached to it.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psy Report
+    text: Your opponent reveals his or her hand.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

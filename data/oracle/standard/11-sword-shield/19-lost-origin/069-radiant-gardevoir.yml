@@ -1,0 +1,45 @@
+name: Radiant Gardevoir
+
+origin: lost-origin-069
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Radiant
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 282
+
+rule:
+  - type: Ability
+    name: Loving Veil
+    text: All of your Pokémon take 20 less damage from attacks from your opponent's Pokémon V (after applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+
+errata: []

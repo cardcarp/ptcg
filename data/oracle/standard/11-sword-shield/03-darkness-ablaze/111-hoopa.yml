@@ -1,0 +1,35 @@
+name: Hoopa
+
+origin: darkness-ablaze-111
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 120
+
+dex: 720
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Assault Gate
+    text: If this Pokémon didn't move from the Bench to the Active Spot this turn, this attack does nothing. This attack's damage isn't affected by Weakness.
+    damage: 90
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

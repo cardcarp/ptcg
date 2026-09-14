@@ -1,0 +1,36 @@
+name: Litten
+
+origin: mega-evolution-black-star-044
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 725
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Fire Fang
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Floatzel
+
+origin: obsidian-flames-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Buizel
+
+dex: 419
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Swirling Tail
+    text: Flip a coin. If heads, put your opponent's Active Pokémon and all attached cards into your opponent's hand.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Waterfall
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

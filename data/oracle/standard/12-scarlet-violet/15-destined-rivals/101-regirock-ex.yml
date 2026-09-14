@@ -1,0 +1,48 @@
+name: Regirock ex
+
+origin: destined-rivals-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - ex
+
+type:
+  - Fighting
+
+hp: 230
+
+dex: 377
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Regi Charge
+    text: Attach up to 2 Basic Fighting Energy cards from your discard pile to this Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giant Rock
+    text: If your opponent's Active Pokémon is a Stage 2 Pokémon, this attack does 140 more damage.
+    damage: 140
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

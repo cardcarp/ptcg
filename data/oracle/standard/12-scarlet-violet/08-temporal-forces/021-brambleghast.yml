@@ -1,0 +1,44 @@
+name: Brambleghast
+
+origin: temporal-forces-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 100
+
+preevolution:
+  - Bramblin
+
+dex: 947
+
+rule:
+  - type: Ability
+    name: Resilient Soul
+    text: This Pokémon gets +50 HP for each Prize card your opponent has taken.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Powerful Needles
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

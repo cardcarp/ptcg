@@ -1,0 +1,36 @@
+name: Morpeko
+
+origin: sword-shield-078
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 90
+
+dex: 877
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Attack the Wound
+    text: If your opponent's Active Pokémon already has any damage counters on it, this attack does 50 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

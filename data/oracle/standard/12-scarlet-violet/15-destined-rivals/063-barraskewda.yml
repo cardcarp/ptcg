@@ -1,0 +1,44 @@
+name: Barraskewda
+
+origin: destined-rivals-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 130
+
+preevolution:
+  - Arrokuda
+
+dex: 847
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Sharp Fin
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Dive
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

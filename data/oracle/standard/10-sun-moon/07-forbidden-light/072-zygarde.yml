@@ -1,0 +1,45 @@
+name: Zygarde
+
+origin: forbidden-light-072
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 130
+
+dex: 718
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Glare
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Calm Strike
+    text: If you have used your GX attack, this attack does 60 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

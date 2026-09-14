@@ -1,0 +1,42 @@
+name: Ducklett
+
+origin: cosmic-eclipse-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 580
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Aerial Ace
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

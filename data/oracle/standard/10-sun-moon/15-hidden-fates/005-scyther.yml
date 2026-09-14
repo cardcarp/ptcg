@@ -1,0 +1,40 @@
+name: Scyther
+
+origin: hidden-fates-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 100
+
+dex: 123
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Slash
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Sharp Scythe
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

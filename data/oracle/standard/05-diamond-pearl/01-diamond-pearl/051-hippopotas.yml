@@ -1,0 +1,45 @@
+name: Hippopotas
+
+origin: diamond-pearl-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 60
+
+dex: 449
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Yawn
+    text: The Defending Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sand Attack
+    text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,49 @@
+name: Black Kyurem-EX
+
+origin: plasma-storm-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - EX
+
+type:
+  - Dragon
+
+hp: 180
+
+dex: 646
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Slash
+    damage: 60
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Lightning
+      - Colorless
+    name: Black Ballista
+    text: Discard 3 Energy attached to this Pokémon.
+    damage: 200
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

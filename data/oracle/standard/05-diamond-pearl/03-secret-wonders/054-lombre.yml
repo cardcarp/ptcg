@@ -1,0 +1,46 @@
+name: Lombre
+
+origin: secret-wonders-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 70
+
+preevolution:
+  - Lotad
+
+dex: 271
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Torment
+    text: Flip a coin. If heads, your opponent can't play any Supporter cards from his or her hand during his or her next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Absorb
+    text: Remove 2 damage counters from Lombre.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

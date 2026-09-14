@@ -1,0 +1,50 @@
+name: Dratini δ
+
+origin: delta-species-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Delta Species
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 147
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hook
+    damage: 10
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder Jolt
+    text: Flip a coin. If tails, Dratini does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Colorless
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

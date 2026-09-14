@@ -1,0 +1,45 @@
+name: Pelipper
+
+origin: journey-together-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 120
+
+dex: 279
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Spit Up
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Speed Dive
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

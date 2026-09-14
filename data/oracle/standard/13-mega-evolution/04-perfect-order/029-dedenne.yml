@@ -1,0 +1,41 @@
+name: Dedenne
+
+origin: perfect-order-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 702
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Tail Generator
+    text: Choose Basic Lightning Energy cards from your discard pile up to the amount of Energy attached to all of your opponent's Pokémon and attach them to your Lightning Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Thunder Shock
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

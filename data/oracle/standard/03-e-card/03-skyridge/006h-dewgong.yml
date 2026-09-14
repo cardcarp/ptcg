@@ -1,0 +1,49 @@
+name: Dewgong
+
+origin: skyridge-006h
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Seel
+
+dex: 87
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Freeze Lock
+    text: Flip a coin. If heads, your opponent can't attach Energy cards from his or her hand to his or her Active Pokémon during his or her next turn.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+      - Colorless
+    name: Crushing Ice
+    text: This attack does 40 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost. Damage is calculated using the Defending Pokémon's Retreat Cost after applying effects to the Retreat Cost.
+    damage: 40
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

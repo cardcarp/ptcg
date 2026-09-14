@@ -1,0 +1,47 @@
+name: Ho-oh
+
+origin: skyridge-149
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 250
+
+rule:
+  - type: Ability
+    name: Crystal Type
+    text: Whenever you attach a Fire, Water, or Lightning basic Energy card from your hand to Ho-oh, Ho-oh's type (color) becomes the same as that type of Energy until the end of the turn.
+  - type: Attack
+    cost:
+      - Fire
+      - Lightning
+    name: Holy Flame
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+      - Water
+      - Colorless
+    name: Scalding Steam
+    text: Discard an Energy card attached to Ho-oh and flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

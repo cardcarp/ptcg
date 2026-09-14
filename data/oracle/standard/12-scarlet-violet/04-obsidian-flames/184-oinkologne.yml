@@ -1,0 +1,46 @@
+name: Oinkologne
+
+origin: obsidian-flames-184
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Lechonk
+
+dex: 916
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Finest Selection
+    text: Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Perfume Press
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

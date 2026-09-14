@@ -1,0 +1,46 @@
+name: Scraggy
+
+origin: next-destinies-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 70
+
+dex: 559
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Shed Skin
+    text: Heal 40 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Lunge
+    text: Flip a coin. If tails, this attack does nothing.
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

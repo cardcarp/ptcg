@@ -1,0 +1,39 @@
+name: Spritzee
+
+origin: perfect-order-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 682
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sweet Scent
+    text: Heal 30 damage from 1 of your Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

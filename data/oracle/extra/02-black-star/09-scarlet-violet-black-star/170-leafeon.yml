@@ -1,0 +1,43 @@
+name: Leafeon
+
+origin: scarlet-violet-black-star-170
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 120
+
+preevolution:
+  - Eevee
+
+dex: 470
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Leaflet Blessings
+    text: Attach a Basic Grass Energy card from your hand to 1 of your Benched Pokémon. If you do, heal all damage from that Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Solar Beam
+    damage: 70
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

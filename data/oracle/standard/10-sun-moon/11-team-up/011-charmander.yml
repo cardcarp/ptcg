@@ -1,0 +1,42 @@
+name: Charmander
+
+origin: team-up-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Scratch
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Reprisal
+    text: This attack does 20 damage for each damage counter on this Pokémon.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,41 @@
+name: Ponyta
+
+origin: evolutions-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 77
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Smash Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Flame Tail
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,57 @@
+name: Altaria-GX
+
+origin: dragon-majesty-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - GX
+
+type:
+  - Dragon
+
+hp: 200
+
+preevolution:
+  - Swablu
+
+dex: 334
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Bright Tone
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX.
+    damage: 50
+  - type: Attack
+    cost:
+      - Water
+      - Fairy
+      - Colorless
+    name: Sonic Edge
+    text: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+    damage: 110
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Euphoria-GX
+    text: Your opponent's Active Pokémon is now Asleep. Heal all damage from all of your Pokémon. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

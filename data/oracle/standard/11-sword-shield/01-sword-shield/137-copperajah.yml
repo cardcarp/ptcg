@@ -1,0 +1,52 @@
+name: Copperajah
+
+origin: sword-shield-137
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 190
+
+preevolution:
+  - Cufant
+
+dex: 879
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+    name: Dig Drain
+    text: Heal 30 damage from this Pokémon.
+    damage: 60
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Metal
+    name: Muscular Nose
+    text: If this Pokémon has 8 or more damage counters on it, this attack does nothing.
+    damage: 220
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 4
+
+errata: []

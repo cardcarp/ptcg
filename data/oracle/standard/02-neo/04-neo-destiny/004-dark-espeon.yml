@@ -1,0 +1,44 @@
+name: Dark Espeon
+
+origin: neo-destiny-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Eevee
+
+dex: 196
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Gouge
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psysplash
+    text: Does 10 damage to each of your opponent's Pokémon for each Energy card attached to that Pokémon. Don't apply Weakness and Resistance.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+errata: []

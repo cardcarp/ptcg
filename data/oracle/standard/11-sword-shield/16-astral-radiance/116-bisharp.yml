@@ -1,0 +1,51 @@
+name: Bisharp
+
+origin: astral-radiance-116
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 120
+
+preevolution:
+  - Pawniard
+
+dex: 625
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Vengeful Cut
+    text: This attack does 30 more damage for each damage counter on all of your Benched Pawniard.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Slicing Blade
+    damage: 90
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

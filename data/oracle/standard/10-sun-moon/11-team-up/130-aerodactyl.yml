@@ -1,0 +1,51 @@
+name: Aerodactyl
+
+origin: team-up-130
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Unidentified Fossil
+
+dex: 142
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Supersonic
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fossil Fangs
+    text: If you don't have any Pokémon-GX or Pokémon-EX on your Bench, this attack does 90 more damage.
+    damage: 90
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

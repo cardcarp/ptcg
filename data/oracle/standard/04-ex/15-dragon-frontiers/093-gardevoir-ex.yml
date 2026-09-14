@@ -1,0 +1,48 @@
+name: Gardevoir ex δ
+
+origin: dragon-frontiers-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+  - Delta Species
+
+type:
+  - Fire
+
+hp: 150
+
+preevolution:
+  - Kirlia
+
+dex: 282
+
+rule:
+  - type: Ability
+    name: Imprison
+    text: Once during your turn (before your attack), if Gardevoir ex is your Active Pokémon, you may put an Imprison marker on 1 of your opponent's Pokémon. Any Pokémon that has any Imprison markers on it can't use any Poké-Powers or Poké-Bodies. This power can't be used if Gardevoir ex is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Flame Ball
+    text: You may move a Fire Energy card attached to Gardevoir ex to 1 of your Benched Pokémon.
+    damage: 80
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

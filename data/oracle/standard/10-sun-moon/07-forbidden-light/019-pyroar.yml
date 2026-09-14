@@ -1,0 +1,44 @@
+name: Pyroar
+
+origin: forbidden-light-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Litleo
+
+dex: 668
+
+rule:
+  - type: Ability
+    name: Unnerve
+    text: Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Dominating Fangs
+    text: If Lysandre Labs is in play, this attack does 60 more damage.
+    damage: 80
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

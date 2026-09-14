@@ -1,0 +1,48 @@
+name: Nidorina
+
+origin: plasma-freeze-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Nidoran ♀
+
+dex: 30
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Poison Sting
+    text: The Defending Pokémon is now Poisoned.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Double Kick
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    damage: 40
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

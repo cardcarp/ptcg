@@ -1,0 +1,44 @@
+name: Drilbur
+
+origin: emerging-powers-054
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 529
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hone Claws
+    text: During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Fighting
+    name: Scratch
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

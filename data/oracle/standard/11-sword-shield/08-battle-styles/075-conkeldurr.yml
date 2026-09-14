@@ -1,0 +1,48 @@
+name: Conkeldurr
+
+origin: battle-styles-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 160
+
+preevolution:
+  - Gurdurr
+
+dex: 534
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Hammer Pressure
+    text: If the Defending Pokémon is an Evolution Pokémon, it can't attack during your opponent's next turn.
+    damage: 90
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mega Punch
+    damage: 150
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,36 @@
+name: Tympole
+
+origin: cosmic-eclipse-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 535
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flail Around
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

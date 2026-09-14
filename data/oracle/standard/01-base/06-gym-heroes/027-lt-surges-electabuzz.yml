@@ -1,0 +1,41 @@
+name: Lt. Surge's Electabuzz
+
+origin: gym-heroes-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 125
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Charge
+    text: Take up to 2 Lightning Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz.
+  - type: Attack
+    cost:
+      - Lightning
+      - Lightning
+    name: Electric Current
+    text: Take 1 Lightning Energy card attached to Lt. Surge's Electabuzz and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

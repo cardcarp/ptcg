@@ -1,0 +1,46 @@
+name: Gurdurr
+
+origin: dark-explorers-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 80
+
+preevolution:
+  - Timburr
+
+dex: 533
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Low Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Steel Swing
+    text: Flip 2 coins. This attack does 60 damage times the number of heads.
+    damage: 60
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

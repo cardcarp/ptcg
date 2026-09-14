@@ -1,0 +1,36 @@
+name: Lombre
+
+origin: journey-together-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 90
+
+dex: 271
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Aqua Slash
+    text: During your next turn, this Pokémon can't attack.
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

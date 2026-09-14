@@ -1,0 +1,40 @@
+name: Golett
+
+origin: cosmic-eclipse-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 90
+
+dex: 622
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Return
+    text: You may draw cards until you have 5 cards in your hand.
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

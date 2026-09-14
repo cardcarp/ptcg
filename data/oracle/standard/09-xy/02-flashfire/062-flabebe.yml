@@ -1,0 +1,39 @@
+name: Flabébé
+
+origin: flashfire-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 40
+
+dex: 669
+
+rule:
+  - type: Attack
+    cost:
+      - Fairy
+    name: Aromatherapy
+    text: Heal 10 damage from each of your Pokémon.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

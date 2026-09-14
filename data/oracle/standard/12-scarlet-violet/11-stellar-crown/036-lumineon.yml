@@ -1,0 +1,44 @@
+name: Lumineon
+
+origin: stellar-crown-036
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Finneon
+
+dex: 457
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Return
+    text: You may draw cards until you have 6 cards in your hand.
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Razor Fin
+    damage: 70
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

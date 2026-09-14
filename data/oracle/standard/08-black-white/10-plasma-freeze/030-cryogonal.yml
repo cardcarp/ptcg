@@ -1,0 +1,41 @@
+name: Cryogonal
+
+origin: plasma-freeze-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Team Plasma
+
+type:
+  - Water
+
+hp: 80
+
+dex: 615
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call Sign
+    text: Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Water
+    name: Cryofreeze
+    text: Discard an Energy attached to this Pokémon. The Defending Pokémon can't attack during your opponent's next turn.
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

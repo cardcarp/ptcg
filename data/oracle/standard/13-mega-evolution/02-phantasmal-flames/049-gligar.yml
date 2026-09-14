@@ -1,0 +1,35 @@
+name: Gligar
+
+origin: phantasmal-flames-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 207
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Poison Jab
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

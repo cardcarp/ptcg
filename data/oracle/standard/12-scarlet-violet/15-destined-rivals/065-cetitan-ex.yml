@@ -1,0 +1,49 @@
+name: Cetitan ex
+
+origin: destined-rivals-065
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Water
+
+hp: 300
+
+preevolution:
+  - Cetoddle
+
+dex: 975
+
+rule:
+  - type: Ability
+    name: Snow Camouflage
+    text: Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Crushing Press
+    text: You may discard a Stadium in play. If you do, this attack does 140 more damage.
+    damage: 140
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

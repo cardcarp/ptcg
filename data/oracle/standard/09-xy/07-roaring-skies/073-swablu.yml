@@ -1,0 +1,39 @@
+name: Swablu
+
+origin: roaring-skies-073
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 333
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bind Wound
+    text: Heal 20 damage from 1 of your Pokémon.
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

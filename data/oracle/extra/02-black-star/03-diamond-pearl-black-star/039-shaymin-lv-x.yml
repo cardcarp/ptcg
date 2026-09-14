@@ -1,0 +1,48 @@
+name: Shaymin LV.X
+
+origin: diamond-pearl-black-star-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Level-Up
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Shaymin
+
+dex: 492
+
+rule:
+  - type: Ability
+    name: Revenge Seed
+    text: If any of your Grass Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, each of Shaymin's attacks does 60 more damage to the Active Pokémon (before applying Weakness and Resistance).
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Energy Flare
+    text: You may move any number of Energy cards attached to your Pokémon to your other Pokémon in any way you like.
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+rulebox:
+  - Put this card onto your Active Shaymin. Shaymin LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+errata: []

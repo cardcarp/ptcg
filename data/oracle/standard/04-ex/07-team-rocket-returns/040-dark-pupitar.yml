@@ -1,0 +1,47 @@
+name: Dark Pupitar
+
+origin: team-rocket-returns-040
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Larvitar
+
+dex: 247
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Explosive Evolution
+    text: Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance.) Then, search your deck for a card that evolves from Dark Pupitar and put it on Dark Pupitar. (This counts as evolving Dark Pupitar.) Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Double Tackle
+    text: Does 20 damage to each Defending Pokémon.
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+rulebox:
+  - This Pokémon is both Fighting Darkness type.
+
+errata: []

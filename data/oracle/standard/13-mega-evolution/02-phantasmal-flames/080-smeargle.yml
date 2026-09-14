@@ -1,0 +1,40 @@
+name: Smeargle
+
+origin: phantasmal-flames-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 80
+
+dex: 235
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energizing Sketch
+    text: Flip 3 coins. Attach an amount of Basic Energy up to the number of heads from your discard pile to your Benched Pokémon in any way you like.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hook
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,66 @@
+name: Steelix ex
+
+origin: unseen-forces-109
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Metal
+
+hp: 150
+
+preevolution:
+  - Onix
+
+dex: 208
+
+rule:
+  - type: Ability
+    name: Poison Resistance
+    text: Steelix ex can't be Poisoned.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Metal Charge
+    text: Put 1 damage counter on Steelix ex.
+    damage: 70
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Mudslide
+    text: Discard 2 Fighting Energy attached to Steelix ex and choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 5
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

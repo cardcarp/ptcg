@@ -1,0 +1,51 @@
+name: Shadow Rider Calyrex V
+
+origin: chilling-reign-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Psychic
+
+hp: 210
+
+dex: 898
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Shadow Mist
+    text: During your opponent's next turn, they can't play any Special Energy or Stadium cards from their hand.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Astral Barrage
+    text: Choose 2 of your opponent's Pokémon and put 5 damage counters on each of them.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

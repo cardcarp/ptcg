@@ -1,0 +1,35 @@
+name: Grookey
+
+origin: mega-evolution-black-star-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 810
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Branch Poke
+    damage: 40
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

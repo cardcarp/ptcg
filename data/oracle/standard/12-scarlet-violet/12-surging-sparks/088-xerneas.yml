@@ -1,0 +1,44 @@
+name: Xerneas
+
+origin: surging-sparks-088
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 130
+
+dex: 716
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Aurora Gain
+    text: Heal 30 damage from this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Giga Impact
+    text: During your next turn, this Pokémon can't attack.
+    damage: 130
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

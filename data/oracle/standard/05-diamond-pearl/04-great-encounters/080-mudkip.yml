@@ -1,0 +1,43 @@
+name: Mudkip
+
+origin: great-encounters-080
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 258
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mud Spatter
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Endeavor
+    text: Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

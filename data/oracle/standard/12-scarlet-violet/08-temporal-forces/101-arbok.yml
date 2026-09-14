@@ -1,0 +1,43 @@
+name: Arbok
+
+origin: temporal-forces-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 130
+
+preevolution:
+  - Ekans
+
+dex: 24
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Panic Poison
+    text: Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.
+  - type: Attack
+    cost:
+      - Darkness
+      - Darkness
+    name: Darkness Fang
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

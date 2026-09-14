@@ -1,0 +1,47 @@
+name: Delphox
+
+origin: kalos-starter-set-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 140
+
+preevolution:
+  - Braixen
+
+dex: 655
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Will-O-Wisp
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Fire Blast
+    text: Discard an Energy attached to this Pokémon.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

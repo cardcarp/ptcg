@@ -1,0 +1,45 @@
+name: Carvanha
+
+origin: rising-rivals-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 40
+
+dex: 318
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Scary Face
+    text: Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Darkness
+    name: Whirlpool
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

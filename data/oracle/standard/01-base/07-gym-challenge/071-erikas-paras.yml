@@ -1,0 +1,40 @@
+name: Erika's Paras
+
+origin: gym-challenge-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 46
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Irongrip
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Poison Spore
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

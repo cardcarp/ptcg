@@ -1,0 +1,45 @@
+name: Arcanine
+
+origin: breakpoint-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 110
+
+preevolution:
+  - Growlithe
+
+dex: 59
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Flop
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Flamethrower
+    text: Discard an Energy attached to this Pokémon.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

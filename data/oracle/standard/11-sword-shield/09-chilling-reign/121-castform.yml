@@ -1,0 +1,38 @@
+name: Castform
+
+origin: chilling-reign-121
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 351
+
+rule:
+  - type: Ability
+    name: Weather Reading
+    text: If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon's attack costs.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Weather Force
+    text: Draw cards until you have 6 cards in your hand.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+errata: []

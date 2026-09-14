@@ -1,0 +1,40 @@
+name: Paldean Wooper
+
+origin: paldea-evolved-129
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 60
+
+dex: 194
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Stampede
+    damage: 10
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Playful Kick
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,35 @@
+name: Joltik
+
+origin: black-white-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 30
+
+dex: 595
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Leech Life
+    text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

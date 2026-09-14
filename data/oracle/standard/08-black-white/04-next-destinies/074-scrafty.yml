@@ -1,0 +1,52 @@
+name: Scrafty
+
+origin: next-destinies-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Rock Head
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Hammer Kick
+    text: If this Pokémon has fewer remaining HP than the Defending Pokémon, this attack does 30 more damage.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

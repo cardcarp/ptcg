@@ -1,0 +1,40 @@
+name: Chimecho
+
+origin: mysterious-treasures-022
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 358
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Call In
+    text: Draw a card. If Chingling is anywhere under Chimecho, draw 2 more cards.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Strange Bell
+    text: If the Defending Pokémon is a Basic Pokémon, that Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,34 @@
+name: Metapod
+
+origin: journey-together-002
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 11
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Harden
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks if that damage is 60 or less.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,47 @@
+name: Dedenne
+
+origin: phantom-forces-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 70
+
+dex: 702
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nuzzle
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+      - Colorless
+    name: Spiral Drain
+    text: Heal 20 damage from this Pokémon.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

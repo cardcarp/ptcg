@@ -1,0 +1,40 @@
+name: Magmortar
+
+origin: journey-together-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 467
+
+rule:
+  - type: Ability
+    name: Magma Surge
+    text: During Pokémon Checkup, put 3 more damage counters on your opponent's Burned Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Searing Flame
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Burned.
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

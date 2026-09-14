@@ -1,0 +1,40 @@
+name: Duosion
+
+origin: fates-collide-034
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Solosis
+
+dex: 578
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Double Link
+    text: If Solosis is on your Bench, this attack does 30 more damage. If Duosion is on your Bench, this attack does 60 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

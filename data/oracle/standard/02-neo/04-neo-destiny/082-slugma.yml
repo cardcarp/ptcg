@@ -1,0 +1,35 @@
+name: Slugma
+
+origin: neo-destiny-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 218
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Combustion
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

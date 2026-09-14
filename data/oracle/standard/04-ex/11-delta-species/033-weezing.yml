@@ -1,0 +1,47 @@
+name: Weezing
+
+origin: delta-species-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 70
+
+preevolution:
+  - Koffing
+
+dex: 110
+
+rule:
+  - type: Ability
+    name: Body Odor
+    text: As long as Weezing is the Active Pokémon, put 1 damage counter on each of your opponent's Pokémon that has any Poké-Bodies between turns.
+  - type: Attack
+    cost:
+      - Grass
+    name: Mist Attack
+    text: Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Sludge Whirlpool
+    damage: 50
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

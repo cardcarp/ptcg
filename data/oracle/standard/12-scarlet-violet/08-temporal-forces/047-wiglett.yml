@@ -1,0 +1,41 @@
+name: Wiglett
+
+origin: temporal-forces-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 960
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Lucky Find
+    text: Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+    name: Aqua Bomb
+    text: This Pokémon also does 20 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Carnivine
+
+origin: stellar-crown-007
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 110
+
+dex: 455
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nosh
+    text: Heal 40 damage from this Pokémon.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Loom Over
+    text: This attack does 10 less damage for each damage counter on this Pokémon.
+    damage: 130
+    modifier: '-'
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

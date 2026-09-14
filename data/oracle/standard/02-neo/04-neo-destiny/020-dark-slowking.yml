@@ -1,0 +1,42 @@
+name: Dark Slowking
+
+origin: neo-destiny-020
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 60
+
+preevolution:
+  - Slowpoke
+
+dex: 199
+
+rule:
+  - type: Ability
+    name: Cunning
+    text: Once during your turn (before your attack), you may flip a coin. If heads, look at the top card of your opponent's deck. Then, you may have your opponent shuffle his or her deck. This power can't be used if Dark Slowking is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Mind Shock
+    text: Don't apply Weakness or Resistance for this attack.
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

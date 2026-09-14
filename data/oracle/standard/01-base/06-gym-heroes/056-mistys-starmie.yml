@@ -1,0 +1,47 @@
+name: Misty's Starmie
+
+origin: gym-heroes-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Misty's Staryu
+
+dex: 121
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Gun
+    text: Does 10 damage plus 10 more damage for each Water Energy attached to Misty's Starmie but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Bubblebeam
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 30
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

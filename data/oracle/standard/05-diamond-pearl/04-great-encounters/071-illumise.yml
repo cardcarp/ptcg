@@ -1,0 +1,39 @@
+name: Illumise
+
+origin: great-encounters-071
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 70
+
+dex: 314
+
+rule:
+  - type: Ability
+    name: Scent Conduct
+    text: Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Grass Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Illumise is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Firefly Scent
+    text: If the Defending Pokémon has any Poké-Bodies, that Pokémon is now Asleep.
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

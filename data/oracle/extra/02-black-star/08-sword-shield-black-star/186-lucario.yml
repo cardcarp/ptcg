@@ -1,0 +1,43 @@
+name: Lucario
+
+origin: sword-shield-black-star-186
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 120
+
+preevolution:
+  - Riolu
+
+dex: 448
+
+rule:
+  - type: Ability
+    name: Roaring Resolve
+    text: Once during your turn, you may put 2 damage counters on this Pokémon. If you do, search your deck for a Fighting Energy card and attach it to this Pokémon. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Aura Sphere Volley
+    text: Discard all Fighting Energy from this Pokémon. This attack does 60 more damage for each card you discarded in this way.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

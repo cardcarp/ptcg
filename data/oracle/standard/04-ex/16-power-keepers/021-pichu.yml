@@ -1,0 +1,37 @@
+name: Pichu
+
+origin: power-keepers-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 172
+
+rule:
+  - type: Ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Cry for Help
+    text: Search your deck for a Lightning Pokémon (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

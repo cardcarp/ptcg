@@ -1,0 +1,45 @@
+name: Ralts
+
+origin: ancient-origins-052
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 60
+
+dex: 280
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mumble
+    damage: 10
+  - type: Attack
+    cost:
+      - Fairy
+      - Colorless
+    name: Magical Shot
+    damage: 20
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

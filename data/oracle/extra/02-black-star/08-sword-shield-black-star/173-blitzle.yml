@@ -1,0 +1,35 @@
+name: Blitzle
+
+origin: sword-shield-black-star-173
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 522
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Thunder Spear
+    text: This attack does 10 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

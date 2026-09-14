@@ -1,0 +1,36 @@
+name: Charmander
+
+origin: scarlet-violet-black-star-047
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 70
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Ember
+    text: Discard an Energy from this Pokémon.
+    damage: 40
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

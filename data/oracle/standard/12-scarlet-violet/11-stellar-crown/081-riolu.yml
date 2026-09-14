@@ -1,0 +1,35 @@
+name: Riolu
+
+origin: stellar-crown-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 70
+
+dex: 447
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Punch
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

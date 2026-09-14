@@ -1,0 +1,41 @@
+name: Alolan Dugtrio
+
+origin: lost-thunder-123
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 90
+
+preevolution:
+  - Alolan Diglett
+
+dex: 51
+
+rule:
+  - type: Attack
+    name: Digging Dash
+    text: This attack's damage isn't affected by Weakness or Resistance.
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

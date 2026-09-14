@@ -1,0 +1,52 @@
+name: Heatran
+
+origin: phantom-forces-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 130
+
+dex: 485
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+    name: Steel Drop
+    text: If there is any Stadium card in play, this attack does 40 more damage.
+    damage: 40
+    modifier: +
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+      - Colorless
+      - Colorless
+    name: Steam Blast
+    text: Discard an Energy attached to this Pokémon.
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 3
+
+errata: []

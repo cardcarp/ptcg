@@ -1,0 +1,43 @@
+name: Omastar
+
+origin: skyridge-023
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Water
+
+hp: 90
+
+preevolution:
+  - Omanyte
+
+dex: 139
+
+rule:
+  - type: Ability
+    name: Primal Stare
+    text: As long as Omastar is your Active Pokémon, your opponent can't play Basic Pokémon or Evolution cards from his or her hand to evolve his or her Active Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Spook
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 50
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,47 @@
+name: Joltik
+
+origin: phantom-forces-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 30
+
+dex: 595
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Gnaw
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Night March
+    text: This attack does 20 damage times the number of Pokémon in your discard pile that have the Night March attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Beedrill G
+
+origin: arceus-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - SP
+
+type:
+  - Grass
+
+hp: 80
+
+dex: 15
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Raid
+    text: If you played Beedrill G from your hand during this turn, this attack's base damage is 40 instead of 10.
+    damage: 10
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Fury Attack
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

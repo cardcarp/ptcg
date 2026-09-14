@@ -1,0 +1,50 @@
+name: Sharpedo
+
+origin: power-keepers-038
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 70
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Tight Jaw
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Darkness Charge
+    text: Put 1 damage counter on Sharpedo.
+    damage: 50
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 30
+    operator: '-'
+
+errata: []

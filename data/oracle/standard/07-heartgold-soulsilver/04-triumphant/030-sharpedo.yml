@@ -1,0 +1,47 @@
+name: Sharpedo
+
+origin: triumphant-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 90
+
+preevolution:
+  - Carvanha
+
+dex: 319
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Strip Bare
+    text: Flip 2 coins. If both of them are heads, your opponent discards all card from his or her hand.
+    damage: 20
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Rage
+    text: Does 50 damage plus 10 more damage for each damage counter on Sharpedo.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,46 @@
+name: Dark Machamp
+
+origin: team-rocket-010
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 70
+
+preevolution:
+  - Dark Machoke
+
+dex: 68
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Mega Punch
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Fling
+    text: Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon.
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

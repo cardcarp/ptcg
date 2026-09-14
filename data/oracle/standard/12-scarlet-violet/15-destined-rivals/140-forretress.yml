@@ -1,0 +1,53 @@
+name: Forretress
+
+origin: destined-rivals-140
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Pineco
+
+dex: 205
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Iron Shake-Up
+    text: You may move any amount of Metal Energy from your Pokémon to your other Pokémon in any way you like.
+    damage: 20
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Hurricane of Needles
+    text: Flip 4 coins. This attack does 80 damage for each heads.
+    damage: 80
+    modifier: x
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

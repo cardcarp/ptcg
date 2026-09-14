@@ -1,0 +1,41 @@
+name: Wobbuffet
+
+origin: pop-series-4-016
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 80
+
+dex: 202
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Nap
+    text: Remove 2 damage counters from Wobbuffet.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Expand
+    text: During your opponent's next turn, any damage done to Wobbuffet is reduced by 20 (after applying Weakness and Resistance).
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

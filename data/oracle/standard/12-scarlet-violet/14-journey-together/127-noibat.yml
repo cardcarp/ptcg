@@ -1,0 +1,40 @@
+name: Noibat
+
+origin: journey-together-127
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 60
+
+dex: 714
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Rapid Draw
+    text: Draw a card.
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,35 @@
+name: Charmander
+
+origin: sword-shield-black-star-232
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 4
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Tail on Fire
+    text: Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

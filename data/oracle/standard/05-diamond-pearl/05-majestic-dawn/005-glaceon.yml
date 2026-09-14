@@ -1,0 +1,46 @@
+name: Glaceon
+
+origin: majestic-dawn-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 80
+
+preevolution:
+  - Eevee
+
+dex: 471
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Snow Cloak
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Glaceon during your opponent's next turn.
+    damage: 30
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Speed Slide
+    text: This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

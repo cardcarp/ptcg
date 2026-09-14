@@ -1,0 +1,45 @@
+name: Conkeldurr
+
+origin: black-bolt-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 140
+
+preevolution:
+  - Gurdurr
+
+dex: 534
+
+rule:
+  - type: Ability
+    name: Craftsmanship
+    text: This Pokémon gets +40 HP for each Fighting Energy attached to it.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Swing Around
+    text: Flip 2 coins. This attack does 50 more damage for each heads.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

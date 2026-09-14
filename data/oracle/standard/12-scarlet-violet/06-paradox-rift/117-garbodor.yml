@@ -1,0 +1,47 @@
+name: Garbodor
+
+origin: paradox-rift-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 120
+
+preevolution:
+  - Trubbish
+
+dex: 569
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Chuck
+    text: Discard any number of Pokémon Tool cards from your hand. This attack does 50 damage for each card you discarded in this way.
+    damage: 50
+    modifier: x
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Venomous Hit
+    text: Your opponent's Active Pokémon is now Poisoned.
+    damage: 80
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

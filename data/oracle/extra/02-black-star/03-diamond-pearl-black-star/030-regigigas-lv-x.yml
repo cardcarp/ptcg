@@ -1,0 +1,47 @@
+name: Regigigas LV.X
+
+origin: diamond-pearl-black-star-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Level-Up
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Regigigas
+
+dex: 486
+
+rule:
+  - type: Ability
+    name: Sacrifice
+    text: Once during your turn (before your attack), you may choose 1 of your Pokémon in play and that Pokémon is Knocked Out. Then, search your discard pile for up to 2 basic Energy cards, attach them to Regigigas, and remove 8 damage counters from Regigigas. This power can't be used if Regigigas is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Water
+      - Fighting
+      - Metal
+      - Colorless
+    name: Giga Blaster
+    text: Discard the top card from your opponent's deck. Then, choose 1 card from your opponent's hand without looking and discard it. Regigigas can't use Giga Blaster during your next turn.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - Put this card onto your Active Regigigas. Regigigas LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.
+
+errata: []

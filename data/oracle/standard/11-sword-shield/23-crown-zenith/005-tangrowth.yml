@@ -1,0 +1,46 @@
+name: Tangrowth
+
+origin: crown-zenith-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 150
+
+preevolution:
+  - Tangela
+
+dex: 465
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Suctioning Vines
+    text: Heal 30 damage from this Pokémon.
+    damage: 50
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Hammer In
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

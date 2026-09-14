@@ -1,0 +1,45 @@
+name: Spidops
+
+origin: paldea-evolved-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 110
+
+preevolution:
+  - Tarountula
+
+dex: 918
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Entangling Trap
+    text: Shuffle each player's Active Pokémon and all attached cards into their deck. (You choose a new Active Pokémon first.)
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Grass
+    name: Hammer In
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

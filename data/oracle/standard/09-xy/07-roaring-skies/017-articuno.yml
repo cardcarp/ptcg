@@ -1,0 +1,48 @@
+name: Articuno
+
+origin: roaring-skies-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 120
+
+dex: 144
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Chilling Sigh
+    text: Your opponent's Active Pokémon is now Asleep.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Tri Edge
+    text: Flip 3 coins. This attack does 40 more damage for each heads.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

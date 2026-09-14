@@ -1,0 +1,43 @@
+name: Luxio
+
+origin: crown-zenith-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Lightning
+
+hp: 90
+
+preevolution:
+  - Shinx
+
+dex: 404
+
+rule:
+  - type: Attack
+    cost:
+      - Lightning
+    name: Shorting Spark
+    text: This attack does 90 damage to each of your opponent's Pokémon that has a Pokémon Tool attached. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Lightning
+      - Colorless
+    name: Bite
+    damage: 40
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

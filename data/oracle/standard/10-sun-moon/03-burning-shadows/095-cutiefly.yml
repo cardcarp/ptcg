@@ -1,0 +1,37 @@
+name: Cutiefly
+
+origin: burning-shadows-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 30
+
+dex: 742
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fairy Wind
+    damage: 10
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+errata: []

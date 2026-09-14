@@ -1,0 +1,49 @@
+name: Mismagius
+
+origin: sun-moon-black-star-245
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Misdreavus
+
+dex: 429
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Psybeam
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 20
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Nonahex
+    text: If your opponent's Active Pokémon has exactly 9 damage counters on it, that Pokémon is Knocked Out.
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,35 @@
+name: Koga's Ekans
+
+origin: gym-challenge-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 23
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Fast-Acting Poison
+    text: Flip 2 coins. If both are heads, the Defending Pokémon is now Confused and Poisoned.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

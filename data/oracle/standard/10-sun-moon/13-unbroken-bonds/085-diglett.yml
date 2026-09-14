@@ -1,0 +1,37 @@
+name: Diglett
+
+origin: unbroken-bonds-085
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 50
+
+dex: 50
+
+rule:
+  - type: Ability
+    name: Underground Work
+    text: If you discard this Pokémon with the effect of Giovanni's Exile, discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Hook
+    damage: 10
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

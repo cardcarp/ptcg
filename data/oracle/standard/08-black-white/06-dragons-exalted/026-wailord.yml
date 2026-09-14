@@ -1,0 +1,48 @@
+name: Wailord
+
+origin: dragons-exalted-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 200
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Water Cannon
+    text: Flip a coin. If heads, this attack does 30 damage times the amount of Water Energy attached to this Pokémon.
+    damage: 30
+    modifier: x
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Giant Wave
+    text: This Pokémon can't use Giant Wave during your next turn.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

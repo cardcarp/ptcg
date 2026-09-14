@@ -1,0 +1,44 @@
+name: Zangoose
+
+origin: emerald-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 335
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Extra Claws
+    text: If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 20 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Quick Attack
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

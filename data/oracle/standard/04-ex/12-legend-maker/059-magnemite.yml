@@ -1,0 +1,40 @@
+name: Magnemite
+
+origin: legend-maker-059
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 50
+
+dex: 81
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Magnetic Swirl
+    text: Flip a coin. If tails, this attack does nothing. If heads, discard an Energy attached to the Defending Pokémon.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

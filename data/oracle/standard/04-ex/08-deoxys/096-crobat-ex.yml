@@ -1,0 +1,59 @@
+name: Crobat ex
+
+origin: deoxys-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Grass
+
+hp: 130
+
+preevolution:
+  - Golbat
+
+dex: 169
+
+rule:
+  - type: Ability
+    name: Distortion
+    text: Once during your turn (before your attack), if Crobat ex is your Active Pokémon, you may put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Crobat ex is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Cross Attack
+    text: Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused.
+    damage: 20
+    modifier: x
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Pester
+    text: If the Defending Pokémon is affected by a Special Condition, this attack does 60 damage plus 40 more damage.
+    damage: 60
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

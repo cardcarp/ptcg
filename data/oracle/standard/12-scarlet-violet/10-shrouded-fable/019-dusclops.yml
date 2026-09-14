@@ -1,0 +1,46 @@
+name: Dusclops
+
+origin: shrouded-fable-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Duskull
+
+dex: 356
+
+rule:
+  - type: Ability
+    name: Cursed Blast
+    text: Once during your turn, you may put 5 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Will-O-Wisp
+    damage: 50
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

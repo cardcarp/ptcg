@@ -1,0 +1,42 @@
+name: Marill
+
+origin: fusion-strike-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 50
+
+dex: 183
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Aqua Liner
+    text: This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Let's All Rollout
+    text: This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

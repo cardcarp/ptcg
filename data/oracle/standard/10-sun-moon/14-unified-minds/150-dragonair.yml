@@ -1,0 +1,46 @@
+name: Dragonair
+
+origin: unified-minds-150
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 100
+
+preevolution:
+  - Dratini
+
+dex: 148
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Whap
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Lightning
+      - Colorless
+      - Colorless
+    name: Destructive Whirlpool
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 70
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

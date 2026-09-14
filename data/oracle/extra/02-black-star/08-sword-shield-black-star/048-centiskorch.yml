@@ -1,0 +1,46 @@
+name: Centiskorch
+
+origin: sword-shield-black-star-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Sizzlipede
+
+dex: 851
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Hundred Foot Flames
+    text: For each Fire Energy attached to this Pokémon, discard the top card of your opponent's deck.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Searing Flame
+    text: Your opponent's Active Pokémon is now Burned.
+    damage: 110
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

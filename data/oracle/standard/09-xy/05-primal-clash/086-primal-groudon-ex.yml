@@ -1,0 +1,47 @@
+name: Primal Groudon-EX
+
+origin: primal-clash-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Fighting
+
+hp: 240
+
+preevolution:
+  - Groudon-EX
+
+dex: 383
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Gaia Volcano
+    text: If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card.
+    damage: 100
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 4
+
+rulebox:
+  - 'Primal Reversion rule: When 1 of your Pokémon becomes Primal Groudon-EX, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

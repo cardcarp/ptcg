@@ -1,0 +1,52 @@
+name: Nihilego-GX
+
+origin: crimson-invasion-049
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - GX
+  - Ultra Beast
+
+type:
+  - Psychic
+
+hp: 180
+
+dex: 793
+
+rule:
+  - type: Ability
+    name: Empty Light
+    text: When you play this Pokémon from your hand onto your Bench during your turn, you may leave both Active Pokémon Confused and Poisoned.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Lock Up
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+    damage: 120
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Psychic
+    name: Symbiont-GX
+    text: Add the top 2 cards of your opponent's deck to their Prize cards. (You can't use more than 1 GX attack in a game.)
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - 'Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

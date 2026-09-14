@@ -1,0 +1,44 @@
+name: Dusclops
+
+origin: boundaries-crossed-062
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Duskull
+
+dex: 356
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Astonish
+    text: Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Psyshot
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,39 @@
+name: Flittle
+
+origin: scarlet-violet-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 30
+
+dex: 955
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Ram
+    damage: 10
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 0
+
+errata: []

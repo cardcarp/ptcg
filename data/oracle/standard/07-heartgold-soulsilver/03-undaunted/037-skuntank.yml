@@ -1,0 +1,50 @@
+name: Skuntank
+
+origin: undaunted-037
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 80
+
+preevolution:
+  - Stunky
+
+dex: 435
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+    name: Stun Gas
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Fury Swipes
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

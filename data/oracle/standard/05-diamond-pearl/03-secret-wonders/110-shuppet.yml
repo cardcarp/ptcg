@@ -1,0 +1,45 @@
+name: Shuppet
+
+origin: secret-wonders-110
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 50
+
+dex: 353
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Gossip
+    text: Put 1 damage counter on 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hang Down
+    damage: 20
+
+weakness:
+  - type: Darkness
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Colorless
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,48 @@
+name: Nidoqueen
+
+origin: mysterious-treasures-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Nidorina
+
+dex: 31
+
+rule:
+  - type: Ability
+    name: Mother Pheromone
+    text: The attack cost of your Nidoran ♀, Nidorina, Nidoran ♂, Nidorino, and Nidoking's attacks is Colorless less.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Give Aid
+    text: If you have the same number of or less Benched Pokémon than your opponent, this attack's base damage is 50 instead of 90.
+    damage: 90
+
+weakness:
+  - type: Psychic
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Lightning
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,36 @@
+name: Phanpy
+
+origin: silver-tempest-091
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 231
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Knock Away
+    text: Flip a coin. If heads, this attack does 20 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

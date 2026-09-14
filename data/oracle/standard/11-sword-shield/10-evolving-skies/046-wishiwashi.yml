@@ -1,0 +1,41 @@
+name: Wishiwashi
+
+origin: evolving-skies-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - Rapid Strike
+
+type:
+  - Water
+
+hp: 30
+
+dex: 746
+
+rule:
+  - type: Ability
+    name: Group Power
+    text: If this Pokémon has 3 or more Water Energy attached, it gets +150 HP.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Schooling Shot
+    text: This attack does 30 more damage for each basic Energy attached to this Pokémon.
+    damage: 30
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,44 @@
+name: Jumpluff
+
+origin: secret-wonders-011
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Skiploom
+
+dex: 189
+
+rule:
+  - type: Ability
+    name: Cotton Spore
+    text: Whenever Jumpluff would be damaged by your opponent's attack, flip a coin. If heads, prevent all damage done to Jumpluff by that attack.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+    name: Cottonweed Punch
+    text: Flip 2 coins. Choose 1 of your opponent's Pokémon. For each heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+
+weakness:
+  - type: Fire
+    delta: 30
+    operator: +
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+errata: []

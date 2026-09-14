@@ -1,0 +1,46 @@
+name: Metagross
+
+origin: celestial-storm-095
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Metal
+
+hp: 170
+
+preevolution:
+  - Metang
+
+dex: 376
+
+rule:
+  - type: Ability
+    name: Extend
+    text: As long as this Pokémon is your Active Pokémon, your turn does not end when you play Steven's Resolve.
+  - type: Attack
+    cost:
+      - Metal
+    name: Meteor Mash
+    text: During your next turn, this Pokémon's Meteor Mash attack does 60 more damage (before applying Weakness and Resistance).
+    damage: 60
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

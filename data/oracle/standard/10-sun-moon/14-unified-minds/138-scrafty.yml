@@ -1,0 +1,52 @@
+name: Scrafty
+
+origin: unified-minds-138
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Darkness
+
+hp: 110
+
+preevolution:
+  - Scraggy
+
+dex: 560
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Turf Raid
+    text: This attack does 20 more damage for each of your remaining Prize cards.
+    damage: 20
+    modifier: +
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+      - Colorless
+    name: Headbang
+    damage: 70
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

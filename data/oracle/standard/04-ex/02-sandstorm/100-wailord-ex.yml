@@ -1,0 +1,54 @@
+name: Wailord ex
+
+origin: sandstorm-100
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Water
+
+hp: 200
+
+preevolution:
+  - Wailmer
+
+dex: 321
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Super Deep Dive
+    text: If you don't have any Benched Pokémon, this attack does nothing. Remove 3 damage counters from Wailord ex. Switch Wailord ex with 1 of your Benched Pokémon.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+      - Colorless
+    name: Dwindling Wave
+    text: Does 100 damage minus 10 damage for each damage counter on Wailord ex.
+    damage: 100
+    modifier: '-'
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 5
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

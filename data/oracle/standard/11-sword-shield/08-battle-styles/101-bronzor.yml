@@ -1,0 +1,40 @@
+name: Bronzor
+
+origin: battle-styles-101
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 436
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Ram
+    damage: 30
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

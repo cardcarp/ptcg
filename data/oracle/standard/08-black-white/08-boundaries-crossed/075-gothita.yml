@@ -1,0 +1,40 @@
+name: Gothita
+
+origin: boundaries-crossed-075
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 574
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Pound
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psypunch
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

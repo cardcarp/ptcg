@@ -1,0 +1,42 @@
+name: Magcargo
+
+origin: temporal-forces-029
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 120
+
+preevolution:
+  - Slugma
+
+dex: 219
+
+rule:
+  - type: Ability
+    name: Lava Zone
+    text: Whenever your opponent's Active Pokémon moves to the Bench during their turn, their new Active Pokémon is now Burned.
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Heat Blast
+    damage: 100
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 4
+
+errata: []

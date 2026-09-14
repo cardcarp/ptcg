@@ -1,0 +1,45 @@
+name: Lycanroc
+
+origin: obsidian-flames-117
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Rockruff
+
+dex: 745
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Finishing Fang
+    text: If your opponent's Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.
+    damage: 90
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Slashing Claw
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

@@ -1,0 +1,42 @@
+name: Landorus
+
+origin: furious-fists-058
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 120
+
+dex: 645
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Shout of Power
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+    damage: 20
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Sky Lariat
+    damage: 90
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

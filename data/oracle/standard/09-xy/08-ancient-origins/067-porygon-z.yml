@@ -1,0 +1,44 @@
+name: Porygon-Z
+
+origin: ancient-origins-067
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 130
+
+preevolution:
+  - Porygon2
+
+dex: 474
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Digital Reboot
+    text: Devolve as many of your Benched Pokémon as many times as you like. Put each Evolution card removed this way into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dazzle Blast
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 50
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

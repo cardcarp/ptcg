@@ -1,0 +1,46 @@
+name: Carnivine
+
+origin: dark-explorers-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 90
+
+dex: 455
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Lure Poison
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Poisoned.
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Spit Squall
+    text: Your opponent puts the Defending Pokémon and all cards attached to it into his or her hand.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

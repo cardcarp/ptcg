@@ -1,0 +1,48 @@
+name: Dark Dugtrio
+
+origin: team-rocket-006
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 50
+
+preevolution:
+  - Diglett
+
+dex: 51
+
+rule:
+  - type: Ability
+    name: Sinkhole
+    text: Whenever your opponent's Active Pokémon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pokémon. (Don't apply Weakness and Resistance.) This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Knock Down
+    text: Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Lightning
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

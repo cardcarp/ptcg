@@ -1,0 +1,45 @@
+name: Salazzle
+
+origin: battle-styles-028
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Salandit
+
+dex: 758
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Derisive Roasting
+    text: This attack does 90 damage for each Special Condition affecting your opponent's Active Pokémon.
+    damage: 90
+    modifier: x
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

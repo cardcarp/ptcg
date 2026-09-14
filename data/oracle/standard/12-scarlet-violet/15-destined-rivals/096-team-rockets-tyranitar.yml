@@ -1,0 +1,44 @@
+name: Team Rocket's Tyranitar
+
+origin: destined-rivals-096
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fighting
+
+hp: 180
+
+preevolution:
+  - Team Rocket's Pupitar
+
+dex: 248
+
+rule:
+  - type: Ability
+    name: Sand Stream
+    text: During Pokémon Checkup, if this Pokémon is in the Active Spot, put 2 damage counters on each of your opponent's Basic Pokémon.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Demolition Tackle
+    text: Discard an Energy from your opponent's Active Pokémon.
+    damage: 180
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

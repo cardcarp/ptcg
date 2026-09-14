@@ -1,0 +1,41 @@
+name: Togetic
+
+origin: sword-shield-black-star-276
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Togepi
+
+dex: 176
+
+rule:
+  - type: Ability
+    name: Voice of Happiness
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal 30 damage from your Active Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Fairy Wind
+    damage: 30
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

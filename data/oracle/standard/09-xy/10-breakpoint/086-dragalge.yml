@@ -1,0 +1,44 @@
+name: Dragalge
+
+origin: breakpoint-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Dragon
+
+hp: 110
+
+preevolution:
+  - Skrelp
+
+dex: 691
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Severe Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns.
+  - type: Attack
+    cost:
+      - Water
+      - Psychic
+    name: Dragon Pulse
+    text: Discard the top card of your deck.
+    damage: 60
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

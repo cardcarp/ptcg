@@ -1,0 +1,48 @@
+name: Mantine
+
+origin: steam-siege-027
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 100
+
+dex: 226
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+    name: Healing Wave
+    text: Discard as many cards as you like from your hand. Heal 10 damage from this Pokémon for each card you discarded in this way.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Water
+    name: Dwindling Wave
+    text: This attack does 90 damage minus 10 damage for each damage counter on this Pokémon.
+    damage: 90
+    modifier: '-'
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

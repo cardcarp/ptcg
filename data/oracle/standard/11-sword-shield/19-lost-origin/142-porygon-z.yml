@@ -1,0 +1,45 @@
+name: Porygon-Z
+
+origin: lost-origin-142
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Colorless
+
+hp: 150
+
+preevolution:
+  - Porygon2
+
+dex: 474
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Downgrading Beam
+    text: Devolve 1 of your opponent's evolved Pokémon by removing any number of Evolution cards from it. Your opponent shuffles those cards into their deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Beam
+    damage: 130
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

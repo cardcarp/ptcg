@@ -1,0 +1,44 @@
+name: Togedemaru
+
+origin: sun-moon-trainer-kit-alolan-raichu-026
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 70
+
+dex: 777
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+  - type: Attack
+    name: Discharge
+    text: Discard all Lightning Energy from this Pokémon. This attack does 30 damage for each card you discarded in this way.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

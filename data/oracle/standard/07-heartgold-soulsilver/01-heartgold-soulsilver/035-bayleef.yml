@@ -1,0 +1,49 @@
+name: Bayleef
+
+origin: heartgold-soulsilver-035
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Chikorita
+
+dex: 153
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Hammer In
+    damage: 20
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+      - Colorless
+    name: Razor Leaf
+    damage: 50
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Water
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

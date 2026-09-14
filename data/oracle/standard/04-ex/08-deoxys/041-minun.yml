@@ -1,0 +1,39 @@
+name: Minun
+
+origin: deoxys-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 312
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sniff Out
+    text: Put any 1 card from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Negative Spark
+    text: Does 20 damage to each of your opponent's Pokémon that has any Poké-Bodies. Don't apply Weakness and Resistance.
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

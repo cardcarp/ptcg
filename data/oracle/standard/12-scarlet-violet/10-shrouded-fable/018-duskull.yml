@@ -1,0 +1,45 @@
+name: Duskull
+
+origin: shrouded-fable-018
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 355
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Come and Get You
+    text: Put up to 3 Duskull from your discard pile onto your Bench.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+    name: Mumble
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

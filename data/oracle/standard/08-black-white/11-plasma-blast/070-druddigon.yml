@@ -1,0 +1,43 @@
+name: Druddigon
+
+origin: plasma-blast-070
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 100
+
+dex: 621
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Big Swing
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+    damage: 40
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Shred
+    text: This attack's damage isn't affected by any effects on the Defending Pokémon.
+    damage: 60
+
+weakness:
+  - type: Dragon
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

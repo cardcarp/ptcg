@@ -1,0 +1,39 @@
+name: Aromatisse
+
+origin: prismatic-evolutions-039
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 120
+
+preevolution:
+  - Spritzee
+
+dex: 683
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Perfume Press
+    text: Your opponent's Active Pokémon is now Confused.
+    damage: 60
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

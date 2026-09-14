@@ -1,0 +1,45 @@
+name: Blaine's Charmeleon
+
+origin: gym-challenge-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 70
+
+preevolution:
+  - Blaine's Charmander
+
+dex: 5
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+    name: Fire Claws
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Bonfire
+    text: Flip 3 coins. For each heads, discard 1 Fire Energy card attached to Blaine's Charmeleon. If you can't discard Energy cards, this attack does nothing. This attack does 10 damage times the number of heads to each of your opponent's Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

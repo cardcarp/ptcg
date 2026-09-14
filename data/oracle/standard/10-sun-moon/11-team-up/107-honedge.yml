@@ -1,0 +1,39 @@
+name: Honedge
+
+origin: team-up-107
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 60
+
+dex: 679
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Cut Down
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+errata: []

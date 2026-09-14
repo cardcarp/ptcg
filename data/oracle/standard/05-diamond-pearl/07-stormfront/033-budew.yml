@@ -1,0 +1,38 @@
+name: Budew
+
+origin: stormfront-033
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 40
+
+dex: 406
+
+rule:
+  - type: Ability
+    name: Poison Enzyme
+    text: Prevent all effects of attacks, including damage, done to Budew by your opponent's Poisoned Pokémon.
+  - type: Ability
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Roselia from your hand onto Budew (this counts as evolving Budew) and remove all damage counters from Budew.
+  - type: Attack
+    name: Buddy-buddy
+    text: Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

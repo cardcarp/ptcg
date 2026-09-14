@@ -1,0 +1,38 @@
+name: Azelf
+
+origin: mysterious-treasures-004
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 60
+
+dex: 482
+
+rule:
+  - type: Ability
+    name: Downer Material
+    text: If you have Uxie and Mesprit in play, the attack cost of each of your opponent's Basic Pokémon's attacks is Colorless more. You can't use more than 1 Downer Material Poké-Body each turn.
+  - type: Attack
+    cost:
+      - Psychic
+    name: Bind Pulse
+    text: During your opponent's next turn, your opponent can't attach any Special Energy cards from his or her hand to any of his or her Pokémon.
+    damage: 10
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 1
+
+errata: []

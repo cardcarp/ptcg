@@ -1,0 +1,51 @@
+name: Probopass
+
+origin: guardians-rising-086
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Metal
+
+hp: 130
+
+preevolution:
+  - Nosepass
+
+dex: 476
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+    name: Energy Link
+    text: Attach an Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+      - Colorless
+      - Colorless
+    name: Power Gem
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 4
+
+errata: []

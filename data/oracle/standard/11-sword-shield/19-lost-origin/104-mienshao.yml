@@ -1,0 +1,45 @@
+name: Mienshao
+
+origin: lost-origin-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 90
+
+preevolution:
+  - Mienfoo
+
+dex: 620
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Pound
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Double Smash
+    text: Flip 2 coins. This attack does 70 damage for each heads.
+    damage: 70
+    modifier: x
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,45 @@
+name: Cacturne
+
+origin: platinum-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 90
+
+preevolution:
+  - Cacnea
+
+dex: 332
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Spike Wound
+    text: Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 50 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - type: Attack
+    cost:
+      - Grass
+      - Darkness
+    name: Poison Experiment
+    text: You may discard a Grass or Darkness Energy attached to Cacturne. If you discard a Grass Energy, the Defending Pokémon is now Poisoned. If you discard a Darkness Energy, the Defending Pokémon is now Paralyzed.
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

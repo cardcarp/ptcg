@@ -1,0 +1,45 @@
+name: Aron
+
+origin: legend-maker-048
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 50
+
+dex: 304
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Self Charge
+    text: Attach a Metal Energy card from your hand to Aron.
+  - type: Attack
+    cost:
+      - Metal
+      - Colorless
+    name: Headbutt
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 2
+
+errata: []

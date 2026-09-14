@@ -1,0 +1,44 @@
+name: Hisuian Arcanine
+
+origin: lost-origin-084
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 130
+
+preevolution:
+  - Hisuian Growlithe
+
+dex: 59
+
+rule:
+  - type: Attack
+    name: Very Vulnerable
+    text: If you have no cards in your hand, this attack does 150 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+      - Colorless
+    name: Sharp Fang
+    damage: 100
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

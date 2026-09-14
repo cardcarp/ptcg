@@ -1,0 +1,38 @@
+name: Dunsparce
+
+origin: skyridge-053
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 40
+
+dex: 206
+
+rule:
+  - type: Ability
+    name: Slippery Skin
+    text: As long as the Defending Pokémon is an Evolved Pokémon, Dunsparce's Retreat Cost is 0.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Tail Shake
+    text: The Defending Pokémon is now Asleep.
+    damage: 10
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

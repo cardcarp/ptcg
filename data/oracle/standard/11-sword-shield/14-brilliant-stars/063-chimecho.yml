@@ -1,0 +1,45 @@
+name: Chimecho
+
+origin: brilliant-stars-063
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 70
+
+dex: 358
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Clear Tone
+    text: Search your deck for up to 2 Special Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hang Down
+    damage: 30
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

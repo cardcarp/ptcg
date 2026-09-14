@@ -1,0 +1,41 @@
+name: Latias
+
+origin: nintendo-black-star-014
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 70
+
+dex: 380
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Super Psy
+    damage: 10
+  - type: Attack
+    cost:
+      - Fire
+      - Water
+    name: Searing Flame
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    damage: 20
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

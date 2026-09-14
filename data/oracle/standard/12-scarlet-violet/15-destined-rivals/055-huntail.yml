@@ -1,0 +1,42 @@
+name: Huntail
+
+origin: destined-rivals-055
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 110
+
+preevolution:
+  - Clamperl
+
+dex: 367
+
+rule:
+  - type: Ability
+    name: Diver's Catch
+    text: When 1 of your Water Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, you may put all Basic Water Energy attached to that Pokémon into your hand instead of the discard pile.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+      - Colorless
+    name: Wave Splash
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

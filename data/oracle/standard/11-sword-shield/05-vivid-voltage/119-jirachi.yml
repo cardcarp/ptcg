@@ -1,0 +1,44 @@
+name: Jirachi
+
+origin: vivid-voltage-119
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Metal
+
+hp: 70
+
+dex: 385
+
+rule:
+  - type: Ability
+    name: Dreamy Revelation
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card back on top of your deck.
+  - type: Attack
+    cost:
+      - Psychic
+      - Fighting
+      - Metal
+    name: Amazing Star
+    text: Search your deck for up to 7 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Grass
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

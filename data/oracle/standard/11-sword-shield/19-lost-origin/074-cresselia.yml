@@ -1,0 +1,46 @@
+name: Cresselia
+
+origin: lost-origin-074
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Psychic
+
+hp: 120
+
+dex: 488
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Moonglow Reverse
+    text: Move 2 damage counters from each of your Pokémon to 1 of your opponent's Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Lunar Blast
+    damage: 110
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

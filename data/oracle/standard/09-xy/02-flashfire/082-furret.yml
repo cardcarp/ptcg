@@ -1,0 +1,45 @@
+name: Furret
+
+origin: flashfire-082
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Colorless
+
+hp: 90
+
+preevolution:
+  - Sentret
+
+dex: 162
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Buried Treasure Hunt
+    text: Look at the top 4 cards of your deck and put 2 of them into your hand. Discard the other cards.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Slam
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    damage: 30
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

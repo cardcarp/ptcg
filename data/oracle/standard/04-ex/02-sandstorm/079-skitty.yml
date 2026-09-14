@@ -1,0 +1,41 @@
+name: Skitty
+
+origin: sandstorm-079
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Colorless
+
+hp: 50
+
+dex: 300
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Energy Catch
+    text: Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Double-edge
+    text: Skitty does 10 damage to itself.
+    damage: 30
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,39 @@
+name: Frillish
+
+origin: battle-styles-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 80
+
+dex: 592
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Recover
+    text: Discard an Energy from this Pokémon and heal all damage from it.
+  - type: Attack
+    cost:
+      - Water
+    name: Rain Splash
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

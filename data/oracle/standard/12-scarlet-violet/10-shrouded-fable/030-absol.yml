@@ -1,0 +1,36 @@
+name: Absol
+
+origin: shrouded-fable-030
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 110
+
+dex: 359
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Darkfall
+    text: If you have at least 3 Darkness Energy in play, this attack does 50 more damage.
+    damage: 20
+    modifier: +
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

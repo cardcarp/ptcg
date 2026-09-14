@@ -1,0 +1,41 @@
+name: Venonat
+
+origin: triumphant-081
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 50
+
+dex: 48
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Leech Life
+    text: Remove from Venonat the number of damage counters equal to the damage you did to the Defending Pokémon.
+    damage: 10
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

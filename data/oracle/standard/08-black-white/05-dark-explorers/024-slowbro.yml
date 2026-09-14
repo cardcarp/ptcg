@@ -1,0 +1,42 @@
+name: Slowbro
+
+origin: dark-explorers-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Water
+
+hp: 100
+
+preevolution:
+  - Slowpoke
+
+dex: 80
+
+rule:
+  - type: Ability
+    name: Airhead
+    text: If you have 2, 4, or 6 Prize Cards left, this Pokémon can't attack.
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Lazy Headbutt
+    text: This Pokémon is now Asleep.
+    damage: 80
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

@@ -1,0 +1,42 @@
+name: Keldeo
+
+origin: astral-radiance-045
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 110
+
+dex: 647
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Smash Kick
+    damage: 20
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Line Force
+    text: This attack does 20 more damage for each of your Benched Pokémon.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

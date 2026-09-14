@@ -1,0 +1,34 @@
+name: Shroomish
+
+origin: unified-minds-005
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 60
+
+dex: 285
+
+rule:
+  - type: Attack
+    cost:
+      - Grass
+    name: Poison Powder
+    text: Your opponent's Active Pokémon is now Poisoned.
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,36 @@
+name: Larvesta
+
+origin: dark-explorers-021
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 636
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Super Singe
+    text: The Defending Pokémon is now Burned.
+    damage: 10
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

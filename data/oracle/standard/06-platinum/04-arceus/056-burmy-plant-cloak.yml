@@ -1,0 +1,38 @@
+name: Burmy Plant Cloak
+
+origin: arceus-056
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Grass
+
+hp: 40
+
+dex: 412
+
+rule:
+  - type: Ability
+    name: Cloak Evolution
+    text: Burmy Plant Cloak can evolve during the turn you play it.
+  - type: Attack
+    cost:
+      - Grass
+      - Colorless
+    name: Tackle
+    damage: 20
+
+weakness:
+  - type: Fire
+    delta: 10
+    operator: +
+
+retreat: 1
+
+errata: []

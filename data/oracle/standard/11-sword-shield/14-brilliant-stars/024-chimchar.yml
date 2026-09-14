@@ -1,0 +1,35 @@
+name: Chimchar
+
+origin: brilliant-stars-024
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 50
+
+dex: 390
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Ember
+    text: Discard an Energy from this Pokémon.
+    damage: 30
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

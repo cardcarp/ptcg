@@ -1,0 +1,36 @@
+name: Bagon
+
+origin: celestial-storm-104
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 70
+
+dex: 371
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Reckless Charge
+    text: This Pokémon does 10 damage to itself.
+    damage: 40
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

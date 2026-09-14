@@ -1,0 +1,46 @@
+name: Typhlosion
+
+origin: heartgold-soulsilver-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+
+type:
+  - Fire
+
+hp: 130
+
+preevolution:
+  - Quilava
+
+dex: 157
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+    name: Magma Punch
+    damage: 50
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Colorless
+    name: Fire Spin
+    text: Discard 2 Energy attached to Typhlosion.
+    damage: 120
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

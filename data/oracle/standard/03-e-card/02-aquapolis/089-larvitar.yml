@@ -1,0 +1,41 @@
+name: Larvitar
+
+origin: aquapolis-089
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 40
+
+dex: 246
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Mountain Eater
+    text: Your opponent discards the top card from his or her deck. Then you remove a damage counter from Larvitar.
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rising Lunge
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+    damage: 10
+    modifier: +
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

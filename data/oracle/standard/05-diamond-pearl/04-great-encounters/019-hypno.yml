@@ -1,0 +1,46 @@
+name: Hypno
+
+origin: great-encounters-019
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 80
+
+preevolution:
+  - Drowzee
+
+dex: 97
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Dream Catcher
+    text: If the Defending Pokémon is Asleep, move all damage counters from Hypno to the Defending Pokémon.
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Hypnoblast
+    text: The Defending Pokémon is now Asleep.
+    damage: 60
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 2
+
+errata: []

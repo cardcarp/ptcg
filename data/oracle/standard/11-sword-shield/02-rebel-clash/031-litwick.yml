@@ -1,0 +1,34 @@
+name: Litwick
+
+origin: rebel-clash-031
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 60
+
+dex: 607
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Scorch
+    text: Your opponent's Active Pokémon is now Burned.
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

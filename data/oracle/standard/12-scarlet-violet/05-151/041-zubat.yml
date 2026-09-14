@@ -1,0 +1,42 @@
+name: Zubat
+
+origin: 151-041
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 40
+
+dex: 41
+
+rule:
+  - type: Ability
+    name: Revealing Echo
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may have your opponent reveal their hand.
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 10
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

@@ -1,0 +1,43 @@
+name: Minun
+
+origin: secret-wonders-032
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Lightning
+
+hp: 60
+
+dex: 312
+
+rule:
+  - type: Ability
+    name: Minus Charge
+    text: Once during your turn (before your attack), if any Pokémon were Knocked Out during your opponent's last turn, you may draw 2 cards. You can't use more than 1 Minus Charge Poké-Power each turn. This power can't be used if Minun is affected by a Special Condition.
+  - type: Attack
+    cost:
+      - Lightning
+    name: Tag Play -
+    text: If you have Plusle on your Bench, you may move an Energy card attached to Minun to 1 of your Benched Pokémon.
+    damage: 20
+
+weakness:
+  - type: Fighting
+    delta: 10
+    operator: +
+
+resistance:
+  - type: Metal
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

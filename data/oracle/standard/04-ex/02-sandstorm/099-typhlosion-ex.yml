@@ -1,0 +1,57 @@
+name: Typhlosion ex
+
+origin: sandstorm-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Fire
+
+hp: 160
+
+preevolution:
+  - Quilava
+
+dex: 157
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+      - Colorless
+      - Colorless
+    name: Ring of Fire
+    text: The Defending Pokémon is now Burned, and can't retreat until the end of your opponent's next turn.
+    damage: 40
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Colorless
+      - Colorless
+    name: Split Blast
+    text: Discard 1 Energy card attached to Typhlosion ex. If your opponent has more than 1 Defending Pokémon, you may do 50 damage to each of them instead.
+    damage: 100
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

@@ -1,0 +1,43 @@
+name: Reshiram
+
+origin: phantasmal-flames-017
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fire
+
+hp: 130
+
+dex: 643
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Combustion
+    damage: 30
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+      - Fire
+    name: Burning Flare
+    text: This Pokémon also does 60 damage to itself.
+    damage: 240
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

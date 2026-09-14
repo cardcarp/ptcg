@@ -1,0 +1,39 @@
+name: Regidrago
+
+origin: evolving-skies-124
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 130
+
+dex: 895
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Hammer In
+    damage: 30
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Fire
+    name: Dragon Energy
+    text: This attack does 20 less damage for each damage counter on this Pokémon.
+    damage: 240
+    modifier: '-'
+
+retreat: 3
+
+errata: []

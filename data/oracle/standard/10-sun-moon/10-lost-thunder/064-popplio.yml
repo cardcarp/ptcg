@@ -1,0 +1,36 @@
+name: Popplio
+
+origin: lost-thunder-064
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Water
+
+hp: 60
+
+dex: 728
+
+rule:
+  - type: Attack
+    cost:
+      - Water
+      - Colorless
+    name: Disarming Voice
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+    damage: 20
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

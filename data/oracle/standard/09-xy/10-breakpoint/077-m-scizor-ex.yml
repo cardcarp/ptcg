@@ -1,0 +1,49 @@
+name: M Scizor-EX
+
+origin: breakpoint-077
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - MEGA
+  - EX
+
+type:
+  - Metal
+
+hp: 220
+
+preevolution:
+  - Scizor-EX
+
+dex: 212
+
+rule:
+  - type: Attack
+    cost:
+      - Metal
+      - Metal
+    name: Iron Crusher
+    text: You may discard a Special Energy attached to your opponent's Active Pokémon or a Stadium card in play.
+    damage: 120
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 2
+
+rulebox:
+  - 'Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.'
+  - 'Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

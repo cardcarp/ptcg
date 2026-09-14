@@ -1,0 +1,42 @@
+name: Inkay
+
+origin: breakthrough-093
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Darkness
+
+hp: 50
+
+dex: 686
+
+rule:
+  - type: Attack
+    cost:
+      - Darkness
+      - Colorless
+    name: Disorderly Flip
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+    damage: 10
+    modifier: x
+
+weakness:
+  - type: Fighting
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Psychic
+    delta: 20
+    operator: '-'
+
+retreat: 1
+
+errata: []

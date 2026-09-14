@@ -1,0 +1,48 @@
+name: Walrein ex
+
+origin: power-keepers-099
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 2
+  - ex
+
+type:
+  - Water
+
+hp: 150
+
+preevolution:
+  - Sealeo
+
+dex: 365
+
+rule:
+  - type: Ability
+    name: Chilling Breath
+    text: Once during your turn, when you play Walrein ex from your hand to evolve 1 of your Pokémon, you may use this power. Your opponent can't play any Trainer cards from his or her hand during your opponent's next turn.
+  - type: Attack
+    cost:
+      - Water
+      - Water
+      - Colorless
+    name: Wreck
+    text: If there is any Stadium card in play, this attack does 70 damage plus 20 more damage. Discard that Stadium card.
+    damage: 70
+    modifier: +
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+
+errata: []

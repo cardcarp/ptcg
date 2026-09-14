@@ -1,0 +1,47 @@
+name: Exeggutor
+
+origin: 151-103
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Grass
+
+hp: 140
+
+preevolution:
+  - Exeggcute
+
+dex: 103
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Psychic
+    text: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+    damage: 30
+    modifier: +
+  - type: Attack
+    cost:
+      - Grass
+      - Grass
+      - Colorless
+    name: Hammer In
+    damage: 130
+
+weakness:
+  - type: Fire
+    delta: 2
+    operator: x
+
+retreat: 3
+
+errata: []

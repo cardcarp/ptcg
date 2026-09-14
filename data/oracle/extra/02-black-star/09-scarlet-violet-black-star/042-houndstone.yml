@@ -1,0 +1,50 @@
+name: Houndstone
+
+origin: scarlet-violet-black-star-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 130
+
+preevolution:
+  - Grevard
+
+dex: 972
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Delve
+    text: Put up to 2 Item cards from your discard pile into your hand.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Spooky Shot
+    damage: 100
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+errata: []

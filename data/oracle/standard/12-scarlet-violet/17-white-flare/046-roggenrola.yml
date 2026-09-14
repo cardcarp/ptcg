@@ -1,0 +1,40 @@
+name: Roggenrola
+
+origin: white-flare-046
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 524
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Harden
+    text: During your opponent's next turn, prevent all damage done to this Pokémon by attacks if that damage is 40 or less.
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+    name: Rolling Rocks
+    damage: 30
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

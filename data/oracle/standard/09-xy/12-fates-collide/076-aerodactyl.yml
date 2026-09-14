@@ -1,0 +1,50 @@
+name: Aerodactyl
+
+origin: fates-collide-076
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Restored
+
+type:
+  - Colorless
+
+hp: 120
+
+preevolution:
+  - Old Amber Aerodactyl
+
+dex: 142
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Bite
+    damage: 20
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Jet Draft
+    text: Discard a Special Energy attached to your opponent's Active Pokémon.
+    damage: 120
+
+weakness:
+  - type: Lightning
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 20
+    operator: '-'
+
+rulebox:
+  - Put this card onto your Bench only with the effect of Old Amber Aerodactyl
+
+errata: []

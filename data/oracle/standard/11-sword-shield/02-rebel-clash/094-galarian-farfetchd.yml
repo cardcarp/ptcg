@@ -1,0 +1,42 @@
+name: Galarian Farfetch'd
+
+origin: rebel-clash-094
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fighting
+
+hp: 80
+
+dex: 83
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Rock Smash
+    text: Flip a coin. If heads, this attack does 30 more damage.
+    damage: 10
+    modifier: +
+  - type: Attack
+    cost:
+      - Colorless
+      - Colorless
+    name: Pierce
+    damage: 30
+
+weakness:
+  - type: Psychic
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

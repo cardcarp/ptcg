@@ -1,0 +1,45 @@
+name: Kabuto
+
+origin: power-keepers-051
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fighting
+
+hp: 60
+
+preevolution:
+  - Mysterious Fossil
+
+dex: 140
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Fast Evolution
+    text: Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  - type: Attack
+    cost:
+      - Fighting
+      - Colorless
+    name: Double Scratch
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage: 20
+    modifier: x
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 2
+
+errata: []

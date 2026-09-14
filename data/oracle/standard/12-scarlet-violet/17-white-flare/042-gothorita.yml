@@ -1,0 +1,48 @@
+name: Gothorita
+
+origin: white-flare-042
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 90
+
+preevolution:
+  - Gothita
+
+dex: 575
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Fortunate Eye
+    text: Look at the top 5 cards of your opponent's deck and put them back in any order.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Psyshot
+    damage: 40
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 1
+
+errata: []

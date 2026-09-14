@@ -1,0 +1,45 @@
+name: Light Ninetales
+
+origin: neo-destiny-050
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Fire
+
+hp: 90
+
+preevolution:
+  - Vulpix
+
+dex: 38
+
+rule:
+  - type: Attack
+    cost:
+      - Fire
+    name: Guiding Flame
+    text: Put a Baby Pokémon or a Basic Pokémon card from your discard pile onto your Bench. (You can't use this attack if your Bench is full.)
+  - type: Attack
+    cost:
+      - Fire
+      - Fire
+      - Fire
+    name: Fire Blast
+    text: Discard a Fire Energy card attached to Light Ninetales in order to use this attack.
+    damage: 50
+
+weakness:
+  - type: Water
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

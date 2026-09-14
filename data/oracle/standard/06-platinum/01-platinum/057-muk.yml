@@ -1,0 +1,51 @@
+name: Muk
+
+origin: platinum-057
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+
+type:
+  - Psychic
+
+hp: 100
+
+preevolution:
+  - Grimer
+
+dex: 89
+
+rule:
+  - type: Ability
+    name: Sludge Cell
+    text: If Muk remains affected by any Special Conditions between turns, remove 2 damage counters from Muk.
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+    name: Strange Poison
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, Muk is now Poisoned.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Psychic
+      - Colorless
+    name: Strange Sludge
+    text: If Muk is Poisoned, this attack does 50 damage plus 20 more damage and the Defending Pokémon is now Confused.
+    damage: 50
+    modifier: +
+
+weakness:
+  - type: Psychic
+    delta: 20
+    operator: +
+
+retreat: 3
+
+errata: []

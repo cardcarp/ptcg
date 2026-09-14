@@ -1,0 +1,56 @@
+name: Houndstone ex
+
+origin: obsidian-flames-102
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Stage 1
+  - ex
+
+type:
+  - Psychic
+
+hp: 260
+
+preevolution:
+  - Greavard
+
+dex: 972
+
+rule:
+  - type: Attack
+    cost:
+      - Psychic
+    name: Big Bite
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+    damage: 30
+  - type: Attack
+    cost:
+      - Psychic
+      - Colorless
+      - Colorless
+    name: Last Respects
+    text: This attack does 10 more damage for each Psychic Pokémon in your discard pile.
+    damage: 160
+    modifier: +
+
+weakness:
+  - type: Darkness
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Fighting
+    delta: 30
+    operator: '-'
+
+retreat: 3
+
+rulebox:
+  - 'Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

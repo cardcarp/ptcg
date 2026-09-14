@@ -1,0 +1,47 @@
+name: Sandaconda V
+
+origin: rebel-clash-108
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+  - V
+
+type:
+  - Fighting
+
+hp: 220
+
+dex: 844
+
+rule:
+  - type: Attack
+    cost:
+      - Fighting
+    name: Sand Eater
+    text: Attach a Fighting Energy card from your discard pile to this Pokémon.
+    damage: 30
+  - type: Attack
+    cost:
+      - Fighting
+      - Fighting
+      - Colorless
+    name: Sand Breath
+    text: Discard 2 Energy from this Pokémon.
+    damage: 220
+
+weakness:
+  - type: Grass
+    delta: 2
+    operator: x
+
+retreat: 3
+
+rulebox:
+  - 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+
+errata: []

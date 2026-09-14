@@ -1,0 +1,38 @@
+name: Axew
+
+origin: unified-minds-154
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Dragon
+
+hp: 60
+
+dex: 610
+
+rule:
+  - type: Ability
+    name: Unnerve
+    text: Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon.
+  - type: Attack
+    cost:
+      - Fire
+      - Metal
+    name: Gnaw
+    damage: 20
+
+weakness:
+  - type: Fairy
+    delta: 2
+    operator: x
+
+retreat: 1
+
+errata: []

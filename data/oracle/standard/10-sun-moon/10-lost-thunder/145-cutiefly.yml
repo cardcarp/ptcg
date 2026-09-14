@@ -1,0 +1,37 @@
+name: Cutiefly
+
+origin: lost-thunder-145
+
+layout: Standard
+
+category:
+  - Pokémon
+
+trait:
+  - Basic
+
+type:
+  - Fairy
+
+hp: 30
+
+dex: 742
+
+rule:
+  - type: Attack
+    cost:
+      - Colorless
+    name: Sweet Scent
+    text: Heal 30 damage from 1 of your Pokémon.
+
+weakness:
+  - type: Metal
+    delta: 2
+    operator: x
+
+resistance:
+  - type: Darkness
+    delta: 20
+    operator: '-'
+
+errata: []
