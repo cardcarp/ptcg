@@ -3,24 +3,11 @@
 A flat-file dataset for the Pokémon Trading Card Game.
 
 <br>
-  
+
 > [!IMPORTANT]
-> Every card printing and card oracle has a dedicated file, and core game properties are populated.<br>
-> This dataset is independently maintained — it is not synchronised with any upstream API.<br>
-> Editors are actively collaborating on this data and welcome community contributions.
-
-<br>
-
-## 📊 Contents
-
-| | |
-| --- | --- |
-| Card printings | 21,184 |
-| Card oracles | 14,938 |
-| Sets | 198 |
-| Collections | 19 |
-| Decks | 188 |
-| Formats | 3 |
+> Every card printing and card oracle has its own file, and core game properties are filled in.<br>
+> This dataset is maintained by hand. It is not synced with any upstream API.<br>
+> Editors are actively working on this data and welcome community contributions.
 
 <br>
 
@@ -45,21 +32,16 @@ This repo contains only data and schemas. The build comes from [cardcarp/compile
 
 The build combines the repo's individual YAML files into flat JSON records.
 
-- `data/card/`: **Physical printings.** Properties specific to one exact card: artist, flavor text, rarity, collector number and regulation mark.<br>
-
-- `data/oracle/`: **Rules shared by every reprint.** The card's core mechanics: HP, attacks, abilities, weakness and retreat cost.<br>
-
-- `data/set/`: **Release data.** Cards take on their set's properties during the build. A set is a group of cards sharing a set mark and number sequence, *not* a retail product. One product can hold several sets ([why](CONTRIBUTING.md#-what-counts-as-a-set)).<br>
-
-- `data/collection/`: **Larger groupings.** Eras such as *Neo* or *Scarlet & Violet*, each grouping several sets.<br>
-
-- `data/format/`: **Card legality.** Rules for each format: allowed sets and regulation marks, plus bans and restrictions for specific cards.<br>
-
-- `data/deck/`: **Pre-constructed lists.** Official product decklists (Theme Decks, Battle Decks) that map card IDs to quantities. Each entry points to a *specific printing*, not just an oracle ([why](CONTRIBUTING.md#oracle-ids-vs-card-ids)).<br>
-
-- `schema/`: **Validation rules.** A strict schema for each record type, which every contribution is checked against. `schema/dataset.yml` lists the Pokémon-specific vocabulary the shared build needs.<br>
-
-- `dist/`: **Build output.** The compiled files. This folder is git-ignored, so run `cardcarp-compile` to produce it.
+| Folder | Holds |
+| --- | --- |
+| `data/card/` | **Physical printings.** Properties of one exact card: artist, flavor text, rarity, collector number and regulation mark |
+| `data/oracle/` | **Rules shared by every reprint.** HP, attacks, abilities, weakness and retreat cost |
+| `data/set/` | **Release data.** A group of cards sharing a set mark and number sequence, *not* a retail product, so one product can hold several sets ([why](CONTRIBUTING.md#-what-counts-as-a-set)) |
+| `data/collection/` | **Larger groupings.** Eras such as *Neo* or *Scarlet & Violet*, each grouping several sets |
+| `data/format/` | **Card legality.** Allowed sets and regulation marks, plus bans and restrictions for specific cards |
+| `data/deck/` | **Pre-constructed lists.** Official decklists (Theme Decks, Battle Decks). Each entry points to a *specific printing*, not just an oracle ([why](CONTRIBUTING.md#oracle-ids-vs-card-ids)) |
+| `schema/` | **Validation rules.** One schema per record type, plus `dataset.yml`, the Pokémon-specific vocabulary the shared build needs |
+| `dist/` | **Build output.** Git-ignored. Run `cardcarp-compile` to produce it |
 
 <br>
 
@@ -101,38 +83,18 @@ The [compile README](https://github.com/cardcarp/compile#-commands) covers each 
 
 <br>
 
-## 🐝 Community & Contributing
+## 🐝 Community
 
-This dataset relies on community contributions to stay accurate and up-to-date. If you spot a missing card, a typo in rules text or incorrect set data, please contribute. Start with [CONTRIBUTING](CONTRIBUTING.md).
-  
-*   **[Join Discord](https://chat.cardcarp.com):** Discuss structure and data accuracy.
+Found a missing card, a typo in rules text or wrong set data? Contributions are welcome. Start with [CONTRIBUTING](CONTRIBUTING.md).
+
+- **[Join Discord](https://chat.cardcarp.com):** discuss structure and data accuracy, or share something you've built with this data.<br>
+- **[CardCarp](https://cardcarp.com):** the web app built on this dataset.<br>
+- **[Support the project](https://patronage.cardcarp.com):** help keep the dataset maintained.
 
 <br>
 
-## 🪩 Featured Apps
+## 📜 License
 
-These projects use this dataset in production. (*If you have built an app, simulator, or tool using this data, please share on Discord!*)
+The files in this repo are released under [MIT No Attribution](LICENSE.md).
 
-*   **[CardCarp](https://cardcarp.com)**: a companion web app that showcases every card.
-
-<br>  
-  
-
-## 🍥 Support the Project
-
-If this dataset is useful to you and you'd like to help keep it updated, you can support the project here:
-
-*   **[Buy Me a Coffee Page](https://patronage.cardcarp.com)**
-
-  
-<br>    
-  
-## ⚖️ Legal Disclaimer
-
-<sub>This is an independent, community-driven project and is not affiliated with, endorsed by, sponsored by, or connected to any publisher or intellectual property owner.</sub>
-
-<sub>Card data and images are strictly for educational study, historical preservation, and personal, non-commercial use.</sub>
-
-<sub>All trademarks, copyrights, and artwork remain the exclusive property of their respective rights holders.</sub>
-
-<sub>No challenge to any intellectual property rights is intended, nor is there intent to compete with sales or commercial distributions of these intellectual properties.</sub>
+<sub>CardCarp is an independent, community-driven project. It is not affiliated with, endorsed by, or sponsored by any publisher or intellectual property owner. Card data and images are for educational study, historical preservation, and personal, non-commercial use. All trademarks, copyrights and artwork remain the property of their respective owners, and no challenge to those rights is intended.</sub>
